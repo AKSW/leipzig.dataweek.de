@@ -7,8 +7,8 @@
 Data Week in Leipzig mit den Themenschwerpunkten Intelligente Daten und Analysen (Künstliche Intelligenz, Semantic Web, Big Data, …). Neben dem MINT-Schwerpunkt der Veranstaltung sollen auch politische und gesellschaftliche Perspektiven integriert werden.
 
 ## Wo?
-Neues Rathaus
-Martin-Luther-Ring 4 - 6
+Neues Rathaus<br/>
+Martin-Luther-Ring 4 - 6<br/>
 04109 Leipzig 
 
 ## Zielgruppe?
