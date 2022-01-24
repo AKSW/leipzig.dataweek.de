@@ -16,6 +16,8 @@ Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwer
 
 Der Fokus liegt auf der Region Leipzig, Sachsen als IT-Standort und Mitteldeutschland als Metropolregion. (Inter-)nationale Audienz und Präsentator:innen sind hierbei herzlich eingeladen.
 
+## Organisator:innen
+
 ![](images/logos.png)
 
 wait for the things to come …
