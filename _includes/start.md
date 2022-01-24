@@ -22,7 +22,7 @@ Tickets werden in Kürze zur Verfügung gestellt.
 ## Sposoring
 Wir bieten verschiedene Sponsoringpakete an. Sprechen sie uns an! Wir erstellen ein personalisiertes Sponsoringpaket für Ihre Organisation oder Ihr Unternehmen. Kontaktieren Sie uns unter dataweek@infai.org.
 
-## Organisator:innen
+## Organisationsteam
 
 ![](images/logos.png)
 
