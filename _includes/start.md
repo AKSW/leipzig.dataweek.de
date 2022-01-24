@@ -12,7 +12,9 @@ Martin-Luther-Ring 4 - 6
 04109 Leipzig 
 
 ## Zielgruppe?
-Neben der Wissenschaftscommunity und Vertreter:innen der Industrie wird auch die regionale Öffentlichkeit angesprochen.
+Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert.
+
+Der Fokus liegt auf der Region Leipzig, Sachsen als IT-Standort und Mitteldeutschland als Metropolregion. (Inter-)nationale Audienz und Präsentator:innen sind hierbei herzlich eingeladen.
 
 ![](images/logos.png)
 
