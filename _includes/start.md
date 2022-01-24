@@ -1,5 +1,5 @@
 # Data Week
-<span class="subtitle">Eine mehrtägige Veranstaltung in Leipzig</span>
+<span class="subtitle">Netzwerk- und Austauschplattform zu KI und Daten in Leipzig</span>
 
 <div class="subtitle"><span class="date"> 04.07. bis 08.07.2022</span></div>
 
