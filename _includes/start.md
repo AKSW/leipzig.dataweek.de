@@ -1,7 +1,7 @@
 # Data Week
 <span class="subtitle">Eine mehrtägige Veranstaltung in Leipzig</span>
 
-<div class="subtitle"><span class="date">Sommer 2022</span></div>
+<div class="subtitle"><span class="date"> 04.07. bis 08.07.2022</span></div>
 
 ## Was?
 Data Week in Leipzig mit den Themenschwerpunkten Intelligente Daten und Analysen (Künstliche Intelligenz, Semantic Web, Big Data, …). Neben dem MINT-Schwerpunkt der Veranstaltung sollen auch politische und gesellschaftliche Perspektiven integriert werden.
