@@ -1,4 +1,4 @@
-# Data Week
+# Data Week Leipzig 2022
 <span class="subtitle">Netzwerk- und Austauschplattform zu KI und Daten in Leipzig</span>
 
 <div class="subtitle"><span class="date"> 04.07. bis 08.07.2022</span></div>
@@ -20,9 +20,7 @@ Eine neue Netzwerk- und Austauschplattform soll mit der Data Week 2022 in Leipzi
 Tickets werden in Kürze zur Verfügung gestellt.
 
 ## Sposoring
-Sprechen sie uns an! Wir erstellen ein personalisiertes Sponsoringpaket für Ihre Organisation oder Ihr Unternehmen.
-
-Kontaktieren Sie uns unter dataweek@infai.org.
+Wir bieten verschiedene Sponsoringpakete an. Sprechen sie uns an! Wir erstellen ein personalisiertes Sponsoringpaket für Ihre Organisation oder Ihr Unternehmen. Kontaktieren Sie uns unter dataweek@infai.org.
 
 ## Organisator:innen
 
