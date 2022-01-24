@@ -36,4 +36,4 @@ Wir bieten verschiedene Sponsoringpakete an. Sprechen sie uns an! Wir erstellen 
 - [DBpedia](https://www.dbpedia.org/)
 - [eccenca GmbH](https://www.eccenca.com/)
 
-[Impressum](https://infai.org/das-institut/impressum/) [Twitter](https://twitter.com/InfAI_eV) [LinkedIn] (https://www.linkedin.com/company/infai/mycompany/?viewAsMember=true)
+[Impressum](https://infai.org/das-institut/impressum/) [Twitter](https://twitter.com/InfAI_eV)
