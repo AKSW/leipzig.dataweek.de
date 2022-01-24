@@ -13,14 +13,16 @@ Neues Rathaus<br/>
 Martin-Luther-Ring 4 - 6<br/>
 04109 Leipzig 
 
-## Zielgruppe?
+## Zielgruppe
 Eine neue Netzwerk- und Austauschplattform soll mit der Data Week 2022 in Leipzig geschaffen werden. Besonderer Fokus liegt neben dem KI- und Datenschwerpunkt auch auf der Begegnung von Industrie- und Wissenschaftsvertreter:innen mit städtischen Behörden. Weiterhin werden in Workshops und Vorträgen IT-Expert:innen neueste Anwendungsfälle vorstellen. Auch möchten wir am Bildungsstandort Leipzig Studierende, Auszubildende und interessierte Bürger:innen zu einem Blick hinter die Kulissen einladen und so ein Forum für IT- und Datenbegeisterte schaffen.
+
+## Tickets
+Tickets werden in Kürze zur Verfügung gestellt.
 
 ## Organisator:innen
 
 ![](images/logos.png)
 
-wait for the things to come …
 
 *Meanwhile check out:*
 
