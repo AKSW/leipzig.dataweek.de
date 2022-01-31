@@ -19,8 +19,8 @@ Eine neue Netzwerk- und Austauschplattform soll mit der Data Week 2022 in Leipzi
 ## Tickets
 Tickets werden in Kürze zur Verfügung gestellt.
 
-## Sposoring
-Wir bieten verschiedene Sponsoringpakete an. Sprechen sie uns an! Wir erstellen ein personalisiertes Sponsoringpaket für Ihre Organisation oder Ihr Unternehmen. Kontaktieren Sie uns unter dataweek@infai.org.
+## Sponsoring
+Wir bieten verschiedene Sponsoringpakete an. Sprechen Sie uns an! Wir erstellen ein personalisiertes Sponsoringpaket für Ihre Organisation oder Ihr Unternehmen. Kontaktieren Sie uns unter [dataweek@infai.org](mailto:dataweek@infai.org).
 
 ## Organisationsteam
 
