@@ -1,0 +1,7 @@
+{% assign src = include.src %}
+{% assign alt = include.alt %}
+{% assign class = include.class %}
+{% unless class %}
+{% assign class = "" %}
+{% endunless %}
+<img src="{{ src }}" alt="{{ alt }}" class="{{ class }}"/>

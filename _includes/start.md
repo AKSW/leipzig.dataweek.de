@@ -11,7 +11,7 @@ Die Data Week vereint unter ihrem gleichnamigen Dach einzelne Veranstaltungsform
 ## Wo?
 Neues Rathaus<br/>
 Martin-Luther-Ring 4 - 6<br/>
-04109 Leipzig 
+04109 Leipzig
 
 ## Zielgruppe
 Eine neue Netzwerk- und Austauschplattform soll mit der Data Week 2022 in Leipzig geschaffen werden. Besonderer Fokus liegt neben dem KI- und Datenschwerpunkt auch auf der Begegnung von Industrie- und Wissenschaftsvertreter:innen mit städtischen Behörden. Weiterhin werden in Workshops und Vorträgen IT-Expert:innen neueste Anwendungsfälle vorstellen. Auch möchten wir am Bildungsstandort Leipzig Studierende, Auszubildende und interessierte Bürger:innen zu einem Blick hinter die Kulissen einladen und so ein Forum für IT- und Datenbegeisterte schaffen.
@@ -24,11 +24,11 @@ Wir bieten verschiedene Sponsoringpakete an. Sprechen sie uns an! Wir erstellen 
 
 ## Organisationsteam
 
-![](images/logos.png)
+{% include img.html src='images/logos.png' alt='Logos der Data Week Organisatoren. AKSW, ScaDS, DBpedia, InfAI und eccenca' class='w50' %}
 
 
 ## Schirmherrschaft
-![](images/Wa-l-4c-SL.png)
+{% include img.html src='images/Wa-l-4c-SL.png' alt='Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig' class='w50' %}
 
 *Weitere Infos zum Organisationsteam:*
 
