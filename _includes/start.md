@@ -27,8 +27,10 @@ Wir bieten verschiedene Sponsoringpakete an. Sprechen sie uns an! Wir erstellen 
 ![](images/logos.png)
 
 
-*Meanwhile check out:*
+## Schirmherrschaft
+![](images/Wa-l-4c-SL.png)
 
+*Weitere Infos zum Organisationsteam:*
 
 - [9th Leipzig Semantic Web Day (LSWT2021)](https://lswt2021.aksw.org/)
 - [ScaDS.AI – Center for Scalable Data Analytics and Artificial Intelligence](https://scads.de/)
