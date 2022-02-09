@@ -27,7 +27,7 @@ Wir bieten verschiedene Sponsoringpakete an. Sprechen Sie uns an! Wir erstellen 
 {% include img.html src='images/logos.png' alt='Logos der Data Week Organisatoren. AKSW, ScaDS, DBpedia, InfAI und eccenca' class='w50' %}
 
 
-## Schirmherrschaft
+## In Kooperation mit
 {% include img.html src='images/Wa-l-4c-SL.png' alt='Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig' class='w50' %}
 
 *Weitere Infos zum Organisationsteam:*
