@@ -6,7 +6,7 @@
 ## What is Data Week?
 Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data.
 
-The Data Week combines individual event formats in the area of research and transfer (Leipzig Semantic Web Day, DBpedia Meeting, Big Data and AI in Business Workshop), which are organized by the participating scientific and transfer institutions Institute for Applied Computer Science and ScaDS.AI Dresden/Leipzig as well as eccenca GmbH, the DBpedia Association and AKSW.
+The Data Week combines individual event formats in the area of research and transfer (Leipzig Semantic Web Day, DBpedia Meeting, Big Data and AI in Business Workshop), which are organized by the participating scientific and transfer institutions Institute for Applied Informatics and ScaDS.AI Dresden/Leipzig as well as eccenca GmbH, the DBpedia Association and AKSW.
 
 ## Where?
 Neues Rathaus/City Hall <br/>
