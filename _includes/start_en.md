@@ -1,5 +1,5 @@
 # Data Week Leipzig 2022
-<span class="subtitle">Forum for Data and AI enthusiasts in Leipzig</span>
+<span class="subtitle">Forum for Data and AI Enthusiasts in Leipzig</span>
 
 <div class="subtitle"><span class="date">July 4-8, 2022</span></div>
 
