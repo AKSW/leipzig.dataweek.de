@@ -28,8 +28,7 @@ We offer various sponsorship packages. Contact us! We will create a personalized
 
 
 ## In cooperation with
-{% include img.html src='images/Wa-l-4c-SL.png' alt='Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig' class='w50' %}
-{% include img.html src='images/CUT_Logo.png' alt='Connected Urban Twins' class='w50' %}
+{% include img.html src='images/Wa-l-4c-SL.png' alt='Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig' class='h120p padded' %}{% include img.html src='images/CUT_Logo.png' alt='Connected Urban Twins' class='h120p padded' %}
 
 *Please check further information about our team and events here:*
 
