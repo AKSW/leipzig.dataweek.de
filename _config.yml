@@ -1,0 +1,32 @@
+# Site settings
+title: Data Week
+email: dataweek@infai.org
+baseurl: ""
+url: "https://dataweek.de"
+rootResource: "<https://dataweek.de/>"
+translations:
+  de: https://dataweek.de/
+  en: https://dataweek.de/en/
+
+# Build settings
+permalink: /:year/:month/:day/:title
+timezone: Europe/Berlin
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+
+plugins:
+  - jekyll-rdf
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - src
+jekyll_rdf:
+  path: "graph.nt"
+  restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"https://dataweek.de/\") }"
+  class_template_mappings:
+    "http://xmlns.com/foaf/0.1/Document" : "page.html"

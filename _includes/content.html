@@ -1,4 +1,16 @@
+<h1>{{ rootResource | rdf_property: "rdfs:label" }}</h1>
+<span class="subtitle">{{ rootResource | rdf_property: "schema:slogan", page.language }}</span>
+
+<div class="subtitle"><span class="date">{{ rootResource | rdf_property: "schema:date", page.language }}</span></div>
+
+
+{% if page.language == 'de' %}
 {% capture start %}
 {% include start.md %}
 {% endcapture %}
+{% else %}
+{% capture start %}
+{% include start_en.md %}
+{% endcapture %}
+{% endif %}
 {{ start | markdownify }}
