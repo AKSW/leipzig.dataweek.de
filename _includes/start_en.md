@@ -1,8 +1,3 @@
-# Data Week Leipzig 2022
-<span class="subtitle">Forum for Data and AI Enthusiasts in Leipzig</span>
-
-<div class="subtitle"><span class="date">July 4-8, 2022</span></div>
-
 ## What is Data Week?
 Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data.
 
