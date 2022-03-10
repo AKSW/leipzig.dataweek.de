@@ -1,0 +1,7 @@
+---
+layout: page
+---
+{% assign rootResource = site.rootResource | rdf_get %}
+<h2>{{ rootResource | rdf_property: "rdfs:label" }}</h2>
+
+{{ content }}
