@@ -9,8 +9,16 @@
 <https://dataweek.de/> <http://schema.org/endDate> "2022-07-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://dataweek.de/> <http://schema.org/subEvent> <https://lswt2022.aksw.org/> .
 <https://dataweek.de/> <http://schema.org/subEvent> <https://d2r2-22.coypu.org/> .
-<https://d2r2-22.coypu.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://d2r2-22.coypu.org/> <http://www.w3.org/2000/01/rdf-schema#label> "International Workshop on Data-driven Resilience Research 2022" .
+<https://dataweek.de/lswt2022> <http://www.w3.org/2002/07/owl#sameAs> <https://lswt2022.aksw.org/> .
+<https://dataweek.de/lswt2022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://dataweek.de/lswt2022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/lswt2022> <http://www.w3.org/2000/01/rdf-schema#label> "Leipziger Semantic Web Tag 2022"@de .
+<https://dataweek.de/lswt2022> <http://www.w3.org/2000/01/rdf-schema#label> "Leipzig Semantic Web Day 2022"@en .
+<https://dataweek.de/lswt2022> <http://schema.org/date> "2022-07-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://dataweek.de/d2r2-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://dataweek.de/d2r2-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22> <http://www.w3.org/2000/01/rdf-schema#label> "International Workshop on Data-driven Resilience Research 2022" .
+<https://dataweek.de/d2r2-22> <http://schema.org/date> "2022-07-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/MichaelMartin> <http://purl.org/dc/terms/description> "Leiter Kompetenzzentrum @ [AKSW](http://aksw.org/)/[InfAI e.V.](https://infai.org/)" .
 <http://aksw.org/MichaelMartin> <http://schema.org/affiliation> <http://aksw.org/Group> .
 <http://aksw.org/MichaelMartin> <http://schema.org/affiliation> <https://infai.org/> .
