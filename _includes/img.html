@@ -4,4 +4,4 @@
 {%- unless class -%}
 {%- assign class = "" -%}
 {%- endunless -%}
-<img src="{{ src | relativize_url | prepend: './' }}" alt="{{ alt }}" class="{{ class }}"/>
+<img src="{{ src | relativize_url }}" alt="{{ alt }}" class="{{ class }}"/>
