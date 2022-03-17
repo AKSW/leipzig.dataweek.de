@@ -10,4 +10,8 @@ type: Event
 <span class="subtitle">{{ slogan }}</span>
 {% endif %}
 
-<div class="subtitle"><span class="date">{{ rootResource | rdf_property: "schema:date" }}</span></div>
+<div class="subtitle"><span class="date">{{ page.rdf | rdf_property: "schema:date" }}</span></div>
+
+<p>
+  {{ page.rdf | rdf_property: "dct:description", site.language }}
+</p>

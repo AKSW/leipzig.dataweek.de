@@ -7,18 +7,25 @@
 <https://dataweek.de/> <http://schema.org/date> "04.07. bis 08.07.2022"@de .
 <https://dataweek.de/> <http://schema.org/startDate> "2022-07-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://dataweek.de/> <http://schema.org/endDate> "2022-07-08"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://dataweek.de/> <http://schema.org/subEvent> <https://lswt2022.aksw.org/> .
-<https://dataweek.de/> <http://schema.org/subEvent> <https://d2r2-22.coypu.org/> .
-<https://dataweek.de/lswt2022> <http://www.w3.org/2002/07/owl#sameAs> <https://lswt2022.aksw.org/> .
-<https://dataweek.de/lswt2022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://dataweek.de/lswt2022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/lswt2022> <http://www.w3.org/2000/01/rdf-schema#label> "Leipziger Semantic Web Tag 2022"@de .
-<https://dataweek.de/lswt2022> <http://www.w3.org/2000/01/rdf-schema#label> "Leipzig Semantic Web Day 2022"@en .
-<https://dataweek.de/lswt2022> <http://schema.org/date> "2022-07-05"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://dataweek.de/d2r2-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://dataweek.de/d2r2-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/d2r2-22> <http://www.w3.org/2000/01/rdf-schema#label> "International Workshop on Data-driven Resilience Research 2022" .
-<https://dataweek.de/d2r2-22> <http://schema.org/date> "2022-07-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/lswt2022/> .
+<https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/> .
+<https://dataweek.de/lswt2022/> <http://www.w3.org/2002/07/owl#sameAs> <https://lswt2022.aksw.org/> .
+<https://dataweek.de/lswt2022/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://dataweek.de/lswt2022/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/lswt2022/> <http://www.w3.org/2000/01/rdf-schema#label> "10. Leipziger Semantic Web Tag"@de .
+<https://dataweek.de/lswt2022/> <http://www.w3.org/2000/01/rdf-schema#label> "10th Leipzig Semantic Web Day"@en .
+<https://dataweek.de/lswt2022/> <http://schema.org/date> "2022-07-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://dataweek.de/lswt2022/> <http://purl.org/dc/terms/description> "Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen.\n  Diese Schwerpunkte werden im Rahmen von Vorträgen durch ExpertenInnen aus Industrie und Wissenschaft demonstriert.\n Falls Sie weitere Fragen haben können Sie sich auch gerne an das Organisations-Team wenden."@de .
+<https://dataweek.de/lswt2022/> <http://purl.org/dc/terms/description> "Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology.\n  These emphases are demonstrated in presentations by experts from industry and science.\n If you have any further questions don't hesitate to contact the organisation team."@en .
+<https://dataweek.de/lswt2022/#CFP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://dataweek.de/lswt2022/#CFP> <http://www.w3.org/2000/01/rdf-schema#comment> "Herzlich laden wir Sie dazu ein, Ihre neuesten Entwicklungen und Ideen im Bereich semantischer Technologien in Form eines **Vortrags oder Posters** an diesem Tag vorzustellen. Vorträge aus dem Bereichen des Semantic Web, angrenzenden Themen, wie Künstliche Intelligenz, Dateninfrastrukturen und Datenmanagement, Digital Humanities, sowie Berichte aus der Anwendung sind von Belang. Neben den Vorträgen laden wir Studierende ein auf einer digitalen, interaktive Postersession ihre aktuellen Projekte und Ideen zu präsentieren. Für die beste Arbeit von Studierenden gibt es einen Best Poster Award, gestiftet von der eccenca GmbH. Gern können Sie auch weitere mögliche Interessierte zur Einreichung von Beiträgen motivieren und diesen Call weiterreichen. Bitte melden Sie sich mit einem Themenvorschlag bis zum **18. Juni 2021** bei Natanael Arndt: [arndt@infai.org](mailto:arndt@infai.org). Alle Vorträge sollten, wenn möglich, auf Englisch gehalten werden. Wir freuen uns, wenn Sie zum Gelingen des Tages beitragen möchten!"@de .
+<https://dataweek.de/lswt2022/#CFP> <http://www.w3.org/2000/01/rdf-schema#comment> "We invite you to present your recent developments and ideas in the fields of semantic technologies in a **talk or poster** at the LSWT2021. We are especially interested in the topics of the semantic web and its adjacent fields, e.g. artificial intelligence, digital humanities, data infrastructures and data management. Also talks by practitioners and reports of applications are relevant. Beside the main session we invite students to present their current projects and ideas at our digital, interactive poster session. The best student contribution will receive a best poster award, sponsored by the eccenca GmbH. Feel free to share this call with anybody who might be interested. Please send in your ideas for a presentation until **2021-06-18** to Natanael Arndt: [arndt@infai.org](mailto:arndt@infai.org). Presentations shall be held in English. We look forward to your contributions to make this event a success!"@en .
+<https://dataweek.de/lswt2022/#CFP> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Participation"@de .
+<https://dataweek.de/lswt2022/#CFP> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Participation"@en .
+<https://dataweek.de/d2r2-22/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://dataweek.de/d2r2-22/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/> <http://www.w3.org/2000/01/rdf-schema#label> "International Workshop on Data-driven Resilience Research 2022" .
+<https://dataweek.de/d2r2-22/> <http://schema.org/date> "2022-07-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://aksw.org/MichaelMartin> <http://purl.org/dc/terms/description> "Leiter Kompetenzzentrum @ [AKSW](http://aksw.org/)/[InfAI e.V.](https://infai.org/)" .
 <http://aksw.org/MichaelMartin> <http://schema.org/affiliation> <http://aksw.org/Group> .
 <http://aksw.org/MichaelMartin> <http://schema.org/affiliation> <https://infai.org/> .
