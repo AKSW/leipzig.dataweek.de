@@ -66,7 +66,8 @@
 <https://dataweek.de/bdib-22/> <http://www.w3.org/2000/01/rdf-schema#label> "5. Big Data und AI in Business Workshop"@de .
 <https://dataweek.de/bdib-22/> <http://www.w3.org/2000/01/rdf-schema#label> "5th Big Data and AI in Business Workshop"@en .
 <https://dataweek.de/bdib-22/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://dataweek.de/#JanaBendigs> .
-<https://dataweek.de/bdib-22/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#MiriamWelz> .
+<https://dataweek.de/bdib-22/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#ThomasBurghardt> .
+<https://dataweek.de/bdib-22/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://dataweek.de/#MiriamWelz> .
 <https://dataweek.de/d2r2-22/> <http://schema.org/date> "2022-07-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://dataweek.de/d2r2-22/> <http://schema.org/organizer> <https://dataweek.de/d2r2-22/#Team> .
 <https://dataweek.de/d2r2-22/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -95,6 +96,7 @@
 <https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/bdib-22/> .
 <https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/> .
 <https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/> .
+<https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/kmi-22/> .
 <https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/lswt2022/> .
 <https://dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
 <https://dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -104,6 +106,11 @@
 <https://dataweek.de/#JanaBendigs> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jana Bendigs" .
 <https://dataweek.de/#JanaBendigs> <http://xmlns.com/foaf/0.1/depiction> "/images/people/JanaBendigs.jpg" .
 <https://dataweek.de/#JanaBendigs> <http://xmlns.com/foaf/0.1/name> "Jana Bendigs" .
+<https://dataweek.de/kmi-22/> <http://schema.org/date> "2022-07-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://dataweek.de/kmi-22/> <http://schema.org/organizer> <https://dataweek.de/kmi-22/#Team> .
+<https://dataweek.de/kmi-22/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/kmi-22/> <http://www.w3.org/2000/01/rdf-schema#label> "Workshop K\u00FCnstlich und Menschlich Intelligent"@de .
+<https://dataweek.de/kmi-22/> <http://www.w3.org/2000/01/rdf-schema#label> "Workshop K\u00FCnstlich und Menschlich Intelligent"@en .
 <https://dataweek.de/lswt2022/#CFP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://dataweek.de/lswt2022/#CFP> <http://www.w3.org/2000/01/rdf-schema#comment> "Herzlich laden wir Sie dazu ein, Ihre neuesten Entwicklungen und Ideen im Bereich semantischer Technologien in Form eines **Vortrags oder Posters** an diesem Tag vorzustellen. Vortr\u00E4ge aus dem Bereichen des Semantic Web, angrenzenden Themen, wie K\u00FCnstliche Intelligenz, Dateninfrastrukturen und Datenmanagement, Digital Humanities, sowie Berichte aus der Anwendung sind von Belang. Neben den Vortr\u00E4gen laden wir Studierende ein auf einer digitalen, interaktive Postersession ihre aktuellen Projekte und Ideen zu pr\u00E4sentieren. F\u00FCr die beste Arbeit von Studierenden gibt es einen Best Poster Award, gestiftet von der eccenca GmbH. Gern k\u00F6nnen Sie auch weitere m\u00F6gliche Interessierte zur Einreichung von Beitr\u00E4gen motivieren und diesen Call weiterreichen. Bitte melden Sie sich mit einem Themenvorschlag bis zum **18. Juni 2021** bei Natanael Arndt: [arndt@infai.org](mailto:arndt@infai.org). Alle Vortr\u00E4ge sollten, wenn m\u00F6glich, auf Englisch gehalten werden. Wir freuen uns, wenn Sie zum Gelingen des Tages beitragen m\u00F6chten!"@de .
 <https://dataweek.de/lswt2022/#CFP> <http://www.w3.org/2000/01/rdf-schema#comment> "We invite you to present your recent developments and ideas in the fields of semantic technologies in a **talk or poster** at the LSWT2021. We are especially interested in the topics of the semantic web and its adjacent fields, e.g. artificial intelligence, digital humanities, data infrastructures and data management. Also talks by practitioners and reports of applications are relevant. Beside the main session we invite students to present their current projects and ideas at our digital, interactive poster session. The best student contribution will receive a best poster award, sponsored by the eccenca GmbH. Feel free to share this call with anybody who might be interested. Please send in your ideas for a presentation until **2021-06-18** to Natanael Arndt: [arndt@infai.org](mailto:arndt@infai.org). Presentations shall be held in English. We look forward to your contributions to make this event a success!"@en .
@@ -138,6 +145,11 @@
 <https://dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://aksw.org/SebastianTramp> .
 <https://dataweek.de/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam"@de .
 <https://dataweek.de/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organization Team"@en .
+<https://dataweek.de/#ThomasBurghardt> <http://schema.org/affiliation> <https://scads.ai/> .
+<https://dataweek.de/#ThomasBurghardt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#ThomasBurghardt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Thomas Burghardt" .
+<https://dataweek.de/#ThomasBurghardt> <http://xmlns.com/foaf/0.1/depiction> "/images/people/ThomasBurghardt.jpg" .
+<https://dataweek.de/#ThomasBurghardt> <http://xmlns.com/foaf/0.1/name> "Dr. Thomas Burghardt" .
 <https://dataweek.de/#VeraMeister> <http://purl.org/dc/elements/1.1/description> "Fachbereich Wirtschaft @ [TH Brandenburg](https://www.th-brandenburg.de/)" .
 <https://dataweek.de/#VeraMeister> <http://purl.org/dc/terms/description> "[Technische Hochschule Brandenburg](https://th-brandenburg.de/)"^^<file:///data/> .
 <https://dataweek.de/#VeraMeister> <http://schema.org/affiliation> <https://www.th-brandenburg.de/> .
