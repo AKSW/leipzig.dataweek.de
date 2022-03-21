@@ -1,0 +1,25 @@
+
+
+{% if site.language == 'en' %}
+<h2>The Week</h2>
+{% else %}
+<h2>Die Woche</h2>
+{% endif %}
+
+{% capture subEventQueryTpl %}
+select ?event ?date ?label {
+  ?resourceUri schema:subEvent ?event .
+  ?event schema:date ?date ;
+         rdfs:label ?label .
+  filter(langmatches(lang(?label), '?lang'))
+}
+order by ?date
+{% endcapture %}
+{% assign subEventQuery = subEventQueryTpl | replace: "?lang", site.language %}
+
+{% assign subEvents = rootResource | sparql_query: subEventQuery %}
+<dl>
+{% for row in subEvents %}
+<dd><span class="date">{{ row.date }}</span> <a href="{{ row.event.page_url | relativize_url }}"><h3 class="display-5 inline">{{ row.label }}</h3></a></dd>
+{% endfor %}
+</dl>

@@ -16,20 +16,3 @@ Tickets will be made available shortly.
 
 ## Sponsoring
 We offer various sponsorship packages. Contact us! We will create a personalized sponsorship package for your organization or company. Please contact us at [dataweek@infai.org](mailto:dataweek@infai.org).
-
-## Organization Team
-
-{% include sec_team.html %}
-
-## In cooperation with
-{% include img.html src='images/Wa-l-4c-SL.png' alt='Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig' class='h120p padded' %}{% include img.html src='images/CUT_Logo.png' alt='Connected Urban Twins' class='h120p padded' %}
-
-*Please check further information about our team and events here:*
-
-- [9th Leipzig Semantic Web Day (LSWT2021)](https://lswt2021.aksw.org/)
-- [ScaDS.AI – Center for Scalable Data Analytics and Artificial Intelligence](https://scads.de/)
-- [Agile Knowledge Engineering and Semantic Web (AKSW)](https://aksw.org/)
-- [DBpedia](https://www.dbpedia.org/)
-- [eccenca GmbH](https://www.eccenca.com/)
-
-[Impressum](https://infai.org/das-institut/impressum/) [Twitter](https://twitter.com/InfAI_eV)

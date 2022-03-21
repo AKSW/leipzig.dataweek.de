@@ -3,6 +3,10 @@
 
 <div class="subtitle"><span class="date">{{ rootResource | rdf_property: "schema:date", site.language }}</span></div>
 
+<div>
+  <a href="{{ "/en" | relativize_url }}">English</a> |
+  <a href="{{ "/" | relativize_url }}">German</a>
+</div>
 
 {% if site.language == 'en' %}
 {% capture start %}
@@ -14,3 +18,20 @@
 {% endcapture %}
 {% endif %}
 {{ start | markdownify }}
+
+{% include sec_week.html %}
+
+{% include sec_team.html %}
+
+{% if site.language == 'en' %}
+<h2>In cooperation with</h2>
+{% else %}
+<h2>In Kooperation mit</h2>
+{% endif %}
+{% include img.html src='images/Wa-l-4c-SL.png' alt='Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig' class='h120p padded' %}{% include img.html src='images/CUT_Logo.png' alt='Connected Urban Twins' class='h120p padded' %}
+
+<h2></h2>
+<p>
+<a href="https://infai.org/das-institut/impressum/">Impressum</a>
+<a href="https://twitter.com/InfAI_eV">Twitter</a>
+</p>

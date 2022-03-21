@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.6.0",
+    "css-loader": "^6.7.1",
     "jquery": "^3.6.0",
     "mini-css-extract-plugin": "^2.6.0",
     "popper.js": "^1.16.1",
@@ -18,11 +19,10 @@
     "precss": "^4.0.0",
     "sass": "^1.49.9",
     "sass-loader": "^12.6.0",
+    "style-loader": "^0.23.1",
     "webpack": "^5.70.0"
   },
   "devDependencies": {
-    "css-loader": "^2.1.1",
-    "style-loader": "^0.23.1",
     "webpack-cli": "^4.9.2"
   }
 }
