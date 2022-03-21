@@ -21,10 +21,10 @@ jobs:
     #   run: |
     #        make data-pull
     #        make git-commit-and-push
-    # - name: Provide JavaScript Dependencies 🚚
-    #   run: |
-    #        npm install
-    #        npx webpack
+    - name: Provide JavaScript Dependencies 🚚
+      run: |
+           npm install
+           npx webpack
     - name: Build Jekyll-RDF Site ⚙️ (german)
       run: |
            docker run --rm \
