@@ -19,8 +19,7 @@ We offer various sponsorship packages. Contact us! We will create a personalized
 
 ## Organization Team
 
-{% include img.html src='images/logos.png' alt='Logos der Data Week Organisatoren. AKSW, ScaDS, DBpedia, InfAI und eccenca' class='w50' %}
-
+{% include sec_team.html %}
 
 ## In cooperation with
 {% include img.html src='images/Wa-l-4c-SL.png' alt='Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig' class='h120p padded' %}{% include img.html src='images/CUT_Logo.png' alt='Connected Urban Twins' class='h120p padded' %}
