@@ -2,6 +2,6 @@
 layout: page
 ---
 {% assign rootResource = site.rootResource | rdf_get %}
-<a href="{{ rootResource.page_url | relativize_url }}"><h2>[🢀] {{ rootResource | rdf_property: "rdfs:label" }}</h2></a>
+<a href="{{ rootResource.page_url | relativize_url }}"><h2>[<] {{ rootResource | rdf_property: "rdfs:label" }}</h2></a>
 
 {{ content }}
