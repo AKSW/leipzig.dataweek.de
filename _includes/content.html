@@ -3,17 +3,10 @@
 
 <div class="subtitle"><span class="date">{{ rootResource | rdf_property: "schema:date", site.language }}</span></div>
 
-{% if site.language == 'en' %}
 <div>
-  <a href="{{ "/" | relativize_url }}">English</a> |
-  <a href="{{ "../" | relativize_url }}">German</a>
+  <a href="{{ "/en" }}">English</a> |
+  <a href="{{ "/" }}">German</a>
 </div>
-{% else %}
-<div>
-  <a href="{{ "/en" | relativize_url }}">English</a> |
-  <a href="{{ "/" | relativize_url }}">German</a>
-</div>
-{% endif %}
 
 {% if site.language == 'en' %}
 {% capture start %}
