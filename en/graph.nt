@@ -1,31 +1,15 @@
-<https://dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-<https://dataweek.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2022" .
-<https://dataweek.de/> <http://schema.org/slogan> "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de .
-<https://dataweek.de/> <http://schema.org/slogan> "Forum for Data and AI Enthusiasts in Leipzig"@en .
-<https://dataweek.de/> <http://schema.org/date> "July 4-8, 2022"@en .
-<https://dataweek.de/> <http://schema.org/date> "04.07. bis 08.07.2022"@de .
-<https://dataweek.de/> <http://schema.org/startDate> "2022-07-04"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://dataweek.de/> <http://schema.org/endDate> "2022-07-08"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/lswt2022/> .
-<https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/> .
-<https://dataweek.de/lswt2022/> <http://www.w3.org/2002/07/owl#sameAs> <https://lswt2022.aksw.org/> .
-<https://dataweek.de/lswt2022/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://dataweek.de/lswt2022/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/lswt2022/> <http://www.w3.org/2000/01/rdf-schema#label> "10. Leipziger Semantic Web Tag"@de .
-<https://dataweek.de/lswt2022/> <http://www.w3.org/2000/01/rdf-schema#label> "10th Leipzig Semantic Web Day"@en .
-<https://dataweek.de/lswt2022/> <http://schema.org/date> "2022-07-05"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://dataweek.de/lswt2022/> <http://purl.org/dc/terms/description> "Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen.\n  Diese Schwerpunkte werden im Rahmen von Vorträgen durch ExpertenInnen aus Industrie und Wissenschaft demonstriert.\n Falls Sie weitere Fragen haben können Sie sich auch gerne an das Organisations-Team wenden."@de .
-<https://dataweek.de/lswt2022/> <http://purl.org/dc/terms/description> "Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology.\n  These emphases are demonstrated in presentations by experts from industry and science.\n If you have any further questions don't hesitate to contact the organisation team."@en .
-<https://dataweek.de/lswt2022/#CFP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://dataweek.de/lswt2022/#CFP> <http://www.w3.org/2000/01/rdf-schema#comment> "Herzlich laden wir Sie dazu ein, Ihre neuesten Entwicklungen und Ideen im Bereich semantischer Technologien in Form eines **Vortrags oder Posters** an diesem Tag vorzustellen. Vorträge aus dem Bereichen des Semantic Web, angrenzenden Themen, wie Künstliche Intelligenz, Dateninfrastrukturen und Datenmanagement, Digital Humanities, sowie Berichte aus der Anwendung sind von Belang. Neben den Vorträgen laden wir Studierende ein auf einer digitalen, interaktive Postersession ihre aktuellen Projekte und Ideen zu präsentieren. Für die beste Arbeit von Studierenden gibt es einen Best Poster Award, gestiftet von der eccenca GmbH. Gern können Sie auch weitere mögliche Interessierte zur Einreichung von Beiträgen motivieren und diesen Call weiterreichen. Bitte melden Sie sich mit einem Themenvorschlag bis zum **18. Juni 2021** bei Natanael Arndt: [arndt@infai.org](mailto:arndt@infai.org). Alle Vorträge sollten, wenn möglich, auf Englisch gehalten werden. Wir freuen uns, wenn Sie zum Gelingen des Tages beitragen möchten!"@de .
-<https://dataweek.de/lswt2022/#CFP> <http://www.w3.org/2000/01/rdf-schema#comment> "We invite you to present your recent developments and ideas in the fields of semantic technologies in a **talk or poster** at the LSWT2021. We are especially interested in the topics of the semantic web and its adjacent fields, e.g. artificial intelligence, digital humanities, data infrastructures and data management. Also talks by practitioners and reports of applications are relevant. Beside the main session we invite students to present their current projects and ideas at our digital, interactive poster session. The best student contribution will receive a best poster award, sponsored by the eccenca GmbH. Feel free to share this call with anybody who might be interested. Please send in your ideas for a presentation until **2021-06-18** to Natanael Arndt: [arndt@infai.org](mailto:arndt@infai.org). Presentations shall be held in English. We look forward to your contributions to make this event a success!"@en .
-<https://dataweek.de/lswt2022/#CFP> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Participation"@de .
-<https://dataweek.de/lswt2022/#CFP> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Participation"@en .
-<https://dataweek.de/d2r2-22/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://dataweek.de/d2r2-22/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/d2r2-22/> <http://www.w3.org/2000/01/rdf-schema#label> "International Workshop on Data-driven Resilience Research 2022" .
-<https://dataweek.de/d2r2-22/> <http://schema.org/date> "2022-07-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://aksw.org/Group> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/AKSW_Logo_small.svg" .
+<http://aksw.org/Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<http://aksw.org/Group> <http://www.w3.org/2000/01/rdf-schema#label> "AKSW Research Group" .
+<http://aksw.org/Group> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/> .
+<http://aksw.org/Group> <http://xmlns.com/foaf/0.1/logo> "/images/partner/AKSW_Logo.svg" .
+<http://aksw.org/JuliaHolze> <http://schema.org/affiliation> <https://dbpedia.org/> .
+<http://aksw.org/JuliaHolze> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/JuliaHolze> <http://schema.org/affiliation> <https://www.scads.ai/> .
+<http://aksw.org/JuliaHolze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/JuliaHolze> <http://www.w3.org/2004/02/skos/core#prefLabel> "Julia Holze" .
+<http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/depiction> "/images/people/JuliaHolze.png" .
+<http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/name> "Julia Holze" .
 <http://aksw.org/MichaelMartin> <http://purl.org/dc/terms/description> "Leiter Kompetenzzentrum @ [AKSW](http://aksw.org/)/[InfAI e.V.](https://infai.org/)" .
 <http://aksw.org/MichaelMartin> <http://schema.org/affiliation> <http://aksw.org/Group> .
 <http://aksw.org/MichaelMartin> <http://schema.org/affiliation> <https://infai.org/> .
@@ -34,9 +18,9 @@
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/depiction> "/images/people/MichaelMartin.png" .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/MichaelMartin> .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/name> "Michael Martin" .
-<http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Projektleiter, [AKSW](http://aksw.org/)/[InfAI Management GmbH](https://infai.org/)" .
+<http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Senior Linked Data Expert [eccenca GmbH](https://eccenca.com/)" .
 <http://aksw.org/NatanaelArndt> <http://schema.org/affiliation> <http://aksw.org/Group> .
-<http://aksw.org/NatanaelArndt> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/NatanaelArndt> <http://schema.org/affiliation> <https://www.eccenca.com/> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Natanael Arndt" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/depiction> "/images/people/NatanaelArndt.png" .
@@ -50,7 +34,7 @@
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SebastianTramp.png" .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SebastianTramp> .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/name> "Sebastian Tramp" .
-<http://aksw.org/ThomasRiechert> <http://purl.org/dc/terms/description> "[Institut für Informatik/HTWK Leipzig](https://www.htwk-leipzig.de/)" .
+<http://aksw.org/ThomasRiechert> <http://purl.org/dc/terms/description> "[Institut f\u00FCr Informatik/HTWK Leipzig](https://www.htwk-leipzig.de/)" .
 <http://aksw.org/ThomasRiechert> <http://schema.org/affiliation> <http://aksw.org/Group> .
 <http://aksw.org/ThomasRiechert> <http://schema.org/affiliation> <https://htwk-leipzig.de/> .
 <http://aksw.org/ThomasRiechert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -58,5 +42,138 @@
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/depiction> "/images/people/ThomasRiechert.png" .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/ThomasRiechert> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/name> "Thomas Riechert" .
-<http://aksw.org/JuliaHolze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/name> "Julia Holze" .
+<https://2014.semantics.cc/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2014.semantics.cc/> <http://www.w3.org/2000/01/rdf-schema#label> "SEMANTiCS Leipzig 2014" .
+<https://2016.semantics.cc/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2016.semantics.cc/> <http://www.w3.org/2000/01/rdf-schema#label> "SEMANTiCS Leipzig 2016" .
+<http://schema.org/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Ort"@de .
+<http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Place"@en .
+<http://schema.org/startDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#label> "Date"@en .
+<http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#label> "Datum"@de .
+<https://dataweek.de/#AndreasBoth> <http://purl.org/dc/elements/1.1/description> "[HTWK Leipzig](https://htwk-leipzig.de/)" .
+<https://dataweek.de/#AndreasBoth> <http://purl.org/dc/terms/description> "[Anhalt University of Applied Sciences](https://www.hs-anhalt.de/)" .
+<https://dataweek.de/#AndreasBoth> <http://schema.org/affiliation> <https://htwk-leipzig.de/> .
+<https://dataweek.de/#AndreasBoth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#AndreasBoth> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Andreas Both" .
+<https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/depiction> "/images/people/AndreasBoth.jpg" .
+<https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/homepage> <http://www.andreasboth.de/en> .
+<https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Andreas Both" .
+<https://dataweek.de/bdib-22/> <http://schema.org/date> "2022-07-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://dataweek.de/bdib-22/> <http://schema.org/organizer> <https://dataweek.de/bdib-22/#Team> .
+<https://dataweek.de/bdib-22/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/bdib-22/> <http://www.w3.org/2000/01/rdf-schema#label> "5. Big Data und AI in Business Workshop"@de .
+<https://dataweek.de/bdib-22/> <http://www.w3.org/2000/01/rdf-schema#label> "5th Big Data and AI in Business Workshop"@en .
+<https://dataweek.de/bdib-22/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://dataweek.de/#JanaBendigs> .
+<https://dataweek.de/bdib-22/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#MiriamWelz> .
+<https://dataweek.de/d2r2-22/> <http://schema.org/date> "2022-07-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://dataweek.de/d2r2-22/> <http://schema.org/organizer> <https://dataweek.de/d2r2-22/#Team> .
+<https://dataweek.de/d2r2-22/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://dataweek.de/d2r2-22/> <http://www.w3.org/2000/01/rdf-schema#label> "International Workshop on Data-driven Resilience Research 2022"@de .
+<https://dataweek.de/d2r2-22/> <http://www.w3.org/2000/01/rdf-schema#label> "International Workshop on Data-driven Resilience Research 2022"@en .
+<https://dataweek.de/d2r2-22/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/NatanaelArndt> .
+<https://dataweek.de/d2r2-22/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/JuliaHolze> .
+<https://dataweek.de/d2r2-22/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/MichaelMartin> .
+<https://dataweek.de/d2r2-22/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://aksw.org/SebastianTramp> .
+<https://dataweek.de/d2r2-22/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Program Committee"@en .
+<https://dataweek.de/d2r2-22/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Programmkomitee"@de .
+<https://dataweek.de/dbpedia-day-2022/> <http://schema.org/date> "2022-07-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://dataweek.de/dbpedia-day-2022/> <http://schema.org/organizer> <https://dataweek.de/dbpedia-day-2022/#Team> .
+<https://dataweek.de/dbpedia-day-2022/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/dbpedia-day-2022/> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Day"@en .
+<https://dataweek.de/dbpedia-day-2022/> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Tag"@de .
+<https://dataweek.de/dbpedia-day-2022/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/JuliaHolze> .
+<https://dataweek.de/> <http://schema.org/date> "04.07. bis 08.07.2022"@de .
+<https://dataweek.de/> <http://schema.org/date> "July 4-8, 2022"@en .
+<https://dataweek.de/> <http://schema.org/endDate> "2022-07-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://dataweek.de/> <http://schema.org/organizer> <https://dataweek.de/#Team> .
+<https://dataweek.de/> <http://schema.org/slogan> "Forum for Data and AI Enthusiasts in Leipzig"@en .
+<https://dataweek.de/> <http://schema.org/slogan> "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de .
+<https://dataweek.de/> <http://schema.org/startDate> "2022-07-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/bdib-22/> .
+<https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/> .
+<https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/> .
+<https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/lswt2022/> .
+<https://dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+<https://dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2022" .
+<https://dataweek.de/#JanaBendigs> <http://schema.org/affiliation> <https://scads.ai/> .
+<https://dataweek.de/#JanaBendigs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JanaBendigs> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jana Bendigs" .
+<https://dataweek.de/#JanaBendigs> <http://xmlns.com/foaf/0.1/depiction> "/images/people/JanaBendigs.jpg" .
+<https://dataweek.de/#JanaBendigs> <http://xmlns.com/foaf/0.1/name> "Jana Bendigs" .
+<https://dataweek.de/lswt2022/#CFP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://dataweek.de/lswt2022/#CFP> <http://www.w3.org/2000/01/rdf-schema#comment> "Herzlich laden wir Sie dazu ein, Ihre neuesten Entwicklungen und Ideen im Bereich semantischer Technologien in Form eines **Vortrags oder Posters** an diesem Tag vorzustellen. Vortr\u00E4ge aus dem Bereichen des Semantic Web, angrenzenden Themen, wie K\u00FCnstliche Intelligenz, Dateninfrastrukturen und Datenmanagement, Digital Humanities, sowie Berichte aus der Anwendung sind von Belang. Neben den Vortr\u00E4gen laden wir Studierende ein auf einer digitalen, interaktive Postersession ihre aktuellen Projekte und Ideen zu pr\u00E4sentieren. F\u00FCr die beste Arbeit von Studierenden gibt es einen Best Poster Award, gestiftet von der eccenca GmbH. Gern k\u00F6nnen Sie auch weitere m\u00F6gliche Interessierte zur Einreichung von Beitr\u00E4gen motivieren und diesen Call weiterreichen. Bitte melden Sie sich mit einem Themenvorschlag bis zum **18. Juni 2021** bei Natanael Arndt: [arndt@infai.org](mailto:arndt@infai.org). Alle Vortr\u00E4ge sollten, wenn m\u00F6glich, auf Englisch gehalten werden. Wir freuen uns, wenn Sie zum Gelingen des Tages beitragen m\u00F6chten!"@de .
+<https://dataweek.de/lswt2022/#CFP> <http://www.w3.org/2000/01/rdf-schema#comment> "We invite you to present your recent developments and ideas in the fields of semantic technologies in a **talk or poster** at the LSWT2021. We are especially interested in the topics of the semantic web and its adjacent fields, e.g. artificial intelligence, digital humanities, data infrastructures and data management. Also talks by practitioners and reports of applications are relevant. Beside the main session we invite students to present their current projects and ideas at our digital, interactive poster session. The best student contribution will receive a best poster award, sponsored by the eccenca GmbH. Feel free to share this call with anybody who might be interested. Please send in your ideas for a presentation until **2021-06-18** to Natanael Arndt: [arndt@infai.org](mailto:arndt@infai.org). Presentations shall be held in English. We look forward to your contributions to make this event a success!"@en .
+<https://dataweek.de/lswt2022/#CFP> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Participation"@de .
+<https://dataweek.de/lswt2022/#CFP> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Participation"@en .
+<https://dataweek.de/lswt2022/> <http://purl.org/dc/terms/description> "Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die M\u00F6glichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen.\n  Diese Schwerpunkte werden im Rahmen von Vortr\u00E4gen durch ExpertenInnen aus Industrie und Wissenschaft demonstriert.\n Falls Sie weitere Fragen haben k\u00F6nnen Sie sich auch gerne an das Organisations-Team wenden."@de .
+<https://dataweek.de/lswt2022/> <http://purl.org/dc/terms/description> "Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology.\n  These emphases are demonstrated in presentations by experts from industry and science.\n If you have any further questions don't hesitate to contact the organisation team."@en .
+<https://dataweek.de/lswt2022/> <http://schema.org/date> "2022-07-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://dataweek.de/lswt2022/> <http://schema.org/organizer> <https://dataweek.de/lswt2022/#Team> .
+<https://dataweek.de/lswt2022/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/lswt2022/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://dataweek.de/lswt2022/> <http://www.w3.org/2000/01/rdf-schema#label> "10. Leipziger Semantic Web Tag"@de .
+<https://dataweek.de/lswt2022/> <http://www.w3.org/2000/01/rdf-schema#label> "10th Leipzig Semantic Web Day"@en .
+<https://dataweek.de/lswt2022/> <http://www.w3.org/2002/07/owl#sameAs> <https://lswt2022.aksw.org/> .
+<https://dataweek.de/lswt2022/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/NatanaelArndt> .
+<https://dataweek.de/lswt2022/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#AndreasBoth> .
+<https://dataweek.de/lswt2022/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/MichaelMartin> .
+<https://dataweek.de/lswt2022/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://dataweek.de/#VeraMeister> .
+<https://dataweek.de/lswt2022/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://aksw.org/ThomasRiechert> .
+<https://dataweek.de/lswt2022/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <http://aksw.org/SebastianTramp> .
+<https://dataweek.de/lswt2022/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT Team"@de .
+<https://dataweek.de/lswt2022/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT Team"@en .
+<https://dataweek.de/#MiriamWelz> <http://schema.org/affiliation> <https://scads.ai/> .
+<https://dataweek.de/#MiriamWelz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MiriamWelz> <http://www.w3.org/2004/02/skos/core#prefLabel> "Miriam Welz" .
+<https://dataweek.de/#MiriamWelz> <http://xmlns.com/foaf/0.1/depiction> "/images/people/MiriamWelz.jpg" .
+<https://dataweek.de/#MiriamWelz> <http://xmlns.com/foaf/0.1/name> "Miriam Welz" .
+<https://dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/NatanaelArndt> .
+<https://dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#JanaBendigs> .
+<https://dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/JuliaHolze> .
+<https://dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/MichaelMartin> .
+<https://dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://aksw.org/SebastianTramp> .
+<https://dataweek.de/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam"@de .
+<https://dataweek.de/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organization Team"@en .
+<https://dataweek.de/#VeraMeister> <http://purl.org/dc/elements/1.1/description> "Fachbereich Wirtschaft @ [TH Brandenburg](https://www.th-brandenburg.de/)" .
+<https://dataweek.de/#VeraMeister> <http://purl.org/dc/terms/description> "[Technische Hochschule Brandenburg](https://th-brandenburg.de/)"^^<file:///data/> .
+<https://dataweek.de/#VeraMeister> <http://schema.org/affiliation> <https://www.th-brandenburg.de/> .
+<https://dataweek.de/#VeraMeister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#VeraMeister> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Vera Meister" .
+<https://dataweek.de/#VeraMeister> <http://xmlns.com/foaf/0.1/depiction> "/images/people/VeraMeister.png" .
+<https://dataweek.de/#VeraMeister> <http://xmlns.com/foaf/0.1/homepage> <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/> .
+<https://dataweek.de/#VeraMeister> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Vera Meister" .
+<https://dbpedia.org/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/DBpediaLogo.svg" .
+<https://dbpedia.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://dbpedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Association" .
+<https://dbpedia.org/> <http://xmlns.com/foaf/0.1/homepage> <https://dbpedia.org/> .
+<https://dbpedia.org/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/DBpediaLogo_sq.svg" .
+<https://htwk-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://htwk-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "HTWK Leipzig" .
+<https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://htwk-leipzig.de/> .
+<https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/logo-htwk_v.svg" .
+<https://infai.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://infai.org/> <http://www.w3.org/2000/01/rdf-schema#label> "InfAI" .
+<https://infai.org/> <http://xmlns.com/foaf/0.1/homepage> <https://infai.org/> .
+<https://infai.org/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/InfAI_small.svg" .
+<https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/2000/01/rdf-schema#label> "LEDSPLaY17" .
+<https://lswt2019.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2019.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2019" .
+<https://lswt2020.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://lswt2020.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2020" .
+<https://scads.ai/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://scads.ai/> <http://www.w3.org/2000/01/rdf-schema#label> "ScaDS AI" .
+<https://scads.ai/> <http://xmlns.com/foaf/0.1/homepage> <https://scads.ai/> .
+<https://scads.ai/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/Scads_AI_Logo.svg" .
+<https://www.eccenca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.eccenca.com/> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH" .
+<https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.eccenca.com/> .
+<https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/eccenca_w.svg" .
+<https://www.th-brandenburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.th-brandenburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Hochschule Brandenburg" .
+<https://www.th-brandenburg.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.th-brandenburg.de/> .
+<https://www.th-brandenburg.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/THB.svg" .
