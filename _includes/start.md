@@ -5,7 +5,7 @@ Die Data Week vereint unter ihrem gleichnamigen Dach einzelne Veranstaltungsform
 
 ## Wo?
 Neues Rathaus<br/>
-Martin-Luther-Ring 4 - 6<br/>
+Martin-Luther-Ring 4-6<br/>
 04109 Leipzig
 
 ## Zielgruppe

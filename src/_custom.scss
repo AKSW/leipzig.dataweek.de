@@ -1,3 +1,5 @@
+$color_blue: #17214c;
+
 :root {
   --menu-height: 4rem;
 }
@@ -22,6 +24,7 @@ body {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  margin-top: 2rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -72,15 +75,23 @@ h4, .h4 {
   display: inline
 }
 
+.highlight {
+  color: $color_blue;
+}
 
 .subtitle {
-  color: #17214c;
+  color: $color_blue;
   font-size: 1.5em;
   margin-top: 1em;
   margin-bottom: 1em;
 }
+
+.top_navigation {
+  padding-top: 2rem;
+}
+
 .date {
-  background-color: #17214c;
+  background-color: $color_blue;
   color: #fff;
   padding: .25em 1em;
 }
@@ -157,14 +168,14 @@ div.lswt-textcard {
 }
 
 .lswt-card a {
-  color: #17214c;
+  color: $color_blue;
 }
 
 .lswt-card .lswt-card-title {
   margin-top: .5rem;
   height: 2.2em;
   hyphens: none;
-  color: #17214c;
+  color: $color_blue;
 }
 
 .lswt-card .logo-container {

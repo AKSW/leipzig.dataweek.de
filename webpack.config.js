@@ -8,7 +8,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.s[ac]ss$/i,
+        test: /\.s?[ac]ss$/i,
         use: [
           // https://webpack.js.org/plugins/mini-css-extract-plugin/
           MiniCssExtractPlugin.loader,
