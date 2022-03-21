@@ -132,7 +132,7 @@ a:hover {
   margin: 1rem;
   padding: 1rem;
   min-width: 230px;
-  flex-grow: 1;
+  flex-grow: 0;
   flex-basis: min-content;
 }
 
@@ -152,13 +152,19 @@ div.lswt-textcard {
 .lswt-card {
   text-align: center;
   // background-color: rgba(148, 195, 220, 0.7);
+  background-color: rgba(255, 255, 255, 0.67);
   border-radius: .25rem !important;
+}
+
+.lswt-card a {
+  color: #17214c;
 }
 
 .lswt-card .lswt-card-title {
   margin-top: .5rem;
   height: 2.2em;
   hyphens: none;
+  color: #17214c;
 }
 
 .lswt-card .logo-container {
