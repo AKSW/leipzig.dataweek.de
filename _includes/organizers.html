@@ -1,0 +1,6 @@
+{% assign organizers = include.organizers %}
+<div class="lswt-card-columns">
+{% for organizer in organizers %}
+{% include person.html organizer=organizer %}
+{% endfor %}
+</div>

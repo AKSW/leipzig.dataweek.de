@@ -1,0 +1,21 @@
+---
+rdf_prefix_path: _data/prefixes.sparql
+layout: subpage
+type: Event
+---
+{% assign title = page.rdf | rdf_property: "rdfs:label", site.language %}
+{% assign slogan = page.rdf | rdf_property: "schema:slogan", site.language %}
+<h1>{{title}}</h1>
+{% if slogan %}
+<span class="subtitle">{{ slogan }}</span>
+{% endif %}
+
+<div class="subtitle"><span class="date">{{ page.rdf | rdf_property: "schema:date" }}</span></div>
+
+<p>
+  {{ page.rdf | rdf_property: "dct:description", site.language }}
+</p>
+
+{{ content }}
+
+{% include sec_team.html %}

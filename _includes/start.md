@@ -5,7 +5,7 @@ Die Data Week vereint unter ihrem gleichnamigen Dach einzelne Veranstaltungsform
 
 ## Wo?
 Neues Rathaus<br/>
-Martin-Luther-Ring 4 - 6<br/>
+Martin-Luther-Ring 4-6<br/>
 04109 Leipzig
 
 ## Zielgruppe
@@ -16,21 +16,3 @@ Tickets werden in Kürze zur Verfügung gestellt.
 
 ## Sponsoring
 Wir bieten verschiedene Sponsoringpakete an. Sprechen Sie uns an! Wir erstellen ein personalisiertes Sponsoringpaket für Ihre Organisation oder Ihr Unternehmen. Kontaktieren Sie uns unter [dataweek@infai.org](mailto:dataweek@infai.org).
-
-## Organisationsteam
-
-{% include img.html src='images/logos.png' alt='Logos der Data Week Organisatoren. AKSW, ScaDS, DBpedia, InfAI und eccenca' class='w50' %}
-
-
-## In Kooperation mit
-{% include img.html src='images/Wa-l-4c-SL.png' alt='Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig' class='h120p padded' %}{% include img.html src='images/CUT_Logo.png' alt='Connected Urban Twins' class='h120p padded' %}
-
-*Weitere Infos zum Organisationsteam:*
-
-- [9th Leipzig Semantic Web Day (LSWT2021)](https://lswt2021.aksw.org/)
-- [ScaDS.AI – Center for Scalable Data Analytics and Artificial Intelligence](https://scads.de/)
-- [Agile Knowledge Engineering and Semantic Web (AKSW)](https://aksw.org/)
-- [DBpedia](https://www.dbpedia.org/)
-- [eccenca GmbH](https://www.eccenca.com/)
-
-[Impressum](https://infai.org/das-institut/impressum/) [Twitter](https://twitter.com/InfAI_eV)

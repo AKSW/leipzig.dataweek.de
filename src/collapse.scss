@@ -1,0 +1,20 @@
+
+// Für Collapse
+div.collapse-group input[type=checkbox] {
+  display: none;
+}
+div.collapse-group input[type=checkbox] ~ label {
+  cursor: pointer;
+}
+div.collapse-group input[type=checkbox] ~ label h3:before {
+  content: "🢂 ";
+}
+div.collapse-group input[type=checkbox]:checked ~ label h3:before {
+  content: "🢆 ";
+}
+div.collapse-group input[type=checkbox] ~ label ~ .collapse {
+  display: none;
+}
+div.collapse-group input[type=checkbox]:checked ~ label ~ .collapse {
+  display: block;
+}

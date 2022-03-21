@@ -1,0 +1,34 @@
+{% assign organizer = include.organizer %}
+{% assign name = organizer | rdf_property: "skos:prefLabel" %}
+{% assign homepage = organizer | rdf_property: "foaf:homepage" %}
+{% assign depiction = organizer | rdf_property: "foaf:depiction" %}
+{% assign affiliations = organizer | rdf_property: "schema:affiliation", nil, true %}
+<div class="lswt-card">
+  {% if depiction %}
+    <img class="rounded" src="{{ depiction | relativize_url }}" alt="{{ name }}">
+  {% else %}
+    <img class="rounded" src="{% relative_link /images/people/placeholder.svg %}" alt="{{ name }}">
+  {% endif %}
+  <h5 class="lswt-card-title">
+  {% if homepage %}
+    <a href="{{ homepage }}">{{ name }}</a>
+  {% else %}
+  {{ name }}
+  {% endif %}
+  </h5>
+  <p>
+    {% for affiliation in affiliations %}
+    {% assign depiction = affiliation | rdf_property: "site:small_logo" %}
+    {% unless depiction %}
+      {% assign depiction = affiliation | rdf_property: "foaf:logo" %}
+    {% endunless %}
+    {% if depiction %}
+    <div class="logo-container logo-3rem">
+      <a href="{{ affiliation | rdf_property: "foaf:homepage" }}"><img src="{{ depiction | relativize_url }}" alt="{{ affiliation | rdf_property: "foaf:name" }}" class="logo"></a>
+    </div>
+    {% else %}
+    <a href="{{ affiliation | rdf_property: "foaf:homepage" }}">{{ affiliation | rdf_property: "rdfs:label" }}</a>{% unless forloop.last%}, {% endunless %}
+    {% endif %}
+    {% endfor %}
+  </p>
+</div>

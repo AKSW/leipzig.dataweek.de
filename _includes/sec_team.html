@@ -1,0 +1,21 @@
+{% assign enableSubEvents = include.enableSubEvents %}
+{% assign organizers = rootResource | rdf_property: "schema:organizer" %}
+{% if organizers %}
+    <h2>{{ organizers | rdf_property: "rdfs:label", site.language }}</h2>
+
+    {% assign organizerTeam = organizers | rdf_container %}
+
+    {% include organizers.html organizers=organizerTeam %}
+
+    {% if enableSubEvents %}
+    {% assign subEvents = rootResource | rdf_property: "schema:subEvent", nil, true %}
+    {% for subEvent in subEvents %}
+    {% assign subOrganizers = subEvent | rdf_property: "schema:organizer" %}
+    {% if subOrganizers %}
+    <h3 class="display-5">{{ subOrganizers | rdf_property: "rdfs:label", site.language }}</h3>
+    {% assign subOrganizersTeam = subOrganizers | rdf_container %}
+    {% include organizers.html organizers=subOrganizersTeam %}
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+{% endif %}

@@ -1,16 +1,37 @@
 <h1>{{ rootResource | rdf_property: "rdfs:label" }}</h1>
-<span class="subtitle">{{ rootResource | rdf_property: "schema:slogan", page.language }}</span>
+<span class="subtitle">{{ rootResource | rdf_property: "schema:slogan", site.language }}</span>
 
-<div class="subtitle"><span class="date">{{ rootResource | rdf_property: "schema:date", page.language }}</span></div>
+<div class="subtitle"><span class="date">{{ rootResource | rdf_property: "schema:date", site.language }}</span></div>
 
+<div>
+  <a href="{{ "/en" }}">English</a> |
+  <a href="{{ "/" }}">German</a>
+</div>
 
-{% if page.language == 'de' %}
-{% capture start %}
-{% include start.md %}
-{% endcapture %}
-{% else %}
+{% if site.language == 'en' %}
 {% capture start %}
 {% include start_en.md %}
 {% endcapture %}
+{% else %}
+{% capture start %}
+{% include start.md %}
+{% endcapture %}
 {% endif %}
 {{ start | markdownify }}
+
+{% include sec_week.html %}
+
+{% include sec_team.html %}
+
+{% if site.language == 'en' %}
+<h2>In cooperation with</h2>
+{% else %}
+<h2>In Kooperation mit</h2>
+{% endif %}
+{% include img.html src='images/Wa-l-4c-SL.png' alt='Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig' class='h120p padded' %}{% include img.html src='images/CUT_Logo.png' alt='Connected Urban Twins' class='h120p padded' %}
+
+<h2></h2>
+<p>
+<a href="https://infai.org/das-institut/impressum/">Impressum</a>
+<a href="https://twitter.com/InfAI_eV">Twitter</a>
+</p>

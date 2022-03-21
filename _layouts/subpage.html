@@ -1,0 +1,9 @@
+---
+layout: page
+---
+{% assign rootResource = site.rootResource | rdf_get %}
+<div class="top_navigation">
+<a href="{{ rootResource.page_url | relativize_url }}"><h2><i class="bi bi-arrow-left-circle" aria-label="Back"></i> {{ rootResource | rdf_property: "rdfs:label" }}</h2></a>
+</div>
+
+{{ content }}

@@ -3,3 +3,4 @@
 - Live: https://dataweek.de/
 - Staging: https://staging.dataweek.de/
 
+Eventuell muss man noch `bundle add webrick` ausführen, falls ein Fehler mit webrick kommt.
