@@ -98,6 +98,7 @@
 <https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/> .
 <https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/kmi-22/> .
 <https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/lswt2022/> .
+<https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/#opening> .
 <https://dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
 <https://dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2022" .
@@ -138,6 +139,9 @@
 <https://dataweek.de/#MiriamWelz> <http://www.w3.org/2004/02/skos/core#prefLabel> "Miriam Welz" .
 <https://dataweek.de/#MiriamWelz> <http://xmlns.com/foaf/0.1/depiction> "/images/people/MiriamWelz.jpg" .
 <https://dataweek.de/#MiriamWelz> <http://xmlns.com/foaf/0.1/name> "Miriam Welz" .
+<https://dataweek.de/#opening> <http://schema.org/date> "2022-07-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://dataweek.de/#opening> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Er\u00F6ffnung"@de .
+<https://dataweek.de/#opening> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Opening Day"@en .
 <https://dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/NatanaelArndt> .
 <https://dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#JanaBendigs> .
 <https://dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/JuliaHolze> .
