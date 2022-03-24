@@ -4,7 +4,7 @@
 
 - **submission:**   6 May 2022
 - **notification:** 6 June 2022
-- **conference:**   6 July 2022 in Leipzig, Germany
+- **conference:**   6 July 2022 in Leipzig, Germany and online
 - **details:**      https://dataweek.de/en/d2r2-22/
 
 In the face of continuously changing contextual conditions and ubiquitous disruptive crisis events, the concept of resilience refers to some of the most urgent, challenging, and interesting issues of nowadays society.
@@ -33,22 +33,21 @@ The Data Week combines individual event formats in the area of research and tran
 - Supply Chain Data Management
 - Versioning and Co-Evolution of Linked Data
 - Provenance Tracking and Exploitation
-- Corporate Memory and Big Data/Linked Data Integration
-- Open Data and Service Engineering
-- Corporate Data and Enterprise Application Development    
+- Organizational Data Applications
+- (Open) Data Services
 
 ## SUBMISSION
 
 https://easychair.org/conferences/?conf=d2r2-22
 
 - Maximum 10 pages (full papers) or 5 pages (short papers)
-- PDF or HTML, Papers must be formatted according to the [LNI format specifications](https://www.gi.de/service/publikationen/lni/) of the GI. Word and LaTeX templates are provided.
+- PDF or HTML, Papers must be formatted according to the [LNCS format specifications](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) (Word and LaTeX) for HTML please see the [ESWC guidelines]({https://2022.eswc-conferences.org/html-submission-guide/).
 - Accepted contributions will be published in the Open Access CEUR proceedings.
 - At least one author of an accepted paper must register for the workshop to present their work.
 
 ## ORGANIZING COMMITTEE
-- Julia Holze (InfAI e.V.)
+- Natanael Arndt (eccenca GmbH)
 - Sabine Gründer-Fahrer (InfAI e.V.)
+- Julia Holze (InfAI e.V.)
 - Michael Martin (InfAI e.V.)
 - Sebastian Tramp (eccenca GmbH)
-- Natanael Arndt (eccenca GmbH)
