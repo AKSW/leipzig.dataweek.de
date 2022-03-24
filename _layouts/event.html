@@ -12,10 +12,10 @@ type: Event
 
 <div class="subtitle"><span class="date">{{ page.rdf | rdf_property: "schema:date" }}</span></div>
 
-<p>
-  {{ page.rdf | rdf_property: "dct:description", site.language }}
-</p>
+<p>{{ page.rdf | rdf_property: "dct:description", site.language | markdownify }}</p>
+
 
 {{ content }}
 
+{% include sec_call.html %}
 {% include sec_team.html %}

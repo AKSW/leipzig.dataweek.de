@@ -1,4 +1,6 @@
 $color_blue: #17214c;
+$color_lightblue: #61b8e4;
+$color_highlight: #b72c37;
 
 :root {
   --menu-height: 4rem;
@@ -110,8 +112,18 @@ a:hover {
 }
 
 .btn-success {
-  background-color: #b72c37;
-  border-color: #b72c37;
+  background-color: $color_highlight;
+  border-color: $color_highlight;
+}
+
+.btn-primary {
+  background-color: $color_blue;
+  border-color: $color_blue;
+}
+
+.btn-primary:hover {
+  background-color: $color_lightblue;
+  border-color: $color_blue;
 }
 
 .jumbotron {
