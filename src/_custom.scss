@@ -229,17 +229,23 @@ img {
   max-width: 90%;
 }
 img.w100 {
-  width: 100%;
+  max-width: 100%;
 }
 img.w90 {
-  width: 90%;
+  max-width: 90%;
 }
 img.w50 {
-  width: 50%;
+  max-width: 50%;
 }
 img.h120p {
-  height: 120px;
+  max-height: 120px;
 }
 img.padded {
+  padding: 20px 20px
+}
+img.v-padded {
+  padding: 20px 0px
+}
+img.h-padded {
   padding: 0px 20px
 }
