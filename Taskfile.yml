@@ -4,6 +4,14 @@ vars:
   FILE: graph
 
 tasks:
+
+  default:
+    cmds:
+      - task: normalize_turtle
+      - task: sync_turtle_to_nt
+      - task: styles
+      - task: build
+
   styles:
     cmds:
       - npx webpack
@@ -14,7 +22,9 @@ tasks:
 
   sync_turtle_to_nt:
     cmds:
-      - rapper -i turtle -o ntriples {{.FILE}}.ttl | LC_ALL=C sort -u > {{.FILE}}.nt
+      - |
+        git status --porcelain graph.nt | grep '^.[MTD]' && echo "ABORT SYNC: graph.nt has unstaged changes." ||
+        rapper -i turtle -o ntriples {{.FILE}}.ttl | LC_ALL=C sort -u > {{.FILE}}.nt
 
   normalize_turtle:
     cmds:
