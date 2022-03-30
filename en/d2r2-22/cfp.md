@@ -52,3 +52,5 @@ https://easychair.org/conferences/?conf=d2r2-22
 - Julia Holze (InfAI e.V.)
 - Michael Martin (InfAI e.V.)
 - Sebastian Tramp (eccenca GmbH)
+
+We are looking forward to your contribution and to meet you in Leipzig!
