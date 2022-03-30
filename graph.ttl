@@ -1,0 +1,377 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ecc-ns: <https://ns.eccenca.com/> .
+@prefix site: <http://ns.ontowiki.net/SysOnt/Site/> .
+
+<http://aksw.org/Group>
+    site:small_logo "/images/partner/AKSW_Logo_small.svg" ;
+    a schema:Organization ;
+    rdfs:label "AKSW Research Group" ;
+    foaf:homepage <http://aksw.org/> ;
+    foaf:logo "/images/partner/AKSW_Logo.svg" .
+
+<http://aksw.org/JuliaHolze>
+    schema:affiliation <https://dbpedia.org/>, <https://infai.org/> ;
+    a foaf:Person ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Julia Holze" ;
+    foaf:depiction "/images/people/JuliaHolze.png" ;
+    foaf:name "Julia Holze" .
+
+<http://aksw.org/MichaelMartin>
+    dct:description "Leiter Kompetenzzentrum @ [AKSW](http://aksw.org/)/[InfAI e.V.](https://infai.org/)" ;
+    schema:affiliation <http://aksw.org/Group>, <https://infai.org/> ;
+    a foaf:Person ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Michael Martin" ;
+    foaf:depiction "/images/people/MichaelMartin.png" ;
+    foaf:homepage <http://aksw.org/MichaelMartin> ;
+    foaf:name "Michael Martin" .
+
+<http://aksw.org/NatanaelArndt>
+    dct:description "Senior Linked Data Expert [eccenca GmbH](https://eccenca.com/)" ;
+    schema:affiliation <http://aksw.org/Group>, <https://www.eccenca.com/> ;
+    a foaf:Person ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Natanael Arndt" ;
+    foaf:depiction "/images/people/NatanaelArndt.png" ;
+    foaf:homepage <http://aksw.org/NatanaelArndt> ;
+    foaf:name "Natanael Arndt" .
+
+<http://aksw.org/SabineGruenderFahrer>
+    schema:affiliation <http://aksw.org/Group>, <https://infai.org/> ;
+    a foaf:Person ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sabine Gründer-Fahrer" ;
+    foaf:depiction "/images/people/SabineGruenderFahrer.jpg" ;
+    foaf:name "Dr. Sabine Gründer-Fahrer" .
+
+<http://aksw.org/SebastianTramp>
+    dct:description "CTO, [eccenca GmbH](https://www.eccenca.com/)" ;
+    schema:affiliation <http://aksw.org/Group>, <https://www.eccenca.com/> ;
+    a foaf:Person ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sebastian Tramp" ;
+    foaf:depiction "/images/people/SebastianTramp.png" ;
+    foaf:homepage <http://aksw.org/SebastianTramp> ;
+    foaf:name "Sebastian Tramp" .
+
+<http://aksw.org/ThomasRiechert>
+    dct:description "[Institut für Informatik/HTWK Leipzig](https://www.htwk-leipzig.de/)" ;
+    schema:affiliation <http://aksw.org/Group>, <https://htwk-leipzig.de/> ;
+    a foaf:Person ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Thomas Riechert" ;
+    foaf:depiction "/images/people/ThomasRiechert.png" ;
+    foaf:homepage <http://aksw.org/ThomasRiechert> ;
+    foaf:name "Thomas Riechert" .
+
+schema:location
+    a owl:ObjectProperty ;
+    rdfs:label "Ort"@de, "Place"@en .
+
+schema:startDate
+    a owl:DatatypeProperty ;
+    rdfs:label "Date"@en, "Datum"@de .
+
+<https://2014.semantics.cc/>
+    a schema:Event ;
+    rdfs:label "SEMANTiCS Leipzig 2014" .
+
+<https://2016.semantics.cc/>
+    a schema:Event ;
+    rdfs:label "SEMANTiCS Leipzig 2016" .
+
+<https://dataweek.de/>
+    schema:date "04.07. bis 08.07.2022"@de, "July 4-8, 2022"@en ;
+    schema:endDate "2022-07-08"^^xsd:date ;
+    schema:organizer <https://dataweek.de/#Team> ;
+    schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
+    schema:startDate "2022-07-04"^^xsd:date ;
+    schema:subEvent <https://dataweek.de/#opening>, <https://dataweek.de/bdib-22/>, <https://dataweek.de/d2r2-22/>, <https://dataweek.de/dbpedia-day-2022/>, <https://dataweek.de/kmi-22/>, <https://dataweek.de/lswt2022/> ;
+    a <http://rdfs.org/ns/void#Dataset>, schema:Event ;
+    rdfs:label "Data Week Leipzig 2022" .
+
+<https://dataweek.de/#AndreasBoth>
+    <http://purl.org/dc/elements/1.1/description> "[HTWK Leipzig](https://htwk-leipzig.de/)" ;
+    dct:description "[Anhalt University of Applied Sciences](https://www.hs-anhalt.de/)" ;
+    schema:affiliation <https://htwk-leipzig.de/> ;
+    a foaf:Person ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Andreas Both" ;
+    foaf:depiction "/images/people/AndreasBoth.jpg" ;
+    foaf:homepage <http://www.andreasboth.de/en> ;
+    foaf:name "Prof. Dr. Andreas Both" .
+
+<https://dataweek.de/#EricPeukert>
+    schema:affiliation <https://scads.ai/> ;
+    a foaf:Person ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Eric Peukert" ;
+    foaf:depiction "/images/people/EricPeukert.jpg" ;
+    foaf:name "Dr. Eric Peukert" .
+
+<https://dataweek.de/#JanaBendigs>
+    schema:affiliation <https://scads.ai/> ;
+    a foaf:Person ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Jana Bendigs" ;
+    foaf:depiction "/images/people/JanaBendigs.jpg" ;
+    foaf:name "Jana Bendigs" .
+
+<https://dataweek.de/#MiriamWelz>
+    schema:affiliation <https://scads.ai/> ;
+    a foaf:Person ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Miriam Welz" ;
+    foaf:depiction "/images/people/MiriamWelz.jpg" ;
+    foaf:name "Miriam Welz" .
+
+<https://dataweek.de/#NievesSande>
+    schema:affiliation <https://www.eccenca.com/> ;
+    a foaf:Person ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nieves Sande" ;
+    foaf:depiction "/images/people/NievesSande.png" ;
+    foaf:name "Nieves Sande" .
+
+<https://dataweek.de/#Team>
+    rdf:_1 <http://aksw.org/NatanaelArndt> ;
+    rdf:_2 <https://dataweek.de/#JanaBendigs> ;
+    rdf:_3 <http://aksw.org/JuliaHolze> ;
+    rdf:_4 <http://aksw.org/MichaelMartin> ;
+    rdf:_5 <https://dataweek.de/#NievesSande> ;
+    rdf:_6 <http://aksw.org/SebastianTramp> ;
+    rdfs:label "Organisationsteam"@de, "Organization Team"@en .
+
+<https://dataweek.de/#ThomasBurghardt>
+    schema:affiliation <https://scads.ai/> ;
+    a foaf:Person ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Thomas Burghardt" ;
+    foaf:depiction "/images/people/ThomasBurghardt.png" ;
+    foaf:name "Dr. Thomas Burghardt" .
+
+<https://dataweek.de/#VeraMeister>
+    <http://purl.org/dc/elements/1.1/description> "Fachbereich Wirtschaft @ [TH Brandenburg](https://www.th-brandenburg.de/)" ;
+    dct:description "[Technische Hochschule Brandenburg](https://th-brandenburg.de/)"^^<file:///data/> ;
+    schema:affiliation <https://www.th-brandenburg.de/> ;
+    a foaf:Person ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Vera Meister" ;
+    foaf:depiction "/images/people/VeraMeister.png" ;
+    foaf:homepage <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/> ;
+    foaf:name "Prof. Dr. Vera Meister" .
+
+<https://dataweek.de/#opening>
+    schema:date "2022-07-04"^^xsd:date ;
+    rdfs:label "Data Week Eröffnung"@de, "Data Week Opening Day"@en .
+
+<https://dataweek.de/bdib-22/>
+    dct:description """
+As part of Data Week Leipzig 2022, ScaDS.AI Dresden/Leipzig organizes the fifth edition of Big Data and AI in Business (BDIB) on July 7th. BDIB is a one day workshop, which will take place at the town hall of Leipzig.
+
+## Program
+
+Users of Big Data-technologies and AI in business and research will be given the opportunity to talk about their practical insights as well as challenges. We invite you to actively join the discussion and take part at BDIB 2022.
+BDIB aims to foster the transfer of research results in the areas Big Data, Data Science and AI into business applications. Furthermore we want to improve the practical and professional exchange of information between application partners and stakeholders in the Big Data and AI industry. Speakers of regionally and internationally operating organisations will present their practical experiences regarding new methods in Data Science, Big Data and AI in specific business and application areas.
+
+Furthermore, the Living Lab of ScaDS.AI Dresden/Leipzig gives researchers the opportunity to present their latest research results by using our demonstrators. Ultimately we try to inspire innovative approaches and establish a platform for further pilot projects and cooperations. All participants are invited to take part in a joint dinner at the end of the workshop. We are looking forward to interesting discussions and an enriching exchange. Further information regarding the program and registration process will soon be published here as well as on the official website of ScaDS.AI Dresden/Leipzig.
+"""@en, """
+Im Rahmen der Data Week Leipzig veranstaltet das ScaDS.AI Dresden/Leipzig am 07.07.2022 die bereits fünfte Auflage des eintägigen Workshop-Formats Big Data and AI in Business (BDIB) im Leipziger Rathaus.
+
+## Inhalte
+
+Die Veranstaltung möchte Anwendenden von Big-Data-Technologien und künstlicher Intelligenz aus Wirtschaft und Forschung die Möglichkeit bieten, sich über neue praxisbezogene Erkenntnisse und Herausforderungen auszutauschen und lädt Sie herzlich dazu ein, aktiv an diesem Austausch zu partizipieren.
+Die BDIB fördert dabei den Transfer von Forschungsergebnissen im Bereich Big Data, Data Science und Künstliche Intelligenz in geschäftliche Anwendungen sowie den praxisbezogenen, fachlichen Austausch zwischen Anwendungspartner*innen und Stakeholdern aus der Big Data und KI-Industrie. Vortragende regionaler und international agierender Unternehmen stellen im Rahmen einzelner Sessions ihre praktischen Erfahrungen im Umgang mit den neuen Möglichkeiten von Data Science, Big Data und AI in spezifischen Geschäfts- und Anwendungsfeldern vor. Neben der Diskussion über Strategien und gefundene Best-Practices Beispiele lädt das Programm zum Austausch über aktuelle Problemstellungen und Fallbeispiele ein.
+
+Darüber hinaus ermöglicht das Living Lab des ScaDS.AI Leipzig/Dresden die Präsentation aktueller Forschungsergebnisse mithilfe von Demonstratoren, als Inspiration für innovative Ansätze sowie Ausgangspunkt gemeinsamer Pilot und Kooperationsprojekte. Einen Ausklang findet der Workshop-Tag in einer gemeinsamen Runde mit Abendessen im Ratskeller Leipzig. Wir freuen uns auf spannende Diskussionen und einen bereichernden Austausch. Das Programm sowie weiterführende Hinweise zur Anmeldung erfolgen zeitnah an dieser Stelle und auf der Webseite des ScaDS.AI Dresden/Leipzig."""@de ;
+    schema:date "2022-07-07"^^xsd:date ;
+    schema:organizer <https://dataweek.de/bdib-22/#Team> ;
+    a schema:Event ;
+    rdfs:label "5. Big Data and AI in Business Workshop"@de, "5th Big Data and AI in Business Workshop"@en .
+
+<https://dataweek.de/bdib-22/#Team>
+    rdf:_1 <https://dataweek.de/#EricPeukert> ;
+    rdf:_2 <https://dataweek.de/#JanaBendigs> ;
+    rdf:_3 <https://dataweek.de/#MiriamWelz> .
+
+<https://dataweek.de/d2r2-22/>
+    dct:description """
+In the face of continuously changing contextual conditions and ubiquitous disruptive crisis events, the concept of resilience refers to some of the most urgent, challenging, and interesting issues of nowadays society.
+Economic value networks, technical infrastructures, health systems, and social textures alike need to unfold capacities to withstand, adapt, recover or even refine and transform themselves to stay ahead of changes.
+
+The D2R2’22 workshop will provide an open forum to exchange current issues, ideas, and trends in the area of Data-driven Resilience Research among scientists, software engineers, resilience practitioners, and domain experts.
+Ongoing technological developments, current research approaches as well as use case scenarios, and field reports will be presented and discussed with a broad and multi-disciplinary specialist audience.
+We invite contributions of novel results and ongoing work as well as position papers focusing on various aspects of Data-driven Resilience Research from a scientific or practical perspective.
+"""@de, """
+In the face of continuously changing contextual conditions and ubiquitous disruptive crisis events, the concept of resilience refers to some of the most urgent, challenging, and interesting issues of nowadays society.
+Economic value networks, technical infrastructures, health systems, and social textures alike need to unfold capacities to withstand, adapt, recover or even refine and transform themselves to stay ahead of changes.
+
+The D2R2’22 workshop will provide an open forum to exchange current issues, ideas, and trends in the area of Data-driven Resilience Research among scientists, software engineers, resilience practitioners, and domain experts.
+Ongoing technological developments, current research approaches as well as use case scenarios, and field reports will be presented and discussed with a broad and multi-disciplinary specialist audience.
+We invite contributions of novel results and ongoing work as well as position papers focusing on various aspects of Data-driven Resilience Research from a scientific or practical perspective.
+"""@en ;
+    schema:date "2022-07-06"^^xsd:date ;
+    schema:organizer <https://dataweek.de/d2r2-22/#Team> ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "International Workshop on Data-driven Resilience Research 2022"@de, "International Workshop on Data-driven Resilience Research 2022"@en ;
+    <https://www.openresearch.org/wiki/Property:Cfp> <https://dataweek.de/d2r2-22/#cfp> .
+
+<https://dataweek.de/d2r2-22/#Team>
+    rdf:_1 <http://aksw.org/NatanaelArndt> ;
+    rdf:_2 <http://aksw.org/SabineGruenderFahrer> ;
+    rdf:_3 <http://aksw.org/JuliaHolze> ;
+    rdf:_4 <http://aksw.org/MichaelMartin> ;
+    rdf:_5 <http://aksw.org/SebastianTramp> ;
+    rdfs:label "Program Committee"@en, "Programmkomitee"@de .
+
+<https://dataweek.de/d2r2-22/#cfp>
+    dct:description """
+- **submission:**   6 May 2022
+- **notification:** 6 June 2022
+
+## TOPICS OF INTEREST
+- Data Modeling, Vocabulary Engineering
+- Data Pipeline Architectures
+- Agile Data Integration
+- Continuous Integration
+- Artificial Intelligence
+- Data Analysis
+- Trend Mining and Analytics
+- Temporal and Geographic Data Management
+- Data Aggregation
+- User Interaction
+- Supply Chain Data Management
+- Versioning and Co-Evolution of Linked Data
+- Provenance Tracking and Exploitation
+- Corporate Memory and Big Data/Linked Data Integration
+- Organizational Data Applications
+- (Open) Data Services
+
+## SUBMISSION
+
+[https://easychair.org/conferences/?conf=d2r2-22](https://easychair.org/conferences/?conf=d2r2-22)
+
+- Maximum 10 pages (full papers) or 5 pages (short papers)
+- PDF or HTML, Papers must be formatted according to the [LNCS format specifications](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) (Word and LaTeX) for HTML please see the [ESWC guidelines]({https://2022.eswc-conferences.org/html-submission-guide/).
+- Reviews will be carried out in a single-blind mode.
+- Accepted contributions will be published in the Open Access CEUR proceedings.
+- At least one author of an accepted paper must register for the workshop to present their work.
+"""@de, """
+- **submission:**   6 May 2022
+- **notification:** 6 June 2022
+
+## TOPICS OF INTEREST
+- Data Modeling, Vocabulary Engineering
+- Data Pipeline Architectures
+- Agile Data Integration
+- Continuous Integration
+- Artificial Intelligence
+- Data Analysis
+- Trend Mining and Analytics
+- Temporal and Geographic Data Management
+- Data Aggregation
+- User Interaction
+- Supply Chain Data Management
+- Versioning and Co-Evolution of Linked Data
+- Provenance Tracking and Exploitation
+- Organizational Data Applications
+- (Open) Data Services
+
+## SUBMISSION
+
+[https://easychair.org/conferences/?conf=d2r2-22](https://easychair.org/conferences/?conf=d2r2-22)
+
+- Maximum 10 pages (full papers) or 5 pages (short papers)
+- PDF or HTML, Papers must be formatted according to the [LNCS format specifications](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) (Word and LaTeX) for HTML please see the [ESWC guidelines]({https://2022.eswc-conferences.org/html-submission-guide/).
+- Reviews will be carried out in a single-blind mode.
+- Accepted contributions will be published in the Open Access CEUR proceedings.
+- At least one author of an accepted paper must register for the workshop to present their work.
+"""@en ;
+    dct:hasFormat <https://dataweek.de/d2r2-22/cfp.pdf> ;
+    rdfs:label "Call for Participation"@de, "Call for Participation"@en .
+
+<https://dataweek.de/dbpedia-day-2022/>
+    schema:date "2022-07-06"^^xsd:date ;
+    schema:organizer <https://dataweek.de/dbpedia-day-2022/#Team> ;
+    a schema:Event ;
+    rdfs:label "DBpedia Day"@de, "DBpedia Day"@en .
+
+<https://dataweek.de/dbpedia-day-2022/#Team>
+    rdf:_1 <http://aksw.org/JuliaHolze> .
+
+<https://dataweek.de/kmi-22/>
+    schema:date "2022-07-08"^^xsd:date ;
+    schema:organizer <https://dataweek.de/kmi-22/#Team> ;
+    a schema:Event ;
+    rdfs:label "Workshop Künstlich und Menschlich Intelligent"@de, "Workshop Künstlich und Menschlich Intelligent"@en .
+
+<https://dataweek.de/lswt2022/>
+    dct:description """Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen.
+  Diese Schwerpunkte werden im Rahmen von Vorträgen durch ExpertenInnen aus Industrie und Wissenschaft demonstriert.
+ Falls Sie weitere Fragen haben können Sie sich auch gerne an das Organisations-Team wenden."""@de, """Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology.
+  These emphases are demonstrated in presentations by experts from industry and science.
+ If you have any further questions don't hesitate to contact the organisation team."""@en ;
+    schema:date "2022-07-05"^^xsd:date ;
+    schema:organizer <https://dataweek.de/lswt2022/#Team> ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "10. Leipziger Semantic Web Tag"@de, "10th Leipzig Semantic Web Day"@en ;
+    owl:sameAs <https://lswt2022.aksw.org/> .
+
+<https://dataweek.de/lswt2022/#CFP>
+    a foaf:Document ;
+    rdfs:comment "Herzlich laden wir Sie dazu ein, Ihre neuesten Entwicklungen und Ideen im Bereich semantischer Technologien in Form eines **Vortrags oder Posters** an diesem Tag vorzustellen. Vorträge aus dem Bereichen des Semantic Web, angrenzenden Themen, wie Künstliche Intelligenz, Dateninfrastrukturen und Datenmanagement, Digital Humanities, sowie Berichte aus der Anwendung sind von Belang. Neben den Vorträgen laden wir Studierende ein auf einer digitalen, interaktive Postersession ihre aktuellen Projekte und Ideen zu präsentieren. Für die beste Arbeit von Studierenden gibt es einen Best Poster Award, gestiftet von der eccenca GmbH. Gern können Sie auch weitere mögliche Interessierte zur Einreichung von Beiträgen motivieren und diesen Call weiterreichen. Bitte melden Sie sich mit einem Themenvorschlag bis zum **18. Juni 2021** bei Natanael Arndt: [arndt@infai.org](mailto:arndt@infai.org). Alle Vorträge sollten, wenn möglich, auf Englisch gehalten werden. Wir freuen uns, wenn Sie zum Gelingen des Tages beitragen möchten!"@de, "We invite you to present your recent developments and ideas in the fields of semantic technologies in a **talk or poster** at the LSWT2021. We are especially interested in the topics of the semantic web and its adjacent fields, e.g. artificial intelligence, digital humanities, data infrastructures and data management. Also talks by practitioners and reports of applications are relevant. Beside the main session we invite students to present their current projects and ideas at our digital, interactive poster session. The best student contribution will receive a best poster award, sponsored by the eccenca GmbH. Feel free to share this call with anybody who might be interested. Please send in your ideas for a presentation until **2021-06-18** to Natanael Arndt: [arndt@infai.org](mailto:arndt@infai.org). Presentations shall be held in English. We look forward to your contributions to make this event a success!"@en ;
+    rdfs:label "Call for Participation"@de, "Call for Participation"@en .
+
+<https://dataweek.de/lswt2022/#Team>
+    rdf:_1 <http://aksw.org/NatanaelArndt> ;
+    rdf:_2 <https://dataweek.de/#AndreasBoth> ;
+    rdf:_3 <http://aksw.org/MichaelMartin> ;
+    rdf:_4 <https://dataweek.de/#VeraMeister> ;
+    rdf:_5 <http://aksw.org/ThomasRiechert> ;
+    rdf:_6 <https://dataweek.de/#NievesSande> ;
+    rdf:_7 <http://aksw.org/SebastianTramp> ;
+    rdfs:label "LSWT Team"@de, "LSWT Team"@en .
+
+<https://dbpedia.org/>
+    site:small_logo "/images/partner/DBpediaLogo.svg" ;
+    a schema:Organization ;
+    rdfs:label "DBpedia Association" ;
+    foaf:homepage <https://dbpedia.org/> ;
+    foaf:logo "/images/partner/DBpediaLogo.svg" .
+
+<https://htwk-leipzig.de/>
+    a schema:Organization ;
+    rdfs:label "HTWK Leipzig" ;
+    foaf:homepage <https://htwk-leipzig.de/> ;
+    foaf:logo "/images/partner/logo-htwk_v.svg" .
+
+<https://infai.org/>
+    a schema:Organization ;
+    rdfs:label "InfAI" ;
+    foaf:homepage <https://infai.org/> ;
+    foaf:logo "/images/partner/InfAI_small.svg" .
+
+<https://informatik2017.de/ws29-ledsplay17/>
+    a schema:Event ;
+    rdfs:label "LEDSPLaY17" .
+
+<https://lswt2019.aksw.org/>
+    a schema:Event ;
+    rdfs:label "LSWT2019" .
+
+<https://lswt2020.aksw.org/>
+    a schema:Event ;
+    rdfs:label "LSWT2020" .
+
+<https://scads.ai/>
+    a schema:Organization ;
+    rdfs:label "ScaDS AI" ;
+    foaf:homepage <https://scads.ai/> ;
+    foaf:logo "/images/partner/Scads_AI_Logo.svg" .
+
+<https://www.eccenca.com/>
+    a schema:Organization ;
+    rdfs:label "eccenca GmbH" ;
+    foaf:homepage <https://www.eccenca.com/> ;
+    foaf:logo "/images/partner/eccenca_w.svg" .
+
+<https://www.th-brandenburg.de/>
+    a schema:Organization ;
+    rdfs:label "Technische Hochschule Brandenburg" ;
+    foaf:homepage <https://www.th-brandenburg.de/> ;
+    foaf:logo "/images/partner/THB.svg" .
+
