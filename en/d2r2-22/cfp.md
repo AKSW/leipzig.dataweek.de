@@ -11,7 +11,7 @@ In the face of continuously changing contextual conditions and ubiquitous disrup
 Economic value networks, technical infrastructures, health systems, and social textures alike need to unfold capacities to withstand, adapt, recover or even refine and transform themselves to stay ahead of changes.
 
 The D2R2’22 workshop will provide an open forum to exchange current issues, ideas, and trends in the area of Data-driven Resilience Research among scientists, software engineers, resilience practitioners, and domain experts.
-Ongoing technological developments, current research approaches as well as use case scenarios, and field reports will be presented and discussed with a broad and multi-disciplinary specialist audience. 
+Ongoing technological developments, current research approaches as well as use case scenarios, and field reports will be presented and discussed with a broad and multi-disciplinary specialist audience.
 We invite contributions of novel results and ongoing work as well as position papers focusing on various aspects of Data-driven Resilience Research from a scientific or practical perspective.
 
 Data Week is a combined multi-event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable, and sustainable applications.
@@ -40,8 +40,9 @@ The Data Week combines individual event formats in the area of research and tran
 
 https://easychair.org/conferences/?conf=d2r2-22
 
-- Maximum 10 pages (full papers) or 5 pages (short papers)
+- Maximum 10 pages (full papers) or 5 pages (short papers).
 - PDF or HTML, Papers must be formatted according to the [LNCS format specifications](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) (Word and LaTeX) for HTML please see the [ESWC guidelines]({https://2022.eswc-conferences.org/html-submission-guide/).
+- Reviews will be carried out in a single-blind mode.
 - Accepted contributions will be published in the Open Access CEUR proceedings.
 - At least one author of an accepted paper must register for the workshop to present their work.
 
