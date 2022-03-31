@@ -20,6 +20,7 @@ The Data Week combines individual event formats in the area of research and tran
 
 
 ## TOPICS OF INTEREST
+- Information Visualization, Dashboard Technologies
 - Data Modeling, Vocabulary Engineering
 - Data Pipeline Architectures
 - Agile Data Integration
