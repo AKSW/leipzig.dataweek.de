@@ -1,12 +1,14 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix schema: <http://schema.org/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ecc-ns: <https://ns.eccenca.com/> .
 @prefix site: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix dw: <https://dataweek.de/#> .
 
 <http://aksw.org/Group>
     site:small_logo "/images/partner/AKSW_Logo_small.svg" ;
@@ -18,7 +20,7 @@
 <http://aksw.org/JuliaHolze>
     schema:affiliation <https://dbpedia.org/>, <https://infai.org/> ;
     a foaf:Person ;
-    <http://www.w3.org/2004/02/skos/core#prefLabel> "Julia Holze" ;
+    skos:prefLabel "Julia Holze" ;
     foaf:depiction "/images/people/JuliaHolze.png" ;
     foaf:name "Julia Holze" .
 
@@ -26,7 +28,7 @@
     dct:description "Leiter Kompetenzzentrum @ [AKSW](http://aksw.org/)/[InfAI e.V.](https://infai.org/)" ;
     schema:affiliation <http://aksw.org/Group>, <https://infai.org/> ;
     a foaf:Person ;
-    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Michael Martin" ;
+    skos:prefLabel "Dr. Michael Martin" ;
     foaf:depiction "/images/people/MichaelMartin.png" ;
     foaf:homepage <http://aksw.org/MichaelMartin> ;
     foaf:name "Michael Martin" .
@@ -35,7 +37,7 @@
     dct:description "Senior Linked Data Expert [eccenca GmbH](https://eccenca.com/)" ;
     schema:affiliation <http://aksw.org/Group>, <https://www.eccenca.com/> ;
     a foaf:Person ;
-    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Natanael Arndt" ;
+    skos:prefLabel "Dr. Natanael Arndt" ;
     foaf:depiction "/images/people/NatanaelArndt.png" ;
     foaf:homepage <http://aksw.org/NatanaelArndt> ;
     foaf:name "Natanael Arndt" .
@@ -43,7 +45,7 @@
 <http://aksw.org/SabineGruenderFahrer>
     schema:affiliation <http://aksw.org/Group>, <https://infai.org/> ;
     a foaf:Person ;
-    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sabine Gründer-Fahrer" ;
+    skos:prefLabel "Dr. Sabine Gründer-Fahrer" ;
     foaf:depiction "/images/people/SabineGruenderFahrer.jpg" ;
     foaf:name "Dr. Sabine Gründer-Fahrer" .
 
@@ -51,7 +53,7 @@
     dct:description "CTO, [eccenca GmbH](https://www.eccenca.com/)" ;
     schema:affiliation <http://aksw.org/Group>, <https://www.eccenca.com/> ;
     a foaf:Person ;
-    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sebastian Tramp" ;
+    skos:prefLabel "Dr. Sebastian Tramp" ;
     foaf:depiction "/images/people/SebastianTramp.png" ;
     foaf:homepage <http://aksw.org/SebastianTramp> ;
     foaf:name "Sebastian Tramp" .
@@ -60,7 +62,7 @@
     dct:description "[Institut für Informatik/HTWK Leipzig](https://www.htwk-leipzig.de/)" ;
     schema:affiliation <http://aksw.org/Group>, <https://htwk-leipzig.de/> ;
     a foaf:Person ;
-    <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Thomas Riechert" ;
+    skos:prefLabel "Prof. Dr. Thomas Riechert" ;
     foaf:depiction "/images/people/ThomasRiechert.png" ;
     foaf:homepage <http://aksw.org/ThomasRiechert> ;
     foaf:name "Thomas Riechert" .
@@ -84,78 +86,86 @@ schema:startDate
 <https://dataweek.de/>
     schema:date "04.07. bis 08.07.2022"@de, "July 4-8, 2022"@en ;
     schema:endDate "2022-07-08"^^xsd:date ;
-    schema:organizer <https://dataweek.de/#Team> ;
+    schema:organizer dw:Team ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:startDate "2022-07-04"^^xsd:date ;
-    schema:subEvent <https://dataweek.de/#opening>, <https://dataweek.de/bdib-22/>, <https://dataweek.de/d2r2-22/>, <https://dataweek.de/dbpedia-day-2022/>, <https://dataweek.de/kmi-22/>, <https://dataweek.de/lswt2022/> ;
+    schema:subEvent dw:opening, <https://dataweek.de/bdib-22/>, <https://dataweek.de/d2r2-22/>, <https://dataweek.de/dbpedia-day-2022/>, <https://dataweek.de/kmi-22/>, <https://dataweek.de/lswt2022/> ;
     a <http://rdfs.org/ns/void#Dataset>, schema:Event ;
     rdfs:label "Data Week Leipzig 2022" .
 
-<https://dataweek.de/#AndreasBoth>
+dw:AndreasBoth
     <http://purl.org/dc/elements/1.1/description> "[HTWK Leipzig](https://htwk-leipzig.de/)" ;
     dct:description "[Anhalt University of Applied Sciences](https://www.hs-anhalt.de/)" ;
     schema:affiliation <https://htwk-leipzig.de/> ;
     a foaf:Person ;
-    <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Andreas Both" ;
+    skos:prefLabel "Prof. Dr. Andreas Both" ;
     foaf:depiction "/images/people/AndreasBoth.jpg" ;
     foaf:homepage <http://www.andreasboth.de/en> ;
     foaf:name "Prof. Dr. Andreas Both" .
 
-<https://dataweek.de/#EricPeukert>
+dw:ErhardRahm
     schema:affiliation <https://scads.ai/> ;
     a foaf:Person ;
-    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Eric Peukert" ;
+    skos:prefLabel "Prof. Dr. Erhard Rahm" ;
+    foaf:depiction "/images/people/ErhardRahm.jpg" ;
+    foaf:name "Prof. Dr. Erhard Rahm" .
+
+dw:EricPeukert
+    schema:affiliation <https://scads.ai/> ;
+    a foaf:Person ;
+    skos:prefLabel "Dr. Eric Peukert" ;
     foaf:depiction "/images/people/EricPeukert.jpg" ;
     foaf:name "Dr. Eric Peukert" .
 
-<https://dataweek.de/#JanaBendigs>
+dw:JanaBendigs
     schema:affiliation <https://scads.ai/> ;
     a foaf:Person ;
-    <http://www.w3.org/2004/02/skos/core#prefLabel> "Jana Bendigs" ;
+    skos:prefLabel "Jana Bendigs" ;
     foaf:depiction "/images/people/JanaBendigs.jpg" ;
     foaf:name "Jana Bendigs" .
 
-<https://dataweek.de/#MiriamWelz>
+dw:MiriamWelz
     schema:affiliation <https://scads.ai/> ;
     a foaf:Person ;
-    <http://www.w3.org/2004/02/skos/core#prefLabel> "Miriam Welz" ;
+    skos:prefLabel "Miriam Welz" ;
     foaf:depiction "/images/people/MiriamWelz.jpg" ;
     foaf:name "Miriam Welz" .
 
-<https://dataweek.de/#NievesSande>
+dw:NievesSande
     schema:affiliation <https://www.eccenca.com/> ;
     a foaf:Person ;
-    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nieves Sande" ;
+    skos:prefLabel "Nieves Sande" ;
     foaf:depiction "/images/people/NievesSande.png" ;
     foaf:name "Nieves Sande" .
 
-<https://dataweek.de/#Team>
+dw:Team
     rdf:_1 <http://aksw.org/NatanaelArndt> ;
-    rdf:_2 <https://dataweek.de/#JanaBendigs> ;
+    rdf:_2 dw:JanaBendigs ;
     rdf:_3 <http://aksw.org/JuliaHolze> ;
     rdf:_4 <http://aksw.org/MichaelMartin> ;
-    rdf:_5 <https://dataweek.de/#NievesSande> ;
+    rdf:_5 dw:NievesSande ;
     rdf:_6 <http://aksw.org/SebastianTramp> ;
+    rdf:_7 dw:MiriamWelz ;
     rdfs:label "Organisationsteam"@de, "Organization Team"@en .
 
-<https://dataweek.de/#ThomasBurghardt>
+dw:ThomasBurghardt
     schema:affiliation <https://scads.ai/> ;
     a foaf:Person ;
-    <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Thomas Burghardt" ;
+    skos:prefLabel "Dr. Thomas Burghardt" ;
     foaf:depiction "/images/people/ThomasBurghardt.png" ;
     foaf:name "Dr. Thomas Burghardt" .
 
-<https://dataweek.de/#VeraMeister>
+dw:VeraMeister
     <http://purl.org/dc/elements/1.1/description> "Fachbereich Wirtschaft @ [TH Brandenburg](https://www.th-brandenburg.de/)" ;
     dct:description "[Technische Hochschule Brandenburg](https://th-brandenburg.de/)"^^<file:///data/> ;
     schema:affiliation <https://www.th-brandenburg.de/> ;
     a foaf:Person ;
-    <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Vera Meister" ;
+    skos:prefLabel "Prof. Dr. Vera Meister" ;
     foaf:depiction "/images/people/VeraMeister.png" ;
     foaf:homepage <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/> ;
     foaf:name "Prof. Dr. Vera Meister" .
 
-<https://dataweek.de/#opening>
+dw:opening
     schema:date "2022-07-04"^^xsd:date ;
     rdfs:label "Data Week Eröffnung"@de, "Data Week Opening Day"@en .
 
@@ -184,9 +194,10 @@ Darüber hinaus ermöglicht das Living Lab des ScaDS.AI Leipzig/Dresden die Prä
     rdfs:label "5. Big Data and AI in Business Workshop"@de, "5th Big Data and AI in Business Workshop"@en .
 
 <https://dataweek.de/bdib-22/#Team>
-    rdf:_1 <https://dataweek.de/#EricPeukert> ;
-    rdf:_2 <https://dataweek.de/#JanaBendigs> ;
-    rdf:_3 <https://dataweek.de/#MiriamWelz> .
+    rdf:_1 dw:ErhardRahm ;
+    rdf:_2 dw:EricPeukert ;
+    rdf:_3 dw:JanaBendigs ;
+    rdf:_4 dw:MiriamWelz .
 
 <https://dataweek.de/d2r2-22/>
     dct:description """
@@ -320,11 +331,11 @@ We invite contributions of novel results and ongoing work as well as position pa
 
 <https://dataweek.de/lswt2022/#Team>
     rdf:_1 <http://aksw.org/NatanaelArndt> ;
-    rdf:_2 <https://dataweek.de/#AndreasBoth> ;
+    rdf:_2 dw:AndreasBoth ;
     rdf:_3 <http://aksw.org/MichaelMartin> ;
-    rdf:_4 <https://dataweek.de/#VeraMeister> ;
+    rdf:_4 dw:VeraMeister ;
     rdf:_5 <http://aksw.org/ThomasRiechert> ;
-    rdf:_6 <https://dataweek.de/#NievesSande> ;
+    rdf:_6 dw:NievesSande ;
     rdf:_7 <http://aksw.org/SebastianTramp> ;
     rdfs:label "LSWT Team"@de, "LSWT Team"@en .
 
