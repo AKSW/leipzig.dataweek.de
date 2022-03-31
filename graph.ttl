@@ -8,63 +8,64 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ecc-ns: <https://ns.eccenca.com/> .
 @prefix site: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix aksw: <http://aksw.org/> .
 @prefix dw: <https://dataweek.de/#> .
 
-<http://aksw.org/Group>
+aksw:Group
     site:small_logo "/images/partner/AKSW_Logo_small.svg" ;
     a schema:Organization ;
     rdfs:label "AKSW Research Group" ;
     foaf:homepage <http://aksw.org/> ;
     foaf:logo "/images/partner/AKSW_Logo.svg" .
 
-<http://aksw.org/JuliaHolze>
+aksw:JuliaHolze
     schema:affiliation <https://dbpedia.org/>, <https://infai.org/> ;
     a foaf:Person ;
     skos:prefLabel "Julia Holze" ;
     foaf:depiction "/images/people/JuliaHolze.png" ;
     foaf:name "Julia Holze" .
 
-<http://aksw.org/MichaelMartin>
+aksw:MichaelMartin
     dct:description "Leiter Kompetenzzentrum @ [AKSW](http://aksw.org/)/[InfAI e.V.](https://infai.org/)" ;
-    schema:affiliation <http://aksw.org/Group>, <https://infai.org/> ;
+    schema:affiliation aksw:Group, <https://infai.org/> ;
     a foaf:Person ;
     skos:prefLabel "Dr. Michael Martin" ;
     foaf:depiction "/images/people/MichaelMartin.png" ;
-    foaf:homepage <http://aksw.org/MichaelMartin> ;
+    foaf:homepage aksw:MichaelMartin ;
     foaf:name "Michael Martin" .
 
-<http://aksw.org/NatanaelArndt>
+aksw:NatanaelArndt
     dct:description "Senior Linked Data Expert [eccenca GmbH](https://eccenca.com/)" ;
-    schema:affiliation <http://aksw.org/Group>, <https://www.eccenca.com/> ;
+    schema:affiliation aksw:Group, <https://www.eccenca.com/> ;
     a foaf:Person ;
     skos:prefLabel "Dr. Natanael Arndt" ;
     foaf:depiction "/images/people/NatanaelArndt.png" ;
-    foaf:homepage <http://aksw.org/NatanaelArndt> ;
+    foaf:homepage aksw:NatanaelArndt ;
     foaf:name "Natanael Arndt" .
 
-<http://aksw.org/SabineGruenderFahrer>
-    schema:affiliation <http://aksw.org/Group>, <https://infai.org/> ;
+aksw:SabineGruenderFahrer
+    schema:affiliation aksw:Group, <https://infai.org/> ;
     a foaf:Person ;
     skos:prefLabel "Dr. Sabine Gründer-Fahrer" ;
     foaf:depiction "/images/people/SabineGruenderFahrer.jpg" ;
     foaf:name "Dr. Sabine Gründer-Fahrer" .
 
-<http://aksw.org/SebastianTramp>
+aksw:SebastianTramp
     dct:description "CTO, [eccenca GmbH](https://www.eccenca.com/)" ;
-    schema:affiliation <http://aksw.org/Group>, <https://www.eccenca.com/> ;
+    schema:affiliation aksw:Group, <https://www.eccenca.com/> ;
     a foaf:Person ;
     skos:prefLabel "Dr. Sebastian Tramp" ;
     foaf:depiction "/images/people/SebastianTramp.png" ;
-    foaf:homepage <http://aksw.org/SebastianTramp> ;
+    foaf:homepage aksw:SebastianTramp ;
     foaf:name "Sebastian Tramp" .
 
-<http://aksw.org/ThomasRiechert>
+aksw:ThomasRiechert
     dct:description "[Institut für Informatik/HTWK Leipzig](https://www.htwk-leipzig.de/)" ;
-    schema:affiliation <http://aksw.org/Group>, <https://htwk-leipzig.de/> ;
+    schema:affiliation aksw:Group, <https://htwk-leipzig.de/> ;
     a foaf:Person ;
     skos:prefLabel "Prof. Dr. Thomas Riechert" ;
     foaf:depiction "/images/people/ThomasRiechert.png" ;
-    foaf:homepage <http://aksw.org/ThomasRiechert> ;
+    foaf:homepage aksw:ThomasRiechert ;
     foaf:name "Thomas Riechert" .
 
 schema:location
@@ -139,12 +140,12 @@ dw:NievesSande
     foaf:name "Nieves Sande" .
 
 dw:Team
-    rdf:_1 <http://aksw.org/NatanaelArndt> ;
+    rdf:_1 aksw:NatanaelArndt ;
     rdf:_2 dw:JanaBendigs ;
-    rdf:_3 <http://aksw.org/JuliaHolze> ;
-    rdf:_4 <http://aksw.org/MichaelMartin> ;
+    rdf:_3 aksw:JuliaHolze ;
+    rdf:_4 aksw:MichaelMartin ;
     rdf:_5 dw:NievesSande ;
-    rdf:_6 <http://aksw.org/SebastianTramp> ;
+    rdf:_6 aksw:SebastianTramp ;
     rdf:_7 dw:MiriamWelz ;
     rdfs:label "Organisationsteam"@de, "Organization Team"@en .
 
@@ -225,11 +226,11 @@ We invite contributions of novel results and ongoing work as well as position pa
     rdfs:label "Program Committee"@en, "Programmkomitee"@de .
 
 <https://dataweek.de/d2r2-22/#Team>
-    rdf:_1 <http://aksw.org/NatanaelArndt> ;
-    rdf:_2 <http://aksw.org/SabineGruenderFahrer> ;
-    rdf:_3 <http://aksw.org/JuliaHolze> ;
-    rdf:_4 <http://aksw.org/MichaelMartin> ;
-    rdf:_5 <http://aksw.org/SebastianTramp> ;
+    rdf:_1 aksw:NatanaelArndt ;
+    rdf:_2 aksw:SabineGruenderFahrer ;
+    rdf:_3 aksw:JuliaHolze ;
+    rdf:_4 aksw:MichaelMartin ;
+    rdf:_5 aksw:SebastianTramp ;
     rdfs:label "Organisationskomitee"@de, "Organizing Committee"@en .
 
 <https://dataweek.de/d2r2-22/#cfp>
@@ -307,7 +308,7 @@ We invite contributions of novel results and ongoing work as well as position pa
     rdfs:label "DBpedia Day"@de, "DBpedia Day"@en .
 
 <https://dataweek.de/dbpedia-day-2022/#Team>
-    rdf:_1 <http://aksw.org/JuliaHolze> .
+    rdf:_1 aksw:JuliaHolze .
 
 <https://dataweek.de/kmi-22/>
     schema:date "2022-07-08"^^xsd:date ;
@@ -333,13 +334,13 @@ We invite contributions of novel results and ongoing work as well as position pa
     rdfs:label "Call for Participation"@de, "Call for Participation"@en .
 
 <https://dataweek.de/lswt2022/#Team>
-    rdf:_1 <http://aksw.org/NatanaelArndt> ;
+    rdf:_1 aksw:NatanaelArndt ;
     rdf:_2 dw:AndreasBoth ;
-    rdf:_3 <http://aksw.org/MichaelMartin> ;
+    rdf:_3 aksw:MichaelMartin ;
     rdf:_4 dw:VeraMeister ;
-    rdf:_5 <http://aksw.org/ThomasRiechert> ;
+    rdf:_5 aksw:ThomasRiechert ;
     rdf:_6 dw:NievesSande ;
-    rdf:_7 <http://aksw.org/SebastianTramp> ;
+    rdf:_7 aksw:SebastianTramp ;
     rdfs:label "LSWT Team"@de, "LSWT Team"@en .
 
 <https://dbpedia.org/>
