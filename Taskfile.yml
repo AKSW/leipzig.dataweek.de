@@ -10,15 +10,28 @@ tasks:
       - task: normalize_turtle
       - task: sync_turtle_to_nt
       - task: styles
-      - task: build
+      - task: build_de
+      - task: build_en
+
+  serve:
+    cmds:
+      - python -m http.server --directory _site
 
   styles:
     cmds:
       - npx webpack
 
-  build:
+  build_de:
     cmds:
-      - bundle exec jekyll build
+      - bundle exec jekyll build -d _site
+    env:
+      JEKYLL_LANGUAGE: de
+
+  build_en:
+    cmds:
+      - bundle exec jekyll build -d _site/en
+    env:
+      JEKYLL_LANGUAGE: en
 
   sync_turtle_to_nt:
     cmds:
