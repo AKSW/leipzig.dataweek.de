@@ -57,8 +57,7 @@
 <https://2014.semantics.cc/> <http://www.w3.org/2000/01/rdf-schema#label> "SEMANTiCS Leipzig 2014" .
 <https://2016.semantics.cc/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2016.semantics.cc/> <http://www.w3.org/2000/01/rdf-schema#label> "SEMANTiCS Leipzig 2016" .
-<https://dataweek.de/#AndreasBoth> <http://purl.org/dc/elements/1.1/description> "[HTWK Leipzig](https://htwk-leipzig.de/)" .
-<https://dataweek.de/#AndreasBoth> <http://purl.org/dc/terms/description> "[Anhalt University of Applied Sciences](https://www.hs-anhalt.de/)" .
+<https://dataweek.de/#AndreasBoth> <http://purl.org/dc/terms/description> "[HTWK Leipzig](https://htwk-leipzig.de/)" .
 <https://dataweek.de/#AndreasBoth> <http://schema.org/affiliation> <https://htwk-leipzig.de/> .
 <https://dataweek.de/#AndreasBoth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AndreasBoth> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Andreas Both" .
@@ -104,7 +103,6 @@
 <https://dataweek.de/#ThomasBurghardt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Thomas Burghardt" .
 <https://dataweek.de/#ThomasBurghardt> <http://xmlns.com/foaf/0.1/depiction> "/images/people/ThomasBurghardt.png" .
 <https://dataweek.de/#ThomasBurghardt> <http://xmlns.com/foaf/0.1/name> "Dr. Thomas Burghardt" .
-<https://dataweek.de/#VeraMeister> <http://purl.org/dc/elements/1.1/description> "Fachbereich Wirtschaft @ [TH Brandenburg](https://www.th-brandenburg.de/)" .
 <https://dataweek.de/#VeraMeister> <http://purl.org/dc/terms/description> "[Technische Hochschule Brandenburg](https://th-brandenburg.de/)"^^<file:///data/> .
 <https://dataweek.de/#VeraMeister> <http://schema.org/affiliation> <https://www.th-brandenburg.de/> .
 <https://dataweek.de/#VeraMeister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -149,7 +147,7 @@
 <https://dataweek.de/d2r2-22/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/JuliaHolze> .
 <https://dataweek.de/d2r2-22/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/MichaelMartin> .
 <https://dataweek.de/d2r2-22/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://aksw.org/SebastianTramp> .
-<https://dataweek.de/d2r2-22/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationskomitee"@de .
+<https://dataweek.de/d2r2-22/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organizing Commitee"@de .
 <https://dataweek.de/d2r2-22/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organizing Committee"@en .
 <https://dataweek.de/d2r2-22/#cfp> <http://purl.org/dc/terms/description> "\n- **submission:**   6 May 2022\n- **notification:** 6 June 2022\n\n## TOPICS OF INTEREST\n- Information Visualization, Dashboard Technologies\n- Data Modeling, Vocabulary Engineering\n- Data Pipeline Architectures\n- Agile Data Integration\n- Continuous Integration\n- Artificial Intelligence\n- Data Analysis\n- Trend Mining and Analytics\n- Temporal and Geographic Data Management\n- Data Aggregation\n- User Interaction\n- Supply Chain Data Management\n- Versioning and Co-Evolution of Linked Data\n- Provenance Tracking and Exploitation\n- Corporate Memory and Big Data/Linked Data Integration\n- Organizational Data Applications\n- (Open) Data Services\n\n## SUBMISSION\n\n[https://easychair.org/conferences/?conf=d2r2-22](https://easychair.org/conferences/?conf=d2r2-22)\n\n- Maximum 10 pages (full papers) or 5 pages (short papers)\n- PDF or HTML, Papers must be formatted according to the [LNCS format specifications](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) (Word and LaTeX) for HTML please see the [ESWC guidelines]({https://2022.eswc-conferences.org/html-submission-guide/).\n- Reviews will be carried out in a single-blind mode.\n- Accepted contributions will be published in the Open Access CEUR proceedings.\n- At least one author of an accepted paper must register for the workshop to present their work.\n"@de .
 <https://dataweek.de/d2r2-22/#cfp> <http://purl.org/dc/terms/description> "\n- **submission:**   6 May 2022\n- **notification:** 6 June 2022\n\n## TOPICS OF INTEREST\n- Information Visualization, Dashboard Technologies\n- Data Modeling, Vocabulary Engineering\n- Data Pipeline Architectures\n- Agile Data Integration\n- Continuous Integration\n- Artificial Intelligence\n- Data Analysis\n- Trend Mining and Analytics\n- Temporal and Geographic Data Management\n- Data Aggregation\n- User Interaction\n- Supply Chain Data Management\n- Versioning and Co-Evolution of Linked Data\n- Provenance Tracking and Exploitation\n- Organizational Data Applications\n- (Open) Data Services\n\n## SUBMISSION\n\n[https://easychair.org/conferences/?conf=d2r2-22](https://easychair.org/conferences/?conf=d2r2-22)\n\n- Maximum 10 pages (full papers) or 5 pages (short papers)\n- PDF or HTML, Papers must be formatted according to the [LNCS format specifications](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) (Word and LaTeX) for HTML please see the [ESWC guidelines]({https://2022.eswc-conferences.org/html-submission-guide/).\n- Reviews will be carried out in a single-blind mode.\n- Accepted contributions will be published in the Open Access CEUR proceedings.\n- At least one author of an accepted paper must register for the workshop to present their work.\n"@en .
@@ -194,6 +192,8 @@
 <https://dataweek.de/lswt2022/> <http://purl.org/dc/terms/description> "Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology.\n  These emphases are demonstrated in presentations by experts from industry and science.\n If you have any further questions don't hesitate to contact the organisation team."@en .
 <https://dataweek.de/lswt2022/> <http://schema.org/date> "2022-07-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://dataweek.de/lswt2022/> <http://schema.org/organizer> <https://dataweek.de/lswt2022/#Team> .
+<https://dataweek.de/lswt2022/> <http://schema.org/slogan> "Knowledge Graphs for Organizational Data Spaces"@en .
+<https://dataweek.de/lswt2022/> <http://schema.org/slogan> "Wissensgraphen in Unternehmen und Organisationen"@de .
 <https://dataweek.de/lswt2022/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/lswt2022/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://dataweek.de/lswt2022/> <http://www.w3.org/2000/01/rdf-schema#label> "10. Leipziger Semantic Web Tag"@de .

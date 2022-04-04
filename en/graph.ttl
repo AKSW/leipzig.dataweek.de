@@ -95,8 +95,7 @@ schema:startDate
     rdfs:label "Data Week Leipzig 2022" .
 
 dw:AndreasBoth
-    <http://purl.org/dc/elements/1.1/description> "[HTWK Leipzig](https://htwk-leipzig.de/)" ;
-    dct:description "[Anhalt University of Applied Sciences](https://www.hs-anhalt.de/)" ;
+    dct:description "[HTWK Leipzig](https://htwk-leipzig.de/)" ;
     schema:affiliation <https://htwk-leipzig.de/> ;
     a foaf:Person ;
     skos:prefLabel "Prof. Dr. Andreas Both" ;
@@ -157,7 +156,6 @@ dw:ThomasBurghardt
     foaf:name "Dr. Thomas Burghardt" .
 
 dw:VeraMeister
-    <http://purl.org/dc/elements/1.1/description> "Fachbereich Wirtschaft @ [TH Brandenburg](https://www.th-brandenburg.de/)" ;
     dct:description "[Technische Hochschule Brandenburg](https://th-brandenburg.de/)"^^<file:///data/> ;
     schema:affiliation <https://www.th-brandenburg.de/> ;
     a foaf:Person ;
@@ -324,6 +322,7 @@ We invite contributions of novel results and ongoing work as well as position pa
  If you have any further questions don't hesitate to contact the organisation team."""@en ;
     schema:date "2022-07-05"^^xsd:date ;
     schema:organizer <https://dataweek.de/lswt2022/#Team> ;
+    schema:slogan "Knowledge Graphs for Organizational Data Spaces"@en, "Wissensgraphen in Unternehmen und Organisationen"@de ;
     a schema:Event, foaf:Document ;
     rdfs:label "10. Leipziger Semantic Web Tag"@de, "10th Leipzig Semantic Web Day"@en ;
     owl:sameAs <https://lswt2022.aksw.org/> .
