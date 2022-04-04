@@ -9,29 +9,57 @@
 
     {% assign title = page.rdf | rdf_property: "rdfs:label", site.language %}
     {% assign slogan = page.rdf | rdf_property: "schema:slogan", site.language | strip %}
+    {% assign abstract = page.rdf | rdf_property: "schema:abstract", page.language | markdownify | strip_html | strip %}
     {% assign description = page.rdf | rdf_property: "dct:description", page.language | markdownify | strip_html | strip %}
     {% assign logo = page.rdf | rdf_property: "schema:logo" %}
+    {% assign root_title = rootResource | rdf_property: "rdfs:label", page.language %}
 
     {% if title %}
     {% assign media_title = title %}
     {% assign media_slogan = slogan %}
     {% else %}
-    {% assign media_title = rootResource | rdf_property: "rdfs:label", page.language %}
+    {% assign media_title = root_title %}
     {% assign media_slogan = rootResource | rdf_property: "schema:slogan", site.language %}
     {% endif %}
 
+
+    {% if abstract != nil and abstract != '' %}
+    {% assign media_description = abstract %}
+    {% endif %}
+
+    {% unless media_description %}
     {% if description != nil and description != '' %}
     {% assign media_description = description %}
-    {% else %}
+    {% endif %}
+    {% endunless %}
+
+    {% unless media_description %}
     {% if slogan != nil and slogan != '' %}
     {% assign media_description = slogan %}
-    {% else %}
-    {% assign media_description = rootResource | rdf_property: "dct:description", page.language | markdownify | strip_html | strip %}
-    {% unless media_description != nil and media_description != '' %}
-    {% assign media_description = rootResource | rdf_property: "schema:slogan", site.language %}
+    {% endif %}
     {% endunless %}
+
+    {% unless media_description %}
+    {% assign root_abstract = rootResource | rdf_property: "schema:abstract", page.language | markdownify | strip_html | strip %}
+    {% if root_abstract != nil and root_abstract != '' %}
+    {% assign media_description = root_abstract %}
     {% endif %}
+    {% endunless %}
+
+    {% unless media_description %}
+    {% assign root_description = rootResource | rdf_property: "dct:description", page.language | markdownify | strip_html | strip %}
+    {% if root_description != nil and root_description != '' %}
+    {% assign media_description = root_description %}
     {% endif %}
+    {% endunless %}
+
+    {% unless media_description %}
+    {% assign root_slogan = rootResource | rdf_property: "schema:slogan", site.language %}
+    {% if root_slogan != nil and root_slogan != '' %}
+    {% assign media_description = root_slogan %}
+    {% endif %}
+    {% endunless %}
+
 
     {% if logo != nil and logo != '' %}
     {% assign media_logo = logo %}
