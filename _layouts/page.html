@@ -1,7 +1,7 @@
 ---
 ---
 <!doctype html>
-<html lang="{{ site.language }}">
+<html lang="{{ site.language }}" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -78,8 +78,9 @@
     <meta name="twitter:title" content="{{ media_title }}">
 
     <meta name="description" content="{{ media_description }}">
-    <meta name="og:description" content="{{ media_description }}">
+    <meta property="og:description" content="{{ media_description }}">
     <meta name="twitter:description" content="{{ media_description }}">
+    <meta property="og:image" content="{{ media_logo }}">
     <meta name="twitter:image" content="{{ media_logo }}">
 
     <meta name="twitter:site" content="{{ site.twitter_username }}">
