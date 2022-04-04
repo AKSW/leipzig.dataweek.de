@@ -60,7 +60,7 @@
 <https://connectedurbantwins.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://connectedurbantwins.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Connected Urban Twins" .
 <https://connectedurbantwins.de/> <http://xmlns.com/foaf/0.1/homepage> <https://connectedurbantwins.de/> .
-<https://connectedurbantwins.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/CUT_Logo.png" .
+<https://connectedurbantwins.de/> <http://xmlns.com/foaf/0.1/logo> "/images/CUT_Logo.png" .
 <https://dataweek.de/#AndreasBoth> <http://purl.org/dc/terms/description> "[HTWK Leipzig](https://htwk-leipzig.de/)" .
 <https://dataweek.de/#AndreasBoth> <http://schema.org/affiliation> <https://htwk-leipzig.de/> .
 <https://dataweek.de/#AndreasBoth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -83,11 +83,23 @@
 <https://dataweek.de/#JanaBendigs> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jana Bendigs" .
 <https://dataweek.de/#JanaBendigs> <http://xmlns.com/foaf/0.1/depiction> "/images/people/JanaBendigs.jpg" .
 <https://dataweek.de/#JanaBendigs> <http://xmlns.com/foaf/0.1/name> "Jana Bendigs" .
+<https://dataweek.de/#KathrinMehler> <http://schema.org/affiliation> <https://connectedurbantwins.de/> .
+<https://dataweek.de/#KathrinMehler> <http://schema.org/affiliation> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
+<https://dataweek.de/#KathrinMehler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#KathrinMehler> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kathrin Mehler" .
+<https://dataweek.de/#KathrinMehler> <http://xmlns.com/foaf/0.1/depiction> "/images/people/KathrinMehler.jpg" .
+<https://dataweek.de/#KathrinMehler> <http://xmlns.com/foaf/0.1/name> "Kathrin Mehler" .
 <https://dataweek.de/#MiriamWelz> <http://schema.org/affiliation> <https://scads.ai/> .
 <https://dataweek.de/#MiriamWelz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MiriamWelz> <http://www.w3.org/2004/02/skos/core#prefLabel> "Miriam Welz" .
 <https://dataweek.de/#MiriamWelz> <http://xmlns.com/foaf/0.1/depiction> "/images/people/MiriamWelz.jpg" .
 <https://dataweek.de/#MiriamWelz> <http://xmlns.com/foaf/0.1/name> "Miriam Welz" .
+<https://dataweek.de/#MirkoMuehlpfort> <http://schema.org/affiliation> <https://connectedurbantwins.de/> .
+<https://dataweek.de/#MirkoMuehlpfort> <http://schema.org/affiliation> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
+<https://dataweek.de/#MirkoMuehlpfort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MirkoMuehlpfort> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mirko M\u00FChlpfort" .
+<https://dataweek.de/#MirkoMuehlpfort> <http://xmlns.com/foaf/0.1/depiction> "/images/people/MirkoMuehlpfort.jpg" .
+<https://dataweek.de/#MirkoMuehlpfort> <http://xmlns.com/foaf/0.1/name> "Mirko M\u00FChlpfort" .
 <https://dataweek.de/#NievesSande> <http://schema.org/affiliation> <https://www.eccenca.com/> .
 <https://dataweek.de/#NievesSande> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#NievesSande> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nieves Sande" .
@@ -114,9 +126,6 @@
 <https://dataweek.de/#VeraMeister> <http://xmlns.com/foaf/0.1/depiction> "/images/people/VeraMeister.png" .
 <https://dataweek.de/#VeraMeister> <http://xmlns.com/foaf/0.1/homepage> <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/> .
 <https://dataweek.de/#VeraMeister> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Vera Meister" .
-<https://dataweek.de/#opening> <http://schema.org/date> "2022-07-04"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://dataweek.de/#opening> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Er\u00F6ffnung"@de .
-<https://dataweek.de/#opening> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Opening Day"@en .
 <https://dataweek.de/> <http://schema.org/date> "04.07. bis 08.07.2022"@de .
 <https://dataweek.de/> <http://schema.org/date> "July 4-8, 2022"@en .
 <https://dataweek.de/> <http://schema.org/endDate> "2022-07-08"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -124,13 +133,13 @@
 <https://dataweek.de/> <http://schema.org/slogan> "Forum for Data and AI Enthusiasts in Leipzig"@en .
 <https://dataweek.de/> <http://schema.org/slogan> "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de .
 <https://dataweek.de/> <http://schema.org/startDate> "2022-07-04"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/#opening> .
 <https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/bdib-22/> .
 <https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/> .
 <https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/> .
 <https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/gi-leipzig-2022/> .
 <https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/kmi-22/> .
 <https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/lswt2022/> .
+<https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/openingday/> .
 <https://dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
 <https://dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2022" .
@@ -216,6 +225,19 @@
 <https://dataweek.de/lswt2022/> <http://www.w3.org/2000/01/rdf-schema#label> "10. Leipziger Semantic Web Tag"@de .
 <https://dataweek.de/lswt2022/> <http://www.w3.org/2000/01/rdf-schema#label> "10th Leipzig Semantic Web Day"@en .
 <https://dataweek.de/lswt2022/> <http://www.w3.org/2002/07/owl#sameAs> <https://lswt2022.aksw.org/> .
+<https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://dataweek.de/#JanaBendigs> .
+<https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/JuliaHolze> .
+<https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/MichaelMartin> .
+<https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://dataweek.de/#KathrinMehler> .
+<https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://dataweek.de/#MirkoMuehlpfort> .
+<https://dataweek.de/openingday/> <http://schema.org/date> "2022-07-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://dataweek.de/openingday/> <http://schema.org/organizer> <https://dataweek.de/openingday/#Team> .
+<https://dataweek.de/openingday/> <http://schema.org/slogan> "Daten (be)f\u00F6rdern, verstehen und anwenden"@de .
+<https://dataweek.de/openingday/> <http://schema.org/slogan> "Daten (be)f\u00F6rdern, verstehen und anwenden"@en .
+<https://dataweek.de/openingday/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/openingday/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://dataweek.de/openingday/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Er\u00F6ffnung"@de .
+<https://dataweek.de/openingday/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Opening Day"@en .
 <https://dbpedia.org/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/DBpediaLogo.svg" .
 <https://dbpedia.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://dbpedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Association" .

@@ -88,7 +88,7 @@ schema:startDate
     a schema:Organization ;
     rdfs:label "Connected Urban Twins" ;
     foaf:homepage <https://connectedurbantwins.de/> ;
-    foaf:logo "/images/partner/CUT_Logo.png" .
+    foaf:logo "/images/CUT_Logo.png" .
 
 <https://dataweek.de/>
     schema:date "04.07. bis 08.07.2022"@de, "July 4-8, 2022"@en ;
@@ -96,7 +96,7 @@ schema:startDate
     schema:organizer dw:Team ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:startDate "2022-07-04"^^xsd:date ;
-    schema:subEvent dw:opening, <https://dataweek.de/bdib-22/>, <https://dataweek.de/d2r2-22/>, <https://dataweek.de/dbpedia-day-2022/>, <https://dataweek.de/kmi-22/>, <https://dataweek.de/lswt2022/>, <https://dataweek.de/gi-leipzig-2022/> ;
+    schema:subEvent <https://dataweek.de/bdib-22/>, <https://dataweek.de/d2r2-22/>, <https://dataweek.de/dbpedia-day-2022/>, <https://dataweek.de/gi-leipzig-2022/>, <https://dataweek.de/kmi-22/>, <https://dataweek.de/lswt2022/>, <https://dataweek.de/openingday/> ;
     a <http://rdfs.org/ns/void#Dataset>, schema:Event ;
     rdfs:label "Data Week Leipzig 2022" .
 
@@ -130,12 +130,26 @@ dw:JanaBendigs
     foaf:depiction "/images/people/JanaBendigs.jpg" ;
     foaf:name "Jana Bendigs" .
 
+dw:KathrinMehler
+    schema:affiliation <https://connectedurbantwins.de/>, <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    a foaf:Person ;
+    skos:prefLabel "Kathrin Mehler" ;
+    foaf:depiction "/images/people/KathrinMehler.jpg" ;
+    foaf:name "Kathrin Mehler" .
+
 dw:MiriamWelz
     schema:affiliation <https://scads.ai/> ;
     a foaf:Person ;
     skos:prefLabel "Miriam Welz" ;
     foaf:depiction "/images/people/MiriamWelz.jpg" ;
     foaf:name "Miriam Welz" .
+
+dw:MirkoMuehlpfort
+    schema:affiliation <https://connectedurbantwins.de/>, <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    a foaf:Person ;
+    skos:prefLabel "Mirko Mühlpfort" ;
+    foaf:depiction "/images/people/MirkoMuehlpfort.jpg" ;
+    foaf:name "Mirko Mühlpfort" .
 
 dw:NievesSande
     schema:affiliation <https://www.eccenca.com/> ;
@@ -169,10 +183,6 @@ dw:VeraMeister
     foaf:depiction "/images/people/VeraMeister.png" ;
     foaf:homepage <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/> ;
     foaf:name "Prof. Dr. Vera Meister" .
-
-dw:opening
-    schema:date "2022-07-04"^^xsd:date ;
-    rdfs:label "Data Week Eröffnung"@de, "Data Week Opening Day"@en .
 
 <https://dataweek.de/bdib-22/>
     dct:description """
@@ -360,6 +370,20 @@ We invite contributions of novel results and ongoing work as well as position pa
     rdf:_7 aksw:SebastianTramp ;
     rdfs:label "LSWT Team"@de, "LSWT Team"@en .
 
+<https://dataweek.de/openingday/>
+    schema:date "2022-07-04"^^xsd:date ;
+    schema:organizer <https://dataweek.de/openingday/#Team> ;
+    schema:slogan "Daten (be)fördern, verstehen und anwenden"@de, "Daten (be)fördern, verstehen und anwenden"@en ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Data Week Eröffnung"@de, "Data Week Opening Day"@en .
+
+<https://dataweek.de/openingday/#Team>
+    rdf:_1 dw:JanaBendigs ;
+    rdf:_2 aksw:JuliaHolze ;
+    rdf:_3 aksw:MichaelMartin ;
+    rdf:_4 dw:KathrinMehler ;
+    rdf:_5 dw:MirkoMuehlpfort .
+
 <https://dbpedia.org/>
     site:small_logo "/images/partner/DBpediaLogo.svg" ;
     a schema:Organization ;
@@ -414,3 +438,4 @@ We invite contributions of novel results and ongoing work as well as position pa
     rdfs:label "Technische Hochschule Brandenburg" ;
     foaf:homepage <https://www.th-brandenburg.de/> ;
     foaf:logo "/images/partner/THB.svg" .
+

@@ -33,6 +33,15 @@ tasks:
     env:
       JEKYLL_LANGUAGE: en
 
+  sync_clean:
+    cmds:
+      - task: graph_clean
+      - task: sync_turtle_to_nt
+
+  graph_clean:
+    cmds:
+      - git restore graph.nt
+
   sync_turtle_to_nt:
     cmds:
       - |
