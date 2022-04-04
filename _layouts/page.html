@@ -5,9 +5,60 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Leipzig Data Week</title>
-    <meta property="og:title" content="Leipzig Data Week">
-    <meta name="twitter:title" content="Leipzig Data Week">
+    {% assign rootResource = site.rootResource | rdf_get %}
+
+    {% assign title = page.rdf | rdf_property: "rdfs:label", site.language %}
+    {% assign slogan = page.rdf | rdf_property: "schema:slogan", site.language | strip %}
+    {% assign description = page.rdf | rdf_property: "dct:description", page.language | markdownify | strip_html | strip %}
+    {% assign logo = page.rdf | rdf_property: "schema:logo" %}
+
+    {% if title %}
+    {% assign media_title = title %}
+    {% assign media_slogan = slogan %}
+    {% else %}
+    {% assign media_title = rootResource | rdf_property: "rdfs:label", page.language %}
+    {% assign media_slogan = rootResource | rdf_property: "schema:slogan", site.language %}
+    {% endif %}
+
+    {% if description != nil and description != '' %}
+    {% assign media_description = description %}
+    {% else %}
+    {% if slogan != nil and slogan != '' %}
+    {% assign media_description = slogan %}
+    {% else %}
+    {% assign media_description = rootResource | rdf_property: "dct:description", page.language | markdownify | strip_html | strip %}
+    {% unless media_description != nil and media_description != '' %}
+    {% assign media_description = rootResource | rdf_property: "schema:slogan", site.language %}
+    {% endunless %}
+    {% endif %}
+    {% endif %}
+
+    {% if logo != nil and logo != '' %}
+    {% assign media_logo = logo %}
+    {% else %}
+    {% assign media_logo = rootResource | rdf_property: "schema:logo" %}
+    {% endif %}
+
+    {% if media_logo.iri %}
+    {% assign media_logo = media_logo.page_url | relativize_url %}
+    {% else %}
+    {% assign media_logo = media_logo | relativize_url %}
+    {% endif %}
+
+    <title>{{ media_title }}</title>
+    <meta property="og:title" content="{{ media_title }}">
+    <meta name="twitter:title" content="{{ media_title }}">
+
+    <meta name="description" content="{{ media_description }}">
+    <meta name="og:description" content="{{ media_description }}">
+    <meta name="twitter:description" content="{{ media_description }}">
+    <meta name="twitter:image" content="{{ media_logo }}">
+
+    <meta name="twitter:site" content="{{ site.twitter_username }}">
+
+    <meta property="og:type" content="article">
+    <meta name="twitter:card" content="summary">
+
     <link rel="stylesheet" type="text/css" href="{% relative_link /dist/main.css %}" />
 
   </head>
