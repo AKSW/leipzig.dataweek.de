@@ -84,19 +84,26 @@ schema:startDate
     a schema:Event ;
     rdfs:label "SEMANTiCS Leipzig 2016" .
 
+<https://connectedurbantwins.de/>
+    a schema:Organization ;
+    rdfs:label "Connected Urban Twins" ;
+    foaf:homepage <https://connectedurbantwins.de/> ;
+    foaf:logo "/images/CUT_Logo.png" .
+
 <https://dataweek.de/>
+    schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
     schema:date "04.07. bis 08.07.2022"@de, "July 4-8, 2022"@en ;
     schema:endDate "2022-07-08"^^xsd:date ;
+    schema:logo <https://dataweek.de/images/DataWeek_Logo.png> ;
     schema:organizer dw:Team ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:startDate "2022-07-04"^^xsd:date ;
-    schema:subEvent dw:opening, <https://dataweek.de/bdib-22/>, <https://dataweek.de/d2r2-22/>, <https://dataweek.de/dbpedia-day-2022/>, <https://dataweek.de/kmi-22/>, <https://dataweek.de/lswt2022/> ;
+    schema:subEvent <https://dataweek.de/bdib-22/>, <https://dataweek.de/d2r2-22/>, <https://dataweek.de/dbpedia-day-2022/>, <https://dataweek.de/gi-leipzig-2022/>, <https://dataweek.de/kmi-22/>, <https://dataweek.de/lswt2022/>, <https://dataweek.de/openingday/> ;
     a <http://rdfs.org/ns/void#Dataset>, schema:Event ;
     rdfs:label "Data Week Leipzig 2022" .
 
 dw:AndreasBoth
-    <http://purl.org/dc/elements/1.1/description> "[HTWK Leipzig](https://htwk-leipzig.de/)" ;
-    dct:description "[Anhalt University of Applied Sciences](https://www.hs-anhalt.de/)" ;
+    dct:description "[HTWK Leipzig](https://htwk-leipzig.de/)" ;
     schema:affiliation <https://htwk-leipzig.de/> ;
     a foaf:Person ;
     skos:prefLabel "Prof. Dr. Andreas Both" ;
@@ -125,12 +132,26 @@ dw:JanaBendigs
     foaf:depiction "/images/people/JanaBendigs.jpg" ;
     foaf:name "Jana Bendigs" .
 
+dw:KathrinMehler
+    schema:affiliation <https://connectedurbantwins.de/>, <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    a foaf:Person ;
+    skos:prefLabel "Kathrin Mehler" ;
+    foaf:depiction "/images/people/KathrinMehler.jpg" ;
+    foaf:name "Kathrin Mehler" .
+
 dw:MiriamWelz
     schema:affiliation <https://scads.ai/> ;
     a foaf:Person ;
     skos:prefLabel "Miriam Welz" ;
     foaf:depiction "/images/people/MiriamWelz.jpg" ;
     foaf:name "Miriam Welz" .
+
+dw:MirkoMuehlpfort
+    schema:affiliation <https://connectedurbantwins.de/>, <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    a foaf:Person ;
+    skos:prefLabel "Mirko Mühlpfort" ;
+    foaf:depiction "/images/people/MirkoMuehlpfort.jpg" ;
+    foaf:name "Mirko Mühlpfort" .
 
 dw:NievesSande
     schema:affiliation <https://www.eccenca.com/> ;
@@ -157,7 +178,6 @@ dw:ThomasBurghardt
     foaf:name "Dr. Thomas Burghardt" .
 
 dw:VeraMeister
-    <http://purl.org/dc/elements/1.1/description> "Fachbereich Wirtschaft @ [TH Brandenburg](https://www.th-brandenburg.de/)" ;
     dct:description "[Technische Hochschule Brandenburg](https://th-brandenburg.de/)"^^<file:///data/> ;
     schema:affiliation <https://www.th-brandenburg.de/> ;
     a foaf:Person ;
@@ -165,10 +185,6 @@ dw:VeraMeister
     foaf:depiction "/images/people/VeraMeister.png" ;
     foaf:homepage <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/> ;
     foaf:name "Prof. Dr. Vera Meister" .
-
-dw:opening
-    schema:date "2022-07-04"^^xsd:date ;
-    rdfs:label "Data Week Eröffnung"@de, "Data Week Opening Day"@en .
 
 <https://dataweek.de/bdib-22/>
     dct:description """
@@ -190,6 +206,7 @@ Die BDIB fördert dabei den Transfer von Forschungsergebnissen im Bereich Big Da
 
 Darüber hinaus ermöglicht das Living Lab des ScaDS.AI Leipzig/Dresden die Präsentation aktueller Forschungsergebnisse mithilfe von Demonstratoren, als Inspiration für innovative Ansätze sowie Ausgangspunkt gemeinsamer Pilot und Kooperationsprojekte. Einen Ausklang findet der Workshop-Tag in einer gemeinsamen Runde mit Abendessen im Ratskeller Leipzig. Wir freuen uns auf spannende Diskussionen und einen bereichernden Austausch. Das Programm sowie weiterführende Hinweise zur Anmeldung erfolgen zeitnah an dieser Stelle und auf der Webseite des ScaDS.AI Dresden/Leipzig."""@de ;
     schema:date "2022-07-07"^^xsd:date ;
+    schema:logo <https://dataweek.de/bdib-22/bdib-poster-v1.png> ;
     schema:organizer <https://dataweek.de/bdib-22/#Team> ;
     a schema:Event ;
     rdfs:label "5. Big Data and AI in Business Workshop"@de, "5th Big Data and AI in Business Workshop"@en .
@@ -216,7 +233,15 @@ The D2R2’22 workshop will provide an open forum to exchange current issues, id
 Ongoing technological developments, current research approaches as well as use case scenarios, and field reports will be presented and discussed with a broad and multi-disciplinary specialist audience.
 We invite contributions of novel results and ongoing work as well as position papers focusing on various aspects of Data-driven Resilience Research from a scientific or practical perspective.
 """@en ;
+    schema:abstract """
+The D2R2’22 workshop will provide an open forum to exchange current issues, ideas, and trends in the area of Data-driven Resilience Research among scientists, software engineers, resilience practitioners, and domain experts.
+Ongoing technological developments, current research approaches as well as use case scenarios, and field reports will be presented and discussed with a broad and multi-disciplinary specialist audience.
+We invite contributions of novel results and ongoing work as well as position papers focusing on various aspects of Data-driven Resilience Research from a scientific or practical perspective."""@de, """
+The D2R2’22 workshop will provide an open forum to exchange current issues, ideas, and trends in the area of Data-driven Resilience Research among scientists, software engineers, resilience practitioners, and domain experts.
+Ongoing technological developments, current research approaches as well as use case scenarios, and field reports will be presented and discussed with a broad and multi-disciplinary specialist audience.
+We invite contributions of novel results and ongoing work as well as position papers focusing on various aspects of Data-driven Resilience Research from a scientific or practical perspective."""@en ;
     schema:date "2022-07-06"^^xsd:date ;
+    schema:logo <https://dataweek.de/d2r2-22/logo.png> ;
     schema:organizer <https://dataweek.de/d2r2-22/#Team> ;
     a schema:Event, foaf:Document ;
     rdfs:label "International Workshop on Data-driven Resilience Research 2022"@de, "International Workshop on Data-driven Resilience Research 2022"@en ;
@@ -231,7 +256,7 @@ We invite contributions of novel results and ongoing work as well as position pa
     rdf:_3 aksw:JuliaHolze ;
     rdf:_4 aksw:MichaelMartin ;
     rdf:_5 aksw:SebastianTramp ;
-    rdfs:label "Organisationskomitee"@de, "Organizing Committee"@en .
+    rdfs:label "Organizing Commitee"@de, "Organizing Committee"@en .
 
 <https://dataweek.de/d2r2-22/#cfp>
     dct:description """
@@ -310,6 +335,18 @@ We invite contributions of novel results and ongoing work as well as position pa
 <https://dataweek.de/dbpedia-day-2022/#Team>
     rdf:_1 aksw:JuliaHolze .
 
+<https://dataweek.de/gi-leipzig-2022/>
+    schema:date "2022-07-08"^^xsd:date ;
+    schema:organizer <https://dataweek.de/gi-leipzig-2022/#Team> ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Quo Vadis Informatik in der Metropolregion Leipzig/Halle"@de, "Quo Vadis Informatik in the Leipzig/Halle Metropolitan Area"@en .
+
+<https://dataweek.de/gi-leipzig-2022/#Team>
+    dct:description "Regionalgruppe Leipzig/Mitteldeutschland der Gesellschaft für Informatik e.V. and German Chapter of the ACM"@de, "Regionalgruppe Leipzig/Mitteldeutschland der Gesellschaft für Informatik e.V. and German Chapter of the ACM"@en ;
+    rdf:_1 dw:AndreasBoth ;
+    rdf:_2 aksw:ThomasRiechert ;
+    rdfs:label "Organisationsteam"@de, "Organization Team"@en .
+
 <https://dataweek.de/kmi-22/>
     schema:date "2022-07-08"^^xsd:date ;
     schema:organizer <https://dataweek.de/kmi-22/#Team> ;
@@ -324,6 +361,7 @@ We invite contributions of novel results and ongoing work as well as position pa
  If you have any further questions don't hesitate to contact the organisation team."""@en ;
     schema:date "2022-07-05"^^xsd:date ;
     schema:organizer <https://dataweek.de/lswt2022/#Team> ;
+    schema:slogan "Knowledge Graphs for Organizational Data Spaces"@en, "Wissensgraphen in Unternehmen und Organisationen"@de ;
     a schema:Event, foaf:Document ;
     rdfs:label "10. Leipziger Semantic Web Tag"@de, "10th Leipzig Semantic Web Day"@en ;
     owl:sameAs <https://lswt2022.aksw.org/> .
@@ -343,12 +381,32 @@ We invite contributions of novel results and ongoing work as well as position pa
     rdf:_7 aksw:SebastianTramp ;
     rdfs:label "LSWT Team"@de, "LSWT Team"@en .
 
+<https://dataweek.de/openingday/>
+    schema:date "2022-07-04"^^xsd:date ;
+    schema:organizer <https://dataweek.de/openingday/#Team> ;
+    schema:slogan "Daten (be)fördern, verstehen und anwenden"@de, "Promote, Appreciate and Apply the Data"@en ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Data Week Eröffnung"@de, "Data Week Opening Day"@en .
+
+<https://dataweek.de/openingday/#Team>
+    rdf:_1 dw:JanaBendigs ;
+    rdf:_2 aksw:JuliaHolze ;
+    rdf:_3 aksw:MichaelMartin ;
+    rdf:_4 dw:KathrinMehler ;
+    rdf:_5 dw:MirkoMuehlpfort .
+
 <https://dbpedia.org/>
     site:small_logo "/images/partner/DBpediaLogo.svg" ;
     a schema:Organization ;
     rdfs:label "DBpedia Association" ;
     foaf:homepage <https://dbpedia.org/> ;
     foaf:logo "/images/partner/DBpediaLogo.svg" .
+
+<https://digitalcampus.leipzig.de/referat-digitale-stadt/>
+    a schema:Organization ;
+    rdfs:label "Referat Digitale Stadt" ;
+    foaf:homepage <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    foaf:logo "/images/partner/Referat_Digitale_Stadt.png" .
 
 <https://htwk-leipzig.de/>
     a schema:Organization ;
@@ -391,4 +449,3 @@ We invite contributions of novel results and ongoing work as well as position pa
     rdfs:label "Technische Hochschule Brandenburg" ;
     foaf:homepage <https://www.th-brandenburg.de/> ;
     foaf:logo "/images/partner/THB.svg" .
-
