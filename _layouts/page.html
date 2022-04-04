@@ -68,7 +68,7 @@
     {% endif %}
 
     {% if media_logo.iri %}
-    {% assign media_logo = media_logo.page_url %}
+    {% assign media_logo = media_logo %}
     {% else %}
     {% assign media_logo = media_logo | relativize_url %}
     {% endif %}
