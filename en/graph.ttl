@@ -93,6 +93,7 @@ schema:startDate
 <https://dataweek.de/>
     schema:date "04.07. bis 08.07.2022"@de, "July 4-8, 2022"@en ;
     schema:endDate "2022-07-08"^^xsd:date ;
+    schema:logo "/images/DataWeek_Logo.svg" ;
     schema:organizer dw:Team ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:startDate "2022-07-04"^^xsd:date ;
@@ -204,6 +205,7 @@ Die BDIB fördert dabei den Transfer von Forschungsergebnissen im Bereich Big Da
 
 Darüber hinaus ermöglicht das Living Lab des ScaDS.AI Leipzig/Dresden die Präsentation aktueller Forschungsergebnisse mithilfe von Demonstratoren, als Inspiration für innovative Ansätze sowie Ausgangspunkt gemeinsamer Pilot und Kooperationsprojekte. Einen Ausklang findet der Workshop-Tag in einer gemeinsamen Runde mit Abendessen im Ratskeller Leipzig. Wir freuen uns auf spannende Diskussionen und einen bereichernden Austausch. Das Programm sowie weiterführende Hinweise zur Anmeldung erfolgen zeitnah an dieser Stelle und auf der Webseite des ScaDS.AI Dresden/Leipzig."""@de ;
     schema:date "2022-07-07"^^xsd:date ;
+    schema:logo "/bdib-22/bdib-poster-v1.png" ;
     schema:organizer <https://dataweek.de/bdib-22/#Team> ;
     a schema:Event ;
     rdfs:label "5. Big Data and AI in Business Workshop"@de, "5th Big Data and AI in Business Workshop"@en .
@@ -231,6 +233,7 @@ Ongoing technological developments, current research approaches as well as use c
 We invite contributions of novel results and ongoing work as well as position papers focusing on various aspects of Data-driven Resilience Research from a scientific or practical perspective.
 """@en ;
     schema:date "2022-07-06"^^xsd:date ;
+    schema:logo "/d2r2-22/logo.svg" ;
     schema:organizer <https://dataweek.de/d2r2-22/#Team> ;
     a schema:Event, foaf:Document ;
     rdfs:label "International Workshop on Data-driven Resilience Research 2022"@de, "International Workshop on Data-driven Resilience Research 2022"@en ;
@@ -373,7 +376,7 @@ We invite contributions of novel results and ongoing work as well as position pa
 <https://dataweek.de/openingday/>
     schema:date "2022-07-04"^^xsd:date ;
     schema:organizer <https://dataweek.de/openingday/#Team> ;
-    schema:slogan "Daten (be)fördern, verstehen und anwenden"@de, "Daten (be)fördern, verstehen und anwenden"@en ;
+    schema:slogan "Daten (be)fördern, verstehen und anwenden"@de, "Promote, Appreciate and Apply the Data"@en ;
     a schema:Event, foaf:Document ;
     rdfs:label "Data Week Eröffnung"@de, "Data Week Opening Day"@en .
 
