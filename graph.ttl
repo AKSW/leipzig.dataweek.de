@@ -94,7 +94,7 @@ schema:startDate
     schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
     schema:date "04.07. bis 08.07.2022"@de, "July 4-8, 2022"@en ;
     schema:endDate "2022-07-08"^^xsd:date ;
-    schema:logo "/images/DataWeek_Logo.png" ;
+    schema:logo <https://staging.dataweek.de/images/DataWeek_Logo.png> ;
     schema:organizer dw:Team ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:startDate "2022-07-04"^^xsd:date ;
@@ -241,7 +241,7 @@ The D2R2’22 workshop will provide an open forum to exchange current issues, id
 Ongoing technological developments, current research approaches as well as use case scenarios, and field reports will be presented and discussed with a broad and multi-disciplinary specialist audience.
 We invite contributions of novel results and ongoing work as well as position papers focusing on various aspects of Data-driven Resilience Research from a scientific or practical perspective."""@en ;
     schema:date "2022-07-06"^^xsd:date ;
-    schema:logo "/d2r2-22/logo.png" ;
+    schema:logo <https://staging.dataweek.de/d2r2-22/logo.png> ;
     schema:organizer <https://dataweek.de/d2r2-22/#Team> ;
     a schema:Event, foaf:Document ;
     rdfs:label "International Workshop on Data-driven Resilience Research 2022"@de, "International Workshop on Data-driven Resilience Research 2022"@en ;
