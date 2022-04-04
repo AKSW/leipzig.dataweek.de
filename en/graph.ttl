@@ -84,13 +84,19 @@ schema:startDate
     a schema:Event ;
     rdfs:label "SEMANTiCS Leipzig 2016" .
 
+<https://connectedurbantwins.de/>
+    a schema:Organization ;
+    rdfs:label "Connected Urban Twins" ;
+    foaf:homepage <https://connectedurbantwins.de/> ;
+    foaf:logo "/images/partner/CUT_Logo.png" .
+
 <https://dataweek.de/>
     schema:date "04.07. bis 08.07.2022"@de, "July 4-8, 2022"@en ;
     schema:endDate "2022-07-08"^^xsd:date ;
     schema:organizer dw:Team ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
     schema:startDate "2022-07-04"^^xsd:date ;
-    schema:subEvent dw:opening, <https://dataweek.de/bdib-22/>, <https://dataweek.de/d2r2-22/>, <https://dataweek.de/dbpedia-day-2022/>, <https://dataweek.de/kmi-22/>, <https://dataweek.de/lswt2022/>, <https://dataweek.de/qvinf2022/> ;
+    schema:subEvent dw:opening, <https://dataweek.de/bdib-22/>, <https://dataweek.de/d2r2-22/>, <https://dataweek.de/dbpedia-day-2022/>, <https://dataweek.de/kmi-22/>, <https://dataweek.de/lswt2022/>, <https://dataweek.de/gi-leipzig-2022/> ;
     a <http://rdfs.org/ns/void#Dataset>, schema:Event ;
     rdfs:label "Data Week Leipzig 2022" .
 
@@ -308,6 +314,18 @@ We invite contributions of novel results and ongoing work as well as position pa
 <https://dataweek.de/dbpedia-day-2022/#Team>
     rdf:_1 aksw:JuliaHolze .
 
+<https://dataweek.de/gi-leipzig-2022/>
+    schema:date "2022-07-08"^^xsd:date ;
+    schema:organizer <https://dataweek.de/gi-leipzig-2022/#Team> ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Quo Vadis Informatik in der Metropolregion Leipzig/Halle"@de, "Quo Vadis Informatik in the Leipzig/Halle Metropolitan Area"@en .
+
+<https://dataweek.de/gi-leipzig-2022/#Team>
+    dct:description "Regionalgruppe Leipzig/Mitteldeutschland der Gesellschaft für Informatik e.V. and German Chapter of the ACM"@de, "Regionalgruppe Leipzig/Mitteldeutschland der Gesellschaft für Informatik e.V. and German Chapter of the ACM"@en ;
+    rdf:_1 dw:AndreasBoth ;
+    rdf:_2 aksw:ThomasRiechert ;
+    rdfs:label "Organisationsteam"@de, "Organization Team"@en .
+
 <https://dataweek.de/kmi-22/>
     schema:date "2022-07-08"^^xsd:date ;
     schema:organizer <https://dataweek.de/kmi-22/#Team> ;
@@ -342,24 +360,18 @@ We invite contributions of novel results and ongoing work as well as position pa
     rdf:_7 aksw:SebastianTramp ;
     rdfs:label "LSWT Team"@de, "LSWT Team"@en .
 
-<https://dataweek.de/qvinf2022/>
-    schema:date "2022-07-08"^^xsd:date ;
-    schema:organizer <https://dataweek.de/qvinf2022/#Team> ;
-    a schema:Event, foaf:Document ;
-    rdfs:label "Quo Vadis Informatik in der Metropolregion Leipzig/Halle"@de, "Quo Vadis Informatik in the Leipzig/Halle Metropolitan Area"@en .
-
-<https://dataweek.de/qvinf2022/#Team>
-    dct:description "Regionalgruppe Leipzig/Mitteldeutschland der Gesellschaft für Informatik e.V. and German Chapter of the ACM"@de, "Regionalgruppe Leipzig/Mitteldeutschland der Gesellschaft für Informatik e.V. and German Chapter of the ACM"@en ;
-    rdf:_1 dw:AndreasBoth ;
-    rdf:_2 aksw:ThomasRiechert ;
-    rdfs:label "Organisationsteam"@de, "Organization Team"@en .
-
 <https://dbpedia.org/>
     site:small_logo "/images/partner/DBpediaLogo.svg" ;
     a schema:Organization ;
     rdfs:label "DBpedia Association" ;
     foaf:homepage <https://dbpedia.org/> ;
     foaf:logo "/images/partner/DBpediaLogo.svg" .
+
+<https://digitalcampus.leipzig.de/referat-digitale-stadt/>
+    a schema:Organization ;
+    rdfs:label "Referat Digitale Stadt" ;
+    foaf:homepage <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    foaf:logo "/images/partner/Referat_Digitale_Stadt.png" .
 
 <https://htwk-leipzig.de/>
     a schema:Organization ;
@@ -402,4 +414,3 @@ We invite contributions of novel results and ongoing work as well as position pa
     rdfs:label "Technische Hochschule Brandenburg" ;
     foaf:homepage <https://www.th-brandenburg.de/> ;
     foaf:logo "/images/partner/THB.svg" .
-
