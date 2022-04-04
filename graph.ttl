@@ -84,6 +84,12 @@ schema:startDate
     a schema:Event ;
     rdfs:label "SEMANTiCS Leipzig 2016" .
 
+<https://connectedurbantwins.de/>
+    a schema:Organization ;
+    rdfs:label "Connected Urban Twins" ;
+    foaf:homepage <https://connectedurbantwins.de/> ;
+    foaf:logo "/images/partner/CUT_Logo.png" .
+
 <https://dataweek.de/>
     schema:date "04.07. bis 08.07.2022"@de, "July 4-8, 2022"@en ;
     schema:endDate "2022-07-08"^^xsd:date ;
@@ -360,6 +366,12 @@ We invite contributions of novel results and ongoing work as well as position pa
     rdfs:label "DBpedia Association" ;
     foaf:homepage <https://dbpedia.org/> ;
     foaf:logo "/images/partner/DBpediaLogo.svg" .
+
+<https://digitalcampus.leipzig.de/referat-digitale-stadt/>
+    a schema:Organization ;
+    rdfs:label "Referat Digitale Stadt" ;
+    foaf:homepage <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    foaf:logo "/images/partner/Referat_Digitale_Stadt.png" .
 
 <https://htwk-leipzig.de/>
     a schema:Organization ;
