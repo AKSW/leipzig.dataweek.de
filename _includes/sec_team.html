@@ -2,6 +2,9 @@
 {% assign organizers = rootResource | rdf_property: "schema:organizer" %}
 {% if organizers %}
     <h2>{{ organizers | rdf_property: "rdfs:label", site.language }}</h2>
+    
+    {% assign organizers_description = organizers | rdf_property: "dct:description", site.language %}
+    <p>{{ organizers_description | markdownify }}</p>
 
     {% assign organizerTeam = organizers | rdf_container %}
 
