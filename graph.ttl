@@ -34,6 +34,13 @@ aksw:MichaelMartin
     foaf:homepage aksw:MichaelMartin ;
     foaf:name "Michael Martin" .
 
+aksw:MilanDojchinovski
+    schema:affiliation <https://dbpedia.org/> ;
+    a foaf:Person ;
+    skos:prefLabel "Dr. Milan Dojchinovski" ;
+    foaf:depiction "/images/people/MilanDojchinovski.png" ;
+    foaf:name "Dr. Milan Dojchinovski" .
+
 aksw:NatanaelArndt
     dct:description "Senior Linked Data Expert [eccenca GmbH](https://eccenca.com/)" ;
     schema:affiliation aksw:Group, <https://www.eccenca.com/> ;
@@ -49,6 +56,13 @@ aksw:SabineGruenderFahrer
     skos:prefLabel "Dr. Sabine Gründer-Fahrer" ;
     foaf:depiction "/images/people/SabineGruenderFahrer.jpg" ;
     foaf:name "Dr. Sabine Gründer-Fahrer" .
+
+aksw:SebastianHellmann
+    schema:affiliation <https://dbpedia.org/>, <https://infai.org/> ;
+    a foaf:Person ;
+    skos:prefLabel "Dr.-Ing. Sebastian Hellmann" ;
+    foaf:depiction "/images/people/SebastianHellmann.png" ;
+    foaf:name "Dr.-Ing. Sebastian Hellmann" .
 
 aksw:SebastianTramp
     dct:description "CTO, [eccenca GmbH](https://www.eccenca.com/)" ;
@@ -330,10 +344,12 @@ We invite contributions of novel results and ongoing work as well as position pa
     schema:date "2022-07-06"^^xsd:date ;
     schema:organizer <https://dataweek.de/dbpedia-day-2022/#Team> ;
     a schema:Event ;
-    rdfs:label "DBpedia Day"@de, "DBpedia Day"@en .
+    rdfs:label "DBpedia PhD Symposium"@de, "DBpedia PhD Symposium"@en .
 
 <https://dataweek.de/dbpedia-day-2022/#Team>
-    rdf:_1 aksw:JuliaHolze .
+    rdf:_1 aksw:MilanDojchinovski ;
+    rdf:_2 aksw:SebastianHellmann ;
+    rdf:_3 aksw:JuliaHolze .
 
 <https://dataweek.de/gi-leipzig-2022/>
     schema:date "2022-07-08"^^xsd:date ;
