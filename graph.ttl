@@ -23,6 +23,7 @@ aksw:JuliaHolze
     a foaf:Person ;
     skos:prefLabel "Julia Holze" ;
     foaf:depiction "/images/people/JuliaHolze.png" ;
+    foaf:homepage aksw:JuliaHolze ;
     foaf:name "Julia Holze" .
 
 aksw:MichaelMartin
@@ -35,10 +36,11 @@ aksw:MichaelMartin
     foaf:name "Michael Martin" .
 
 aksw:MilanDojchinovski
-    schema:affiliation <https://dbpedia.org/> ;
+    schema:affiliation <https://dbpedia.org/>, <https://www.cvut.cz/> ;
     a foaf:Person ;
     skos:prefLabel "Dr. Milan Dojchinovski" ;
     foaf:depiction "/images/people/MilanDojchinovski.png" ;
+    foaf:homepage aksw:MilanDojchinovski ;
     foaf:name "Dr. Milan Dojchinovski" .
 
 aksw:NatanaelArndt
@@ -62,6 +64,7 @@ aksw:SebastianHellmann
     a foaf:Person ;
     skos:prefLabel "Dr.-Ing. Sebastian Hellmann" ;
     foaf:depiction "/images/people/SebastianHellmann.png" ;
+    foaf:homepage aksw:SebastianHellmann ;
     foaf:name "Dr.-Ing. Sebastian Hellmann" .
 
 aksw:SebastianTramp
@@ -454,6 +457,12 @@ We invite contributions of novel results and ongoing work as well as position pa
     foaf:homepage <https://scads.ai/> ;
     foaf:logo "/images/partner/Scads_AI_Logo.svg" .
 
+<https://www.cvut.cz/>
+    a schema:Organization ;
+    rdfs:label "Czech technical university in Prague" ;
+    foaf:homepage <https://www.cvut.cz/en/> ;
+    foaf:logo "/images/partner/CTU.png" .
+
 <https://www.eccenca.com/>
     a schema:Organization ;
     rdfs:label "eccenca GmbH" ;
@@ -465,4 +474,3 @@ We invite contributions of novel results and ongoing work as well as position pa
     rdfs:label "Technische Hochschule Brandenburg" ;
     foaf:homepage <https://www.th-brandenburg.de/> ;
     foaf:logo "/images/partner/THB.svg" .
-

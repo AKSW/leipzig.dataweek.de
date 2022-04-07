@@ -8,6 +8,7 @@
 <http://aksw.org/JuliaHolze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/JuliaHolze> <http://www.w3.org/2004/02/skos/core#prefLabel> "Julia Holze" .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/depiction> "/images/people/JuliaHolze.png" .
+<http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/JuliaHolze> .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/name> "Julia Holze" .
 <http://aksw.org/MichaelMartin> <http://purl.org/dc/terms/description> "Leiter Kompetenzzentrum @ [AKSW](http://aksw.org/)/[InfAI e.V.](https://infai.org/)" .
 <http://aksw.org/MichaelMartin> <http://schema.org/affiliation> <http://aksw.org/Group> .
@@ -18,9 +19,11 @@
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/MichaelMartin> .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/name> "Michael Martin" .
 <http://aksw.org/MilanDojchinovski> <http://schema.org/affiliation> <https://dbpedia.org/> .
+<http://aksw.org/MilanDojchinovski> <http://schema.org/affiliation> <https://www.cvut.cz/> .
 <http://aksw.org/MilanDojchinovski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/MilanDojchinovski> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Milan Dojchinovski" .
 <http://aksw.org/MilanDojchinovski> <http://xmlns.com/foaf/0.1/depiction> "/images/people/MilanDojchinovski.png" .
+<http://aksw.org/MilanDojchinovski> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/MilanDojchinovski> .
 <http://aksw.org/MilanDojchinovski> <http://xmlns.com/foaf/0.1/name> "Dr. Milan Dojchinovski" .
 <http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Senior Linked Data Expert [eccenca GmbH](https://eccenca.com/)" .
 <http://aksw.org/NatanaelArndt> <http://schema.org/affiliation> <http://aksw.org/Group> .
@@ -41,6 +44,7 @@
 <http://aksw.org/SebastianHellmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SebastianHellmann> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.-Ing. Sebastian Hellmann" .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SebastianHellmann.png" .
+<http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SebastianHellmann> .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/name> "Dr.-Ing. Sebastian Hellmann" .
 <http://aksw.org/SebastianTramp> <http://purl.org/dc/terms/description> "CTO, [eccenca GmbH](https://www.eccenca.com/)" .
 <http://aksw.org/SebastianTramp> <http://schema.org/affiliation> <http://aksw.org/Group> .
@@ -285,6 +289,10 @@
 <https://scads.ai/> <http://www.w3.org/2000/01/rdf-schema#label> "ScaDS AI" .
 <https://scads.ai/> <http://xmlns.com/foaf/0.1/homepage> <https://scads.ai/> .
 <https://scads.ai/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/Scads_AI_Logo.svg" .
+<https://www.cvut.cz/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.cvut.cz/> <http://www.w3.org/2000/01/rdf-schema#label> "Czech technical university in Prague" .
+<https://www.cvut.cz/> <http://xmlns.com/foaf/0.1/homepage> <https://www.cvut.cz/en/> .
+<https://www.cvut.cz/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/CTU.png" .
 <https://www.eccenca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.eccenca.com/> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH" .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.eccenca.com/> .
