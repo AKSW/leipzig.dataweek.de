@@ -2,13 +2,19 @@ version: '3'
 
 vars:
   FILE: graph
+  PROGRAM_GRAPH: program
+  SITE_GRAPH: site
+  CMEM: aksw.eccenca.dev
+  WORKFLOW: 54b8da6d-1c3b-4c84-9268-3e456165b9ad_Programm:238cc3fb-389b-439c-9b7b-d492305db2d3_ProgrammTransformation
+  PROGRAM_GRAPH_IRI: https://dataweek.de/programm
 
 tasks:
 
   default:
     cmds:
       - task: normalize_turtle
-      - task: sync_turtle_to_nt
+      - task: get_program
+      - task: sync_sources_to_site
       - task: styles
       - task: build_de
       - task: build_en
@@ -35,18 +41,16 @@ tasks:
 
   sync_clean:
     cmds:
-      - task: graph_clean
-      - task: sync_turtle_to_nt
+      - task: sync_sources_to_site
 
-  graph_clean:
+  sync_sources_to_site:
     cmds:
-      - git restore graph.nt
+      - rapper -i turtle -o ntriples {{.FILE}}.ttl | LC_ALL=C sort -u > {{.FILE}}.nt
+      - cat {{.FILE}}.nt {{.PROGRAM_GRAPH}}.nt | LC_ALL=C sort -u > {{.SITE_GRAPH}}.nt
 
-  sync_turtle_to_nt:
-    cmds:
-      - |
-        git status --porcelain graph.nt | grep '^.[MTD]' && echo "ABORT SYNC: graph.nt has unstaged changes." ||
-        rapper -i turtle -o ntriples {{.FILE}}.ttl | LC_ALL=C sort -u > {{.FILE}}.nt
+  get_program:
+    - cmemc -c {{.CMEM}} workflow execute {{.WORKFLOW}}
+    - cmemc -c {{.CMEM}} graph {{.PROGRAM_GRAPH_IRI}} export | LC_ALL=C sort -u > {{.PROGRAM_GRAPH}}.nt
 
   normalize_turtle:
     cmds:
