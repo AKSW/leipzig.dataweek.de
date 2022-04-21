@@ -50,7 +50,7 @@ tasks:
 
   get_program:
     - cmemc -c {{.CMEM}} workflow execute {{.WORKFLOW}}
-    - cmemc -c {{.CMEM}} graph {{.PROGRAM_GRAPH_IRI}} export | LC_ALL=C sort -u > {{.PROGRAM_GRAPH}}.nt
+    - cmemc -c {{.CMEM}} graph export {{.PROGRAM_GRAPH_IRI}} | LC_ALL=C sort -u > {{.PROGRAM_GRAPH}}.nt
 
   normalize_turtle:
     cmds:
