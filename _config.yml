@@ -28,7 +28,7 @@ exclude:
   - webpack.config.js
   - src
 jekyll_rdf:
-  path: "graph.nt"
+  path: "site.nt"
   restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"https://dataweek.de/\") }"
   class_template_mappings:
     "http://xmlns.com/foaf/0.1/Document" : "page.html"
