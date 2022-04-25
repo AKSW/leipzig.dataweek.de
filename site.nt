@@ -41,19 +41,28 @@
 <http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/name> "Dr. Sabine Gr\u00FCnder-Fahrer" .
 <http://aksw.org/SebastianHellmann> <http://schema.org/affiliation> <https://dbpedia.org/> .
 <http://aksw.org/SebastianHellmann> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/SebastianHellmann> <http://schema.org/description> "AKSW, DBpedia Association, Institut für Angewandte Informatik" .
+<http://aksw.org/SebastianHellmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://aksw.org/SebastianHellmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/SebastianHellmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SebastianHellmann> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.-Ing. Sebastian Hellmann" .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SebastianHellmann.png" .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SebastianHellmann> .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/name> "Dr.-Ing. Sebastian Hellmann" .
+<http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/name> "Sebastian Hellmann" .
+<http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/title> "Dr.-Ing." .
 <http://aksw.org/SebastianTramp> <http://purl.org/dc/terms/description> "CTO, [eccenca GmbH](https://www.eccenca.com/)" .
 <http://aksw.org/SebastianTramp> <http://schema.org/affiliation> <http://aksw.org/Group> .
 <http://aksw.org/SebastianTramp> <http://schema.org/affiliation> <https://www.eccenca.com/> .
+<http://aksw.org/SebastianTramp> <http://schema.org/description> "CTO, [eccenca GmbH](https://www.eccenca.com/)" .
+<http://aksw.org/SebastianTramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://aksw.org/SebastianTramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/SebastianTramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SebastianTramp> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sebastian Tramp" .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SebastianTramp.png" .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SebastianTramp> .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/name> "Sebastian Tramp" .
+<http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <http://aksw.org/ThomasRiechert> <http://purl.org/dc/terms/description> "[Institut f\u00FCr Informatik/HTWK Leipzig](https://www.htwk-leipzig.de/)" .
 <http://aksw.org/ThomasRiechert> <http://schema.org/affiliation> <http://aksw.org/Group> .
 <http://aksw.org/ThomasRiechert> <http://schema.org/affiliation> <https://htwk-leipzig.de/> .
@@ -264,6 +273,7 @@
 <https://dataweek.de/openingday/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://dataweek.de/openingday/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Er\u00F6ffnung"@de .
 <https://dataweek.de/openingday/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Opening Day"@en .
+<https://dataweek.de/programm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/di/Dataset> .
 <https://dbpedia.org/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/DBpediaLogo.svg" .
 <https://dbpedia.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://dbpedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Association" .
@@ -303,3 +313,52 @@
 <https://www.th-brandenburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Hochschule Brandenburg" .
 <https://www.th-brandenburg.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.th-brandenburg.de/> .
 <https://www.th-brandenburg.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/THB.svg" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#1/root> <http://purl.org/dc/terms/title> "Meet and greet" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#1/root> <http://schema.org/endTime> "09:00:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#1/root> <http://schema.org/startTime> "08:45:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#1/root> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#10/root> <http://purl.org/dc/terms/title> "City walking tour" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#10/root> <http://schema.org/endTime> "16:30:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#10/root> <http://schema.org/startTime> "15:45:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#10/root> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#11/root> <http://purl.org/dc/terms/title> "LivingLab tour" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#11/root> <http://schema.org/endTime> "17:30:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#11/root> <http://schema.org/startTime> "16:30:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#11/root> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#12/root> <http://purl.org/dc/terms/title> "Informal meeting in a nearby pub" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#12/root> <http://schema.org/startTime> "17:30:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#12/root> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#2/root> <http://purl.org/dc/terms/title> "Opening and Invited talk" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#2/root> <http://schema.org/endTime> "09:30:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#2/root> <http://schema.org/startTime> "09:00:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#2/root> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#3/root> <http://purl.org/dc/terms/title> "2 presentation slots" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#3/root> <http://schema.org/endTime> "10:30:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#3/root> <http://schema.org/startTime> "09:30:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#3/root> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#4/root> <http://purl.org/dc/terms/title> "Coffee Break & Poster Session" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#4/root> <http://schema.org/endTime> "11:00:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#4/root> <http://schema.org/startTime> "10:30:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#4/root> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#5/root> <http://purl.org/dc/terms/title> "2 presentation slots" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#5/root> <http://schema.org/endTime> "12:00:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#5/root> <http://schema.org/startTime> "11:00:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#5/root> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#6/root> <http://purl.org/dc/terms/title> "lunch" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#6/root> <http://schema.org/endTime> "12:45:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#6/root> <http://schema.org/startTime> "12:00:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#6/root> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#7/root> <http://purl.org/dc/terms/title> "3 presentation slots" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#7/root> <http://schema.org/endTime> "14:30:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#7/root> <http://schema.org/startTime> "12:45:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#7/root> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#8/root> <http://purl.org/dc/terms/title> "Community Session & Closing" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#8/root> <http://schema.org/endTime> "15:00:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#8/root> <http://schema.org/startTime> "14:30:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#8/root> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#9/root> <http://purl.org/dc/terms/title> "Coffee Break & Poster Session" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#9/root> <http://schema.org/endTime> "15:45:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#9/root> <http://schema.org/startTime> "15:00:00.000" .
+<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#9/root> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<urn:url-encoded-value:Unset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<urn:url-encoded-value:Unset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
