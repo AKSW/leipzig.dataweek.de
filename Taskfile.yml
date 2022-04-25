@@ -49,7 +49,7 @@ tasks:
       - cat {{.FILE}}.nt {{.PROGRAM_GRAPH}}.nt | LC_ALL=C sort -u > {{.SITE_GRAPH}}.nt
 
   get_program:
-    - cmemc -c {{.CMEM}} workflow execute {{.WORKFLOW}}
+    - cmemc -c {{.CMEM}} workflow execute --wait {{.WORKFLOW}}
     - cmemc -c {{.CMEM}} graph export {{.PROGRAM_GRAPH_IRI}} | LC_ALL=C sort -u > {{.PROGRAM_GRAPH}}.nt
 
   normalize_turtle:
