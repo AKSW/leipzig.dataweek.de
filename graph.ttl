@@ -76,6 +76,15 @@ aksw:SebastianTramp
     foaf:homepage aksw:SebastianTramp ;
     foaf:name "Sebastian Tramp" .
 
+aksw:SoerenAuer
+    dct:description "Sören Auer is Professor for Data Science and Digital Libraries at the Gottfried Wilhelm Leibniz University Hannover and Director of the Technische Informationsbibliothek (TIB) in Hannover."@en, "Sören Auer ist Professor für Data Science and Digital Libraries an der Gottfried Wilhelm Leibniz Universität Hannover und Direktor der Technischen Informationsbibliothek (TIB) in Hannover."@de ;
+    schema:affiliation <https://www.l3s.de/>, <https://www.tib.eu/> ;
+    a foaf:Person ;
+    skos:prefLabel "Prof. Dr. Sören Auer" ;
+    foaf:depiction "/images/people/SoerenAuer.jpg" ;
+    foaf:homepage <https://www.tib.eu/de/forschung-entwicklung/data-science-digital-libraries/mitarbeiterinnen-und-mitarbeiter/soeren-auer/> ;
+    foaf:name "Sören Auer" .
+
 aksw:ThomasRiechert
     dct:description "[Institut für Informatik/HTWK Leipzig](https://www.htwk-leipzig.de/)" ;
     schema:affiliation aksw:Group, <https://htwk-leipzig.de/> ;
@@ -462,12 +471,39 @@ To apply for a PhD presentation please fill-in the [provided form](https://docs.
     schema:slogan "Knowledge Graphs for Organizational Data Spaces"@en, "Wissensgraphen in Unternehmen und Organisationen"@de ;
     a schema:Event, foaf:Document ;
     rdfs:label "10. Leipziger Semantic Web Tag"@de, "10th Leipzig Semantic Web Day"@en ;
-    owl:sameAs <https://lswt2022.aksw.org/> .
+    owl:sameAs <https://lswt2022.aksw.org/> ;
+    <https://www.openresearch.org/wiki/Property:Cfp> <https://dataweek.de/lswt2022/#CFP> .
 
 <https://dataweek.de/lswt2022/#CFP>
+    dct:description """During the LSWT we will emphasize recent developments and trends in the fields of semantic technologies and data.
+Main points this year shall be **knowledge graphs and linked data, data integration, semantic web in industry, government and society, as well as artificial intelligence**.
+These emphases are demonstrated in presentations by experts from industry and science.
+We invite you to present your current work and latest ideas in a 15 - 30 minutes presentation.
+Contributions considering women in the mentioned fields are more than warmly welcomed. Presentations shall be held in English.
+
+Beside sessions and keynotes, we are going to host a poster session with student works.
+Therefore, please feel free to share this call with any student who might be interested.
+
+We look forward to your contributions to make this event a success!
+Please send your **ideas for a presentation until 1 June 2022** to Natanael Arndt: [natanael.arndt@eccenca.com](mailto:natanael.arndt@eccenca.com).
+If you have any further questions don't hesitate to contact us.
+"""@en, """Zum LSWT legen wir ein Augenmerk auf die neuesten Entwicklungen und Trends im Bereich der semantischen Technologien und Daten.
+Schwerpunkte in diesem Jahr sind **Wissensgraphen und Linked Data, Datenintegration, Semantic Web in Industrie, Öffentlicher Verwaltung und Gesellschaft sowie Künstliche Intelligenz**.
+Diese Schwerpunkte werden in Vorträgen von Experten aus Industrie und Wissenschaft aufgezeigt.
+Wir laden Sie ein, Ihre aktuellen Arbeiten und neuesten Ideen in einem 15 bis 30-minütigen Vortrag vorzustellen.
+Beiträge von Frauen in den genannten Bereichen sind ausdrücklich willkommen.
+Die Präsentationen sollen in englischer Sprache gehalten werden.
+
+Neben den Sessions und Keynotes werden wir auch eine Poster-Session mit studentischen Arbeiten veranstalten.
+Bitte leiten Sie daher diesen Aufruf an alle interessierten StudentInnen weiter.
+
+Wir freuen uns auf Ihre Beiträge, damit diese Veranstaltung ein Erfolg wird!
+Bitte senden Sie Ihre **Ideen für eine Präsentation bis zum 1. Juni 2022** an Natanael Arndt.
+Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren.
+"""@de ;
+    dct:hasFormat <https://dataweek.de/lswt2022/cfc.pdf> ;
     a foaf:Document ;
-    rdfs:comment "Herzlich laden wir Sie dazu ein, Ihre neuesten Entwicklungen und Ideen im Bereich semantischer Technologien in Form eines **Vortrags oder Posters** an diesem Tag vorzustellen. Vorträge aus dem Bereichen des Semantic Web, angrenzenden Themen, wie Künstliche Intelligenz, Dateninfrastrukturen und Datenmanagement, Digital Humanities, sowie Berichte aus der Anwendung sind von Belang. Neben den Vorträgen laden wir Studierende ein auf einer digitalen, interaktive Postersession ihre aktuellen Projekte und Ideen zu präsentieren. Für die beste Arbeit von Studierenden gibt es einen Best Poster Award, gestiftet von der eccenca GmbH. Gern können Sie auch weitere mögliche Interessierte zur Einreichung von Beiträgen motivieren und diesen Call weiterreichen. Bitte melden Sie sich mit einem Themenvorschlag bis zum **18. Juni 2021** bei Natanael Arndt: [arndt@infai.org](mailto:arndt@infai.org). Alle Vorträge sollten, wenn möglich, auf Englisch gehalten werden. Wir freuen uns, wenn Sie zum Gelingen des Tages beitragen möchten!"@de, "We invite you to present your recent developments and ideas in the fields of semantic technologies in a **talk or poster** at the LSWT2021. We are especially interested in the topics of the semantic web and its adjacent fields, e.g. artificial intelligence, digital humanities, data infrastructures and data management. Also talks by practitioners and reports of applications are relevant. Beside the main session we invite students to present their current projects and ideas at our digital, interactive poster session. The best student contribution will receive a best poster award, sponsored by the eccenca GmbH. Feel free to share this call with anybody who might be interested. Please send in your ideas for a presentation until **2021-06-18** to Natanael Arndt: [arndt@infai.org](mailto:arndt@infai.org). Presentations shall be held in English. We look forward to your contributions to make this event a success!"@en ;
-    rdfs:label "Call for Participation"@de, "Call for Participation"@en .
+    rdfs:label "Call for Contributions"@de, "Call for Contributions"@en .
 
 <https://dataweek.de/lswt2022/#Team>
     rdf:_1 aksw:NatanaelArndt ;
