@@ -66,6 +66,7 @@ tasks:
           -f 'xmlns:foaf="http://xmlns.com/foaf/0.1/"' \
           -f 'xmlns:ecc-ns="https://ns.eccenca.com/"' \
           -f 'xmlns:site="http://ns.ontowiki.net/SysOnt/Site/"' \
+          -f 'xmlns:orp="https://www.openresearch.org/wiki/Property:"' \
           -f 'xmlns:aksw="http://aksw.org/"' \
           -f 'xmlns:dw="https://dataweek.de/#"' \
           {{.FILE}}.ttl | sponge {{.FILE}}.ttl
