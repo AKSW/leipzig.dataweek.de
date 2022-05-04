@@ -8,6 +8,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ecc-ns: <https://ns.eccenca.com/> .
 @prefix site: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix orp: <https://www.openresearch.org/wiki/Property:> .
 @prefix aksw: <http://aksw.org/> .
 @prefix dw: <https://dataweek.de/#> .
 
@@ -271,7 +272,7 @@ We invite contributions of novel results and ongoing work as well as position pa
     schema:organizer <https://dataweek.de/d2r2-22/#Team> ;
     a schema:Event, foaf:Document ;
     rdfs:label "International Workshop on Data-driven Resilience Research 2022"@de, "International Workshop on Data-driven Resilience Research 2022"@en ;
-    <https://www.openresearch.org/wiki/Property:Cfp> <https://dataweek.de/d2r2-22/#cfp> .
+    orp:Cfp <https://dataweek.de/d2r2-22/#cfp> .
 
 <https://dataweek.de/d2r2-22/#PC>
     rdfs:label "Program Committee"@en, "Programmkomitee"@de .
@@ -472,7 +473,7 @@ To apply for a PhD presentation please fill-in the [provided form](https://docs.
     a schema:Event, foaf:Document ;
     rdfs:label "10. Leipziger Semantic Web Tag"@de, "10th Leipzig Semantic Web Day"@en ;
     owl:sameAs <https://lswt2022.aksw.org/> ;
-    <https://www.openresearch.org/wiki/Property:Cfp> <https://dataweek.de/lswt2022/#CFP> .
+    orp:Cfp <https://dataweek.de/lswt2022/#CFP> .
 
 <https://dataweek.de/lswt2022/#CFP>
     dct:description """During the LSWT we will emphasize recent developments and trends in the fields of semantic technologies and data.
