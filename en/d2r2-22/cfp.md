@@ -2,8 +2,8 @@
 
 **International Workshop on Data-driven Resilience Research 2022**
 
-- **submission:**   6 May 2022
-- **notification:** 6 June 2022
+- **submission:**   20 May (Abstract), 27 May (Paper) 2022
+- **notification:** 13 June 2022
 - **conference:**   6 July 2022 in Leipzig, Germany and online
 - **details:**      https://dataweek.de/en/d2r2-22/
 
@@ -41,7 +41,7 @@ The Data Week combines individual event formats in the area of research and tran
 
 https://easychair.org/conferences/?conf=d2r2-22
 
-- Maximum 10 pages (full papers) or 5 pages (short papers).
+- Maximum 10 pages (full papers) or 5 pages (short papers, discussion papers, extended abstracts).
 - PDF or HTML, Papers must be formatted according to the [LNCS format specifications](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) (Word and LaTeX) for HTML please see the [ESWC guidelines]({https://2022.eswc-conferences.org/html-submission-guide/).
 - Reviews will be carried out in a single-blind mode.
 - Accepted contributions will be published in the Open Access CEUR proceedings.
