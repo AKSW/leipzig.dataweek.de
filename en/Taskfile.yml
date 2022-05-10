@@ -7,8 +7,6 @@ vars:
   CMEM: aksw.eccenca.dev
   WORKFLOW: 54b8da6d-1c3b-4c84-9268-3e456165b9ad_Programm:238cc3fb-389b-439c-9b7b-d492305db2d3_ProgrammTransformation
   PROGRAM_GRAPH_IRI: https://dataweek.de/programm
-  PROGRAM_GRAPH_DUMP: program.nt
-  SITE_GRAPH_DUMP: site.nt
   GIT_USER_NAME: DataWekk CMEM Update Bot 🤖
   GIT_USER_EMAIL: dw-cmem-update-bot@example.org
   GIT_COMMIT_MESSAGE: Update from CMEM
@@ -97,7 +95,7 @@ tasks:
     - |
       git config user.name "{{.GIT_USER_NAME}}"
       git config user.email "{{.GIT_USER_EMAIL}}"
-      git add {{.SITE_GRAPH_DUMP}} {{.PROGRAM_GRAPH_DUMP}}
+      git add {{.SITE_GRAPH}}.nt {{.PROGRAM_GRAPH}}.nt
       git commit -m "{{.GIT_COMMIT_MESSAGE}}" || echo ""
       git push || echo ""
 
