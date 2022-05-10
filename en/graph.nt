@@ -92,6 +92,11 @@
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/depiction> "/images/people/AndreasBoth.jpg" .
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/homepage> <http://www.andreasboth.de/en> .
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Andreas Both" .
+<https://dataweek.de/#ChristianZinke> <http://schema.org/affiliation> <https://infai.org/> .
+<https://dataweek.de/#ChristianZinke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#ChristianZinke> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Christian Zinke-Wehlmann" .
+<https://dataweek.de/#ChristianZinke> <http://xmlns.com/foaf/0.1/depiction> "/images/people/ChristianZinke.jpg" .
+<https://dataweek.de/#ChristianZinke> <http://xmlns.com/foaf/0.1/name> "Dr. Christian Zinke-Wehlmann" .
 <https://dataweek.de/#ErhardRahm> <http://schema.org/affiliation> <https://scads.ai/> .
 <https://dataweek.de/#ErhardRahm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ErhardRahm> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Erhard Rahm" .
@@ -107,6 +112,11 @@
 <https://dataweek.de/#JanaBendigs> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jana Bendigs" .
 <https://dataweek.de/#JanaBendigs> <http://xmlns.com/foaf/0.1/depiction> "/images/people/JanaBendigs.jpg" .
 <https://dataweek.de/#JanaBendigs> <http://xmlns.com/foaf/0.1/name> "Jana Bendigs" .
+<https://dataweek.de/#JuliaFriedrich> <http://schema.org/affiliation> <https://infai.org/> .
+<https://dataweek.de/#JuliaFriedrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JuliaFriedrich> <http://www.w3.org/2004/02/skos/core#prefLabel> "Julia Friedrich" .
+<https://dataweek.de/#JuliaFriedrich> <http://xmlns.com/foaf/0.1/depiction> "/images/people/JuliaFriedrich.jpg" .
+<https://dataweek.de/#JuliaFriedrich> <http://xmlns.com/foaf/0.1/name> "Julia Friedrich" .
 <https://dataweek.de/#KatrinMehler> <http://schema.org/affiliation> <https://connectedurbantwins.de/> .
 <https://dataweek.de/#KatrinMehler> <http://schema.org/affiliation> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
 <https://dataweek.de/#KatrinMehler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -230,6 +240,8 @@
 <https://dataweek.de/gi-leipzig-2022/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://dataweek.de/gi-leipzig-2022/> <http://www.w3.org/2000/01/rdf-schema#label> "Quo Vadis Informatik in der Metropolregion Leipzig/Halle"@de .
 <https://dataweek.de/gi-leipzig-2022/> <http://www.w3.org/2000/01/rdf-schema#label> "Quo Vadis Informatik in the Leipzig/Halle Metropolitan Area"@en .
+<https://dataweek.de/kmi-22/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://dataweek.de/#JuliaFriedrich> .
+<https://dataweek.de/kmi-22/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#ChristianZinke> .
 <https://dataweek.de/kmi-22/> <http://schema.org/date> "2022-07-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://dataweek.de/kmi-22/> <http://schema.org/organizer> <https://dataweek.de/kmi-22/#Team> .
 <https://dataweek.de/kmi-22/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
