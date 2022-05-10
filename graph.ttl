@@ -138,6 +138,13 @@ dw:AndreasBoth
     foaf:homepage <http://www.andreasboth.de/en> ;
     foaf:name "Prof. Dr. Andreas Both" .
 
+dw:ChristianZinke
+    schema:affiliation <https://infai.org/> ;
+    a foaf:Person ;
+    skos:prefLabel "Dr. Christian Zinke-Wehlmann" ;
+    foaf:depiction "/images/people/ChristianZinke.jpg" ;
+    foaf:name "Dr. Christian Zinke-Wehlmann" .
+
 dw:ErhardRahm
     schema:affiliation <https://scads.ai/> ;
     a foaf:Person ;
@@ -158,6 +165,13 @@ dw:JanaBendigs
     skos:prefLabel "Jana Bendigs" ;
     foaf:depiction "/images/people/JanaBendigs.jpg" ;
     foaf:name "Jana Bendigs" .
+
+dw:JuliaFriedrich
+    schema:affiliation <https://infai.org/> ;
+    a foaf:Person ;
+    skos:prefLabel "Julia Friedrich" ;
+    foaf:depiction "/images/people/JuliaFriedrich.jpg" ;
+    foaf:name "Julia Friedrich" .
 
 dw:KatrinMehler
     schema:affiliation <https://connectedurbantwins.de/>, <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
@@ -460,6 +474,10 @@ To apply for a PhD presentation please fill-in the [provided form](https://docs.
     schema:organizer <https://dataweek.de/kmi-22/#Team> ;
     a schema:Event ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent"@de, "Workshop Künstlich und Menschlich Intelligent"@en .
+
+<https://dataweek.de/kmi-22/#Team>
+    rdf:_1 dw:JuliaFriedrich ;
+    rdf:_2 dw:ChristianZinke .
 
 <https://dataweek.de/lswt2022/>
     dct:description """Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen.
