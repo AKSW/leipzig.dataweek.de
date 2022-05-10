@@ -1,0 +1,82 @@
+{% assign parent_event = include.event %}
+{% assign showdate = true %}
+
+{% capture events_query %}
+SELECT ?event ?start ?end WHERE {
+  ?resourceUri schema:subEvent ?event .
+  optional { ?event schema:startTime ?start .}
+  optional { ?event schema:endTime ?end }
+} ORDER BY ASC(?start)
+{% endcapture %}
+
+{% assign events = parent_event | sparql_query: events_query %}
+{%- if events.first -%}
+{% if site.language == 'en' %}
+<h2>Program</h2>
+{% else %}
+<h2>Programm</h2>
+{% endif %}
+{% endif %}
+{%- for events_row in events -%}
+{%- assign event = events_row.event -%}
+{%- assign start = events_row.start | date: "%H.%M" -%}
+{%- assign end = events_row.end | date: "%H.%M" -%}
+{% assign track = event | rdf_property: "site:track" %}
+{% assign pause = "dw:pause" | rdf_get %}
+{% if track == pause %}
+<h3 class="pause">{% if showdate and events_row.start and events_row.end %}{{start}} - {{end}}: {% endif %}{% include label.html iri = event.iri %}</h3>
+{% else %}
+<h3 id="{{ event | split: "#" | last }}">
+  {% if showdate and events_row.start %}
+    {% if events_row.start and events_row.end %}
+      {{start}} - {{end}}:
+    {% else %}
+      {% if site.language == 'en' %}
+      from
+      {% else %}
+      ab
+      {% endif %}
+      {{start}}:
+    {% endif %}
+  {% endif %}
+  {% include label.html iri = event.iri %}</h3>
+{% endif %}
+
+{% capture subEvents_query %}
+SELECT ?event WHERE {
+  <{{ event.iri }}> schema:subEvent ?event .
+  optional { ?event schema:startDate ?date }
+} ORDER BY ASC(?date)
+{% endcapture %}
+
+{% assign subEvents = event | sparql_query: subEvents_query  %}
+{% if subEvents.first %}
+Chair: {% include performer.html event=event join="; " %}
+{% else %}
+{% include performer.html event=event join="; " style="individual" %}
+
+{% assign description = event | rdf_property: "dct:description", site.language %}
+{% if description %}
+<p>{{ description | markdownify }}</p>
+{% endif %}
+{% endif %}
+
+<ul>
+{% for subEvent_row in subEvents %}
+{% assign subEvent = subEvent_row.event %}
+{% assign performer = subEvent | rdf_property: "schema:performer" %}
+{% capture title %}{% include label.html iri = subEvent.iri %}{% endcapture %}
+{% assign slideLink = subEvent | rdf_property: "schema:recordedIn" %}
+  <li>
+{% if slideLink %}
+  „<a id="{{ subEvent | split: "#" | last }}" href="{{ slideLink }}">{{ title }}</a>“
+{% else %}
+  <a id="{{ subEvent | split: "#" | last }}"></a>„{{ title }}“
+{% endif %}
+{% if performer %}
+   – {% include performer.html event=subEvent join="; " %}
+{% endif %}
+   </li>
+{% endfor %}
+</ul>
+{% endfor %}
