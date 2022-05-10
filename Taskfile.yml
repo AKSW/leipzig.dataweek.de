@@ -7,6 +7,11 @@ vars:
   CMEM: aksw.eccenca.dev
   WORKFLOW: 54b8da6d-1c3b-4c84-9268-3e456165b9ad_Programm:238cc3fb-389b-439c-9b7b-d492305db2d3_ProgrammTransformation
   PROGRAM_GRAPH_IRI: https://dataweek.de/programm
+  PROGRAM_GRAPH_DUMP: program.nt
+  SITE_GRAPH_DUMP: site.nt
+  GIT_USER_NAME: DataWekk CMEM Update Bot 🤖
+  GIT_USER_EMAIL: dw-cmem-update-bot@example.org
+  GIT_COMMIT_MESSAGE: Update from CMEM
   WORKING_DIRECTORY: '{{.github.workspace | default .PWD}}'
   ID_UID:
     sh: id -u
@@ -31,6 +36,12 @@ tasks:
       - task: install_javascript_dependencies
       - task: build_docker_de
       - task: build_docker_en
+
+  ci_data_sync:
+    cmds:
+      - task: get_program
+      - task: sync_sources_to_site
+      - task: commit_and_push_data
 
   serve:
     cmds:
@@ -87,6 +98,15 @@ tasks:
   get_program:
     - cmemc -c {{.CMEM}} workflow execute --wait {{.WORKFLOW}}
     - cmemc -c {{.CMEM}} graph export {{.PROGRAM_GRAPH_IRI}} | LC_ALL=C sort -u > {{.PROGRAM_GRAPH}}.nt
+
+  commit_and_push_data:
+    cmds:
+      - |
+        git config user.name "{{.GIT_USER_NAME}}"
+        git config user.email "{{.GIT_USER_EMAIL}}"
+        git add {{.SITE_GRAPH_DUMP}} {{.PROGRAM_GRAPH_DUMP}}
+        git commit -m "{{.GIT_COMMIT_MESSAGE}}" || echo ""
+        git push || echo ""
 
   normalize_turtle:
     cmds:
