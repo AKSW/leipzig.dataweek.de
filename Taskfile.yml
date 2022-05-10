@@ -27,33 +27,28 @@ vars:
 tasks:
 
   default:
-    cmds:
-      - task: normalize_turtle
-      - task: get_program
-      - task: sync_sources_to_site
-      - task: styles
-      - task: build_de
-      - task: build_en
+    - task: normalize_turtle
+    - task: get_program
+    - task: sync_sources_to_site
+    - task: styles
+    - task: build_de
+    - task: build_en
 
   ci:
-    cmds:
-      - task: install_javascript_dependencies
-      - task: build_docker_de
-      - task: build_docker_en
+    - task: install_javascript_dependencies
+    - task: build_docker_de
+    - task: build_docker_en
 
   ci_data_sync:
-    cmds:
-      - task: get_program
-      - task: sync_sources_to_site
-      - task: commit_and_push_data
+    - task: get_program
+    - task: sync_sources_to_site
+    - task: commit_and_push_data
 
   serve:
-    cmds:
-      - python -m http.server --directory _site
+    - python -m http.server --directory _site
 
   styles:
-    cmds:
-      - npx webpack
+    - npx webpack
 
   build_de:
     cmds:
@@ -68,72 +63,62 @@ tasks:
       JEKYLL_LANGUAGE: en
 
   build_docker_de:
-    cmds:
-      - task: build_docker
-        vars:
-          LANGUAGE: de
-          TARGET: _site
+    - task: build_docker
+      vars:
+        LANGUAGE: de
+        TARGET: _site
 
   build_docker_en:
-    cmds:
-      - task: build_docker
-        vars:
-          LANGUAGE: en
-          TARGET: _site/en
+    - task: build_docker
+      vars:
+        LANGUAGE: en
+        TARGET: _site/en
 
   build_docker:
-    cmds:
-      - |
-        docker run --rm \
-        --workdir /github/workspace \
-        -v {{.WORKING_DIRECTORY}}:/github/workspace \
-        -e TZ=Europe/Berlin -e JEKYLL_UID="{{.JEKYLL_UID}}" -e JEKYLL_GID="{{.JEKYLL_GID}}" -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
-        jekyll/builder jekyll build -d {{.TARGET}}
+    - |
+      docker run --rm \
+      --workdir /github/workspace \
+      -v {{.WORKING_DIRECTORY}}:/github/workspace \
+      -e TZ=Europe/Berlin -e JEKYLL_UID="{{.JEKYLL_UID}}" -e JEKYLL_GID="{{.JEKYLL_GID}}" -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
+      jekyll/builder jekyll build -d {{.TARGET}}
 
   sync_clean:
-    cmds:
-      - task: sync_sources_to_site
+    - task: sync_sources_to_site
 
   sync_sources_to_site:
-    cmds:
-      - rapper -i turtle -o ntriples {{.FILE}}.ttl | LC_ALL=C sort -u > {{.FILE}}.nt
-      - cat {{.FILE}}.nt {{.PROGRAM_GRAPH}}.nt | LC_ALL=C sort -u > {{.SITE_GRAPH}}.nt
+    - rapper -i turtle -o ntriples {{.FILE}}.ttl | LC_ALL=C sort -u > {{.FILE}}.nt
+    - cat {{.FILE}}.nt {{.PROGRAM_GRAPH}}.nt | LC_ALL=C sort -u > {{.SITE_GRAPH}}.nt
 
   get_program:
-    cmds:
-      - echo "{{.CMEMC}}"
-      - '{{.CMEMC}} workflow execute --wait {{.WORKFLOW}}'
-      - '{{.CMEMC}} graph export {{.PROGRAM_GRAPH_IRI}} | LC_ALL=C sort -u > {{.PROGRAM_GRAPH}}.nt'
+    - '{{.CMEMC}} workflow execute --wait {{.WORKFLOW}}'
+    - '{{.CMEMC}} graph export {{.PROGRAM_GRAPH_IRI}} | LC_ALL=C sort -u > {{.PROGRAM_GRAPH}}.nt'
 
   commit_and_push_data:
-    cmds:
-      - |
-        git config user.name "{{.GIT_USER_NAME}}"
-        git config user.email "{{.GIT_USER_EMAIL}}"
-        git add {{.SITE_GRAPH_DUMP}} {{.PROGRAM_GRAPH_DUMP}}
-        git commit -m "{{.GIT_COMMIT_MESSAGE}}" || echo ""
-        git push || echo ""
+    - |
+      git config user.name "{{.GIT_USER_NAME}}"
+      git config user.email "{{.GIT_USER_EMAIL}}"
+      git add {{.SITE_GRAPH_DUMP}} {{.PROGRAM_GRAPH_DUMP}}
+      git commit -m "{{.GIT_COMMIT_MESSAGE}}" || echo ""
+      git push || echo ""
 
   normalize_turtle:
-    cmds:
-      - |
-        rapper -i turtle -o turtle \
-          -f 'xmlns:xsd="http://www.w3.org/2001/XMLSchema#"' \
-          -f 'xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"' \
-          -f 'xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"' \
-          -f 'xmlns:owl="http://www.w3.org/2002/07/owl#"' \
-          -f 'xmlns:dct="http://purl.org/dc/terms/"' \
-          -f 'xmlns:skos="http://www.w3.org/2004/02/skos/core#"' \
-          -f 'xmlns:schema="http://schema.org/"' \
-          -f 'xmlns:foaf="http://xmlns.com/foaf/0.1/"' \
-          -f 'xmlns:ecc-ns="https://ns.eccenca.com/"' \
-          -f 'xmlns:site="http://ns.ontowiki.net/SysOnt/Site/"' \
-          -f 'xmlns:orp="https://www.openresearch.org/wiki/Property:"' \
-          -f 'xmlns:aksw="http://aksw.org/"' \
-          -f 'xmlns:dw="https://dataweek.de/#"' \
-          {{.FILE}}.ttl | sponge {{.FILE}}.ttl
+    - |
+      rapper -i turtle -o turtle \
+        -f 'xmlns:xsd="http://www.w3.org/2001/XMLSchema#"' \
+        -f 'xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"' \
+        -f 'xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"' \
+        -f 'xmlns:owl="http://www.w3.org/2002/07/owl#"' \
+        -f 'xmlns:dct="http://purl.org/dc/terms/"' \
+        -f 'xmlns:skos="http://www.w3.org/2004/02/skos/core#"' \
+        -f 'xmlns:schema="http://schema.org/"' \
+        -f 'xmlns:foaf="http://xmlns.com/foaf/0.1/"' \
+        -f 'xmlns:ecc-ns="https://ns.eccenca.com/"' \
+        -f 'xmlns:site="http://ns.ontowiki.net/SysOnt/Site/"' \
+        -f 'xmlns:orp="https://www.openresearch.org/wiki/Property:"' \
+        -f 'xmlns:aksw="http://aksw.org/"' \
+        -f 'xmlns:dw="https://dataweek.de/#"' \
+        {{.FILE}}.ttl | sponge {{.FILE}}.ttl
 
   install_javascript_dependencies:
-    cmds:
-      - npm install
-      - npx webpack
+    - npm install
+    - npx webpack
