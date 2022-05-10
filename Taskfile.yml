@@ -133,7 +133,7 @@ tasks:
           -f 'xmlns:dw="https://dataweek.de/#"' \
           {{.FILE}}.ttl | sponge {{.FILE}}.ttl
 
-    install_javascript_dependencies:
-      cmds:
-        - npm install
-        - npx webpack
+  install_javascript_dependencies:
+    cmds:
+      - npm install
+      - npx webpack
