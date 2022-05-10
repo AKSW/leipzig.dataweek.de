@@ -5,8 +5,8 @@ on:
   push:
     branches: [ develop ]
   workflow_dispatch:
-  # schedule:
-  #   - cron:  '30 * * * *'
+  schedule:
+    - cron:  '30 * * * *'
 
 jobs:
   build:
