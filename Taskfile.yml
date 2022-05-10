@@ -27,7 +27,7 @@ tasks:
   default:
     - task: normalize_turtle
     - task: get_program
-    - task: sync_sources_to_site
+    - task: sync_clean
     - task: styles
     - task: build_de
     - task: build_en
@@ -81,10 +81,10 @@ tasks:
       jekyll/builder jekyll build -d {{.TARGET}}
 
   sync_clean:
+    - rapper -i turtle -o ntriples {{.FILE}}.ttl | LC_ALL=C sort -u > {{.FILE}}.nt
     - task: sync_sources_to_site
 
   sync_sources_to_site:
-    - rapper -i turtle -o ntriples {{.FILE}}.ttl | LC_ALL=C sort -u > {{.FILE}}.nt
     - cat {{.FILE}}.nt {{.PROGRAM_GRAPH}}.nt | LC_ALL=C sort -u > {{.SITE_GRAPH}}.nt
 
   get_program:
