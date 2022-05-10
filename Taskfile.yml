@@ -101,6 +101,7 @@ tasks:
 
   get_program:
     cmds:
+      - echo "{{.CMEMC}}"
       - '{{.CMEMC}} workflow execute --wait {{.WORKFLOW}}'
       - '{{.CMEMC}} graph export {{.PROGRAM_GRAPH_IRI}} | LC_ALL=C sort -u > {{.PROGRAM_GRAPH}}.nt'
 
