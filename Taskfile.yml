@@ -34,6 +34,7 @@ tasks:
 
   ci:
     - task: install_javascript_dependencies
+    - task: styles
     - task: build_docker_de
     - task: build_docker_en
 
@@ -119,4 +120,3 @@ tasks:
 
   install_javascript_dependencies:
     - npm install
-    - npx webpack
