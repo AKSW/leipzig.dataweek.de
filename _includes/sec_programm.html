@@ -48,16 +48,28 @@ SELECT ?event WHERE {
   optional { ?event schema:startDate ?date }
 } ORDER BY ASC(?date)
 {% endcapture %}
-
 {% assign subEvents = event | sparql_query: subEvents_query  %}
+
+{% capture keynote_query %}
+SELECT ?type WHERE {
+  <{{ event.iri }}> a ?type .
+  filter(?type = dw:Keynote)
+}
+{% endcapture %}
+{% assign keynote = event | sparql_query: keynote_query  %}
+
 {% if subEvents.first %}
 Chair: {% include performer.html event=event join="; " %}
 {% else %}
+{% if keynote.first %}
 {% include performer.html event=event join="; " style="individual" %}
 
 {% assign description = event | rdf_property: "dct:description", site.language %}
 {% if description %}
 <p>{{ description | markdownify }}</p>
+{% endif %}
+{% else %}
+{% include performer.html event=event join="; " %}
 {% endif %}
 {% endif %}
 
