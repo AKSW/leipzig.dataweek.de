@@ -1,0 +1,63 @@
+{% comment %}
+style is one of:
+inline
+paragraph
+individual
+{% endcomment %}
+{%- assign event = include.event -%}
+{%- assign join = include.join -%}
+{%- assign style = include.style -%}
+{%- unless join -%}
+{%- assign join = ", " -%}
+{%- endunless -%}
+{%- assign persons = "" | split: " " -%}
+{%- assign performers = event | rdf_property: "schema:performer", nil, true -%}
+{%- for performer in performers -%}
+{%- assign name = performer | rdf_property: "skos:prefLabel" -%}
+{%- unless name -%}
+{%- assign name = performer | rdf_property: "foaf:name" -%}
+{%- endunless -%}
+{%- assign description = performer | rdf_property: "dct:description", site.language -%}
+{%- unless name -%}
+{%- assign description = performer | rdf_property: "dct:description" -%}
+{%- endunless -%}
+{%- assign homepage = performer | rdf_property: "foaf:homepage" -%}
+{%- capture person -%}
+{%- if style == "individual" -%}
+<div class="lswt-speaker-columns">
+{% include person.html organizer=performer %}
+{%- if description -%}
+<div class="lswt-textcard">
+{{ description | markdownify | strip }}
+</div>
+{%- endif -%}
+</div>
+{%- else -%}
+{%- if homepage -%}
+<a href="{{ homepage }}">{{ name }}</a>
+{%- else -%}
+{{ name }}
+{%- endif -%}
+{%- if description -%}
+{{ description | markdownify | remove: "<p>" | remove: "</p>" | strip | prepend: ", " }}
+{%- endif -%}
+{%- endif -%}
+{%- endcapture -%}
+{%- assign persons = person | concat: persons -%}
+{%- endfor -%}
+
+{%- if persons.first -%}
+{%- case style -%}
+{%- when "individual" -%}
+{% for person in persons %}
+<div>{{ person }}</div>
+{% unless forloop.last %}
+{{ join }}
+{% endunless %}
+{% endfor %}
+{%- when "paragraph" -%}
+<p>{{ persons | join: join }}</p>
+{%- else -%}
+{{ persons | join: join }}
+{%- endcase -%}
+{%- endif -%}

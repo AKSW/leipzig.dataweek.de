@@ -5,8 +5,8 @@ on:
   push:
     branches: [ develop ]
   workflow_dispatch:
-  # schedule:
-  #   - cron:  '30 * * * *'
+  schedule:
+    - cron:  '30 * * * *'
 
 jobs:
   build:
@@ -14,31 +14,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: arduino/setup-task@v1
     - uses: actions/checkout@v2
-    # - name: Pull, commit, and push data 🔁
-    #   env:
-    #     OAUTH_CLIENT_SECRET: ${{ secrets.OAUTH_CLIENT_SECRET }}
-    #   run: |
-    #        make data-pull
-    #        make git-commit-and-push
-    - name: Provide JavaScript Dependencies 🚚
-      run: |
-           npm install
-           npx webpack
-    - name: Build Jekyll-RDF Site ⚙️ (german)
-      run: |
-           docker run --rm \
-           --workdir /github/workspace \
-           -v ${{ github.workspace }}:/github/workspace -v ${{ github.workspace }}/_site:/github/workspace/_site \
-           -e TZ=Europe/Berlin -e JEKYLL_UID="$UID" -e JEKYLL_GID="$GID" -e JEKYLL_LANGUAGE=de \
-           jekyll/builder jekyll build -d _site
-    - name: Build Jekyll-RDF Site ⚙️ (english)
-      run: |
-           docker run --rm \
-           --workdir /github/workspace \
-           -v ${{ github.workspace }}:/github/workspace -v ${{ github.workspace }}/_site:/github/workspace/_site \
-           -e TZ=Europe/Berlin -e JEKYLL_UID="$UID" -e JEKYLL_GID="$GID" -e JEKYLL_LANGUAGE=en \
-           jekyll/builder jekyll build -d _site/en
+    - name: Run CI Tasks ⚙️
+      env:
+        OAUTH_CLIENT_SECRET: ${{ secrets.OAUTH_CLIENT_SECRET }}
+      run: task ci_data_sync ci
     - name: Deploy 🚀
       uses: peaceiris/actions-gh-pages@v3
       with:
