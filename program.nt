@@ -92,6 +92,12 @@
 <https://dataweek.de/#EricPeukert> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Eric Peukert" .
 <https://dataweek.de/#EricPeukert> <http://xmlns.com/foaf/0.1/name> "Eric Peukert" .
 <https://dataweek.de/#EricPeukert> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#JanReichert> <http://purl.org/dc/terms/description> "ACOD GmbH - Automotive Cluster Ostdeutschland "@de .
+<https://dataweek.de/#JanReichert> <http://purl.org/dc/terms/description> "ACOD GmbH - Automotive Cluster Ostdeutschland [ACOD](https://www.acod.de/)"@en .
+<https://dataweek.de/#JanReichert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#JanReichert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JanReichert> <http://xmlns.com/foaf/0.1/homepage> <https://www.acod.de/ueber-uns> .
+<https://dataweek.de/#JanReichert> <http://xmlns.com/foaf/0.1/name> "Jan Reichert" .
 <https://dataweek.de/#JanaBendigs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JanaBendigs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JanaBendigs> <http://xmlns.com/foaf/0.1/name> "Jana Bendigs" .
@@ -323,5 +329,6 @@
 <https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-4> .
 <https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-9> .
 <https://dataweek.de/programm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/di/Dataset> .
+<https://www.acod.de/ueber-uns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.tib.eu/en/research-development/research-groups-and-labs/data-science-digital-libraries/staff/soeren-auer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .

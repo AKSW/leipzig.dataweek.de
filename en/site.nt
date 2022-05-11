@@ -165,6 +165,12 @@
 <https://dataweek.de/#EricPeukert> <http://xmlns.com/foaf/0.1/name> "Dr. Eric Peukert" .
 <https://dataweek.de/#EricPeukert> <http://xmlns.com/foaf/0.1/name> "Eric Peukert" .
 <https://dataweek.de/#EricPeukert> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#JanReichert> <http://purl.org/dc/terms/description> "ACOD GmbH - Automotive Cluster Ostdeutschland "@de .
+<https://dataweek.de/#JanReichert> <http://purl.org/dc/terms/description> "ACOD GmbH - Automotive Cluster Ostdeutschland [ACOD](https://www.acod.de/)"@en .
+<https://dataweek.de/#JanReichert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#JanReichert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JanReichert> <http://xmlns.com/foaf/0.1/homepage> <https://www.acod.de/ueber-uns> .
+<https://dataweek.de/#JanReichert> <http://xmlns.com/foaf/0.1/name> "Jan Reichert" .
 <https://dataweek.de/#JanaBendigs> <http://schema.org/affiliation> <https://scads.ai/> .
 <https://dataweek.de/#JanaBendigs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JanaBendigs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -591,6 +597,7 @@
 <https://scads.ai/> <http://www.w3.org/2000/01/rdf-schema#label> "ScaDS AI" .
 <https://scads.ai/> <http://xmlns.com/foaf/0.1/homepage> <https://scads.ai/> .
 <https://scads.ai/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/Scads_AI_Logo.svg" .
+<https://www.acod.de/ueber-uns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.cvut.cz/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.cvut.cz/> <http://www.w3.org/2000/01/rdf-schema#label> "Czech technical university in Prague" .
 <https://www.cvut.cz/> <http://xmlns.com/foaf/0.1/homepage> <https://www.cvut.cz/en/> .
