@@ -7,25 +7,47 @@ vars:
   CMEM: aksw.eccenca.dev
   WORKFLOW: 54b8da6d-1c3b-4c84-9268-3e456165b9ad_Programm:238cc3fb-389b-439c-9b7b-d492305db2d3_ProgrammTransformation
   PROGRAM_GRAPH_IRI: https://dataweek.de/programm
+  GIT_USER_NAME: DataWekk CMEM Update Bot 🤖
+  GIT_USER_EMAIL: dw-cmem-update-bot@example.org
+  GIT_COMMIT_MESSAGE: Update from CMEM
+  WORKING_DIRECTORY: '{{.github.workspace | default .PWD}}'
+  CMEMC_VERSION: v21.11.4
+  CMEMC_IMAGE: docker-registry.eccenca.com/eccenca-cmemc:{{.CMEMC_VERSION}}
+  CMEMC_DOCKER: docker run -i --rm -e "CMEM_BASE_URI=https://aksw.eccenca.dev/" -e "OAUTH_CLIENT_SECRET={{.OAUTH_CLIENT_SECRET}}" -v {{.WORKING_DIRECTORY}}:/data {{.CMEMC_IMAGE}}
+  CMEMC: '{{.CMEMC_LOCAL | default .CMEMC_DOCKER}}'
+  ID_UID:
+    sh: id -u
+  ID_GID:
+    sh: id -g
+  JEKYLL_UID: '{{.JEKYLL_UID | default .ID_UID}}'
+  JEKYLL_GID: '{{.JEKYLL_GID | default .ID_GID}}'
 
 tasks:
 
   default:
-    cmds:
-      - task: normalize_turtle
-      - task: get_program
-      - task: sync_sources_to_site
-      - task: styles
-      - task: build_de
-      - task: build_en
+    - task: normalize_turtle
+    - task: get_program
+    - task: sync_clean
+    - task: styles
+    - task: build_de
+    - task: build_en
+
+  ci:
+    - task: install_javascript_dependencies
+    - task: styles
+    - task: build_docker_de
+    - task: build_docker_en
+
+  ci_data_sync:
+    - task: get_program
+    - task: sync_sources_to_site
+    - task: commit_and_push_data
 
   serve:
-    cmds:
-      - python -m http.server --directory _site
+    - python -m http.server --directory _site
 
   styles:
-    cmds:
-      - npx webpack
+    - npx webpack
 
   build_de:
     cmds:
@@ -39,34 +61,62 @@ tasks:
     env:
       JEKYLL_LANGUAGE: en
 
+  build_docker_de:
+    - task: build_docker
+      vars:
+        LANGUAGE: de
+        TARGET: _site
+
+  build_docker_en:
+    - task: build_docker
+      vars:
+        LANGUAGE: en
+        TARGET: _site/en
+
+  build_docker:
+    - |
+      docker run --rm \
+      --workdir /github/workspace \
+      -v {{.WORKING_DIRECTORY}}:/github/workspace \
+      -e TZ=Europe/Berlin -e JEKYLL_UID="{{.JEKYLL_UID}}" -e JEKYLL_GID="{{.JEKYLL_GID}}" -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
+      jekyll/builder jekyll build -d {{.TARGET}}
+
   sync_clean:
-    cmds:
-      - task: sync_sources_to_site
+    - rapper -i turtle -o ntriples {{.FILE}}.ttl | LC_ALL=C sort -u > {{.FILE}}.nt
+    - task: sync_sources_to_site
 
   sync_sources_to_site:
-    cmds:
-      - rapper -i turtle -o ntriples {{.FILE}}.ttl | LC_ALL=C sort -u > {{.FILE}}.nt
-      - cat {{.FILE}}.nt {{.PROGRAM_GRAPH}}.nt | LC_ALL=C sort -u > {{.SITE_GRAPH}}.nt
+    - cat {{.FILE}}.nt {{.PROGRAM_GRAPH}}.nt | LC_ALL=C sort -u > {{.SITE_GRAPH}}.nt
 
   get_program:
-    - cmemc -c {{.CMEM}} workflow execute --wait {{.WORKFLOW}}
-    - cmemc -c {{.CMEM}} graph export {{.PROGRAM_GRAPH_IRI}} | LC_ALL=C sort -u > {{.PROGRAM_GRAPH}}.nt
+    - '{{.CMEMC}} workflow execute --wait {{.WORKFLOW}}'
+    - '{{.CMEMC}} graph export {{.PROGRAM_GRAPH_IRI}} | LC_ALL=C sort -u > {{.PROGRAM_GRAPH}}.nt'
+
+  commit_and_push_data:
+    - |
+      git config user.name "{{.GIT_USER_NAME}}"
+      git config user.email "{{.GIT_USER_EMAIL}}"
+      git add {{.SITE_GRAPH}}.nt {{.PROGRAM_GRAPH}}.nt
+      git commit -m "{{.GIT_COMMIT_MESSAGE}}" || echo ""
+      git push || echo ""
 
   normalize_turtle:
-    cmds:
-      - |
-        rapper -i turtle -o turtle \
-          -f 'xmlns:xsd="http://www.w3.org/2001/XMLSchema#"' \
-          -f 'xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"' \
-          -f 'xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"' \
-          -f 'xmlns:owl="http://www.w3.org/2002/07/owl#"' \
-          -f 'xmlns:dct="http://purl.org/dc/terms/"' \
-          -f 'xmlns:skos="http://www.w3.org/2004/02/skos/core#"' \
-          -f 'xmlns:schema="http://schema.org/"' \
-          -f 'xmlns:foaf="http://xmlns.com/foaf/0.1/"' \
-          -f 'xmlns:ecc-ns="https://ns.eccenca.com/"' \
-          -f 'xmlns:site="http://ns.ontowiki.net/SysOnt/Site/"' \
-          -f 'xmlns:orp="https://www.openresearch.org/wiki/Property:"' \
-          -f 'xmlns:aksw="http://aksw.org/"' \
-          -f 'xmlns:dw="https://dataweek.de/#"' \
-          {{.FILE}}.ttl | sponge {{.FILE}}.ttl
+    - |
+      rapper -i turtle -o turtle \
+        -f 'xmlns:xsd="http://www.w3.org/2001/XMLSchema#"' \
+        -f 'xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"' \
+        -f 'xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"' \
+        -f 'xmlns:owl="http://www.w3.org/2002/07/owl#"' \
+        -f 'xmlns:dct="http://purl.org/dc/terms/"' \
+        -f 'xmlns:skos="http://www.w3.org/2004/02/skos/core#"' \
+        -f 'xmlns:schema="http://schema.org/"' \
+        -f 'xmlns:foaf="http://xmlns.com/foaf/0.1/"' \
+        -f 'xmlns:ecc-ns="https://ns.eccenca.com/"' \
+        -f 'xmlns:site="http://ns.ontowiki.net/SysOnt/Site/"' \
+        -f 'xmlns:orp="https://www.openresearch.org/wiki/Property:"' \
+        -f 'xmlns:aksw="http://aksw.org/"' \
+        -f 'xmlns:dw="https://dataweek.de/#"' \
+        {{.FILE}}.ttl | sponge {{.FILE}}.ttl
+
+  install_javascript_dependencies:
+    - npm install
