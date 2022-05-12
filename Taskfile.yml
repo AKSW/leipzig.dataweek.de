@@ -7,7 +7,7 @@ vars:
   CMEM: aksw.eccenca.dev
   WORKFLOW: 54b8da6d-1c3b-4c84-9268-3e456165b9ad_Programm:238cc3fb-389b-439c-9b7b-d492305db2d3_ProgrammTransformation
   PROGRAM_GRAPH_IRI: https://dataweek.de/programm
-  GIT_USER_NAME: DataWekk CMEM Update Bot 🤖
+  GIT_USER_NAME: DataWeek CMEM Update Bot 🤖
   GIT_USER_EMAIL: dw-cmem-update-bot@example.org
   GIT_COMMIT_MESSAGE: Update from CMEM
   WORKING_DIRECTORY: '{{.github.workspace | default .PWD}}'
