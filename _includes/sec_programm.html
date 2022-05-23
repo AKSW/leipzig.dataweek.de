@@ -59,7 +59,10 @@ SELECT ?type WHERE {
 {% assign keynote = event | sparql_query: keynote_query  %}
 
 {% if subEvents.first %}
+{% assign chair = rdf_property: "schema:performer" %}
+{% if chair %}
 Chair: {% include performer.html event=event join="; " %}
+{% endif %}
 {% else %}
 {% if keynote.first %}
 {% include performer.html event=event join="; " style="individual" %}
