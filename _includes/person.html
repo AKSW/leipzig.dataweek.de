@@ -1,5 +1,5 @@
 {% assign organizer = include.organizer %}
-{% assign name = organizer | rdf_property: "skos:prefLabel" %}
+{% capture name %}{% include label.html iri = organizer.iri %}{% endcapture %}
 {% assign homepage = organizer | rdf_property: "foaf:homepage" %}
 {% assign depiction = organizer | rdf_property: "foaf:depiction" %}
 {% assign affiliations = organizer | rdf_property: "schema:affiliation", nil, true %}
