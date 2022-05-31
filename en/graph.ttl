@@ -28,7 +28,6 @@ aksw:JuliaHolze
     foaf:name "Julia Holze" .
 
 aksw:MichaelMartin
-    dct:description "Leiter Kompetenzzentrum @ [AKSW](http://aksw.org/)/[InfAI e.V.](https://infai.org/)" ;
     schema:affiliation aksw:Group, <https://infai.org/> ;
     a foaf:Person ;
     skos:prefLabel "Dr. Michael Martin" ;
@@ -45,7 +44,6 @@ aksw:MilanDojchinovski
     foaf:name "Dr. Milan Dojchinovski" .
 
 aksw:NatanaelArndt
-    dct:description "Senior Linked Data Expert [eccenca GmbH](https://eccenca.com/)" ;
     schema:affiliation aksw:Group, <https://www.eccenca.com/> ;
     a foaf:Person ;
     skos:prefLabel "Dr. Natanael Arndt" ;
@@ -69,7 +67,6 @@ aksw:SebastianHellmann
     foaf:name "Dr.-Ing. Sebastian Hellmann" .
 
 aksw:SebastianTramp
-    dct:description "CTO, [eccenca GmbH](https://www.eccenca.com/)" ;
     schema:affiliation aksw:Group, <https://www.eccenca.com/> ;
     a foaf:Person ;
     skos:prefLabel "Dr. Sebastian Tramp" ;
@@ -78,7 +75,6 @@ aksw:SebastianTramp
     foaf:name "Sebastian Tramp" .
 
 aksw:SoerenAuer
-    dct:description "Sören Auer is Professor for Data Science and Digital Libraries at the Gottfried Wilhelm Leibniz University Hannover and Director of the Technische Informationsbibliothek (TIB) in Hannover."@en, "Sören Auer ist Professor für Data Science and Digital Libraries an der Gottfried Wilhelm Leibniz Universität Hannover und Direktor der Technischen Informationsbibliothek (TIB) in Hannover."@de ;
     schema:affiliation <https://www.l3s.de/>, <https://www.tib.eu/> ;
     a foaf:Person ;
     skos:prefLabel "Prof. Dr. Sören Auer" ;
@@ -87,7 +83,6 @@ aksw:SoerenAuer
     foaf:name "Sören Auer" .
 
 aksw:ThomasRiechert
-    dct:description "[Institut für Informatik/HTWK Leipzig](https://www.htwk-leipzig.de/)" ;
     schema:affiliation aksw:Group, <https://htwk-leipzig.de/> ;
     a foaf:Person ;
     skos:prefLabel "Prof. Dr. Thomas Riechert" ;
@@ -130,7 +125,6 @@ schema:startDate
     rdfs:label "Data Week Leipzig 2022" .
 
 dw:AndreasBoth
-    dct:description "[HTWK Leipzig](https://htwk-leipzig.de/)" ;
     schema:affiliation <https://htwk-leipzig.de/> ;
     a foaf:Person ;
     skos:prefLabel "Prof. Dr. Andreas Both" ;
@@ -222,7 +216,6 @@ dw:ThomasBurghardt
     foaf:name "Dr. Thomas Burghardt" .
 
 dw:VeraMeister
-    dct:description "[Technische Hochschule Brandenburg](https://th-brandenburg.de/)"^^<file:///data/> ;
     schema:affiliation <https://www.th-brandenburg.de/> ;
     a foaf:Person ;
     skos:prefLabel "Prof. Dr. Vera Meister" ;
@@ -642,3 +635,4 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
     rdfs:label "Technische Hochschule Brandenburg" ;
     foaf:homepage <https://www.th-brandenburg.de/> ;
     foaf:logo "/images/partner/THB.svg" .
+
