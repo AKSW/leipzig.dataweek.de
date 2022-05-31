@@ -1,0 +1,4 @@
+{% assign location = include.location %}
+{{ location | rdf_property: "schema:name" }}<br/>
+{{ location | rdf_property: "schema:streetAddress" }}<br/>
+{{ location | rdf_property: "schema:postalCode" }} {{ location | rdf_property: "schema:addressLocality" }}
