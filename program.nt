@@ -57,8 +57,8 @@
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SebastianTramp> .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/name> "Sebastian Tramp" .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/title> "Dr." .
-<http://aksw.org/SoerenAuer> <http://purl.org/dc/terms/description> "Sören Auer is Professor for Data Science and Digital Libraries at the Gottfried Wilhelm Leibniz University Hannover and Director of the Technische Informationsbibliothek (TIB) in Hannover."@en .
-<http://aksw.org/SoerenAuer> <http://purl.org/dc/terms/description> "Sören Auer ist Professor für Data Science and Digital Libraries an der Gottfried Wilhelm Leibniz Universität Hannover und Direktor der Technischen Informationsbibliothek (TIB) in Hannover."@de .
+<http://aksw.org/SoerenAuer> <http://purl.org/dc/terms/description> "Sören Auer is Professor for Data Science and Digital Libraries at the Gottfried Wilhelm Leibniz University Hannover and Director of the Technische Informationsbibliothek (TIB) in Hannover. Before being appointed Director of TIB, Sören led the “Enterprise Information Systems (EIS)” department at Fraunhofer Institute for Intelligent Analysis and Information Systems IAIS and held a Chair in Enterprise Information Systems at the University of Bonn. After studying Mathematics and Computer Science at Hagen, Dresden and Yekaterinburg, Sören earned a PhD in Computer Science at Leipzig University. This was followed by posts as post-doctoral researcher at the University of Pennsylvania and at Leipzig University, where he led the “Agile Knowledge Engineering and Semantic Web” (AKSW) research group."@en .
+<http://aksw.org/SoerenAuer> <http://purl.org/dc/terms/description> "Sören Auer ist Professor für Data Science and Digital Libraries an der Gottfried Wilhelm Leibniz Universität Hannover und Direktor der Technischen Informationsbibliothek (TIB) in Hannover. Vor seiner Ernennung zum Direktor der TIB leitete Auer die Abteilung \"Enterprise Information Systems (EIS)\" am Fraunhofer-Institut für Intelligente Analyse- und Informationssysteme IAIS und hatte eine Professur für Enterprise Information Systems an der Universität Bonn inne. Nach dem Studium der Mathematik und Informatik in Hagen, Dresden und Jekaterinburg promovierte Sören Auer in Informatik an der Universität Leipzig. Es folgten Stationen als Post-Doc an der University of Pennsylvania und an der Universität Leipzig, wo er die Forschungsgruppe \"Agile Knowledge Engineering and Semantic Web\" (AKSW) leitete."@de .
 <http://aksw.org/SoerenAuer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/SoerenAuer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SoerenAuer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Sören Auer" .
@@ -296,8 +296,8 @@
 <https://dataweek.de/#SophiaKuhl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SophiaKuhl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SophiaKuhl> <http://xmlns.com/foaf/0.1/name> "Sophia Kuhl" .
-<https://dataweek.de/#StefanHoltel> <http://purl.org/dc/terms/description> "Curator of Digital Change at [PricewaterhouseCoopers GmbH](https://www.pwc.de/en.html) "@en .
-<https://dataweek.de/#StefanHoltel> <http://purl.org/dc/terms/description> "Kurator für digitalen Wandel bei der [PricewaterhouseCoopers GmbH](https://www.pwc.de/) "@de .
+<https://dataweek.de/#StefanHoltel> <http://purl.org/dc/terms/description> "Stefan Holtel is curator of Digital Change at [PricewaterhouseCoopers GmbH](https://www.pwc.de/en.html). Among other things, he worked for 11 years in research and development at Vodafone and holds several international patents. He regularly presents, publishes and lectures on how companies can manage digital transformation. He currently works at PricewaterhouseCoopers' DigiLab as a thought leader on interdisciplinary issues in Artificial Intelligence.  "@en .
+<https://dataweek.de/#StefanHoltel> <http://purl.org/dc/terms/description> "Stefan Holtel ist Kurator für digitalen Wandel bei der [PricewaterhouseCoopers GmbH](https://www.pwc.de/). Er arbeitete u.a. 11 Jahre in der Forschung und Entwicklung von Vodafone und hält mehrere internationale Patente. Regelmäßig präsentiert, publiziert und doziert er zur Frage, wie Unternehmen die digitale Transformation bewältigen können. Derzeit arbeitet er im DigiLab von PricewaterhouseCoopers als Vordenker zu interdisziplinären Fragen der Künstlichen Intelligenz. "@de .
 <https://dataweek.de/#StefanHoltel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#StefanHoltel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#StefanHoltel> <http://xmlns.com/foaf/0.1/homepage> <https://www.pwc.de/> .
@@ -621,6 +621,7 @@
 <https://dataweek.de/openingday/#programm-session-2> <http://purl.org/dc/terms/title> "Daten für die Bürger/Bürgerbeteiligung"@de .
 <https://dataweek.de/openingday/#programm-session-2> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-session-2> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
+<https://dataweek.de/openingday/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#ElisabethBreitenstein%20> .
 <https://dataweek.de/openingday/#programm-session-2> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-session-2> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-10> .
 <https://dataweek.de/openingday/#programm-session-2> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-9> .
@@ -631,6 +632,7 @@
 <https://dataweek.de/openingday/#programm-session-3> <http://purl.org/dc/terms/title> "Daten für die Stadt der nächsten Generation(en)"@de .
 <https://dataweek.de/openingday/#programm-session-3> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-session-3> <http://schema.org/location> <https://dataweek.de/#Ratsplenarsaal> .
+<https://dataweek.de/openingday/#programm-session-3> <http://schema.org/performer> <https://dataweek.de/#JuliaFriedrich> .
 <https://dataweek.de/openingday/#programm-session-3> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-13> .
 <https://dataweek.de/openingday/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-14> .
