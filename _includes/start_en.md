@@ -1,21 +1,15 @@
 
-<a href="https://pretix.eu/infai/dataweek2022/"><button class="btn btn-warning m-auto">Registration / Tickets</button></a>
-
 ## What is Data Week Leipzig?
 
-Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. For the first time, Data Week Leipzig creates an exchange and networking platform on the topics of data and artificial intelligence at the New City Hall in Leipzig. Through various event formats and keynote presentations, political, scientific and overall social perspectives on these two topics will be presented. Furthermore, the conference program will be complemented by various workshops and a panel discussion. 
+Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. For the first time, Data Week Leipzig creates an exchange and networking platform on the topics of data and artificial intelligence at the New City Hall in Leipzig. Through various event formats and keynote presentations, political, scientific and overall social perspectives on these two topics will be presented. Furthermore, the conference program will be complemented by various workshops and a panel discussion.
 
 The Data Week combines individual event formats in the area of research and transfer (Leipzig Semantic Web Day, DBpedia Symposium, Big Data and AI in Business Workshop), which are organized by the participating scientific and transfer institutions Institute for Applied Informatics and ScaDS.AI Dresden/Leipzig as well as eccenca GmbH, the DBpedia Association and AKSW network.
 
 ## Tickets
 
-Daily and weekly tickets can be purchased here:  [https://pretix.eu/infai/dataweek2022/](https://pretix.eu/infai/dataweek2022/). You must purchase a ticket to attend Data Week Leipzig. Students can secure a discounted ticket at [dataweek@infai.org](mailto:dataweek@infai.org). We will provide a limited contingent. We look forward to your participation!
+Daily and weekly tickets can be purchased here: [https://pretix.eu/infai/dataweek2022/](https://pretix.eu/infai/dataweek2022/). You must purchase a ticket to attend Data Week Leipzig. Students can secure a discounted ticket at [dataweek@infai.org](mailto:dataweek@infai.org). We will provide a limited contingent. We look forward to your participation!
 
-## Where?
-
-Neues Rathaus/City Hall<br/>
-Martin-Luther-Ring 4-6<br/>
-04109 Leipzig
+<a href="https://pretix.eu/infai/dataweek2022/"><button class="btn btn-warning m-auto">Registration/Tickets</button></a>
 
 ## Target group
 
@@ -24,4 +18,3 @@ A new networking event and platform will be created with the Data Week 2022 in L
 ## Sponsoring
 
 We offer various sponsorship packages. Contact us! We will create a personalized sponsorship package for your organization or company. Please contact us at [dataweek@infai.org](mailto:dataweek@infai.org).
-
