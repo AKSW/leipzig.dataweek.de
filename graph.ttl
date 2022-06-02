@@ -110,7 +110,7 @@ schema:startDate
     a schema:Organization ;
     rdfs:label "Connected Urban Twins" ;
     foaf:homepage <https://connectedurbantwins.de/> ;
-    foaf:logo "/images/CUT_Logo.png" .
+    foaf:logo dw:LogoCUT .
 
 <https://dataweek.de/>
     schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
@@ -188,6 +188,14 @@ dw:Location
     <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.37267 51.33594)" ;
     <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "51.33594"^^xsd:float ;
     <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.37267"^^xsd:float .
+
+dw:LogoCUT
+    dct:description "Connected Urban Twins" ;
+    rdf:value "/images/CUT_Logo.png" .
+
+dw:LogoStadtLeipzig
+    dct:description "Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig" ;
+    rdf:value "/images/partner/Stadt_Leipzig.png" .
 
 dw:MiriamWelz
     schema:affiliation <https://scads.ai/> ;
@@ -660,7 +668,7 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
     a schema:Organization ;
     rdfs:label "Stadt Leipzig" ;
     foaf:homepage <https://www.leipzig.de/> ;
-    foaf:logo "/images/partner/Stadt_Leipzig.png" .
+    foaf:logo dw:LogoStadtLeipzig .
 
 <https://www.th-brandenburg.de/>
     a schema:Organization ;
