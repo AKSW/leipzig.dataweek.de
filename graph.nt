@@ -78,7 +78,7 @@
 <https://connectedurbantwins.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://connectedurbantwins.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Connected Urban Twins" .
 <https://connectedurbantwins.de/> <http://xmlns.com/foaf/0.1/homepage> <https://connectedurbantwins.de/> .
-<https://connectedurbantwins.de/> <http://xmlns.com/foaf/0.1/logo> "/images/CUT_Logo.png" .
+<https://connectedurbantwins.de/> <http://xmlns.com/foaf/0.1/logo> <https://dataweek.de/#LogoCUT> .
 <https://dataweek.de/#AndreasBoth> <http://schema.org/affiliation> <https://htwk-leipzig.de/> .
 <https://dataweek.de/#AndreasBoth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AndreasBoth> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Andreas Both" .
@@ -127,6 +127,10 @@
 <https://dataweek.de/#Location> <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.37267 51.33594)" .
 <https://dataweek.de/#Location> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "51.33594"^^<http://www.w3.org/2001/XMLSchema#float> .
 <https://dataweek.de/#Location> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.37267"^^<http://www.w3.org/2001/XMLSchema#float> .
+<https://dataweek.de/#LogoCUT> <http://purl.org/dc/terms/description> "Connected Urban Twins" .
+<https://dataweek.de/#LogoCUT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/images/CUT_Logo.png" .
+<https://dataweek.de/#LogoStadtLeipzig> <http://purl.org/dc/terms/description> "Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig" .
+<https://dataweek.de/#LogoStadtLeipzig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/images/partner/Stadt_Leipzig.png" .
 <https://dataweek.de/#MiriamWelz> <http://schema.org/affiliation> <https://scads.ai/> .
 <https://dataweek.de/#MiriamWelz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MiriamWelz> <http://www.w3.org/2004/02/skos/core#prefLabel> "Miriam Welz" .
@@ -143,6 +147,15 @@
 <https://dataweek.de/#NievesSande> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nieves Sande" .
 <https://dataweek.de/#NievesSande> <http://xmlns.com/foaf/0.1/depiction> "/images/people/NievesSande.png" .
 <https://dataweek.de/#NievesSande> <http://xmlns.com/foaf/0.1/name> "Nieves Sande" .
+<https://dataweek.de/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.leipzig.de/> .
+<https://dataweek.de/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://connectedurbantwins.de/> .
+<https://dataweek.de/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+<https://dataweek.de/#Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In Kooperation mit"@de .
+<https://dataweek.de/#Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In cooperation with"@en .
+<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.vistex.com/> .
+<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+<https://dataweek.de/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
+<https://dataweek.de/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
 <https://dataweek.de/#StefanHoltel> <http://xmlns.com/foaf/0.1/depiction> "/images/people/StefanHoltel.png" .
 <https://dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/NatanaelArndt> .
 <https://dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#JanaBendigs> .
@@ -173,8 +186,10 @@
 <https://dataweek.de/> <http://schema.org/location> <https://dataweek.de/#Location> .
 <https://dataweek.de/> <http://schema.org/logo> <https://dataweek.de/images/DataWeek_Logo.png> .
 <https://dataweek.de/> <http://schema.org/organizer> <https://dataweek.de/#Team> .
+<https://dataweek.de/> <http://schema.org/partner> <https://dataweek.de/#Partner> .
 <https://dataweek.de/> <http://schema.org/slogan> "Forum for Data and AI Enthusiasts in Leipzig"@en .
 <https://dataweek.de/> <http://schema.org/slogan> "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de .
+<https://dataweek.de/> <http://schema.org/sponsor> <https://dataweek.de/#Sponsors> .
 <https://dataweek.de/> <http://schema.org/startDate> "2022-07-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/bdib-22/> .
 <https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/> .
@@ -334,7 +349,15 @@
 <https://www.eccenca.com/> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH" .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.eccenca.com/> .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/eccenca_w.svg" .
+<https://www.leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig" .
+<https://www.leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/> .
+<https://www.leipzig.de/> <http://xmlns.com/foaf/0.1/logo> <https://dataweek.de/#LogoStadtLeipzig> .
 <https://www.th-brandenburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.th-brandenburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Hochschule Brandenburg" .
 <https://www.th-brandenburg.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.th-brandenburg.de/> .
 <https://www.th-brandenburg.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/THB.svg" .
+<https://www.vistex.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.vistex.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Vistex, Inc." .
+<https://www.vistex.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.vistex.com/> .
+<https://www.vistex.com/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/Vistex.jpg" .

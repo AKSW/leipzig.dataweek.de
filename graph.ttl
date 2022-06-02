@@ -110,7 +110,7 @@ schema:startDate
     a schema:Organization ;
     rdfs:label "Connected Urban Twins" ;
     foaf:homepage <https://connectedurbantwins.de/> ;
-    foaf:logo "/images/CUT_Logo.png" .
+    foaf:logo dw:LogoCUT .
 
 <https://dataweek.de/>
     schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
@@ -119,7 +119,9 @@ schema:startDate
     schema:location dw:Location ;
     schema:logo <https://dataweek.de/images/DataWeek_Logo.png> ;
     schema:organizer dw:Team ;
+    schema:partner dw:Partner ;
     schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
+    schema:sponsor dw:Sponsors ;
     schema:startDate "2022-07-04"^^xsd:date ;
     schema:subEvent <https://dataweek.de/bdib-22/>, <https://dataweek.de/d2r2-22/>, <https://dataweek.de/dbpedia-day-2022/>, <https://dataweek.de/gi-leipzig-2022/>, <https://dataweek.de/kmi-22/>, <https://dataweek.de/lswt2022/>, <https://dataweek.de/openingday/> ;
     a <http://rdfs.org/ns/void#Dataset>, schema:Event ;
@@ -187,6 +189,14 @@ dw:Location
     <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "51.33594"^^xsd:float ;
     <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.37267"^^xsd:float .
 
+dw:LogoCUT
+    dct:description "Connected Urban Twins" ;
+    rdf:value "/images/CUT_Logo.png" .
+
+dw:LogoStadtLeipzig
+    dct:description "Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig" ;
+    rdf:value "/images/partner/Stadt_Leipzig.png" .
+
 dw:MiriamWelz
     schema:affiliation <https://scads.ai/> ;
     a foaf:Person ;
@@ -207,6 +217,17 @@ dw:NievesSande
     skos:prefLabel "Nieves Sande" ;
     foaf:depiction "/images/people/NievesSande.png" ;
     foaf:name "Nieves Sande" .
+
+dw:Partner
+    rdf:_1 <https://www.leipzig.de/> ;
+    rdf:_2 <https://connectedurbantwins.de/> ;
+    a rdf:Seq ;
+    rdfs:label "In Kooperation mit"@de, "In cooperation with"@en .
+
+dw:Sponsors
+    rdf:_1 <https://www.vistex.com/> ;
+    a rdf:Seq ;
+    rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
 dw:StefanHoltel
     foaf:depiction "/images/people/StefanHoltel.png" .
@@ -643,9 +664,21 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
     foaf:homepage <https://www.eccenca.com/> ;
     foaf:logo "/images/partner/eccenca_w.svg" .
 
+<https://www.leipzig.de/>
+    a schema:Organization ;
+    rdfs:label "Stadt Leipzig" ;
+    foaf:homepage <https://www.leipzig.de/> ;
+    foaf:logo dw:LogoStadtLeipzig .
+
 <https://www.th-brandenburg.de/>
     a schema:Organization ;
     rdfs:label "Technische Hochschule Brandenburg" ;
     foaf:homepage <https://www.th-brandenburg.de/> ;
     foaf:logo "/images/partner/THB.svg" .
+
+<https://www.vistex.com/>
+    a schema:Organization ;
+    rdfs:label "Vistex, Inc." ;
+    foaf:homepage <https://www.vistex.com/> ;
+    foaf:logo "/images/partner/Vistex.jpg" .
 
