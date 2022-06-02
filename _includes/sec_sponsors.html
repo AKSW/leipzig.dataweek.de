@@ -1,0 +1,9 @@
+{% assign sponsors = rootResource | rdf_property: "schema:sponsor" %}
+<h2 id="Sponsors">{{ sponsors | rdf_property: "rdfs:label", site.language }}</h2>
+{% assign sponsorsList = sponsors | rdf_container %}
+{% for sponsor in sponsorsList %}
+    <a href="{{ sponsor | rdf_property: "foaf:homepage" }}">
+    {% assign imageResource = sponsor | rdf_property: "foaf:logo" %}
+    {% include img.html resource=imageResource class='h120p padded' %}
+    </a>
+{% endfor %}
