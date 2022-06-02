@@ -22,12 +22,13 @@
     {% unless depiction %}
       {% assign depiction = affiliation | rdf_property: "foaf:logo" %}
     {% endunless %}
+    {% assign affiliation_label = affiliation | rdf_property: "rdfs:label" %}
     {% if depiction %}
     <div class="logo-container logo-3rem">
-      <a href="{{ affiliation | rdf_property: "foaf:homepage" }}"><img src="{{ depiction | relativize_url }}" alt="{{ affiliation | rdf_property: "foaf:name" }}" class="logo"></a>
+      <a href="{{ affiliation | rdf_property: "foaf:homepage" }}">{% include img.html resource=depiction alt=affiliation_label class='logo' %}</a>
     </div>
     {% else %}
-    <a href="{{ affiliation | rdf_property: "foaf:homepage" }}">{{ affiliation | rdf_property: "rdfs:label" }}</a>{% unless forloop.last%}, {% endunless %}
+    <a href="{{ affiliation | rdf_property: "foaf:homepage" }}">{{ affiliation_label }}</a>{% unless forloop.last%}, {% endunless %}
     {% endif %}
     {% endfor %}
   </p>
