@@ -80,6 +80,12 @@
 <https://dataweek.de/#AlexaSteinbrueck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AlexaSteinbrueck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AlexaSteinbrueck> <http://xmlns.com/foaf/0.1/name> "Alexa Steinbrück" .
+<https://dataweek.de/#AlexanderSmalla> <http://purl.org/dc/terms/description> "Data Analyst at [SENEC GmbH](https://senec.com/de)"@en .
+<https://dataweek.de/#AlexanderSmalla> <http://purl.org/dc/terms/description> "Data Analyst bei [SENEC GmbH](https://senec.com/de)"@de .
+<https://dataweek.de/#AlexanderSmalla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#AlexanderSmalla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#AlexanderSmalla> <http://xmlns.com/foaf/0.1/homepage> <https://www.xing.com/profile/Alexander_Smalla> .
+<https://dataweek.de/#AlexanderSmalla> <http://xmlns.com/foaf/0.1/name> "Alexander Smalla " .
 <https://dataweek.de/#AndreasBoth> <http://purl.org/dc/terms/description> "[HTWK Leipzig](https://htwk-leipzig.de/)"@de .
 <https://dataweek.de/#AndreasBoth> <http://purl.org/dc/terms/description> "[HTWK Leipzig](https://htwk-leipzig.de/)"@en .
 <https://dataweek.de/#AndreasBoth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -219,6 +225,12 @@
 <https://dataweek.de/#MaximilianBarth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MaximilianBarth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MaximilianBarth> <http://xmlns.com/foaf/0.1/name> "Maximilian Barth" .
+<https://dataweek.de/#MaximilianPensel> <http://purl.org/dc/terms/description> "Data Scientist at [Alexander Thamm GmbH](www.alexanderthamm.com)"@en .
+<https://dataweek.de/#MaximilianPensel> <http://purl.org/dc/terms/description> "Data Scientist bei [Alexander Thamm GmbH](www.alexanderthamm.com)"@de .
+<https://dataweek.de/#MaximilianPensel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MaximilianPensel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MaximilianPensel> <http://xmlns.com/foaf/0.1/homepage> <https://de.linkedin.com/in/maximilian-pensel-052890204> .
+<https://dataweek.de/#MaximilianPensel> <http://xmlns.com/foaf/0.1/name> "Maximilian Pensel " .
 <https://dataweek.de/#MiriamWelz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MiriamWelz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MiriamWelz> <http://xmlns.com/foaf/0.1/name> "Miriam Welz" .
@@ -349,11 +361,7 @@
 <https://dataweek.de/bdib-22/#programm-session-1> <http://schema.org/performer> <https://dataweek.de/#ManishBhandari> .
 <https://dataweek.de/bdib-22/#programm-session-1> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/bdib-22/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/bdib-22/#programm-session-2> <http://purl.org/dc/terms/title> "PreSense - An AI-based Predictive Maintenance Tool to Optimise the Complaint Process"@en .
-<https://dataweek.de/bdib-22/#programm-session-2> <http://purl.org/dc/terms/title> "PreSense – Ein KI-basiertes Predictive Maintenance Tool zur Optimierung des Reklamationsprozesses"@de .
 <https://dataweek.de/bdib-22/#programm-session-2> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://dataweek.de/bdib-22/#programm-session-2> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
-<https://dataweek.de/bdib-22/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#ArminGeisler> .
 <https://dataweek.de/bdib-22/#programm-session-2> <http://schema.org/startTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/bdib-22/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/bdib-22/#programm-session-3> <http://purl.org/dc/terms/description> "Vistex develops business software solutions using the latest technologies and agile methodologies to support our customers in key processes such as pricing, contracting, discounting and provisioning.\nVistex solutions enable quick access to all relevant information and provide better visibility when planning go-to-market strategies.\nThe result is increased sales, better cost control and higher margins. The Big Data Team in Leipzig is specialized in the scalable collection and analysis of global web data.\nIt currently develops an innovative technology platform for market analysis that combines, processes and links market data from different sources."@de .
@@ -373,12 +381,13 @@
 <https://dataweek.de/bdib-22/#programm-session-4> <http://schema.org/performer> <https://dataweek.de/#SebastianLehmann> .
 <https://dataweek.de/bdib-22/#programm-session-4> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/bdib-22/#programm-session-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/bdib-22/#programm-session-5> <http://purl.org/dc/terms/description> "InfAI Speaker"@de .
-<https://dataweek.de/bdib-22/#programm-session-5> <http://purl.org/dc/terms/description> "tba"@en .
-<https://dataweek.de/bdib-22/#programm-session-5> <http://purl.org/dc/terms/title> "InfAI Presentation "@de .
-<https://dataweek.de/bdib-22/#programm-session-5> <http://purl.org/dc/terms/title> "tba"@en .
+<https://dataweek.de/bdib-22/#programm-session-5> <http://purl.org/dc/terms/description> "Alexander Thamm GmbH Präsentation"@de .
+<https://dataweek.de/bdib-22/#programm-session-5> <http://purl.org/dc/terms/description> "Alexander Thamm GmbH presentation"@en .
+<https://dataweek.de/bdib-22/#programm-session-5> <http://purl.org/dc/terms/title> "Die Data Journey und das Problem mit der Schwarmintelligenz"@de .
+<https://dataweek.de/bdib-22/#programm-session-5> <http://purl.org/dc/terms/title> "The Data Journey and the Problem with Swarm Intelligence"@en .
 <https://dataweek.de/bdib-22/#programm-session-5> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/bdib-22/#programm-session-5> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
+<https://dataweek.de/bdib-22/#programm-session-5> <http://schema.org/performer> <https://dataweek.de/#MaximilianPensel> .
 <https://dataweek.de/bdib-22/#programm-session-5> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/bdib-22/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/bdib-22/#programm-session-6> <http://purl.org/dc/terms/description> "Snowflake uses their own big data technologies to optimize their service offering. Engineers and data scientists at Snowflake crawl petabytes of data to investigate, improve, and monitor all production systems. This talk dives into technologies and advantages of a modern cloud data platform to perform big data operations to optimize operations."@de .
@@ -390,14 +399,17 @@
 <https://dataweek.de/bdib-22/#programm-session-6> <http://schema.org/performer> <https://dataweek.de/#MartinHenschel> .
 <https://dataweek.de/bdib-22/#programm-session-6> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/bdib-22/#programm-session-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/bdib-22/#programm-session-7> <http://purl.org/dc/terms/title> "Prudys AG Presentation"@de .
+<https://dataweek.de/bdib-22/#programm-session-7> <http://purl.org/dc/terms/description> "Jens Scholz - Prudsys AG"@de .
+<https://dataweek.de/bdib-22/#programm-session-7> <http://purl.org/dc/terms/description> "Jens Scholz - Prudsys AG"@en .
+<https://dataweek.de/bdib-22/#programm-session-7> <http://purl.org/dc/terms/title> "Prudsys AG Prresentation"@en .
+<https://dataweek.de/bdib-22/#programm-session-7> <http://purl.org/dc/terms/title> "Prudsys AG Präsentation "@de .
 <https://dataweek.de/bdib-22/#programm-session-7> <http://schema.org/endTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/bdib-22/#programm-session-7> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
 <https://dataweek.de/bdib-22/#programm-session-7> <http://schema.org/performer> <https://dataweek.de/#JensScholz> .
 <https://dataweek.de/bdib-22/#programm-session-7> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/bdib-22/#programm-session-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/bdib-22/#programm-talk-14> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
-<https://dataweek.de/bdib-22/#programm-talk-14> <http://purl.org/dc/terms/title> "Break "@en .
+<https://dataweek.de/bdib-22/#programm-talk-14> <http://purl.org/dc/terms/title> "Break"@en .
 <https://dataweek.de/bdib-22/#programm-talk-14> <http://purl.org/dc/terms/title> "Pause"@de .
 <https://dataweek.de/bdib-22/#programm-talk-14> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/bdib-22/#programm-talk-14> <http://schema.org/location> <https://dataweek.de/#Wandelhalle> .
@@ -428,7 +440,7 @@
 <https://dataweek.de/bdib-22/#programm-talk-2> <http://schema.org/startTime> "08:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/bdib-22/#programm-talk-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/bdib-22/#programm-talk-3> <http://purl.org/dc/terms/title> "Eröffnung vom ScaDS.AI"@de .
-<https://dataweek.de/bdib-22/#programm-talk-3> <http://purl.org/dc/terms/title> "Opening by ScaDS.AI Dresden/Leipzig"@en .
+<https://dataweek.de/bdib-22/#programm-talk-3> <http://purl.org/dc/terms/title> "Opening Remarks by ScaDS.AI Dresden/Leipzig"@en .
 <https://dataweek.de/bdib-22/#programm-talk-3> <http://schema.org/endTime> "09:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/bdib-22/#programm-talk-3> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
 <https://dataweek.de/bdib-22/#programm-talk-3> <http://schema.org/performer> <https://dataweek.de/#ErhardRahm> .
@@ -824,6 +836,8 @@
 <https://dataweek.de/openingday/#programm-talk-3> <http://schema.org/performer> <https://dataweek.de/#JanaBendigs> .
 <https://dataweek.de/openingday/#programm-talk-3> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/openingday/#programm-talk-4> <http://purl.org/dc/terms/description> "Sebastian Gemkow was born in Leipzig in 1978, is married and has four children. Since 2019, he has accompanied the office of the Saxon Minister of State for Science. "@en .
+<https://dataweek.de/openingday/#programm-talk-4> <http://purl.org/dc/terms/description> "Sebastian Gemkow wurde 1978 in Leipzig geboren, ist verheiratet und hat vier Kinder. Seit 2019 begleitet er das Amt des Säschsischen Staatsminister für Wissenschaft. "@de .
 <https://dataweek.de/openingday/#programm-talk-4> <http://purl.org/dc/terms/title> "Grußwort"@de .
 <https://dataweek.de/openingday/#programm-talk-4> <http://purl.org/dc/terms/title> "Welcoming address"@en .
 <https://dataweek.de/openingday/#programm-talk-4> <http://schema.org/endTime> "09:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -880,9 +894,11 @@
 <https://de.linkedin.com/in/arminkr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://de.linkedin.com/in/hanna-k%25C3%25B6pcke-224b694b?trk=public_profile_similar-profiles_profile-result-card_result-card_full-click> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://de.linkedin.com/in/jensscholz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://de.linkedin.com/in/maximilian-pensel-052890204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://github.com/ManishBhandariV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.acod.de/ueber-uns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.pwc.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.tib.eu/en/research-development/research-groups-and-labs/data-science-digital-libraries/staff/soeren-auer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.xing.com/profile/Alexander_Smalla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.xing.com/profile/Sebastian_Lehmann100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .

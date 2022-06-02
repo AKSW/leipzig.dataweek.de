@@ -66,14 +66,14 @@ Chair: {% include performer.html event=event join="; " %}
 {% else %}
 {% if keynote.first %}
 {% include performer.html event=event join="; " style="individual" %}
+{% else %}
+{% include performer.html event=event join="; " %}
+{% endif %}
+{% endif %}
 
 {% assign description = event | rdf_property: "dct:description", site.language %}
 {% if description %}
 <p>{{ description | markdownify }}</p>
-{% endif %}
-{% else %}
-{% include performer.html event=event join="; " %}
-{% endif %}
 {% endif %}
 
 <ul>
