@@ -225,9 +225,8 @@ dw:Partner
     rdfs:label "In Kooperation mit"@de, "In cooperation with"@en .
 
 dw:Sponsors
-rdf:_1 <https://www.vistex.com/> ;
+    rdf:_1 <https://www.vistex.com/> ;
     rdf:_2 <https://www.datev.de/> ;
-
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -660,6 +659,12 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
     foaf:homepage <https://www.cvut.cz/en/> ;
     foaf:logo "/images/partner/CTU.png" .
 
+<https://www.datev.de/>
+    a schema:Organization ;
+    rdfs:label "DATEV eG" ;
+    foaf:homepage <https://www.datev.de/> ;
+    foaf:logo "/images/partner/DATEV.png" .
+
 <https://www.eccenca.com/>
     a schema:Organization ;
     rdfs:label "eccenca GmbH" ;
@@ -684,8 +689,3 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
     foaf:homepage <https://www.vistex.com/> ;
     foaf:logo "/images/partner/Vistex.jpg" .
 
-    <https://www.datev.de/>
-        a schema:Organization ;
-        rdfs:label "DATEV eG" ;
-        foaf:homepage <https://www.datev.de/> ;
-        foaf:logo "/images/partner/DATEV.png" .
