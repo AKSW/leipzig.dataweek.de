@@ -174,11 +174,6 @@
 <https://dataweek.de/#ChristianZinke> <http://xmlns.com/foaf/0.1/name> "Christian Zinke-Wehlmann" .
 <https://dataweek.de/#ChristianZinke> <http://xmlns.com/foaf/0.1/name> "Dr. Christian Zinke-Wehlmann" .
 <https://dataweek.de/#ChristianZinke> <http://xmlns.com/foaf/0.1/title> "Dr." .
-<https://dataweek.de/#ChristopherSiebenhuener> <http://purl.org/dc/terms/description> "Gecko Two GmbH"@de .
-<https://dataweek.de/#ChristopherSiebenhuener> <http://purl.org/dc/terms/description> "Gecko Two GmbH"@en .
-<https://dataweek.de/#ChristopherSiebenhuener> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
-<https://dataweek.de/#ChristopherSiebenhuener> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#ChristopherSiebenhuener> <http://xmlns.com/foaf/0.1/name> "Christopher Siebenhüner" .
 <https://dataweek.de/#DanielGerber> <http://purl.org/dc/terms/description> "Member of the Saxon Parliament"@en .
 <https://dataweek.de/#DanielGerber> <http://purl.org/dc/terms/description> "Mitglied des Sächsischen Landtags"@de .
 <https://dataweek.de/#DanielGerber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -458,6 +453,11 @@
 <https://dataweek.de/#ThomasSchurig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ThomasSchurig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ThomasSchurig> <http://xmlns.com/foaf/0.1/name> "Thomas Schurig" .
+<https://dataweek.de/#Tom%20Potutschek> <http://purl.org/dc/terms/description> "Gecko Two GmbH"@de .
+<https://dataweek.de/#Tom%20Potutschek> <http://purl.org/dc/terms/description> "Gecko Two GmbH"@en .
+<https://dataweek.de/#Tom%20Potutschek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#Tom%20Potutschek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#Tom%20Potutschek> <http://xmlns.com/foaf/0.1/name> "Tom Potutschek" .
 <https://dataweek.de/#UlfMiddelberg> <http://purl.org/dc/terms/description> "L-Gruppe"@de .
 <https://dataweek.de/#UlfMiddelberg> <http://purl.org/dc/terms/description> "L-Gruppe"@en .
 <https://dataweek.de/#UlfMiddelberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -945,7 +945,7 @@
 <https://dataweek.de/openingday/#programm-session-6> <http://purl.org/dc/terms/title> "Daten der Stadt im Kontext einer vernetzten Welt"@de .
 <https://dataweek.de/openingday/#programm-session-6> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-session-6> <http://schema.org/location> <https://dataweek.de/#Ratsplenarsaal> .
-<https://dataweek.de/openingday/#programm-session-6> <http://schema.org/performer> <https://dataweek.de/#ChristopherSiebenhuener> .
+<https://dataweek.de/openingday/#programm-session-6> <http://schema.org/performer> <https://dataweek.de/#Tom%20Potutschek> .
 <https://dataweek.de/openingday/#programm-session-6> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-session-6> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-27> .
 <https://dataweek.de/openingday/#programm-session-6> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-28> .
