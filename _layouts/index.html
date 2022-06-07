@@ -4,4 +4,32 @@ layout: page
 type: Event
 ---
 {% assign rootResource = site.rootResource | rdf_get %}
-{% include content.html %}
+
+<h1>{{ rootResource | rdf_property: "rdfs:label" }}</h1>
+<span class="subtitle">{{ rootResource | rdf_property: "schema:slogan", site.language }}</span>
+
+<div class="subtitle"><span class="date">{{ rootResource | rdf_property: "schema:date", site.language }}</span></div>
+
+<div>
+  <a href="{{ "/en" }}">English</a> |
+  <a href="{{ "/" }}">German</a>
+</div>
+
+{{ content }}
+
+{% include sec_week.html %}
+
+{% include sec_location.html %}
+
+{% include sec_team.html %}
+
+{% include sec_sponsors.html %}
+
+{% include sec_partner.html %}
+
+<h2></h2>
+<p>
+  <a href="https://infai.org/das-institut/impressum/">Impressum</a>
+<a href="{% relative_link datenschutz.md %}.html">Datenschutz</a>
+<a href="https://twitter.com/DataWeekLeipzig">Twitter</a>
+</p>
