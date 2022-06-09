@@ -171,11 +171,6 @@
 <https://dataweek.de/#DanielGerber> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Daniel Gerber" .
 <https://dataweek.de/#DanielGerber> <http://xmlns.com/foaf/0.1/name> "Daniel Gerber" .
 <https://dataweek.de/#DanielGerber> <http://xmlns.com/foaf/0.1/title> "Dr." .
-<https://dataweek.de/#ElisabethBreitenstein%20> <http://purl.org/dc/terms/description> "City of Leipzig/Digital City Department, CUT Project "@en .
-<https://dataweek.de/#ElisabethBreitenstein%20> <http://purl.org/dc/terms/description> "Stadt Leipzig/Referat Digitale Stadt, CUT Projekt "@de .
-<https://dataweek.de/#ElisabethBreitenstein%20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
-<https://dataweek.de/#ElisabethBreitenstein%20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#ElisabethBreitenstein%20> <http://xmlns.com/foaf/0.1/name> "Elisabeth Breitenstein " .
 <https://dataweek.de/#ErhardRahm> <http://purl.org/dc/terms/description> "Leipzig University"@en .
 <https://dataweek.de/#ErhardRahm> <http://purl.org/dc/terms/description> "Universität Leipzig"@de .
 <https://dataweek.de/#ErhardRahm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -335,6 +330,11 @@
 <https://dataweek.de/#NadineKuhlavonBergmann> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Nadine Kuhla von Bergmann" .
 <https://dataweek.de/#NadineKuhlavonBergmann> <http://xmlns.com/foaf/0.1/name> "Nadine Kuhla von Bergmann" .
 <https://dataweek.de/#NadineKuhlavonBergmann> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#NadjaRiedel%20> <http://purl.org/dc/terms/description> "City of Leipzig/Digital City Department"@en .
+<https://dataweek.de/#NadjaRiedel%20> <http://purl.org/dc/terms/description> "Stadt Leipzig/Referat Digitale Stadt"@de .
+<https://dataweek.de/#NadjaRiedel%20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#NadjaRiedel%20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#NadjaRiedel%20> <http://xmlns.com/foaf/0.1/name> "Nadja Riedel" .
 <https://dataweek.de/#NadjaRiedel> <http://purl.org/dc/terms/description> "City of Leipzig/Digital City Department"@en .
 <https://dataweek.de/#NadjaRiedel> <http://purl.org/dc/terms/description> "Stadt Leipzig/Referat Digitale Stadt"@de .
 <https://dataweek.de/#NadjaRiedel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -373,8 +373,8 @@
 <https://dataweek.de/#SebastianGemkow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SebastianGemkow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SebastianGemkow> <http://xmlns.com/foaf/0.1/name> "Sebastian Gemkow" .
-<https://dataweek.de/#SebastianGraetz> <http://purl.org/dc/terms/description> "City of Leipzig/Traffic Management"@en .
-<https://dataweek.de/#SebastianGraetz> <http://purl.org/dc/terms/description> "Stadt Leipzig/Verkehrsmanagment"@de .
+<https://dataweek.de/#SebastianGraetz> <http://purl.org/dc/terms/description> "City of Leipzig/Digital City Department"@en .
+<https://dataweek.de/#SebastianGraetz> <http://purl.org/dc/terms/description> "Stadt Leipzig/Referat Digitale Stadt,"@de .
 <https://dataweek.de/#SebastianGraetz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SebastianGraetz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SebastianGraetz> <http://xmlns.com/foaf/0.1/name> "Sebastian Graetz" .
@@ -915,7 +915,9 @@
 <https://dataweek.de/lswt2022/#programm-talk-26> <http://schema.org/location> <https://dataweek.de/#LivingLab> .
 <https://dataweek.de/lswt2022/#programm-talk-26> <http://schema.org/startTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/lswt2022/#programm-talk-26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/lswt2022/#programm-talk-27> <http://purl.org/dc/terms/description> "https://www.moritzbastei.de/"@en .
+<https://dataweek.de/lswt2022/#programm-talk-27> <http://purl.org/dc/terms/description> "[Moritz Bastei](https://www.moritzbastei.de/)"@de .
+<https://dataweek.de/lswt2022/#programm-talk-27> <http://purl.org/dc/terms/description> "[Moritz Bastei](https://www.moritzbastei.de/)"@en .
+<https://dataweek.de/lswt2022/#programm-talk-27> <http://purl.org/dc/terms/title> "eccenca Semantic Beergarden"@de .
 <https://dataweek.de/lswt2022/#programm-talk-27> <http://purl.org/dc/terms/title> "eccenca Semantic Biergarten"@en .
 <https://dataweek.de/lswt2022/#programm-talk-27> <http://schema.org/endTime> "20:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/lswt2022/#programm-talk-27> <http://schema.org/startTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -980,10 +982,11 @@
 <https://dataweek.de/openingday/#programm-session-2> <http://purl.org/dc/terms/title> "Daten für die Bürger/Bürgerbeteiligung"@de .
 <https://dataweek.de/openingday/#programm-session-2> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-session-2> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
-<https://dataweek.de/openingday/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#ElisabethBreitenstein%20> .
+<https://dataweek.de/openingday/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#NadjaRiedel%20> .
 <https://dataweek.de/openingday/#programm-session-2> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-session-2> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-10> .
 <https://dataweek.de/openingday/#programm-session-2> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-11> .
+<https://dataweek.de/openingday/#programm-session-2> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-12> .
 <https://dataweek.de/openingday/#programm-session-2> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-9> .
 <https://dataweek.de/openingday/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/openingday/#programm-session-3> <http://purl.org/dc/terms/description> "Gesellschaftliche Datenkompetenz sollte man nicht dem Zufall überlassen. Datenkompetenz sollte somit nicht nur eine Fähigkeit zukünftiger Generationen sein, sondern muss schon jetzt ein Grundbaustein für die Bildung von Menschen unterschiedlichen Alters werden. In dieser Session stellen Vertreter aus Wissenschaft, Industrie und Verwaltung innovative Projekte vor, die momentan in und um Leipzig zur Datenkompetenz umgesetzt werden. Auch wird ein Ausblick auf neue Bildungsstätten, digitale Weiterbildungstools und Plattformen gegeben."@de .
@@ -1230,7 +1233,6 @@
 <https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-session-4> .
 <https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-session-5> .
 <https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-session-6> .
-<https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-12> .
 <https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-17> .
 <https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-1> .
 <https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-30> .
