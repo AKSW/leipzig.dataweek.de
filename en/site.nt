@@ -523,6 +523,7 @@
 <https://dataweek.de/#SophiaKuhl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SophiaKuhl> <http://xmlns.com/foaf/0.1/name> "Sophia Kuhl" .
 <https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.vistex.com/> .
+<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://www.datev.de/> .
 <https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://dataweek.de/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://dataweek.de/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
@@ -1261,6 +1262,7 @@
 <https://dataweek.de/openingday/#programm-session-4> <http://purl.org/dc/terms/title> "Wie können Kunst und Kultur Daten verwenden?"@de .
 <https://dataweek.de/openingday/#programm-session-4> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-session-4> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
+<https://dataweek.de/openingday/#programm-session-4> <http://schema.org/performer> <https://dataweek.de/#SimonMaris> .
 <https://dataweek.de/openingday/#programm-session-4> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-session-4> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-19> .
 <https://dataweek.de/openingday/#programm-session-4> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-20> .
