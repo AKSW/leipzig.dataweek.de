@@ -482,7 +482,7 @@
 <https://dataweek.de/#SebastianGemkow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SebastianGemkow> <http://xmlns.com/foaf/0.1/name> "Sebastian Gemkow" .
 <https://dataweek.de/#SebastianGraetz> <http://purl.org/dc/terms/description> "City of Leipzig/Digital City Department"@en .
-<https://dataweek.de/#SebastianGraetz> <http://purl.org/dc/terms/description> "Stadt Leipzig/Referat Digitale Stadt,"@de .
+<https://dataweek.de/#SebastianGraetz> <http://purl.org/dc/terms/description> "Stadt Leipzig/Referat Digitale Stadt"@de .
 <https://dataweek.de/#SebastianGraetz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SebastianGraetz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SebastianGraetz> <http://xmlns.com/foaf/0.1/name> "Sebastian Graetz" .
@@ -523,6 +523,7 @@
 <https://dataweek.de/#SophiaKuhl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SophiaKuhl> <http://xmlns.com/foaf/0.1/name> "Sophia Kuhl" .
 <https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.vistex.com/> .
+<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://www.datev.de/> .
 <https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://dataweek.de/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://dataweek.de/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
@@ -1138,7 +1139,8 @@
 <https://dataweek.de/lswt2022/#programm-talk-24> <http://purl.org/dc/terms/title> "Mobility Index"@en .
 <https://dataweek.de/lswt2022/#programm-talk-24> <http://schema.org/performer> <http://aksw.org/ClausStadler> .
 <https://dataweek.de/lswt2022/#programm-talk-24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/lswt2022/#programm-talk-25> <http://purl.org/dc/terms/title> "eccenca Poster Winner Awards und Abschluss"@en .
+<https://dataweek.de/lswt2022/#programm-talk-25> <http://purl.org/dc/terms/title> "eccenca Poster Winner Awards and Closing"@en .
+<https://dataweek.de/lswt2022/#programm-talk-25> <http://purl.org/dc/terms/title> "eccenca Poster Winner Awards und Abschluss"@de .
 <https://dataweek.de/lswt2022/#programm-talk-25> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/lswt2022/#programm-talk-25> <http://schema.org/location> <https://dataweek.de/#Wandelhalle> .
 <https://dataweek.de/lswt2022/#programm-talk-25> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -1153,8 +1155,8 @@
 <https://dataweek.de/lswt2022/#programm-talk-26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/lswt2022/#programm-talk-27> <http://purl.org/dc/terms/description> "[Moritz Bastei](https://www.moritzbastei.de/)"@de .
 <https://dataweek.de/lswt2022/#programm-talk-27> <http://purl.org/dc/terms/description> "[Moritz Bastei](https://www.moritzbastei.de/)"@en .
-<https://dataweek.de/lswt2022/#programm-talk-27> <http://purl.org/dc/terms/title> "eccenca Semantic Beergarden"@de .
-<https://dataweek.de/lswt2022/#programm-talk-27> <http://purl.org/dc/terms/title> "eccenca Semantic Biergarten"@en .
+<https://dataweek.de/lswt2022/#programm-talk-27> <http://purl.org/dc/terms/title> "eccenca Semantic Beergarden"@en .
+<https://dataweek.de/lswt2022/#programm-talk-27> <http://purl.org/dc/terms/title> "eccenca Semantic Biergarten"@de .
 <https://dataweek.de/lswt2022/#programm-talk-27> <http://schema.org/endTime> "20:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/lswt2022/#programm-talk-27> <http://schema.org/startTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/lswt2022/#programm-talk-27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -1260,6 +1262,7 @@
 <https://dataweek.de/openingday/#programm-session-4> <http://purl.org/dc/terms/title> "Wie können Kunst und Kultur Daten verwenden?"@de .
 <https://dataweek.de/openingday/#programm-session-4> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-session-4> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
+<https://dataweek.de/openingday/#programm-session-4> <http://schema.org/performer> <https://dataweek.de/#SimonMaris> .
 <https://dataweek.de/openingday/#programm-session-4> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-session-4> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-19> .
 <https://dataweek.de/openingday/#programm-session-4> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-20> .
