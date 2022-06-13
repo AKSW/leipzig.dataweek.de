@@ -11,6 +11,7 @@
 @prefix orp: <https://www.openresearch.org/wiki/Property:> .
 @prefix aksw: <http://aksw.org/> .
 @prefix dw: <https://dataweek.de/#> .
+@prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
 
 aksw:Group
     site:small_logo "/images/partner/AKSW_Logo_small.svg" ;
@@ -192,6 +193,11 @@ dw:Location
 dw:LogoCUT
     dct:description "Connected Urban Twins" ;
     rdf:value "/images/CUT_Logo.png" .
+
+dw:LogoEccenca
+    dct:description "eccenca GmbH" ;
+    rdf:value "/images/partner/eccenca_w.svg" ;
+    dw:contrastFlavor "/images/partner/eccenca_w_bg.svg" .
 
 dw:LogoStadtLeipzig
     dct:description "Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig" ;
@@ -670,7 +676,7 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
     a schema:Organization ;
     rdfs:label "eccenca GmbH" ;
     foaf:homepage <https://www.eccenca.com/> ;
-    foaf:logo "/images/partner/eccenca_w.svg" .
+    foaf:logo dw:LogoEccenca .
 
 <https://www.leipzig.de/>
     a schema:Organization ;
