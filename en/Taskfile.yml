@@ -116,6 +116,7 @@ tasks:
         -f 'xmlns:orp="https://www.openresearch.org/wiki/Property:"' \
         -f 'xmlns:aksw="http://aksw.org/"' \
         -f 'xmlns:dw="https://dataweek.de/#"' \
+        -f 'xmlns:gnd="https://d-nb.info/standards/elementset/gnd#"' \
         {{.FILE}}.ttl | sponge {{.FILE}}.ttl
 
   install_javascript_dependencies:
