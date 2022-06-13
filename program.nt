@@ -246,9 +246,9 @@
 <https://dataweek.de/#JakobFreese> <http://xmlns.com/foaf/0.1/name> "Jakob Freese" .
 <https://dataweek.de/#JanReichert> <http://purl.org/dc/terms/description> "ACOD GmbH - Automotive Cluster Ostdeutschland [ACOD](https://www.acod.de/)"@de .
 <https://dataweek.de/#JanReichert> <http://purl.org/dc/terms/description> "ACOD GmbH - Automotive Cluster Ostdeutschland [ACOD](https://www.acod.de/)"@en .
+<https://dataweek.de/#JanReichert> <http://schema.org/affiliation> <https://www.acod.de/ueber-uns> .
 <https://dataweek.de/#JanReichert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JanReichert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#JanReichert> <http://xmlns.com/foaf/0.1/homepage> <https://www.acod.de/ueber-uns> .
 <https://dataweek.de/#JanReichert> <http://xmlns.com/foaf/0.1/name> "Jan Reichert" .
 <https://dataweek.de/#JanaBendigs> <http://purl.org/dc/terms/description> "Kommunikationsmanagerin"@de .
 <https://dataweek.de/#JanaBendigs> <http://purl.org/dc/terms/description> "communication manager"@en .
@@ -354,6 +354,7 @@
 <https://dataweek.de/#MirkoMuehlpfort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MirkoMuehlpfort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MirkoMuehlpfort> <http://xmlns.com/foaf/0.1/name> "Mirko Mühlpfort" .
+<https://dataweek.de/#MirkoMuehlpfort> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Mirko Mühlpfort ist Teamleiter am Referat Digitale Stadt der Stadt Leipzig und für die Themen Urbane Daten und Digitale Infrastrukturen verantwortlich. Er leitet mehrere Datenprojekte und ist Leipziger Projektleiter für das Kooperationsprojekt „Connected Urban Twins – Urbane Datenplattformen und Digitale Zwillinge für Integrierte Stadtentwicklung“ (CUT) der Städte Hamburg, Leipzig und München. Er hat Volkswirtschaftslehre, Soziologie und Verwaltungswissenschaften in Leipzig und Speyer studiert."@de .
 <https://dataweek.de/#MirzaMohtashimAlam> <http://purl.org/dc/terms/description> "Research Associate"@en .
 <https://dataweek.de/#MirzaMohtashimAlam> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
 <https://dataweek.de/#MirzaMohtashimAlam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -1138,8 +1139,8 @@
 <https://dataweek.de/openingday/#programm-talk-15> <http://schema.org/performer> <https://dataweek.de/#ChristianZinke> .
 <https://dataweek.de/openingday/#programm-talk-15> <http://schema.org/startTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/openingday/#programm-talk-16> <http://purl.org/dc/terms/title> "TBA"@en .
-<https://dataweek.de/openingday/#programm-talk-16> <http://purl.org/dc/terms/title> "Titel TBA"@de .
+<https://dataweek.de/openingday/#programm-talk-16> <http://purl.org/dc/terms/title> "Stadtentwicklung und Digitale Zwillinge"@de .
+<https://dataweek.de/openingday/#programm-talk-16> <http://purl.org/dc/terms/title> "Urban development and digital twins"@en .
 <https://dataweek.de/openingday/#programm-talk-16> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-16> <http://schema.org/location> <https://dataweek.de/#Ratsplenarsaal> .
 <https://dataweek.de/openingday/#programm-talk-16> <http://schema.org/performer> <https://dataweek.de/#MirkoMuehlpfort> .
@@ -1317,7 +1318,6 @@
 <https://de.wikipedia.org/wiki/Volker_Gruhn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://github.com/ManishBhandariV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://infai.org/workpage-dr-christian-zinke-wehlmann/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://www.acod.de/ueber-uns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/personen/p/simon-maris/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.hs-anhalt.de/hochschule-anhalt/service/personenverzeichnis/aleksandr-perevalov.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/s-albrecht/?originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
