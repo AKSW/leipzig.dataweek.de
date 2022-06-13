@@ -4,6 +4,6 @@
 {% for sponsor in sponsorsList %}
     <a href="{{ sponsor | rdf_property: "foaf:homepage" }}">
     {% assign imageResource = sponsor | rdf_property: "foaf:logo" %}
-    {% include img.html resource=imageResource class='h120p padded' %}
+    {% include img.html resource=imageResource class='h120p padded' flavor='contrast' %}
     </a>
 {% endfor %}

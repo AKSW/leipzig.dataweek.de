@@ -193,6 +193,11 @@ dw:LogoCUT
     dct:description "Connected Urban Twins" ;
     rdf:value "/images/CUT_Logo.png" .
 
+dw:LogoEccenca
+    dct:description "eccenca GmbH" ;
+    rdf:value "/images/partner/eccenca_w.svg" ;
+    dw:contrastFlavor "/images/partner/eccenca_w_bg.svg" .
+
 dw:LogoStadtLeipzig
     dct:description "Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig" ;
     rdf:value "/images/partner/Stadt_Leipzig.png" .
@@ -670,7 +675,7 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
     a schema:Organization ;
     rdfs:label "eccenca GmbH" ;
     foaf:homepage <https://www.eccenca.com/> ;
-    foaf:logo "/images/partner/eccenca_w.svg" .
+    foaf:logo dw:LogoEccenca .
 
 <https://www.leipzig.de/>
     a schema:Organization ;
