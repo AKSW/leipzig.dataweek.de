@@ -47,8 +47,9 @@
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/depiction> "/images/people/JuliaHolze.png" .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/JuliaHolze> .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/name> "Julia Holze" .
-<http://aksw.org/MarvinHofer> <http://purl.org/dc/terms/description> "ScaDS.AI"@en .
-<http://aksw.org/MarvinHofer> <http://purl.org/dc/terms/description> "Scads.AI"@de .
+<http://aksw.org/MarvinHofer> <http://purl.org/dc/terms/description> "Forscher"@de .
+<http://aksw.org/MarvinHofer> <http://purl.org/dc/terms/description> "Researcher"@en .
+<http://aksw.org/MarvinHofer> <http://schema.org/affiliation> <https://scads.ai/> .
 <http://aksw.org/MarvinHofer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/MarvinHofer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/MarvinHofer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -231,6 +232,7 @@
 <https://dataweek.de/#ArminGeisler> <http://xmlns.com/foaf/0.1/name> "Armin Geisler" .
 <https://dataweek.de/#BeateGinzel> <http://purl.org/dc/terms/description> "Digital City Manager"@en .
 <https://dataweek.de/#BeateGinzel> <http://purl.org/dc/terms/description> "Leiterin Digitale Stadt"@de .
+<https://dataweek.de/#BeateGinzel> <http://schema.org/affiliation> <https://www.leipzig.de/wirtschaft-und-wissenschaft/digitalisierung> .
 <https://dataweek.de/#BeateGinzel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#BeateGinzel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#BeateGinzel> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Beate Ginzel" .
@@ -309,15 +311,14 @@
 <https://dataweek.de/#JanReichert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JanReichert> <http://xmlns.com/foaf/0.1/homepage> <https://www.acod.de/ueber-uns> .
 <https://dataweek.de/#JanReichert> <http://xmlns.com/foaf/0.1/name> "Jan Reichert" .
-<https://dataweek.de/#JanaBendigs> <http://purl.org/dc/terms/description> "Leipzig University"@en .
-<https://dataweek.de/#JanaBendigs> <http://purl.org/dc/terms/description> "Universität Leipzig"@de .
+<https://dataweek.de/#JanaBendigs> <http://purl.org/dc/terms/description> "Kommunikationsmanagerin"@de .
+<https://dataweek.de/#JanaBendigs> <http://purl.org/dc/terms/description> "communication manager"@en .
 <https://dataweek.de/#JanaBendigs> <http://schema.org/affiliation> <https://scads.ai/> .
 <https://dataweek.de/#JanaBendigs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JanaBendigs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JanaBendigs> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jana Bendigs" .
 <https://dataweek.de/#JanaBendigs> <http://xmlns.com/foaf/0.1/depiction> "/images/people/JanaBendigs.jpg" .
 <https://dataweek.de/#JanaBendigs> <http://xmlns.com/foaf/0.1/name> "Jana Bendigs" .
-<https://dataweek.de/#JanaDietrich> <http://purl.org/dc/terms/description> "City of Leipzig"@en .
 <https://dataweek.de/#JanaDietrich> <http://purl.org/dc/terms/description> "Stadt Leipzig"@de .
 <https://dataweek.de/#JanaDietrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JanaDietrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -328,13 +329,14 @@
 <https://dataweek.de/#JensScholz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JensScholz> <http://xmlns.com/foaf/0.1/homepage> <https://de.linkedin.com/in/jensscholz> .
 <https://dataweek.de/#JensScholz> <http://xmlns.com/foaf/0.1/name> "Jens Scholz" .
-<https://dataweek.de/#JuliaFriedrich> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik e.V."@de .
-<https://dataweek.de/#JuliaFriedrich> <http://purl.org/dc/terms/description> "Institute for Applied Informatics e.V."@en .
+<https://dataweek.de/#JuliaFriedrich> <http://purl.org/dc/terms/description> "Researcher"@en .
+<https://dataweek.de/#JuliaFriedrich> <http://purl.org/dc/terms/description> "Wissenschaftliche Mitarbeiterin"@de .
 <https://dataweek.de/#JuliaFriedrich> <http://schema.org/affiliation> <https://infai.org/> .
 <https://dataweek.de/#JuliaFriedrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JuliaFriedrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JuliaFriedrich> <http://www.w3.org/2004/02/skos/core#prefLabel> "Julia Friedrich" .
 <https://dataweek.de/#JuliaFriedrich> <http://xmlns.com/foaf/0.1/depiction> "/images/people/JuliaFriedrich.jpg" .
+<https://dataweek.de/#JuliaFriedrich> <http://xmlns.com/foaf/0.1/homepage> <https://www.uni-leipzig.de/personenprofil/mitarbeiter/julia-friedrich> .
 <https://dataweek.de/#JuliaFriedrich> <http://xmlns.com/foaf/0.1/name> "Julia Friedrich" .
 <https://dataweek.de/#JuliaGastinger> <http://purl.org/dc/terms/description> "NEC Laboratories Europe GmbH"@de .
 <https://dataweek.de/#JuliaGastinger> <http://purl.org/dc/terms/description> "NEC Laboratories Europe GmbH"@en .
@@ -357,6 +359,7 @@
 <https://dataweek.de/#KlausDaessler> <http://xmlns.com/foaf/0.1/name> "Klaus Däßler" .
 <https://dataweek.de/#LisaWenige> <http://purl.org/dc/terms/description> "City of Leipzig/Statistics and Elections, OpenData"@en .
 <https://dataweek.de/#LisaWenige> <http://purl.org/dc/terms/description> "Stadt Leipzig/Statistik und Wahlen, OpenData"@de .
+<https://dataweek.de/#LisaWenige> <http://schema.org/affiliation> <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> .
 <https://dataweek.de/#LisaWenige> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#LisaWenige> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#LisaWenige> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Lisa Wenige" .
@@ -458,8 +461,9 @@
 <https://dataweek.de/#NadjaRiedel%20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#NadjaRiedel%20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#NadjaRiedel%20> <http://xmlns.com/foaf/0.1/name> "Nadja Riedel" .
-<https://dataweek.de/#NadjaRiedel> <http://purl.org/dc/terms/description> "City of Leipzig/Digital City Department"@en .
-<https://dataweek.de/#NadjaRiedel> <http://purl.org/dc/terms/description> "Stadt Leipzig/Referat Digitale Stadt"@de .
+<https://dataweek.de/#NadjaRiedel> <http://purl.org/dc/terms/description> "Senior Projektmanager bei Stadt Leipzig/Referat Digitale Stadt"@de .
+<https://dataweek.de/#NadjaRiedel> <http://purl.org/dc/terms/description> "Senior project manager at City of Leipzig/Digital City Department"@en .
+<https://dataweek.de/#NadjaRiedel> <http://schema.org/affiliation> <https://www.leipzig.de/wirtschaft-und-wissenschaft/digitalisierung> .
 <https://dataweek.de/#NadjaRiedel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#NadjaRiedel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#NadjaRiedel> <http://xmlns.com/foaf/0.1/name> "Nadja Riedel" .
@@ -477,8 +481,9 @@
 <https://dataweek.de/#Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In Kooperation mit"@de .
 <https://dataweek.de/#Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In cooperation with"@en .
 <https://dataweek.de/#Ratsplenarsaal> <http://purl.org/dc/terms/title> "Ratsplenarsaal" .
-<https://dataweek.de/#RobinRoemer> <http://purl.org/dc/terms/description> "Start Up Cityscaper"@de .
-<https://dataweek.de/#RobinRoemer> <http://purl.org/dc/terms/description> "Start Up Cityscaper"@en .
+<https://dataweek.de/#RobinRoemer> <http://purl.org/dc/terms/description> "Co-Founder at Start Up Cityscaper"@en .
+<https://dataweek.de/#RobinRoemer> <http://purl.org/dc/terms/description> "Mitgründer von Start Up Cityscaper"@de .
+<https://dataweek.de/#RobinRoemer> <http://schema.org/affiliation> <https://cityscaper.de/> .
 <https://dataweek.de/#RobinRoemer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#RobinRoemer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#RobinRoemer> <http://xmlns.com/foaf/0.1/name> "Robin Römer" .
@@ -506,6 +511,7 @@
 <https://dataweek.de/#SebastianBrandt> <http://xmlns.com/foaf/0.1/name> "Sebastian Brandt" .
 <https://dataweek.de/#SebastianGemkow> <http://purl.org/dc/terms/description> "Saxon State Minister for Science"@en .
 <https://dataweek.de/#SebastianGemkow> <http://purl.org/dc/terms/description> "Sächsischer Staatsminister für Wissenschaft"@de .
+<https://dataweek.de/#SebastianGemkow> <http://schema.org/affiliation> <https://www.smwk.sachsen.de/> .
 <https://dataweek.de/#SebastianGemkow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SebastianGemkow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SebastianGemkow> <http://xmlns.com/foaf/0.1/name> "Sebastian Gemkow" .
@@ -561,8 +567,9 @@
 <https://dataweek.de/#StavroulaChatzipanagioti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#StavroulaChatzipanagioti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#StavroulaChatzipanagioti> <http://xmlns.com/foaf/0.1/name> "Stavroula Chatzipanagioti" .
-<https://dataweek.de/#StefanHoltel> <http://purl.org/dc/terms/description> "Stefan Holtel is curator of Digital Change at [PricewaterhouseCoopers GmbH](https://www.pwc.de/en.html). Among other things, he worked for 11 years in research and development at Vodafone and holds several international patents. He regularly presents, publishes and lectures on how companies can manage digital transformation. He currently works at PricewaterhouseCoopers' DigiLab as a thought leader on interdisciplinary issues in Artificial Intelligence.  "@en .
-<https://dataweek.de/#StefanHoltel> <http://purl.org/dc/terms/description> "Stefan Holtel ist Kurator für digitalen Wandel bei der [PricewaterhouseCoopers GmbH](https://www.pwc.de/). Er arbeitete u.a. 11 Jahre in der Forschung und Entwicklung von Vodafone und hält mehrere internationale Patente. Regelmäßig präsentiert, publiziert und doziert er zur Frage, wie Unternehmen die digitale Transformation bewältigen können. Derzeit arbeitet er im DigiLab von PricewaterhouseCoopers als Vordenker zu interdisziplinären Fragen der Künstlichen Intelligenz. "@de .
+<https://dataweek.de/#StefanHoltel> <http://purl.org/dc/terms/description> "Curator of Digital Change at [PricewaterhouseCoopers GmbH](https://www.pwc.de/en.html). Among other things, he worked for 11 years in research and development at Vodafone and holds several international patents. He regularly presents, publishes and lectures on how companies can manage digital transformation. He currently works at PricewaterhouseCoopers' DigiLab as a thought leader on interdisciplinary issues in Artificial Intelligence.  "@en .
+<https://dataweek.de/#StefanHoltel> <http://purl.org/dc/terms/description> "Kurator für digitalen Wandel bei der [PricewaterhouseCoopers GmbH](https://www.pwc.de/). Er arbeitete u.a. 11 Jahre in der Forschung und Entwicklung von Vodafone und hält mehrere internationale Patente. Regelmäßig präsentiert, publiziert und doziert er zur Frage, wie Unternehmen die digitale Transformation bewältigen können. Derzeit arbeitet er im DigiLab von PricewaterhouseCoopers als Vordenker zu interdisziplinären Fragen der Künstlichen Intelligenz. "@de .
+<https://dataweek.de/#StefanHoltel> <http://schema.org/affiliation> <https://www.pwc.de/en.html> .
 <https://dataweek.de/#StefanHoltel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#StefanHoltel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#StefanHoltel> <http://xmlns.com/foaf/0.1/depiction> "/images/people/StefanHoltel.png" .
@@ -612,8 +619,9 @@
 <https://dataweek.de/#UlrichMaldinger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#UlrichMaldinger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#UlrichMaldinger> <http://xmlns.com/foaf/0.1/name> "Ulrich Maldinger" .
-<https://dataweek.de/#UlrikeHerold> <http://purl.org/dc/terms/description> "Büro für Ratsangelegenheiten der Stadt Leipzig"@de .
-<https://dataweek.de/#UlrikeHerold> <http://purl.org/dc/terms/description> "Office for Council Affairs of the City of Leipzig"@en .
+<https://dataweek.de/#UlrikeHerold> <http://purl.org/dc/terms/description> "Area manager at Office for Council Affairs of the City of Leipzig"@en .
+<https://dataweek.de/#UlrikeHerold> <http://purl.org/dc/terms/description> "Sachgebietsleiterin im Büro für Ratsangelegenheiten der Stadt Leipzig"@de .
+<https://dataweek.de/#UlrikeHerold> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/buero-fuer-ratsangelegenheiten-0115> .
 <https://dataweek.de/#UlrikeHerold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#UlrikeHerold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#UlrikeHerold> <http://xmlns.com/foaf/0.1/name> "Ulrike Herold" .
@@ -677,7 +685,7 @@
 <https://dataweek.de/bdib-22/#programm-session-2> <http://purl.org/dc/terms/description> "tba"@de .
 <https://dataweek.de/bdib-22/#programm-session-2> <http://purl.org/dc/terms/description> "tba"@en .
 <https://dataweek.de/bdib-22/#programm-session-2> <http://purl.org/dc/terms/title> "PreSense – AI-based Predictive Maintenance Tool (GER)"@en .
-<https://dataweek.de/bdib-22/#programm-session-2> <http://purl.org/dc/terms/title> "PreSense – Ein KI-basiertes Predictive Maintenance Tool zur Optimierung des Reklamationsprozesses"@de .
+<https://dataweek.de/bdib-22/#programm-session-2> <http://purl.org/dc/terms/title> "PreSense – Ein KI-basiertes Predictive Maintenance Tool"@de .
 <https://dataweek.de/bdib-22/#programm-session-2> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/bdib-22/#programm-session-2> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
 <https://dataweek.de/bdib-22/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#AlexanderSmalla> .
@@ -1613,6 +1621,7 @@
 <https://www.th-brandenburg.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/THB.svg" .
 <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.tib.eu/en/research-development/research-groups-and-labs/data-science-digital-libraries/staff/soeren-auer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.uni-leipzig.de/personenprofil/mitarbeiter/julia-friedrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.vistex.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.vistex.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Vistex, Inc." .
 <https://www.vistex.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.vistex.com/> .
