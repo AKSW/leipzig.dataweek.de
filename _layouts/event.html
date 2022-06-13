@@ -12,8 +12,9 @@ type: Event
 
 <div class="subtitle"><span class="date">{{ page.rdf | rdf_property: "schema:date" }}</span></div>
 
-<p>{{ page.rdf | rdf_property: "dct:description", site.language | markdownify }}</p>
+<a href="https://pretix.eu/infai/dataweek2022/"><button class="btn btn-warning m-auto">Registration/Tickets</button></a>
 
+<p>{{ page.rdf | rdf_property: "dct:description", site.language | markdownify }}</p>
 
 {{ content }}
 
