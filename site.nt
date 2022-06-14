@@ -47,8 +47,8 @@
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/depiction> "/images/people/JuliaHolze.png" .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/JuliaHolze> .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/name> "Julia Holze" .
-<http://aksw.org/MarvinHofer> <http://purl.org/dc/terms/description> "Forscher"@de .
 <http://aksw.org/MarvinHofer> <http://purl.org/dc/terms/description> "Researcher"@en .
+<http://aksw.org/MarvinHofer> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
 <http://aksw.org/MarvinHofer> <http://schema.org/affiliation> <https://scads.ai/> .
 <http://aksw.org/MarvinHofer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/MarvinHofer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -321,7 +321,9 @@
 <https://dataweek.de/#JanaBendigs> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jana Bendigs" .
 <https://dataweek.de/#JanaBendigs> <http://xmlns.com/foaf/0.1/depiction> "/images/people/JanaBendigs.jpg" .
 <https://dataweek.de/#JanaBendigs> <http://xmlns.com/foaf/0.1/name> "Jana Bendigs" .
-<https://dataweek.de/#JanaDietrich> <http://purl.org/dc/terms/description> "Stadt Leipzig"@de .
+<https://dataweek.de/#JanaDietrich> <http://purl.org/dc/terms/description> "Abteilungsleiterin bei GeodatenService der Stadt Leipzig"@de .
+<https://dataweek.de/#JanaDietrich> <http://purl.org/dc/terms/description> "Head of Department at GeodatenService of the City of Leipzig"@en .
+<https://dataweek.de/#JanaDietrich> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/geodatenservice-624> .
 <https://dataweek.de/#JanaDietrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JanaDietrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JanaDietrich> <http://xmlns.com/foaf/0.1/name> "Jana Dietrich" .
@@ -608,10 +610,12 @@
 <https://dataweek.de/#ThomasBurghardt> <http://xmlns.com/foaf/0.1/name> "Dr. Thomas Burghardt" .
 <https://dataweek.de/#ThomasBurghardt> <http://xmlns.com/foaf/0.1/name> "Thomas Burghardt" .
 <https://dataweek.de/#ThomasBurghardt> <http://xmlns.com/foaf/0.1/title> "Dr." .
-<https://dataweek.de/#ThomasGrzeschik> <http://purl.org/dc/terms/description> "City of Leipzig, Office of Transportation and Public Works Dpt. Road /Traffic Management"@en .
-<https://dataweek.de/#ThomasGrzeschik> <http://purl.org/dc/terms/description> "Stadt Leipzig, Verkehrs- und Tiefbauamt\nAbt. Straßenverkehrsbehörde/Verkehrsmanagement"@de .
+<https://dataweek.de/#ThomasGrzeschik> <http://purl.org/dc/terms/description> "Traffic Management at City of Leipzig, Office of Transportation and Public Works Dpt. Road /Traffic Management"@en .
+<https://dataweek.de/#ThomasGrzeschik> <http://purl.org/dc/terms/description> "Verkehrsmanagement bei Stadt Leipzig, Verkehrs- und Tiefbauamt\nAbt. Straßenverkehrsbehörde/Verkehrsmanagement"@de .
+<https://dataweek.de/#ThomasGrzeschik> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> .
 <https://dataweek.de/#ThomasGrzeschik> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ThomasGrzeschik> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#ThomasGrzeschik> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/thomas-grzeschik-68a5631/?locale=de_DE> .
 <https://dataweek.de/#ThomasGrzeschik> <http://xmlns.com/foaf/0.1/name> "Thomas Grzeschik" .
 <https://dataweek.de/#ThomasSchurig> <http://purl.org/dc/terms/description> "Büro für Ratsangelegenheiten der Stadt Leipzig"@de .
 <https://dataweek.de/#ThomasSchurig> <http://purl.org/dc/terms/description> "Office for Council Affairs of the City of Leipzig"@en .
@@ -724,8 +728,8 @@
 <https://dataweek.de/bdib-22/#programm-session-4> <http://schema.org/performer> <https://dataweek.de/#SebastianLehmann> .
 <https://dataweek.de/bdib-22/#programm-session-4> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/bdib-22/#programm-session-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/bdib-22/#programm-session-5> <http://purl.org/dc/terms/description> "tba"@de .
-<https://dataweek.de/bdib-22/#programm-session-5> <http://purl.org/dc/terms/description> "tba"@en .
+<https://dataweek.de/bdib-22/#programm-session-5> <http://purl.org/dc/terms/description> "Kernthema des Vortrags ist die Vielfalt im Daten- und KI-Umfeld. Sowohl die Vielfalt der Problemstellungen unserer Kunden, als auch die Vielfalt an vorhandenem und neuem Wissen und Technologien stellen eine wiederkehrende Herausforderung in unserem Alltag dar.\nEine finale Antwort auf diese Herausforderungen wird es in diesem schnelllebigen Feld wohl kaum geben, daher ist eine kontinuierliche und flexible Herangehensweise, getrieben durch Erfahrungswerte, unabdingbar. Im Vortrag werden die Methoden und Technologien der Alexander Thamm GmbH im Umgang mit diesen Herausforderungen vorgestellt. Explizit soll es sowohl um unsere Strukturierung von Datenprojekten und Wissensfeldern durch die Data Journey gehen, als auch um unsere Ansätze zur Wissenskonsolidierung, wie casebase.ai und der Techradar."@de .
+<https://dataweek.de/bdib-22/#programm-session-5> <http://purl.org/dc/terms/description> "iversity of existing and new knowledge and technologies represent a recurring challenge in our everyday life.\nIt is unlikely to find a final answer to these challenges in this fast-moving field, so a continuous and flexible approach, driven by experience, is essential. In the presentation, the methods and technologies of Alexander Thamm GmbH in dealing with these challenges will be presented. Explicitly, it will be about our structuring of data projects and knowledge fields through the Data Journey, as well as our approaches to knowledge consolidation, such as casebase.ai and the Techradar."@en .
 <https://dataweek.de/bdib-22/#programm-session-5> <http://purl.org/dc/terms/title> "Die Data Journey und das Problem mit der Schwarmintelligenz"@de .
 <https://dataweek.de/bdib-22/#programm-session-5> <http://purl.org/dc/terms/title> "The Data Journey and the Problem with Swarm Intelligence (GER)"@en .
 <https://dataweek.de/bdib-22/#programm-session-5> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -1628,6 +1632,7 @@
 <https://www.leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/> .
 <https://www.leipzig.de/> <http://xmlns.com/foaf/0.1/logo> <https://dataweek.de/#LogoStadtLeipzig> .
 <https://www.linkedin.com/in/s-albrecht/?originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/thomas-grzeschik-68a5631/?locale=de_DE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.oop-konferenz.de/oop-2022/programm/speaker/sprecherdetails/matthias-kindermann-11662> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.pwc.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.th-brandenburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
