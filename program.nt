@@ -24,8 +24,8 @@
 <http://aksw.org/EdgardMarx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/EdgardMarx> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/name> "Edgard Marx" .
-<http://aksw.org/JohannesFrey> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik e.V."@de .
-<http://aksw.org/JohannesFrey> <http://purl.org/dc/terms/description> "Institute for Applied Informatics e.V."@en .
+<http://aksw.org/JohannesFrey> <http://purl.org/dc/terms/description> "Research assistant"@en .
+<http://aksw.org/JohannesFrey> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
 <http://aksw.org/JohannesFrey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/JohannesFrey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/JohannesFrey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -56,8 +56,9 @@
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/MichaelMartin> .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/name> "Michael Martin" .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/title> "Dr." .
-<http://aksw.org/MilanDojchinovski> <http://purl.org/dc/terms/description> "InfAI and Czech Technical University in Prague"@en .
-<http://aksw.org/MilanDojchinovski> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik e.V. und CTU Prag"@de .
+<http://aksw.org/MilanDojchinovski> <http://purl.org/dc/terms/description> "Research Associate / Assistant Professor"@en .
+<http://aksw.org/MilanDojchinovski> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter / Assistenzprofessor"@de .
+<http://aksw.org/MilanDojchinovski> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/MilanDojchinovski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/MilanDojchinovski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/MilanDojchinovski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -144,8 +145,9 @@
 <https://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/homepage> <https://aksw.org/LarsPeterMeyer> .
 <https://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/name> "Lars-Peter Meyer" .
-<https://dataweek.de/#AleksandrPerevalov> <http://purl.org/dc/terms/description> "Anhalt University of Applied Sciences"@en .
-<https://dataweek.de/#AleksandrPerevalov> <http://purl.org/dc/terms/description> "Hochschule Anhalt"@de .
+<https://danielgerber.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://dataweek.de/#AleksandrPerevalov> <http://purl.org/dc/terms/description> "Doktorand"@de .
+<https://dataweek.de/#AleksandrPerevalov> <http://purl.org/dc/terms/description> "PhD Student"@en .
 <https://dataweek.de/#AleksandrPerevalov> <http://schema.org/affiliation> <https://www.hs-anhalt.de/> .
 <https://dataweek.de/#AleksandrPerevalov> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AleksandrPerevalov> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -182,6 +184,7 @@
 <https://dataweek.de/#BeateGinzel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#BeateGinzel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#BeateGinzel> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Beate Ginzel" .
+<https://dataweek.de/#BeateGinzel> <http://xmlns.com/foaf/0.1/homepage> <https://www.kongress-bw.de/referent/dr-beate-ginzel#:~:text=Beate%2520Ginzel%2520hat%2520Architektur%2520in,und%2520promovierte%2520im%2520Bereich%2520Stadtentwicklung.> .
 <https://dataweek.de/#BeateGinzel> <http://xmlns.com/foaf/0.1/name> "Beate Ginzel" .
 <https://dataweek.de/#BeateGinzel> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#ChristianZinke> <http://purl.org/dc/terms/description> "Service- and Knowledge Management"@de .
@@ -195,10 +198,11 @@
 <https://dataweek.de/#ChristianZinke> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#DanielGerber> <http://purl.org/dc/terms/description> "Member of the Saxon Parliament"@en .
 <https://dataweek.de/#DanielGerber> <http://purl.org/dc/terms/description> "Mitglied des Sächsischen Landtags"@de .
+<https://dataweek.de/#DanielGerber> <http://schema.org/affiliation> <https://www.gruene-fraktion-sachsen.de/> .
 <https://dataweek.de/#DanielGerber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#DanielGerber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#DanielGerber> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Daniel Gerber" .
-<https://dataweek.de/#DanielGerber> <http://xmlns.com/foaf/0.1/homepage> <https://de.wikipedia.org/wiki/Daniel_Gerber> .
+<https://dataweek.de/#DanielGerber> <http://xmlns.com/foaf/0.1/homepage> <https://danielgerber.eu/> .
 <https://dataweek.de/#DanielGerber> <http://xmlns.com/foaf/0.1/name> "Daniel Gerber" .
 <https://dataweek.de/#DanielGerber> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#ErhardRahm> <http://purl.org/dc/terms/description> "Leipzig University"@en .
@@ -208,11 +212,13 @@
 <https://dataweek.de/#ErhardRahm> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Erhard Rahm" .
 <https://dataweek.de/#ErhardRahm> <http://xmlns.com/foaf/0.1/name> "Erhard Rahm" .
 <https://dataweek.de/#ErhardRahm> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
-<https://dataweek.de/#EricPeukert> <http://purl.org/dc/terms/description> "Leipzig University"@en .
-<https://dataweek.de/#EricPeukert> <http://purl.org/dc/terms/description> "Universität Leipzig"@de .
+<https://dataweek.de/#EricPeukert> <http://purl.org/dc/terms/description> "Deputy Management Director"@en .
+<https://dataweek.de/#EricPeukert> <http://purl.org/dc/terms/description> "Stellvertretender Verwaltungsmanager"@de .
+<https://dataweek.de/#EricPeukert> <http://schema.org/affiliation> <https://scads.ai/> .
 <https://dataweek.de/#EricPeukert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#EricPeukert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#EricPeukert> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Erik Peukert" .
+<https://dataweek.de/#EricPeukert> <http://xmlns.com/foaf/0.1/homepage> <https://dbs.uni-leipzig.de/person/eric_peukert> .
 <https://dataweek.de/#EricPeukert> <http://xmlns.com/foaf/0.1/name> "Erik Peukert" .
 <https://dataweek.de/#EricPeukert> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#FelixEngel> <http://purl.org/dc/terms/description> "TIB Hannover"@de .
@@ -220,15 +226,19 @@
 <https://dataweek.de/#FelixEngel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#FelixEngel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#FelixEngel> <http://xmlns.com/foaf/0.1/name> "Felix Engel" .
-<https://dataweek.de/#FidanLimani> <http://purl.org/dc/terms/description> "ZBW - Leibniz Information Centre for Economics"@en .
-<https://dataweek.de/#FidanLimani> <http://purl.org/dc/terms/description> "ZBW - Leibniz-Informationszentrum Wirtschaft"@de .
+<https://dataweek.de/#FidanLimani> <http://purl.org/dc/terms/description> "Research assistant"@en .
+<https://dataweek.de/#FidanLimani> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
+<https://dataweek.de/#FidanLimani> <http://schema.org/affiliation> <https://www.zbw.eu/de/> .
 <https://dataweek.de/#FidanLimani> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#FidanLimani> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#FidanLimani> <http://xmlns.com/foaf/0.1/homepage> <https://www.zbw.eu/de/forschung/science-2-0/fidan-limani> .
 <https://dataweek.de/#FidanLimani> <http://xmlns.com/foaf/0.1/name> "Fidan Limani" .
 <https://dataweek.de/#GollamRabby> <http://purl.org/dc/terms/description> "Doktorant"@de .
 <https://dataweek.de/#GollamRabby> <http://purl.org/dc/terms/description> "PhD Student"@en .
+<https://dataweek.de/#GollamRabby> <http://schema.org/affiliation> <https://www.vse.cz/english/> .
 <https://dataweek.de/#GollamRabby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#GollamRabby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#GollamRabby> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/gollam-rabby-28203095/?originalSubdomain=cz> .
 <https://dataweek.de/#GollamRabby> <http://xmlns.com/foaf/0.1/name> "Gollam Rabby" .
 <https://dataweek.de/#HannaKoepcke> <http://purl.org/dc/terms/description> "Senior Solution Architect [Vistex](https://www.vistex.com/)"@de .
 <https://dataweek.de/#HannaKoepcke> <http://purl.org/dc/terms/description> "Senior Solution Architect [Vistex](https://www.vistex.com/)"@en .
@@ -342,10 +352,12 @@
 <https://dataweek.de/#MaximilianPensel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MaximilianPensel> <http://xmlns.com/foaf/0.1/homepage> <https://de.linkedin.com/in/maximilian-pensel-052890204> .
 <https://dataweek.de/#MaximilianPensel> <http://xmlns.com/foaf/0.1/name> "Maximilian Pensel " .
-<https://dataweek.de/#MehdiAzarafza> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik e.V."@de .
-<https://dataweek.de/#MehdiAzarafza> <http://purl.org/dc/terms/description> "Institute for Applied Informatics e.V."@en .
+<https://dataweek.de/#MehdiAzarafza> <http://purl.org/dc/terms/description> "Scientific Researcher"@en .
+<https://dataweek.de/#MehdiAzarafza> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
+<https://dataweek.de/#MehdiAzarafza> <http://schema.org/affiliation> <https://infai.org/> .
 <https://dataweek.de/#MehdiAzarafza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MehdiAzarafza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MehdiAzarafza> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/mehdi-azarafza-1865a91b6/> .
 <https://dataweek.de/#MehdiAzarafza> <http://xmlns.com/foaf/0.1/name> "Mehdi Azarafza" .
 <https://dataweek.de/#MiriamWelz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MiriamWelz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -359,14 +371,18 @@
 <https://dataweek.de/#MirkoMuehlpfort> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Mirko Mühlpfort ist Teamleiter am Referat Digitale Stadt der Stadt Leipzig und für die Themen Urbane Daten und Digitale Infrastrukturen verantwortlich. Er leitet mehrere Datenprojekte und ist Leipziger Projektleiter für das Kooperationsprojekt „Connected Urban Twins – Urbane Datenplattformen und Digitale Zwillinge für Integrierte Stadtentwicklung“ (CUT) der Städte Hamburg, Leipzig und München. Er hat Volkswirtschaftslehre, Soziologie und Verwaltungswissenschaften in Leipzig und Speyer studiert."@de .
 <https://dataweek.de/#MirzaMohtashimAlam> <http://purl.org/dc/terms/description> "Research Associate"@en .
 <https://dataweek.de/#MirzaMohtashimAlam> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
+<https://dataweek.de/#MirzaMohtashimAlam> <http://schema.org/affiliation> <https://infai.org/> .
 <https://dataweek.de/#MirzaMohtashimAlam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MirzaMohtashimAlam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MirzaMohtashimAlam> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/mirzamohtashim/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> .
 <https://dataweek.de/#MirzaMohtashimAlam> <http://xmlns.com/foaf/0.1/name> "Mirza Mohtashim Alam" .
-<https://dataweek.de/#NadineKuhlavonBergmann> <http://purl.org/dc/terms/description> "Creative Climate Cities UG "@de .
-<https://dataweek.de/#NadineKuhlavonBergmann> <http://purl.org/dc/terms/description> "Creative Climate Cities UG "@en .
+<https://dataweek.de/#NadineKuhlavonBergmann> <http://purl.org/dc/terms/description> "CEO"@de .
+<https://dataweek.de/#NadineKuhlavonBergmann> <http://purl.org/dc/terms/description> "CEO"@en .
+<https://dataweek.de/#NadineKuhlavonBergmann> <http://schema.org/affiliation> <https://creativeclimatecities.org/de/> .
 <https://dataweek.de/#NadineKuhlavonBergmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#NadineKuhlavonBergmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#NadineKuhlavonBergmann> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Nadine Kuhla von Bergmann" .
+<https://dataweek.de/#NadineKuhlavonBergmann> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/nadine-kuhla-von-bergmann/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> .
 <https://dataweek.de/#NadineKuhlavonBergmann> <http://xmlns.com/foaf/0.1/name> "Nadine Kuhla von Bergmann" .
 <https://dataweek.de/#NadineKuhlavonBergmann> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#NadjaRiedel%20> <http://purl.org/dc/terms/description> "City of Leipzig/Digital City Department"@en .
@@ -400,10 +416,12 @@
 <https://dataweek.de/#RonnyMaikLeder> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Ronny Maik Leder" .
 <https://dataweek.de/#RonnyMaikLeder> <http://xmlns.com/foaf/0.1/name> "Ronny Maik Leder" .
 <https://dataweek.de/#RonnyMaikLeder> <http://xmlns.com/foaf/0.1/title> "Dr." .
-<https://dataweek.de/#RuslanHrushchak> <http://purl.org/dc/terms/description> "AppPlant"@de .
-<https://dataweek.de/#RuslanHrushchak> <http://purl.org/dc/terms/description> "AppPlant"@en .
+<https://dataweek.de/#RuslanHrushchak> <http://purl.org/dc/terms/description> "Geschäftsführer "@de .
+<https://dataweek.de/#RuslanHrushchak> <http://purl.org/dc/terms/description> "Managing director"@en .
+<https://dataweek.de/#RuslanHrushchak> <http://schema.org/affiliation> <https://appplant.de/de/home/> .
 <https://dataweek.de/#RuslanHrushchak> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#RuslanHrushchak> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#RuslanHrushchak> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/ruslan-hrushchak/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> .
 <https://dataweek.de/#RuslanHrushchak> <http://xmlns.com/foaf/0.1/name> "Ruslan Hrushchak" .
 <https://dataweek.de/#SakyiMannah> <http://purl.org/dc/terms/description> "Selbstregulierung Informationswirtschaft e.V. SRIW"@de .
 <https://dataweek.de/#SakyiMannah> <http://purl.org/dc/terms/description> "Self-regulation Information Industry e.V. SRIW"@en .
@@ -421,10 +439,12 @@
 <https://dataweek.de/#SebastianGemkow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SebastianGemkow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SebastianGemkow> <http://xmlns.com/foaf/0.1/name> "Sebastian Gemkow" .
-<https://dataweek.de/#SebastianGraetz> <http://purl.org/dc/terms/description> "City of Leipzig/Digital City Department"@en .
-<https://dataweek.de/#SebastianGraetz> <http://purl.org/dc/terms/description> "Stadt Leipzig/Referat Digitale Stadt"@de .
+<https://dataweek.de/#SebastianGraetz> <http://purl.org/dc/terms/description> "Project manager Digital City Unit"@en .
+<https://dataweek.de/#SebastianGraetz> <http://purl.org/dc/terms/description> "Projektmanager bei Referat Digitale Stadt"@de .
+<https://dataweek.de/#SebastianGraetz> <http://schema.org/affiliation> <https://www.leipzig.de/wirtschaft-und-wissenschaft/digitalisierung> .
 <https://dataweek.de/#SebastianGraetz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SebastianGraetz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#SebastianGraetz> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/sebastian-graetz-leipzig/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> .
 <https://dataweek.de/#SebastianGraetz> <http://xmlns.com/foaf/0.1/name> "Sebastian Graetz" .
 <https://dataweek.de/#SebastianLehmann> <http://purl.org/dc/terms/description> "Senior AI Engineer [Appsfactory GmbH](https://appsfactory.de/en/)"@de .
 <https://dataweek.de/#SebastianLehmann> <http://purl.org/dc/terms/description> "Senior AI Engineer [Appsfactory GmbH](https://appsfactory.de/en/)"@en .
@@ -461,10 +481,11 @@
 <https://dataweek.de/#SonjaSchimmler> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sonja Schimmler" .
 <https://dataweek.de/#SonjaSchimmler> <http://xmlns.com/foaf/0.1/name> "Sonja Schimmler" .
 <https://dataweek.de/#SonjaSchimmler> <http://xmlns.com/foaf/0.1/title> "Dr." .
-<https://dataweek.de/#SophiaKuhl> <http://purl.org/dc/terms/description> "HHL Digital Space"@de .
-<https://dataweek.de/#SophiaKuhl> <http://purl.org/dc/terms/description> "HHL Digital Space"@en .
+<https://dataweek.de/#SophiaKuhl> <http://purl.org/dc/terms/description> "Geschäftsführerin HHL DIGITAL SPACE"@de .
+<https://dataweek.de/#SophiaKuhl> <http://purl.org/dc/terms/description> "Managing Director HHL DIGITAL SPACE"@en .
 <https://dataweek.de/#SophiaKuhl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SophiaKuhl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#SophiaKuhl> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/sophia-kuhl-30567b42/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> .
 <https://dataweek.de/#SophiaKuhl> <http://xmlns.com/foaf/0.1/name> "Sophia Kuhl" .
 <https://dataweek.de/#StavroulaChatzipanagioti> <http://purl.org/dc/terms/description> "Selbstregulierung Informationswirtschaft e.V. SRIW"@de .
 <https://dataweek.de/#StavroulaChatzipanagioti> <http://purl.org/dc/terms/description> "Self-regulation Information Industry e.V. SRIW"@en .
@@ -497,15 +518,19 @@
 <https://dataweek.de/#ThomasSchurig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ThomasSchurig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ThomasSchurig> <http://xmlns.com/foaf/0.1/name> "Thomas Schurig" .
-<https://dataweek.de/#Tom%20Potutschek> <http://purl.org/dc/terms/description> "Gecko Two GmbH"@de .
-<https://dataweek.de/#Tom%20Potutschek> <http://purl.org/dc/terms/description> "Gecko Two GmbH"@en .
+<https://dataweek.de/#Tom%20Potutschek> <http://purl.org/dc/terms/description> "COO at Gecko Two GmbH"@en .
+<https://dataweek.de/#Tom%20Potutschek> <http://purl.org/dc/terms/description> "COO bei Gecko Two GmbH"@de .
+<https://dataweek.de/#Tom%20Potutschek> <http://schema.org/affiliation> <https://gecko-two.de/> .
 <https://dataweek.de/#Tom%20Potutschek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#Tom%20Potutschek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#Tom%20Potutschek> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/tom-potutschek-45983b148/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> .
 <https://dataweek.de/#Tom%20Potutschek> <http://xmlns.com/foaf/0.1/name> "Tom Potutschek" .
-<https://dataweek.de/#UlfMiddelberg> <http://purl.org/dc/terms/description> "L-Gruppe"@de .
-<https://dataweek.de/#UlfMiddelberg> <http://purl.org/dc/terms/description> "L-Gruppe"@en .
+<https://dataweek.de/#UlfMiddelberg> <http://purl.org/dc/terms/description> "Geschäftsführer"@de .
+<https://dataweek.de/#UlfMiddelberg> <http://purl.org/dc/terms/description> "Managing director"@en .
+<https://dataweek.de/#UlfMiddelberg> <http://schema.org/affiliation> <https://www.l.de/stadtwerke/> .
 <https://dataweek.de/#UlfMiddelberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#UlfMiddelberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#UlfMiddelberg> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/ulf-middelberg-7b9b36b7/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> .
 <https://dataweek.de/#UlfMiddelberg> <http://xmlns.com/foaf/0.1/name> "Ulf Middelberg" .
 <https://dataweek.de/#UlrichMaldinger> <http://purl.org/dc/terms/description> "Kunstkraftwerk"@de .
 <https://dataweek.de/#UlrichMaldinger> <http://purl.org/dc/terms/description> "Kunstkraftwerk"@en .
@@ -1313,18 +1338,28 @@
 <https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-6> .
 <https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-7> .
 <https://dataweek.de/programm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/di/Dataset> .
+<https://dbs.uni-leipzig.de/person/eric_peukert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://de.linkedin.com/in/arminkr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://de.linkedin.com/in/hanna-k%25C3%25B6pcke-224b694b?trk=public_profile_similar-profiles_profile-result-card_result-card_full-click> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://de.linkedin.com/in/jensscholz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://de.linkedin.com/in/maximilian-pensel-052890204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://de.wikipedia.org/wiki/Daniel_Gerber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://de.wikipedia.org/wiki/Volker_Gruhn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://github.com/ManishBhandariV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://infai.org/workpage-dr-christian-zinke-wehlmann/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/personen/p/simon-maris/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.hs-anhalt.de/hochschule-anhalt/service/personenverzeichnis/aleksandr-perevalov.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.kongress-bw.de/referent/dr-beate-ginzel#:~:text=Beate%2520Ginzel%2520hat%2520Architektur%2520in,und%2520promovierte%2520im%2520Bereich%2520Stadtentwicklung.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/gollam-rabby-28203095/?originalSubdomain=cz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/mehdi-azarafza-1865a91b6/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/mirzamohtashim/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/nadine-kuhla-von-bergmann/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/ruslan-hrushchak/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/s-albrecht/?originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/sebastian-graetz-leipzig/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/sophia-kuhl-30567b42/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/thomas-grzeschik-68a5631/?locale=de_DE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/tom-potutschek-45983b148/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/ulf-middelberg-7b9b36b7/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.oop-konferenz.de/oop-2022/programm/speaker/sprecherdetails/matthias-kindermann-11662> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.pwc.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -1332,6 +1367,7 @@
 <https://www.uni-leipzig.de/personenprofil/mitarbeiter/julia-friedrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.xing.com/profile/Alexander_Smalla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.xing.com/profile/Sebastian_Lehmann100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.zbw.eu/de/forschung/science-2-0/fidan-limani> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
