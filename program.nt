@@ -10,6 +10,15 @@
 <http://aksw.org/ClausStadler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/ClausStadler> .
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/name> "Claus Stadler" .
+<http://aksw.org/DanielGerber> <http://purl.org/dc/terms/description> "Member of the Saxon Parliament"@en .
+<http://aksw.org/DanielGerber> <http://purl.org/dc/terms/description> "Mitglied des Sächsischen Landtags"@de .
+<http://aksw.org/DanielGerber> <http://schema.org/affiliation> <https://www.gruene-fraktion-sachsen.de/> .
+<http://aksw.org/DanielGerber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://aksw.org/DanielGerber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/DanielGerber> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Daniel Gerber" .
+<http://aksw.org/DanielGerber> <http://xmlns.com/foaf/0.1/homepage> <https://danielgerber.eu/> .
+<http://aksw.org/DanielGerber> <http://xmlns.com/foaf/0.1/name> "Daniel Gerber" .
+<http://aksw.org/DanielGerber> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <http://aksw.org/DenisStreitmatter> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association, Institut für Angewandte Informatik"@de .
 <http://aksw.org/DenisStreitmatter> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association, Institute for Applied Informatics"@en .
 <http://aksw.org/DenisStreitmatter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -111,8 +120,8 @@
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SebastianTramp> .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/name> "Sebastian Tramp" .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/title> "Dr." .
-<http://aksw.org/SoerenAuer> <http://purl.org/dc/terms/description> "Sören Auer is Professor for Data Science and Digital Libraries at the Gottfried Wilhelm Leibniz University Hannover and Director of the Technische Informationsbibliothek (TIB) in Hannover. Before being appointed Director of TIB, Sören led the “Enterprise Information Systems (EIS)” department at Fraunhofer Institute for Intelligent Analysis and Information Systems IAIS and held a Chair in Enterprise Information Systems at the University of Bonn. After studying Mathematics and Computer Science at Hagen, Dresden and Yekaterinburg, Sören earned a PhD in Computer Science at Leipzig University. This was followed by posts as post-doctoral researcher at the University of Pennsylvania and at Leipzig University, where he led the “Agile Knowledge Engineering and Semantic Web” (AKSW) research group."@en .
-<http://aksw.org/SoerenAuer> <http://purl.org/dc/terms/description> "Sören Auer ist Professor für Data Science and Digital Libraries an der Gottfried Wilhelm Leibniz Universität Hannover und Direktor der Technischen Informationsbibliothek (TIB) in Hannover. Vor seiner Ernennung zum Direktor der TIB leitete Auer die Abteilung \"Enterprise Information Systems (EIS)\" am Fraunhofer-Institut für Intelligente Analyse- und Informationssysteme IAIS und hatte eine Professur für Enterprise Information Systems an der Universität Bonn inne. Nach dem Studium der Mathematik und Informatik in Hagen, Dresden und Jekaterinburg promovierte Sören Auer in Informatik an der Universität Leipzig. Es folgten Stationen als Post-Doc an der University of Pennsylvania und an der Universität Leipzig, wo er die Forschungsgruppe \"Agile Knowledge Engineering and Semantic Web\" (AKSW) leitete."@de .
+<http://aksw.org/SoerenAuer> <http://purl.org/dc/terms/description> "Professor for Data Science and Digital Libraries at the Gottfried Wilhelm Leibniz University Hannover and Director of the Technische Informationsbibliothek (TIB) in Hannover"@en .
+<http://aksw.org/SoerenAuer> <http://purl.org/dc/terms/description> "Professor für Data Science and Digital Libraries an der Gottfried Wilhelm Leibniz Universität Hannover und Direktor der Technischen Informationsbibliothek (TIB) in Hannover"@de .
 <http://aksw.org/SoerenAuer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/SoerenAuer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SoerenAuer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Sören Auer" .
@@ -145,6 +154,18 @@
 <https://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/homepage> <https://aksw.org/LarsPeterMeyer> .
 <https://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/name> "Lars-Peter Meyer" .
+<https://appplant.de/de/home/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://appplant.de/de/home/> <http://www.w3.org/2000/01/rdf-schema#label> "appplant"@de .
+<https://appplant.de/de/home/> <http://www.w3.org/2000/01/rdf-schema#label> "appplant"@en .
+<https://appplant.de/de/home/> <http://xmlns.com/foaf/0.1/homepage> <https://appplant.de/de/home/> .
+<https://cityscaper.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://cityscaper.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Cityscaper"@de .
+<https://cityscaper.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Cityscaper"@en .
+<https://cityscaper.de/> <http://xmlns.com/foaf/0.1/homepage> <https://cityscaper.de/> .
+<https://creativeclimatecities.org/de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://creativeclimatecities.org/de/> <http://www.w3.org/2000/01/rdf-schema#label> "Creative Climate Cities"@de .
+<https://creativeclimatecities.org/de/> <http://www.w3.org/2000/01/rdf-schema#label> "Creative Climate Cities"@en .
+<https://creativeclimatecities.org/de/> <http://xmlns.com/foaf/0.1/homepage> <https://creativeclimatecities.org/de/> .
 <https://danielgerber.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://dataweek.de/#AleksandrPerevalov> <http://purl.org/dc/terms/description> "Doktorand"@de .
 <https://dataweek.de/#AleksandrPerevalov> <http://purl.org/dc/terms/description> "PhD Student"@en .
@@ -196,15 +217,6 @@
 <https://dataweek.de/#ChristianZinke> <http://xmlns.com/foaf/0.1/homepage> <https://infai.org/workpage-dr-christian-zinke-wehlmann/> .
 <https://dataweek.de/#ChristianZinke> <http://xmlns.com/foaf/0.1/name> "Christian Zinke-Wehlmann" .
 <https://dataweek.de/#ChristianZinke> <http://xmlns.com/foaf/0.1/title> "Dr." .
-<https://dataweek.de/#DanielGerber> <http://purl.org/dc/terms/description> "Member of the Saxon Parliament"@en .
-<https://dataweek.de/#DanielGerber> <http://purl.org/dc/terms/description> "Mitglied des Sächsischen Landtags"@de .
-<https://dataweek.de/#DanielGerber> <http://schema.org/affiliation> <https://www.gruene-fraktion-sachsen.de/> .
-<https://dataweek.de/#DanielGerber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
-<https://dataweek.de/#DanielGerber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#DanielGerber> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Daniel Gerber" .
-<https://dataweek.de/#DanielGerber> <http://xmlns.com/foaf/0.1/homepage> <https://danielgerber.eu/> .
-<https://dataweek.de/#DanielGerber> <http://xmlns.com/foaf/0.1/name> "Daniel Gerber" .
-<https://dataweek.de/#DanielGerber> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#ErhardRahm> <http://purl.org/dc/terms/description> "Leipzig University"@en .
 <https://dataweek.de/#ErhardRahm> <http://purl.org/dc/terms/description> "Universität Leipzig"@de .
 <https://dataweek.de/#ErhardRahm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -431,8 +443,7 @@
 <https://dataweek.de/#SakyiMannah> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SakyiMannah> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SakyiMannah> <http://xmlns.com/foaf/0.1/name> "Sakyi Mannah" .
-<https://dataweek.de/#SebastianBrandt> <http://purl.org/dc/terms/description> "Siemens AG"@de .
-<https://dataweek.de/#SebastianBrandt> <http://purl.org/dc/terms/description> "Siemens AG"@en .
+<https://dataweek.de/#SebastianBrandt> <http://schema.org/affiliation> <https://siemens.com/> .
 <https://dataweek.de/#SebastianBrandt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SebastianBrandt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SebastianBrandt> <http://xmlns.com/foaf/0.1/name> "Sebastian Brandt" .
@@ -495,13 +506,15 @@
 <https://dataweek.de/#StavroulaChatzipanagioti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#StavroulaChatzipanagioti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#StavroulaChatzipanagioti> <http://xmlns.com/foaf/0.1/name> "Stavroula Chatzipanagioti" .
-<https://dataweek.de/#StefanHoltel> <http://purl.org/dc/terms/description> "Curator of Digital Change at [PricewaterhouseCoopers GmbH](https://www.pwc.de/en.html). Among other things, he worked for 11 years in research and development at Vodafone and holds several international patents. He regularly presents, publishes and lectures on how companies can manage digital transformation. He currently works at PricewaterhouseCoopers' DigiLab as a thought leader on interdisciplinary issues in Artificial Intelligence.  "@en .
-<https://dataweek.de/#StefanHoltel> <http://purl.org/dc/terms/description> "Kurator für digitalen Wandel bei der [PricewaterhouseCoopers GmbH](https://www.pwc.de/). Er arbeitete u.a. 11 Jahre in der Forschung und Entwicklung von Vodafone und hält mehrere internationale Patente. Regelmäßig präsentiert, publiziert und doziert er zur Frage, wie Unternehmen die digitale Transformation bewältigen können. Derzeit arbeitet er im DigiLab von PricewaterhouseCoopers als Vordenker zu interdisziplinären Fragen der Künstlichen Intelligenz. "@de .
+<https://dataweek.de/#StefanHoltel> <http://purl.org/dc/terms/description> "Curator of Digital Change"@en .
+<https://dataweek.de/#StefanHoltel> <http://purl.org/dc/terms/description> "Kurator für digitalen Wandel"@de .
 <https://dataweek.de/#StefanHoltel> <http://schema.org/affiliation> <https://www.pwc.de/en.html> .
 <https://dataweek.de/#StefanHoltel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#StefanHoltel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#StefanHoltel> <http://xmlns.com/foaf/0.1/homepage> <https://www.pwc.de/> .
 <https://dataweek.de/#StefanHoltel> <http://xmlns.com/foaf/0.1/name> "Stefan Holtel" .
+<https://dataweek.de/#StefanHoltel> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Among other things, he worked for 11 years in research and development at Vodafone and holds several international patents. He regularly presents, publishes and lectures on how companies can manage digital transformation. He currently works at PricewaterhouseCoopers' DigiLab as a thought leader on interdisciplinary issues in Artificial Intelligence."@en .
+<https://dataweek.de/#StefanHoltel> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Er arbeitete u.a. 11 Jahre in der Forschung und Entwicklung von Vodafone und hält mehrere internationale Patente. Regelmäßig präsentiert, publiziert und doziert er zur Frage, wie Unternehmen die digitale Transformation bewältigen können. Derzeit arbeitet er im DigiLab von PricewaterhouseCoopers als Vordenker zu interdisziplinären Fragen der Künstlichen Intelligenz."@de .
 <https://dataweek.de/#ThomasBurghardt> <http://purl.org/dc/terms/description> "Leipzig University"@en .
 <https://dataweek.de/#ThomasBurghardt> <http://purl.org/dc/terms/description> "Universität Leipzig"@de .
 <https://dataweek.de/#ThomasBurghardt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -1267,8 +1280,8 @@
 <https://dataweek.de/openingday/#programm-talk-31> <http://purl.org/dc/terms/title> "Podiumsdiskussion"@de .
 <https://dataweek.de/openingday/#programm-talk-31> <http://schema.org/endTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-31> <http://schema.org/location> <https://dataweek.de/#Ratsplenarsaal> .
+<https://dataweek.de/openingday/#programm-talk-31> <http://schema.org/performer> <http://aksw.org/DanielGerber> .
 <https://dataweek.de/openingday/#programm-talk-31> <http://schema.org/performer> <https://dataweek.de/#BeateGinzel> .
-<https://dataweek.de/openingday/#programm-talk-31> <http://schema.org/performer> <https://dataweek.de/#DanielGerber> .
 <https://dataweek.de/openingday/#programm-talk-31> <http://schema.org/performer> <https://dataweek.de/#EricPeukert> .
 <https://dataweek.de/openingday/#programm-talk-31> <http://schema.org/performer> <https://dataweek.de/#NadineKuhlavonBergmann> .
 <https://dataweek.de/openingday/#programm-talk-31> <http://schema.org/performer> <https://dataweek.de/#UlfMiddelberg> .
@@ -1350,11 +1363,83 @@
 <https://de.linkedin.com/in/jensscholz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://de.linkedin.com/in/maximilian-pensel-052890204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://de.wikipedia.org/wiki/Volker_Gruhn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://gecko-two.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://gecko-two.de/> <http://www.w3.org/2000/01/rdf-schema#label> "GECKO.2"@de .
+<https://gecko-two.de/> <http://www.w3.org/2000/01/rdf-schema#label> "GECKO.2"@en .
+<https://gecko-two.de/> <http://xmlns.com/foaf/0.1/homepage> <https://gecko-two.de/> .
 <https://github.com/ManishBhandariV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://infai.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://infai.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Institut für angewandte Informatik e.V."@de .
+<https://infai.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Institute for Applied Informatics"@en .
+<https://infai.org/> <http://xmlns.com/foaf/0.1/homepage> <https://infai.org/> .
 <https://infai.org/workpage-dr-christian-zinke-wehlmann/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://naturkundemuseum.leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://naturkundemuseum.leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Natural History Museum"@en .
+<https://naturkundemuseum.leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Naturkundemuseum"@de .
+<https://naturkundemuseum.leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://naturkundemuseum.leipzig.de/> .
+<https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> <http://www.w3.org/2000/01/rdf-schema#label> "Amt für Statistik und Wahlen"@de .
+<https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> <http://www.w3.org/2000/01/rdf-schema#label> "Office for Statistics and Elections"@en .
+<https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> <http://xmlns.com/foaf/0.1/homepage> <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> .
+<https://scads.ai/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://scads.ai/> <http://www.w3.org/2000/01/rdf-schema#label> "ScaDS.AI (Center for Scalable Data Analytics and Artificial Intelligence) Dresden/Leipzig"@de .
+<https://scads.ai/> <http://www.w3.org/2000/01/rdf-schema#label> "ScaDS.AI (Center for Scalable Data Analytics and Artificial Intelligence) Dresden/Leipzig"@en .
+<https://scads.ai/> <http://xmlns.com/foaf/0.1/homepage> <https://scads.ai/> .
+<https://senec.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://senec.com/> <http://www.w3.org/2000/01/rdf-schema#label> "SENEC GmbH"@de .
+<https://senec.com/> <http://www.w3.org/2000/01/rdf-schema#label> "SENEC GmbH"@en .
+<https://senec.com/> <http://xmlns.com/foaf/0.1/homepage> <https://senec.com/> .
+<https://siemens.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://siemens.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Siemens AG"@de .
+<https://siemens.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Siemens AG"@en .
+<https://siemens.com/> <http://xmlns.com/foaf/0.1/homepage> <https://siemens.com/> .
+<https://stackfuel.com/de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://stackfuel.com/de/> <http://www.w3.org/2000/01/rdf-schema#label> "StackFuel"@de .
+<https://stackfuel.com/de/> <http://www.w3.org/2000/01/rdf-schema#label> "StackFuel"@en .
+<https://stackfuel.com/de/> <http://xmlns.com/foaf/0.1/homepage> <https://stackfuel.com/de/> .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/personen/p/simon-maris/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://www.w3.org/2000/01/rdf-schema#label> "XLab - Burg Giebichenstein Kunsthochschule Halle"@de .
+<https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://www.w3.org/2000/01/rdf-schema#label> "XLab - Burg Giebichenstein University of Art Halle"@en .
+<https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://xmlns.com/foaf/0.1/homepage> <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> .
+<https://www.eccenca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.eccenca.com/> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH"@de .
+<https://www.eccenca.com/> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH"@en .
+<https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.eccenca.com/> .
+<https://www.gruene-fraktion-sachsen.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.gruene-fraktion-sachsen.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Green faction saxony"@en .
+<https://www.gruene-fraktion-sachsen.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Grüne Fraktion Sachsen"@de .
+<https://www.gruene-fraktion-sachsen.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.gruene-fraktion-sachsen.de/> .
+<https://www.hhl-digital.space/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.hhl-digital.space/> <http://www.w3.org/2000/01/rdf-schema#label> "HHl Digitall Space"@de .
+<https://www.hhl-digital.space/> <http://www.w3.org/2000/01/rdf-schema#label> "HHl Digitall Space"@en .
+<https://www.hhl-digital.space/> <http://xmlns.com/foaf/0.1/homepage> <https://www.hhl-digital.space/> .
+<https://www.hs-anhalt.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.hs-anhalt.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Anhalt University of Applied Sciences"@en .
+<https://www.hs-anhalt.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Hochschule Anhalt"@de .
+<https://www.hs-anhalt.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.hs-anhalt.de/> .
 <https://www.hs-anhalt.de/hochschule-anhalt/service/personenverzeichnis/aleksandr-perevalov.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.kongress-bw.de/referent/dr-beate-ginzel#:~:text=Beate%2520Ginzel%2520hat%2520Architektur%2520in,und%2520promovierte%2520im%2520Bereich%2520Stadtentwicklung.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.l.de/stadtwerke/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.l.de/stadtwerke/> <http://www.w3.org/2000/01/rdf-schema#label> "Leipzig municipal utilities"@en .
+<https://www.l.de/stadtwerke/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadtwerke Leipzig"@de .
+<https://www.l.de/stadtwerke/> <http://xmlns.com/foaf/0.1/homepage> <https://www.l.de/stadtwerke/> .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/buero-fuer-ratsangelegenheiten-0115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/buero-fuer-ratsangelegenheiten-0115> <http://www.w3.org/2000/01/rdf-schema#label> "Büro für Ratsangelegenheiten der Stadt Leipzig"@de .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/buero-fuer-ratsangelegenheiten-0115> <http://www.w3.org/2000/01/rdf-schema#label> "Office for Council Affairs of the City of Leipzig"@en .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/buero-fuer-ratsangelegenheiten-0115> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/buero-fuer-ratsangelegenheiten-0115> .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/geodatenservice-624> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/geodatenservice-624> <http://www.w3.org/2000/01/rdf-schema#label> "City of Leipzig/Geodata infrastructure"@en .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/geodatenservice-624> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig/Geodateninfrastruktur"@de .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/geodatenservice-624> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/geodatenservice-624> .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://www.w3.org/2000/01/rdf-schema#label> "Road Traffic Authority / Traffic Management - Traffic and Civil Engineering Office"@en .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://www.w3.org/2000/01/rdf-schema#label> "Straßenverkehrsbehörde / Verkehrsmanagement - Verkehrs- und Tiefbauamt"@de .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> .
+<https://www.leipzig.de/wirtschaft-und-wissenschaft/digitalisierung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.leipzig.de/wirtschaft-und-wissenschaft/digitalisierung> <http://www.w3.org/2000/01/rdf-schema#label> "Digital City of Leipzig"@en .
+<https://www.leipzig.de/wirtschaft-und-wissenschaft/digitalisierung> <http://www.w3.org/2000/01/rdf-schema#label> "Digitale Stadt Leipzig"@de .
+<https://www.leipzig.de/wirtschaft-und-wissenschaft/digitalisierung> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/wirtschaft-und-wissenschaft/digitalisierung> .
 <https://www.linkedin.com/in/gollam-rabby-28203095/?originalSubdomain=cz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/mehdi-azarafza-1865a91b6/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/mirzamohtashim/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -1368,11 +1453,27 @@
 <https://www.linkedin.com/in/ulf-middelberg-7b9b36b7/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.oop-konferenz.de/oop-2022/programm/speaker/sprecherdetails/matthias-kindermann-11662> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.pwc.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.pwc.de/en.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.pwc.de/en.html> <http://www.w3.org/2000/01/rdf-schema#label> "PricewaterhouseCoopers GmbH"@de .
+<https://www.pwc.de/en.html> <http://www.w3.org/2000/01/rdf-schema#label> "PricewaterhouseCoopers GmbH"@en .
+<https://www.pwc.de/en.html> <http://xmlns.com/foaf/0.1/homepage> <https://www.pwc.de/en.html> .
+<https://www.smwk.sachsen.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.smwk.sachsen.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Saxon State Ministry for Science, Culture and Tourism"@en .
+<https://www.smwk.sachsen.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Sächsisches Staatsministerium für Wissenschaft, Kultur und Tourismus"@de .
+<https://www.smwk.sachsen.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.smwk.sachsen.de/> .
 <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.tib.eu/en/research-development/research-groups-and-labs/data-science-digital-libraries/staff/soeren-auer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.uni-leipzig.de/personenprofil/mitarbeiter/julia-friedrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.vse.cz/english/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.vse.cz/english/> <http://www.w3.org/2000/01/rdf-schema#label> "Prague University of Economics"@en .
+<https://www.vse.cz/english/> <http://www.w3.org/2000/01/rdf-schema#label> "Universität für Wirtschaft Prag"@de .
+<https://www.vse.cz/english/> <http://xmlns.com/foaf/0.1/homepage> <https://www.vse.cz/english/> .
 <https://www.xing.com/profile/Alexander_Smalla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.xing.com/profile/Sebastian_Lehmann100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.zbw.eu/de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.zbw.eu/de/> <http://www.w3.org/2000/01/rdf-schema#label> "Leibniz Information Centre for Economics"@en .
+<https://www.zbw.eu/de/> <http://www.w3.org/2000/01/rdf-schema#label> "Leibniz-Informationszentrum Wirtschaft"@de .
+<https://www.zbw.eu/de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.zbw.eu/de/> .
 <https://www.zbw.eu/de/forschung/science-2-0/fidan-limani> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
