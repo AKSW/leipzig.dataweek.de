@@ -269,12 +269,13 @@
 <https://dataweek.de/#JakobFreese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JakobFreese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JakobFreese> <http://xmlns.com/foaf/0.1/name> "Jakob Freese" .
-<https://dataweek.de/#JanReichert> <http://purl.org/dc/terms/description> "ACOD GmbH - Automotive Cluster Ostdeutschland [ACOD](https://www.acod.de/)"@de .
-<https://dataweek.de/#JanReichert> <http://purl.org/dc/terms/description> "ACOD GmbH - Automotive Cluster Ostdeutschland [ACOD](https://www.acod.de/)"@en .
+<https://dataweek.de/#JanReichert> <http://purl.org/dc/terms/description> "Projektmanager"@de .
+<https://dataweek.de/#JanReichert> <http://purl.org/dc/terms/description> "project manager"@en .
 <https://dataweek.de/#JanReichert> <http://schema.org/affiliation> <https://www.acod.de/ueber-uns> .
 <https://dataweek.de/#JanReichert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JanReichert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JanReichert> <http://xmlns.com/foaf/0.1/name> "Jan Reichert" .
+<https://dataweek.de/#JanReichert> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Jan Reichert ist Medien- und Kommunikationswissenschaftler (M.A.) und nach verschiedenen beruflichen Stationen (Erfurt, Stuttgart, Shanghai) nun bereits seit fünf Jahren in Leipzig für den ACOD als Projektmanager aktiv. Als Schnittstelle zur Industrie unterstützt er im K-M-I Projekt als Netzwerkpartner."@de .
 <https://dataweek.de/#JanaBendigs> <http://purl.org/dc/terms/description> "Kommunikationsmanagerin"@de .
 <https://dataweek.de/#JanaBendigs> <http://purl.org/dc/terms/description> "communication manager"@en .
 <https://dataweek.de/#JanaBendigs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -297,7 +298,7 @@
 <https://dataweek.de/#JuliaFriedrich> <http://schema.org/affiliation> <https://infai.org/> .
 <https://dataweek.de/#JuliaFriedrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JuliaFriedrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#JuliaFriedrich> <http://xmlns.com/foaf/0.1/homepage> <https://www.uni-leipzig.de/personenprofil/mitarbeiter/julia-friedrich> .
+<https://dataweek.de/#JuliaFriedrich> <http://xmlns.com/foaf/0.1/homepage> <https://orcid.org/0000-0002-7677-784X%20> .
 <https://dataweek.de/#JuliaFriedrich> <http://xmlns.com/foaf/0.1/name> "Julia Friedrich" .
 <https://dataweek.de/#JuliaGastinger> <http://purl.org/dc/terms/description> "NEC Laboratories Europe GmbH"@de .
 <https://dataweek.de/#JuliaGastinger> <http://purl.org/dc/terms/description> "NEC Laboratories Europe GmbH"@en .
@@ -1381,6 +1382,7 @@
 <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> <http://www.w3.org/2000/01/rdf-schema#label> "Amt für Statistik und Wahlen"@de .
 <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> <http://www.w3.org/2000/01/rdf-schema#label> "Office for Statistics and Elections"@en .
 <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> <http://xmlns.com/foaf/0.1/homepage> <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> .
+<https://orcid.org/0000-0002-7677-784X%20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://scads.ai/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://scads.ai/> <http://www.w3.org/2000/01/rdf-schema#label> "ScaDS.AI (Center for Scalable Data Analytics and Artificial Intelligence) Dresden/Leipzig"@de .
 <https://scads.ai/> <http://www.w3.org/2000/01/rdf-schema#label> "ScaDS.AI (Center for Scalable Data Analytics and Artificial Intelligence) Dresden/Leipzig"@en .
@@ -1467,7 +1469,6 @@
 <https://www.tib.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Informationsbibliothek (TIB)"@en .
 <https://www.tib.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://www.tib.eu/> .
 <https://www.tib.eu/en/research-development/research-groups-and-labs/data-science-digital-libraries/staff/soeren-auer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://www.uni-leipzig.de/personenprofil/mitarbeiter/julia-friedrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.vse.cz/english/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.vse.cz/english/> <http://www.w3.org/2000/01/rdf-schema#label> "Prague University of Economics"@en .
 <https://www.vse.cz/english/> <http://www.w3.org/2000/01/rdf-schema#label> "Universität für Wirtschaft Prag"@de .
