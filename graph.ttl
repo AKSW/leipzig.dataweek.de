@@ -76,7 +76,7 @@ aksw:SebastianTramp
     foaf:name "Sebastian Tramp" .
 
 aksw:SoerenAuer
-    schema:affiliation <https://www.l3s.de/>, <https://www.tib.eu/> ;
+    schema:affiliation <https://www.tib.eu/> ;
     a foaf:Person ;
     skos:prefLabel "Prof. Dr. Sören Auer" ;
     foaf:depiction "/images/people/SoerenAuer.jpg" ;
@@ -230,10 +230,14 @@ dw:Partner
     a rdf:Seq ;
     rdfs:label "In Kooperation mit"@de, "In cooperation with"@en .
 
+dw:SebastianBrandt
+    a foaf:Person ;
+    foaf:depiction "/images/people/SebastianBrandt.png" .
+
 dw:Sponsors
-    rdf:_1 <https://www.vistex.com/> ;
-    rdf:_2 <https://www.datev.de/> ;
-    rdf:_3 <https://www.eccenca.com/> ;
+    rdf:_1 <https://www.datev.de/> ;
+    rdf:_2 <https://www.eccenca.com/> ;
+    rdf:_3 <https://www.vistex.com/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -638,7 +642,7 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
 
 <https://infai.org/>
     a schema:Organization ;
-    rdfs:label "InfAI" ;
+    rdfs:label "Institut für angewandte Informatik e.V."@de, "Institute for Applied Informatics"@en ;
     foaf:homepage <https://infai.org/> ;
     foaf:logo "/images/partner/InfAI_small.svg" .
 

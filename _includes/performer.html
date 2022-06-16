@@ -12,25 +12,46 @@ individual
 {%- endunless -%}
 {%- assign persons = "" | split: " " -%}
 {%- assign performers = event | rdf_property: "schema:performer", nil, true -%}
+
 {%- for performer in performers -%}
 {%- assign name = performer | rdf_property: "skos:prefLabel" -%}
 {%- unless name -%}
 {%- assign name = performer | rdf_property: "foaf:name" -%}
 {%- endunless -%}
 {%- assign description = performer | rdf_property: "dct:description", site.language -%}
-{%- unless name -%}
+{%- unless description -%}
 {%- assign description = performer | rdf_property: "dct:description" -%}
 {%- endunless -%}
+{%- assign bio = performer | rdf_property: "gnd:biographicalOrHistoricalInformation", site.language -%}
+{%- unless bio -%}
+{%- assign bio = performer | rdf_property: "gnd:biographicalOrHistoricalInformation" -%}
+{%- endunless -%}
+{%- assign affiliation = performer | rdf_property: "schema:affiliation" -%}
 {%- assign homepage = performer | rdf_property: "foaf:homepage" -%}
+
 {%- capture person -%}
 {%- if style == "individual" -%}
 <div class="lswt-speaker-columns">
 {% include person.html organizer=performer %}
-{%- if description -%}
 <div class="lswt-textcard">
-{{ description | markdownify | strip }}
-</div>
+{%- if description -%}
+{{ description | markdownify | remove: "<p>" | remove: "</p>" | strip }}<br/>
 {%- endif -%}
+{%- if affiliation -%}
+{%- assign homepage = affiliation | rdf_property: "foaf:homepage" -%}
+{%- if homepage -%}
+<a href="{{ homepage }}">
+{%- endif-%}
+{% include label.html iri = affiliation.iri %}
+{%- if homepage -%}
+</a>
+{%- endif-%}
+<br/>
+{%- endif -%}
+{%- if bio -%}
+{{ bio | markdownify | strip }}
+{%- endif -%}
+</div>
 </div>
 {%- else -%}
 {%- if homepage -%}
@@ -41,8 +62,12 @@ individual
 {%- if description -%}
 {{ description | markdownify | remove: "<p>" | remove: "</p>" | strip | prepend: ", " }}
 {%- endif -%}
+{%- if affiliation -%}
+{{ affiliation | rdf_property: "rdfs:label" | strip | prepend: ", " }}
+{%- endif -%}
 {%- endif -%}
 {%- endcapture -%}
+
 {%- assign persons = person | concat: persons -%}
 {%- endfor -%}
 
