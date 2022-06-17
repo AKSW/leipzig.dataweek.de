@@ -1147,10 +1147,10 @@
 <https://dataweek.de/openingday/#programm-session-6> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-session-6> <http://schema.org/location> <https://dataweek.de/#Ratsplenarsaal> .
 <https://dataweek.de/openingday/#programm-session-6> <http://schema.org/performer> <https://dataweek.de/#Tom%20Potutschek> .
-<https://dataweek.de/openingday/#programm-session-6> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://dataweek.de/openingday/#programm-session-6> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-27> .
+<https://dataweek.de/openingday/#programm-session-6> <http://schema.org/startTime> "15:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-session-6> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-28> .
 <https://dataweek.de/openingday/#programm-session-6> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-29> .
+<https://dataweek.de/openingday/#programm-session-6> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-30> .
 <https://dataweek.de/openingday/#programm-session-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/openingday/#programm-talk-10> <http://purl.org/dc/terms/title> "TBA"@en .
 <https://dataweek.de/openingday/#programm-talk-10> <http://purl.org/dc/terms/title> "Titel TBA"@de .
@@ -1250,51 +1250,57 @@
 <https://dataweek.de/openingday/#programm-talk-25> <http://schema.org/performer> <https://dataweek.de/#JanaDietrich> .
 <https://dataweek.de/openingday/#programm-talk-25> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/openingday/#programm-talk-27> <http://purl.org/dc/terms/title> "TBA"@en .
-<https://dataweek.de/openingday/#programm-talk-27> <http://purl.org/dc/terms/title> "Titel TBA"@de .
-<https://dataweek.de/openingday/#programm-talk-27> <http://schema.org/endTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://dataweek.de/openingday/#programm-talk-27> <http://schema.org/performer> <https://dataweek.de/#SebastianGraetz> .
-<https://dataweek.de/openingday/#programm-talk-27> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://dataweek.de/openingday/#programm-talk-27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/openingday/#programm-talk-26> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
+<https://dataweek.de/openingday/#programm-talk-26> <http://purl.org/dc/terms/title> "Changing Rooms"@en .
+<https://dataweek.de/openingday/#programm-talk-26> <http://purl.org/dc/terms/title> "Raumwechsel"@de .
+<https://dataweek.de/openingday/#programm-talk-26> <http://schema.org/endTime> "15:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/openingday/#programm-talk-26> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/openingday/#programm-talk-26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/openingday/#programm-talk-28> <http://purl.org/dc/terms/title> "TBA"@en .
 <https://dataweek.de/openingday/#programm-talk-28> <http://purl.org/dc/terms/title> "Titel TBA"@de .
-<https://dataweek.de/openingday/#programm-talk-28> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://dataweek.de/openingday/#programm-talk-28> <http://schema.org/performer> <https://dataweek.de/#SophiaKuhl> .
-<https://dataweek.de/openingday/#programm-talk-28> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/openingday/#programm-talk-28> <http://schema.org/endTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/openingday/#programm-talk-28> <http://schema.org/performer> <https://dataweek.de/#SebastianGraetz> .
+<https://dataweek.de/openingday/#programm-talk-28> <http://schema.org/startTime> "15:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/openingday/#programm-talk-29> <http://purl.org/dc/terms/title> "TBA"@en .
 <https://dataweek.de/openingday/#programm-talk-29> <http://purl.org/dc/terms/title> "Titel TBA"@de .
-<https://dataweek.de/openingday/#programm-talk-29> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://dataweek.de/openingday/#programm-talk-29> <http://schema.org/performer> <https://dataweek.de/#RuslanHrushchak> .
-<https://dataweek.de/openingday/#programm-talk-29> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/openingday/#programm-talk-29> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/openingday/#programm-talk-29> <http://schema.org/performer> <https://dataweek.de/#SophiaKuhl> .
+<https://dataweek.de/openingday/#programm-talk-29> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/openingday/#programm-talk-30> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
-<https://dataweek.de/openingday/#programm-talk-30> <http://purl.org/dc/terms/title> "Network and exchange platform"@en .
-<https://dataweek.de/openingday/#programm-talk-30> <http://purl.org/dc/terms/title> "Netzwerk -und Austauschplattform"@de .
-<https://dataweek.de/openingday/#programm-talk-30> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://dataweek.de/openingday/#programm-talk-30> <http://schema.org/location> <https://dataweek.de/#Wandelhalle> .
-<https://dataweek.de/openingday/#programm-talk-30> <http://schema.org/startTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/openingday/#programm-talk-30> <http://purl.org/dc/terms/title> "TBA"@en .
+<https://dataweek.de/openingday/#programm-talk-30> <http://purl.org/dc/terms/title> "Titel TBA"@de .
+<https://dataweek.de/openingday/#programm-talk-30> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/openingday/#programm-talk-30> <http://schema.org/performer> <https://dataweek.de/#RuslanHrushchak> .
+<https://dataweek.de/openingday/#programm-talk-30> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/openingday/#programm-talk-31> <http://purl.org/dc/terms/description> "Together with the participants of the Data Week, we will take a look into the future in the panel discussion and imagine the city of Leipzig in the year 2045. What can we achieve using and analyzing data in just under 23 years? How does data support the digital transformation of a city? These questions will be analyzed with the guests in the panel discussion and perspectives, development trends, opportunities and also risks will be considered. "@en .
-<https://dataweek.de/openingday/#programm-talk-31> <http://purl.org/dc/terms/description> "Wir werfen gemeinsam mit den Teilnehmer:innen der Data Week in der Podiumsdiskussion einen Blick in die Zukunft und stellen uns die Stadt Leipzig im Jahr 2045 vor. Was können wir unter der Verwendung und Auswertung von Daten in knapp 23 Jahren erreichen? Wie unterstützen Daten den Digitalen Wandel einer Stadt? Diese Fragen werden mit den Gästen in der Podiumsdiskussion analysiert und Perspektiven, Entwicklungstrends, Chancen und auch Risken betrachtet.  \n\n"@de .
-<https://dataweek.de/openingday/#programm-talk-31> <http://purl.org/dc/terms/title> "Panel discussion"@en .
-<https://dataweek.de/openingday/#programm-talk-31> <http://purl.org/dc/terms/title> "Podiumsdiskussion"@de .
-<https://dataweek.de/openingday/#programm-talk-31> <http://schema.org/endTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://dataweek.de/openingday/#programm-talk-31> <http://schema.org/location> <https://dataweek.de/#Ratsplenarsaal> .
-<https://dataweek.de/openingday/#programm-talk-31> <http://schema.org/performer> <http://aksw.org/DanielGerber> .
-<https://dataweek.de/openingday/#programm-talk-31> <http://schema.org/performer> <https://dataweek.de/#BeateGinzel> .
-<https://dataweek.de/openingday/#programm-talk-31> <http://schema.org/performer> <https://dataweek.de/#EricPeukert> .
-<https://dataweek.de/openingday/#programm-talk-31> <http://schema.org/performer> <https://dataweek.de/#NadineKuhlavonBergmann> .
-<https://dataweek.de/openingday/#programm-talk-31> <http://schema.org/performer> <https://dataweek.de/#UlfMiddelberg> .
-<https://dataweek.de/openingday/#programm-talk-31> <http://schema.org/startTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/openingday/#programm-talk-31> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
+<https://dataweek.de/openingday/#programm-talk-31> <http://purl.org/dc/terms/title> "Network and exchange platform"@en .
+<https://dataweek.de/openingday/#programm-talk-31> <http://purl.org/dc/terms/title> "Netzwerk -und Austauschplattform"@de .
+<https://dataweek.de/openingday/#programm-talk-31> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/openingday/#programm-talk-31> <http://schema.org/location> <https://dataweek.de/#Wandelhalle> .
+<https://dataweek.de/openingday/#programm-talk-31> <http://schema.org/startTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/openingday/#programm-talk-32> <http://purl.org/dc/terms/description> "Built on the foundation of the old Pleißenburg Tower, the tower of the New City Hall is considered the tallest city hall tower in Germany and is one of Leipzig's most important landmarks. With a height of exactly 114.7 meters, it towers over the entire city. As part of Data Week Leipzig, you have the opportunity to visit the town hall tower with us."@en .
-<https://dataweek.de/openingday/#programm-talk-32> <http://purl.org/dc/terms/description> "Der auf dem Fundament des alten Pleißenburgturms errichtete Turm des Neuen Rathauses gilt als höchster Rathausturm Deutschlands und ist eines der wichtigsten Wahrzeichen Leipzigs. Mit einer Höhe von genau 114,7 Metern überragt er die ganze Stadt. Im Rahmen der Data Week Leipzig haben Sie die Möglichkeit den Rathausturm mit uns zu besichtigen."@de .
-<https://dataweek.de/openingday/#programm-talk-32> <http://purl.org/dc/terms/title> "Rathausturmbesichtigung"@de .
-<https://dataweek.de/openingday/#programm-talk-32> <http://purl.org/dc/terms/title> "Visit city hall tower"@en .
-<https://dataweek.de/openingday/#programm-talk-32> <http://schema.org/endTime> "19:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://dataweek.de/openingday/#programm-talk-32> <http://schema.org/startTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/openingday/#programm-talk-32> <http://purl.org/dc/terms/description> "Together with the participants of the Data Week, we will take a look into the future in the panel discussion and imagine the city of Leipzig in the year 2045. What can we achieve using and analyzing data in just under 23 years? How does data support the digital transformation of a city? These questions will be analyzed with the guests in the panel discussion and perspectives, development trends, opportunities and also risks will be considered. "@en .
+<https://dataweek.de/openingday/#programm-talk-32> <http://purl.org/dc/terms/description> "Wir werfen gemeinsam mit den Teilnehmer:innen der Data Week in der Podiumsdiskussion einen Blick in die Zukunft und stellen uns die Stadt Leipzig im Jahr 2045 vor. Was können wir unter der Verwendung und Auswertung von Daten in knapp 23 Jahren erreichen? Wie unterstützen Daten den Digitalen Wandel einer Stadt? Diese Fragen werden mit den Gästen in der Podiumsdiskussion analysiert und Perspektiven, Entwicklungstrends, Chancen und auch Risken betrachtet.  \n\n"@de .
+<https://dataweek.de/openingday/#programm-talk-32> <http://purl.org/dc/terms/title> "Panel discussion"@en .
+<https://dataweek.de/openingday/#programm-talk-32> <http://purl.org/dc/terms/title> "Podiumsdiskussion"@de .
+<https://dataweek.de/openingday/#programm-talk-32> <http://schema.org/endTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/openingday/#programm-talk-32> <http://schema.org/location> <https://dataweek.de/#Ratsplenarsaal> .
+<https://dataweek.de/openingday/#programm-talk-32> <http://schema.org/performer> <http://aksw.org/DanielGerber> .
+<https://dataweek.de/openingday/#programm-talk-32> <http://schema.org/performer> <https://dataweek.de/#BeateGinzel> .
+<https://dataweek.de/openingday/#programm-talk-32> <http://schema.org/performer> <https://dataweek.de/#EricPeukert> .
+<https://dataweek.de/openingday/#programm-talk-32> <http://schema.org/performer> <https://dataweek.de/#NadineKuhlavonBergmann> .
+<https://dataweek.de/openingday/#programm-talk-32> <http://schema.org/performer> <https://dataweek.de/#UlfMiddelberg> .
+<https://dataweek.de/openingday/#programm-talk-32> <http://schema.org/startTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/openingday/#programm-talk-33> <http://purl.org/dc/terms/description> "Built on the foundation of the old Pleißenburg Tower, the tower of the New City Hall is considered the tallest city hall tower in Germany and is one of Leipzig's most important landmarks. With a height of exactly 114.7 meters, it towers over the entire city. As part of Data Week Leipzig, you have the opportunity to visit the town hall tower with us."@en .
+<https://dataweek.de/openingday/#programm-talk-33> <http://purl.org/dc/terms/description> "Der auf dem Fundament des alten Pleißenburgturms errichtete Turm des Neuen Rathauses gilt als höchster Rathausturm Deutschlands und ist eines der wichtigsten Wahrzeichen Leipzigs. Mit einer Höhe von genau 114,7 Metern überragt er die ganze Stadt. Im Rahmen der Data Week Leipzig haben Sie die Möglichkeit den Rathausturm mit uns zu besichtigen."@de .
+<https://dataweek.de/openingday/#programm-talk-33> <http://purl.org/dc/terms/title> "Rathausturmbesichtigung"@de .
+<https://dataweek.de/openingday/#programm-talk-33> <http://purl.org/dc/terms/title> "Visit city hall tower"@en .
+<https://dataweek.de/openingday/#programm-talk-33> <http://schema.org/endTime> "19:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/openingday/#programm-talk-33> <http://schema.org/startTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/openingday/#programm-talk-33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/openingday/#programm-talk-3> <http://purl.org/dc/terms/title> "Eröffnung durch das Organisationsteam der Data Week"@de .
 <https://dataweek.de/openingday/#programm-talk-3> <http://purl.org/dc/terms/title> "Welcoming address"@en .
 <https://dataweek.de/openingday/#programm-talk-3> <http://schema.org/endTime> "09:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -1352,9 +1358,10 @@
 <https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-session-6> .
 <https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-17> .
 <https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-1> .
-<https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-30> .
+<https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-26> .
 <https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-31> .
 <https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-32> .
+<https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-33> .
 <https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-6> .
 <https://dataweek.de/openingday/> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-7> .
 <https://dataweek.de/programm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/di/Dataset> .
