@@ -3,8 +3,7 @@
 <http://aksw.org/AndreValdestilhas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/AndreValdestilhas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/AndreValdestilhas> <http://xmlns.com/foaf/0.1/name> "André Valdestilhas" .
-<http://aksw.org/ClausStadler> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik e.V."@de .
-<http://aksw.org/ClausStadler> <http://purl.org/dc/terms/description> "Institute for Applied Informatics e.V."@en .
+<http://aksw.org/ClausStadler> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/ClausStadler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/ClausStadler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/ClausStadler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -40,8 +39,7 @@
 <http://aksw.org/JohannesFrey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/JohannesFrey> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/JohannesFrey> .
 <http://aksw.org/JohannesFrey> <http://xmlns.com/foaf/0.1/name> "Johannes Frey" .
-<http://aksw.org/JuliaHolze> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik e.V."@de .
-<http://aksw.org/JuliaHolze> <http://purl.org/dc/terms/description> "Institute for Applied Informatics e.V."@en .
+<http://aksw.org/JuliaHolze> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/JuliaHolze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/JuliaHolze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/JuliaHolze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -55,8 +53,8 @@
 <http://aksw.org/MarvinHofer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/MarvinHofer> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/MarvinHofer> .
 <http://aksw.org/MarvinHofer> <http://xmlns.com/foaf/0.1/name> "Marvin Hofer" .
-<http://aksw.org/MichaelMartin> <http://purl.org/dc/terms/description> "Head of Competence Center @ [InfAI e.V.](https://infai.org/) and [AKSW](http://aksw.org/)"@en .
-<http://aksw.org/MichaelMartin> <http://purl.org/dc/terms/description> "Leiter Kompetenzzentrum @ [InfAI e.V.](https://infai.org/) und [AKSW](http://aksw.org/)"@de .
+<http://aksw.org/MichaelMartin> <http://purl.org/dc/terms/description> "Head of Competence Center"@en .
+<http://aksw.org/MichaelMartin> <http://purl.org/dc/terms/description> "Leiter Kompetenzzentrum"@de .
 <http://aksw.org/MichaelMartin> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/MichaelMartin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/MichaelMartin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -75,8 +73,8 @@
 <http://aksw.org/MilanDojchinovski> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/MilanDojchinovski> .
 <http://aksw.org/MilanDojchinovski> <http://xmlns.com/foaf/0.1/name> "Milan Dojchinovski" .
 <http://aksw.org/MilanDojchinovski> <http://xmlns.com/foaf/0.1/title> "Dr." .
-<http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Senior Linked Data Expert [eccenca GmbH](https://eccenca.com/)"@de .
-<http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Senior Linked Data Expert [eccenca GmbH](https://eccenca.com/)"@en .
+<http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Senior Linked Data Expert"@de .
+<http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Senior Linked Data Expert"@en .
 <http://aksw.org/NatanaelArndt> <http://schema.org/affiliation> <https://www.eccenca.com/> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -85,15 +83,13 @@
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/NatanaelArndt> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/name> "Natanael Arndt" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/title> "Dr." .
-<http://aksw.org/RoyMeissner> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik e.V."@de .
-<http://aksw.org/RoyMeissner> <http://purl.org/dc/terms/description> "Institute for Applied Informatics e.V."@en .
+<http://aksw.org/RoyMeissner> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/RoyMeissner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/RoyMeissner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/RoyMeissner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/RoyMeissner> .
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/name> "Roy Meissner" .
-<http://aksw.org/SabineGruenderFahrer> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik e.V."@de .
-<http://aksw.org/SabineGruenderFahrer> <http://purl.org/dc/terms/description> "Institute for Applied Informatics e.V."@en .
+<http://aksw.org/SabineGruenderFahrer> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -101,8 +97,9 @@
 <http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SabineGruenderFahrer> .
 <http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/name> "Sabine Gründer-Fahrer" .
 <http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/title> "Dr." .
-<http://aksw.org/SebastianHellmann> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association, Institut für Angewandte Informatik"@de .
-<http://aksw.org/SebastianHellmann> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association, Institute for Applied Informatics"@en .
+<http://aksw.org/SebastianHellmann> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association"@de .
+<http://aksw.org/SebastianHellmann> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association"@en .
+<http://aksw.org/SebastianHellmann> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/SebastianHellmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/SebastianHellmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/SebastianHellmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -110,8 +107,8 @@
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SebastianHellmann> .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/name> "Sebastian Hellmann" .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/title> "Dr.-Ing." .
-<http://aksw.org/SebastianTramp> <http://purl.org/dc/terms/description> "CTO, [eccenca GmbH](https://www.eccenca.com/)"@de .
-<http://aksw.org/SebastianTramp> <http://purl.org/dc/terms/description> "CTO, [eccenca GmbH](https://www.eccenca.com/)"@en .
+<http://aksw.org/SebastianTramp> <http://purl.org/dc/terms/description> "CTO"@de .
+<http://aksw.org/SebastianTramp> <http://purl.org/dc/terms/description> "CTO"@en .
 <http://aksw.org/SebastianTramp> <http://schema.org/affiliation> <https://www.eccenca.com/> .
 <http://aksw.org/SebastianTramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/SebastianTramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -159,6 +156,16 @@
 <https://appplant.de/de/home/> <http://www.w3.org/2000/01/rdf-schema#label> "appplant"@de .
 <https://appplant.de/de/home/> <http://www.w3.org/2000/01/rdf-schema#label> "appplant"@en .
 <https://appplant.de/de/home/> <http://xmlns.com/foaf/0.1/homepage> <https://appplant.de/de/home/> .
+<https://appsfactory.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://appsfactory.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://appsfactory.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Appsfactory GmbH"@de .
+<https://appsfactory.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Appsfactory GmbH"@en .
+<https://appsfactory.de/> <http://xmlns.com/foaf/0.1/homepage> <https://appsfactory.de/> .
+<https://brox.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://brox.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://brox.de/> <http://www.w3.org/2000/01/rdf-schema#label> "brox IT-Solutions GmbH"@de .
+<https://brox.de/> <http://www.w3.org/2000/01/rdf-schema#label> "brox IT-Solutions GmbH"@en .
+<https://brox.de/> <http://xmlns.com/foaf/0.1/homepage> <https://brox.de/> .
 <https://cityscaper.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://cityscaper.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://cityscaper.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Cityscaper"@de .
@@ -200,8 +207,8 @@
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/homepage> <http://www.andreasboth.de/en> .
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/name> "Andreas Both" .
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
-<https://dataweek.de/#AngelieKraft> <http://purl.org/dc/terms/description> "Ph.D. Student, [University of Hamburg](https://www.inf.uni-hamburg.de/en/inst/ab/sems/people.html)"@de .
-<https://dataweek.de/#AngelieKraft> <http://purl.org/dc/terms/description> "Ph.D. Student, [University of Hamburg](https://www.inf.uni-hamburg.de/en/inst/ab/sems/people.html)"@en .
+<https://dataweek.de/#AngelieKraft> <http://purl.org/dc/terms/description> "Ph.D. Student"@de .
+<https://dataweek.de/#AngelieKraft> <http://purl.org/dc/terms/description> "Ph.D. Student"@en .
 <https://dataweek.de/#AngelieKraft> <http://schema.org/affiliation> <https://www.uni-hamburg.de> .
 <https://dataweek.de/#AngelieKraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AngelieKraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -213,8 +220,8 @@
 <https://dataweek.de/#ArminGeisler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ArminGeisler> <http://xmlns.com/foaf/0.1/homepage> <https://de.linkedin.com/in/arminkr> .
 <https://dataweek.de/#ArminGeisler> <http://xmlns.com/foaf/0.1/name> "Armin Geisler" .
-<https://dataweek.de/#AtriDutta> <http://purl.org/dc/terms/description> "Associate Professor of Space Dynamics at the [Department of Aerospace Engineering](https://www.wichita.edu/academics/engineering/aerospace/), [Wichita State University (WSU)](https://www.wichita.edu/thisis/)"@de .
-<https://dataweek.de/#AtriDutta> <http://purl.org/dc/terms/description> "Associate Professor of Space Dynamics at the [Department of Aerospace Engineering](https://www.wichita.edu/academics/engineering/aerospace/), [Wichita State University (WSU)](https://www.wichita.edu/thisis/)"@en .
+<https://dataweek.de/#AtriDutta> <http://purl.org/dc/terms/description> "Associate Professor of Space Dynamics at the [Department of Aerospace Engineering](https://www.wichita.edu/academics/engineering/aerospace/)"@de .
+<https://dataweek.de/#AtriDutta> <http://purl.org/dc/terms/description> "Associate Professor of Space Dynamics at the [Department of Aerospace Engineering](https://www.wichita.edu/academics/engineering/aerospace/)"@en .
 <https://dataweek.de/#AtriDutta> <http://schema.org/affiliation> <https://www.wichita.edu> .
 <https://dataweek.de/#AtriDutta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AtriDutta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -385,15 +392,15 @@
 <https://dataweek.de/#MathiasBoedecker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MathiasBoedecker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MathiasBoedecker> <http://xmlns.com/foaf/0.1/name> "Mathias Bödecker" .
-<https://dataweek.de/#MatthiasJurisch> <http://purl.org/dc/terms/description> "BROX IT-Solutions"@de .
-<https://dataweek.de/#MatthiasJurisch> <http://purl.org/dc/terms/description> "BROX IT-Solutions"@en .
+<https://dataweek.de/#MatthiasJurisch> <http://purl.org/dc/terms/description> "Manager Information Management Unit"@de .
+<https://dataweek.de/#MatthiasJurisch> <http://purl.org/dc/terms/description> "Manager Information Management Unit"@en .
+<https://dataweek.de/#MatthiasJurisch> <http://schema.org/affiliation> <https://brox.de/> .
 <https://dataweek.de/#MatthiasJurisch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MatthiasJurisch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MatthiasJurisch> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Matthias Jurisch" .
 <https://dataweek.de/#MatthiasJurisch> <http://xmlns.com/foaf/0.1/name> "Matthias Jurisch" .
 <https://dataweek.de/#MatthiasJurisch> <http://xmlns.com/foaf/0.1/title> "Dr." .
-<https://dataweek.de/#MatthiasKindermann> <http://purl.org/dc/terms/description> "DATEV eG"@de .
-<https://dataweek.de/#MatthiasKindermann> <http://purl.org/dc/terms/description> "DATEV eG"@en .
+<https://dataweek.de/#MatthiasKindermann> <http://schema.org/affiliation> <https://www.datev.de/> .
 <https://dataweek.de/#MatthiasKindermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MatthiasKindermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MatthiasKindermann> <http://xmlns.com/foaf/0.1/homepage> <https://www.oop-konferenz.de/oop-2022/programm/speaker/sprecherdetails/matthias-kindermann-11662> .
@@ -405,8 +412,9 @@
 <https://dataweek.de/#MaximilianBarth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MaximilianBarth> <http://xmlns.com/foaf/0.1/name> "Maximilian Barth" .
 <https://dataweek.de/#MaximilianBarth> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Maximilian Barth ist zuständig für die Bereiche strategische Partnerschaften und Business Development bei Stackfuel, sowie als Netzwerkmanager für das Förderprojekt des BMBF „Toolbox Datenkompetenz“ tätig. Nach dem International Business Studium an der Maastricht University, mit den Schwerpunkten Strategie und Finanzen, startete er seine Karriere als Business Development Manager bei einem Digital Health Start-up in Berlin. Anfang 2022 startete Maximilian Barth bei Stackfuel, mit der Überzeugung das ein flächendeckender und effektiver Umgang mit Daten für die Zukunft essenziell ist"@de .
-<https://dataweek.de/#MaximilianPensel> <http://purl.org/dc/terms/description> "Data Scientist at [Alexander Thamm GmbH](www.alexanderthamm.com)"@en .
-<https://dataweek.de/#MaximilianPensel> <http://purl.org/dc/terms/description> "Data Scientist bei [Alexander Thamm GmbH](www.alexanderthamm.com)"@de .
+<https://dataweek.de/#MaximilianPensel> <http://purl.org/dc/terms/description> "Data Scientist"@de .
+<https://dataweek.de/#MaximilianPensel> <http://purl.org/dc/terms/description> "Data Scientist"@en .
+<https://dataweek.de/#MaximilianPensel> <http://schema.org/affiliation> <https://www.alexanderthamm.com/> .
 <https://dataweek.de/#MaximilianPensel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MaximilianPensel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MaximilianPensel> <http://xmlns.com/foaf/0.1/homepage> <https://de.linkedin.com/in/maximilian-pensel-052890204> .
@@ -455,8 +463,9 @@
 <https://dataweek.de/#NadjaRiedel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#NadjaRiedel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#NadjaRiedel> <http://xmlns.com/foaf/0.1/name> "Nadja Riedel" .
-<https://dataweek.de/#NievesSande> <http://purl.org/dc/terms/description> "[eccenca GmbH](https://www.eccenca.com/)"@de .
-<https://dataweek.de/#NievesSande> <http://purl.org/dc/terms/description> "[eccenca GmbH](https://www.eccenca.com/)"@en .
+<https://dataweek.de/#NievesSande> <http://purl.org/dc/terms/description> "Research and Event Manager"@de .
+<https://dataweek.de/#NievesSande> <http://purl.org/dc/terms/description> "Research and Event Manager"@en .
+<https://dataweek.de/#NievesSande> <http://schema.org/affiliation> <https://www.eccenca.com/> .
 <https://dataweek.de/#NievesSande> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#NievesSande> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#NievesSande> <http://xmlns.com/foaf/0.1/name> "Nieves Sande" .
@@ -494,8 +503,7 @@
 <https://dataweek.de/#SaideshwarKota> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SaideshwarKota> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SaideshwarKota> <http://xmlns.com/foaf/0.1/name> "Saideshwar Kota" .
-<https://dataweek.de/#SakyiMannah> <http://purl.org/dc/terms/description> "Selbstregulierung Informationswirtschaft e.V. SRIW"@de .
-<https://dataweek.de/#SakyiMannah> <http://purl.org/dc/terms/description> "Self-regulation Information Industry e.V. SRIW"@en .
+<https://dataweek.de/#SakyiMannah> <http://schema.org/affiliation> <https://sriw.de/> .
 <https://dataweek.de/#SakyiMannah> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SakyiMannah> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SakyiMannah> <http://xmlns.com/foaf/0.1/name> "Sakyi Mannah" .
@@ -516,16 +524,16 @@
 <https://dataweek.de/#SebastianGraetz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SebastianGraetz> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/sebastian-graetz-leipzig/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> .
 <https://dataweek.de/#SebastianGraetz> <http://xmlns.com/foaf/0.1/name> "Sebastian Graetz" .
-<https://dataweek.de/#SebastianLehmann> <http://purl.org/dc/terms/description> "Senior AI Engineer [Appsfactory GmbH](https://appsfactory.de/en/)"@de .
-<https://dataweek.de/#SebastianLehmann> <http://purl.org/dc/terms/description> "Senior AI Engineer [Appsfactory GmbH](https://appsfactory.de/en/)"@en .
+<https://dataweek.de/#SebastianLehmann> <http://purl.org/dc/terms/description> "Senior AI Engineer"@de .
+<https://dataweek.de/#SebastianLehmann> <http://purl.org/dc/terms/description> "Senior AI Engineer"@en .
+<https://dataweek.de/#SebastianLehmann> <http://schema.org/affiliation> <https://appsfactory.de/> .
 <https://dataweek.de/#SebastianLehmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SebastianLehmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SebastianLehmann> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Sebastian Lehmann" .
 <https://dataweek.de/#SebastianLehmann> <http://xmlns.com/foaf/0.1/homepage> <https://www.xing.com/profile/Sebastian_Lehmann100> .
 <https://dataweek.de/#SebastianLehmann> <http://xmlns.com/foaf/0.1/name> "Sebastian Lehmann" .
 <https://dataweek.de/#SebastianLehmann> <http://xmlns.com/foaf/0.1/title> "Dr. " .
-<https://dataweek.de/#SelinaMudrack> <http://purl.org/dc/terms/description> "SRIW Berlin "@de .
-<https://dataweek.de/#SelinaMudrack> <http://purl.org/dc/terms/description> "SRIW Berlin "@en .
+<https://dataweek.de/#SelinaMudrack> <http://schema.org/affiliation> <https://sriw.de/> .
 <https://dataweek.de/#SelinaMudrack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SelinaMudrack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SelinaMudrack> <http://xmlns.com/foaf/0.1/name> "Selina Mudrack" .
@@ -563,9 +571,7 @@
 <https://dataweek.de/#SophiaKuhl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SophiaKuhl> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/sophia-kuhl-30567b42/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> .
 <https://dataweek.de/#SophiaKuhl> <http://xmlns.com/foaf/0.1/name> "Sophia Kuhl" .
-<https://dataweek.de/#StavroulaChatzipanagioti> <http://purl.org/dc/terms/description> "Selbstregulierung Informationswirtschaft e.V. SRIW"@de .
-<https://dataweek.de/#StavroulaChatzipanagioti> <http://purl.org/dc/terms/description> "Self-regulation Information Industry e.V. SRIW"@en .
-<https://dataweek.de/#StavroulaChatzipanagioti> <http://schema.org/affiliation> <https://sriw.de/home> .
+<https://dataweek.de/#StavroulaChatzipanagioti> <http://schema.org/affiliation> <https://sriw.de/> .
 <https://dataweek.de/#StavroulaChatzipanagioti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#StavroulaChatzipanagioti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#StavroulaChatzipanagioti> <http://xmlns.com/foaf/0.1/name> "Stavroula Chatzipanagioti" .
@@ -1655,6 +1661,11 @@
 <https://siemens.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Siemens AG"@de .
 <https://siemens.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Siemens AG"@en .
 <https://siemens.com/> <http://xmlns.com/foaf/0.1/homepage> <https://siemens.com/> .
+<https://sriw.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://sriw.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://sriw.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Selbstregulierung Informationswirtschaft e.V. (SRIW)\n"@de .
+<https://sriw.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Self-regulation Information Industry e.V. (SRIW)"@en .
+<https://sriw.de/> <http://xmlns.com/foaf/0.1/homepage> <https://sriw.de/> .
 <https://stackfuel.com/de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://stackfuel.com/de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://stackfuel.com/de/> <http://www.w3.org/2000/01/rdf-schema#label> "StackFuel"@de .
@@ -1665,6 +1676,11 @@
 <https://tu-dresden.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Universität Dresden"@de .
 <https://tu-dresden.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Universität Dresden"@en .
 <https://tu-dresden.de/> <http://xmlns.com/foaf/0.1/homepage> <https://tu-dresden.de/> .
+<https://www.alexanderthamm.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.alexanderthamm.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.alexanderthamm.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Alexander Thamm GmbH"@de .
+<https://www.alexanderthamm.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Alexander Thamm GmbH"@en .
+<https://www.alexanderthamm.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.alexanderthamm.com/> .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/personen/p/simon-maris/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
@@ -1676,6 +1692,11 @@
 <https://www.ciss.de> <http://www.w3.org/2000/01/rdf-schema#label> "CISS TDI GmbH"@de .
 <https://www.ciss.de> <http://www.w3.org/2000/01/rdf-schema#label> "CISS TDI GmbH"@en .
 <https://www.ciss.de> <http://xmlns.com/foaf/0.1/homepage> <https://www.ciss.de> .
+<https://www.datev.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.datev.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.datev.de/> <http://www.w3.org/2000/01/rdf-schema#label> "DATEV eG"@de .
+<https://www.datev.de/> <http://www.w3.org/2000/01/rdf-schema#label> "DATEV eG"@en .
+<https://www.datev.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.datev.de/> .
 <https://www.eccenca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.eccenca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.eccenca.com/> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH"@de .
