@@ -959,6 +959,192 @@
 <https://dataweek.de/d2r2-22/#cfp> <http://purl.org/dc/terms/hasFormat> <https://dataweek.de/d2r2-22/cfp.pdf> .
 <https://dataweek.de/d2r2-22/#cfp> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Participation"@de .
 <https://dataweek.de/d2r2-22/#cfp> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Participation"@en .
+<https://dataweek.de/d2r2-22/#programm-session-12> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-32> .
+<https://dataweek.de/d2r2-22/#programm-session-16> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-31> .
+<https://dataweek.de/d2r2-22/#programm-session-1> <http://purl.org/dc/terms/title> "Session I"@de .
+<https://dataweek.de/d2r2-22/#programm-session-1> <http://purl.org/dc/terms/title> "Session I"@en .
+<https://dataweek.de/d2r2-22/#programm-session-1> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-session-1> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
+<https://dataweek.de/d2r2-22/#programm-session-1> <http://schema.org/performer> <http://aksw.org/SebastianTramp> .
+<https://dataweek.de/d2r2-22/#programm-session-1> <http://schema.org/startTime> "09:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-session-1> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-3> .
+<https://dataweek.de/d2r2-22/#programm-session-1> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-4> .
+<https://dataweek.de/d2r2-22/#programm-session-1> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-5> .
+<https://dataweek.de/d2r2-22/#programm-session-1> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-6> .
+<https://dataweek.de/d2r2-22/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-session-2> <http://purl.org/dc/terms/title> "Session II"@de .
+<https://dataweek.de/d2r2-22/#programm-session-2> <http://purl.org/dc/terms/title> "Session II"@en .
+<https://dataweek.de/d2r2-22/#programm-session-2> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-session-2> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
+<https://dataweek.de/d2r2-22/#programm-session-2> <http://schema.org/performer> <http://aksw.org/SabineGruenderFahrer> .
+<https://dataweek.de/d2r2-22/#programm-session-2> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-session-2> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-10> .
+<https://dataweek.de/d2r2-22/#programm-session-2> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-11> .
+<https://dataweek.de/d2r2-22/#programm-session-2> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-12> .
+<https://dataweek.de/d2r2-22/#programm-session-2> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-9> .
+<https://dataweek.de/d2r2-22/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-session-3> <http://purl.org/dc/terms/title> "Session III"@de .
+<https://dataweek.de/d2r2-22/#programm-session-3> <http://purl.org/dc/terms/title> "Session III"@en .
+<https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
+<https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
+<https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/startTime> "12:50:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-15> .
+<https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-16> .
+<https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-17> .
+<https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-18> .
+<https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-19> .
+<https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-20> .
+<https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-21> .
+<https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-22> .
+<https://dataweek.de/d2r2-22/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-10> <http://purl.org/dc/terms/title> "Der Krisenbegriff und dessen Implikation für Entwicklung von intelligenten Werkzeugen zur Krisenprävention und zum Krisenmanagement"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-10> <http://purl.org/dc/terms/title> "Der Krisenbegriff und dessen Implikation für Entwicklung von intelligenten Werkzeugen zur Krisenprävention und zum Krisenmanagement"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-10> <http://schema.org/endTime> "11:35:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-10> <http://schema.org/performer> <https://dataweek.de/#StavroulaChatzipanagioti> .
+<https://dataweek.de/d2r2-22/#programm-talk-10> <http://schema.org/startTime> "11:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-11> <http://purl.org/dc/terms/title> "A lightweight citizens information portal for extreme weather events"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-11> <http://purl.org/dc/terms/title> "A lightweight citizens information portal for extreme weather events"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-11> <http://schema.org/endTime> "11:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-11> <http://schema.org/performer> <https://dataweek.de/#RichardFigura> .
+<https://dataweek.de/d2r2-22/#programm-talk-11> <http://schema.org/startTime> "11:35:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-12> <http://purl.org/dc/terms/title> "FAIR – A project to make weather information more usable"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-12> <http://purl.org/dc/terms/title> "FAIR – A project to make weather information more usable"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-12> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-12> <http://schema.org/performer> <https://dataweek.de/#RichardFigura> .
+<https://dataweek.de/d2r2-22/#programm-talk-12> <http://schema.org/startTime> "11:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-13> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
+<https://dataweek.de/d2r2-22/#programm-talk-13> <http://purl.org/dc/terms/title> "Lunch Break"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-13> <http://purl.org/dc/terms/title> "Mittagessen"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-13> <http://schema.org/endTime> "12:50:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-13> <http://schema.org/location> <https://dataweek.de/#Wandelhalle> .
+<https://dataweek.de/d2r2-22/#programm-talk-13> <http://schema.org/startTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-15> <http://purl.org/dc/terms/title> "Collaborative and cross-stakeholder ontology engineering"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-15> <http://purl.org/dc/terms/title> "Collaborative and cross-stakeholder ontology engineering"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-15> <http://schema.org/endTime> "13:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-15> <http://schema.org/performer> <https://dataweek.de/#FawadKhan> .
+<https://dataweek.de/d2r2-22/#programm-talk-15> <http://schema.org/startTime> "12:50:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
+<https://dataweek.de/d2r2-22/#programm-talk-16> <http://purl.org/dc/terms/title> "Früherkennung möglicher Versorgungsstörungen durch die Analyse tiefer Lieferketten (Deep Supply Chains)"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-16> <http://purl.org/dc/terms/title> "Früherkennung möglicher Versorgungsstörungen durch die Analyse tiefer Lieferketten (Deep Supply Chains)"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-16> <http://schema.org/endTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-16> <http://schema.org/startTime> "13:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
+<https://dataweek.de/d2r2-22/#programm-talk-17> <http://purl.org/dc/terms/title> "Resilienzfaktoren von Wertschöpfungsketten in der Agrar- und Ernährungsbranche am Beispiel der Pflanzenölproduktion"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-17> <http://purl.org/dc/terms/title> "Resilienzfaktoren von Wertschöpfungsketten in der Agrar- und Ernährungsbranche am Beispiel der Pflanzenölproduktion"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-17> <http://schema.org/endTime> "13:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-17> <http://schema.org/performer> <https://dataweek.de/#JohannLoempcke> .
+<https://dataweek.de/d2r2-22/#programm-talk-17> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-18> <http://purl.org/dc/terms/title> "Multispectral Deep Learning Models for Wildfire Detection"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-18> <http://purl.org/dc/terms/title> "Multispectral Deep Learning Models for Wildfire Detection"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-18> <http://schema.org/endTime> "13:55:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-18> <http://schema.org/performer> <https://dataweek.de/#SmithaHaridasan> .
+<https://dataweek.de/d2r2-22/#programm-talk-18> <http://schema.org/startTime> "13:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-19> <http://purl.org/dc/terms/title> "Multimodal Combination of Text and Image Tweets for Disaster Response Assessment"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-19> <http://purl.org/dc/terms/title> "Multimodal Combination of Text and Image Tweets for Disaster Response Assessment"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-19> <http://schema.org/endTime> "14:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-19> <http://schema.org/performer> <https://dataweek.de/#SaideshwarKota> .
+<https://dataweek.de/d2r2-22/#programm-talk-19> <http://schema.org/startTime> "13:55:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-1> <http://purl.org/dc/terms/description> "Begrüßung und Organisatorisches"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-1> <http://purl.org/dc/terms/description> "Opening and Organization"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-1> <http://purl.org/dc/terms/title> "Begrüßung"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-1> <http://purl.org/dc/terms/title> "Welcome"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-1> <http://schema.org/endTime> "09:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-1> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
+<https://dataweek.de/d2r2-22/#programm-talk-1> <http://schema.org/performer> <http://aksw.org/SebastianTramp> .
+<https://dataweek.de/d2r2-22/#programm-talk-1> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-20> <http://purl.org/dc/terms/title> "Semantic-Aware Fingerprints in RDF Metadata and Resilience Research"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-20> <http://purl.org/dc/terms/title> "Semantic-Aware Fingerprints in RDF Metadata and Resilience Research"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-20> <http://schema.org/endTime> "14:25:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-20> <http://schema.org/performer> <https://dataweek.de/#HansGertGraebe> .
+<https://dataweek.de/d2r2-22/#programm-talk-20> <http://schema.org/startTime> "14:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-21> <http://purl.org/dc/terms/title> "Challenges for Achieving Supply Chain Resilience and Transparency within CoyPu"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-21> <http://purl.org/dc/terms/title> "Challenges for Achieving Supply Chain Resilience and Transparency within CoyPu"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-21> <http://schema.org/endTime> "14:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-21> <http://schema.org/performer> <https://dataweek.de/#AgnesMasipGomez> .
+<https://dataweek.de/d2r2-22/#programm-talk-21> <http://schema.org/startTime> "14:25:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-22> <http://purl.org/dc/terms/title> "Challenges in the Creation and Uptake of Ontologies"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-22> <http://purl.org/dc/terms/title> "Challenges in the Creation and Uptake of Ontologies"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-22> <http://schema.org/endTime> "14:55:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-22> <http://schema.org/performer> <https://dataweek.de/#FelixEngel> .
+<https://dataweek.de/d2r2-22/#programm-talk-22> <http://schema.org/startTime> "14:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-23> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
+<https://dataweek.de/d2r2-22/#programm-talk-23> <http://purl.org/dc/terms/title> "Coffee Break"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-23> <http://purl.org/dc/terms/title> "Kaffee Pause"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-23> <http://schema.org/endTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-23> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
+<https://dataweek.de/d2r2-22/#programm-talk-23> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-24> <http://purl.org/dc/terms/title> "Abschluss"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-24> <http://purl.org/dc/terms/title> "Closing"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-24> <http://schema.org/endTime> "16:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-24> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-25> <http://purl.org/dc/terms/description> "Demo session with posters and demonstrators @ [ScaDS.AI Living Lab](https://scads.ai/living-lab-en/)\nTopic: Security/Privacy"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-25> <http://purl.org/dc/terms/description> "Demosession mit Plakaten und Demonstratoren im [ScaDS.AI Living Lab](https://scads.ai/living-lab-en/)\nTopic: Security/Privacy"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-25> <http://purl.org/dc/terms/title> "ScaDs.AI Living Lab Tour"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-25> <http://purl.org/dc/terms/title> "ScaDs.AI Living Lab Tour"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-25> <http://schema.org/endTime> "17:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-25> <http://schema.org/startTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-31> <http://purl.org/dc/terms/title> "paper"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-32> <http://purl.org/dc/terms/title> "20 min slots"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-3> <http://purl.org/dc/terms/title> "The Ethical Risks of Analyzing Crisis Events on Social Media with Machine Learning"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-3> <http://purl.org/dc/terms/title> "The Ethical Risks of Analyzing Crisis Events on Social Media with Machine Learning"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-3> <http://schema.org/endTime> "09:35:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-3> <http://schema.org/performer> <https://dataweek.de/#AngelieKraft> .
+<https://dataweek.de/d2r2-22/#programm-talk-3> <http://schema.org/startTime> "09:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
+<https://dataweek.de/d2r2-22/#programm-talk-4> <http://purl.org/dc/terms/title> "Overview of Data-Driven Hazard-Detection Technology Research at WSU’s Disaster Resilience Analytics Center for Enhancing Community Resilience"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-4> <http://purl.org/dc/terms/title> "Overview of Data-Driven Hazard-Detection Technology Research at WSU’s Disaster Resilience Analytics Center for Enhancing Community Resilience"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-4> <http://schema.org/endTime> "09:55:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-4> <http://schema.org/performer> <https://dataweek.de/#AtriDutta> .
+<https://dataweek.de/d2r2-22/#programm-talk-4> <http://schema.org/startTime> "09:35:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
+<https://dataweek.de/d2r2-22/#programm-talk-5> <http://purl.org/dc/terms/title> "The Coypu Platform Data Integration Workflow"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-5> <http://purl.org/dc/terms/title> "The Coypu Platform Data Integration Workflow"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-5> <http://schema.org/endTime> "10:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-5> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
+<https://dataweek.de/d2r2-22/#programm-talk-5> <http://schema.org/startTime> "09:55:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-6> <http://purl.org/dc/terms/title> "Semantification of Geospatial Information for Enriched Knowledge Representation in Context of Crisis Informatics"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-6> <http://purl.org/dc/terms/title> "Semantification of Geospatial Information for Enriched Knowledge Representation in Context of Crisis Informatics"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-6> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-6> <http://schema.org/performer> <http://aksw.org/ClausStadler> .
+<https://dataweek.de/d2r2-22/#programm-talk-6> <http://schema.org/startTime> "10:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
+<https://dataweek.de/d2r2-22/#programm-talk-7> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
+<https://dataweek.de/d2r2-22/#programm-talk-7> <http://purl.org/dc/terms/title> "Coffee Break "@en .
+<https://dataweek.de/d2r2-22/#programm-talk-7> <http://purl.org/dc/terms/title> "Kaffee Pause"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-7> <http://schema.org/endTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-7> <http://schema.org/location> <https://dataweek.de/#Wandelhalle> .
+<https://dataweek.de/d2r2-22/#programm-talk-7> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-9> <http://purl.org/dc/terms/title> "Assessing Anonymized System Logs Usefulness for Behavioral Analysis in RNN Models"@de .
+<https://dataweek.de/d2r2-22/#programm-talk-9> <http://purl.org/dc/terms/title> "Assessing Anonymized System Logs Usefulness for Behavioral Analysis in RNN Models"@en .
+<https://dataweek.de/d2r2-22/#programm-talk-9> <http://schema.org/endTime> "11:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-9> <http://schema.org/performer> <https://dataweek.de/#TomRichardVargis> .
+<https://dataweek.de/d2r2-22/#programm-talk-9> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-talk-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-talk-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://dataweek.de/d2r2-22/> <http://purl.org/dc/terms/description> "\nIn the face of continuously changing contextual conditions and ubiquitous disruptive crisis events, the concept of resilience refers to some of the most urgent, challenging, and interesting issues of nowadays society.\nEconomic value networks, technical infrastructures, health systems, and social textures alike need to unfold capacities to withstand, adapt, recover or even refine and transform themselves to stay ahead of changes.\n\nThe D2R2\u201922 workshop, which is organized by the CoyPu project (https://coypu.org/), will provide an open forum to exchange current issues, ideas, and trends in the area of Data-driven Resilience Research among scientists, software engineers, resilience practitioners, and domain experts.\nOngoing technological developments, current research approaches as well as use case scenarios, and field reports will be presented and discussed with a broad and multi-disciplinary specialist audience.\nWe invite contributions of novel results and ongoing work as well as position papers focusing on various aspects of Data-driven Resilience Research from a scientific or practical perspective.\n"@de .
 <https://dataweek.de/d2r2-22/> <http://purl.org/dc/terms/description> "\nIn the face of continuously changing contextual conditions and ubiquitous disruptive crisis events, the concept of resilience refers to some of the most urgent, challenging, and interesting issues of nowadays society.\nEconomic value networks, technical infrastructures, health systems, and social textures alike need to unfold capacities to withstand, adapt, recover or even refine and transform themselves to stay ahead of changes.\n\nThe D2R2\u201922 workshop, which is organized by the CoyPu project (https://coypu.org/), will provide an open forum to exchange current issues, ideas, and trends in the area of Data-driven Resilience Research among scientists, software engineers, resilience practitioners, and domain experts.\nOngoing technological developments, current research approaches as well as use case scenarios, and field reports will be presented and discussed with a broad and multi-disciplinary specialist audience.\nWe invite contributions of novel results and ongoing work as well as position papers focusing on various aspects of Data-driven Resilience Research from a scientific or practical perspective.\n"@en .
 <https://dataweek.de/d2r2-22/> <http://schema.org/abstract> "\nThe D2R2\u201922 workshop, which is organized by the CoyPu project (https://coypu.org/), will provide an open forum to exchange current issues, ideas, and trends in the area of Data-driven Resilience Research among scientists, software engineers, resilience practitioners, and domain experts.\nOngoing technological developments, current research approaches as well as use case scenarios, and field reports will be presented and discussed with a broad and multi-disciplinary specialist audience.\nWe invite contributions of novel results and ongoing work as well as position papers focusing on various aspects of Data-driven Resilience Research from a scientific or practical perspective."@de .
@@ -966,6 +1152,15 @@
 <https://dataweek.de/d2r2-22/> <http://schema.org/date> "2022-07-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://dataweek.de/d2r2-22/> <http://schema.org/logo> <https://dataweek.de/d2r2-22/logo.png> .
 <https://dataweek.de/d2r2-22/> <http://schema.org/organizer> <https://dataweek.de/d2r2-22/#Team> .
+<https://dataweek.de/d2r2-22/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-session-1> .
+<https://dataweek.de/d2r2-22/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-session-2> .
+<https://dataweek.de/d2r2-22/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-session-3> .
+<https://dataweek.de/d2r2-22/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-13> .
+<https://dataweek.de/d2r2-22/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-1> .
+<https://dataweek.de/d2r2-22/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-23> .
+<https://dataweek.de/d2r2-22/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-24> .
+<https://dataweek.de/d2r2-22/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-25> .
+<https://dataweek.de/d2r2-22/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-7> .
 <https://dataweek.de/d2r2-22/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/d2r2-22/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://dataweek.de/d2r2-22/> <http://www.w3.org/2000/01/rdf-schema#label> "International Workshop on Data-driven Resilience Research 2022"@de .
