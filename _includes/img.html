@@ -7,20 +7,22 @@
 {%- assign class = "" -%}
 {%- endunless -%}
 {%- if resource.iri -%}
-{%- assign value = resource | rdf_property: "rdf:value" -%}
-{%- if flavor == 'contrast' -%}
-{%- assign value_flavor = resource | rdf_property: "dw:contrastFlavor" -%}
-{%- if value_flavor -%}
-{%- assign value = value_flavor -%}
-{%- endif -%}
-{%- endif -%}
-{%- if value -%}
-{%- assign src = value -%}
-{%- assign alt = resource | rdf_property: "dct:description" -%}
+  {%- assign value = resource | rdf_property: "rdf:value" -%}
+  {%- if flavor == 'contrast' -%}
+    {%- assign value_flavor = resource | rdf_property: "dw:contrastFlavor" -%}
+    {%- if value_flavor -%}
+      {%- assign value = value_flavor -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- if value -%}
+    {%- assign src = value -%}
+    {%- assign alt = resource | rdf_property: "dct:description" -%}
+  {%- else -%}
+    {%- assign src = resource.iri -%}
+  {%- endif -%}
 {%- else -%}
-{%- assign src = resource.iri -%}
-{%- endif -%}
-{%- else -%}
-{%- assign src = resource -%}
+  {%- if resource -%}
+    {%- assign src = resource -%}
+  {%- endif -%}
 {%- endif -%}
 <img src="{{ src | relativize_url }}" alt="{{ alt }}" class="{{ class }}"/>
