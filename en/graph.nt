@@ -74,6 +74,10 @@
 <https://2014.semantics.cc/> <http://www.w3.org/2000/01/rdf-schema#label> "SEMANTiCS Leipzig 2014" .
 <https://2016.semantics.cc/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2016.semantics.cc/> <http://www.w3.org/2000/01/rdf-schema#label> "SEMANTiCS Leipzig 2016" .
+<https://appplant.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://appplant.de/> <http://www.w3.org/2000/01/rdf-schema#label> "appPlant GmbH" .
+<https://appplant.de/> <http://xmlns.com/foaf/0.1/homepage> <https://appplant.de/> .
+<https://appplant.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/AppPlant.png" .
 <https://connectedurbantwins.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://connectedurbantwins.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Connected Urban Twins" .
 <https://connectedurbantwins.de/> <http://xmlns.com/foaf/0.1/homepage> <https://connectedurbantwins.de/> .
@@ -156,9 +160,10 @@
 <https://dataweek.de/#Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In cooperation with"@en .
 <https://dataweek.de/#SebastianBrandt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SebastianBrandt> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SebastianBrandt.png" .
-<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.datev.de/> .
-<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://www.eccenca.com/> .
-<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://www.vistex.com/> .
+<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://appplant.de/> .
+<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://www.datev.de/> .
+<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://www.eccenca.com/> .
+<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://www.vistex.com/> .
 <https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://dataweek.de/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://dataweek.de/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .

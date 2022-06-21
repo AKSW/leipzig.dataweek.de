@@ -107,6 +107,12 @@ schema:startDate
     a schema:Event ;
     rdfs:label "SEMANTiCS Leipzig 2016" .
 
+<https://appplant.de/>
+    a schema:Organization ;
+    rdfs:label "appPlant GmbH" ;
+    foaf:homepage <https://appplant.de/> ;
+    foaf:logo "/images/partner/AppPlant.png" .
+
 <https://connectedurbantwins.de/>
     a schema:Organization ;
     rdfs:label "Connected Urban Twins" ;
@@ -235,9 +241,10 @@ dw:SebastianBrandt
     foaf:depiction "/images/people/SebastianBrandt.png" .
 
 dw:Sponsors
-    rdf:_1 <https://www.datev.de/> ;
-    rdf:_2 <https://www.eccenca.com/> ;
-    rdf:_3 <https://www.vistex.com/> ;
+    rdf:_1 <https://appplant.de/> ;
+    rdf:_2 <https://www.datev.de/> ;
+    rdf:_3 <https://www.eccenca.com/> ;
+    rdf:_4 <https://www.vistex.com/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 

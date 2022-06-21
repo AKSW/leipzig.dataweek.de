@@ -185,6 +185,10 @@
 <https://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/homepage> <https://aksw.org/LarsPeterMeyer> .
 <https://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/name> "Lars-Peter Meyer" .
+<https://appplant.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://appplant.de/> <http://www.w3.org/2000/01/rdf-schema#label> "appPlant GmbH" .
+<https://appplant.de/> <http://xmlns.com/foaf/0.1/homepage> <https://appplant.de/> .
+<https://appplant.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/AppPlant.png" .
 <https://appplant.de/de/home/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://appplant.de/de/home/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://appplant.de/de/home/> <http://www.w3.org/2000/01/rdf-schema#label> "appplant"@de .
@@ -214,7 +218,6 @@
 <https://creativeclimatecities.org/de/> <http://www.w3.org/2000/01/rdf-schema#label> "Creative Climate Cities"@de .
 <https://creativeclimatecities.org/de/> <http://www.w3.org/2000/01/rdf-schema#label> "Creative Climate Cities"@en .
 <https://creativeclimatecities.org/de/> <http://xmlns.com/foaf/0.1/homepage> <https://creativeclimatecities.org/de/> .
-<https://danielgerber.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://dataweek.de/#AgnesMasipGomez> <http://schema.org/affiliation> <https://www.infineon.com/> .
 <https://dataweek.de/#AgnesMasipGomez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AgnesMasipGomez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -470,7 +473,7 @@
 <https://dataweek.de/#MartinMeissner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MartinMeissner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MartinMeissner> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Daniel Gerber" .
-<https://dataweek.de/#MartinMeissner> <http://xmlns.com/foaf/0.1/homepage> <https://danielgerber.eu/> .
+<https://dataweek.de/#MartinMeissner> <http://xmlns.com/foaf/0.1/homepage> <https://www.gruene-fraktion-leipzig.de/martin-mei%25C3%259Fner.html> .
 <https://dataweek.de/#MartinMeissner> <http://xmlns.com/foaf/0.1/name> "Daniel Gerber" .
 <https://dataweek.de/#MartinMeissner> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#MathiasBoedecker> <http://purl.org/dc/terms/description> "City of Leipzig/Geodata infrastructure"@en .
@@ -676,9 +679,10 @@
 <https://dataweek.de/#SophiaKuhl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SophiaKuhl> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/sophia-kuhl-30567b42/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> .
 <https://dataweek.de/#SophiaKuhl> <http://xmlns.com/foaf/0.1/name> "Sophia Kuhl" .
-<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.datev.de/> .
-<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://www.eccenca.com/> .
-<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://www.vistex.com/> .
+<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://appplant.de/> .
+<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://www.datev.de/> .
+<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://www.eccenca.com/> .
+<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://www.vistex.com/> .
 <https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://dataweek.de/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://dataweek.de/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
@@ -2000,6 +2004,7 @@
 <https://www.eccenca.com/> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH"@en .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.eccenca.com/> .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/logo> <https://dataweek.de/#LogoEccenca> .
+<https://www.gruene-fraktion-leipzig.de/martin-mei%25C3%259Fner.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.gruene-fraktion-sachsen.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.gruene-fraktion-sachsen.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.gruene-fraktion-sachsen.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Green faction saxony"@en .
