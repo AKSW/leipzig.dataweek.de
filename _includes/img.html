@@ -21,6 +21,8 @@
 {%- assign src = resource.iri -%}
 {%- endif -%}
 {%- else -%}
+{%- if resource -%}
 {%- assign src = resource -%}
+{%- endif -%}
 {%- endif -%}
 <img src="{{ src | relativize_url }}" alt="{{ alt }}" class="{{ class }}"/>
