@@ -490,10 +490,12 @@
 <https://dataweek.de/#MatthiasJurisch> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Matthias Jurisch" .
 <https://dataweek.de/#MatthiasJurisch> <http://xmlns.com/foaf/0.1/name> "Matthias Jurisch" .
 <https://dataweek.de/#MatthiasJurisch> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#MatthiasKindermann> <http://purl.org/dc/terms/description> "Business- & Technische Architektur"@de .
+<https://dataweek.de/#MatthiasKindermann> <http://purl.org/dc/terms/description> "Business- & Technische Architektur"@en .
 <https://dataweek.de/#MatthiasKindermann> <http://schema.org/affiliation> <https://www.datev.de/> .
 <https://dataweek.de/#MatthiasKindermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MatthiasKindermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#MatthiasKindermann> <http://xmlns.com/foaf/0.1/homepage> <https://www.oop-konferenz.de/oop-2022/programm/speaker/sprecherdetails/matthias-kindermann-11662> .
+<https://dataweek.de/#MatthiasKindermann> <http://xmlns.com/foaf/0.1/homepage> <https://twitter.com/mxkindermann> .
 <https://dataweek.de/#MatthiasKindermann> <http://xmlns.com/foaf/0.1/name> "Matthias Kindermann" .
 <https://dataweek.de/#MaximilianBarth> <http://purl.org/dc/terms/description> "Business Development & Strategic Partnerships Manager"@en .
 <https://dataweek.de/#MaximilianBarth> <http://purl.org/dc/terms/description> "Manager für Geschäftsentwicklung und strategische Partnerschaften"@de .
@@ -1571,8 +1573,10 @@
 <https://dataweek.de/lswt2022/#programm-talk-7> <http://schema.org/location> <https://dataweek.de/#Wandelhalle> .
 <https://dataweek.de/lswt2022/#programm-talk-7> <http://schema.org/startTime> "10:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/lswt2022/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/lswt2022/#programm-talk-9> <http://purl.org/dc/terms/title> "Datensouveränität – Quo vadis?"@de .
-<https://dataweek.de/lswt2022/#programm-talk-9> <http://purl.org/dc/terms/title> "Datensouveränität – Quo vadis?"@en .
+<https://dataweek.de/lswt2022/#programm-talk-9> <http://purl.org/dc/terms/description> "Solid is a promising technology which tries to give the user back the control of its own data. There are several promising use-cases in digital ecosystems where Solid could take place. The talk provides a quick introduction to Solid and a real world use-case."@en .
+<https://dataweek.de/lswt2022/#programm-talk-9> <http://purl.org/dc/terms/description> "Solid ist eine vielversprechende Technologie, welche Datengebern die Kontrolle über die Daten zurückgeben möchte. Es gibt zahlreiche vielversprechende Use-Cases zum Einsatz von Solid in digitalen Ökosystemen. Der Vortrag gibt eine kurze Einführung in Solid und zeigt dabei auch einen Real World Use-Case."@de .
+<https://dataweek.de/lswt2022/#programm-talk-9> <http://purl.org/dc/terms/title> "Mehr Souveränität in digitalen Ökosystemen mit Solid"@de .
+<https://dataweek.de/lswt2022/#programm-talk-9> <http://purl.org/dc/terms/title> "Towards Sovereignty in Digital Ecosystems with Solid"@en .
 <https://dataweek.de/lswt2022/#programm-talk-9> <http://schema.org/performer> <https://dataweek.de/#MatthiasKindermann> .
 <https://dataweek.de/lswt2022/#programm-talk-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/lswt2022/> <http://purl.org/dc/terms/description> "Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die M\u00F6glichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen.\n  Diese Schwerpunkte werden im Rahmen von Vortr\u00E4gen durch ExpertenInnen aus Industrie und Wissenschaft demonstriert.\n Falls Sie weitere Fragen haben k\u00F6nnen Sie sich auch gerne an das Organisations-Team wenden."@de .
@@ -1968,6 +1972,7 @@
 <https://tu-dresden.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Universität Dresden"@de .
 <https://tu-dresden.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Universität Dresden"@en .
 <https://tu-dresden.de/> <http://xmlns.com/foaf/0.1/homepage> <https://tu-dresden.de/> .
+<https://twitter.com/mxkindermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.alexanderthamm.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.alexanderthamm.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.alexanderthamm.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Alexander Thamm GmbH"@de .
@@ -2068,7 +2073,6 @@
 <https://www.linkedin.com/in/thomas-grzeschik-68a5631/?locale=de_DE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/tom-potutschek-45983b148/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/ulf-middelberg-7b9b36b7/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://www.oop-konferenz.de/oop-2022/programm/speaker/sprecherdetails/matthias-kindermann-11662> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.pwc.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.pwc.de/en.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.pwc.de/en.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
