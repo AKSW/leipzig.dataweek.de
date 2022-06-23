@@ -98,16 +98,10 @@
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/name> "Roy Meissner" .
 <http://aksw.org/SabineGruenderFahrer> <http://schema.org/affiliation> <http://aksw.org/Group> .
 <http://aksw.org/SabineGruenderFahrer> <http://schema.org/affiliation> <https://infai.org/> .
-<http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
-<http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sabine Gr\u00FCnder-Fahrer" .
-<http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sabine Gründer-Fahrer" .
 <http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SabineGruenderFahrer.jpg" .
-<http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SabineGruenderFahrer> .
 <http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/name> "Dr. Sabine Gr\u00FCnder-Fahrer" .
-<http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/name> "Sabine Gründer-Fahrer" .
-<http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <http://aksw.org/SebastianHellmann> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association"@de .
 <http://aksw.org/SebastianHellmann> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association"@en .
 <http://aksw.org/SebastianHellmann> <http://schema.org/affiliation> <https://dbpedia.org/> .
@@ -160,6 +154,12 @@
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/ThomasRiechert> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/name> "Thomas Riechert" .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
+<http://dataweek-de/SabineGruenderFahrer> <http://schema.org/affiliation> <https://infai.org/> .
+<http://dataweek-de/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://dataweek-de/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://dataweek-de/SabineGruenderFahrer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sabine Gründer-Fahrer" .
+<http://dataweek-de/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/name> "Sabine Gründer-Fahrer" .
+<http://dataweek-de/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <http://schema.org/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Ort"@de .
 <http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Place"@en .
@@ -739,6 +739,13 @@
 <https://dataweek.de/#ThomasSchurig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ThomasSchurig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ThomasSchurig> <http://xmlns.com/foaf/0.1/name> "Thomas Schurig" .
+<https://dataweek.de/#TobiasGebel> <http://purl.org/dc/terms/description> "Deputy Head of Department in the Research Infrastructure Division"@en .
+<https://dataweek.de/#TobiasGebel> <http://purl.org/dc/terms/description> "Stellvertretender Abteilungsleiter in der Abteilung Forschungsinfrastruktur\n"@de .
+<https://dataweek.de/#TobiasGebel> <http://schema.org/affiliation> <https://www.diw.de/de> .
+<https://dataweek.de/#TobiasGebel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#TobiasGebel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#TobiasGebel> <http://xmlns.com/foaf/0.1/homepage> <https://www.diw.de/de/diw_01.c.611027.de/personen/gebel__tobias.html> .
+<https://dataweek.de/#TobiasGebel> <http://xmlns.com/foaf/0.1/name> "Tobias Gebel" .
 <https://dataweek.de/#Tom%20Potutschek> <http://purl.org/dc/terms/description> "COO at Gecko Two GmbH"@en .
 <https://dataweek.de/#Tom%20Potutschek> <http://purl.org/dc/terms/description> "COO bei Gecko Two GmbH"@de .
 <https://dataweek.de/#Tom%20Potutschek> <http://schema.org/affiliation> <https://gecko-two.de/> .
@@ -1024,7 +1031,8 @@
 <https://dataweek.de/d2r2-22/#programm-talk-10> <http://purl.org/dc/terms/title> "Der Krisenbegriff und dessen Implikation für Entwicklung von intelligenten Werkzeugen zur Krisenprävention und zum Krisenmanagement"@de .
 <https://dataweek.de/d2r2-22/#programm-talk-10> <http://purl.org/dc/terms/title> "Der Krisenbegriff und dessen Implikation für Entwicklung von intelligenten Werkzeugen zur Krisenprävention und zum Krisenmanagement"@en .
 <https://dataweek.de/d2r2-22/#programm-talk-10> <http://schema.org/endTime> "11:35:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://dataweek.de/d2r2-22/#programm-talk-10> <http://schema.org/performer> <https://dataweek.de/#StavroulaChatzipanagioti> .
+<https://dataweek.de/d2r2-22/#programm-talk-10> <http://schema.org/performer> <https://dataweek.de/#SelinaMudrack> .
+<https://dataweek.de/d2r2-22/#programm-talk-10> <http://schema.org/performer> <https://dataweek.de/#TobiasGebel> .
 <https://dataweek.de/d2r2-22/#programm-talk-10> <http://schema.org/startTime> "11:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/d2r2-22/#programm-talk-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/d2r2-22/#programm-talk-11> <http://purl.org/dc/terms/title> "A lightweight citizens information portal for extreme weather events"@de .
@@ -1696,26 +1704,26 @@
 <https://dataweek.de/openingday/#programm-session-6> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-26> .
 <https://dataweek.de/openingday/#programm-session-6> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-27> .
 <https://dataweek.de/openingday/#programm-session-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/openingday/#programm-talk-10> <http://purl.org/dc/terms/title> "TBA"@en .
-<https://dataweek.de/openingday/#programm-talk-10> <http://purl.org/dc/terms/title> "Titel TBA"@de .
+<https://dataweek.de/openingday/#programm-talk-10> <http://purl.org/dc/terms/title> "Das Open-Data-Portal der Stadt Leipzig: Status Quo & Quo Vadis"@de .
+<https://dataweek.de/openingday/#programm-talk-10> <http://purl.org/dc/terms/title> "The Open Data Portal of the City of Leipzig: Status Quo & Quo Vadis"@en .
 <https://dataweek.de/openingday/#programm-talk-10> <http://schema.org/endTime> "11:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-10> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
 <https://dataweek.de/openingday/#programm-talk-10> <http://schema.org/performer> <https://dataweek.de/#LisaWenige> .
 <https://dataweek.de/openingday/#programm-talk-10> <http://schema.org/startTime> "11:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/openingday/#programm-talk-11> <http://purl.org/dc/terms/title> "CityScaper"@de .
-<https://dataweek.de/openingday/#programm-talk-11> <http://purl.org/dc/terms/title> "CityScaper"@en .
+<https://dataweek.de/openingday/#programm-talk-11> <http://purl.org/dc/terms/title> "Presentation of the city district budget"@en .
+<https://dataweek.de/openingday/#programm-talk-11> <http://purl.org/dc/terms/title> "Vorstellung des Stadtbezirksbudgets"@de .
 <https://dataweek.de/openingday/#programm-talk-11> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-11> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
-<https://dataweek.de/openingday/#programm-talk-11> <http://schema.org/performer> <https://dataweek.de/#RobinRoemer> .
+<https://dataweek.de/openingday/#programm-talk-11> <http://schema.org/performer> <https://dataweek.de/#ThomasSchurig> .
+<https://dataweek.de/openingday/#programm-talk-11> <http://schema.org/performer> <https://dataweek.de/#UlrikeHerold> .
 <https://dataweek.de/openingday/#programm-talk-11> <http://schema.org/startTime> "11:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/openingday/#programm-talk-12> <http://purl.org/dc/terms/title> "Open Data: Chancen und Risiken aus der rechtlichen Perspektive"@de .
-<https://dataweek.de/openingday/#programm-talk-12> <http://purl.org/dc/terms/title> "Open Data: Chancen und Risiken aus der rechtlichen Perspektive"@en .
+<https://dataweek.de/openingday/#programm-talk-12> <http://purl.org/dc/terms/title> "CityScaper"@de .
+<https://dataweek.de/openingday/#programm-talk-12> <http://purl.org/dc/terms/title> "CityScaper"@en .
 <https://dataweek.de/openingday/#programm-talk-12> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-12> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
-<https://dataweek.de/openingday/#programm-talk-12> <http://schema.org/performer> <https://dataweek.de/#SakyiMannah> .
-<https://dataweek.de/openingday/#programm-talk-12> <http://schema.org/performer> <https://dataweek.de/#StavroulaChatzipanagioti> .
+<https://dataweek.de/openingday/#programm-talk-12> <http://schema.org/performer> <https://dataweek.de/#RobinRoemer> .
 <https://dataweek.de/openingday/#programm-talk-12> <http://schema.org/startTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/openingday/#programm-talk-14> <http://purl.org/dc/terms/title> "How data literacy makes Germany a digital pioneer"@en .
@@ -1865,12 +1873,12 @@
 <https://dataweek.de/openingday/#programm-talk-7> <http://schema.org/location> <https://dataweek.de/#Wandelhalle> .
 <https://dataweek.de/openingday/#programm-talk-7> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/openingday/#programm-talk-9> <http://purl.org/dc/terms/title> "Presentation of the city district budget"@en .
-<https://dataweek.de/openingday/#programm-talk-9> <http://purl.org/dc/terms/title> "Vorstellung des Stadtbezirksbudgets"@de .
+<https://dataweek.de/openingday/#programm-talk-9> <http://purl.org/dc/terms/title> "Open Data: Chancen und Risiken aus der rechtlichen Perspektive"@de .
+<https://dataweek.de/openingday/#programm-talk-9> <http://purl.org/dc/terms/title> "Open Data: Chancen und Risiken aus der rechtlichen Perspektive"@en .
 <https://dataweek.de/openingday/#programm-talk-9> <http://schema.org/endTime> "11:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-9> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
-<https://dataweek.de/openingday/#programm-talk-9> <http://schema.org/performer> <https://dataweek.de/#ThomasSchurig> .
-<https://dataweek.de/openingday/#programm-talk-9> <http://schema.org/performer> <https://dataweek.de/#UlrikeHerold> .
+<https://dataweek.de/openingday/#programm-talk-9> <http://schema.org/performer> <https://dataweek.de/#SakyiMannah> .
+<https://dataweek.de/openingday/#programm-talk-9> <http://schema.org/performer> <https://dataweek.de/#StavroulaChatzipanagioti> .
 <https://dataweek.de/openingday/#programm-talk-9> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/openingday/> <http://purl.org/dc/terms/description> "\nTo kick off Data Week Leipzig on July 4, 2022, there will be an opening speech by Sebastian Gemkow, Saxony's Minister of State for Science, as well as a welcoming address by the Institute for Applied Informatics (InfAI) e.V..\nOn this day, special focus will be placed on the encounter of industry and science representatives with municipal authorities, who will present AI projects as well as data application examples and scenarios. This is also reflected in the following program highlights.\n\nFurthermore, the panel discussion \"Leipzig 2045 - How does data support the digital urban transformation? Together with the participants of the Data Week, we will take a look into the future and imagine the city of Leipzig in the year 2045. What can we achieve using and evaluating data in just under 23 years? How does data support the digital transformation of a city? These questions will be analyzed with the guests in the panel discussion and perspectives, development trends, opportunities and also risks will be considered.\n"@en .
@@ -2018,6 +2026,10 @@
 <https://www.datev.de/> <http://www.w3.org/2000/01/rdf-schema#label> "DATEV eG"@en .
 <https://www.datev.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.datev.de/> .
 <https://www.datev.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/DATEV.svg" .
+<https://www.diw.de/de/diw_01.c.611027.de/personen/gebel__tobias.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.diw.de/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.diw.de/de> <http://www.w3.org/2000/01/rdf-schema#label> "DIW Berlin"@de .
+<https://www.diw.de/de> <http://www.w3.org/2000/01/rdf-schema#label> "DIW Berlin"@en .
 <https://www.eccenca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.eccenca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.eccenca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
