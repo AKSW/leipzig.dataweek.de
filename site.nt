@@ -98,16 +98,10 @@
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/name> "Roy Meissner" .
 <http://aksw.org/SabineGruenderFahrer> <http://schema.org/affiliation> <http://aksw.org/Group> .
 <http://aksw.org/SabineGruenderFahrer> <http://schema.org/affiliation> <https://infai.org/> .
-<http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
-<http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sabine Gr\u00FCnder-Fahrer" .
-<http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sabine Gründer-Fahrer" .
 <http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SabineGruenderFahrer.jpg" .
-<http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SabineGruenderFahrer> .
 <http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/name> "Dr. Sabine Gr\u00FCnder-Fahrer" .
-<http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/name> "Sabine Gründer-Fahrer" .
-<http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <http://aksw.org/SebastianHellmann> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association"@de .
 <http://aksw.org/SebastianHellmann> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association"@en .
 <http://aksw.org/SebastianHellmann> <http://schema.org/affiliation> <https://dbpedia.org/> .
@@ -160,6 +154,12 @@
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/ThomasRiechert> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/name> "Thomas Riechert" .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
+<http://dataweek-de/SabineGruenderFahrer> <http://schema.org/affiliation> <https://infai.org/> .
+<http://dataweek-de/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://dataweek-de/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://dataweek-de/SabineGruenderFahrer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sabine Gründer-Fahrer" .
+<http://dataweek-de/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/name> "Sabine Gründer-Fahrer" .
+<http://dataweek-de/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <http://schema.org/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Ort"@de .
 <http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Place"@en .
@@ -472,9 +472,9 @@
 <https://dataweek.de/#MartinMeissner> <http://schema.org/affiliation> <https://www.gruene-fraktion-sachsen.de/> .
 <https://dataweek.de/#MartinMeissner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MartinMeissner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#MartinMeissner> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Daniel Gerber" .
+<https://dataweek.de/#MartinMeissner> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Martin Meißner" .
 <https://dataweek.de/#MartinMeissner> <http://xmlns.com/foaf/0.1/homepage> <https://www.gruene-fraktion-leipzig.de/martin-mei%25C3%259Fner.html> .
-<https://dataweek.de/#MartinMeissner> <http://xmlns.com/foaf/0.1/name> "Daniel Gerber" .
+<https://dataweek.de/#MartinMeissner> <http://xmlns.com/foaf/0.1/name> "Martin Meißner" .
 <https://dataweek.de/#MartinMeissner> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#MathiasBoedecker> <http://purl.org/dc/terms/description> "City of Leipzig/Geodata infrastructure"@en .
 <https://dataweek.de/#MathiasBoedecker> <http://purl.org/dc/terms/description> "Stadt Leipzig/Geodateninfrastruktur"@de .
@@ -578,6 +578,12 @@
 <https://dataweek.de/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://dataweek.de/#Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In Kooperation mit"@de .
 <https://dataweek.de/#Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In cooperation with"@en .
+<https://dataweek.de/#PauloRicardoViviurkadoCarmo> <http://purl.org/dc/terms/description> "Master student"@de .
+<https://dataweek.de/#PauloRicardoViviurkadoCarmo> <http://purl.org/dc/terms/description> "Master student"@en .
+<https://dataweek.de/#PauloRicardoViviurkadoCarmo> <http://schema.org/affiliation> <https://infai.org/> .
+<https://dataweek.de/#PauloRicardoViviurkadoCarmo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#PauloRicardoViviurkadoCarmo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#PauloRicardoViviurkadoCarmo> <http://xmlns.com/foaf/0.1/name> "Paulo Ricardo Viviurka do Carmo" .
 <https://dataweek.de/#Ratsplenarsaal> <http://purl.org/dc/terms/title> "Ratsplenarsaal" .
 <https://dataweek.de/#RichardFigura> <http://purl.org/dc/terms/description> "CEO"@de .
 <https://dataweek.de/#RichardFigura> <http://purl.org/dc/terms/description> "CEO"@en .
@@ -733,6 +739,13 @@
 <https://dataweek.de/#ThomasSchurig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ThomasSchurig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ThomasSchurig> <http://xmlns.com/foaf/0.1/name> "Thomas Schurig" .
+<https://dataweek.de/#TobiasGebel> <http://purl.org/dc/terms/description> "Deputy Head of Department in the Research Infrastructure Division"@en .
+<https://dataweek.de/#TobiasGebel> <http://purl.org/dc/terms/description> "Stellvertretender Abteilungsleiter in der Abteilung Forschungsinfrastruktur\n"@de .
+<https://dataweek.de/#TobiasGebel> <http://schema.org/affiliation> <https://www.diw.de/de> .
+<https://dataweek.de/#TobiasGebel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#TobiasGebel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#TobiasGebel> <http://xmlns.com/foaf/0.1/homepage> <https://www.diw.de/de/diw_01.c.611027.de/personen/gebel__tobias.html> .
+<https://dataweek.de/#TobiasGebel> <http://xmlns.com/foaf/0.1/name> "Tobias Gebel" .
 <https://dataweek.de/#Tom%20Potutschek> <http://purl.org/dc/terms/description> "COO at Gecko Two GmbH"@en .
 <https://dataweek.de/#Tom%20Potutschek> <http://purl.org/dc/terms/description> "COO bei Gecko Two GmbH"@de .
 <https://dataweek.de/#Tom%20Potutschek> <http://schema.org/affiliation> <https://gecko-two.de/> .
@@ -858,7 +871,7 @@
 <https://dataweek.de/bdib-22/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/bdib-22/#programm-session-6> <http://purl.org/dc/terms/description> "Snowflake nutzt seine eigenen Big-Data-Technologien, um sein Serviceangebot zu optimieren. Ingenieure und Datenwissenschaftler bei Snowflake durchforsten Petabytes von Daten, um alle Produktionssysteme zu untersuchen, zu verbessern und zu überwachen. Dieser Vortrag befasst sich mit den Technologien und Vorteilen einer modernen Cloud-Datenplattform zur Durchführung von Big-Data-Operationen zur Betriebsoptimierung."@de .
 <https://dataweek.de/bdib-22/#programm-session-6> <http://purl.org/dc/terms/description> "Snowflake uses their own big data technologies to optimize their service offering. Engineers and data scientists at Snowflake crawl petabytes of data to investigate, improve, and monitor all production systems. This talk dives into technologies and advantages of a modern cloud data platform to perform big data operations to optimize operations. *German talk"@en .
-<https://dataweek.de/bdib-22/#programm-session-6> <http://purl.org/dc/terms/title> "Snowflake Eating Their Own Dog Food (ENG)"@de .
+<https://dataweek.de/bdib-22/#programm-session-6> <http://purl.org/dc/terms/title> "Snowflake Eating Their Own Dog Food "@de .
 <https://dataweek.de/bdib-22/#programm-session-6> <http://purl.org/dc/terms/title> "Snowflake Eating Their Own Dog Food (GER) "@en .
 <https://dataweek.de/bdib-22/#programm-session-6> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/bdib-22/#programm-session-6> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
@@ -1018,7 +1031,8 @@
 <https://dataweek.de/d2r2-22/#programm-talk-10> <http://purl.org/dc/terms/title> "Der Krisenbegriff und dessen Implikation für Entwicklung von intelligenten Werkzeugen zur Krisenprävention und zum Krisenmanagement"@de .
 <https://dataweek.de/d2r2-22/#programm-talk-10> <http://purl.org/dc/terms/title> "Der Krisenbegriff und dessen Implikation für Entwicklung von intelligenten Werkzeugen zur Krisenprävention und zum Krisenmanagement"@en .
 <https://dataweek.de/d2r2-22/#programm-talk-10> <http://schema.org/endTime> "11:35:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://dataweek.de/d2r2-22/#programm-talk-10> <http://schema.org/performer> <https://dataweek.de/#StavroulaChatzipanagioti> .
+<https://dataweek.de/d2r2-22/#programm-talk-10> <http://schema.org/performer> <https://dataweek.de/#SelinaMudrack> .
+<https://dataweek.de/d2r2-22/#programm-talk-10> <http://schema.org/performer> <https://dataweek.de/#TobiasGebel> .
 <https://dataweek.de/d2r2-22/#programm-talk-10> <http://schema.org/startTime> "11:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/d2r2-22/#programm-talk-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/d2r2-22/#programm-talk-11> <http://purl.org/dc/terms/title> "A lightweight citizens information portal for extreme weather events"@de .
@@ -1207,8 +1221,8 @@
 <https://dataweek.de/dbpedia-day-2022/#programm-session-3> <http://schema.org/location> <https://dataweek.de/#Ratsplenarsaal> .
 <https://dataweek.de/dbpedia-day-2022/#programm-session-3> <http://schema.org/startTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/dbpedia-day-2022/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/#programm-talk-12> .
-<https://dataweek.de/dbpedia-day-2022/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/#programm-talk-13> .
 <https://dataweek.de/dbpedia-day-2022/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/#programm-talk-14> .
+<https://dataweek.de/dbpedia-day-2022/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/#programm-talk-15> .
 <https://dataweek.de/dbpedia-day-2022/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-10> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-10> <http://purl.org/dc/terms/title> "Lunch Break"@en .
@@ -1224,57 +1238,65 @@
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-12> <http://schema.org/performer> <https://dataweek.de/#GollamRabby> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-12> <http://schema.org/startTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-13> <http://purl.org/dc/terms/title> "Representation and Reinforcement Learning on Knowledge Graphs"@de .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-13> <http://purl.org/dc/terms/title> "Representation and Reinforcement Learning on Knowledge Graphs"@en .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-13> <http://purl.org/dc/terms/title> "Distributed Approaches for Knowledge Representation and Reasoning on Geospatial Data"@de .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-13> <http://purl.org/dc/terms/title> "Distributed Approaches for Knowledge Representation and Reasoning on Geospatial Data"@en .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-13> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-13> <http://schema.org/location> <https://dataweek.de/#Ratsplenarsaal> .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-13> <http://schema.org/performer> <https://dataweek.de/#MirzaMohtashimAlam> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-13> <http://schema.org/performer> <https://dataweek.de/#MehdiAzarafza> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-13> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-14> <http://purl.org/dc/terms/title> "Distributed Approaches for Knowledge Representation and Reasoning on Geospatial Data"@de .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-14> <http://purl.org/dc/terms/title> "Distributed Approaches for Knowledge Representation and Reasoning on Geospatial Data"@en .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-14> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-14> <http://purl.org/dc/terms/title> "Representation and Reinforcement Learning on Knowledge Graphs"@de .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-14> <http://purl.org/dc/terms/title> "Representation and Reinforcement Learning on Knowledge Graphs"@en .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-14> <http://schema.org/endTime> "14:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-14> <http://schema.org/location> <https://dataweek.de/#Ratsplenarsaal> .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-14> <http://schema.org/performer> <https://dataweek.de/#MehdiAzarafza> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-14> <http://schema.org/performer> <https://dataweek.de/#MirzaMohtashimAlam> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-14> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-15> <http://purl.org/dc/terms/title> "Closing"@de .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-15> <http://purl.org/dc/terms/title> "Closing"@en .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-15> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-15> <http://purl.org/dc/terms/title> "Unsupervised Information Extraction from Academic Data Sources to Knowledge Graphs"@de .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-15> <http://purl.org/dc/terms/title> "Unsupervised Information Extraction from Academic Data Sources to Knowledge Graphs"@en .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-15> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-15> <http://schema.org/location> <https://dataweek.de/#Ratsplenarsaal> .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-15> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-15> <http://schema.org/performer> <https://dataweek.de/#PauloRicardoViviurkadoCarmo> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-15> <http://schema.org/startTime> "14:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-16> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-16> <http://purl.org/dc/terms/title> "Coffee Break & Poster Session"@en .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-16> <http://purl.org/dc/terms/title> "Kaffeepause & Poster Session"@de .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-16> <http://schema.org/endTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-16> <http://schema.org/location> <https://dataweek.de/#Wandelhalle> .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-16> <http://schema.org/performer> <http://aksw.org/MilanDojchinovski> .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-16> <http://schema.org/performer> <http://aksw.org/SebastianHellmann> .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-16> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-16> <http://purl.org/dc/terms/title> "Closing"@de .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-16> <http://purl.org/dc/terms/title> "Closing"@en .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-16> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-16> <http://schema.org/location> <https://dataweek.de/#Ratsplenarsaal> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-16> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-17> <http://purl.org/dc/terms/title> "City walking tour"@de .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-17> <http://purl.org/dc/terms/title> "City walking tour"@en .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-17> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-17> <http://schema.org/startTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-17> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-17> <http://purl.org/dc/terms/title> "Coffee Break & Poster Session"@en .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-17> <http://purl.org/dc/terms/title> "Kaffeepause & Poster Session"@de .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-17> <http://schema.org/endTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-17> <http://schema.org/location> <https://dataweek.de/#Wandelhalle> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-17> <http://schema.org/performer> <http://aksw.org/MilanDojchinovski> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-17> <http://schema.org/performer> <http://aksw.org/SebastianHellmann> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-17> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-18> <http://purl.org/dc/terms/description> "Demo session with posters and demonstrators @ [ScaDS.AI Living Lab](https://scads.ai/living-lab-en/)\nTopic: Security/Privacy"@en .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-18> <http://purl.org/dc/terms/description> "Demosession mit Plakaten und Demonstratoren im [ScaDS.AI Living Lab](https://scads.ai/living-lab-en/)\nTopic: Security/Privacy"@de .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-18> <http://purl.org/dc/terms/title> "ScaDs.AI Living Lab Tour"@de .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-18> <http://purl.org/dc/terms/title> "ScaDs.AI Living Lab Tour"@en .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-18> <http://schema.org/endTime> "17:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-18> <http://schema.org/startTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-18> <http://purl.org/dc/terms/title> "City walking tour"@de .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-18> <http://purl.org/dc/terms/title> "City walking tour"@en .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-18> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-18> <http://schema.org/startTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-19> <http://purl.org/dc/terms/title> "Informal meeting in a nearby pub"@de .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-19> <http://purl.org/dc/terms/title> "Informal meeting in a nearby pub"@en .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-19> <http://schema.org/location> <https://dataweek.de/#LivingLab> .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-19> <http://schema.org/startTime> "17:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-19> <http://purl.org/dc/terms/description> "Demo session with posters and demonstrators @ [ScaDS.AI Living Lab](https://scads.ai/living-lab-en/)\nTopic: Security/Privacy"@en .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-19> <http://purl.org/dc/terms/description> "Demosession mit Plakaten und Demonstratoren im [ScaDS.AI Living Lab](https://scads.ai/living-lab-en/)\nTopic: Security/Privacy"@de .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-19> <http://purl.org/dc/terms/title> "ScaDs.AI Living Lab Tour"@de .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-19> <http://purl.org/dc/terms/title> "ScaDs.AI Living Lab Tour"@en .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-19> <http://schema.org/endTime> "17:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-19> <http://schema.org/startTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-1> <http://purl.org/dc/terms/title> "Meet and greet"@de .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-1> <http://purl.org/dc/terms/title> "Meet and greet"@en .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-1> <http://schema.org/endTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-1> <http://schema.org/startTime> "08:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-20> <http://purl.org/dc/terms/description> "Peter Pane, Katharinenstraße 12, 04109 Leipzig"@de .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-20> <http://purl.org/dc/terms/description> "Peter Pane, Katharinenstraße 12, 04109 Leipzig"@en .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-20> <http://purl.org/dc/terms/title> "Informal meeting in a nearby pub"@de .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-20> <http://purl.org/dc/terms/title> "Informal meeting in a nearby pub"@en .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-20> <http://schema.org/location> <https://dataweek.de/#LivingLab> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-20> <http://schema.org/startTime> "17:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-2> <http://purl.org/dc/terms/title> "Opening and Invited talk"@de .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-2> <http://purl.org/dc/terms/title> "Opening and Invited talk"@en .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-2> <http://schema.org/endTime> "09:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -1326,12 +1348,13 @@
 <https://dataweek.de/dbpedia-day-2022/> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/#programm-session-2> .
 <https://dataweek.de/dbpedia-day-2022/> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/#programm-session-3> .
 <https://dataweek.de/dbpedia-day-2022/> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/#programm-talk-10> .
-<https://dataweek.de/dbpedia-day-2022/> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/#programm-talk-15> .
+<https://dataweek.de/dbpedia-day-2022/> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/#programm-talk-13> .
 <https://dataweek.de/dbpedia-day-2022/> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/#programm-talk-16> .
 <https://dataweek.de/dbpedia-day-2022/> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/#programm-talk-17> .
 <https://dataweek.de/dbpedia-day-2022/> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/#programm-talk-18> .
 <https://dataweek.de/dbpedia-day-2022/> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/#programm-talk-19> .
 <https://dataweek.de/dbpedia-day-2022/> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/#programm-talk-1> .
+<https://dataweek.de/dbpedia-day-2022/> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/#programm-talk-20> .
 <https://dataweek.de/dbpedia-day-2022/> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/#programm-talk-2> .
 <https://dataweek.de/dbpedia-day-2022/> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/#programm-talk-6> .
 <https://dataweek.de/dbpedia-day-2022/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -1462,6 +1485,8 @@
 <https://dataweek.de/lswt2022/#programm-talk-11> <http://purl.org/dc/terms/title> "ALKIS Datenbeschaffungs-API (ADA Projekt)"@en .
 <https://dataweek.de/lswt2022/#programm-talk-11> <http://schema.org/performer> <http://aksw.org/RoyMeissner> .
 <https://dataweek.de/lswt2022/#programm-talk-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/lswt2022/#programm-talk-12> <http://purl.org/dc/terms/description> "What is the Linkmaster 3000? An online tool to manage linked data spaces and make them better integrated in the global database formed by Linked Data Principles. Providers can announce their entities, thus improving visibility in a Semantic SEO manner, links and vocab mappings are managed collaboratively thus easing the effort to find, retrieve and integrate relevant data. The technology is a scale-up of DBpedia’s feature as an integration layer for Wikipedia’s language editions and as the kernel for the Linked Open Data cloud."@de .
+<https://dataweek.de/lswt2022/#programm-talk-12> <http://purl.org/dc/terms/description> "What is the Linkmaster 3000? An online tool to manage linked data spaces and make them better integrated in the global database formed by Linked Data Principles. Providers can announce their entities, thus improving visibility in a Semantic SEO manner, links and vocab mappings are managed collaboratively thus easing the effort to find, retrieve and integrate relevant data. The technology is a scale-up of DBpedia’s feature as an integration layer for Wikipedia’s language editions and as the kernel for the Linked Open Data cloud."@en .
 <https://dataweek.de/lswt2022/#programm-talk-12> <http://purl.org/dc/terms/title> "Linkmaster 3000"@de .
 <https://dataweek.de/lswt2022/#programm-talk-12> <http://purl.org/dc/terms/title> "Linkmaster 3000"@en .
 <https://dataweek.de/lswt2022/#programm-talk-12> <http://schema.org/performer> <http://aksw.org/SebastianHellmann> .
@@ -1679,26 +1704,26 @@
 <https://dataweek.de/openingday/#programm-session-6> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-26> .
 <https://dataweek.de/openingday/#programm-session-6> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-27> .
 <https://dataweek.de/openingday/#programm-session-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/openingday/#programm-talk-10> <http://purl.org/dc/terms/title> "TBA"@en .
-<https://dataweek.de/openingday/#programm-talk-10> <http://purl.org/dc/terms/title> "Titel TBA"@de .
+<https://dataweek.de/openingday/#programm-talk-10> <http://purl.org/dc/terms/title> "Das Open-Data-Portal der Stadt Leipzig: Status Quo & Quo Vadis"@de .
+<https://dataweek.de/openingday/#programm-talk-10> <http://purl.org/dc/terms/title> "The Open Data Portal of the City of Leipzig: Status Quo & Quo Vadis"@en .
 <https://dataweek.de/openingday/#programm-talk-10> <http://schema.org/endTime> "11:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-10> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
 <https://dataweek.de/openingday/#programm-talk-10> <http://schema.org/performer> <https://dataweek.de/#LisaWenige> .
 <https://dataweek.de/openingday/#programm-talk-10> <http://schema.org/startTime> "11:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/openingday/#programm-talk-11> <http://purl.org/dc/terms/title> "CityScaper"@de .
-<https://dataweek.de/openingday/#programm-talk-11> <http://purl.org/dc/terms/title> "CityScaper"@en .
+<https://dataweek.de/openingday/#programm-talk-11> <http://purl.org/dc/terms/title> "Presentation of the city district budget"@en .
+<https://dataweek.de/openingday/#programm-talk-11> <http://purl.org/dc/terms/title> "Vorstellung des Stadtbezirksbudgets"@de .
 <https://dataweek.de/openingday/#programm-talk-11> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-11> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
-<https://dataweek.de/openingday/#programm-talk-11> <http://schema.org/performer> <https://dataweek.de/#RobinRoemer> .
+<https://dataweek.de/openingday/#programm-talk-11> <http://schema.org/performer> <https://dataweek.de/#ThomasSchurig> .
+<https://dataweek.de/openingday/#programm-talk-11> <http://schema.org/performer> <https://dataweek.de/#UlrikeHerold> .
 <https://dataweek.de/openingday/#programm-talk-11> <http://schema.org/startTime> "11:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/openingday/#programm-talk-12> <http://purl.org/dc/terms/title> "Open Data: Chancen und Risiken aus der rechtlichen Perspektive"@de .
-<https://dataweek.de/openingday/#programm-talk-12> <http://purl.org/dc/terms/title> "Open Data: Chancen und Risiken aus der rechtlichen Perspektive"@en .
+<https://dataweek.de/openingday/#programm-talk-12> <http://purl.org/dc/terms/title> "CityScaper"@de .
+<https://dataweek.de/openingday/#programm-talk-12> <http://purl.org/dc/terms/title> "CityScaper"@en .
 <https://dataweek.de/openingday/#programm-talk-12> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-12> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
-<https://dataweek.de/openingday/#programm-talk-12> <http://schema.org/performer> <https://dataweek.de/#SakyiMannah> .
-<https://dataweek.de/openingday/#programm-talk-12> <http://schema.org/performer> <https://dataweek.de/#StavroulaChatzipanagioti> .
+<https://dataweek.de/openingday/#programm-talk-12> <http://schema.org/performer> <https://dataweek.de/#RobinRoemer> .
 <https://dataweek.de/openingday/#programm-talk-12> <http://schema.org/startTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/openingday/#programm-talk-14> <http://purl.org/dc/terms/title> "How data literacy makes Germany a digital pioneer"@en .
@@ -1769,12 +1794,12 @@
 <https://dataweek.de/openingday/#programm-talk-25> <http://schema.org/startTime> "15:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/openingday/#programm-talk-26> <http://purl.org/dc/terms/title> "TBA"@en .
-<https://dataweek.de/openingday/#programm-talk-26> <http://purl.org/dc/terms/title> "Titel TBA"@de .
+<https://dataweek.de/openingday/#programm-talk-26> <http://purl.org/dc/terms/title> "Vorstellung des HHL DIGITAL SPACE – The Digital Transformation Platform"@de .
 <https://dataweek.de/openingday/#programm-talk-26> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-26> <http://schema.org/performer> <https://dataweek.de/#SophiaKuhl> .
 <https://dataweek.de/openingday/#programm-talk-26> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/openingday/#programm-talk-27> <http://purl.org/dc/terms/title> "TBA"@en .
+<https://dataweek.de/openingday/#programm-talk-27> <http://purl.org/dc/terms/title> "Presentation of HHL DIGITAL SPACE - The Digital Transformation Platform"@en .
 <https://dataweek.de/openingday/#programm-talk-27> <http://purl.org/dc/terms/title> "Titel TBA"@de .
 <https://dataweek.de/openingday/#programm-talk-27> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-27> <http://schema.org/performer> <https://dataweek.de/#RuslanHrushchak> .
@@ -1793,9 +1818,9 @@
 <https://dataweek.de/openingday/#programm-talk-29> <http://purl.org/dc/terms/title> "Podiumsdiskussion"@de .
 <https://dataweek.de/openingday/#programm-talk-29> <http://schema.org/endTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-29> <http://schema.org/location> <https://dataweek.de/#Ratsplenarsaal> .
-<https://dataweek.de/openingday/#programm-talk-29> <http://schema.org/performer> <http://aksw.org/DanielGerber> .
 <https://dataweek.de/openingday/#programm-talk-29> <http://schema.org/performer> <https://dataweek.de/#BeateGinzel> .
 <https://dataweek.de/openingday/#programm-talk-29> <http://schema.org/performer> <https://dataweek.de/#EricPeukert> .
+<https://dataweek.de/openingday/#programm-talk-29> <http://schema.org/performer> <https://dataweek.de/#MartinMeissner> .
 <https://dataweek.de/openingday/#programm-talk-29> <http://schema.org/performer> <https://dataweek.de/#NadineKuhlavonBergmann> .
 <https://dataweek.de/openingday/#programm-talk-29> <http://schema.org/performer> <https://dataweek.de/#UlfMiddelberg> .
 <https://dataweek.de/openingday/#programm-talk-29> <http://schema.org/startTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -1848,12 +1873,12 @@
 <https://dataweek.de/openingday/#programm-talk-7> <http://schema.org/location> <https://dataweek.de/#Wandelhalle> .
 <https://dataweek.de/openingday/#programm-talk-7> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/openingday/#programm-talk-9> <http://purl.org/dc/terms/title> "Presentation of the city district budget"@en .
-<https://dataweek.de/openingday/#programm-talk-9> <http://purl.org/dc/terms/title> "Vorstellung des Stadtbezirksbudgets"@de .
+<https://dataweek.de/openingday/#programm-talk-9> <http://purl.org/dc/terms/title> "Open Data: Chancen und Risiken aus der rechtlichen Perspektive"@de .
+<https://dataweek.de/openingday/#programm-talk-9> <http://purl.org/dc/terms/title> "Open Data: Chancen und Risiken aus der rechtlichen Perspektive"@en .
 <https://dataweek.de/openingday/#programm-talk-9> <http://schema.org/endTime> "11:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-9> <http://schema.org/location> <https://dataweek.de/#Sitzungssaal> .
-<https://dataweek.de/openingday/#programm-talk-9> <http://schema.org/performer> <https://dataweek.de/#ThomasSchurig> .
-<https://dataweek.de/openingday/#programm-talk-9> <http://schema.org/performer> <https://dataweek.de/#UlrikeHerold> .
+<https://dataweek.de/openingday/#programm-talk-9> <http://schema.org/performer> <https://dataweek.de/#SakyiMannah> .
+<https://dataweek.de/openingday/#programm-talk-9> <http://schema.org/performer> <https://dataweek.de/#StavroulaChatzipanagioti> .
 <https://dataweek.de/openingday/#programm-talk-9> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/openingday/> <http://purl.org/dc/terms/description> "\nTo kick off Data Week Leipzig on July 4, 2022, there will be an opening speech by Sebastian Gemkow, Saxony's Minister of State for Science, as well as a welcoming address by the Institute for Applied Informatics (InfAI) e.V..\nOn this day, special focus will be placed on the encounter of industry and science representatives with municipal authorities, who will present AI projects as well as data application examples and scenarios. This is also reflected in the following program highlights.\n\nFurthermore, the panel discussion \"Leipzig 2045 - How does data support the digital urban transformation? Together with the participants of the Data Week, we will take a look into the future and imagine the city of Leipzig in the year 2045. What can we achieve using and evaluating data in just under 23 years? How does data support the digital transformation of a city? These questions will be analyzed with the guests in the panel discussion and perspectives, development trends, opportunities and also risks will be considered.\n"@en .
@@ -2001,6 +2026,10 @@
 <https://www.datev.de/> <http://www.w3.org/2000/01/rdf-schema#label> "DATEV eG"@en .
 <https://www.datev.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.datev.de/> .
 <https://www.datev.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/DATEV.svg" .
+<https://www.diw.de/de/diw_01.c.611027.de/personen/gebel__tobias.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.diw.de/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.diw.de/de> <http://www.w3.org/2000/01/rdf-schema#label> "DIW Berlin"@de .
+<https://www.diw.de/de> <http://www.w3.org/2000/01/rdf-schema#label> "DIW Berlin"@en .
 <https://www.eccenca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.eccenca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.eccenca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
@@ -2123,133 +2152,3 @@
 <https://www.zbw.eu/de/> <http://www.w3.org/2000/01/rdf-schema#label> "Leibniz-Informationszentrum Wirtschaft"@de .
 <https://www.zbw.eu/de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.zbw.eu/de/> .
 <https://www.zbw.eu/de/forschung/science-2-0/fidan-limani> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#118> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#126> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#127> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#129> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#73> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#74> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#75> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#76> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#77> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#78> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#79> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#81> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#83> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#84> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#87> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#88> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#90> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#91> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#92> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#94> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#96> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#97> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#99> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<urn:instance:1pk3VaohqtgIQr7sEVxDGl3VywWPvAK0Er1pZFX3zNNUxlsx#9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
