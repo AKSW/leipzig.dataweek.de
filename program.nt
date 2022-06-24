@@ -538,6 +538,8 @@
 <https://dataweek.de/#SebastianBrandt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Sebastian-Philipp Brandt" .
 <https://dataweek.de/#SebastianBrandt> <http://xmlns.com/foaf/0.1/name> "Sebastian-Philipp Brandt" .
 <https://dataweek.de/#SebastianBrandt> <http://xmlns.com/foaf/0.1/title> "Dr. " .
+<https://dataweek.de/#SebastianBrandt> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Sebastian-Philipp Brandt arbeitet bereits seit 2014 bei der Siemens AG im Raum München. Nachdem er 2000 sein Informatik-Diplom an der RWTH Aachen erlangte wechselte er als Wissenschaftlicher Mitarbeiter zur TU Dresden. Dort erlangte er 2006 seinen Doktortitel. Heute ist er Senior Key Expert bei Siemens. "@de .
+<https://dataweek.de/#SebastianBrandt> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Sebastian-Philipp Brandt has been working at Siemens AG in the Munich area since 2014. After earning his computer science degree at RWTH Aachen University in 2000, he moved to TU Dresden as a research assistant. At the TU Dresden he obtained his doctorate in 2006. Today, he is a Senior Key Expert at Siemens. "@en .
 <https://dataweek.de/#SebastianGemkow> <http://purl.org/dc/terms/description> "Saxon State Minister for Science"@en .
 <https://dataweek.de/#SebastianGemkow> <http://purl.org/dc/terms/description> "Sächsischer Staatsminister für Wissenschaft"@de .
 <https://dataweek.de/#SebastianGemkow> <http://schema.org/affiliation> <https://www.smwk.sachsen.de/> .
@@ -654,7 +656,7 @@
 <https://dataweek.de/#TomRichardVargis> <http://xmlns.com/foaf/0.1/name> "Tom Richard Vargis" .
 <https://dataweek.de/#UlfMiddelberg> <http://purl.org/dc/terms/description> "Geschäftsführer"@de .
 <https://dataweek.de/#UlfMiddelberg> <http://purl.org/dc/terms/description> "Managing director"@en .
-<https://dataweek.de/#UlfMiddelberg> <http://schema.org/affiliation> <https://www.l.de/stadtwerke/> .
+<https://dataweek.de/#UlfMiddelberg> <http://schema.org/affiliation> <https://www.l.de/verkehrsbetriebe/> .
 <https://dataweek.de/#UlfMiddelberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#UlfMiddelberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#UlfMiddelberg> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/ulf-middelberg-7b9b36b7/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> .
@@ -1801,6 +1803,11 @@
 <https://www.l.de/stadtwerke/> <http://www.w3.org/2000/01/rdf-schema#label> "Leipzig municipal utilities"@en .
 <https://www.l.de/stadtwerke/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadtwerke Leipzig"@de .
 <https://www.l.de/stadtwerke/> <http://xmlns.com/foaf/0.1/homepage> <https://www.l.de/stadtwerke/> .
+<https://www.l.de/verkehrsbetriebe/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.l.de/verkehrsbetriebe/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.l.de/verkehrsbetriebe/> <http://www.w3.org/2000/01/rdf-schema#label> "Leipzig Transport Services"@en .
+<https://www.l.de/verkehrsbetriebe/> <http://www.w3.org/2000/01/rdf-schema#label> "Leipziger Verkehrsbetriebe"@de .
+<https://www.l.de/verkehrsbetriebe/> <http://xmlns.com/foaf/0.1/homepage> <https://www.l.de/verkehrsbetriebe/> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/buero-fuer-ratsangelegenheiten-0115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/buero-fuer-ratsangelegenheiten-0115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/buero-fuer-ratsangelegenheiten-0115> <http://www.w3.org/2000/01/rdf-schema#label> "Büro für Ratsangelegenheiten der Stadt Leipzig"@de .
