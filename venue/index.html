@@ -22,7 +22,7 @@ select distinct ?location ?title ?description {
 {% endfor %}
 
 {% assign img = "venue/floorplan_" | append: site.language | append: ".png" %}
-{% include img.html src=img alt="Floorplan/Raumplan" class='w100 padded' %}
+<a href="{{ img | relativize_url }}">{% include img.html src=img alt="Floorplan/Raumplan" class='w100 padded' %}</a>
 
 
 {% if site.language == 'de' %}
