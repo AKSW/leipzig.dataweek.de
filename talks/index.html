@@ -16,6 +16,7 @@ order by ?date
 
 {% assign subEvents = rootResource | sparql_query: subEventQuery %}
 {% for row in subEvents %}
-<h2><span class="date">{{ row.date }}</span> <a class="highlight" href="{{ row.event.page_url | relativize_url }}">{{ row.label }}</a></h2>
+<p></p>
+<h3><span class="date">{{ row.date }}</span> <a class="highlight" href="{{ row.event.page_url | relativize_url }}">{{ row.label }}</a></h3>
 {% include sec_programm.html event=row.event %}
 {% endfor %}
