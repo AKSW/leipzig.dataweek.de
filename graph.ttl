@@ -244,7 +244,8 @@ dw:Sponsors
     rdf:_1 <https://appplant.de/> ;
     rdf:_2 <https://www.datev.de/> ;
     rdf:_3 <https://www.eccenca.com/> ;
-    rdf:_4 <https://www.vistex.com/> ;
+    rdf:_4 <https://stackfuel.com/> ;
+    rdf:_5 <https://www.vistex.com/> ;
     a rdf:Seq ;
     rdfs:label "Sponsoren"@de, "Sponsors"@en .
 
@@ -655,6 +656,12 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
     rdfs:label "ScaDS AI" ;
     foaf:homepage <https://scads.ai/> ;
     foaf:logo "/images/partner/Scads_AI_Logo.svg" .
+
+<https://stackfuel.com/>
+    a schema:Organization ;
+    rdfs:label "StackFuel GmbH" ;
+    foaf:homepage <https://stackfuel.com/> ;
+    foaf:logo "/images/partner/Stackfuel.png" .
 
 <https://www.cvut.cz/>
     a schema:Organization ;
