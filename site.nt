@@ -90,6 +90,12 @@
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/NatanaelArndt> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/name> "Natanael Arndt" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<http://aksw.org/NormanRadtke> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/NormanRadtke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://aksw.org/NormanRadtke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://aksw.org/NormanRadtke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/NormanRadtke> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/NormanRadtke> .
+<http://aksw.org/NormanRadtke> <http://xmlns.com/foaf/0.1/name> "Norman Radtke" .
 <http://aksw.org/RoyMeissner> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/RoyMeissner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/RoyMeissner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -127,6 +133,12 @@
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SebastianTramp> .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/name> "Sebastian Tramp" .
 <http://aksw.org/SebastianTramp> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<http://aksw.org/SimonBin> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/SimonBin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://aksw.org/SimonBin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://aksw.org/SimonBin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SimonBin> .
+<http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/name> "Simon Bin" .
 <http://aksw.org/SoerenAuer> <http://purl.org/dc/terms/description> "Professor for Data Science and Digital Libraries at the Gottfried Wilhelm Leibniz University Hannover and Director of the Technische Informationsbibliothek (TIB) in Hannover"@en .
 <http://aksw.org/SoerenAuer> <http://purl.org/dc/terms/description> "Professor für Data Science and Digital Libraries an der Gottfried Wilhelm Leibniz Universität Hannover und Direktor der Technischen Informationsbibliothek (TIB) in Hannover"@de .
 <http://aksw.org/SoerenAuer> <http://schema.org/affiliation> <https://www.tib.eu/> .
@@ -1180,7 +1192,8 @@
 <https://dataweek.de/d2r2-22/#programm-talk-6> <http://purl.org/dc/terms/title> "Semantification of Geospatial Information for Enriched Knowledge Representation in Context of Crisis Informatics"@de .
 <https://dataweek.de/d2r2-22/#programm-talk-6> <http://purl.org/dc/terms/title> "Semantification of Geospatial Information for Enriched Knowledge Representation in Context of Crisis Informatics"@en .
 <https://dataweek.de/d2r2-22/#programm-talk-6> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://dataweek.de/d2r2-22/#programm-talk-6> <http://schema.org/performer> <http://aksw.org/ClausStadler> .
+<https://dataweek.de/d2r2-22/#programm-talk-6> <http://schema.org/performer> <http://aksw.org/NormanRadtke> .
+<https://dataweek.de/d2r2-22/#programm-talk-6> <http://schema.org/performer> <http://aksw.org/SimonBin> .
 <https://dataweek.de/d2r2-22/#programm-talk-6> <http://schema.org/startTime> "10:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/d2r2-22/#programm-talk-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/d2r2-22/#programm-talk-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
@@ -1678,7 +1691,7 @@
 <https://dataweek.de/openingday/#programm-session-2> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-12> .
 <https://dataweek.de/openingday/#programm-session-2> <http://schema.org/subEvent> <https://dataweek.de/openingday/#programm-talk-9> .
 <https://dataweek.de/openingday/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/openingday/#programm-session-3> <http://purl.org/dc/terms/description> "Gesellschaftliche Datenkompetenz sollte man nicht dem Zufall überlassen. Datenkompetenz sollte somit nicht nur eine Fähigkeit zukünftiger Generationen sein, sondern muss schon jetzt ein Grundbaustein für die Bildung von Menschen unterschiedlichen Alters werden. In dieser Session stellen Vertreter aus Wissenschaft, Industrie und Verwaltung innovative Projekte vor, die momentan in und um Leipzig zur Datenkompetenz umgesetzt werden. Auch wird ein Ausblick auf neue Bildungsstätten, digitale Weiterbildungstools und Plattformen gegeben."@de .
+<https://dataweek.de/openingday/#programm-session-3> <http://purl.org/dc/terms/description> "Gesellschaftliche Datenkompetenz sollte man nicht dem Zufall überlassen. Datenkompetenz sollte auch nicht nur als eine Fähigkeit zukünftiger Generationen gesehen werden, sondern muss schon jetzt ein Grundbaustein für die Bildung von Menschen unterschiedlichen Alters werden. In dieser Session stellen Vertreter aus Wissenschaft, Industrie und Verwaltung innovative Projekte vor, die momentan in und um Leipzig zur Datenkompetenz umgesetzt werden. Auch wird ein Ausblick auf neue Bildungsstätten, digitale Weiterbildungstools und Plattformen gegeben."@de .
 <https://dataweek.de/openingday/#programm-session-3> <http://purl.org/dc/terms/description> "Social data literacy should not be left to chance. Data literacy should therefore not only be a skill of future generations, but must already become a basic building block for the education of people of different ages. In this session, representatives from science, industry and administration will present innovative projects that are currently being implemented in and around Leipzig on data literacy. An outlook on new educational institutions, digital training tools and platforms will also be given."@en .
 <https://dataweek.de/openingday/#programm-session-3> <http://purl.org/dc/terms/title> "Data for the city of the next generations"@en .
 <https://dataweek.de/openingday/#programm-session-3> <http://purl.org/dc/terms/title> "Daten für die Stadt der nächsten Generation(en)"@de .
@@ -1748,25 +1761,27 @@
 <https://dataweek.de/openingday/#programm-talk-12> <http://schema.org/performer> <https://dataweek.de/#RobinRoemer> .
 <https://dataweek.de/openingday/#programm-talk-12> <http://schema.org/startTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/openingday/#programm-talk-14> <http://purl.org/dc/terms/description> "In seinem Beitrag geht Dr. Zinke-Wehlmann auf den möglichen Wandel von Arbeit, Industrie und Gesellschaft mit und durch KI ein. Dabei beleuchtet er nicht nur die Frage, was KI eigentlich kann und welche Potentiale KI hat, sondern darüber hinaus, welche Voraussetzung und Herausforderungen ein solcher Wandel mit sich bringt, und was das für die Region Leipzig eigentlich bedeutet."@de .
 <https://dataweek.de/openingday/#programm-talk-14> <http://purl.org/dc/terms/title> "Artificial Human Intelligent. What potential does AI have for the Leipzig region?"@en .
 <https://dataweek.de/openingday/#programm-talk-14> <http://purl.org/dc/terms/title> "Künstlich Menschlich Intelligent. Welche Potentiale hat KI für die Region Leipzig?"@de .
 <https://dataweek.de/openingday/#programm-talk-14> <http://schema.org/endTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-14> <http://schema.org/location> <https://dataweek.de/#Ratsplenarsaal> .
-<https://dataweek.de/openingday/#programm-talk-14> <http://schema.org/performer> <https://dataweek.de/#MaximilianBarth> .
+<https://dataweek.de/openingday/#programm-talk-14> <http://schema.org/performer> <https://dataweek.de/#ChristianZinke> .
 <https://dataweek.de/openingday/#programm-talk-14> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/openingday/#programm-talk-15> <http://purl.org/dc/terms/description> "Die Stadtentwicklung der Zukunft setzt auf die aktive Beteiligung von Bürgerinnen und Bürgern. Ein wichtiger Baustein ist dabei die Erhebung von Daten, welche als Arbeitsgrundlage für Planungsprozesse und die Realisierung von Projekten dienen können. Mirko Mühlpfort geht in seinem Beitrag auf die Notwendigkeit einer gemeinsamen Plattform für städtische Daten ein. Dabei geht er auch der Frage nach, was es sowohl aus technischer als auch aus individueller Sicht braucht, um die Idee der \"Connected Urban Twins\" Wirklichkeit werden zu lassen?"@de .
 <https://dataweek.de/openingday/#programm-talk-15> <http://purl.org/dc/terms/title> "Stadtentwicklung und Digitale Zwillinge"@de .
 <https://dataweek.de/openingday/#programm-talk-15> <http://purl.org/dc/terms/title> "Urban development and digital twins"@en .
 <https://dataweek.de/openingday/#programm-talk-15> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-15> <http://schema.org/location> <https://dataweek.de/#Ratsplenarsaal> .
-<https://dataweek.de/openingday/#programm-talk-15> <http://schema.org/performer> <https://dataweek.de/#ChristianZinke> .
+<https://dataweek.de/openingday/#programm-talk-15> <http://schema.org/performer> <https://dataweek.de/#MirkoMuehlpfort> .
 <https://dataweek.de/openingday/#programm-talk-15> <http://schema.org/startTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/openingday/#programm-talk-16> <http://purl.org/dc/terms/title> "How data literacy makes Germany a digital pioneer"@en .
 <https://dataweek.de/openingday/#programm-talk-16> <http://purl.org/dc/terms/title> "Wie Datenkompetenz Deutschland zum digitalen Vorreiter macht"@de .
 <https://dataweek.de/openingday/#programm-talk-16> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-16> <http://schema.org/location> <https://dataweek.de/#Ratsplenarsaal> .
-<https://dataweek.de/openingday/#programm-talk-16> <http://schema.org/performer> <https://dataweek.de/#MirkoMuehlpfort> .
+<https://dataweek.de/openingday/#programm-talk-16> <http://schema.org/performer> <https://dataweek.de/#MaximilianBarth> .
 <https://dataweek.de/openingday/#programm-talk-16> <http://schema.org/startTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/openingday/#programm-talk-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/openingday/#programm-talk-17> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
