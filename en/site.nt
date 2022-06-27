@@ -455,17 +455,6 @@
 <https://dataweek.de/#LisaWenige> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Lisa Wenige" .
 <https://dataweek.de/#LisaWenige> <http://xmlns.com/foaf/0.1/name> "Lisa Wenige" .
 <https://dataweek.de/#LisaWenige> <http://xmlns.com/foaf/0.1/title> "Dr. " .
-<https://dataweek.de/#Location> <http://schema.org/addressCountry> "Germany" .
-<https://dataweek.de/#Location> <http://schema.org/addressLocality> "Leipzig" .
-<https://dataweek.de/#Location> <http://schema.org/name> "Neues Rathaus/City Hall" .
-<https://dataweek.de/#Location> <http://schema.org/postalCode> "04109" .
-<https://dataweek.de/#Location> <http://schema.org/streetAddress> "Martin-Luther-Ring 4-6" .
-<https://dataweek.de/#Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
-<https://dataweek.de/#Location> <http://www.w3.org/2000/01/rdf-schema#label> "Venue"@en .
-<https://dataweek.de/#Location> <http://www.w3.org/2000/01/rdf-schema#label> "Veranstaltungsort"@de .
-<https://dataweek.de/#Location> <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.37267 51.33594)" .
-<https://dataweek.de/#Location> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "51.33594"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://dataweek.de/#Location> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.37267"^^<http://www.w3.org/2001/XMLSchema#float> .
 <https://dataweek.de/#LogoCUT> <http://purl.org/dc/terms/description> "Connected Urban Twins" .
 <https://dataweek.de/#LogoCUT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/images/CUT_Logo.png" .
 <https://dataweek.de/#LogoEccenca> <http://purl.org/dc/terms/description> "eccenca GmbH" .
@@ -831,7 +820,7 @@
 <https://dataweek.de/> <http://schema.org/date> "04.07. bis 08.07.2022"@de .
 <https://dataweek.de/> <http://schema.org/date> "July 4-8, 2022"@en .
 <https://dataweek.de/> <http://schema.org/endDate> "2022-07-08"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://dataweek.de/> <http://schema.org/location> <https://dataweek.de/#Location> .
+<https://dataweek.de/> <http://schema.org/location> <https://dataweek.de/venue/> .
 <https://dataweek.de/> <http://schema.org/logo> <https://dataweek.de/images/DataWeek_Logo.png> .
 <https://dataweek.de/> <http://schema.org/organizer> <https://dataweek.de/#Team> .
 <https://dataweek.de/> <http://schema.org/partner> <https://dataweek.de/#Partner> .
@@ -2010,6 +1999,18 @@
 <https://dataweek.de/venue#Ratsplenarsaal> <http://purl.org/dc/terms/title> "Ratsplenarsaal" .
 <https://dataweek.de/venue#Sitzungssaal> <http://purl.org/dc/terms/title> "Sitzungssaal" .
 <https://dataweek.de/venue#Wandelhalle> <http://purl.org/dc/terms/title> "Wandelhalle" .
+<https://dataweek.de/venue/> <http://schema.org/addressCountry> "Germany" .
+<https://dataweek.de/venue/> <http://schema.org/addressLocality> "Leipzig" .
+<https://dataweek.de/venue/> <http://schema.org/name> "Neues Rathaus/City Hall" .
+<https://dataweek.de/venue/> <http://schema.org/postalCode> "04109" .
+<https://dataweek.de/venue/> <http://schema.org/streetAddress> "Martin-Luther-Ring 4-6" .
+<https://dataweek.de/venue/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
+<https://dataweek.de/venue/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://dataweek.de/venue/> <http://www.w3.org/2000/01/rdf-schema#label> "Venue"@en .
+<https://dataweek.de/venue/> <http://www.w3.org/2000/01/rdf-schema#label> "Veranstaltungsort"@de .
+<https://dataweek.de/venue/> <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.37267 51.33594)" .
+<https://dataweek.de/venue/> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "51.33594"^^<http://www.w3.org/2001/XMLSchema#float> .
+<https://dataweek.de/venue/> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.37267"^^<http://www.w3.org/2001/XMLSchema#float> .
 <https://dbpedia.org/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/DBpediaLogo.svg" .
 <https://dbpedia.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://dbpedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Association" .
