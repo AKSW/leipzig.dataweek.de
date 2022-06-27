@@ -98,6 +98,16 @@ h4, .h4 {
   padding: .25em 1em;
 }
 
+.locationtag {
+  float: right;
+  clear: both;
+  background-color: $color_blue;
+  color: #fff;
+  padding: .25em 1em;
+  margin-left: auto;
+  margin-right: 0;
+}
+
 p {
   font-size: 16px;
   color: #fff;

@@ -31,5 +31,5 @@ jekyll_rdf:
   path: "site.nt"
   restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"https://dataweek.de/\") }"
   class_template_mappings:
-    "http://xmlns.com/foaf/0.1/Document" : "page.html"
+    "http://xmlns.com/foaf/0.1/Document" : "subpage.html"
     "http://schema.org/Event" : "event.html"

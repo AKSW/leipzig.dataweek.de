@@ -22,7 +22,13 @@ SELECT ?event ?start ?end WHERE {
 {%- assign start = events_row.start | date: "%H.%M" -%}
 {%- assign end = events_row.end | date: "%H.%M" -%}
 {% assign track = event | rdf_property: "site:track" %}
+{% assign location = event | rdf_property: "schema:location" %}
 {% assign pause = "dw:pause" | rdf_get %}
+
+{% if location %}
+<span class="locationtag"><a href="{{ location.page_url | relativize_url }}">{% include label.html iri = location.iri %}</a></span>
+{% endif %}
+
 {% if track == pause %}
 <h3 class="pause">{% if showdate and events_row.start and events_row.end %}{{start}} - {{end}}: {% endif %}{% include label.html iri = event.iri %}</h3>
 {% else %}
@@ -41,6 +47,8 @@ SELECT ?event ?start ?end WHERE {
   {% endif %}
   {% include label.html iri = event.iri %}</h3>
 {% endif %}
+
+
 
 {% capture subEvents_query %}
 SELECT ?event WHERE {

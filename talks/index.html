@@ -1,0 +1,21 @@
+---
+layout: subpage
+---
+{% assign rootResource = site.rootResource | rdf_get %}
+
+{% capture subEventQueryTpl %}
+select ?event ?date ?label {
+  ?resourceUri schema:subEvent ?event .
+  ?event schema:date ?date ;
+         rdfs:label ?label .
+  filter(langmatches(lang(?label), '?lang'))
+}
+order by ?date
+{% endcapture %}
+{% assign subEventQuery = subEventQueryTpl | replace: "?lang", site.language %}
+
+{% assign subEvents = rootResource | sparql_query: subEventQuery %}
+{% for row in subEvents %}
+<h2><span class="date">{{ row.date }}</span> <a class="highlight" href="{{ row.event.page_url | relativize_url }}">{{ row.label }}</a></h2>
+{% include sec_programm.html event=row.event %}
+{% endfor %}
