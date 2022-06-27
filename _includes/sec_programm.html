@@ -45,8 +45,8 @@ SELECT ?event ?start ?end WHERE {
 {% capture subEvents_query %}
 SELECT ?event WHERE {
   <{{ event.iri }}> schema:subEvent ?event .
-  optional { ?event schema:startDate ?date }
-} ORDER BY ASC(?date)
+  optional { ?event schema:startTime ?start }
+} ORDER BY ASC(?start)
 {% endcapture %}
 {% assign subEvents = event | sparql_query: subEvents_query  %}
 
