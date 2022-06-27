@@ -75,7 +75,6 @@
 <http://aksw.org/MilanDojchinovski> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Milan Dojchinovski" .
 <http://aksw.org/MilanDojchinovski> <http://xmlns.com/foaf/0.1/depiction> "/images/people/MilanDojchinovski.png" .
 <http://aksw.org/MilanDojchinovski> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/MilanDojchinovski> .
-<http://aksw.org/MilanDojchinovski> <http://xmlns.com/foaf/0.1/name> "Dr. Milan Dojchinovski" .
 <http://aksw.org/MilanDojchinovski> <http://xmlns.com/foaf/0.1/name> "Milan Dojchinovski" .
 <http://aksw.org/MilanDojchinovski> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Senior Linked Data Expert"@de .
@@ -104,10 +103,14 @@
 <http://aksw.org/RoyMeissner> <http://xmlns.com/foaf/0.1/name> "Roy Meissner" .
 <http://aksw.org/SabineGruenderFahrer> <http://schema.org/affiliation> <http://aksw.org/Group> .
 <http://aksw.org/SabineGruenderFahrer> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sabine Gr\u00FCnder-Fahrer" .
+<http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sabine Gründer-Fahrer" .
 <http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SabineGruenderFahrer.jpg" .
-<http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/name> "Dr. Sabine Gr\u00FCnder-Fahrer" .
+<http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SabineGruenderFahrer> .
+<http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/name> "Sabine Gründer-Fahrer" .
+<http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <http://aksw.org/SebastianHellmann> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association"@de .
 <http://aksw.org/SebastianHellmann> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association"@en .
 <http://aksw.org/SebastianHellmann> <http://schema.org/affiliation> <https://dbpedia.org/> .
@@ -118,7 +121,6 @@
 <http://aksw.org/SebastianHellmann> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.-Ing. Sebastian Hellmann" .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SebastianHellmann.png" .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/SebastianHellmann> .
-<http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/name> "Dr.-Ing. Sebastian Hellmann" .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/name> "Sebastian Hellmann" .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/title> "Dr.-Ing." .
 <http://aksw.org/SebastianTramp> <http://purl.org/dc/terms/description> "CTO"@de .
@@ -141,15 +143,11 @@
 <http://aksw.org/SimonBin> <http://xmlns.com/foaf/0.1/name> "Simon Bin" .
 <http://aksw.org/SoerenAuer> <http://purl.org/dc/terms/description> "Professor for Data Science and Digital Libraries at the Gottfried Wilhelm Leibniz University Hannover and Director of the Technische Informationsbibliothek (TIB) in Hannover"@en .
 <http://aksw.org/SoerenAuer> <http://purl.org/dc/terms/description> "Professor für Data Science and Digital Libraries an der Gottfried Wilhelm Leibniz Universität Hannover und Direktor der Technischen Informationsbibliothek (TIB) in Hannover"@de .
-<http://aksw.org/SoerenAuer> <http://schema.org/affiliation> <https://www.tib.eu/> .
 <http://aksw.org/SoerenAuer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/SoerenAuer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/SoerenAuer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. S\u00F6ren Auer" .
 <http://aksw.org/SoerenAuer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Sören Auer" .
 <http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SoerenAuer.jpg" .
-<http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/homepage> <https://www.tib.eu/de/forschung-entwicklung/data-science-digital-libraries/mitarbeiterinnen-und-mitarbeiter/soeren-auer/> .
 <http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/homepage> <https://www.tib.eu/en/research-development/research-groups-and-labs/data-science-digital-libraries/staff/soeren-auer> .
-<http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/name> "S\u00F6ren Auer" .
 <http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/name> "Sören Auer" .
 <http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <http://aksw.org/SoerenAuer> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Sören Auer is Professor for Data Science and Digital Libraries at the Gottfried Wilhelm Leibniz University Hannover and Director of the Technische Informationsbibliothek (TIB) in Hannover. Before being appointed Director of TIB, Sören led the “Enterprise Information Systems (EIS)” department at Fraunhofer Institute for Intelligent Analysis and Information Systems IAIS and held a Chair in Enterprise Information Systems at the University of Bonn. After studying Mathematics and Computer Science at Hagen, Dresden and Yekaterinburg, Sören earned a PhD in Computer Science at Leipzig University. This was followed by posts as post-doctoral researcher at the University of Pennsylvania and at Leipzig University, where he led the “Agile Knowledge Engineering and Semantic Web” (AKSW) research group."@en .
@@ -166,12 +164,6 @@
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/ThomasRiechert> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/name> "Thomas Riechert" .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
-<http://dataweek-de/SabineGruenderFahrer> <http://schema.org/affiliation> <https://infai.org/> .
-<http://dataweek-de/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
-<http://dataweek-de/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://dataweek-de/SabineGruenderFahrer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sabine Gründer-Fahrer" .
-<http://dataweek-de/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/name> "Sabine Gründer-Fahrer" .
-<http://dataweek-de/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <http://schema.org/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Ort"@de .
 <http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Place"@en .
@@ -261,7 +253,6 @@
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/depiction> "/images/people/AndreasBoth.jpg" .
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/homepage> <http://www.andreasboth.de/en> .
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/name> "Andreas Both" .
-<https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Andreas Both" .
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <https://dataweek.de/#AngelieKraft> <http://purl.org/dc/terms/description> "Ph.D. Student"@de .
 <https://dataweek.de/#AngelieKraft> <http://purl.org/dc/terms/description> "Ph.D. Student"@en .
@@ -303,7 +294,6 @@
 <https://dataweek.de/#ChristianZinke> <http://xmlns.com/foaf/0.1/depiction> "/images/people/ChristianZinke.jpg" .
 <https://dataweek.de/#ChristianZinke> <http://xmlns.com/foaf/0.1/homepage> <https://infai.org/workpage-dr-christian-zinke-wehlmann/> .
 <https://dataweek.de/#ChristianZinke> <http://xmlns.com/foaf/0.1/name> "Christian Zinke-Wehlmann" .
-<https://dataweek.de/#ChristianZinke> <http://xmlns.com/foaf/0.1/name> "Dr. Christian Zinke-Wehlmann" .
 <https://dataweek.de/#ChristianZinke> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#ChristianZinke> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Dr. Christian Zinke-Wehlmann is the head of the Competence Center \"Artificial Human Intelligent\" at the Institute for Applied Informatics (InfAI) e. V. and works in the field of socio-technical support systems. The sociologist, who received his PhD in 2017, focuses his research on socio-technical support systems at the interfaces between work, (digital) technology and service systems. The main topics of his work are digital learning and collaboration, knowledge management, Linked Data, and service engineering."@en .
 <https://dataweek.de/#ChristianZinke> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Dr. Christian Zinke-Wehlmann ist als Leiter des Kompetenzzentrums \"Künstlich Menschlich Intelligent\" am Institut für Angewandte Informatik (InfAI) e. V. im Bereich sozio-technischer Unterstützungssysteme tätig. Der 2017 promovierte Soziologe fokussiert sich in seiner Forschung auf soziotechnische Unterstützungssysteme an den Schnittstellen zwischen Arbeit, (digitaler) Technik und Dienstleistungssystemen. Themenschwerpunkte seiner Arbeit sind Digitales Lernen und Zusammenarbeit, Wissensmanagement, Linked Data sowie Service Engineering. "@de .
@@ -315,18 +305,15 @@
 <https://dataweek.de/#ErhardRahm> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Erhard Rahm" .
 <https://dataweek.de/#ErhardRahm> <http://xmlns.com/foaf/0.1/depiction> "/images/people/ErhardRahm.jpg" .
 <https://dataweek.de/#ErhardRahm> <http://xmlns.com/foaf/0.1/name> "Erhard Rahm" .
-<https://dataweek.de/#ErhardRahm> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Erhard Rahm" .
 <https://dataweek.de/#ErhardRahm> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <https://dataweek.de/#EricPeukert> <http://purl.org/dc/terms/description> "Geschäftsführer ScaDS.AI Leipzig  "@de .
 <https://dataweek.de/#EricPeukert> <http://purl.org/dc/terms/description> "Management Director ScaDS.AI Leipzig  "@en .
 <https://dataweek.de/#EricPeukert> <http://schema.org/affiliation> <https://scads.ai/> .
 <https://dataweek.de/#EricPeukert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#EricPeukert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#EricPeukert> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Eric Peukert" .
 <https://dataweek.de/#EricPeukert> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Erik Peukert" .
 <https://dataweek.de/#EricPeukert> <http://xmlns.com/foaf/0.1/depiction> "/images/people/EricPeukert.jpg" .
 <https://dataweek.de/#EricPeukert> <http://xmlns.com/foaf/0.1/homepage> <https://dbs.uni-leipzig.de/person/eric_peukert> .
-<https://dataweek.de/#EricPeukert> <http://xmlns.com/foaf/0.1/name> "Dr. Eric Peukert" .
 <https://dataweek.de/#EricPeukert> <http://xmlns.com/foaf/0.1/name> "Erik Peukert" .
 <https://dataweek.de/#EricPeukert> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#ErikWende> <http://purl.org/dc/terms/description> "COO"@en .
@@ -398,7 +385,6 @@
 <https://dataweek.de/#JanaBendigs> <http://schema.org/affiliation> <https://scads.ai/> .
 <https://dataweek.de/#JanaBendigs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JanaBendigs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#JanaBendigs> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jana Bendigs" .
 <https://dataweek.de/#JanaBendigs> <http://xmlns.com/foaf/0.1/depiction> "/images/people/JanaBendigs.jpg" .
 <https://dataweek.de/#JanaBendigs> <http://xmlns.com/foaf/0.1/name> "Jana Bendigs" .
 <https://dataweek.de/#JanaDietrich> <http://purl.org/dc/terms/description> "Abteilungsleiterin bei GeodatenService der Stadt Leipzig"@de .
@@ -424,7 +410,6 @@
 <https://dataweek.de/#JuliaFriedrich> <http://schema.org/affiliation> <https://infai.org/> .
 <https://dataweek.de/#JuliaFriedrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JuliaFriedrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#JuliaFriedrich> <http://www.w3.org/2004/02/skos/core#prefLabel> "Julia Friedrich" .
 <https://dataweek.de/#JuliaFriedrich> <http://xmlns.com/foaf/0.1/depiction> "/images/people/JuliaFriedrich.jpg" .
 <https://dataweek.de/#JuliaFriedrich> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/julia-friedrich-29461b242/> .
 <https://dataweek.de/#JuliaFriedrich> <http://xmlns.com/foaf/0.1/name> "Julia Friedrich" .
@@ -439,7 +424,6 @@
 <https://dataweek.de/#KatrinMehler> <http://schema.org/affiliation> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
 <https://dataweek.de/#KatrinMehler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#KatrinMehler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#KatrinMehler> <http://www.w3.org/2004/02/skos/core#prefLabel> "Katrin Mehler" .
 <https://dataweek.de/#KatrinMehler> <http://xmlns.com/foaf/0.1/depiction> "/images/people/KatrinMehler.jpg" .
 <https://dataweek.de/#KatrinMehler> <http://xmlns.com/foaf/0.1/name> "Katrin Mehler" .
 <https://dataweek.de/#KlausDaessler> <http://purl.org/dc/terms/description> "Gesellschaft für Mathematische Intelligenz"@de .
@@ -531,7 +515,6 @@
 <https://dataweek.de/#MiriamWelz> <http://schema.org/affiliation> <https://scads.ai/> .
 <https://dataweek.de/#MiriamWelz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MiriamWelz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#MiriamWelz> <http://www.w3.org/2004/02/skos/core#prefLabel> "Miriam Welz" .
 <https://dataweek.de/#MiriamWelz> <http://xmlns.com/foaf/0.1/depiction> "/images/people/MiriamWelz.jpg" .
 <https://dataweek.de/#MiriamWelz> <http://xmlns.com/foaf/0.1/name> "Miriam Welz" .
 <https://dataweek.de/#MirkoMuehlpfort> <http://purl.org/dc/terms/description> "Team leader at City of Leipzig/Digital City Department, CUT Project "@en .
@@ -541,10 +524,8 @@
 <https://dataweek.de/#MirkoMuehlpfort> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> .
 <https://dataweek.de/#MirkoMuehlpfort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MirkoMuehlpfort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#MirkoMuehlpfort> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mirko M\u00FChlpfort" .
 <https://dataweek.de/#MirkoMuehlpfort> <http://xmlns.com/foaf/0.1/depiction> "/images/people/MirkoMuehlpfort.jpg" .
 <https://dataweek.de/#MirkoMuehlpfort> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> .
-<https://dataweek.de/#MirkoMuehlpfort> <http://xmlns.com/foaf/0.1/name> "Mirko M\u00FChlpfort" .
 <https://dataweek.de/#MirkoMuehlpfort> <http://xmlns.com/foaf/0.1/name> "Mirko Mühlpfort" .
 <https://dataweek.de/#MirkoMuehlpfort> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Mirko Mühlpfort is a team leader at the Digital City department of the city of Leipzig and is responsible for the topics of urban data and digital infrastructures. He is in charge of several data projects and is the Leipzig project manager for the cooperative project \"Connected Urban Twins - Urban Data Platforms and Digital Twins for Integrated Urban Development\" (CUT) of the cities of Hamburg, Leipzig and Munich. He studied economics, sociology and administrative sciences in Leipzig and Speyer."@en .
 <https://dataweek.de/#MirkoMuehlpfort> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Mirko Mühlpfort ist Teamleiter am Referat Digitale Stadt der Stadt Leipzig und für die Themen Urbane Daten und Digitale Infrastrukturen verantwortlich. Er leitet mehrere Datenprojekte und ist Leipziger Projektleiter für das Kooperationsprojekt „Connected Urban Twins – Urbane Datenplattformen und Digitale Zwillinge für Integrierte Stadtentwicklung“ (CUT) der Städte Hamburg, Leipzig und München. Er hat Volkswirtschaftslehre, Soziologie und Verwaltungswissenschaften in Leipzig und Speyer studiert."@de .
@@ -581,7 +562,6 @@
 <https://dataweek.de/#NievesSande> <http://schema.org/affiliation> <https://www.eccenca.com/> .
 <https://dataweek.de/#NievesSande> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#NievesSande> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#NievesSande> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nieves Sande" .
 <https://dataweek.de/#NievesSande> <http://xmlns.com/foaf/0.1/depiction> "/images/people/NievesSande.png" .
 <https://dataweek.de/#NievesSande> <http://xmlns.com/foaf/0.1/name> "Nieves Sande" .
 <https://dataweek.de/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.leipzig.de/> .
@@ -2283,3 +2263,4 @@
 <https://www.zbw.eu/de/> <http://www.w3.org/2000/01/rdf-schema#label> "Leibniz-Informationszentrum Wirtschaft"@de .
 <https://www.zbw.eu/de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.zbw.eu/de/> .
 <https://www.zbw.eu/de/forschung/science-2-0/fidan-limani> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<urn:url-encoded-value:unset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
