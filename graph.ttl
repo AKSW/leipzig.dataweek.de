@@ -123,7 +123,7 @@ schema:startDate
     schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
     schema:date "04.07. bis 08.07.2022"@de, "July 4-8, 2022"@en ;
     schema:endDate "2022-07-08"^^xsd:date ;
-    schema:location dw:Location ;
+    schema:location <https://dataweek.de/venue/> ;
     schema:logo <https://dataweek.de/images/DataWeek_Logo.png> ;
     schema:organizer dw:Team ;
     schema:partner dw:Partner ;
@@ -183,18 +183,6 @@ dw:KatrinMehler
     skos:prefLabel "Katrin Mehler" ;
     foaf:depiction "/images/people/KatrinMehler.jpg" ;
     foaf:name "Katrin Mehler" .
-
-dw:Location
-    schema:addressCountry "Germany" ;
-    schema:addressLocality "Leipzig" ;
-    schema:name "Neues Rathaus/City Hall" ;
-    schema:postalCode "04109" ;
-    schema:streetAddress "Martin-Luther-Ring 4-6" ;
-    a schema:PostalAddress ;
-    rdfs:label "Venue"@en, "Veranstaltungsort"@de ;
-    <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.37267 51.33594)" ;
-    <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "51.33594"^^xsd:float ;
-    <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.37267"^^xsd:float .
 
 dw:LogoCUT
     dct:description "Connected Urban Twins" ;
@@ -613,6 +601,18 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
     rdf:_3 aksw:MichaelMartin ;
     rdf:_4 dw:KatrinMehler ;
     rdf:_5 dw:MirkoMuehlpfort .
+
+<https://dataweek.de/venue/>
+    schema:addressCountry "Germany" ;
+    schema:addressLocality "Leipzig" ;
+    schema:name "Neues Rathaus/City Hall" ;
+    schema:postalCode "04109" ;
+    schema:streetAddress "Martin-Luther-Ring 4-6" ;
+    a schema:PostalAddress, foaf:Document ;
+    rdfs:label "Venue"@en, "Veranstaltungsort"@de ;
+    <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.37267 51.33594)" ;
+    <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "51.33594"^^xsd:float ;
+    <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.37267"^^xsd:float .
 
 <https://dbpedia.org/>
     site:small_logo "/images/partner/DBpediaLogo.svg" ;
