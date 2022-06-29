@@ -29,7 +29,8 @@ aksw:JuliaHolze
     foaf:name "Julia Holze" .
 
 aksw:MichaelMartin
-    schema:affiliation aksw:Group, <https://infai.org/> ;
+    schema:affiliation <https://infai.org/> ;
+    schema:memberOf aksw:Group ;
     a foaf:Person ;
     skos:prefLabel "Dr. Michael Martin" ;
     foaf:depiction "/images/people/MichaelMartin.png" ;
@@ -42,12 +43,14 @@ aksw:MilanDojchinovski
     foaf:depiction "/images/people/MilanDojchinovski.png" .
 
 aksw:NatanaelArndt
-    schema:affiliation aksw:Group, <https://www.eccenca.com/> ;
+    schema:affiliation <https://www.eccenca.com/> ;
+    schema:memberOf aksw:Group ;
     a foaf:Person ;
     foaf:depiction "/images/people/NatanaelArndt.jpg" .
 
 aksw:SabineGruenderFahrer
-    schema:affiliation aksw:Group, <https://infai.org/> ;
+    schema:affiliation <https://infai.org/> ;
+    schema:memberOf aksw:Group ;
     a foaf:Person ;
     foaf:depiction "/images/people/SabineGruenderFahrer.jpg" .
 
@@ -57,7 +60,8 @@ aksw:SebastianHellmann
     foaf:depiction "/images/people/SebastianHellmann.png" .
 
 aksw:SebastianTramp
-    schema:affiliation aksw:Group, <https://www.eccenca.com/> ;
+    schema:affiliation <https://www.eccenca.com/> ;
+    schema:memberOf aksw:Group ;
     a foaf:Person ;
     foaf:depiction "/images/people/SebastianTramp.png" .
 
@@ -66,7 +70,8 @@ aksw:SoerenAuer
     foaf:depiction "/images/people/SoerenAuer.jpg" .
 
 aksw:ThomasRiechert
-    schema:affiliation aksw:Group, <https://htwk-leipzig.de/> ;
+    schema:affiliation <https://htwk-leipzig.de/> ;
+    schema:memberOf aksw:Group ;
     a foaf:Person ;
     skos:prefLabel "Prof. Dr. Thomas Riechert" ;
     foaf:depiction "/images/people/ThomasRiechert.png" ;
