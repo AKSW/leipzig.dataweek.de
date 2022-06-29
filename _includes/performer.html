@@ -26,7 +26,10 @@ individual
 {%- unless bio -%}
 {%- assign bio = performer | rdf_property: "gnd:biographicalOrHistoricalInformation" -%}
 {%- endunless -%}
+{%- assign affiliation = performer | rdf_property: "dw:prefAffiliation" -%}
+{%- unless affiliation -%}
 {%- assign affiliation = performer | rdf_property: "schema:affiliation" -%}
+{%- endunless -%}
 {%- assign homepage = performer | rdf_property: "foaf:homepage" -%}
 
 {%- capture person -%}
