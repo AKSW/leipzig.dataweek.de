@@ -3,6 +3,14 @@
 {% assign homepage = organizer | rdf_property: "foaf:homepage" %}
 {% assign depiction = organizer | rdf_property: "foaf:depiction" %}
 {% assign affiliations = organizer | rdf_property: "schema:affiliation", nil, true %}
+{% assign groups_foaf = organizer | rdf_property: "foaf:member", nil, true %}
+{% if groups_foaf %}
+{% assign affiliations = affiliations | concat: groups_foaf %}
+{% endif %}
+{% assign groups_schema = organizer | rdf_property: "schema:memberOf", nil, true %}
+{% if groups_schema %}
+{% assign affiliations = affiliations | concat: groups_schema %}
+{% endif %}
 <div class="lswt-card">
   {% if depiction %}
     <img class="rounded" src="{{ depiction | relativize_url }}" alt="{{ name }}">
