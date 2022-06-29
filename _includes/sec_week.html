@@ -2,9 +2,11 @@
 
 {% if site.language == 'en' %}
 <h2>The Week</h2>
+<p><a href="{{ "talks" | relativize_url }}"><button class="btn btn-primary m-auto">Program Overview</button></a></p>
 <p>Please click on the respective event names below to read the detailed program.</p>
 {% else %}
 <h2>Die Woche</h2>
+<p><a href="{{ "talks" | relativize_url }}"><button class="btn btn-primary m-auto">Programm Übersicht</button></a></p>
 <p>Bitte klicken Sie nachfolgend auf die jeweiligen Veranstaltungsnamen um das detaillierte Programm der Veranstaltungstage einsehen zu können.</p>
 {% endif %}
 
