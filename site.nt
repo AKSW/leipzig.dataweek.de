@@ -35,12 +35,11 @@
 <http://aksw.org/JohannesFrey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/JohannesFrey> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/JohannesFrey> .
 <http://aksw.org/JohannesFrey> <http://xmlns.com/foaf/0.1/name> "Johannes Frey" .
-<http://aksw.org/JuliaHolze> <http://schema.org/affiliation> <https://dbpedia.org/> .
 <http://aksw.org/JuliaHolze> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/JuliaHolze> <http://schema.org/memberOf> <https://dbpedia.org/> .
 <http://aksw.org/JuliaHolze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/JuliaHolze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/JuliaHolze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/JuliaHolze> <http://www.w3.org/2004/02/skos/core#prefLabel> "Julia Holze" .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/depiction> "/images/people/JuliaHolze.png" .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/JuliaHolze> .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/name> "Julia Holze" .
@@ -113,8 +112,9 @@
 <http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <http://aksw.org/SebastianHellmann> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association"@de .
 <http://aksw.org/SebastianHellmann> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association"@en .
-<http://aksw.org/SebastianHellmann> <http://schema.org/affiliation> <https://dbpedia.org/> .
 <http://aksw.org/SebastianHellmann> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/SebastianHellmann> <http://schema.org/memberOf> <http://aksw.org/Group> .
+<http://aksw.org/SebastianHellmann> <http://schema.org/memberOf> <https://dbpedia.org/> .
 <http://aksw.org/SebastianHellmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/SebastianHellmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/SebastianHellmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
