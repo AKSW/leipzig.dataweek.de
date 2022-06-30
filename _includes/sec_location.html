@@ -2,6 +2,12 @@
 {% if location %}
 <h2 id="#Location">{{ location | rdf_property: "rdfs:label", site.language }}</h2>
 
+{% if site.language == 'en' %}
+<p><a href="{{ "venue" | relativize_url }}"><button class="btn btn-primary m-auto">Room Overview & Directions</button></a></p>
+{% else %}
+<p><a href="{{ "venue" | relativize_url }}"><button class="btn btn-primary m-auto">Raumübersicht & Anfahrt</button></a></p>
+{% endif %}
+
 {% include address.html location=location %}
 
 {% assign mapboxDiff = 0.00223964452743 %}
