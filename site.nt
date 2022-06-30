@@ -160,9 +160,8 @@
 <http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <http://aksw.org/SoerenAuer> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Sören Auer is Professor for Data Science and Digital Libraries at the Gottfried Wilhelm Leibniz University Hannover and Director of the Technische Informationsbibliothek (TIB) in Hannover. Before being appointed Director of TIB, Sören led the “Enterprise Information Systems (EIS)” department at Fraunhofer Institute for Intelligent Analysis and Information Systems IAIS and held a Chair in Enterprise Information Systems at the University of Bonn. After studying Mathematics and Computer Science at Hagen, Dresden and Yekaterinburg, Sören earned a PhD in Computer Science at Leipzig University. This was followed by posts as post-doctoral researcher at the University of Pennsylvania and at Leipzig University, where he led the “Agile Knowledge Engineering and Semantic Web” (AKSW) research group."@en .
 <http://aksw.org/SoerenAuer> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Sören Auer ist Professor für Data Science and Digital Libraries an der Gottfried Wilhelm Leibniz Universität Hannover und Direktor der Technischen Informationsbibliothek (TIB) in Hannover. Vor seiner Ernennung zum Direktor der TIB leitete Auer die Abteilung \"Enterprise Information Systems (EIS)\" am Fraunhofer-Institut für Intelligente Analyse- und Informationssysteme IAIS und hatte eine Professur für Enterprise Information Systems an der Universität Bonn inne. Nach dem Studium der Mathematik und Informatik in Hagen, Dresden und Jekaterinburg promovierte Sören Auer in Informatik an der Universität Leipzig. Es folgten Stationen als Post-Doc an der University of Pennsylvania und an der Universität Leipzig, wo er die Forschungsgruppe \"Agile Knowledge Engineering and Semantic Web\" (AKSW) leitete."@de .
-<http://aksw.org/ThomasRiechert> <http://purl.org/dc/terms/description> "[Institut für Informatik/HTWK Leipzig](https://www.htwk-leipzig.de/)"@de .
-<http://aksw.org/ThomasRiechert> <http://purl.org/dc/terms/description> "[Institut für Informatik/HTWK Leipzig](https://www.htwk-leipzig.de/)"@en .
 <http://aksw.org/ThomasRiechert> <http://schema.org/affiliation> <https://htwk-leipzig.de/> .
+<http://aksw.org/ThomasRiechert> <http://schema.org/affiliation> <https://htwk-leipzig.de> .
 <http://aksw.org/ThomasRiechert> <http://schema.org/memberOf> <http://aksw.org/Group> .
 <http://aksw.org/ThomasRiechert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/ThomasRiechert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -252,9 +251,8 @@
 <https://dataweek.de/#AlexanderSmalla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AlexanderSmalla> <http://xmlns.com/foaf/0.1/homepage> <https://www.xing.com/profile/Alexander_Smalla> .
 <https://dataweek.de/#AlexanderSmalla> <http://xmlns.com/foaf/0.1/name> "Alexander Smalla " .
-<https://dataweek.de/#AndreasBoth> <http://purl.org/dc/terms/description> "[HTWK Leipzig](https://htwk-leipzig.de/)"@de .
-<https://dataweek.de/#AndreasBoth> <http://purl.org/dc/terms/description> "[HTWK Leipzig](https://htwk-leipzig.de/)"@en .
 <https://dataweek.de/#AndreasBoth> <http://schema.org/affiliation> <https://htwk-leipzig.de/> .
+<https://dataweek.de/#AndreasBoth> <http://schema.org/affiliation> <https://htwk-leipzig.de> .
 <https://dataweek.de/#AndreasBoth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AndreasBoth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AndreasBoth> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Andreas Both" .
@@ -449,6 +447,11 @@
 <https://dataweek.de/#KlausDaessler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#KlausDaessler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#KlausDaessler> <http://xmlns.com/foaf/0.1/name> "Klaus Däßler" .
+<https://dataweek.de/#LennartCarstensBehrens> <http://schema.org/affiliation> <https://htwk-leipzig.de> .
+<https://dataweek.de/#LennartCarstensBehrens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#LennartCarstensBehrens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#LennartCarstensBehrens> <http://xmlns.com/foaf/0.1/name> "Lennart Carstens-Behrens" .
+<https://dataweek.de/#LennartCarstensBehrens> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Studiert Informatik im Bachelor-Studiengang an der Hochschule für Technik, Wirtschaft und Kultur Leipzig und ist Preisträger beim InformatiCup2022 der Gesellschaft für Informatik e.V.."@en .
 <https://dataweek.de/#LisaWenige> <http://purl.org/dc/terms/description> "City of Leipzig/Statistics and Elections, OpenData"@en .
 <https://dataweek.de/#LisaWenige> <http://purl.org/dc/terms/description> "Stadt Leipzig/Statistik und Wahlen, OpenData"@de .
 <https://dataweek.de/#LisaWenige> <http://schema.org/affiliation> <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> .
@@ -597,6 +600,11 @@
 <https://dataweek.de/#OliverGraef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#OliverGraef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#OliverGraef> <http://xmlns.com/foaf/0.1/name> "Oliver Graef" .
+<https://dataweek.de/#OliverHerrmann> <http://schema.org/affiliation> <https://htwk-leipzig.de> .
+<https://dataweek.de/#OliverHerrmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#OliverHerrmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#OliverHerrmann> <http://xmlns.com/foaf/0.1/name> "Oliver Herrmann" .
+<https://dataweek.de/#OliverHerrmann> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Studiert Informatik im Bachelor-Studiengang an der Hochschule für Technik, Wirtschaft und Kultur Leipzig und ist Preisträger beim InformatiCup2022 der Gesellschaft für Informatik e.V.."@en .
 <https://dataweek.de/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.leipzig.de/> .
 <https://dataweek.de/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://connectedurbantwins.de/> .
 <https://dataweek.de/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
@@ -1317,6 +1325,7 @@
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-19> <http://purl.org/dc/terms/title> "ScaDs.AI Living Lab Tour"@de .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-19> <http://purl.org/dc/terms/title> "ScaDs.AI Living Lab Tour"@en .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-19> <http://schema.org/endTime> "17:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-19> <http://schema.org/location> <https://dataweek.de/venue#LivingLab> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-19> <http://schema.org/startTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-1> <http://purl.org/dc/terms/title> "Meet and greet"@de .
@@ -1328,8 +1337,7 @@
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-20> <http://purl.org/dc/terms/description> "Peter Pane, Katharinenstraße 12, 04109 Leipzig"@en .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-20> <http://purl.org/dc/terms/title> "Informal meeting in a nearby pub"@de .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-20> <http://purl.org/dc/terms/title> "Informal meeting in a nearby pub"@en .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-20> <http://schema.org/location> <https://dataweek.de/venue#LivingLab> .
-<https://dataweek.de/dbpedia-day-2022/#programm-talk-20> <http://schema.org/startTime> "17:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/dbpedia-day-2022/#programm-talk-20> <http://schema.org/startTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-2> <http://purl.org/dc/terms/title> "Opening and Invited talk"@de .
 <https://dataweek.de/dbpedia-day-2022/#programm-talk-2> <http://purl.org/dc/terms/title> "Opening and Invited talk"@en .
@@ -1399,54 +1407,77 @@
 <https://dataweek.de/gi-leipzig-2022/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/ThomasRiechert> .
 <https://dataweek.de/gi-leipzig-2022/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam"@de .
 <https://dataweek.de/gi-leipzig-2022/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organization Team"@en .
-<https://dataweek.de/gi-leipzig-2022/#programm-session-1> <http://purl.org/dc/terms/title> "Talk 1"@de .
-<https://dataweek.de/gi-leipzig-2022/#programm-session-1> <http://purl.org/dc/terms/title> "Talk 1"@en .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-1> <http://purl.org/dc/terms/title> "Aktuelle Aktivitäten der Gesellschaft für Informatik"@de .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-1> <http://purl.org/dc/terms/title> "Gesellschaft für Informatik e.V. current activities"@en .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-1> <http://schema.org/endTime> "09:35:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-1> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-1> <http://schema.org/startTime> "09:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/gi-leipzig-2022/#programm-session-2> <http://purl.org/dc/terms/title> "Talk 2"@de .
-<https://dataweek.de/gi-leipzig-2022/#programm-session-2> <http://purl.org/dc/terms/title> "Talk 2"@en .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-2> <http://purl.org/dc/terms/description> "<p>Der InformatiCup Wettbewerb der Gesellschaft für Informatik e.V. fordert Studierende heraus, sich eigenständig in neue Technologien einzuarbeiten und aus dem erarbeiteten Wissen in Teamarbeit Problemlösungen zu entwickeln. Die Aufgabenstellung erfordert theoretisches Wissen, die Befähigung zu wissenschaftlichen Problemlösungen sowie moderne Präsentationstechniken.</p><p>Im Rahmen des InformatiCups entwickelten Herr Herrmann und Herr Carstens-Behrens eine Software für die Berechnung von optimalen Fahrplänen, die die Gesamtverspätung aller Fahrgäste minimiert und somit insgesamt die Zufriedenheit der Kunden mit dem Schienenverkehr verbessert. Im Rahmen der Endrunde am 2. Mai 2022 präsentierten beide gemeinsam ihre Lösung und stellten sich den Fragen der Fachjury. Im Ergebnis erreichte das Team den zweiten Platz von 30 Einreichungen zum Wettbewerb. </p><a href=\"https://informaticup.github.io/\">https://informaticup.github.io</a>"@de .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-2> <http://purl.org/dc/terms/description> "<p>The InformatiCup Contest of the Gesellschaft für Informatik e.V. challenges students to independently learn new technologies and to develop solutions to problems from the gained knowledge in teamwork. The task requires theoretical knowledge, the ability to solve scientific problems and modern presentation techniques.</p><p>In the InformatiCup, Oliver Herrmann and Lennart Carstens-Behrens from HTWK Leipzig developed a software for calculating optimal timetables that minimises the overall delay of all passengers and thus improves the overall satisfaction of customers with rail transport. During the final on 2 May 2022, the team presented their solution and answered the questions of the expert jury. As a result, the team achieved second place out of 30 entries to the competition. </p><a href=\"https://informaticup.github.io/\">https://informaticup.github.io</a>"@en .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-2> <http://purl.org/dc/terms/title> "Berechnung von optimalen Fahrplänen, die die Gesamtverspätung aller Fahrgäste (InformatiCup2022 Preisträger) "@de .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-2> <http://purl.org/dc/terms/title> "Calculating optimal timetables that minimises the overall delay of all passengers (InformatiCup2022)"@en .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-2> <http://schema.org/endTime> "09:55:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#LennartCarstensBehrens> .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#OliverHerrmann> .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-2> <http://schema.org/startTime> "09:35:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/gi-leipzig-2022/#programm-session-3> <http://purl.org/dc/terms/title> "ggf. Talk 3"@de .
-<https://dataweek.de/gi-leipzig-2022/#programm-session-3> <http://purl.org/dc/terms/title> "maybe Talk 3"@en .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-3> <http://purl.org/dc/terms/description> "Diese Zeitfenster stehen den Mitglieder und Interessenten offen, um aktuelle Diskussionen aus den Fachgruppen zu präsentieren und zu diskutieren."@de .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-3> <http://purl.org/dc/terms/description> "These are time slots that are open for members and interested people to present and discuss current discussions from the expert groups."@en .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-3> <http://purl.org/dc/terms/title> "Kurzpräsentationen von Mitglieder"@de .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-3> <http://purl.org/dc/terms/title> "Minute talks  from members"@en .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-3> <http://schema.org/endTime> "10:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-3> <http://schema.org/startTime> "09:55:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/gi-leipzig-2022/#programm-session-4> <http://purl.org/dc/terms/title> "Talk 4"@de .
-<https://dataweek.de/gi-leipzig-2022/#programm-session-4> <http://purl.org/dc/terms/title> "Talk 4"@en .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-4> <http://purl.org/dc/terms/title> "Kurzpräsentationen von Mitglieder"@de .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-4> <http://purl.org/dc/terms/title> "Minute talks  from members"@en .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-4> <http://schema.org/endTime> "11:05:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-4> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-4> <http://schema.org/startTime> "10:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/gi-leipzig-2022/#programm-session-5> <http://purl.org/dc/terms/title> "Talk 5"@de .
-<https://dataweek.de/gi-leipzig-2022/#programm-session-5> <http://purl.org/dc/terms/title> "Talk 5"@en .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-5> <http://purl.org/dc/terms/description> "Im Rahmen der sächsischen Digitalisierungsstrategie wirkt die Gesellschaft für Informatik durch die Vertretung im Beirat für Digitale Wertschöpfung, die Möglichkeit direkt Einfluss auf diese zu nehmen. Der Beirat trifft sich in regelmäßigen Abständen, das zweite Mal am 12.07.2022. Thomas Riechert berichtet über die aktuellen Aktivitäten und trägt relevante aktuelle Diskussionen in die Gruppe. https://www.digitales.sachsen.de/index.html"@de .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-5> <http://purl.org/dc/terms/description> "Within the digitization strategy in Saxony, the Gesellschaft für Informatik has the opportunity to directly influence the strategy through its representation on the advisory board Beirat für Digitale Wertschöpfung. The advisory board meets at regular intervals, the second meeting will be held on 12.07.2022. Thomas Riechert reports on current activities and brings relevant discussions to the group. https://www.digitales.sachsen.de/index.html"@en .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-5> <http://purl.org/dc/terms/title> "Digitalisierungsstrategie in Sachsen"@de .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-5> <http://purl.org/dc/terms/title> "Digitisation strategy in Saxony"@en .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-5> <http://schema.org/endTime> "11:25:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-5> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-5> <http://schema.org/performer> <http://aksw.org/ThomasRiechert> .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-5> <http://schema.org/startTime> "11:05:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-6> <http://purl.org/dc/terms/title> "Panel: Was verhindert das Wachstum in der Industrie? Was muss sich ändern, um die Informatik-Themen in unserer Region?"@de .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-6> <http://purl.org/dc/terms/title> "Panel: What is preventing growth in the industry? What needs to change in order to promote informatics topics in our region?"@en .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-6> <http://schema.org/endTime> "12:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-6> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-6> <http://schema.org/startTime> "11:25:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-7> <http://purl.org/dc/terms/title> "Abschluss"@de .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-7> <http://purl.org/dc/terms/title> "Closing"@en .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-7> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/gi-leipzig-2022/#programm-session-7> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-7> <http://schema.org/startTime> "12:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/gi-leipzig-2022/#programm-session-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/gi-leipzig-2022/#programm-talk-10> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
 <https://dataweek.de/gi-leipzig-2022/#programm-talk-10> <http://purl.org/dc/terms/title> "Lunch Break"@en .
 <https://dataweek.de/gi-leipzig-2022/#programm-talk-10> <http://purl.org/dc/terms/title> "Mittagessen "@de .
 <https://dataweek.de/gi-leipzig-2022/#programm-talk-10> <http://schema.org/endTime> "13:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/gi-leipzig-2022/#programm-talk-10> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
 <https://dataweek.de/gi-leipzig-2022/#programm-talk-10> <http://schema.org/startTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/gi-leipzig-2022/#programm-talk-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/gi-leipzig-2022/#programm-talk-1> <http://purl.org/dc/terms/title> "Begrüßung"@de .
 <https://dataweek.de/gi-leipzig-2022/#programm-talk-1> <http://purl.org/dc/terms/title> "Welcome"@en .
 <https://dataweek.de/gi-leipzig-2022/#programm-talk-1> <http://schema.org/endTime> "09:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/gi-leipzig-2022/#programm-talk-1> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://dataweek.de/gi-leipzig-2022/#programm-talk-1> <http://schema.org/performer> <http://aksw.org/ThomasRiechert> .
+<https://dataweek.de/gi-leipzig-2022/#programm-talk-1> <http://schema.org/performer> <https://dataweek.de/#AndreasBoth> .
 <https://dataweek.de/gi-leipzig-2022/#programm-talk-1> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/gi-leipzig-2022/#programm-talk-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/gi-leipzig-2022/#programm-talk-5> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
 <https://dataweek.de/gi-leipzig-2022/#programm-talk-5> <http://purl.org/dc/terms/title> "Coffee break"@en .
 <https://dataweek.de/gi-leipzig-2022/#programm-talk-5> <http://purl.org/dc/terms/title> "Kaffeepause"@de .
 <https://dataweek.de/gi-leipzig-2022/#programm-talk-5> <http://schema.org/endTime> "10:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/gi-leipzig-2022/#programm-talk-5> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
 <https://dataweek.de/gi-leipzig-2022/#programm-talk-5> <http://schema.org/startTime> "10:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/gi-leipzig-2022/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/gi-leipzig-2022/> <http://schema.org/date> "2022-07-08"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2090,6 +2121,11 @@
 <https://htwk-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "HTWK Leipzig" .
 <https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://htwk-leipzig.de/> .
 <https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/logo-htwk_v.svg" .
+<https://htwk-leipzig.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://htwk-leipzig.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://htwk-leipzig.de> <http://www.w3.org/2000/01/rdf-schema#label> "Hochschule für Technik, Wirtschaft und Kultur Leipzig"@de .
+<https://htwk-leipzig.de> <http://www.w3.org/2000/01/rdf-schema#label> "Leipzig University of Applied Sciences (HTWK)"@en .
+<https://htwk-leipzig.de> <http://xmlns.com/foaf/0.1/homepage> <https://htwk-leipzig.de> .
 <https://iakleipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://iakleipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://iakleipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "IAK Agrar Consulting GmbH"@de .
