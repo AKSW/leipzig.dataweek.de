@@ -161,7 +161,6 @@
 <http://aksw.org/SoerenAuer> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Sören Auer is Professor for Data Science and Digital Libraries at the Gottfried Wilhelm Leibniz University Hannover and Director of the Technische Informationsbibliothek (TIB) in Hannover. Before being appointed Director of TIB, Sören led the “Enterprise Information Systems (EIS)” department at Fraunhofer Institute for Intelligent Analysis and Information Systems IAIS and held a Chair in Enterprise Information Systems at the University of Bonn. After studying Mathematics and Computer Science at Hagen, Dresden and Yekaterinburg, Sören earned a PhD in Computer Science at Leipzig University. This was followed by posts as post-doctoral researcher at the University of Pennsylvania and at Leipzig University, where he led the “Agile Knowledge Engineering and Semantic Web” (AKSW) research group."@en .
 <http://aksw.org/SoerenAuer> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Sören Auer ist Professor für Data Science and Digital Libraries an der Gottfried Wilhelm Leibniz Universität Hannover und Direktor der Technischen Informationsbibliothek (TIB) in Hannover. Vor seiner Ernennung zum Direktor der TIB leitete Auer die Abteilung \"Enterprise Information Systems (EIS)\" am Fraunhofer-Institut für Intelligente Analyse- und Informationssysteme IAIS und hatte eine Professur für Enterprise Information Systems an der Universität Bonn inne. Nach dem Studium der Mathematik und Informatik in Hagen, Dresden und Jekaterinburg promovierte Sören Auer in Informatik an der Universität Leipzig. Es folgten Stationen als Post-Doc an der University of Pennsylvania und an der Universität Leipzig, wo er die Forschungsgruppe \"Agile Knowledge Engineering and Semantic Web\" (AKSW) leitete."@de .
 <http://aksw.org/ThomasRiechert> <http://schema.org/affiliation> <https://htwk-leipzig.de/> .
-<http://aksw.org/ThomasRiechert> <http://schema.org/affiliation> <https://htwk-leipzig.de> .
 <http://aksw.org/ThomasRiechert> <http://schema.org/memberOf> <http://aksw.org/Group> .
 <http://aksw.org/ThomasRiechert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/ThomasRiechert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -447,7 +446,7 @@
 <https://dataweek.de/#KlausDaessler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#KlausDaessler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#KlausDaessler> <http://xmlns.com/foaf/0.1/name> "Klaus Däßler" .
-<https://dataweek.de/#LennartCarstensBehrens> <http://schema.org/affiliation> <https://htwk-leipzig.de> .
+<https://dataweek.de/#LennartCarstensBehrens> <http://schema.org/affiliation> <https://htwk-leipzig.de/> .
 <https://dataweek.de/#LennartCarstensBehrens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#LennartCarstensBehrens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#LennartCarstensBehrens> <http://xmlns.com/foaf/0.1/name> "Lennart Carstens-Behrens" .
@@ -600,7 +599,7 @@
 <https://dataweek.de/#OliverGraef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#OliverGraef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#OliverGraef> <http://xmlns.com/foaf/0.1/name> "Oliver Graef" .
-<https://dataweek.de/#OliverHerrmann> <http://schema.org/affiliation> <https://htwk-leipzig.de> .
+<https://dataweek.de/#OliverHerrmann> <http://schema.org/affiliation> <https://htwk-leipzig.de/> .
 <https://dataweek.de/#OliverHerrmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#OliverHerrmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#OliverHerrmann> <http://xmlns.com/foaf/0.1/name> "Oliver Herrmann" .
@@ -2118,14 +2117,13 @@
 <https://github.com/ManishBhandariV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://godigital-kongress.de/erik-wende/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://htwk-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://htwk-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://htwk-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://htwk-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "HTWK Leipzig" .
+<https://htwk-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Hochschule für Technik, Wirtschaft und Kultur Leipzig"@de .
+<https://htwk-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Leipzig University of Applied Sciences (HTWK)"@en .
 <https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://htwk-leipzig.de/> .
 <https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/logo-htwk_v.svg" .
-<https://htwk-leipzig.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://htwk-leipzig.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-<https://htwk-leipzig.de> <http://www.w3.org/2000/01/rdf-schema#label> "Hochschule für Technik, Wirtschaft und Kultur Leipzig"@de .
-<https://htwk-leipzig.de> <http://www.w3.org/2000/01/rdf-schema#label> "Leipzig University of Applied Sciences (HTWK)"@en .
-<https://htwk-leipzig.de> <http://xmlns.com/foaf/0.1/homepage> <https://htwk-leipzig.de> .
 <https://iakleipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://iakleipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://iakleipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "IAK Agrar Consulting GmbH"@de .
