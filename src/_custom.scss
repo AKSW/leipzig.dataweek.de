@@ -135,7 +135,7 @@ a:hover {
   border-color: $color_blue;
 }
 
-.btn-primary:hover, .btn-primary:active, .btn-primary:not(:disabled):not(.disabled):active {
+.btn-primary:hover, .btn-primary:active, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:focus {
   background-color: $color_lightblue;
   border-color: $color_blue;
 }
