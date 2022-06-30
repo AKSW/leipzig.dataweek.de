@@ -8,7 +8,9 @@
 <p><a href="{{ "venue" | relativize_url }}"><button class="btn btn-primary m-auto">Raumübersicht & Anfahrt</button></a></p>
 {% endif %}
 
+<p>
 {% include address.html location=location %}
+</p>
 
 {% assign mapboxDiff = 0.00223964452743 %}
 {% assign long = location | rdf_property: "geo:long" %}

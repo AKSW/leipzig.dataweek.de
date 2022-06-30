@@ -121,6 +121,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.btn {
+  border-radius: 0em;
+}
+
 .btn-success {
   background-color: $color_highlight;
   border-color: $color_highlight;
@@ -131,7 +135,7 @@ a:hover {
   border-color: $color_blue;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:active, .btn-primary:not(:disabled):not(.disabled):active {
   background-color: $color_lightblue;
   border-color: $color_blue;
 }
