@@ -3,20 +3,14 @@
 <http://aksw.org/Group> <http://www.w3.org/2000/01/rdf-schema#label> "AKSW Research Group" .
 <http://aksw.org/Group> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/> .
 <http://aksw.org/Group> <http://xmlns.com/foaf/0.1/logo> "/images/partner/AKSW_Logo.svg" .
-<http://aksw.org/JuliaHolze> <http://schema.org/affiliation> <https://dbpedia.org/> .
 <http://aksw.org/JuliaHolze> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/JuliaHolze> <http://schema.org/memberOf> <https://dbpedia.org/> .
 <http://aksw.org/JuliaHolze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/JuliaHolze> <http://www.w3.org/2004/02/skos/core#prefLabel> "Julia Holze" .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/depiction> "/images/people/JuliaHolze.png" .
-<http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/JuliaHolze> .
-<http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/name> "Julia Holze" .
 <http://aksw.org/MichaelMartin> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/MichaelMartin> <http://schema.org/memberOf> <http://aksw.org/Group> .
 <http://aksw.org/MichaelMartin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/MichaelMartin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Michael Martin" .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/depiction> "/images/people/MichaelMartin.png" .
-<http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/MichaelMartin> .
-<http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/name> "Michael Martin" .
 <http://aksw.org/MilanDojchinovski> <http://schema.org/affiliation> <https://dbpedia.org/> .
 <http://aksw.org/MilanDojchinovski> <http://schema.org/affiliation> <https://www.cvut.cz/> .
 <http://aksw.org/MilanDojchinovski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -29,8 +23,9 @@
 <http://aksw.org/SabineGruenderFahrer> <http://schema.org/memberOf> <http://aksw.org/Group> .
 <http://aksw.org/SabineGruenderFahrer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SabineGruenderFahrer> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SabineGruenderFahrer.jpg" .
-<http://aksw.org/SebastianHellmann> <http://schema.org/affiliation> <https://dbpedia.org/> .
 <http://aksw.org/SebastianHellmann> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/SebastianHellmann> <http://schema.org/memberOf> <http://aksw.org/Group> .
+<http://aksw.org/SebastianHellmann> <http://schema.org/memberOf> <https://dbpedia.org/> .
 <http://aksw.org/SebastianHellmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/SebastianHellmann> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SebastianHellmann.png" .
 <http://aksw.org/SebastianTramp> <http://schema.org/affiliation> <https://www.eccenca.com/> .

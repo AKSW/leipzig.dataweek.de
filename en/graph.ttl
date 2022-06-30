@@ -21,21 +21,16 @@ aksw:Group
     foaf:logo "/images/partner/AKSW_Logo.svg" .
 
 aksw:JuliaHolze
-    schema:affiliation <https://dbpedia.org/>, <https://infai.org/> ;
+    schema:affiliation <https://infai.org/> ;
+    schema:memberOf <https://dbpedia.org/> ;
     a foaf:Person ;
-    skos:prefLabel "Julia Holze" ;
-    foaf:depiction "/images/people/JuliaHolze.png" ;
-    foaf:homepage aksw:JuliaHolze ;
-    foaf:name "Julia Holze" .
+    foaf:depiction "/images/people/JuliaHolze.png" .
 
 aksw:MichaelMartin
     schema:affiliation <https://infai.org/> ;
     schema:memberOf aksw:Group ;
     a foaf:Person ;
-    skos:prefLabel "Dr. Michael Martin" ;
-    foaf:depiction "/images/people/MichaelMartin.png" ;
-    foaf:homepage aksw:MichaelMartin ;
-    foaf:name "Michael Martin" .
+    foaf:depiction "/images/people/MichaelMartin.png" .
 
 aksw:MilanDojchinovski
     schema:affiliation <https://dbpedia.org/>, <https://www.cvut.cz/> ;
@@ -55,7 +50,8 @@ aksw:SabineGruenderFahrer
     foaf:depiction "/images/people/SabineGruenderFahrer.jpg" .
 
 aksw:SebastianHellmann
-    schema:affiliation <https://dbpedia.org/>, <https://infai.org/> ;
+    schema:affiliation <https://infai.org/> ;
+    schema:memberOf aksw:Group, <https://dbpedia.org/> ;
     a foaf:Person ;
     foaf:depiction "/images/people/SebastianHellmann.png" .
 
