@@ -21,8 +21,7 @@ select distinct ?location ?title ?description {
 {{ location_row.location | rdf_property: "dct:description", site.language }}
 {% endfor %}
 
-{% assign img = "venue/floorplan_" | append: site.language | append: ".png" %}
-<a href="{{ img | relativize_url }}">{% include img.html src=img alt="Floorplan/Raumplan" class='w100 padded' %}</a>
+<a href="{{ "venue/floorplan.png" | relativize_url }}">{% include img.html src="venue/floorplan.png" alt="Floorplan/Raumplan" class='w100 padded' %}</a>
 
 
 {% if site.language == 'de' %}
