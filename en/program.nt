@@ -138,8 +138,6 @@
 <http://aksw.org/SoerenAuer> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <http://aksw.org/SoerenAuer> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Sören Auer is Professor for Data Science and Digital Libraries at the Gottfried Wilhelm Leibniz University Hannover and Director of the Technische Informationsbibliothek (TIB) in Hannover. Before being appointed Director of TIB, Sören led the “Enterprise Information Systems (EIS)” department at Fraunhofer Institute for Intelligent Analysis and Information Systems IAIS and held a Chair in Enterprise Information Systems at the University of Bonn. After studying Mathematics and Computer Science at Hagen, Dresden and Yekaterinburg, Sören earned a PhD in Computer Science at Leipzig University. This was followed by posts as post-doctoral researcher at the University of Pennsylvania and at Leipzig University, where he led the “Agile Knowledge Engineering and Semantic Web” (AKSW) research group."@en .
 <http://aksw.org/SoerenAuer> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Sören Auer ist Professor für Data Science and Digital Libraries an der Gottfried Wilhelm Leibniz Universität Hannover und Direktor der Technischen Informationsbibliothek (TIB) in Hannover. Vor seiner Ernennung zum Direktor der TIB leitete Auer die Abteilung \"Enterprise Information Systems (EIS)\" am Fraunhofer-Institut für Intelligente Analyse- und Informationssysteme IAIS und hatte eine Professur für Enterprise Information Systems an der Universität Bonn inne. Nach dem Studium der Mathematik und Informatik in Hagen, Dresden und Jekaterinburg promovierte Sören Auer in Informatik an der Universität Leipzig. Es folgten Stationen als Post-Doc an der University of Pennsylvania und an der Universität Leipzig, wo er die Forschungsgruppe \"Agile Knowledge Engineering and Semantic Web\" (AKSW) leitete."@de .
-<http://aksw.org/ThomasRiechert> <http://purl.org/dc/terms/description> "[Institut für Informatik/HTWK Leipzig](https://www.htwk-leipzig.de/)"@de .
-<http://aksw.org/ThomasRiechert> <http://purl.org/dc/terms/description> "[Institut für Informatik/HTWK Leipzig](https://www.htwk-leipzig.de/)"@en .
 <http://aksw.org/ThomasRiechert> <http://schema.org/affiliation> <https://htwk-leipzig.de> .
 <http://aksw.org/ThomasRiechert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/ThomasRiechert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -210,8 +208,7 @@
 <https://dataweek.de/#AlexanderSmalla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AlexanderSmalla> <http://xmlns.com/foaf/0.1/homepage> <https://www.xing.com/profile/Alexander_Smalla> .
 <https://dataweek.de/#AlexanderSmalla> <http://xmlns.com/foaf/0.1/name> "Alexander Smalla " .
-<https://dataweek.de/#AndreasBoth> <http://purl.org/dc/terms/description> "[HTWK Leipzig](https://htwk-leipzig.de/)"@de .
-<https://dataweek.de/#AndreasBoth> <http://purl.org/dc/terms/description> "[HTWK Leipzig](https://htwk-leipzig.de/)"@en .
+<https://dataweek.de/#AndreasBoth> <http://schema.org/affiliation> <https://htwk-leipzig.de> .
 <https://dataweek.de/#AndreasBoth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AndreasBoth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AndreasBoth> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Andreas Both" .
