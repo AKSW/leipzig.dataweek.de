@@ -3,6 +3,16 @@ layout: subpage
 ---
 {% assign rootResource = site.rootResource | rdf_get %}
 
+
+<p></p>
+<p>
+  {% if site.language == 'en' %}
+  <a href="./people"><button class="btn btn-primary m-auto">All Speakers</button></a>
+  {% else %}
+  <a href="./people"><button class="btn btn-primary m-auto">Alle Sprecher:innen</button></a>
+  {% endif %}
+</p>
+
 {% capture subEventQueryTpl %}
 select ?event ?date ?label {
   ?resourceUri schema:subEvent ?event .

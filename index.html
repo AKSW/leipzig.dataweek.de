@@ -4,9 +4,6 @@ layout: index
 
 {% if site.language == 'en' %}
 {% capture start %}
-<p>
-<a href="./stream"><button class="btn btn-warning m-auto">Live Stream</button></a>
-</p>
 
 ## What is Data Week Leipzig?
 
@@ -28,10 +25,6 @@ A new networking event and platform will be created with the Data Week 2022 in L
 {% else %}
 {% capture start %}
 
-<p>
-<a href="./stream"><button class="btn btn-warning m-auto">Live Stream</button></a>
-</p>
-
 ## Was ist die Data Week Leipzig?
 
 Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Die Data Week Leipzig schafft erstmals eine Austausch- und Netzwerkplattform zu den Themen Daten und Künstliche Intelligenz im Neuen Rathaus in Leipzig. Durch verschiedene Veranstaltungsformate und Keynote Präsentationen werden politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf diese beiden Themen dargestellt. Des Weiteren wird das Konferenzprogramm durch verschiedene Workshops und eine Podiumsdiskussion ergänzt.
@@ -50,4 +43,10 @@ Eine neue Netzwerk- und Austauschplattform soll mit der Data Week 2022 in Leipzi
 
 {% endcapture %}
 {% endif %}
+
+<p></p>
+<p>
+<a href="./stream"><button class="btn btn-warning m-auto">Live Stream</button></a>
+</p>
+
 {{ start | markdownify }}
