@@ -7,9 +7,9 @@ layout: subpage
 <p></p>
 <p>
   {% if site.language == 'en' %}
-  <a href="./people"><button class="btn btn-primary m-auto">All Speakers</button></a>
+  <a href="{{"./people" | relativize_url}}"><button class="btn btn-primary m-auto">All Speakers</button></a>
   {% else %}
-  <a href="./people"><button class="btn btn-primary m-auto">Alle Sprecher:innen</button></a>
+  <a href="{{"./people" | relativize_url}}"><button class="btn btn-primary m-auto">Alle Sprecher:innen</button></a>
   {% endif %}
 </p>
 
