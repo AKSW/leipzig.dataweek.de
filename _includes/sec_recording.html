@@ -1,0 +1,18 @@
+{% assign parent_event = include.event %}
+{% assign showdate = true %}
+
+{% assign records = parent_event | rdf_property: "schema:recordedIn", nil, true %}
+{% if records.first %}
+{% if site.language == 'en' %}
+<h3>Recordings</h3>
+{% else %}
+<h3>Aufzeichnungen</h3>
+{% endif %}
+<ul>
+{% endif %}
+{% for record in records %}
+<li><a href="{{record.iri}}">{% include label.html iri = record.iri %}</a></li>
+{% endfor %}
+{% if records.first %}
+</ul>
+{% endif %}
