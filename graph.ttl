@@ -552,6 +552,7 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
 """@de ;
     schema:date "2022-07-04"^^xsd:date ;
     schema:organizer <https://dataweek.de/openingday/#Team> ;
+    schema:recordedIn <https://www.youtube.com/watch?v=FupVhEO7Tzc>, <https://www.youtube.com/watch?v=RhZ5lsL69eU> ;
     schema:slogan "Daten (be)fördern, verstehen und anwenden"@de, "Promote, Appreciate and Apply the Data"@en ;
     a schema:Event, foaf:Document ;
     rdfs:label "Data Week Eröffnung"@de, "Data Week Opening Day"@en .
@@ -659,4 +660,12 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
     rdfs:label "Vistex, Inc." ;
     foaf:homepage <https://www.vistex.com/> ;
     foaf:logo "/images/partner/Vistex.jpg" .
+
+<https://www.youtube.com/watch?v=FupVhEO7Tzc>
+    a schema:CreativeWork ;
+    rdfs:label "Opening Day (Sitzungssaal)" .
+
+<https://www.youtube.com/watch?v=RhZ5lsL69eU>
+    a schema:CreativeWork ;
+    rdfs:label "Opening Day (Ratsplenarsaal)" .
 
