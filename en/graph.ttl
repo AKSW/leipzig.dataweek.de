@@ -281,6 +281,7 @@ We invite contributions of novel results and ongoing work as well as position pa
     schema:date "2022-07-06"^^xsd:date ;
     schema:logo <https://dataweek.de/d2r2-22/logo.png> ;
     schema:organizer <https://dataweek.de/d2r2-22/#Team> ;
+    schema:recordedIn <https://www.youtube.com/watch?v=NA5-XYX5Kbo> ;
     a schema:Event, foaf:Document ;
     rdfs:label "International Workshop on Data-driven Resilience Research 2022"@de, "International Workshop on Data-driven Resilience Research 2022"@en .
 
@@ -467,6 +468,7 @@ During the Data Week, the K-M-I consortium will present itself to the interested
 Im Rahmen der Data Week stellt sich das K-M-I Konsortium der interessierten Öffentlichkeit vor und gibt Einblicke in aktuelle Entwicklungen rund um KI in der Region des Mitteldeutschen Kohlereviers."""@de ;
     schema:date "2022-07-08"^^xsd:date ;
     schema:organizer <https://dataweek.de/kmi-22/#Team> ;
+    schema:recordedIn <https://www.youtube.com/watch?v=bwm4B80QVCM> ;
     a schema:Event ;
     rdfs:label "Workshop Künstlich und Menschlich Intelligent"@de, "Workshop Künstlich und Menschlich Intelligent"@en .
 
@@ -482,6 +484,7 @@ Im Rahmen der Data Week stellt sich das K-M-I Konsortium der interessierten Öff
  If you have any further questions don't hesitate to contact the organisation team."""@en ;
     schema:date "2022-07-05"^^xsd:date ;
     schema:organizer <https://dataweek.de/lswt2022/#Team> ;
+    schema:recordedIn <https://www.youtube.com/watch?v=HJmDvqTKS8A> ;
     schema:slogan "Knowledge Graphs for Organizational Data Spaces"@en, "Wissensgraphen in Unternehmen und Organisationen"@de ;
     a schema:Event, foaf:Document ;
     rdfs:label "10. Leipziger Semantic Web Tag"@de, "10th Leipzig Semantic Web Day"@en ;
@@ -552,6 +555,7 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
 """@de ;
     schema:date "2022-07-04"^^xsd:date ;
     schema:organizer <https://dataweek.de/openingday/#Team> ;
+    schema:recordedIn <https://www.youtube.com/watch?v=FupVhEO7Tzc>, <https://www.youtube.com/watch?v=RhZ5lsL69eU> ;
     schema:slogan "Daten (be)fördern, verstehen und anwenden"@de, "Promote, Appreciate and Apply the Data"@en ;
     a schema:Event, foaf:Document ;
     rdfs:label "Data Week Eröffnung"@de, "Data Week Opening Day"@en .
@@ -659,4 +663,24 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
     rdfs:label "Vistex, Inc." ;
     foaf:homepage <https://www.vistex.com/> ;
     foaf:logo "/images/partner/Vistex.jpg" .
+
+<https://www.youtube.com/watch?v=FupVhEO7Tzc>
+    a schema:CreativeWork ;
+    rdfs:label "Opening Day (Sitzungssaal)" .
+
+<https://www.youtube.com/watch?v=HJmDvqTKS8A>
+    a schema:CreativeWork ;
+    rdfs:label "10. Leipziger Semantic Web Tag (Sitzungssaal)" .
+
+<https://www.youtube.com/watch?v=NA5-XYX5Kbo>
+    a schema:CreativeWork ;
+    rdfs:label "International Workshop on Data-driven Resilience Research 2022 (Sitzungssaal)" .
+
+<https://www.youtube.com/watch?v=RhZ5lsL69eU>
+    a schema:CreativeWork ;
+    rdfs:label "Opening Day (Ratsplenarsaal)" .
+
+<https://www.youtube.com/watch?v=bwm4B80QVCM>
+    a schema:CreativeWork ;
+    rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .
 
