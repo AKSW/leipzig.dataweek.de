@@ -1,11 +1,12 @@
 version: '3'
 
 vars:
-  FILE: graph
+  PAGE_GRAPH: graph
   PROGRAM_GRAPH: program
   SITE_GRAPH: site
   CMEM: aksw.eccenca.dev
   WORKFLOW: 54b8da6d-1c3b-4c84-9268-3e456165b9ad_Programm:238cc3fb-389b-439c-9b7b-d492305db2d3_ProgrammTransformation
+  PAGE_GRAPH_IRI: https://dataweek.de/
   PROGRAM_GRAPH_IRI: https://dataweek.de/programm
   GIT_USER_NAME: DataWeek CMEM Update Bot 🤖
   GIT_USER_EMAIL: dw-cmem-update-bot@example.org
@@ -40,6 +41,7 @@ tasks:
 
   ci_data_sync:
     - task: get_program
+    - task: upload_page
     - task: sync_sources_to_site
     - task: commit_and_push_data
 
@@ -82,15 +84,18 @@ tasks:
       jekyll/builder jekyll build -d {{.TARGET}}
 
   sync_clean:
-    - rapper -i turtle -o ntriples {{.FILE}}.ttl | LC_ALL=C sort -u > {{.FILE}}.nt
+    - rapper -i turtle -o ntriples {{.PAGE_GRAPH}}.ttl | LC_ALL=C sort -u > {{.PAGE_GRAPH}}.nt
     - task: sync_sources_to_site
 
   sync_sources_to_site:
-    - cat {{.FILE}}.nt {{.PROGRAM_GRAPH}}.nt | LC_ALL=C sort -u > {{.SITE_GRAPH}}.nt
+    - cat {{.PAGE_GRAPH}}.nt {{.PROGRAM_GRAPH}}.nt | LC_ALL=C sort -u > {{.SITE_GRAPH}}.nt
 
   get_program:
     - '{{.CMEMC}} workflow execute --wait {{.WORKFLOW}}'
     - '{{.CMEMC}} graph export {{.PROGRAM_GRAPH_IRI}} | LC_ALL=C sort -u > {{.PROGRAM_GRAPH}}.nt'
+
+  upload_page:
+    - '{{.CMEMC}} graph import --replace {{.PAGE_GRAPH}}.ttl {{.PAGE_GRAPH_IRI}}'
 
   commit_and_push_data:
     - |
@@ -117,7 +122,7 @@ tasks:
         -f 'xmlns:aksw="http://aksw.org/"' \
         -f 'xmlns:dw="https://dataweek.de/#"' \
         -f 'xmlns:gnd="https://d-nb.info/standards/elementset/gnd#"' \
-        {{.FILE}}.ttl | sponge {{.FILE}}.ttl
+        {{.PAGE_GRAPH}}.ttl | sponge {{.PAGE_GRAPH}}.ttl
 
   install_javascript_dependencies:
     - npm install
