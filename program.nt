@@ -19,8 +19,9 @@
 <http://aksw.org/ClausStadler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/ClausStadler> .
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/name> "Claus Stadler" .
-<http://aksw.org/DenisStreitmatter> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association, Institut für Angewandte Informatik"@de .
-<http://aksw.org/DenisStreitmatter> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association, Institute for Applied Informatics"@en .
+<http://aksw.org/DenisStreitmatter> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association"@de .
+<http://aksw.org/DenisStreitmatter> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association"@en .
+<http://aksw.org/DenisStreitmatter> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/DenisStreitmatter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/DenisStreitmatter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/DenisStreitmatter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -149,15 +150,13 @@
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/name> "Thomas Riechert" .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <http://www.andreasboth.de/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://aksw.org/KirillBulert> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik e.V."@de .
-<https://aksw.org/KirillBulert> <http://purl.org/dc/terms/description> "Institute for Applied Informatics e.V."@en .
+<https://aksw.org/KirillBulert> <http://schema.org/affiliation> <https://infai.org/> .
 <https://aksw.org/KirillBulert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://aksw.org/KirillBulert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://aksw.org/KirillBulert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://aksw.org/KirillBulert> <http://xmlns.com/foaf/0.1/homepage> <https://aksw.org/KirillBulert> .
 <https://aksw.org/KirillBulert> <http://xmlns.com/foaf/0.1/name> "Kirill Bulert" .
-<https://aksw.org/LarsPeterMeyer> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik e.V."@de .
-<https://aksw.org/LarsPeterMeyer> <http://purl.org/dc/terms/description> "Institute for Applied Informatics e.V."@en .
+<https://aksw.org/LarsPeterMeyer> <http://schema.org/affiliation> <https://infai.org/> .
 <https://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -696,8 +695,7 @@
 <https://dataweek.de/#StefanHoltel> <http://xmlns.com/foaf/0.1/name> "Stefan Holtel" .
 <https://dataweek.de/#StefanHoltel> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Among other things, he worked for 11 years in research and development at Vodafone and holds several international patents. He regularly presents, publishes and lectures on how companies can manage digital transformation. He currently works at PricewaterhouseCoopers' DigiLab as a thought leader on interdisciplinary issues in Artificial Intelligence."@en .
 <https://dataweek.de/#StefanHoltel> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Er arbeitete u.a. 11 Jahre in der Forschung und Entwicklung von Vodafone und hält mehrere internationale Patente. Regelmäßig präsentiert, publiziert und doziert er zur Frage, wie Unternehmen die digitale Transformation bewältigen können. Derzeit arbeitet er im DigiLab von PricewaterhouseCoopers als Vordenker zu interdisziplinären Fragen der Künstlichen Intelligenz."@de .
-<https://dataweek.de/#ThomasBurghardt> <http://purl.org/dc/terms/description> "Leipzig University"@en .
-<https://dataweek.de/#ThomasBurghardt> <http://purl.org/dc/terms/description> "Universität Leipzig"@de .
+<https://dataweek.de/#ThomasBurghardt> <http://schema.org/affiliation> <https://www.uni-leipzig.de/> .
 <https://dataweek.de/#ThomasBurghardt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ThomasBurghardt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ThomasBurghardt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Thomas Burghardt" .
@@ -2113,6 +2111,11 @@
 <https://www.uni-hamburg.de> <http://www.w3.org/2000/01/rdf-schema#label> "University of Hamburg"@de .
 <https://www.uni-hamburg.de> <http://www.w3.org/2000/01/rdf-schema#label> "University of Hamburg"@en .
 <https://www.uni-hamburg.de> <http://xmlns.com/foaf/0.1/homepage> <https://www.uni-hamburg.de> .
+<https://www.uni-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.uni-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.uni-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Leipzig University"@en .
+<https://www.uni-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Universität Leipzig"@de .
+<https://www.uni-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.uni-leipzig.de/> .
 <https://www.vse.cz/english/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.vse.cz/english/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.vse.cz/english/> <http://www.w3.org/2000/01/rdf-schema#label> "Prague University of Economics"@en .
