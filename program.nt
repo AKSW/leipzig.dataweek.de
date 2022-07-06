@@ -924,23 +924,25 @@
 <https://dataweek.de/d2r2-22/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/d2r2-22/#programm-session-3> <http://purl.org/dc/terms/title> "Session III"@de .
 <https://dataweek.de/d2r2-22/#programm-session-3> <http://purl.org/dc/terms/title> "Session III"@en .
-<https://dataweek.de/d2r2-22/#programm-session-3> <http://purl.org/dc/terms/title> "Session IV"@de .
-<https://dataweek.de/d2r2-22/#programm-session-3> <http://purl.org/dc/terms/title> "Session IV"@en .
 <https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/endTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/performer> <http://aksw.org/MichaelMartin> .
-<https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
+<https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/performer> <http://aksw.org/AntoninDelpeuch> .
 <https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/startTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-15> .
 <https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-16> .
 <https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-17> .
 <https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-18> .
-<https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-21> .
-<https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-22> .
-<https://dataweek.de/d2r2-22/#programm-session-3> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-23> .
 <https://dataweek.de/d2r2-22/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://dataweek.de/d2r2-22/#programm-session-4> <http://purl.org/dc/terms/title> "Session IV"@de .
+<https://dataweek.de/d2r2-22/#programm-session-4> <http://purl.org/dc/terms/title> "Session IV"@en .
+<https://dataweek.de/d2r2-22/#programm-session-4> <http://schema.org/endTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-session-4> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://dataweek.de/d2r2-22/#programm-session-4> <http://schema.org/performer> <http://aksw.org/RoyMeissner> .
+<https://dataweek.de/d2r2-22/#programm-session-4> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://dataweek.de/d2r2-22/#programm-session-4> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-21> .
+<https://dataweek.de/d2r2-22/#programm-session-4> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-22> .
+<https://dataweek.de/d2r2-22/#programm-session-4> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-23> .
+<https://dataweek.de/d2r2-22/#programm-session-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/d2r2-22/#programm-talk-10> <http://purl.org/dc/terms/title> "Der Krisenbegriff und dessen Implikation für Entwicklung von intelligenten Werkzeugen zur Krisenprävention und zum Krisenmanagement"@de .
 <https://dataweek.de/d2r2-22/#programm-talk-10> <http://purl.org/dc/terms/title> "Der Krisenbegriff und dessen Implikation für Entwicklung von intelligenten Werkzeugen zur Krisenprävention und zum Krisenmanagement"@en .
 <https://dataweek.de/d2r2-22/#programm-talk-10> <http://schema.org/endTime> "11:35:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -1087,6 +1089,7 @@
 <https://dataweek.de/d2r2-22/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-session-1> .
 <https://dataweek.de/d2r2-22/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-session-2> .
 <https://dataweek.de/d2r2-22/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-session-3> .
+<https://dataweek.de/d2r2-22/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-session-4> .
 <https://dataweek.de/d2r2-22/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-13> .
 <https://dataweek.de/d2r2-22/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-19> .
 <https://dataweek.de/d2r2-22/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/#programm-talk-1> .
