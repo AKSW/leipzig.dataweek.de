@@ -2,10 +2,11 @@
 layout: subpage
 ---
 
+{% assign rootResource = site.rootResource | rdf_get %}
+
 <h1>{% include label.html iri = page.rdf %}</h1>
 
 {% for res in page.sub_rdf %}
-{{res}}
 {% endfor%}
 
 {% capture locationquery %}
@@ -17,11 +18,18 @@ select distinct ?location ?title ?description {
 
 {% assign locations = page.rdf | sparql_query: locationquery %}
 {% for location_row in locations %}
+
 <h3>{{ location_row.title }}</h3>
 {{ location_row.location | rdf_property: "dct:description", site.language }}
 {% endfor %}
 
+{% include sec_location.html event=rootResource %}
+
 <a href="{{ "venue/floorplan.png" | relativize_url }}">{% include img.html src="venue/floorplan.png" alt="Floorplan/Raumplan" class='w100 padded' %}</a>
+
+{% assign livinglab = "<https://dataweek.de/bdib-22/>" | rdf_get %}
+{% include sec_location.html event=livinglab %}
+
 
 
 {% if site.language == 'de' %}
