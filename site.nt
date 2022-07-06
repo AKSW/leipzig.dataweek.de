@@ -19,8 +19,9 @@
 <http://aksw.org/ClausStadler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/ClausStadler> .
 <http://aksw.org/ClausStadler> <http://xmlns.com/foaf/0.1/name> "Claus Stadler" .
-<http://aksw.org/DenisStreitmatter> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association, Institut für Angewandte Informatik"@de .
-<http://aksw.org/DenisStreitmatter> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association, Institute for Applied Informatics"@en .
+<http://aksw.org/DenisStreitmatter> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association"@de .
+<http://aksw.org/DenisStreitmatter> <http://purl.org/dc/terms/description> "AKSW, DBpedia Association"@en .
+<http://aksw.org/DenisStreitmatter> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/DenisStreitmatter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/DenisStreitmatter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/DenisStreitmatter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -183,15 +184,13 @@
 <https://2014.semantics.cc/> <http://www.w3.org/2000/01/rdf-schema#label> "SEMANTiCS Leipzig 2014" .
 <https://2016.semantics.cc/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2016.semantics.cc/> <http://www.w3.org/2000/01/rdf-schema#label> "SEMANTiCS Leipzig 2016" .
-<https://aksw.org/KirillBulert> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik e.V."@de .
-<https://aksw.org/KirillBulert> <http://purl.org/dc/terms/description> "Institute for Applied Informatics e.V."@en .
+<https://aksw.org/KirillBulert> <http://schema.org/affiliation> <https://infai.org/> .
 <https://aksw.org/KirillBulert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://aksw.org/KirillBulert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://aksw.org/KirillBulert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://aksw.org/KirillBulert> <http://xmlns.com/foaf/0.1/homepage> <https://aksw.org/KirillBulert> .
 <https://aksw.org/KirillBulert> <http://xmlns.com/foaf/0.1/name> "Kirill Bulert" .
-<https://aksw.org/LarsPeterMeyer> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik e.V."@de .
-<https://aksw.org/LarsPeterMeyer> <http://purl.org/dc/terms/description> "Institute for Applied Informatics e.V."@en .
+<https://aksw.org/LarsPeterMeyer> <http://schema.org/affiliation> <https://infai.org/> .
 <https://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -784,9 +783,8 @@
 <https://dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://dataweek.de/#MiriamWelz> .
 <https://dataweek.de/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam"@de .
 <https://dataweek.de/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organization Team"@en .
-<https://dataweek.de/#ThomasBurghardt> <http://purl.org/dc/terms/description> "Leipzig University"@en .
-<https://dataweek.de/#ThomasBurghardt> <http://purl.org/dc/terms/description> "Universität Leipzig"@de .
 <https://dataweek.de/#ThomasBurghardt> <http://schema.org/affiliation> <https://scads.ai/> .
+<https://dataweek.de/#ThomasBurghardt> <http://schema.org/affiliation> <https://www.uni-leipzig.de/> .
 <https://dataweek.de/#ThomasBurghardt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ThomasBurghardt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ThomasBurghardt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Thomas Burghardt" .
@@ -2171,7 +2169,6 @@
 <https://htwk-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://htwk-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://htwk-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-<https://htwk-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "HTWK Leipzig" .
 <https://htwk-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Hochschule für Technik, Wirtschaft und Kultur Leipzig"@de .
 <https://htwk-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Leipzig University of Applied Sciences (HTWK)"@en .
 <https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://htwk-leipzig.de/> .
@@ -2184,7 +2181,6 @@
 <https://infai.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://infai.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://infai.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-<https://infai.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Institut f\u00FCr angewandte Informatik e.V."@de .
 <https://infai.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Institut für Angewandte Informatik e.V."@de .
 <https://infai.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Institute for Applied Informatics"@en .
 <https://infai.org/> <http://xmlns.com/foaf/0.1/homepage> <https://infai.org/> .
@@ -2411,6 +2407,11 @@
 <https://www.uni-hamburg.de> <http://www.w3.org/2000/01/rdf-schema#label> "University of Hamburg"@de .
 <https://www.uni-hamburg.de> <http://www.w3.org/2000/01/rdf-schema#label> "University of Hamburg"@en .
 <https://www.uni-hamburg.de> <http://xmlns.com/foaf/0.1/homepage> <https://www.uni-hamburg.de> .
+<https://www.uni-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.uni-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.uni-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Leipzig University"@en .
+<https://www.uni-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Universität Leipzig"@de .
+<https://www.uni-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.uni-leipzig.de/> .
 <https://www.vistex.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.vistex.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Vistex, Inc." .
 <https://www.vistex.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.vistex.com/> .
