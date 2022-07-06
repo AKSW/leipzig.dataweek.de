@@ -659,6 +659,10 @@
 <https://dataweek.de/#PauloRicardoViviurkadoCarmo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#PauloRicardoViviurkadoCarmo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#PauloRicardoViviurkadoCarmo> <http://xmlns.com/foaf/0.1/name> "Paulo Ricardo Viviurka do Carmo" .
+<https://dataweek.de/#PhilippUlrich> <http://schema.org/affiliation> <https://www.infineon.com/> .
+<https://dataweek.de/#PhilippUlrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#PhilippUlrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#PhilippUlrich> <http://xmlns.com/foaf/0.1/name> "Philipp Ulrich" .
 <https://dataweek.de/#RichardFigura> <http://purl.org/dc/terms/description> "CEO"@de .
 <https://dataweek.de/#RichardFigura> <http://purl.org/dc/terms/description> "CEO"@en .
 <https://dataweek.de/#RichardFigura> <http://schema.org/affiliation> <https://www.ciss.de> .
@@ -1216,6 +1220,7 @@
 <https://dataweek.de/d2r2-22/#programm-talk-22> <http://purl.org/dc/terms/title> "Challenges for Achieving Supply Chain Resilience and Transparency within CoyPu"@en .
 <https://dataweek.de/d2r2-22/#programm-talk-22> <http://schema.org/endTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/d2r2-22/#programm-talk-22> <http://schema.org/performer> <https://dataweek.de/#AgnesMasipGomez> .
+<https://dataweek.de/d2r2-22/#programm-talk-22> <http://schema.org/performer> <https://dataweek.de/#PhilippUlrich> .
 <https://dataweek.de/d2r2-22/#programm-talk-22> <http://schema.org/startTime> "15:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://dataweek.de/d2r2-22/#programm-talk-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/d2r2-22/#programm-talk-23> <http://purl.org/dc/terms/title> "Challenges in the Creation and Uptake of Ontologies"@de .
