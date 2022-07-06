@@ -244,6 +244,7 @@ Die BDIB fördert dabei den Transfer von Forschungsergebnissen im Bereich Big Da
 
 Darüber hinaus ermöglicht das Living Lab des ScaDS.AI Leipzig/Dresden die Präsentation aktueller Forschungsergebnisse mithilfe von Demonstratoren, als Inspiration für innovative Ansätze sowie Ausgangspunkt gemeinsamer Pilot und Kooperationsprojekte. Einen Ausklang findet der Workshop-Tag in einer gemeinsamen Runde mit Abendessen im Ratskeller Leipzig. Wir freuen uns auf spannende Diskussionen und einen bereichernden Austausch. Das Programm sowie weiterführende Hinweise zur Anmeldung erfolgen zeitnah an dieser Stelle und auf der Webseite des ScaDS.AI Dresden/Leipzig."""@de ;
     schema:date "2022-07-07"^^xsd:date ;
+    schema:location <https://dataweek.de/venue/#scads> ;
     schema:logo <https://dataweek.de/bdib-22/bdib-poster-v1.png> ;
     schema:organizer <https://dataweek.de/bdib-22/#Team> ;
     a schema:Event ;
@@ -589,6 +590,18 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
     <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.37267 51.33594)" ;
     <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "51.33594"^^xsd:float ;
     <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.37267"^^xsd:float .
+
+<https://dataweek.de/venue/#scads>
+    schema:addressCountry "Germany" ;
+    schema:addressLocality "Leipzig" ;
+    schema:name "ScaDS.AI Büro Leipzig" ;
+    schema:postalCode "04105" ;
+    schema:streetAddress "Löhrs Carré, Humboldtstraße 25" ;
+    a schema:PostalAddress, foaf:Document ;
+    rdfs:label "Living Lab"@de, "Living Lab"@en ;
+    <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.3740615 51.3466000)" ;
+    <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "51.3466000"^^xsd:float ;
+    <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.3740615"^^xsd:float .
 
 <https://dbpedia.org/>
     site:small_logo "/images/partner/DBpediaLogo.svg" ;

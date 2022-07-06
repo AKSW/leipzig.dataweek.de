@@ -1,4 +1,5 @@
-{% assign location = rootResource | rdf_property: "schema:location" %}
+{% assign event = include.event %}
+{% assign location = event | rdf_property: "schema:location" %}
 {% if location %}
 <h2 id="#Location">{{ location | rdf_property: "rdfs:label", site.language }}</h2>
 
