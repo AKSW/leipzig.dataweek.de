@@ -54,6 +54,10 @@
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/depiction> "/images/people/JuliaHolze.png" .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/JuliaHolze> .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/name> "Julia Holze" .
+<http://aksw.org/LorenzBuehmann> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/LorenzBuehmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://aksw.org/LorenzBuehmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/LorenzBuehmann> <http://xmlns.com/foaf/0.1/name> "Lorenz Bühmann" .
 <http://aksw.org/MarvinHofer> <http://purl.org/dc/terms/description> "Researcher"@en .
 <http://aksw.org/MarvinHofer> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
 <http://aksw.org/MarvinHofer> <http://schema.org/affiliation> <https://scads.ai/> .
@@ -105,6 +109,12 @@
 <http://aksw.org/NormanRadtke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/NormanRadtke> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/NormanRadtke> .
 <http://aksw.org/NormanRadtke> <http://xmlns.com/foaf/0.1/name> "Norman Radtke" .
+<http://aksw.org/RicardoUsbeck> <http://schema.org/affiliation> <https://www.uni-hamburg.de> .
+<http://aksw.org/RicardoUsbeck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://aksw.org/RicardoUsbeck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/RicardoUsbeck> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Ricardo Usbeck" .
+<http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/name> "Ricardo Usbeck" .
+<http://aksw.org/RicardoUsbeck> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <http://aksw.org/RoyMeissner> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/RoyMeissner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/RoyMeissner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -492,12 +502,22 @@
 <https://dataweek.de/#LogoEccenca> <https://dataweek.de/#contrastFlavor> "/images/partner/eccenca_w_bg.svg" .
 <https://dataweek.de/#LogoStadtLeipzig> <http://purl.org/dc/terms/description> "Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig" .
 <https://dataweek.de/#LogoStadtLeipzig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/images/partner/Stadt_Leipzig.png" .
+<https://dataweek.de/#MagnusKnuth> <http://schema.org/affiliation> <https://www.eccenca.com/> .
+<https://dataweek.de/#MagnusKnuth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MagnusKnuth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MagnusKnuth> <http://xmlns.com/foaf/0.1/name> "Magnus Knuth" .
 <https://dataweek.de/#ManishBhandari> <http://purl.org/dc/terms/description> "Data Scientist [Xitaso GmbH](https://xitaso.com/)"@de .
 <https://dataweek.de/#ManishBhandari> <http://purl.org/dc/terms/description> "Data Scientist [Xitaso GmbH](https://xitaso.com/)"@en .
 <https://dataweek.de/#ManishBhandari> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ManishBhandari> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ManishBhandari> <http://xmlns.com/foaf/0.1/homepage> <https://github.com/ManishBhandariV> .
 <https://dataweek.de/#ManishBhandari> <http://xmlns.com/foaf/0.1/name> "Manish Bhandari" .
+<https://dataweek.de/#MariaEstherVidal> <http://schema.org/affiliation> <https://www.tib.eu/> .
+<https://dataweek.de/#MariaEstherVidal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MariaEstherVidal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MariaEstherVidal> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Maria-Esther Vidal" .
+<https://dataweek.de/#MariaEstherVidal> <http://xmlns.com/foaf/0.1/name> "Maria-Esther Vidal" .
+<https://dataweek.de/#MariaEstherVidal> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <https://dataweek.de/#MartinHentschel> <http://purl.org/dc/terms/description> "Principal Software Engineer [Snowflake](https://www.snowflake.com/)"@de .
 <https://dataweek.de/#MartinHentschel> <http://purl.org/dc/terms/description> "Principal Software Engineer [Snowflake](https://www.snowflake.com/)"@en .
 <https://dataweek.de/#MartinHentschel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -1043,11 +1063,21 @@
 <https://dataweek.de/bdib-22/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/bdib-22/> <http://www.w3.org/2000/01/rdf-schema#label> "5. Big Data and AI in Business Workshop"@de .
 <https://dataweek.de/bdib-22/> <http://www.w3.org/2000/01/rdf-schema#label> "5th Big Data and AI in Business Workshop"@en .
+<https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <https://dataweek.de/#MagnusKnuth> .
+<https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_11> <http://aksw.org/MichaelMartin> .
+<https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_12> <http://aksw.org/EdgardMarx> .
+<https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_13> <http://aksw.org/SebastianTramp> .
+<https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_14> <http://aksw.org/RicardoUsbeck> .
+<https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_15> <https://dataweek.de/#MariaEstherVidal> .
 <https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/NatanaelArndt> .
-<https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/SabineGruenderFahrer> .
-<https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/JuliaHolze> .
-<https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/MichaelMartin> .
-<https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://aksw.org/SebastianTramp> .
+<https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/SoerenAuer> .
+<https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/SimonBin> .
+<https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/LorenzBuehmann> .
+<https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://aksw.org/AntoninDelpeuch> .
+<https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://dataweek.de/#FelixEngel> .
+<https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <http://aksw.org/SabineGruenderFahrer> .
+<https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <http://aksw.org/JohannesFrey> .
+<https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://dataweek.de/#EvaHoerster> .
 <https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/2000/01/rdf-schema#label> "Program Committee"@en .
 <https://dataweek.de/d2r2-22/#PC> <http://www.w3.org/2000/01/rdf-schema#label> "Programmkomitee"@de .
 <https://dataweek.de/d2r2-22/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/NatanaelArndt> .
@@ -1277,6 +1307,7 @@
 <https://dataweek.de/d2r2-22/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://dataweek.de/d2r2-22/> <http://www.w3.org/2000/01/rdf-schema#label> "International Workshop on Data-driven Resilience Research 2022"@de .
 <https://dataweek.de/d2r2-22/> <http://www.w3.org/2000/01/rdf-schema#label> "International Workshop on Data-driven Resilience Research 2022"@en .
+<https://dataweek.de/d2r2-22/> <https://dataweek.de/#pc> <https://dataweek.de/d2r2-22/#PC> .
 <https://dataweek.de/dbpedia-day-2022/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/MilanDojchinovski> .
 <https://dataweek.de/dbpedia-day-2022/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/SebastianHellmann> .
 <https://dataweek.de/dbpedia-day-2022/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/JuliaHolze> .
