@@ -283,14 +283,25 @@ We invite contributions of novel results and ongoing work as well as position pa
     schema:organizer <https://dataweek.de/d2r2-22/#Team> ;
     schema:recordedIn <https://www.youtube.com/watch?v=NA5-XYX5Kbo> ;
     a schema:Event, foaf:Document ;
-    rdfs:label "International Workshop on Data-driven Resilience Research 2022"@de, "International Workshop on Data-driven Resilience Research 2022"@en .
+    rdfs:label "International Workshop on Data-driven Resilience Research 2022"@de, "International Workshop on Data-driven Resilience Research 2022"@en ;
+    dw:pc <https://dataweek.de/d2r2-22/#PC> .
 
 <https://dataweek.de/d2r2-22/#PC>
     rdf:_1 aksw:NatanaelArndt ;
-    rdf:_2 aksw:SabineGruenderFahrer ;
-    rdf:_3 aksw:JuliaHolze ;
-    rdf:_4 aksw:MichaelMartin ;
-    rdf:_5 aksw:SebastianTramp ;
+    rdf:_10 dw:MagnusKnuth ;
+    rdf:_11 aksw:MichaelMartin ;
+    rdf:_12 aksw:EdgardMarx ;
+    rdf:_13 aksw:SebastianTramp ;
+    rdf:_14 aksw:RicardoUsbeck ;
+    rdf:_15 dw:MariaEstherVidal ;
+    rdf:_2 aksw:SoerenAuer ;
+    rdf:_3 aksw:SimonBin ;
+    rdf:_4 aksw:LorenzBuehmann ;
+    rdf:_5 aksw:AntoninDelpeuch ;
+    rdf:_6 dw:FelixEngel ;
+    rdf:_7 aksw:SabineGruenderFahrer ;
+    rdf:_8 aksw:JohannesFrey ;
+    rdf:_9 dw:EvaHoerster ;
     rdfs:label "Program Committee"@en, "Programmkomitee"@de .
 
 <https://dataweek.de/d2r2-22/#Team>
