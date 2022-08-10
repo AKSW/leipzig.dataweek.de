@@ -89,12 +89,19 @@ Chair: {% include performer.html event=event join="; " %}
 {% assign subEvent = subEvent_row.event %}
 {% assign performer = subEvent | rdf_property: "schema:performer" %}
 {% capture title %}{% include label.html iri = subEvent.iri %}{% endcapture %}
-{% assign slideLink = subEvent | rdf_property: "schema:recordedIn" %}
+
+{% assign talkIriAnchor = subEvent | split: "#" %}
+{% assign talkIriParts = talkIriAnchor[0] | split: "/" %}
+{% assign parent_date = parent_event | rdf_property: "schema:date" | date: "%Y-%m-%d-" %}
+{% assign slideLink = "slides/" | append: parent_date | append: talkIriParts[3] | append: "-" | append: talkIriAnchor[1] | append: ".pdf" %}
+{% assign relativeSlideLink = slideLink | relativize_url %}
+{% assign absoluteSlideLink = slideLink | prepend: "/" %}
+{% assign file_exists = site.static_files | where: "path", absoluteSlideLink  %}
+
   <li>
-{% if slideLink %}
-  „<a id="{{ subEvent | split: "#" | last }}" href="{{ slideLink }}">{{ title }}</a>“
-{% else %}
-  <a id="{{ subEvent | split: "#" | last }}"></a>„{{ title }}“
+<a id="{{ subEvent | split: "#" | last }}"></a>„{{ title }}“
+{% if file_exists.size != 0 %}
+<a href="{{ relativeSlideLink }}">{% include img.html src="images/presentation.svg" alt="PDF Slides" class='icon' %}</a>
 {% endif %}
 {% if performer %}
    – {% include performer.html event=subEvent join="; " %}
