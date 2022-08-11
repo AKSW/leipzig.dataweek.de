@@ -278,3 +278,8 @@ img.h-padded {
 img.icon {
   height: 1.5em;
 }
+
+iframe, object, embed {
+        max-width: 100%;
+        max-height: 100%;
+}
