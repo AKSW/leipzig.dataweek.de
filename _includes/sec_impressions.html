@@ -1,0 +1,53 @@
+{% assign event = include.event %}
+{% assign impressions = nil | arrayify %}
+{% for file in site.static_files %}
+  {% assign isImpression = file.path | startswith: "/images/impressions/" %}
+  {% if isImpression %}
+    {% assign fileArray = file | arrayify %}
+    {% assign impressions = impressions | concat: fileArray %}
+  {% endif %}
+{% endfor %}
+{% if impressions.first %}
+{% if site.language == 'en' %}
+<h2 id="#Impressions">Impressions</h2>
+{% else %}
+<h2 id="#Impressions">Impressionen</h2>
+{% endif %}
+
+<p>
+  {{impression}}
+</p>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    {% for impression in impressions %}
+      {% assign class = "" %}
+      {% if forloop.first %}
+        {% assign class = "active" %}
+      {% endif %}
+      <li data-target="#carouselExampleIndicators" data-slide-to="{{ forloop.index0 }}" class="{{ class }}"></li>
+    {% endfor %}
+  </ol>
+  <div class="carousel-inner">
+    {% for impression in impressions %}
+      {% assign classes = "carousel-item" | split: " " %}
+      {% if forloop.first %}
+        {% assign classes = "active" | arrayify | concat: classes | reverse %}
+      {% endif %}
+    <div class="{{ classes | join: " " }}">
+      <img src="{{ impression.path | relativize_url }}" class="d-block w-100" alt="Impression">
+    </div>
+    {% endfor %}
+  </div>
+  <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </button>
+</div>
+
+
+{% endif %}
