@@ -17,8 +17,7 @@
 <p>
   {{impression}}
 </p>
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide w80 margin-center" data-ride="carousel">
   <ol class="carousel-indicators">
     {% for impression in impressions %}
       {% assign class = "" %}
@@ -48,6 +47,5 @@
     <span class="sr-only">Next</span>
   </button>
 </div>
-
 
 {% endif %}
