@@ -13,7 +13,7 @@
 {% endif %}
 <div class="lswt-card">
   {% if depiction %}
-    <img class="rounded" src="{{ depiction | relativize_url }}" alt="{{ name }}">
+    <img class="rounded w90" src="{{ depiction | relativize_url }}" alt="{{ name }}">
   {% else %}
     <img class="rounded" src="{% relative_link /images/people/placeholder.svg %}" alt="{{ name }}">
   {% endif %}
