@@ -1,0 +1,21 @@
+{%- assign videosrc = include.videosrc -%}
+<div class="text-center">
+  <div width="560" height="315" class="rounded" style="border: solid 1px black; height: 315px; width: 560px; margin: auto">
+    <div>
+    <div class="alert alert-warning">By clicking on this button you will open a connection to YouTube with all of its consequences.</div>
+    <div><button class="btn btn-warning m-auto" onclick="playVideo(this)">Take me to YouTube</button></div>
+    </div>
+  <iframe id="forPostyouradd" data-src="{{videosrc}}" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+<script language="javascript">
+function playVideo (eventElement) {
+    let consentNode = eventElement.parentElement.parentElement;
+    let containerNode = consentNode.parentElement;
+    let iframe = containerNode.lastElementChild;
+    iframe.setAttribute("width", containerNode.getAttribute("width"));
+    iframe.setAttribute("height", containerNode.getAttribute("height"));
+    iframe.setAttribute("src", iframe.getAttribute("data-src"));
+    containerNode.removeChild(consentNode);
+}
+</script>
