@@ -1,7 +1,8 @@
-# Das ist die Seite der DataWeek 2022 in Leipzig
+# Das ist die Seite der DataWeek in Leipzig
 
 - Live: https://dataweek.de/
 - Staging: https://staging.dataweek.de/
+- 2022: https://2022.dataweek.de/
 
 Eventuell muss man noch `bundle add webrick` ausführen, falls ein Fehler mit webrick kommt.
 
