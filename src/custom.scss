@@ -1,6 +1,7 @@
 $color_blue: #17214c;
 $color_lightblue: #61b8e4;
 $color_highlight: #b72c37;
+$color_link_blue: #b5e3f8;
 
 :root {
   --menu-height: 4rem;
@@ -113,11 +114,15 @@ p {
   /* font-weight: 400; */
 }
 a {
-  color: #b5e3f8;
+  color: $color_link_blue;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
+}
+.alert-info a {
+  color: $color_blue;
+  text-decoration: none;
 }
 
 .btn {

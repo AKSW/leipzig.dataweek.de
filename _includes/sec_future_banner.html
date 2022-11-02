@@ -1,0 +1,13 @@
+{% if site.language == 'en' %}
+<div class="alert alert-info">
+  The {{ rootResource | rdf_property: "rdfs:label" }} is over now, for future events please go to the Data Week page.<br/>
+  <a class="btn btn-warning m-auto" href="https://dataweek.de">Take me to the future</a><br/>
+  (<a href="https://dataweek.de">https://dataweek.de</a>)
+</div>
+{% else %}
+<div class="alert alert-info">
+  Die {{ rootResource | rdf_property: "rdfs:label" }} ist vorbei, für zukünftige Veranstaltungen gehen Sie bitte auf die Data Week Seite.<br/>
+  <a class="btn btn-warning m-auto" href="https://dataweek.de">Auf in die Zukunft</a><br/>
+  (<a href="https://dataweek.de">https://dataweek.de</a>)
+</div>
+{% endif %}
