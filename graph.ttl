@@ -12,6 +12,8 @@
 @prefix aksw: <http://aksw.org/> .
 @prefix dw: <https://dataweek.de/#> .
 @prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix dw23: <https://2023.dataweek.de/#> .
+@prefix dw22: <https://2022.dataweek.de/#> .
 
 aksw:Group
     site:small_logo "/images/partner/AKSW_Logo_small.svg" ;
@@ -90,6 +92,57 @@ schema:startDate
     a schema:Event ;
     rdfs:label "SEMANTiCS Leipzig 2016" .
 
+<https://2022.dataweek.de/>
+    schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
+    schema:date "04.07. bis 08.07.2022"@de, "July 4-8, 2022"@en ;
+    schema:endDate "2022-07-08"^^xsd:date ;
+    schema:location <https://dataweek.de/venue/> ;
+    schema:logo <https://dataweek.de/images/DataWeek_Logo.png> ;
+    schema:organizer dw22:Team ;
+    schema:partner dw22:Partner ;
+    schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
+    schema:sponsor dw22:Sponsors ;
+    schema:startDate "2022-07-04"^^xsd:date ;
+    schema:subEvent <https://dataweek.de/bdib-22/>, <https://dataweek.de/d2r2-22/>, <https://dataweek.de/dbpedia-day-2022/>, <https://dataweek.de/gi-leipzig-2022/>, <https://dataweek.de/kmi-22/>, <https://dataweek.de/lswt2022/>, <https://dataweek.de/openingday/> ;
+    a <http://rdfs.org/ns/void#Dataset>, schema:Event ;
+    rdfs:label "Data Week Leipzig 2022" .
+
+<https://2023.dataweek.de/>
+    schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
+    schema:date "TBA 2023"@de, "TBA, 2023"@en ;
+    schema:endDate "2023"^^xsd:date ;
+    schema:location <https://dataweek.de/venue/> ;
+    schema:logo <https://dataweek.de/images/DataWeek_Logo.png> ;
+    schema:organizer dw23:Team ;
+    schema:partner dw23:Partner ;
+    schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
+    schema:sponsor dw23:Sponsors ;
+    schema:startDate "2023"^^xsd:date ;
+    a <http://rdfs.org/ns/void#Dataset>, schema:Event ;
+    rdfs:label "Data Week Leipzig 2023" ;
+    owl:sameAs <https://dataweek.de/> .
+
+dw23:Partner
+    rdf:_1 <https://www.leipzig.de/> ;
+    rdf:_2 <https://connectedurbantwins.de/> ;
+    a rdf:Seq ;
+    rdfs:label "In Kooperation mit"@de, "In cooperation with"@en .
+
+dw23:Sponsors
+    rdf:_1 <https://www.eccenca.com/> ;
+    a rdf:Seq ;
+    rdfs:label "Sponsoren"@de, "Sponsors"@en .
+
+dw23:Team
+    rdf:_1 aksw:NatanaelArndt ;
+    rdf:_2 dw:JanaBendigs ;
+    rdf:_3 aksw:JuliaHolze ;
+    rdf:_4 aksw:MichaelMartin ;
+    rdf:_5 dw:NievesSande ;
+    rdf:_6 aksw:SebastianTramp ;
+    rdf:_7 dw:MiriamWelz ;
+    rdfs:label "Organisationsteam"@de, "Organization Team"@en .
+
 <https://appplant.de/>
     a schema:Organization ;
     rdfs:label "appPlant GmbH" ;
@@ -103,19 +156,7 @@ schema:startDate
     foaf:logo dw:LogoCUT .
 
 <https://dataweek.de/>
-    schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
-    schema:date "04.07. bis 08.07.2022"@de, "July 4-8, 2022"@en ;
-    schema:endDate "2022-07-08"^^xsd:date ;
-    schema:location <https://dataweek.de/venue/> ;
-    schema:logo <https://dataweek.de/images/DataWeek_Logo.png> ;
-    schema:organizer dw:Team ;
-    schema:partner dw:Partner ;
-    schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
-    schema:sponsor dw:Sponsors ;
-    schema:startDate "2022-07-04"^^xsd:date ;
-    schema:subEvent <https://dataweek.de/bdib-22/>, <https://dataweek.de/d2r2-22/>, <https://dataweek.de/dbpedia-day-2022/>, <https://dataweek.de/gi-leipzig-2022/>, <https://dataweek.de/kmi-22/>, <https://dataweek.de/lswt2022/>, <https://dataweek.de/openingday/> ;
-    a <http://rdfs.org/ns/void#Dataset>, schema:Event ;
-    rdfs:label "Data Week Leipzig 2022" .
+    owl:sameAs <https://2023.dataweek.de/> .
 
 dw:AndreasBoth
     schema:affiliation <https://htwk-leipzig.de/> ;
@@ -174,37 +215,12 @@ dw:NievesSande
     a foaf:Person ;
     foaf:depiction "/images/people/NievesSande.png" .
 
-dw:Partner
-    rdf:_1 <https://www.leipzig.de/> ;
-    rdf:_2 <https://connectedurbantwins.de/> ;
-    a rdf:Seq ;
-    rdfs:label "In Kooperation mit"@de, "In cooperation with"@en .
-
 dw:SebastianBrandt
     a foaf:Person ;
     foaf:depiction "/images/people/SebastianBrandt.png" .
 
-dw:Sponsors
-    rdf:_1 <https://appplant.de/> ;
-    rdf:_2 <https://www.datev.de/> ;
-    rdf:_3 <https://www.eccenca.com/> ;
-    rdf:_4 <https://stackfuel.com/> ;
-    rdf:_5 <https://www.vistex.com/> ;
-    a rdf:Seq ;
-    rdfs:label "Sponsoren"@de, "Sponsors"@en .
-
 dw:StefanHoltel
     foaf:depiction "/images/people/StefanHoltel.png" .
-
-dw:Team
-    rdf:_1 aksw:NatanaelArndt ;
-    rdf:_2 dw:JanaBendigs ;
-    rdf:_3 aksw:JuliaHolze ;
-    rdf:_4 aksw:MichaelMartin ;
-    rdf:_5 dw:NievesSande ;
-    rdf:_6 aksw:SebastianTramp ;
-    rdf:_7 dw:MiriamWelz ;
-    rdfs:label "Organisationsteam"@de, "Organization Team"@en .
 
 dw:ThomasBurghardt
     schema:affiliation <https://scads.ai/> ;

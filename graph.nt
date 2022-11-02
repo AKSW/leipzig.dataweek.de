@@ -51,6 +51,64 @@
 <https://2014.semantics.cc/> <http://www.w3.org/2000/01/rdf-schema#label> "SEMANTiCS Leipzig 2014" .
 <https://2016.semantics.cc/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2016.semantics.cc/> <http://www.w3.org/2000/01/rdf-schema#label> "SEMANTiCS Leipzig 2016" .
+<https://2022.dataweek.de/> <http://schema.org/abstract> "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en .
+<https://2022.dataweek.de/> <http://schema.org/abstract> "Die Data Week ist eine einw\u00F6chige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf K\u00FCnstliche Intelligenz und Daten integriert."@de .
+<https://2022.dataweek.de/> <http://schema.org/date> "04.07. bis 08.07.2022"@de .
+<https://2022.dataweek.de/> <http://schema.org/date> "July 4-8, 2022"@en .
+<https://2022.dataweek.de/> <http://schema.org/endDate> "2022-07-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2022.dataweek.de/> <http://schema.org/location> <https://dataweek.de/venue/> .
+<https://2022.dataweek.de/> <http://schema.org/logo> <https://dataweek.de/images/DataWeek_Logo.png> .
+<https://2022.dataweek.de/> <http://schema.org/organizer> <https://2022.dataweek.de/#Team> .
+<https://2022.dataweek.de/> <http://schema.org/partner> <https://2022.dataweek.de/#Partner> .
+<https://2022.dataweek.de/> <http://schema.org/slogan> "Forum for Data and AI Enthusiasts in Leipzig"@en .
+<https://2022.dataweek.de/> <http://schema.org/slogan> "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de .
+<https://2022.dataweek.de/> <http://schema.org/sponsor> <https://2022.dataweek.de/#Sponsors> .
+<https://2022.dataweek.de/> <http://schema.org/startDate> "2022-07-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2022.dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/bdib-22/> .
+<https://2022.dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/> .
+<https://2022.dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/> .
+<https://2022.dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/gi-leipzig-2022/> .
+<https://2022.dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/kmi-22/> .
+<https://2022.dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/lswt2022/> .
+<https://2022.dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/openingday/> .
+<https://2022.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+<https://2022.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2022.dataweek.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2022" .
+<https://2023.dataweek.de/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.leipzig.de/> .
+<https://2023.dataweek.de/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://connectedurbantwins.de/> .
+<https://2023.dataweek.de/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+<https://2023.dataweek.de/#Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In Kooperation mit"@de .
+<https://2023.dataweek.de/#Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In cooperation with"@en .
+<https://2023.dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
+<https://2023.dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+<https://2023.dataweek.de/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
+<https://2023.dataweek.de/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/NatanaelArndt> .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#JanaBendigs> .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/JuliaHolze> .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/MichaelMartin> .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://dataweek.de/#NievesSande> .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <http://aksw.org/SebastianTramp> .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://dataweek.de/#MiriamWelz> .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam"@de .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organization Team"@en .
+<https://2023.dataweek.de/> <http://schema.org/abstract> "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en .
+<https://2023.dataweek.de/> <http://schema.org/abstract> "Die Data Week ist eine einw\u00F6chige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf K\u00FCnstliche Intelligenz und Daten integriert."@de .
+<https://2023.dataweek.de/> <http://schema.org/date> "TBA 2023"@de .
+<https://2023.dataweek.de/> <http://schema.org/date> "TBA, 2023"@en .
+<https://2023.dataweek.de/> <http://schema.org/endDate> "2023"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/> <http://schema.org/location> <https://dataweek.de/venue/> .
+<https://2023.dataweek.de/> <http://schema.org/logo> <https://dataweek.de/images/DataWeek_Logo.png> .
+<https://2023.dataweek.de/> <http://schema.org/organizer> <https://2023.dataweek.de/#Team> .
+<https://2023.dataweek.de/> <http://schema.org/partner> <https://2023.dataweek.de/#Partner> .
+<https://2023.dataweek.de/> <http://schema.org/slogan> "Forum for Data and AI Enthusiasts in Leipzig"@en .
+<https://2023.dataweek.de/> <http://schema.org/slogan> "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de .
+<https://2023.dataweek.de/> <http://schema.org/sponsor> <https://2023.dataweek.de/#Sponsors> .
+<https://2023.dataweek.de/> <http://schema.org/startDate> "2023"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+<https://2023.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2023" .
+<https://2023.dataweek.de/> <http://www.w3.org/2002/07/owl#sameAs> <https://dataweek.de/> .
 <https://appplant.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://appplant.de/> <http://www.w3.org/2000/01/rdf-schema#label> "appPlant GmbH" .
 <https://appplant.de/> <http://xmlns.com/foaf/0.1/homepage> <https://appplant.de/> .
@@ -92,31 +150,9 @@
 <https://dataweek.de/#MirkoMuehlpfort> <http://xmlns.com/foaf/0.1/depiction> "/images/people/MirkoMuehlpfort.jpg" .
 <https://dataweek.de/#NievesSande> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#NievesSande> <http://xmlns.com/foaf/0.1/depiction> "/images/people/NievesSande.png" .
-<https://dataweek.de/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.leipzig.de/> .
-<https://dataweek.de/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://connectedurbantwins.de/> .
-<https://dataweek.de/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
-<https://dataweek.de/#Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In Kooperation mit"@de .
-<https://dataweek.de/#Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In cooperation with"@en .
 <https://dataweek.de/#SebastianBrandt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SebastianBrandt> <http://xmlns.com/foaf/0.1/depiction> "/images/people/SebastianBrandt.png" .
-<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://appplant.de/> .
-<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://www.datev.de/> .
-<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://www.eccenca.com/> .
-<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://stackfuel.com/> .
-<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://www.vistex.com/> .
-<https://dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
-<https://dataweek.de/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
-<https://dataweek.de/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
 <https://dataweek.de/#StefanHoltel> <http://xmlns.com/foaf/0.1/depiction> "/images/people/StefanHoltel.png" .
-<https://dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/NatanaelArndt> .
-<https://dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#JanaBendigs> .
-<https://dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/JuliaHolze> .
-<https://dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/MichaelMartin> .
-<https://dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://dataweek.de/#NievesSande> .
-<https://dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <http://aksw.org/SebastianTramp> .
-<https://dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://dataweek.de/#MiriamWelz> .
-<https://dataweek.de/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam"@de .
-<https://dataweek.de/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organization Team"@en .
 <https://dataweek.de/#ThomasBurghardt> <http://schema.org/affiliation> <https://scads.ai/> .
 <https://dataweek.de/#ThomasBurghardt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ThomasBurghardt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Thomas Burghardt" .
@@ -129,29 +165,7 @@
 <https://dataweek.de/#VeraMeister> <http://xmlns.com/foaf/0.1/homepage> <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/> .
 <https://dataweek.de/#VeraMeister> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Vera Meister" .
 <https://dataweek.de/#VolkerGruhn> <http://xmlns.com/foaf/0.1/depiction> "/images/people/VolkerGruhn.jpg" .
-<https://dataweek.de/> <http://schema.org/abstract> "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en .
-<https://dataweek.de/> <http://schema.org/abstract> "Die Data Week ist eine einw\u00F6chige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf K\u00FCnstliche Intelligenz und Daten integriert."@de .
-<https://dataweek.de/> <http://schema.org/date> "04.07. bis 08.07.2022"@de .
-<https://dataweek.de/> <http://schema.org/date> "July 4-8, 2022"@en .
-<https://dataweek.de/> <http://schema.org/endDate> "2022-07-08"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://dataweek.de/> <http://schema.org/location> <https://dataweek.de/venue/> .
-<https://dataweek.de/> <http://schema.org/logo> <https://dataweek.de/images/DataWeek_Logo.png> .
-<https://dataweek.de/> <http://schema.org/organizer> <https://dataweek.de/#Team> .
-<https://dataweek.de/> <http://schema.org/partner> <https://dataweek.de/#Partner> .
-<https://dataweek.de/> <http://schema.org/slogan> "Forum for Data and AI Enthusiasts in Leipzig"@en .
-<https://dataweek.de/> <http://schema.org/slogan> "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de .
-<https://dataweek.de/> <http://schema.org/sponsor> <https://dataweek.de/#Sponsors> .
-<https://dataweek.de/> <http://schema.org/startDate> "2022-07-04"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/bdib-22/> .
-<https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/d2r2-22/> .
-<https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/dbpedia-day-2022/> .
-<https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/gi-leipzig-2022/> .
-<https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/kmi-22/> .
-<https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/lswt2022/> .
-<https://dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/openingday/> .
-<https://dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
-<https://dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://dataweek.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2022" .
+<https://dataweek.de/> <http://www.w3.org/2002/07/owl#sameAs> <https://2023.dataweek.de/> .
 <https://dataweek.de/bdib-22/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://dataweek.de/#ErhardRahm> .
 <https://dataweek.de/bdib-22/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#EricPeukert> .
 <https://dataweek.de/bdib-22/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://dataweek.de/#JanaBendigs> .
