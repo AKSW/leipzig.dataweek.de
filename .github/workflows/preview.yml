@@ -6,7 +6,7 @@ on:
     branches: [ develop ]
   workflow_dispatch:
   schedule:
-    - cron:  '30 * * * *'
+    - cron:  '30 */2 * * *'
 
 jobs:
   build:
