@@ -8,6 +8,48 @@ Eventuell muss man noch `bundle add webrick` ausführen, falls ein Fehler mit we
 
 ## Local setup
 
+### Requirements
+
+- Git
+- [Task](https://taskfile.dev/)
+- Node.js & NPM
+- Docker or Podman
+- Python
+
+### Preparation
+
+Install the JavaScript dependencies
+```
+task install_javascript_dependencies
+```
+
+### Build the styles
+
+```
+task styles
+```
+
+### Build the page
+
+Only German language version:
+```
+task build_de
+```
+
+Alternatively all language versions:
+
+```
+task build_de build_en
+```
+
+### Serve the page
+
+```
+task serve
+```
+
+### Get the data, build the styles and the page in one run
+
 With a local cmemc setup:
 
 ```
