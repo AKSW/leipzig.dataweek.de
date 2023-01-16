@@ -1,11 +1,14 @@
 # Das ist die Seite der DataWeek in Leipzig
 
-- Live: https://dataweek.de/ (branch `main` built to `page-live`)
-- Staging: https://staging.dataweek.de/ (branch `develop` built to `page-staging`)
-- New Layout: https://next.dataweek.de/ (branch `feature/newLayout` built to `page-next`)
-- 2022: https://2022.dataweek.de/ (branch `past/2022` built to `page-2022`)
+| URL     | Source Branch | Target Branch | Workflow | Description |
+|---------|---------------|---------------|----------|-------------|
+| https://dataweek.de/ | `main` | `page-live` | `build.yml` | Live |
+| https://staging.dataweek.de/ | `develop` | `page-staging` | `preview-yml` | Staging/development preview for the Live page  |
+| https://next.dataweek.de/ | `next` | `page-next` | New Layout development area |
+| https://2022.dataweek.de/ | `past/2022` | `page-2022` | Archived page from 2022 |
+| | `feature/newLayout` | | Static branch of the new layout |
 
-Eventuell muss man noch `bundle add webrick` ausführen, falls ein Fehler mit webrick kommt.
+A *source branch* is built with an actions workflow and the result is pushed to the respective *target branch*.
 
 ## Local setup
 
@@ -77,3 +80,7 @@ For Persons we might distinguish in the description between:
 - [https://schema.org/affiliation](https://schema.org/affiliation)
 - [https://schema.org/jobTitle](https://schema.org/jobTitle)
 - [https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation](https://d-nb.info/standards/elementset/gnd#id-feb84240ebb4724e71ceb35c74b63b13) (Short Bio for Keynote Speakers)
+
+## Trouble Shooting
+
+Eventuell muss man noch `bundle add webrick` ausführen, falls ein Fehler mit webrick kommt.
