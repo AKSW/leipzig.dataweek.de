@@ -10,6 +10,10 @@
 
 A *source branch* is built with an actions workflow and the result is pushed to the respective *target branch*.
 
+The setup of the build workflow is as follows:
+
+![Build Workflow](docu/page-build-setup.png)
+
 ## Local setup
 
 ### Requirements
