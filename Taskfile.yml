@@ -31,16 +31,16 @@ vars:
 tasks:
 
   default:
+    - echo "check out task -a"
+
+  build:
     - task: normalize_turtle
     - task: get_program
     - task: sync_clean
-    - task: styles
     - task: build_de
     - task: build_en
 
   ci:
-    - task: install_javascript_dependencies
-    - task: styles
     - task: build_docker_de
     - task: build_docker_en
 
@@ -52,9 +52,6 @@ tasks:
 
   serve:
     - python -m http.server --directory _site
-
-  styles:
-    - npx webpack
 
   build_de:
     cmds:
@@ -128,6 +125,3 @@ tasks:
         -f 'xmlns:dw="https://dataweek.de/#"' \
         -f 'xmlns:gnd="https://d-nb.info/standards/elementset/gnd#"' \
         {{.PAGE_GRAPH}}.ttl | sponge {{.PAGE_GRAPH}}.ttl
-
-  install_javascript_dependencies:
-    - npm install

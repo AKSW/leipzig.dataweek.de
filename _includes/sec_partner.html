@@ -1,9 +1,0 @@
-{% assign partners = rootResource | rdf_property: "schema:partner" %}
-<h2 id="Partner"> {{ partners | rdf_property: "rdfs:label", site.language }}</h2>
-{% assign partnersList = partners | rdf_container %}
-  {% for partner in partnersList %}
-    <a href="{{ partner | rdf_property: "foaf:homepage" }}">
-    {% assign imageResource = partner | rdf_property: "foaf:logo" %}
-    {% include img.html resource=imageResource class='h120p padded' %}
-    </a>
-{% endfor %}

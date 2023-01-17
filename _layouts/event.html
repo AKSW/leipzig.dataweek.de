@@ -12,12 +12,4 @@ type: Event
 
 <div class="subtitle"><span class="date">{{ page.rdf | rdf_property: "schema:date" }}</span></div>
 
-<p>{{ page.rdf | rdf_property: "dct:description", site.language | markdownify }}</p>
-
 {{ content }}
-
-{% include sec_call.html %}
-{% include sec_recording.html event = page.rdf %}
-{% include sec_programm.html event = page.rdf %}
-{% include sec_team.html %}
-{% include sec_team.html property = "dw:pc" style="simple" %}

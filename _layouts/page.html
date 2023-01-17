@@ -4,97 +4,20 @@
 <html lang="{{ site.language }}" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    {% assign rootResource = site.rootResource | rdf_get %}
-
-    {% assign title = page.rdf | rdf_property: "rdfs:label", site.language %}
-    {% assign slogan = page.rdf | rdf_property: "schema:slogan", site.language | strip %}
-    {% assign abstract = page.rdf | rdf_property: "schema:abstract", page.language | markdownify | strip_html | strip %}
-    {% assign description = page.rdf | rdf_property: "dct:description", page.language | markdownify | strip_html | strip %}
-    {% assign logo = page.rdf | rdf_property: "schema:logo" %}
-    {% assign root_title = rootResource | rdf_property: "rdfs:label", page.language %}
-
-    {% if title %}
-    {% assign media_title = title %}
-    {% assign media_slogan = slogan %}
-    {% else %}
-    {% assign media_title = root_title %}
-    {% assign media_slogan = rootResource | rdf_property: "schema:slogan", site.language %}
-    {% endif %}
 
 
-    {% if abstract != nil and abstract != '' %}
-    {% assign media_description = abstract %}
-    {% endif %}
-
-    {% unless media_description %}
-    {% if description != nil and description != '' %}
-    {% assign media_description = description %}
-    {% endif %}
-    {% endunless %}
-
-    {% unless media_description %}
-    {% if slogan != nil and slogan != '' %}
-    {% assign media_description = slogan %}
-    {% endif %}
-    {% endunless %}
-
-    {% unless media_description %}
-    {% assign root_abstract = rootResource | rdf_property: "schema:abstract", page.language | markdownify | strip_html | strip %}
-    {% if root_abstract != nil and root_abstract != '' %}
-    {% assign media_description = root_abstract %}
-    {% endif %}
-    {% endunless %}
-
-    {% unless media_description %}
-    {% assign root_description = rootResource | rdf_property: "dct:description", page.language | markdownify | strip_html | strip %}
-    {% if root_description != nil and root_description != '' %}
-    {% assign media_description = root_description %}
-    {% endif %}
-    {% endunless %}
-
-    {% unless media_description %}
-    {% assign root_slogan = rootResource | rdf_property: "schema:slogan", site.language %}
-    {% if root_slogan != nil and root_slogan != '' %}
-    {% assign media_description = root_slogan %}
-    {% endif %}
-    {% endunless %}
-
-
-    {% if logo != nil and logo != '' %}
-    {% assign media_logo = logo %}
-    {% else %}
-    {% assign media_logo = rootResource | rdf_property: "schema:logo" %}
-    {% endif %}
-
-    {% if media_logo.iri %}
-    {% assign media_logo = media_logo %}
-    {% else %}
-    {% assign media_logo = media_logo | relativize_url %}
-    {% endif %}
-
-    <title>{{ media_title }}</title>
-    <meta property="og:title" content="{{ media_title }}">
-    <meta name="twitter:title" content="{{ media_title }}">
-
-    <meta name="description" content="{{ media_description }}">
-    <meta property="og:description" content="{{ media_description }}">
-    <meta name="twitter:description" content="{{ media_description }}">
-    <meta property="og:image" content="{{ media_logo }}">
-    <meta name="twitter:image" content="{{ media_logo }}">
-
-    <meta name="twitter:site" content="{{ site.twitter_username }}">
-
-    <meta property="og:type" content="article">
-    <meta name="twitter:card" content="summary">
-
-    <link rel="stylesheet" type="text/css" href="{% relative_link /dist/main.css %}" />
+    {% comment %}
+    HTML Head
+    {% endcomment %}
 
   </head>
   <body>
-    <div class="main-container">
+
+      {% comment %}
+      HTML Body
+      {% endcomment %}
+
       {{ content }}
-    </div>
-    <script src="/dist/main.js" type="text/javascript"></script>
+
   </body>
 </html>

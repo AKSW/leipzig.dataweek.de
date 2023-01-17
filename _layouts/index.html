@@ -10,30 +10,11 @@ type: Event
 
 <div class="subtitle"><span class="date">{{ rootResource | rdf_property: "schema:date", site.language }}</span></div>
 
-<div>
-  <a href="{{ "/en" }}">English</a> |
-  <a href="{{ "/" }}">German</a>
-</div>
-
 {{ content }}
 
-{% include sec_past_events.html %}
-
-{% include sec_impressions.html %}
-
-{% include sec_video.html %}
-
 {% comment %}
-{% include sec_week.html %}
-
-{% include sec_location.html event=rootResource %}
+Sections
 {% endcomment %}
-
-{% include sec_team.html %}
-
-{% include sec_sponsors.html %}
-
-{% include sec_partner.html %}
 
 <h2></h2>
 <p>
