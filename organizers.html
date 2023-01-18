@@ -1,6 +1,7 @@
 ---
 layout: basic
 ---
+{% assign rootResource = site.rootResource | rdf_get %}
 
 <div class="content-header">
   <h1>
@@ -29,29 +30,20 @@ layout: basic
     </ul>
   </nav>
 </div>
+{% assign organizers = rootResource | rdf_property: "schema:organizer" %}
 <h2>
   Leipziger Semantic Web Tag - Die Organisatoren
 </h2>
 <div class="contact-list">
+  {% assign organizerTeam = organizers | rdf_container %}
   <ul>
-    <li>
-      <div class="contact">
-        <h3>
-          Dr. Natanael Arndt
-        </h3>
-        <figure>
-          <img class="js-load" data-src="resources/files/user.png" data-sizes="auto" data-srcset="resources/files/generated/user_480.png 480w, resources/files/generated/user_800.png 800w, resources/files/generated/user_1200.png 1200w" width="1500" height="1500" style="max-width:1500px" alt="Foto von User"><noscript><img src="resources/files/user.png" alt="Foto von User"></noscript>
-        </figure>
-        <ul class="logos">
-          <li>
-            <a href="organisationsteam_team-a.html#"><img src="resources/files/sponsor-eccenca.svg" alt="Logo eccenca"></a>
-          </li>
-          <li>
-            <a href="organisationsteam_team-a.html#"><img src="resources/files/sponsor-stackfuel.png" alt="Logo stackfuel"></a>
-          </li>
-        </ul>
-      </div>
-    </li>
+    {% for organizer in organizerTeam %}
+      <li>
+        {% include components/person.html organizer=organizer %}
+      </li>
+    {% endfor %}
+
+
     <li>
       <div class="contact">
         <h3>

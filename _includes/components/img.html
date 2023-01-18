@@ -1,0 +1,29 @@
+{%- assign resource = include.resource -%}
+{%- assign src = include.src -%}
+{%- assign alt = include.alt -%}
+{%- assign flavor = include.flavor -%}
+{%- if resource.iri -%}
+  {%- assign value = resource | rdf_property: "rdf:value" -%}
+  {%- if flavor == 'contrast' -%}
+    {%- assign value_flavor = resource | rdf_property: "dw:contrastFlavor" -%}
+    {%- if value_flavor -%}
+      {%- assign value = value_flavor -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- if value -%}
+    {%- assign src = value -%}
+    {%- assign alt = resource | rdf_property: "dct:description" -%}
+  {%- else -%}
+    {%- assign src = resource.iri -%}
+  {%- endif -%}
+{%- else -%}
+  {%- if resource -%}
+    {%- assign src = resource -%}
+  {%- endif -%}
+{%- endif -%}
+{%- assign simple = include.simple -%}
+{%- if simple -%}
+  <img class="js-load" data-src="{{ src | relativize_url }}" data-sizes="auto" data-srcset="{{ src | relativize_url }} 480w, {{ src | relativize_url }} 800w, {{ src | relativize_url }} 1200w" width="1500" height="1500" style="max-width:1500px" alt="{{ alt }}">
+{%- else -%}
+  <img src="{{ src | relativize_url }}" alt="{{ alt }}">
+{%- endif -%}

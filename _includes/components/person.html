@@ -1,5 +1,5 @@
 {% assign organizer = include.organizer %}
-{% capture name %}{% include label.html iri = organizer.iri %}{% endcapture %}
+{% capture name %}{% include components/label.html iri = organizer.iri %}{% endcapture %}
 {% assign homepage = organizer | rdf_property: "foaf:homepage" %}
 {% assign depiction = organizer | rdf_property: "foaf:depiction" %}
 {% assign affiliations = organizer | rdf_property: "schema:affiliation", nil, true %}
@@ -11,20 +11,48 @@
 {% if groups_schema %}
     {% assign affiliations = affiliations | concat: groups_schema %}
 {% endif %}
+{% assign size = include.size %}
+{% unless size %}
+  {% assign size = 3 %}
+{% endunless %}
 
 <div class="contact">
-    <h2>
-    {{ name }}
-    </h2>
-    {% if depiction %}
-        <figure>
-        <img class="js-load" data-src="{{ depiction | relativize_url }}" data-sizes="auto" data-srcset="{{ depiction | relativize_url }} 1000w" width="1500" height="1500" style="max-width:1500px" alt="Foto von User"><noscript><img src="files/user.png" alt="Foto von User"></noscript>
-        </figure>
-    {% else %}
-        <img class="js-load" data-src="files/user.png" data-sizes="auto" data-srcset="files/generated/user_480.png 480w, files/generated/user_800.png 800w, files/generated/user_1200.png 1200w" width="1500" height="1500" style="max-width:1500px" alt="Foto von User"><noscript><img src="files/user.png" alt="Foto von User"></noscript>
-    {% endif %}
-    <p>
-    Linked Enterprise Data Services<br>
-    eccenca GmbH | AKSW
-    </p>
+    <h{{ size }}>
+      {{ name }}
+    </h{{ size }}>
+    <figure>
+      {% if depiction %}
+        {% include components/img.html alt=name src=depiction %}
+        <noscript>
+          <img src="{{ depiction | relativize_url }}" alt="{{ name }}">
+        </noscript>
+      {% else %}
+          {% include components/img.html alt=name src="/images/people/placeholder.svg" %}
+          <noscript>
+            <img src="{% relative_link /images/people/placeholder.svg %}" alt="{{ name }}">
+          </noscript>
+      {% endif %}
+    </figure>
+
+    <ul class="logos">
+      {% for affiliation in affiliations %}
+        {% assign depiction = affiliation | rdf_property: "site:small_logo" %}
+        {% unless depiction %}
+          {% assign depiction = affiliation | rdf_property: "foaf:logo" %}
+        {% endunless %}
+        {% assign affiliation_label = affiliation | rdf_property: "rdfs:label" %}
+        <li>
+          {% if depiction %}
+              <a href="{{ affiliation }}">
+                {% include components/img.html alt=affiliation_label resource=depiction simple=true %}
+              </a>
+          {% else %}
+            <p>
+              {{ affiliation_label }}
+            </p>
+            {% unless forloop.last%}, {% endunless %}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
 </div>
