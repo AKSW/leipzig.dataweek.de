@@ -1,7 +1,7 @@
 ---
 rdf_prefix_path: _data/prefixes.sparql
 layout: page
-type: Event
+type: Document
 ---
 {% assign rootResource = site.rootResource | rdf_get %}
 
@@ -13,6 +13,7 @@ type: Event
 {% include sections/menu.html %}
 <main class="page-main" aria-label="Inhalt" id="inhalt">
   {{ content }}
+  {% include sections/sponsors.html %}
 </main>
 {% include sections/footer.html %}
 <div class="toplink">

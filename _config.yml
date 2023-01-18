@@ -26,3 +26,6 @@ exclude:
 jekyll_rdf:
   path: "site.nt"
   restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"https://2023.dataweek.de/\") }"
+  class_template_mappings:
+    "http://xmlns.com/foaf/0.1/Document" : "basic.html"
+    "http://schema.org/Event" : "event.html"
