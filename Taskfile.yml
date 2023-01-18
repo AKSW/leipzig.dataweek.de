@@ -80,6 +80,14 @@ tasks:
       -e TZ=Europe/Berlin -e JEKYLL_UID="{{.JEKYLL_UID}}" -e JEKYLL_GID="{{.JEKYLL_GID}}" -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
       jekyll/builder jekyll build -d {{.TARGET}}
 
+  serve_docker:
+    - |
+      docker run --rm \
+      --workdir /github/workspace \
+      -v {{.WORKING_DIRECTORY}}:/github/workspace \
+      -e TZ=Europe/Berlin -e JEKYLL_UID="{{.JEKYLL_UID}}" -e JEKYLL_GID="{{.JEKYLL_GID}}" -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
+      jekyll/builder jekyll serve -d {{.TARGET}} --watch
+
   sync_clean:
     - rapper -i turtle -o ntriples {{.PAGE_GRAPH}}.ttl | LC_ALL=C sort -u > {{.PAGE_GRAPH}}.nt
     - task: sync_sources_to_site
