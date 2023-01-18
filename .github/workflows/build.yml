@@ -12,6 +12,8 @@ jobs:
 
     steps:
     - uses: arduino/setup-task@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
     - uses: actions/checkout@v2
     - name: Run CI Tasks ⚙️
       run: task ci
