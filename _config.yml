@@ -2,11 +2,11 @@
 title: Data Week
 email: dataweek@infai.org
 baseurl: ""
-url: "https://2023.dataweek.de"
-rootResource: "<https://2023.dataweek.de/>"
+url: "https://2022.dataweek.de"
+rootResource: "<https://2022.dataweek.de/>"
 translations:
-  de: "<https://2023.dataweek.de/>"
-  en: "<https://2023.dataweek.de/en/>"
+  de: "<https://2022.dataweek.de/>"
+  en: "<https://2022.dataweek.de/en/>"
 language: de
 twitter_username: DataWeekLeipzig
 
@@ -25,7 +25,7 @@ exclude:
   - src
 jekyll_rdf:
   path: "site.nt"
-  restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"https://2023.dataweek.de/\") }"
+  restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"dataweek.de\") }"
   class_template_mappings:
-    "http://xmlns.com/foaf/0.1/Document" : "basic.html"
+#    "http://xmlns.com/foaf/0.1/Document" : "basic.html"
     "http://schema.org/Event" : "event.html"
