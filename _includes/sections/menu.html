@@ -4,16 +4,40 @@
 <nav class="nav-main" aria-label="Hauptmenü">
   <ul>
     <li>
-      <a href="/program.html">Programm</a>
+      <a href="/program.html">
+        {% if site.language == 'en' %}
+          Program
+        {% else %}
+          Programm
+        {% endif %}
+      </a>
     </li>
     <li>
-      <a href="/speakers.html">Sprecher</a>
+      <a href="/speakers.html">
+        {% if site.language == 'en' %}
+          Speaker
+        {% else %}
+          Sprecher
+        {% endif %}
+      </a>
     </li>
     <li>
-      <a href="/location.html">Veranstaltungsort</a>
+      <a href="/location.html">
+        {% if site.language == 'en' %}
+          Location
+        {% else %}
+          Veranstaltungsort
+        {% endif %}
+      </a>
     </li>
     <li>
-      <a href="{{ subEvent.iri | replace: rootResource.iri, "" }}">Organisationsteam</a>
+      <a href="{{ subEvent.iri | replace: rootResource.iri, "" }}">
+          {% if site.language == 'en' %}
+            Organization Team
+          {% else %}
+            Orgaisationsteam
+          {% endif %}
+      </a>
     </li>
   </ul>
 </nav>
