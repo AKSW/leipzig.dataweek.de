@@ -23,6 +23,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - src
+  - todo.md
 jekyll_rdf:
   path: "site.nt"
   restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"https://2023.dataweek.de/\") }"
