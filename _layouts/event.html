@@ -11,34 +11,39 @@ layout: basic
     Ihr habe Fragen an uns, wollt mitarbeiten oder auf der nächsten Data Week sprechen? Bitte kontaktiert uns: <strong><a href="mailto:dataweek@infai.org">dataweek@infai.org</a></strong>
   </p>
   {% assign subEvents = rootResource | rdf_property: "schema:subEvent", nil, true %}
-    {{ site.rdf }}
-      {{ site.rdf.iri }}
-          {{ subEvent.iri }}
   <nav class="nav-sub1" aria-label="Untermenü Stufe 1">
     <ul>
       {% for subEvent in subEvents %}
         <li>
-          {% if subEvent.iri == site.rdf.iri %}
+          {% if subEvent.iri == page.rdf.iri %}
             <strong aria-current="page">
+              <span>Team</span> {{ subEvent | rdf_property: "rdfs:label" }}</a>
+            </strong>
           {% else %}
             <a href="/{{ subEvent.iri | replace: rootResource.iri, "" }}">
+              <span>Team</span> {{ subEvent | rdf_property: "rdfs:label" }}</a>
+            </a>
           {% endif %}
-          <span>Team</span> {{ subEvent | rdf_property: "rdfs:label" }}</a>
         </li>
       {% endfor %}
     </ul>
   </nav>
 </div>
-{% assign organizers = rootResource | rdf_property: "schema:organizer", nil, true %}
+{% assign organizer = page | rdf_property: "schema:organizer" %}
 <h2>
-  Leipziger Semantic Web Tag - Die Organisatoren
+  {% assign label = organizer | rdf_property: "rdfs:label" %}
+  {% if label %}
+    {{ label }}
+  {% else %}
+    {{ subEvent | rdf_property: "rdfs:label" }} - die Organisatoren
+  {% endif %}
 </h2>
 <div class="contact-list">
-  {% assign organizerTeam = organizers | rdf_container %}
+  {% assign organizerTeam = organizer | rdf_container %}
   <ul>
-    {% for organizer in organizerTeam %}
+    {% for person in organizerTeam %}
       <li>
-        {% include components/person.html organizer=organizer %}
+        {% include components/person.html organizer=person %}
       </li>
     {% endfor %}
   </ul>
