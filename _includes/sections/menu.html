@@ -1,23 +1,24 @@
+{% assign rootResource = site.rootResource | rdf_get %}
+{% assign subEvent = rootResource | rdf_property: "schema:subEvent" %}
+
 <nav class="nav-main" aria-label="Hauptmenü">
   <ul>
     <li>
-      <a href="program.html">Programm</a>
+      <a href="/program.html">Programm</a>
     </li>
     <li>
-      <a href="speakers.html">Sprecher</a>
+      <a href="/speakers.html">Sprecher</a>
     </li>
     <li>
-      <a href="location.html">Veranstaltungsort</a>
+      <a href="/location.html">Veranstaltungsort</a>
     </li>
     <li>
-      <a href="organizers.html">Organisationsteam</a>
-    </li>
-    <li>
-      <a href="demo.html">Demo</a>
+      <a href="{{ subEvent.iri | replace: rootResource.iri, "" }}">Organisationsteam</a>
     </li>
   </ul>
 </nav>
 
+<!-- The mobile part was not yet updated! -->
 <div class="nav-mobil" id="navigation">
   <nav class="nav-lang-mobil" aria-label="Sprachmenü">
     <ul>
