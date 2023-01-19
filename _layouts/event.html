@@ -10,22 +10,26 @@ layout: basic
   <p>
     Ihr habe Fragen an uns, wollt mitarbeiten oder auf der nächsten Data Week sprechen? Bitte kontaktiert uns: <strong><a href="mailto:dataweek@infai.org">dataweek@infai.org</a></strong>
   </p>
-  {% assign subEvents = rootResource | rdf_property: "schema:subEvent" %}
+  {% assign subEvents = rootResource | rdf_property: "schema:subEvent", nil, true %}
+    {{ site.rdf }}
+      {{ site.rdf.iri }}
+          {{ subEvent.iri }}
   <nav class="nav-sub1" aria-label="Untermenü Stufe 1">
     <ul>
-      <li class="open">
-        <strong aria-current="page"><span>Team</span> LSWT2022</strong>
-      </li>
       {% for subEvent in subEvents %}
-      {{ subEvent }}
         <li>
-          <a href="dummy.html"><span>Team</span> {{ subEvent | rdf_property: "rdfs:label" }}</a>
+          {% if subEvent.iri == site.rdf.iri %}
+            <strong aria-current="page">
+          {% else %}
+            <a href="/{{ subEvent.iri | replace: rootResource.iri, "" }}">
+          {% endif %}
+          <span>Team</span> {{ subEvent | rdf_property: "rdfs:label" }}</a>
         </li>
       {% endfor %}
     </ul>
   </nav>
 </div>
-{% assign organizers = rootResource | rdf_property: "schema:organizer" %}
+{% assign organizers = rootResource | rdf_property: "schema:organizer", nil, true %}
 <h2>
   Leipziger Semantic Web Tag - Die Organisatoren
 </h2>
