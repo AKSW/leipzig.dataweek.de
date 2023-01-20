@@ -1,5 +1,9 @@
 <h3>
-  Trailer 2022 bei YouTube
+  {% if site.language == 'en' %}
+    Trailer 2022 on YouTube
+  {% else %}
+    Trailer 2022 bei YouTube
+  {% endif %}
 </h3>
 <div class="ce-video" data-consent="" data-consent-name="youtube" data-consent-callback="pxConsentYoutube1">
   <script>
@@ -20,17 +24,53 @@
   </div>
   <div data-consent-form="">
     <p id="px-consent-video-info-1">
-      This video is embedded from YouTube. By loading the video, you accept YouTube’s <a href="index.html#">privacy policy</a>.
+      {% if site.language == 'en' %}
+        This video is embedded from YouTube. By loading the video, you accept YouTube’s
+      {% else %}
+        Dieses Video ist von YouTube eingebettet. Durch laden diesen Videos, wird den YouTube-Regeln zugestimmt:
+      {% endif %}
+      <a href="index.html#">privacy policy</a>.
     </p>
     <form action="#">
       <div>
-        <label><input type="checkbox" data-consent-form-setcookie="" name="setcookie" checked> <span>Always unlock YouTube<br>
-            <small>(save setting as cookie)</small></span></label><br>
-        <button aria-describedby="px-consent-video-info-1" data-consent-form-button="">Unlock now</button>
+        <label>
+          <input type="checkbox" data-consent-form-setcookie="" name="setcookie" checked>
+          <span>
+            {% if site.language == 'en' %}
+              Always unlock YouTube
+            {% else %}
+              YouTube immer freigeben
+            {% endif %}
+            <br>
+            <small>
+              {% if site.language == 'en' %}
+                (save setting as cookie)
+              {% else %}
+                (Speichere Einstellung als Cookie)
+              {% endif %}
+            </small>
+          </span>
+        </label>
+        <br>
+        <button aria-describedby="px-consent-video-info-1" data-consent-form-button="">
+          {% if site.language == 'en' %}
+            Unlock now
+          {% else %}
+            Jetzt freigeben
+          {% endif %}
+        </button>
       </div>
     </form>
   </div>
 </div>
 <p>
-  <strong><a href="https://www.youtube.com/watch?v=FupVhEO7Tzc">Direkt bei YouTube anschauen</a></strong>
+  <strong>
+    <a href="https://www.youtube.com/watch?v=FupVhEO7Tzc">
+      {% if site.language == 'en' %}
+        Watch on YouTube
+      {% else %}
+        Direkt bei YouTube anschauen
+      {% endif %}
+    </a>
+  </strong>
 </p>
