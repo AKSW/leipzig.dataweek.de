@@ -6,13 +6,31 @@
           <a href="impressum.html">Impressum</a>
         </li>
         <li>
-          <a href="datenschutz.html">Datenschutz</a>
+          <a href="datenschutz.html">
+            {% if site.language == 'en' %}
+              Data protection
+            {% else %}
+              Datenschutz
+            {% endif %}
+          </a>
         </li>
         <li>
-          <a href="contact.html">Kontakt</a>
+          <a href="contact.html">
+            {% if site.language == 'en' %}
+              Contact
+            {% else %}
+              Kontakt
+            {% endif %}
+          </a>
         </li>
         <li>
-          <a href="event-archiv.html">Event-Archiv</a>
+          <a href="event-archiv.html">
+            {% if site.language == 'en' %}
+              Event archive
+            {% else %}
+              Event-Archiv
+            {% endif %}
+          </a>
         </li>
       </ul>
     </nav>
@@ -26,7 +44,11 @@
   </div>
   <div class="page-footer-partner">
     <h2>
-      In Kooperation mit:
+      {% if site.language == 'en' %}
+        In coorperation with:
+      {% else %}
+        In Kooperation mit:
+      {% endif %}
     </h2>
     <ul>
       <li>
