@@ -22,7 +22,7 @@ vars:
     sh: id -g
   JEKYLL_UID: '{{.JEKYLL_UID | default .ID_UID}}'
   JEKYLL_GID: '{{.JEKYLL_GID | default .ID_GID}}'
-  JEKYLL_IMAGE: jekyll-rdf:develop
+  JEKYLL_IMAGE: ghcr.io/aksw/jekyll-rdf:develop
   LANGUAGE: '{{.LANGUAGE | default "de"}}'
   TARGET: '{{.TARGET | default "_site"}}'
   TARGET_DE: '{{.TARGET_DE | default .TARGET}}'
