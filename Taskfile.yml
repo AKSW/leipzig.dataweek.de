@@ -22,95 +22,101 @@ vars:
     sh: id -g
   JEKYLL_UID: '{{.JEKYLL_UID | default .ID_UID}}'
   JEKYLL_GID: '{{.JEKYLL_GID | default .ID_GID}}'
+  LANGUAGE: '{{.LANGUAGE | default "de"}}'
+  TARGET: '{{.TARGET | default "_site"}}'
+  TARGET_DE: '{{.TARGET_DE | default .TARGET}}'
+  TARGET_EN: '{{.TARGET_EN | default "_site/en"}}'
 
 tasks:
 
   default:
-    - task -a
+    desc: List all tasks
+    cmds:
+      - task -a
 
   build:
-    - task: normalize_turtle
-    - task: get_program
-    - task: sync_clean
-    - task: build_de
-    - task: build_en
+    desc: Build the page locally
+    cmds:
+      - task: helper:normalize-turtle
+      - task: sync:get-program
+      - task: sync:clean
+      - task: build:de
+      - task: build:en
 
   ci:
-    - task: build_docker_de
-    - task: build_docker_en
+    desc: Build tasks for the CI
+    cmds:
+      - task: build:de:docker
+      - task: build:en:docker
 
-  ci_data_sync:
-    - task: get_program
-    - task: upload_page
-    - task: sync_sources_to_site
-    - task: commit_and_push_data
+  ci:data-sync:
+    desc: Synchronize the data in the CI
+    cmds:
+      - task: sync:get-program
+      - task: sync:upload-page-graph
+      - task: sync:merge-site-graph
+      - task: track:commit-and-push-data
 
   serve:
-    - python -m http.server --directory _site
-
-  build_de:
+    desc: Serve the locally built site
     cmds:
-      - bundle exec jekyll build -d _site
+      - python -m http.server --directory {{.TARGET}}
+
+  build:de:
+    cmds:
+      - bundle exec jekyll build -d {{.TARGET_DE}}
     env:
       JEKYLL_LANGUAGE: de
 
-  build_en:
+  build:en:
     cmds:
-      - bundle exec jekyll build -d _site/en
+      - bundle exec jekyll build -d {{.TARGET_EN}}
     env:
       JEKYLL_LANGUAGE: en
 
-  build_docker_de:
-    - task: build_docker
-      vars:
-        LANGUAGE: de
-        TARGET: _site
+  build:de:docker:
+    cmds:
+      - task: build:docker
+        vars:
+          LANGUAGE: de
+          TARGET: '{{.TARGET_DE}}'
 
-  build_docker_en:
-    - task: build_docker
-      vars:
-        LANGUAGE: en
-        TARGET: _site/en
+  build:en:docker:
+    cmds:
+      - task: build:docker
+        vars:
+          LANGUAGE: en
+          TARGET: '{{.TARGET_EN}}'
 
-  build_docker:
+  build:docker:
     - |
       docker run --rm \
       --workdir /github/workspace \
       -v {{.WORKING_DIRECTORY}}:/github/workspace \
       -e TZ=Europe/Berlin -e JEKYLL_UID="{{.JEKYLL_UID}}" -e JEKYLL_GID="{{.JEKYLL_GID}}" -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
-      jekyll/builder jekyll build -d {{.TARGET}}
+      jekyll-rdf:4.0.0-rc2 jekyll build -d {{.TARGET}}
 
-  serve_docker:
-    - |
-      docker run --rm \
-      --workdir /github/workspace \
-      -v {{.WORKING_DIRECTORY}}:/github/workspace \
-      -e TZ=Europe/Berlin -e JEKYLL_UID="{{.JEKYLL_UID}}" -e JEKYLL_GID="{{.JEKYLL_GID}}" -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
-      jekyll/builder jekyll serve --watch
-
-  sync_clean:
+  sync:clean:
     - rapper -i turtle -o ntriples {{.PAGE_GRAPH}}.ttl | LC_ALL=C sort -u > {{.PAGE_GRAPH}}.nt
-    - task: sync_sources_to_site
+    - task: sync:merge-site-graph
 
-  sync_sources_to_site:
+  sync:merge-site-graph:
     - cat {{.PAGE_GRAPH}}.nt {{.PROGRAM_GRAPH}}.nt | LC_ALL=C sort -u > {{.SITE_GRAPH}}.nt
 
-  get_program:
+  sync:get-program:
     - '{{.CMEMC}} workflow execute --wait {{.WORKFLOW}}'
     - '{{.CMEMC}} graph export {{.PROGRAM_GRAPH_IRI}} | LC_ALL=C sort -u > {{.PROGRAM_GRAPH}}.nt'
 
-  upload_page:
+  sync:upload-page-graph:
     - '{{.CMEMC}} graph import --replace {{.PAGE_GRAPH}}.ttl {{.PAGE_GRAPH_IRI}}'
 
-  commit_and_push_data:
+  track:commit-and-push-data:
     - |
-      git config user.name "{{.GIT_USER_NAME}}"
-      git config user.email "{{.GIT_USER_EMAIL}}"
       git add {{.SITE_GRAPH}}.nt {{.PROGRAM_GRAPH}}.nt
-      git commit -m "{{.GIT_COMMIT_MESSAGE}}" || echo ""
+      git -c user.name "{{.GIT_USER_NAME}}" -c user.email "{{.GIT_USER_EMAIL}}" commit -m "{{.GIT_COMMIT_MESSAGE}}" || echo ""
       git push || echo ""
 
-  normalize_turtle:
+  helper:normalize-turtle:
     - |
       rapper -i turtle -o turtle \
         -f 'xmlns:xsd="http://www.w3.org/2001/XMLSchema#"' \
