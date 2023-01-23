@@ -22,6 +22,7 @@ vars:
     sh: id -g
   JEKYLL_UID: '{{.JEKYLL_UID | default .ID_UID}}'
   JEKYLL_GID: '{{.JEKYLL_GID | default .ID_GID}}'
+  JEKYLL_IMAGE: ghcr.io/aksw/jekyll-rdf:develop
   LANGUAGE: '{{.LANGUAGE | default "de"}}'
   TARGET: '{{.TARGET | default "_site"}}'
   TARGET_DE: '{{.TARGET_DE | default .TARGET}}'
@@ -94,7 +95,7 @@ tasks:
       --workdir /github/workspace \
       -v {{.WORKING_DIRECTORY}}:/github/workspace \
       -e TZ=Europe/Berlin -e JEKYLL_UID="{{.JEKYLL_UID}}" -e JEKYLL_GID="{{.JEKYLL_GID}}" -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
-      jekyll-rdf:4.0.0-rc2 jekyll build -d {{.TARGET}}
+      {{.JEKYLL_IMAGE}} jekyll build -d {{.TARGET}}
 
   sync:clean:
     - rapper -i turtle -o ntriples {{.PAGE_GRAPH}}.ttl | LC_ALL=C sort -u > {{.PAGE_GRAPH}}.nt
