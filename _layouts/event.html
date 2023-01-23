@@ -17,11 +17,11 @@ layout: basic
         <li>
           {% if subEvent.iri == page.rdf.iri %}
             <strong aria-current="page">
-              <span>Team</span> {{ subEvent | rdf_property: "rdfs:label" }}</a>
+              <span>Team</span> {{ subEvent | rdf_property: "rdfs:label" }}
             </strong>
           {% else %}
             <a href="/{{ subEvent.iri | replace: rootResource.iri, "" }}">
-              <span>Team</span> {{ subEvent | rdf_property: "rdfs:label" }}</a>
+              <span>Team</span> {{ subEvent | rdf_property: "rdfs:label" }}
             </a>
           {% endif %}
         </li>
