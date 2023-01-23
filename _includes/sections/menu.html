@@ -6,7 +6,7 @@
 <nav class="nav-main" aria-label="Hauptmenü">
   <ul>
     <li>
-      
+
       <a href="{{ result.link }}">
         {% if site.language == 'en' %}
           Program
@@ -34,11 +34,11 @@
       </a>
     </li>
     <li>
-      <a href="{{ subEvent.iri | replace: rootResource.iri, "" }}">
+      <a href="/{{ subEvent.iri | replace: rootResource.iri, "" }}">
           {% if site.language == 'en' %}
             Organization Team
           {% else %}
-            Orgaisationsteam
+            Organisationsteam
           {% endif %}
       </a>
     </li>
