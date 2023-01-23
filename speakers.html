@@ -2,14 +2,39 @@
 layout: basic
 ---
 {% assign rootResource = site.rootResource | rdf_get %}
+
 {% capture persons_query %}
-SELECT distinct ?person WHERE {
-  ?person a <http://schema.org/Person> ;
-  	<http://xmlns.com/foaf/0.1/name> ?name .
-  ?event a schema:Event ;
-   	schema:performer ?person .
-}  order by ASC(?name)
+SELECT distinct ?person
+WHERE {
+  ?resourceUri schema:subEvent ?subEvent .
+  ?subEvent schema:subEvent ?session ;
+            rdfs:label ?eventTitle ;
+            schema:date ?date .
+  ?session schema:location ?location ;
+           schema:startTime ?session_start ;
+           schema:endTime ?session_end ;
+           dct:title ?session_name ;
+           schema:subEvent ?talk .
+  ?talk dct:title ?talk_title ;
+        schema:performer ?person ;
+        schema:startTime ?start ;
+        schema:endTime ?end .
+
+  OPTIONAL {
+    Select distinct ?person ?affiliation where {
+    {
+        ?person a <http://schema.org/Person> ;
+          schema:affiliation ?affiliation .
+    } union
+    {
+        ?person a <http://schema.org/Person> ;
+          schema:memberOf ?affiliation .
+    }}
+  }
+}
+order by ASC(?person)
 {% endcapture %}
+
 {% capture dates_query %}
 SELECT distinct ?ds WHERE {
   ?rd a <https://dataweek.de/#RoomDay> ;
@@ -18,6 +43,7 @@ SELECT distinct ?ds WHERE {
   FILTER(langMatches(lang(?ds), "{{ site.language }}"))
 }  order by ASC(?ds)
 {% endcapture %}
+
 {% capture affiliations_query %}
 SELECT distinct ?al ?affiliation WHERE {
   {
@@ -42,6 +68,40 @@ SELECT distinct ?al ?affiliation WHERE {
     FILTER(langMatches(lang(?al), "{{ site.language }}"))
   }
 }  order by ASC(lcase(?al))
+{% endcapture %}
+
+{% capture details_query %}
+SELECT distinct (GROUP_CONCAT(distinct ?affiliation;SEPARATOR=",") as ?affiliations) (GROUP_CONCAT(distinct ?date;SEPARATOR=",") as ?dates)
+WHERE {
+  <{{ rootResource }}> schema:subEvent ?subEvent .
+  ?subEvent schema:subEvent ?session ;
+            rdfs:label ?eventTitle ;
+            schema:date ?date .
+  ?session schema:location ?location ;
+           schema:startTime ?session_start ;
+           schema:endTime ?session_end ;
+           dct:title ?session_name ;
+           schema:subEvent ?talk .
+  ?talk dct:title ?talk_title ;
+        schema:performer ?person ;
+        schema:startTime ?start ;
+        schema:endTime ?end .
+
+  OPTIONAL {
+      Select distinct ?person ?affiliation where {
+      {
+          ?person a schema:Person ;
+            schema:affiliation ?affiliation .
+      } union
+      {
+          ?person a schema:Person ;
+            schema:memberOf ?affiliation .
+      } }
+  }
+
+  filter (?person = ?resourceUri)
+}
+order by ASC(?person)
 {% endcapture %}
 
 <div class="content-header">
@@ -103,7 +163,8 @@ SELECT distinct ?al ?affiliation WHERE {
   <ul>
     {% assign persons = rootResource | sparql_query: persons_query %}
     {% for p in persons %}
-      <li>
+      {% assign details = p.person.rdf | sparql_query: details_query | first %}
+      <li data-dates="{{ details.dates }}" data-affiliations="{{ details.affiliations }}">
         {% include components/person.html organizer=p.person  %}
       </li>
     {% endfor %}

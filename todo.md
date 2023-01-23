@@ -8,6 +8,7 @@ Let's add TODOs here.
 - domain of (at least) all events have to be the same as the base domain
 - first level subevents should have a short title (e.g. LSWT23)
 - main resource team needs a description
+- schema:affiliations and schema:memberOf range objects should have labels with language tag
 - cmem: add an update query for resources (n:m) built from date and room helping to generate program sites
 with naviation (date) and subnavigation (room)
 
