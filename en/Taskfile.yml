@@ -12,7 +12,7 @@ vars:
   GIT_USER_EMAIL: dw-cmem-update-bot@example.org
   GIT_COMMIT_MESSAGE: Update from CMEM
   WORKING_DIRECTORY: '{{.github.workspace | default .PWD}}'
-  CMEMC_VERSION: v21.11.4
+  CMEMC_VERSION: v22.2
   CMEMC_IMAGE: docker-registry.eccenca.com/eccenca-cmemc:{{.CMEMC_VERSION}}
   CMEMC_DOCKER: docker run -i --rm -e "CMEM_BASE_URI=https://aksw.eccenca.dev/" -e "OAUTH_CLIENT_SECRET={{.OAUTH_CLIENT_SECRET}}" -v {{.WORKING_DIRECTORY}}:/data {{.CMEMC_IMAGE}}
   CMEMC: '{{.CMEMC_LOCAL | default .CMEMC_DOCKER}}'
