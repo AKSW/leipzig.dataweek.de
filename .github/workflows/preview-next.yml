@@ -1,0 +1,30 @@
+# Build Jekyll Page and publish it to GitHub Pages
+name: Build Jekyll Page Preview for the Next Layout
+
+on:
+  push:
+    branches: [ next ]
+  workflow_dispatch:
+  schedule:
+    - cron:  '30 * * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: arduino/setup-task@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/checkout@v2
+    - name: Run CI Tasks ⚙️
+      env:
+        OAUTH_CLIENT_SECRET: ${{ secrets.OAUTH_CLIENT_SECRET }}
+      run: task ci:data-sync ci
+    - name: Deploy 🚀
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
+        publish_branch: page-next
