@@ -16,8 +16,15 @@ type: Document
   {% include sections/sponsors.html %}
 </main>
 {% include sections/footer.html %}
+
+{% assign label1 = "zum Seitenanfang springen" %}
+{% assign label2 = "zum Seitenanfang" %}
+{% if site.language == 'en' %}
+  {% assign label1 = "jump to the top" %}
+  {% assign label2 = "To the top" %}
+{% endif %}
 <div class="toplink">
-  <a href="index.html#top" aria-label="zum Seitenanfang springen" title="zum Seitenanfang"><svg role="img" focusable="false" aria-hidden="true" viewbox="0 0 28 28" height="28" width="28">
+  <a href="index.html#top" aria-label="{{ label1 }}" title="{{ label2 }}"><svg role="img" focusable="false" aria-hidden="true" viewbox="0 0 28 28" height="28" width="28">
       <use xlink:href="/resources/images/icons.svg#button-toplink"></use>
     </svg></a>
 </div>

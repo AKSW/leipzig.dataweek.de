@@ -7,6 +7,7 @@ Let's add TODOs here.
 - **Unsure**: cmem: add class for teams -> cleanup: delete all rdf:_* properties insert foaf:member instead
 - domain of (at least) all events have to be the same as the base domain
 - first level subevents should have a short title (e.g. LSWT23)
+- main resource team needs a description
 - cmem: add an update query for resources (n:m) built from date and room helping to generate program sites
 with naviation (date) and subnavigation (room)
 

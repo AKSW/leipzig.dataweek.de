@@ -1,20 +1,29 @@
 ---
 layout: basic
 ---
+{% assign rootResource = site.rootResource | rdf_get %}
+{% assign venue = rootResource | rdf_property: "schema:location" %}
+{% capture address %}
+  {{ venue | rdf_property: "schema:name" }}<br>
+  {{ venue | rdf_property: "schema:streetAddress" }}<br>
+  {{ venue | rdf_property: "schema:postalCode" }} {{ venue | rdf_property: "schema:addressLocality" }}
+{% endcapture %}
 
 <div class="content-header">
   <h1>
-    Veranstaltungsort
+    {{ venue | rdf_property: "rdfs:label", site.language }}
   </h1>
   <address>
-    Neues Rathaus/City Hall<br>
-    Martin-Luther-Ring 4-6<br>
-    04109 Leipzig
+    {{ address }}
   </address>
 </div>
 <div class="box">
   <h2>
-    Kartenansicht
+    {% if site.language == 'en' %}
+      Map view
+    {% else %}
+      Kartenansicht
+    {% endif %}
   </h2>
   <div class="ce-map-consent" data-consent="" data-consent-name="openstreetmap" data-consent-callback="pxConsentMap1">
     <script>
@@ -24,14 +33,18 @@ layout: basic
     </script>
     <div class="ce-map" data-consent-ready="" data-init-lat="51.335790" data-init-lon="12.372070" data-init-zoom="16" data-label-map="Standort Neues Rathaus/City Hall">
       <div class="map-marker" data-icon="resources/files/map-icon-01.svg" data-icon-width="28" data-icon-height="28" data-lat="51.335790" data-lon="12.372070">
-        Neues Rathaus/City Hall<br>
-        Martin-Luther-Ring 4-6<br>
-        04109 Leipzig
+        {{ address }}
       </div>
     </div>
     <div data-consent-form="">
       <p id="px-consent-map-info-1">
-        <strong>An dieser Stelle wird eine Karte direkt von OpenStreetMap eingebunden. Mit dem Laden akzeptieren Sie die Datenschutzerklärung von OpenStreetMap.</strong>
+        <strong>
+          {% if site.language == 'en' %}
+            Here the map from OpenStreetMap gets included. With loading it you consent to the data privacy statement of OpenStreetMap.
+          {% else %}
+            An dieser Stelle wird eine Karte direkt von OpenStreetMap eingebunden. Mit dem Laden akzeptieren Sie die Datenschutzerklärung von OpenStreetMap.
+          {% endif %}
+        </strong>
       </p>
       <form action="#">
         <div>
@@ -44,7 +57,11 @@ layout: basic
 </div>
 <div class="box">
   <h2>
-    Lageplan
+    {% if site.language == 'en' %}
+      View
+    {% else %}
+      Lageplan
+    {% endif %}
   </h2>
   <figure>
     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 896 588" width="100%">

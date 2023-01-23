@@ -1,140 +1,111 @@
 ---
 layout: basic
 ---
+{% assign rootResource = site.rootResource | rdf_get %}
+{% capture persons_query %}
+SELECT distinct ?person WHERE {
+  ?person a <http://schema.org/Person> ;
+  	<http://xmlns.com/foaf/0.1/name> ?name .
+  ?event a schema:Event ;
+   	schema:performer ?person .
+}  order by ASC(?name)
+{% endcapture %}
+{% capture dates_query %}
+SELECT distinct ?ds WHERE {
+  ?rd a <https://dataweek.de/#RoomDay> ;
+  	<https://dataweek.de/#datestring> ?ds .
+
+  FILTER(langMatches(lang(?ds), "{{ site.language }}"))
+}  order by ASC(?ds)
+{% endcapture %}
+{% capture affiliations_query %}
+SELECT distinct ?al ?affiliation WHERE {
+  {
+    ?person a <http://schema.org/Person> ;
+      <http://xmlns.com/foaf/0.1/name> ?name ;
+      schema:affiliation ?affiliation .
+    ?event a schema:Event ;
+      schema:performer ?person .
+    ?affiliation rdfs:label ?al .
+
+    FILTER(langMatches(lang(?al), "{{ site.language }}"))
+  }
+  UNION
+  {
+  	?person a <http://schema.org/Person> ;
+      <http://xmlns.com/foaf/0.1/name> ?name ;
+      schema:memberOf ?affiliation .
+    ?event a schema:Event ;
+      schema:performer ?person .
+    ?affiliation rdfs:label ?al .
+
+    FILTER(langMatches(lang(?al), "{{ site.language }}"))
+  }
+}  order by ASC(lcase(?al))
+{% endcapture %}
 
 <div class="content-header">
   <h1>
-    Unsere Sprecher
+    {% if site.language == 'en' %}
+      Our speakers
+    {% else %}
+      Unsere Vortragende
+    {% endif %}
   </h1>
   <p>
-    Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen…
+    {{ rootResource | rdf_property: "schema:abstract", site.language }}
   </p>
   <form class="filter" action="#">
     <div>
-      <label for="form-select1" class="hideme">Kategorie</label> <select class="form-control" id="form-select1">
+      <label for="form-select1" class="hideme">Affiliation</label>
+      <select class="form-control" id="form-select1">
         <option value="">
-          Kategorie wählen
+          {% if site.language == 'en' %}
+            Choose affiliation
+          {% else %}
+            Affiliation wählen
+          {% endif %}
         </option>
-        <option value="a">
-          Option A
-        </option>
-        <option value="b">
-          Option B
-        </option>
-        <option value="c">
-          Option C
-        </option>
-        <option value="d">
-          Option D
-        </option>
-        <option value="e">
-          Option E
-        </option>
-      </select> <label for="form-select2" class="hideme">Tag</label> <select class="form-control" id="form-select2">
+        {% assign affiliations = rootResource | sparql_query: affiliations_query %}
+        {% for a in affiliations %}
+          <option value="{{ a.affiliation }}">
+            {{ a.al }}
+          </option>
+        {% endfor %}
+      </select>
+      <label for="form-select2" class="hideme">Tag</label>
+      <select class="form-control" id="form-select2">
         <option value="">
-          Tag wählen
+          {% if site.language == 'en' %}
+            Choose day
+          {% else %}
+            Tag wählen
+          {% endif %}
         </option>
-        <option value="a">
-          Option A
-        </option>
-        <option value="b">
-          Option B
-        </option>
-        <option value="c">
-          Option C
-        </option>
-        <option value="d">
-          Option D
-        </option>
-        <option value="e">
-          Option E
-        </option>
-      </select> <button type="submit">Anzeige filtern</button>
+        {% assign dates = rootResource | sparql_query: dates_query %}
+        {% for day in dates %}
+          <option value="{{ day.ds }}">
+            {{ day.ds }}
+          </option>
+        {% endfor %}
+      </select>
+      <button type="submit">
+        {% if site.language == 'en' %}
+          Filter speakers
+        {% else %}
+          Vortragende filtern
+        {% endif %}
+      </button>
     </div>
   </form>
 </div>
 <div class="contact-list">
   <ul>
-    <li>
-      <div class="contact">
-        <h2>
-          Dr. Natanael Arndt
-        </h2>
-        <figure>
-          <img class="js-load" data-src="resources/files/user.png" data-sizes="auto" data-srcset="resources/files/generated/user_480.png 480w, resources/files/generated/user_800.png 800w, resources/files/generated/user_1200.png 1200w" width="1500" height="1500" style="max-width:1500px" alt="Foto von User"><noscript><img src="resources/files/user.png" alt="Foto von User"></noscript>
-        </figure>
-        <p>
-          Linked Enterprise Data Services<br>
-          eccenca GmbH | AKSW
-        </p>
-      </div>
-    </li>
-    <li>
-      <div class="contact">
-        <h2>
-          Jana Bendigs
-        </h2>
-        <figure>
-          <img class="js-load" data-src="resources/files/user.png" data-sizes="auto" data-srcset="resources/files/generated/user_480.png 480w, resources/files/generated/user_800.png 800w, resources/files/generated/user_1200.png 1200w" width="1500" height="1500" style="max-width:1500px" alt="Foto von User"><noscript><img src="resources/files/user.png" alt="Foto von User"></noscript>
-        </figure>
-        <p>
-          Public Relations and Communication, Living Lab<br>
-          Universität Leipzig
-        </p>
-      </div>
-    </li>
-    <li>
-      <div class="contact">
-        <h2>
-          Julia Holze
-        </h2>
-        <figure>
-          <img class="js-load" data-src="resources/files/user.png" data-sizes="auto" data-srcset="resources/files/generated/user_480.png 480w, resources/files/generated/user_800.png 800w, resources/files/generated/user_1200.png 1200w" width="1500" height="1500" style="max-width:1500px" alt="Foto von User"><noscript><img src="resources/files/user.png" alt="Foto von User"></noscript>
-        </figure>
-        <p>
-          communications manager for the DBpedia
-        </p>
-      </div>
-    </li>
-    <li>
-      <div class="contact">
-        <h2>
-          Nieves Sande
-        </h2>
-        <figure>
-          <img class="js-load" data-src="resources/files/user.png" data-sizes="auto" data-srcset="resources/files/generated/user_480.png 480w, resources/files/generated/user_800.png 800w, resources/files/generated/user_1200.png 1200w" width="1500" height="1500" style="max-width:1500px" alt="Foto von User"><noscript><img src="resources/files/user.png" alt="Foto von User"></noscript>
-        </figure>
-        <p>
-          Research Project Manager<br>
-          eccenca GmbH
-        </p>
-      </div>
-    </li>
-    <li>
-      <div class="contact">
-        <h2>
-          Dr. Sebastian Tramp
-        </h2>
-        <figure>
-          <img class="js-load" data-src="resources/files/user.png" data-sizes="auto" data-srcset="resources/files/generated/user_480.png 480w, resources/files/generated/user_800.png 800w, resources/files/generated/user_1200.png 1200w" width="1500" height="1500" style="max-width:1500px" alt="Foto von User"><noscript><img src="resources/files/user.png" alt="Foto von User"></noscript>
-        </figure>
-        <p>
-          associated AKSW member and CTO at eccenca GmbH
-        </p>
-      </div>
-    </li>
-    <li>
-      <div class="contact">
-        <h2>
-          Miriam Welz
-        </h2>
-        <figure>
-          <img class="js-load" data-src="resources/files/user.png" data-sizes="auto" data-srcset="resources/files/generated/user_480.png 480w, resources/files/generated/user_800.png 800w, resources/files/generated/user_1200.png 1200w" width="1500" height="1500" style="max-width:1500px" alt="Foto von User"><noscript><img src="resources/files/user.png" alt="Foto von User"></noscript>
-        </figure>
-        <p>
-          Public relations employee at ScaDS.AI
-        </p>
-      </div>
-    </li>
+    {% assign persons = rootResource | sparql_query: persons_query %}
+    {% for p in persons %}
+      <li>
+        {% include components/person.html organizer=p.person  %}
+      </li>
+    {% endfor %}
   </ul>
 </div>

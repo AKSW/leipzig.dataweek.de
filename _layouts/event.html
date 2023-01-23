@@ -5,10 +5,10 @@ layout: basic
 
 <div class="content-header">
   <h1>
-    Organisationsteam
+    {{ rootResource | rdf_property: "schema:organizer" | rdf_property: "rdfs:label", site.language }}
   </h1>
   <p>
-    Ihr habe Fragen an uns, wollt mitarbeiten oder auf der nächsten Data Week sprechen? Bitte kontaktiert uns: <strong><a href="mailto:dataweek@infai.org">dataweek@infai.org</a></strong>
+    {{ rootResource | rdf_property: "schema:organizer" | rdf_property: "dct:description", site.language }}
   </p>
   {% assign subEvents = rootResource | rdf_property: "schema:subEvent", nil, true %}
   <nav class="nav-sub1" aria-label="Untermenü Stufe 1">
@@ -17,11 +17,11 @@ layout: basic
         <li>
           {% if subEvent.iri == page.rdf.iri %}
             <strong aria-current="page">
-              <span>Team</span> {{ subEvent | rdf_property: "rdfs:label" }}</a>
+              <span>Team</span> {{ subEvent | rdf_property: "rdfs:label" }}
             </strong>
           {% else %}
             <a href="/{{ subEvent.iri | replace: rootResource.iri, "" }}">
-              <span>Team</span> {{ subEvent | rdf_property: "rdfs:label" }}</a>
+              <span>Team</span> {{ subEvent | rdf_property: "rdfs:label" }}
             </a>
           {% endif %}
         </li>

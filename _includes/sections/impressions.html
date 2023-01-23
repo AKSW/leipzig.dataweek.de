@@ -2,10 +2,20 @@
 <div class="grid">
   <div class="grid-8">
     <h2 class="no-space-bottom">
-      Impressionen der Data Week 2022
+      {% if site.language == 'en' %}
+        Impressions of the Data Week <span>2022</span>
+      {% else %}
+        Impressionen der Data Week <span>2022</span>
+      {% endif %}
     </h2>
     <p>
-      An dieser stelle sollte noch eine kleine Einleitung stehen. Vielleicht ein paar Worte als Rückblick auf die Veranstaltung mit einigen Highlights.
+      {% if site.language == 'en' %}
+        
+      {% else %}
+        Eine spannende Veranstaltungswoche für Startups, Studierende sowie Vertreterinnen aus Wissenschaft, Verwaltung und Industrie mit mehr als 340 Teilnehmenden im Neuen Rathaus Leipzig.
+        <br />
+        Die einwöchige Veranstaltung im Neuen Rathaus Leipzig hat Akteure aus der Wirtschaft, Wissenschaft und Verwaltung an fünf Veranstaltungstagen zusammengebracht. Was alle Beteiligten aus den verschiedenen Disziplinen gemeinsam hatten, war das Interesse an den Themen Digitalisierung, Daten und Künstliche Intelligenz. Zu dieser Interdisziplinarität kommentierte Dr. Sebastian Tramp, CTO der eccenca GmbH: „Mit der Data Week verbreitern wir unseren Scope von einer rein akademischen Veranstaltung zu einer Veranstaltung, die wirklich alle interessieren kann.“ Die Konferenzwoche war geprägt von abwechslungsreichen Austausch- und Netzwerkmöglichkeiten. Des Weiteren wurden viele interessante Präsentationen, Workshops und Diskussionsrunden organisiert und durchgeführt. Weiterhin wurde die Data Week Leipzig am 4. Juli 2022 mit der spannenden Keynote Präsentation “Von Fehlern in Daten und Fehlern im Denken” von Stefan Holtel (Kurator für digitalen Wandel bei der PricewaterhouseCoopers GmbH) eröffnet. Alle Folien und Präsentationen sind auf der Data Week Website zu finden: <a href="https://dataweek.de/talks/">dataweek.de/talks</a>.
+      {% endif %}
     </p>
   </div>
 </div>

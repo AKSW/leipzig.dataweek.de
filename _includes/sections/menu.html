@@ -1,19 +1,46 @@
 {% assign rootResource = site.rootResource | rdf_get %}
 {% assign subEvent = rootResource | rdf_property: "schema:subEvent" %}
-
+{% assign query = 'SELECT ?link WHERE { ?roomday rdf:type dw:RoomDay ; schema:date ?date ; dw:rel_link ?link . } ORDER BY ?date LIMIT 1' %}
+{% assign resultset = page.rdf | sparql_query: query %}
+{% assign result = resultset | first %}
 <nav class="nav-main" aria-label="Hauptmenü">
   <ul>
     <li>
-      <a href="/program.html">Programm</a>
+      
+      <a href="{{ result.link }}">
+        {% if site.language == 'en' %}
+          Program
+        {% else %}
+          Programm
+        {% endif %}
+      </a>
     </li>
     <li>
-      <a href="/speakers.html">Sprecher</a>
+      <a href="/speakers.html">
+        {% if site.language == 'en' %}
+          Speaker
+        {% else %}
+          Vortragende
+        {% endif %}
+      </a>
     </li>
     <li>
-      <a href="/location.html">Veranstaltungsort</a>
+      <a href="/location.html">
+        {% if site.language == 'en' %}
+          Location
+        {% else %}
+          Veranstaltungsort
+        {% endif %}
+      </a>
     </li>
     <li>
-      <a href="{{ subEvent.iri | replace: rootResource.iri, "" }}">Organisationsteam</a>
+      <a href="{{ subEvent.iri | replace: rootResource.iri, "" }}">
+          {% if site.language == 'en' %}
+            Organization Team
+          {% else %}
+            Orgaisationsteam
+          {% endif %}
+      </a>
     </li>
   </ul>
 </nav>

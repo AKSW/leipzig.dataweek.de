@@ -1,8 +1,8 @@
 ---
-
+layout: basic
 ---
 <!-----
-layout: subpage
+
 
 Yay, no errors, warnings, or alerts!
 
