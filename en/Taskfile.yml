@@ -114,7 +114,7 @@ tasks:
   track:commit-and-push-data:
     - |
       git add {{.SITE_GRAPH}}.nt {{.PROGRAM_GRAPH}}.nt
-      git -c user.name "{{.GIT_USER_NAME}}" -c user.email "{{.GIT_USER_EMAIL}}" commit -m "{{.GIT_COMMIT_MESSAGE}}" || echo ""
+      git -c user.name="{{.GIT_USER_NAME}}" -c user.email="{{.GIT_USER_EMAIL}}" commit -m "{{.GIT_COMMIT_MESSAGE}}" || echo ""
       git push || echo ""
 
   helper:normalize-turtle:
