@@ -1,0 +1,723 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ecc-ns: <https://ns.eccenca.com/> .
+@prefix site: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix orp: <https://www.openresearch.org/wiki/Property:> .
+@prefix aksw: <http://aksw.org/> .
+@prefix dw: <https://dataweek.de/#> .
+@prefix gnd: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix dw23: <https://2023.dataweek.de/#> .
+@prefix dw22: <https://2022.dataweek.de/#> .
+
+aksw:Group
+    site:small_logo "/images/partner/AKSW_Logo_small.svg" ;
+    a schema:Organization ;
+    rdfs:label "AKSW Research Group" ;
+    foaf:homepage <http://aksw.org/> ;
+    foaf:logo "/images/partner/AKSW_Logo.svg" .
+
+aksw:JuliaHolze
+    schema:affiliation <https://infai.org/> ;
+    schema:memberOf <https://dbpedia.org/> ;
+    a foaf:Person ;
+    foaf:depiction "/images/people/JuliaHolze.png" .
+
+aksw:MichaelMartin
+    schema:affiliation <https://infai.org/> ;
+    schema:memberOf aksw:Group ;
+    a foaf:Person ;
+    foaf:depiction "/images/people/MichaelMartin.png" .
+
+aksw:MilanDojchinovski
+    schema:affiliation <https://dbpedia.org/>, <https://www.cvut.cz/> ;
+    a foaf:Person ;
+    foaf:depiction "/images/people/MilanDojchinovski.png" .
+
+aksw:NatanaelArndt
+    schema:affiliation <https://www.eccenca.com/> ;
+    schema:memberOf aksw:Group ;
+    a foaf:Person ;
+    foaf:depiction "/images/people/NatanaelArndt.jpg" .
+
+aksw:SabineGruenderFahrer
+    schema:affiliation <https://infai.org/> ;
+    schema:memberOf aksw:Group ;
+    a foaf:Person ;
+    foaf:depiction "/images/people/SabineGruenderFahrer.jpg" .
+
+aksw:SebastianHellmann
+    schema:affiliation <https://infai.org/> ;
+    schema:memberOf aksw:Group, <https://dbpedia.org/> ;
+    a foaf:Person ;
+    foaf:depiction "/images/people/SebastianHellmann.png" .
+
+aksw:SebastianTramp
+    schema:affiliation <https://www.eccenca.com/> ;
+    schema:memberOf aksw:Group ;
+    a foaf:Person ;
+    foaf:depiction "/images/people/SebastianTramp.png" .
+
+aksw:SoerenAuer
+    a foaf:Person ;
+    foaf:depiction "/images/people/SoerenAuer.jpg" .
+
+aksw:ThomasRiechert
+    schema:affiliation <https://htwk-leipzig.de/> ;
+    schema:memberOf aksw:Group ;
+    a foaf:Person ;
+    skos:prefLabel "Prof. Dr. Thomas Riechert" ;
+    foaf:depiction "/images/people/ThomasRiechert.png" ;
+    foaf:homepage aksw:ThomasRiechert ;
+    foaf:name "Thomas Riechert" .
+
+schema:location
+    a owl:ObjectProperty ;
+    rdfs:label "Ort"@de, "Place"@en .
+
+schema:startDate
+    a owl:DatatypeProperty ;
+    rdfs:label "Date"@en, "Datum"@de .
+
+<https://2014.semantics.cc/>
+    a schema:Event ;
+    rdfs:label "SEMANTiCS Leipzig 2014" .
+
+<https://2016.semantics.cc/>
+    a schema:Event ;
+    rdfs:label "SEMANTiCS Leipzig 2016" .
+
+<https://2022.dataweek.de/>
+    schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
+    schema:date "04.07. bis 08.07.2022"@de, "July 4-8, 2022"@en ;
+    schema:endDate "2022-07-08"^^xsd:date ;
+    schema:location <https://dataweek.de/venue/> ;
+    schema:logo <https://dataweek.de/images/DataWeek_Logo.png> ;
+    schema:organizer dw22:Team ;
+    schema:partner dw22:Partner ;
+    schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
+    schema:sponsor dw22:Sponsors ;
+    schema:startDate "2022-07-04"^^xsd:date ;
+    schema:subEvent <https://dataweek.de/bdib-22/>, <https://dataweek.de/d2r2-22/>, <https://dataweek.de/dbpedia-day-2022/>, <https://dataweek.de/gi-leipzig-2022/>, <https://dataweek.de/kmi-22/>, <https://dataweek.de/lswt2022/>, <https://dataweek.de/openingday/> ;
+    a <http://rdfs.org/ns/void#Dataset>, schema:Event ;
+    rdfs:label "Data Week Leipzig 2022" .
+
+<https://2023.dataweek.de/>
+    schema:abstract "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en, "Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf Künstliche Intelligenz und Daten integriert."@de ;
+    schema:date "26. bis 30.06.2023"@de, "June 26th to 30th, 2023"@en ;
+    schema:endDate "2023"^^xsd:date ;
+    schema:location <https://dataweek.de/venue/> ;
+    schema:logo <https://dataweek.de/images/DataWeek_Logo.png> ;
+    schema:organizer dw23:Team ;
+    schema:partner dw23:Partner ;
+    schema:slogan "Forum for Data and AI Enthusiasts in Leipzig"@en, "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de ;
+    schema:sponsor dw23:Sponsors ;
+    schema:startDate "2023"^^xsd:date ;
+    a <http://rdfs.org/ns/void#Dataset>, schema:Event ;
+    rdfs:label "Data Week Leipzig 2023" ;
+    owl:sameAs <https://dataweek.de/> .
+
+dw23:Partner
+    rdf:_1 <https://www.leipzig.de/> ;
+    rdf:_2 <https://connectedurbantwins.de/> ;
+    a rdf:Seq ;
+    rdfs:label "In Kooperation mit"@de, "In cooperation with"@en .
+
+dw23:Sponsors
+    rdf:_1 <https://www.eccenca.com/> ;
+    a rdf:Seq ;
+    rdfs:label "Sponsoren"@de, "Sponsors"@en .
+
+dw23:Team
+    rdf:_1 aksw:NatanaelArndt ;
+    rdf:_2 dw:JanaBendigs ;
+    rdf:_3 aksw:JuliaHolze ;
+    rdf:_4 aksw:MichaelMartin ;
+    rdf:_5 dw:NievesSande ;
+    rdf:_6 aksw:SebastianTramp ;
+    rdf:_7 dw:MiriamWelz ;
+    rdfs:label "Organisationsteam"@de, "Organization Team"@en .
+
+<https://appplant.de/>
+    a schema:Organization ;
+    rdfs:label "appPlant GmbH" ;
+    foaf:homepage <https://appplant.de/> ;
+    foaf:logo "/images/partner/AppPlant.png" .
+
+<https://connectedurbantwins.de/>
+    a schema:Organization ;
+    rdfs:label "Connected Urban Twins" ;
+    foaf:homepage <https://connectedurbantwins.de/> ;
+    foaf:logo dw:LogoCUT .
+
+<https://dataweek.de/>
+    owl:sameAs <https://2023.dataweek.de/> .
+
+dw:AndreasBoth
+    schema:affiliation <https://htwk-leipzig.de/> ;
+    a foaf:Person ;
+    foaf:depiction "/images/people/AndreasBoth.jpg" ;
+    foaf:homepage <http://www.andreasboth.de/en> .
+
+dw:ChristianZinke
+    a foaf:Person ;
+    foaf:depiction "/images/people/ChristianZinke.jpg" .
+
+dw:ErhardRahm
+    a foaf:Person ;
+    foaf:depiction "/images/people/ErhardRahm.jpg" .
+
+dw:EricPeukert
+    a foaf:Person ;
+    foaf:depiction "/images/people/EricPeukert.jpg" .
+
+dw:JanaBendigs
+    a foaf:Person ;
+    foaf:depiction "/images/people/JanaBendigs.jpg" .
+
+dw:JuliaFriedrich
+    a foaf:Person ;
+    foaf:depiction "/images/people/JuliaFriedrich.jpg" .
+
+dw:KatrinMehler
+    schema:affiliation <https://connectedurbantwins.de/>, <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    a foaf:Person ;
+    foaf:depiction "/images/people/KatrinMehler.jpg" .
+
+dw:LogoCUT
+    dct:description "Connected Urban Twins" ;
+    rdf:value "/images/CUT_Logo.png" .
+
+dw:LogoEccenca
+    dct:description "eccenca GmbH" ;
+    rdf:value "/images/partner/eccenca_w.svg" ;
+    dw:contrastFlavor "/images/partner/eccenca_w_bg.svg" .
+
+dw:LogoStadtLeipzig
+    dct:description "Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig" ;
+    rdf:value "/images/partner/Stadt_Leipzig.png" .
+
+dw:MiriamWelz
+    a foaf:Person ;
+    foaf:depiction "/images/people/MiriamWelz.jpg" .
+
+dw:MirkoMuehlpfort
+    schema:affiliation <https://connectedurbantwins.de/>, <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    a foaf:Person ;
+    foaf:depiction "/images/people/MirkoMuehlpfort.jpg" .
+
+dw:NievesSande
+    a foaf:Person ;
+    foaf:depiction "/images/people/NievesSande.png" .
+
+dw:SebastianBrandt
+    a foaf:Person ;
+    foaf:depiction "/images/people/SebastianBrandt.png" .
+
+dw:StefanHoltel
+    foaf:depiction "/images/people/StefanHoltel.png" .
+
+dw:ThomasBurghardt
+    schema:affiliation <https://scads.ai/> ;
+    a foaf:Person ;
+    skos:prefLabel "Dr. Thomas Burghardt" ;
+    foaf:depiction "/images/people/ThomasBurghardt.png" ;
+    foaf:name "Dr. Thomas Burghardt" .
+
+dw:VeraMeister
+    schema:affiliation <https://www.th-brandenburg.de/> ;
+    a foaf:Person ;
+    skos:prefLabel "Prof. Dr. Vera Meister" ;
+    foaf:depiction "/images/people/VeraMeister.png" ;
+    foaf:homepage <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/> ;
+    foaf:name "Prof. Dr. Vera Meister" .
+
+dw:VolkerGruhn
+    foaf:depiction "/images/people/VolkerGruhn.jpg" .
+
+<https://dataweek.de/bdib-22/>
+    dct:description """
+As part of Data Week Leipzig 2022, ScaDS.AI Dresden/Leipzig organizes the fifth edition of Big Data and AI in Business (BDIB) on July 7th. BDIB is a one day workshop, which will take place at the town hall of Leipzig.
+
+## Program
+
+Users of Big Data-technologies and AI in business and research will be given the opportunity to talk about their practical insights as well as challenges. We invite you to actively join the discussion and take part at BDIB 2022.
+BDIB aims to foster the transfer of research results in the areas Big Data, Data Science and AI into business applications. Furthermore we want to improve the practical and professional exchange of information between application partners and stakeholders in the Big Data and AI industry. Speakers of regionally and internationally operating organisations will present their practical experiences regarding new methods in Data Science, Big Data and AI in specific business and application areas.
+
+Furthermore, the Living Lab of ScaDS.AI Dresden/Leipzig gives researchers the opportunity to present their latest research results by using our demonstrators. Ultimately we try to inspire innovative approaches and establish a platform for further pilot projects and cooperations. All participants are invited to take part in a joint dinner at the end of the workshop. We are looking forward to interesting discussions and an enriching exchange. Further information regarding the program and registration process will soon be published here as well as on the official website of ScaDS.AI Dresden/Leipzig.
+"""@en, """
+Im Rahmen der Data Week Leipzig veranstaltet das ScaDS.AI Dresden/Leipzig am 07.07.2022 die bereits fünfte Auflage des eintägigen Workshop-Formats Big Data and AI in Business (BDIB) im Leipziger Rathaus.
+
+## Inhalte
+
+Die Veranstaltung möchte Anwendenden von Big-Data-Technologien und künstlicher Intelligenz aus Wirtschaft und Forschung die Möglichkeit bieten, sich über neue praxisbezogene Erkenntnisse und Herausforderungen auszutauschen und lädt Sie herzlich dazu ein, aktiv an diesem Austausch zu partizipieren.
+Die BDIB fördert dabei den Transfer von Forschungsergebnissen im Bereich Big Data, Data Science und Künstliche Intelligenz in geschäftliche Anwendungen sowie den praxisbezogenen, fachlichen Austausch zwischen Anwendungspartner*innen und Stakeholdern aus der Big Data und KI-Industrie. Vortragende regionaler und international agierender Unternehmen stellen im Rahmen einzelner Sessions ihre praktischen Erfahrungen im Umgang mit den neuen Möglichkeiten von Data Science, Big Data und AI in spezifischen Geschäfts- und Anwendungsfeldern vor. Neben der Diskussion über Strategien und gefundene Best-Practices Beispiele lädt das Programm zum Austausch über aktuelle Problemstellungen und Fallbeispiele ein.
+
+Darüber hinaus ermöglicht das Living Lab des ScaDS.AI Leipzig/Dresden die Präsentation aktueller Forschungsergebnisse mithilfe von Demonstratoren, als Inspiration für innovative Ansätze sowie Ausgangspunkt gemeinsamer Pilot und Kooperationsprojekte. Einen Ausklang findet der Workshop-Tag in einer gemeinsamen Runde mit Abendessen im Ratskeller Leipzig. Wir freuen uns auf spannende Diskussionen und einen bereichernden Austausch. Das Programm sowie weiterführende Hinweise zur Anmeldung erfolgen zeitnah an dieser Stelle und auf der Webseite des ScaDS.AI Dresden/Leipzig."""@de ;
+    schema:date "2022-07-07"^^xsd:date ;
+    schema:location <https://dataweek.de/venue/#scads> ;
+    schema:logo <https://dataweek.de/bdib-22/bdib-poster-v1.png> ;
+    schema:organizer <https://dataweek.de/bdib-22/#Team> ;
+    a schema:Event ;
+    rdfs:label "5. Big Data and AI in Business Workshop"@de, "5th Big Data and AI in Business Workshop"@en .
+
+<https://dataweek.de/bdib-22/#Team>
+    rdf:_1 dw:ErhardRahm ;
+    rdf:_2 dw:EricPeukert ;
+    rdf:_3 dw:JanaBendigs ;
+    rdf:_4 dw:MiriamWelz .
+
+<https://dataweek.de/d2r2-22/>
+    dct:description """
+In the face of continuously changing contextual conditions and ubiquitous disruptive crisis events, the concept of resilience refers to some of the most urgent, challenging, and interesting issues of nowadays society.
+Economic value networks, technical infrastructures, health systems, and social textures alike need to unfold capacities to withstand, adapt, recover or even refine and transform themselves to stay ahead of changes.
+
+The D2R2’22 workshop, which is organized by the CoyPu project (https://coypu.org/), will provide an open forum to exchange current issues, ideas, and trends in the area of Data-driven Resilience Research among scientists, software engineers, resilience practitioners, and domain experts.
+Ongoing technological developments, current research approaches as well as use case scenarios, and field reports will be presented and discussed with a broad and multi-disciplinary specialist audience.
+We invite contributions of novel results and ongoing work as well as position papers focusing on various aspects of Data-driven Resilience Research from a scientific or practical perspective.
+"""@de, """
+In the face of continuously changing contextual conditions and ubiquitous disruptive crisis events, the concept of resilience refers to some of the most urgent, challenging, and interesting issues of nowadays society.
+Economic value networks, technical infrastructures, health systems, and social textures alike need to unfold capacities to withstand, adapt, recover or even refine and transform themselves to stay ahead of changes.
+
+The D2R2’22 workshop, which is organized by the CoyPu project (https://coypu.org/), will provide an open forum to exchange current issues, ideas, and trends in the area of Data-driven Resilience Research among scientists, software engineers, resilience practitioners, and domain experts.
+Ongoing technological developments, current research approaches as well as use case scenarios, and field reports will be presented and discussed with a broad and multi-disciplinary specialist audience.
+We invite contributions of novel results and ongoing work as well as position papers focusing on various aspects of Data-driven Resilience Research from a scientific or practical perspective.
+"""@en ;
+    schema:abstract """
+The D2R2’22 workshop, which is organized by the CoyPu project (https://coypu.org/), will provide an open forum to exchange current issues, ideas, and trends in the area of Data-driven Resilience Research among scientists, software engineers, resilience practitioners, and domain experts.
+Ongoing technological developments, current research approaches as well as use case scenarios, and field reports will be presented and discussed with a broad and multi-disciplinary specialist audience.
+We invite contributions of novel results and ongoing work as well as position papers focusing on various aspects of Data-driven Resilience Research from a scientific or practical perspective."""@de, """
+The D2R2’22 workshop, which is organized by the CoyPu project (https://coypu.org/), will provide an open forum to exchange current issues, ideas, and trends in the area of Data-driven Resilience Research among scientists, software engineers, resilience practitioners, and domain experts.
+Ongoing technological developments, current research approaches as well as use case scenarios, and field reports will be presented and discussed with a broad and multi-disciplinary specialist audience.
+We invite contributions of novel results and ongoing work as well as position papers focusing on various aspects of Data-driven Resilience Research from a scientific or practical perspective."""@en ;
+    schema:date "2022-07-06"^^xsd:date ;
+    schema:logo <https://dataweek.de/d2r2-22/logo.png> ;
+    schema:organizer <https://dataweek.de/d2r2-22/#Team> ;
+    schema:recordedIn <https://www.youtube.com/watch?v=NA5-XYX5Kbo> ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "International Workshop on Data-driven Resilience Research 2022"@de, "International Workshop on Data-driven Resilience Research 2022"@en ;
+    dw:pc <https://dataweek.de/d2r2-22/#PC> .
+
+<https://dataweek.de/d2r2-22/#PC>
+    rdf:_1 aksw:NatanaelArndt ;
+    rdf:_10 dw:MagnusKnuth ;
+    rdf:_11 aksw:MichaelMartin ;
+    rdf:_12 aksw:EdgardMarx ;
+    rdf:_13 aksw:SebastianTramp ;
+    rdf:_14 aksw:RicardoUsbeck ;
+    rdf:_15 dw:MariaEstherVidal ;
+    rdf:_2 aksw:SoerenAuer ;
+    rdf:_3 aksw:SimonBin ;
+    rdf:_4 aksw:LorenzBuehmann ;
+    rdf:_5 aksw:AntoninDelpeuch ;
+    rdf:_6 dw:FelixEngel ;
+    rdf:_7 aksw:JohannesFrey ;
+    rdf:_8 aksw:SabineGruenderFahrer ;
+    rdf:_9 dw:EvaHoerster ;
+    rdfs:label "Program Committee"@en, "Programmkomitee"@de .
+
+<https://dataweek.de/d2r2-22/#Team>
+    rdf:_1 aksw:NatanaelArndt ;
+    rdf:_2 aksw:SabineGruenderFahrer ;
+    rdf:_3 aksw:JuliaHolze ;
+    rdf:_4 aksw:MichaelMartin ;
+    rdf:_5 aksw:SebastianTramp ;
+    rdfs:label "Organizing Commitee"@de, "Organizing Committee"@en .
+
+<https://dataweek.de/d2r2-22/#cfp>
+    dct:description """
+- **submission:**   ~~6 May 2022~~ 20 May (Abstract), 27 May (Paper) 2022
+- **notification:** ~~6 June 2022~~ 20 June 2022
+
+## TOPICS OF INTEREST
+- Information Visualization, Dashboard Technologies
+- Data Modeling, Vocabulary Engineering
+- Data Pipeline Architectures
+- Agile Data Integration
+- Continuous Integration
+- Artificial Intelligence
+- Data Analysis
+- Trend Mining and Analytics
+- Temporal and Geographic Data Management
+- Data Aggregation
+- User Interaction
+- Supply Chain Data Management
+- Versioning and Co-Evolution of Linked Data
+- Provenance Tracking and Exploitation
+- Corporate Memory and Big Data/Linked Data Integration
+- Organizational Data Applications
+- (Open) Data Services
+
+## SUBMISSION
+
+[https://easychair.org/conferences/?conf=d2r2-22](https://easychair.org/conferences/?conf=d2r2-22)
+
+- Maximum 10 pages (full papers) or 5 pages (short papers, discussion papers, extended abstracts).
+- PDF or HTML, Papers must be formatted according to the [LNCS format specifications](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) (Word and LaTeX) for HTML please see the [ESWC guidelines]({https://2022.eswc-conferences.org/html-submission-guide/).
+- Reviews will be carried out in a single-blind mode.
+- Accepted contributions will be published in the Open Access CEUR proceedings.
+- At least one author of an accepted paper must register for the workshop to present their work.
+"""@de, """
+- **submission:**   ~~6 May 2022~~ 20 May (Abstract), 27 May (Paper) 2022
+- **notification:** ~~6 June 2022~~ 20 June 2022
+
+## TOPICS OF INTEREST
+- Information Visualization, Dashboard Technologies
+- Data Modeling, Vocabulary Engineering
+- Data Pipeline Architectures
+- Agile Data Integration
+- Continuous Integration
+- Artificial Intelligence
+- Data Analysis
+- Trend Mining and Analytics
+- Temporal and Geographic Data Management
+- Data Aggregation
+- User Interaction
+- Supply Chain Data Management
+- Versioning and Co-Evolution of Linked Data
+- Provenance Tracking and Exploitation
+- Organizational Data Applications
+- (Open) Data Services
+
+## SUBMISSION
+
+[https://easychair.org/conferences/?conf=d2r2-22](https://easychair.org/conferences/?conf=d2r2-22)
+
+- Maximum 10 pages (full papers) or 5 pages (short papers, discussion papers, extended abstracts).
+- PDF or HTML, Papers must be formatted according to the [LNCS format specifications](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) (Word and LaTeX) for HTML please see the [ESWC guidelines]({https://2022.eswc-conferences.org/html-submission-guide/).
+- Reviews will be carried out in a single-blind mode.
+- Accepted contributions will be published in the Open Access CEUR proceedings.
+- At least one author of an accepted paper must register for the workshop to present their work.
+"""@en ;
+    dct:hasFormat <https://dataweek.de/d2r2-22/cfp.pdf> ;
+    rdfs:label "Call for Participation"@de, "Call for Participation"@en .
+
+<https://dataweek.de/dbpedia-day-2022/>
+    dct:description """We are creating a meeting place and scientific network around DBpedia for scientific exchange - the DBpedia Knowledge Engineering PhD Symposium - where junior and senior researchers can establish relations and collaborations and exchange ideas and knowledge. Thus, we aim to manifest a scientific community as a driver for DBpedia and Linked Data and expect synergies and network effects that will greatly improve scientific output by the involved community members. The DBpedia Knowledge Engineering PhD Symposium will be held on the third day of the week-long Data Week Leipzig 2022 event (July 4-8, 2022).
+
+## The Format
+The DBpedia Knowledge Engineering PhD Symposium consists of the following highlights:
+- A senior researcher starts the symposium by giving insights into their experience on “what makes a good PhD”.
+- Several PhD students will present their thesis and topics. On the one hand, they will receive feedback and on the other hand, the symposium participants will gain insight 1) on how they structure and define their PhDs, 2) on what the current trends are and 3) on potential connecting points for collaboration.
+- A dedicated poster session where all PhD participants can bring their poster and discuss with the audience during the coffee breaks. Please contact the organizers if interested in presenting a poster!
+- A community session, where we discuss how to organize the research network around DBpedia.
+- In the afternoon we will walk through the city center of Leipzig and also visit the LivingLab at the University of Leipzig. In the evening we will meet in a nearby pub and discuss the PhD topics of the day.
+
+## Confirmed list of mentors
+
+- Maribel Acosta, RUB
+- Thomas Riechert, HTWK
+- Sahar Vahdati, InfAI
+- Maria-Esther Vidal, TIB
+- Krzysztof Węcel, PUEB
+
+## Submission of presentations
+We are looking for presentations within the broader scope of the knowledge engineering field. From knowledge extraction, integration and curation, to knowledge publishing, quality assurance and knowledge exploitation in AI solutions. Each PhD presenter will receive a 30 minutes slot which includes 20 minutes for presentation of the research topic and 10 minutes for questions, feedback and discussion.
+
+The aim of the DBpedia Knowledge Engineering PhD Symposium is to provide an opportunity to PhD students to present their PhD-related work-in-progress and receive feedback on their current work. In an open, supportive and non-confrontational environment the students will present their thesis in relation to the state-of-the-art, the identified gaps, addressed challenges, considered methods for exploitation, datasets for validation, and the overall evaluation approach. The colloquium will help PhD students to strengthen and shape their work as they progress towards their PhD degree. Moreover, the colloquium is a great opportunity to build a network of peers for their future career. The ultimate objective of the colloquium is to promote excellence in PhD research in the knowledge engineering field.
+
+## Deadline for PhD presentations
+
+- submission: May 29, 2022
+- notification: June 3, 2022
+
+## How to register
+The symposium will be organized as an on-site event. It will be organized as an open event where anyone can register and attend. All symposium participants will be invited to an informal meeting in the afternoon, where the PhD student can discuss their current results and future plans with experienced professors and individuals from the knowledge engineering field.
+
+## How to apply and join
+To apply for a PhD presentation please fill-in the [provided form](https://docs.google.com/forms/d/1k64O2m0S_jKr6Ds-sEo4Y1RurjFphTgpVsfTkfuvvWs/edit) (extended abstracts of ~ 500 words / 1 page).
+"""@de, """We are creating a meeting place and scientific network around DBpedia for scientific exchange - the DBpedia Knowledge Engineering PhD Symposium - where junior and senior researchers can establish relations and collaborations and exchange ideas and knowledge. Thus, we aim to manifest a scientific community as a driver for DBpedia and Linked Data and expect synergies and network effects that will greatly improve scientific output by the involved community members. The DBpedia Knowledge Engineering PhD Symposium will be held on the third day of the week-long Data Week Leipzig 2022 event (July 4-8, 2022).
+
+## The Format
+The DBpedia Knowledge Engineering PhD Symposium consists of the following highlights:
+- A senior researcher starts the symposium by giving insights into their experience on “what makes a good PhD”.
+- Several PhD students will present their thesis and topics. On the one hand, they will receive feedback and on the other hand, the symposium participants will gain insight 1) on how they structure and define their PhDs, 2) on what the current trends are and 3) on potential connecting points for collaboration.
+- A dedicated poster session where all PhD participants can bring their poster and discuss with the audience during the coffee breaks. Please contact the organizers if interested in presenting a poster!
+- A community session, where we discuss how to organize the research network around DBpedia.
+- In the afternoon we will walk through the city center of Leipzig and also visit the LivingLab at the University of Leipzig. In the evening we will meet in a nearby pub and discuss the PhD topics of the day.
+
+## Confirmed list of mentors
+
+- Maribel Acosta, RUB
+- Thomas Riechert, HTWK
+- Sahar Vahdati, InfAI
+- Maria-Esther Vidal, TIB
+- Krzysztof Węcel, PUEB
+
+## Submission of presentations
+We are looking for presentations within the broader scope of the knowledge engineering field. From knowledge extraction, integration and curation, to knowledge publishing, quality assurance and knowledge exploitation in AI solutions. Each PhD presenter will receive a 30 minutes slot which includes 20 minutes for presentation of the research topic and 10 minutes for questions, feedback and discussion.
+
+The aim of the DBpedia Knowledge Engineering PhD Symposium is to provide an opportunity to PhD students to present their PhD-related work-in-progress and receive feedback on their current work. In an open, supportive and non-confrontational environment the students will present their thesis in relation to the state-of-the-art, the identified gaps, addressed challenges, considered methods for exploitation, datasets for validation, and the overall evaluation approach. The colloquium will help PhD students to strengthen and shape their work as they progress towards their PhD degree. Moreover, the colloquium is a great opportunity to build a network of peers for their future career. The ultimate objective of the colloquium is to promote excellence in PhD research in the knowledge engineering field.
+
+## Deadline for PhD presentations
+
+- submission: May 29, 2022
+- notification: June 3, 2022
+
+## How to register
+The symposium will be organized as an on-site event. It will be organized as an open event where anyone can register and attend. All symposium participants will be invited to an informal meeting in the afternoon, where the PhD student can discuss their current results and future plans with experienced professors and individuals from the knowledge engineering field.
+
+## How to apply and join
+To apply for a PhD presentation please fill-in the [provided form](https://docs.google.com/forms/d/1k64O2m0S_jKr6Ds-sEo4Y1RurjFphTgpVsfTkfuvvWs/edit) (extended abstracts of ~ 500 words / 1 page).
+"""@en ;
+    schema:date "2022-07-06"^^xsd:date ;
+    schema:organizer <https://dataweek.de/dbpedia-day-2022/#Team> ;
+    a schema:Event ;
+    rdfs:label "DBpedia PhD Symposium"@de, "DBpedia PhD Symposium"@en .
+
+<https://dataweek.de/dbpedia-day-2022/#Team>
+    rdf:_1 aksw:MilanDojchinovski ;
+    rdf:_2 aksw:SebastianHellmann ;
+    rdf:_3 aksw:JuliaHolze .
+
+<https://dataweek.de/gi-leipzig-2022/>
+    schema:date "2022-07-08"^^xsd:date ;
+    schema:organizer <https://dataweek.de/gi-leipzig-2022/#Team> ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Quo Vadis Informatik in der Metropolregion Leipzig/Halle"@de, "Quo Vadis Informatik in the Leipzig/Halle Metropolitan Area"@en .
+
+<https://dataweek.de/gi-leipzig-2022/#Team>
+    dct:description "Regionalgruppe Leipzig/Mitteldeutschland der Gesellschaft für Informatik e.V. and German Chapter of the ACM"@de, "Regionalgruppe Leipzig/Mitteldeutschland der Gesellschaft für Informatik e.V. and German Chapter of the ACM"@en ;
+    rdf:_1 dw:AndreasBoth ;
+    rdf:_2 aksw:ThomasRiechert ;
+    rdfs:label "Organisationsteam"@de, "Organization Team"@en .
+
+<https://dataweek.de/kmi-22/>
+    dct:description """
+The transformation of companies and business processes, driven by the broad possibilities of artificial intelligence and associated technologies, offers employees and organizations numerous opportunities but at the same time also confronts them with significant challenges. The K-M-I project (Artificial - Human - Intelligent) focuses on supporting this transformation process. Its scope ranges from the development of conceptual ideas for the use of AI-supported methods and technologies to the development of prototype solutions, their implementation and evaluation. The competence centre K-M-I pursues a human-centred approach to ensure the sustainability of the developed solutions. The transformation process is therefore geared to the needs of all those involved, especially the employees, and is to be understood as participatory. This includes the conception phase and initial requirements gathering, as well as the transfer of the technological solution into operations.
+
+During the Data Week, the K-M-I consortium will present itself to the interested public and provide insights into current developments around AI in the region of the Central German Coalfield.
+"""@en, """Der Wandel von Unternehmen und Unternehmensprozessen, welcher angetrieben wird durch die breiten Möglichkeiten der Künstlichen Intelligenz und der damit einhergehenden Technologien, bietet Beschäftigten wie Organisationen zahlreiche Chancen, stellt diese aber gleichzeitig auch vor große Herausforderungen. Die Begleitung des Transformationsprozesses, welcher sich von der Erarbeitung konzeptioneller Ideen für den Einsatz KI-gestützter Methoden und Technologien über die Entwicklung prototypischer Lösungen bis hin zur Implementierung und Evaluation erstreckt, ist Inhalt des Projektes K-M-I (künstlich – menschlich – intelligent). Das gleichnamige Kompetenzzentrum verfolgt dabei stets einen menschzentrierten Ansatz, um die Nachhaltigkeit der entwickelten Lösungen sicherzustellen. Der Transformationsprozess orientiert sich demzufolge an den Bedarfen aller Beteiligten, insb. denen der Beschäftigten, und ist partizipativ zu verstehen. Dies umfasst die Konzeptionsphase und die initiale Anforderungserhebung, ebenso wie die Überführung der technologischen Lösung ins Operative.
+Im Rahmen der Data Week stellt sich das K-M-I Konsortium der interessierten Öffentlichkeit vor und gibt Einblicke in aktuelle Entwicklungen rund um KI in der Region des Mitteldeutschen Kohlereviers."""@de ;
+    schema:date "2022-07-08"^^xsd:date ;
+    schema:organizer <https://dataweek.de/kmi-22/#Team> ;
+    schema:recordedIn <https://www.youtube.com/watch?v=bwm4B80QVCM> ;
+    a schema:Event ;
+    rdfs:label "Workshop Künstlich und Menschlich Intelligent"@de, "Workshop Künstlich und Menschlich Intelligent"@en .
+
+<https://dataweek.de/kmi-22/#Team>
+    rdf:_1 dw:JuliaFriedrich ;
+    rdf:_2 dw:ChristianZinke .
+
+<https://dataweek.de/lswt2022/>
+    dct:description """Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen.
+  Diese Schwerpunkte werden im Rahmen von Vorträgen durch ExpertenInnen aus Industrie und Wissenschaft demonstriert.
+ Falls Sie weitere Fragen haben können Sie sich auch gerne an das Organisations-Team wenden."""@de, """Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology.
+  These emphases are demonstrated in presentations by experts from industry and science.
+ If you have any further questions don't hesitate to contact the organisation team."""@en ;
+    schema:date "2022-07-05"^^xsd:date ;
+    schema:organizer <https://dataweek.de/lswt2022/#Team> ;
+    schema:recordedIn <https://www.youtube.com/watch?v=HJmDvqTKS8A> ;
+    schema:slogan "Knowledge Graphs for Organizational Data Spaces"@en, "Wissensgraphen in Unternehmen und Organisationen"@de ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "10. Leipziger Semantic Web Tag"@de, "10th Leipzig Semantic Web Day"@en ;
+    owl:sameAs <https://lswt2022.aksw.org/> .
+
+<https://dataweek.de/lswt2022/#CFP>
+    dct:description """During the LSWT we will emphasize recent developments and trends in the fields of semantic technologies and data.
+Main points this year shall be **knowledge graphs and linked data, data integration, semantic web in industry, government and society, as well as artificial intelligence**.
+These emphases are demonstrated in presentations by experts from industry and science.
+We invite you to present your current work and latest ideas in a 15 - 30 minutes presentation.
+Contributions considering women in the mentioned fields are more than warmly welcomed. Presentations shall be held in English.
+
+Beside sessions and keynotes, we are going to host a poster session with student works.
+Therefore, please feel free to share this call with any student who might be interested.
+
+We look forward to your contributions to make this event a success!
+Please send your **ideas for a presentation until 1 June 2022** to Natanael Arndt: [natanael.arndt@eccenca.com](mailto:natanael.arndt@eccenca.com).
+If you have any further questions don't hesitate to contact us.
+"""@en, """Zum LSWT legen wir ein Augenmerk auf die neuesten Entwicklungen und Trends im Bereich der semantischen Technologien und Daten.
+Schwerpunkte in diesem Jahr sind **Wissensgraphen und Linked Data, Datenintegration, Semantic Web in Industrie, Öffentlicher Verwaltung und Gesellschaft sowie Künstliche Intelligenz**.
+Diese Schwerpunkte werden in Vorträgen von Experten aus Industrie und Wissenschaft aufgezeigt.
+Wir laden Sie ein, Ihre aktuellen Arbeiten und neuesten Ideen in einem 15 bis 30-minütigen Vortrag vorzustellen.
+Beiträge von Frauen in den genannten Bereichen sind ausdrücklich willkommen.
+Die Präsentationen sollen in englischer Sprache gehalten werden.
+
+Neben den Sessions und Keynotes werden wir auch eine Poster-Session mit studentischen Arbeiten veranstalten.
+Bitte leiten Sie daher diesen Aufruf an alle interessierten StudentInnen weiter.
+
+Wir freuen uns auf Ihre Beiträge, damit diese Veranstaltung ein Erfolg wird!
+Bitte senden Sie Ihre **Ideen für eine Präsentation bis zum 1. Juni 2022** an Natanael Arndt.
+Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren.
+"""@de ;
+    dct:hasFormat <https://dataweek.de/lswt2022/cfc.pdf> ;
+    a foaf:Document ;
+    rdfs:label "Call for Contributions"@de, "Call for Contributions"@en .
+
+<https://dataweek.de/lswt2022/#Team>
+    rdf:_1 aksw:NatanaelArndt ;
+    rdf:_2 dw:AndreasBoth ;
+    rdf:_3 aksw:JuliaHolze ;
+    rdf:_4 aksw:MichaelMartin ;
+    rdf:_5 dw:VeraMeister ;
+    rdf:_6 aksw:ThomasRiechert ;
+    rdf:_7 dw:NievesSande ;
+    rdf:_8 aksw:SebastianTramp ;
+    rdfs:label "LSWT Team"@de, "LSWT Team"@en .
+
+<https://dataweek.de/openingday/>
+    dct:description """
+To kick off Data Week Leipzig on July 4, 2022, there will be an opening speech by Sebastian Gemkow, Saxony's Minister of State for Science, as well as a welcoming address by the Institute for Applied Informatics (InfAI) e.V..
+On this day, special focus will be placed on the encounter of industry and science representatives with municipal authorities, who will present AI projects as well as data application examples and scenarios. This is also reflected in the following program highlights.
+
+Furthermore, the panel discussion \"Leipzig 2045 - How does data support the digital urban transformation? Together with the participants of the Data Week, we will take a look into the future and imagine the city of Leipzig in the year 2045. What can we achieve using and evaluating data in just under 23 years? How does data support the digital transformation of a city? These questions will be analyzed with the guests in the panel discussion and perspectives, development trends, opportunities and also risks will be considered.
+"""@en, """
+Zum Auftakt der Data Week Leipzig am 4. Juli 2022 wird es neben der Eröffnungsrede von Sebastian Gemkow, Sächsischer Staatsminister für Wissenschaft, auch ein Grußwort vom Institut für Angewandte Informatik (InfAI) e.V. geben.
+Besonderer Fokus liegt an diesem Tag auf der Begegnung von Industrie- und Wissenschaftsvertreter:innen mit städtischen Behörden, die sowohl KI-Projekte als auch Daten-Anwendungsbeispiele und Szenarien vorstellen.
+Dies spiegelt sich auch den folgenden Programmhighlights wieder:
+
+Des Weiteren ist auch eine spannende Podiumsdiskussion zum Thema “Leipzig 2045 - Wie unterstützen Daten den Digitalen Stadtwandel?” geplant. Wir werfen gemeinsam mit den Teilnehmer:innen der Data Week einen Blick in die Zukunft und stellen uns die Stadt Leipzig im Jahr 2045 vor. Was können wir unter der Verwendung und Auswertung von Daten in knapp 23 Jahren erreichen? Wie unterstützen Daten den Digitalen Wandel einer Stadt? Diese Fragen werden mit den Gästen in der Podiumsdiskussion analysiert und Perspektiven, Entwicklungstrends, Chancen und auch Risiken betrachtet.
+"""@de ;
+    schema:abstract """
+To kick off Data Week Leipzig on July 4, 2022, there will be an opening speech by Sebastian Gemkow, Saxony's Minister of State for Science, as well as a welcoming address by the Institute for Applied Informatics (InfAI) e.V..
+On this day, special focus will be placed on the encounter of industry and science representatives with municipal authorities, who will present AI projects as well as data application examples and scenarios. This is also reflected in the following program highlights.
+"""@en, """
+Zum Auftakt der Data Week Leipzig am 4. Juli 2022 wird es neben der Eröffnungsrede von Sebastian Gemkow, Sächsischer Staatsminister für Wissenschaft, auch ein Grußwort vom Institut für Angewandte Informatik (InfAI) e.V. geben.
+Besonderer Fokus liegt an diesem Tag auf der Begegnung von Industrie- und Wissenschaftsvertreter:innen mit städtischen Behörden, die sowohl KI-Projekte als auch Daten-Anwendungsbeispiele und Szenarien vorstellen.
+Dies spiegelt sich auch den folgenden Programmhighlights wieder:
+"""@de ;
+    schema:date "2022-07-04"^^xsd:date ;
+    schema:organizer <https://dataweek.de/openingday/#Team> ;
+    schema:recordedIn <https://www.youtube.com/watch?v=FupVhEO7Tzc>, <https://www.youtube.com/watch?v=RhZ5lsL69eU> ;
+    schema:slogan "Daten (be)fördern, verstehen und anwenden"@de, "Promote, Appreciate and Apply the Data"@en ;
+    a schema:Event, foaf:Document ;
+    rdfs:label "Data Week Eröffnung"@de, "Data Week Opening Day"@en .
+
+<https://dataweek.de/openingday/#Team>
+    rdf:_1 dw:JanaBendigs ;
+    rdf:_2 aksw:JuliaHolze ;
+    rdf:_3 aksw:MichaelMartin ;
+    rdf:_4 dw:KatrinMehler ;
+    rdf:_5 dw:MirkoMuehlpfort .
+
+<https://dataweek.de/venue/>
+    schema:addressCountry "Germany" ;
+    schema:addressLocality "Leipzig" ;
+    schema:name "Neues Rathaus/City Hall" ;
+    schema:postalCode "04109" ;
+    schema:streetAddress "Martin-Luther-Ring 4-6" ;
+    a schema:PostalAddress, foaf:Document ;
+    rdfs:label "Venue"@en, "Veranstaltungsort"@de ;
+    <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.37267 51.33594)" ;
+    <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "51.33594"^^xsd:float ;
+    <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.37267"^^xsd:float .
+
+<https://dataweek.de/venue/#scads>
+    schema:addressCountry "Germany" ;
+    schema:addressLocality "Leipzig" ;
+    schema:name "ScaDS.AI Büro Leipzig" ;
+    schema:postalCode "04105" ;
+    schema:streetAddress "Löhrs Carré, Humboldtstraße 25" ;
+    a schema:PostalAddress, foaf:Document ;
+    rdfs:label "Living Lab"@de, "Living Lab"@en ;
+    <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.3740615 51.3466000)" ;
+    <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "51.3466000"^^xsd:float ;
+    <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.3740615"^^xsd:float .
+
+<https://dbpedia.org/>
+    site:small_logo "/images/partner/DBpediaLogo.svg" ;
+    a schema:Organization ;
+    rdfs:label "DBpedia Association" ;
+    foaf:homepage <https://dbpedia.org/> ;
+    foaf:logo "/images/partner/DBpediaLogo.svg" .
+
+<https://digitalcampus.leipzig.de/referat-digitale-stadt/>
+    a schema:Organization ;
+    rdfs:label "Referat Digitale Stadt" ;
+    foaf:homepage <https://digitalcampus.leipzig.de/referat-digitale-stadt/> ;
+    foaf:logo "/images/partner/Referat_Digitale_Stadt.png" .
+
+<https://htwk-leipzig.de/>
+    a schema:Organization ;
+    foaf:homepage <https://htwk-leipzig.de/> ;
+    foaf:logo "/images/partner/logo-htwk_v.svg" .
+
+<https://infai.org/>
+    a schema:Organization ;
+    foaf:homepage <https://infai.org/> ;
+    foaf:logo "/images/partner/InfAI_small.svg" .
+
+<https://informatik2017.de/ws29-ledsplay17/>
+    a schema:Event ;
+    rdfs:label "LEDSPLaY17" .
+
+<https://lswt2019.aksw.org/>
+    a schema:Event ;
+    rdfs:label "LSWT2019" .
+
+<https://lswt2020.aksw.org/>
+    a schema:Event ;
+    rdfs:label "LSWT2020" .
+
+<https://scads.ai/>
+    a schema:Organization ;
+    rdfs:label "ScaDS AI" ;
+    foaf:homepage <https://scads.ai/> ;
+    foaf:logo "/images/partner/Scads_AI_Logo.svg" .
+
+<https://stackfuel.com/>
+    a schema:Organization ;
+    rdfs:label "StackFuel GmbH" ;
+    foaf:homepage <https://stackfuel.com/> ;
+    foaf:logo "/images/partner/Stackfuel.png" .
+
+<https://www.cvut.cz/>
+    a schema:Organization ;
+    rdfs:label "Czech technical university in Prague" ;
+    foaf:homepage <https://www.cvut.cz/en/> ;
+    foaf:logo "/images/partner/CTU.png" .
+
+<https://www.datev.de/>
+    a schema:Organization ;
+    rdfs:label "DATEV eG" ;
+    foaf:homepage <https://www.datev.de/> ;
+    foaf:logo "/images/partner/DATEV.svg" .
+
+<https://www.eccenca.com/>
+    a schema:Organization ;
+    rdfs:label "eccenca GmbH" ;
+    foaf:homepage <https://www.eccenca.com/> ;
+    foaf:logo dw:LogoEccenca .
+
+<https://www.leipzig.de/>
+    a schema:Organization ;
+    rdfs:label "Stadt Leipzig" ;
+    foaf:homepage <https://www.leipzig.de/> ;
+    foaf:logo dw:LogoStadtLeipzig .
+
+<https://www.th-brandenburg.de/>
+    a schema:Organization ;
+    rdfs:label "Technische Hochschule Brandenburg" ;
+    foaf:homepage <https://www.th-brandenburg.de/> ;
+    foaf:logo "/images/partner/THB.svg" .
+
+<https://www.vistex.com/>
+    a schema:Organization ;
+    rdfs:label "Vistex, Inc." ;
+    foaf:homepage <https://www.vistex.com/> ;
+    foaf:logo "/images/partner/Vistex.jpg" .
+
+<https://www.youtube.com/watch?v=FupVhEO7Tzc>
+    a schema:CreativeWork ;
+    rdfs:label "Opening Day (Sitzungssaal)" .
+
+<https://www.youtube.com/watch?v=HJmDvqTKS8A>
+    a schema:CreativeWork ;
+    rdfs:label "10. Leipziger Semantic Web Tag (Sitzungssaal)" .
+
+<https://www.youtube.com/watch?v=NA5-XYX5Kbo>
+    a schema:CreativeWork ;
+    rdfs:label "International Workshop on Data-driven Resilience Research 2022 (Sitzungssaal)" .
+
+<https://www.youtube.com/watch?v=RhZ5lsL69eU>
+    a schema:CreativeWork ;
+    rdfs:label "Opening Day (Ratsplenarsaal)" .
+
+<https://www.youtube.com/watch?v=bwm4B80QVCM>
+    a schema:CreativeWork ;
+    rdfs:label "Workshop Künstlich und Menschlich Intelligent (Sitzungssaal)" .

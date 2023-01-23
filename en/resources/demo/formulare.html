@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="de" class="no-js">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      Data Week Leipzig 2022 | Module / Formulare
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js','js'); 
+    </script>
+    <script src="js/base.js" defer></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/base.css">
+    <script type="application/ld+json">
+    {
+    "@context": "https:\/\/schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@id": "https:\/\/example.com\/index.html",
+                "name": "Startseite"
+            }
+        }
+    ]
+    }
+    </script>
+    <style>
+    :root {
+    --mark-before: ' [Start der Markierung] ';
+    --mark-after: ' [Ende der Markierung] ';
+    --del-before: ' [Start von Gelöscht] ';
+    --del-after: ' [Ende von Gelöscht] ';
+    --ins-before: ' [Start von Eingefügt] ';
+    --ins-after: ' [Ende von Eingefügt] ';
+    --s-before: ' [Start von Durchgestrichen] ';
+    --s-after: ' [Ende von Durchgestrichen] ';
+    }
+    </style>
+  </head>
+  <body class="">
+    <a id="top"></a>
+    <nav class="nav-first" aria-label="Sprunglinks">
+      <a href="demo/formulare.html#inhalt">zum Inhalt</a> <a href="demo/formulare.html#hilfsmenue">zum Hilfsmenü</a>
+    </nav>
+    <header class="page-header">
+      <div class="page-header-inner">
+        <div class="page-logo">
+          <a href="index.html" title="zurück zur Startseite">
+          <p class="title">
+            Data Week Leipzig <span>2022</span> <strong>26. - 30.6.2023</strong>
+          </p></a>
+          <p class="claim">
+            Netzwerk- und Austauschplattform zu KI und Daten in Leipzig
+          </p>
+        </div>
+        <nav class="nav-lang" aria-label="Sprachmenü">
+          <p lang="en">
+            Language:
+          </p>
+          <ul>
+            <li aria-current="true">
+              <strong>deutsch</strong>
+            </li>
+            <li>
+              <a href="demo/formulare.html#en" hreflang="en" lang="en">english</a>
+            </li>
+          </ul>
+        </nav><a href="demo/formulare.html#navigation" class="hamburger" id="hamburger" data-label-open="Menü öffnen" data-label-close="Menü schließen" data-text-open="&lt;svg role='img' focusable='false' aria-hidden='true' height='42' width='42'&gt;&lt;use xlink:href='images/icons.svg#hamburger'&gt;&lt;/use&gt;&lt;/svg&gt;&lt;span&gt;Menü&lt;/span&gt;" data-text-close=
+        "&lt;svg role='img' focusable='false' aria-hidden='true' height='42' width='42'&gt;&lt;use xlink:href='images/icons.svg#close'&gt;&lt;/use&gt;&lt;/svg&gt;" data-focus-helper-text="zum Anfang des Menüs springen"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
+        <use xlink:href="images/icons.svg#hamburger"></use></svg><span>zum Menü</span></a>
+      </div>
+    </header>
+    <nav class="nav-main" aria-label="Hauptmenü">
+      <ul>
+        <li>
+          <a href="programm_montag_bereich-a.html">Programm</a>
+        </li>
+        <li>
+          <a href="sprecher.html">Sprecher</a>
+        </li>
+        <li>
+          <a href="veranstaltungsort.html">Veranstaltungsort</a>
+        </li>
+        <li>
+          <a href="organisationsteam_team-a.html">Organisationsteam</a>
+        </li>
+        <li class="open">
+          <a class="active" href="demo.html">Demo</a>
+        </li>
+      </ul>
+    </nav>
+    <main class="page-main" aria-label="Inhalt" id="inhalt">
+      <div class="content-header">
+        <h1>
+          Formulare
+        </h1>
+      </div>
+      <h2>
+        Allgemeines Formular mit Box-Formatierung
+      </h2>
+      <form action="#">
+        <fieldset class="form-box">
+          <legend>Basis-Felder in einem Fieldset mit Box-Formatierung</legend>
+          <div class="form-group">
+            <label for="form1-firstname" class="form-required">Vorname <sup>* <span>Pflichtfeld</span></sup></label>
+            <div class="form-group-col">
+              <input id="form1-firstname" type="text" class="form-control" required="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="form1-name" class="form-required">Name <sup>* <span>Pflichtfeld</span></sup></label>
+            <div class="form-group-col">
+              <input id="form1-name" type="text" class="form-control" required="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="form1-email1" class="form-required">E-Mail-Adresse <sup>* <span>Pflichtfeld</span></sup></label>
+            <div class="form-group-col">
+              <input type="email" class="form-control" name="form1-email1" id="form1-email1" placeholder="beispiel@pixelbrand.net" required="">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="form1-select1" class="form-required">Auswahlfeld <sup>* <span>Pflichtfeld</span></sup></label>
+            <div class="form-group-col">
+              <select class="form-control" id="form1-select1" required="">
+                <option value="">
+                  bitte wählen
+                </option>
+                <option value="a">
+                  Option A
+                </option>
+                <option value="b">
+                  Option B
+                </option>
+                <option value="c">
+                  Option C
+                </option>
+                <option value="d">
+                  Option D
+                </option>
+                <option value="e">
+                  Option E
+                </option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="form1-textarea1">Beispiel Textfeld</label>
+            <div class="form-group-col">
+              <textarea class="form-control" id="form1-textarea1" rows="3"></textarea>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="form-box">
+          <legend>Radio-Buttons und Checkboxen</legend>
+          <div class="form-check">
+            <input id="example-checkbox-1" type="checkbox" value="Beispiel Checkbox"> <label for="example-checkbox-1">Beispiel Checkbox</label>
+          </div>
+          <div class="form-check">
+            <input id="example-checkbox-2" type="checkbox" value="Beispiel deaktivierte Checkbox" disabled> <label for="example-checkbox-2">Beispiel deaktivierte Checkbox</label>
+          </div>
+          <div class="form-check">
+            <input id="example-checkbox-3" type="checkbox" name="internet" value="Beispiel mit Erklärung"> <label for="example-checkbox-3">Beispiel Checkbox mit Infotext <a class="info-button" href="demo/formulare.html#info-box-example-3" data-label-open="Infotext öffnen" data-label-close="Infotext schließen"><span>Text der Einverständniserklärung zur Internetveröffentlichung</span></a></label>
+            <div id="info-box-example-3" class="info-box" role="status" aria-live="assertive" aria-label="Hinweise zur Internetveröffentlichung">
+              <p>
+                Wenn Sie diese Option wählen, wird Ihre Meldung ohne persönliche Angaben (Vorname, Name etc.) auf der Webseite „Anliegenlistel“ veröffentlicht. Der aktuelle Bearbeitungsstand kann dort eingesehen werden. Bitte verzichten Sie bei der Beschreibung Ihrer Meldung auf die Angabe personenbezogener Daten wie Anreden oder Grußformeln, da die gesamte Meldung ansonsten aus Datenschutzgründen nicht veröffentlich werden darf. Über die Veröffentlichung entscheidet im Einzelfall der
+                Geschäftsbereich Personal und Organisation.
+              </p>
+            </div>
+          </div>
+          <div class="form-check">
+            <input id="example-checkbox-4" type="checkbox" value="Beispiel Checkbox" required=""> <label for="example-checkbox-4" class="form-required">Beispiel Checkbox als Pflichtfeld <sup>* <span>Pflichtfeld</span></sup></label>
+          </div>
+          <div class="form-group-check">
+            <label id="example-radio-10-label" class="form-group-label">Beispiel Gruppierung von Radiobuttons</label>
+            <div class="form-group-col">
+              <div class="form-check">
+                <input id="example-radio-10-1" type="radio" name="radioexample10" value="option1" aria-labelledby="example-radio-10-label example-radio-10-1-label"> <label id="example-radio-10-1-label" for="example-radio-10-1">ja</label>
+              </div>
+              <div class="form-check">
+                <input id="example-radio-10-2" type="radio" name="radioexample10" value="option2"> <label for="example-radio-10-2">nein</label>
+              </div>
+              <div class="form-check">
+                <input id="example-radio-10-3" type="radio" name="radioexample10" value="option3" disabled> <label for="example-radio-10-3">event.</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group-check">
+            <label id="example-checkbox-11-label" class="form-group-label">Beispiel Gruppierung von Checkboxen</label>
+            <div class="form-group-col">
+              <div class="form-check">
+                <input id="example-checkbox-11-1" type="checkbox" name="checkboxexample11-1" value="option1" aria-labelledby="example-checkbox-11-label example-checkbox-11-1-label"> <label id="example-checkbox-11-1-label" for="example-checkbox-11-1">Auswahl Teil A</label>
+              </div>
+              <div class="form-check">
+                <input id="example-checkbox-11-2" type="checkbox" name="checkboxexample11-2" value="option2" required=""> <label for="example-checkbox-11-2" class="form-required">Auswahl Teil B <sup>* <span>Pflichtfeld</span></sup></label>
+              </div>
+              <div class="form-check">
+                <input id="example-checkbox-11-3" type="checkbox" name="checkboxexample11-3" value="option3" disabled> <label for="example-checkbox-11-3">Auswahl Teil B</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group-check">
+            <label id="example-radio-12-label" class="form-group-label form-required">Beispiel Gruppierung Darstellung inline & Pflichtfeld <sup>* <span>Pflichtfeld</span></sup></label>
+            <div class="form-group-col">
+              <div class="form-check form-check-inline">
+                <input id="example-radio-12-1" type="radio" name="radioexample12" value="option1" required="" aria-labelledby="example-radio-12-label example-radio-12-1-label"> <label id="example-radio-12-1-label" for="example-radio-12-1">ja</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input id="example-radio-12-2" type="radio" name="radioexample12" value="option2" required=""> <label for="example-radio-12-2">nein</label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="form-box">
+          <legend>Spalten im Formular</legend>
+          <div class="form-text">
+            <p>
+              Die Spalten im Grid können je nach Bildschirmbreite unterschiedliche Aufteilungen annehmen.
+            </p>
+          </div>
+          <div class="form-row">
+            <div class="form-col col-xs-12 col-sm-9 col-md-6 col-lg-4">
+              <div class="form-group">
+                <label for="form1-username">Benutzername <a class="info-button" href="demo/formulare.html#info-box-form1-username" data-label-open="Infotext öffnen" data-label-close="Infotext schließen"><span>Hinweis zum Benutzername</span></a></label>
+                <div class="form-group-col">
+                  <input id="form1-username" type="text" class="form-control">
+                  <div id="info-box-form1-username" class="info-box" role="status" aria-live="assertive" aria-label="Hinweis zum Benutzername">
+                    <p>
+                      Der Benutzername ist entweder Ihre bei uns hinterlegte E-Mail-Adresse oder Ihre Kundennummer. Die Kundennummer finden Sie auf der letzten Rechnung.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-col col-xs-12 col-sm-3 col-md-6 col-lg-8">
+              <div class="form-group">
+                <label for="form1-password">Passwort</label>
+                <div class="form-group-col">
+                  <input id="form1-password" type="password" class="form-control">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-text">
+            <details>
+              <summary>
+                Sie haben Ihr Passwort vergessen?
+              </summary>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Sie möchten einen Zugang anfordern?
+              </summary>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit consequat esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </details>
+          </div>
+        </fieldset>
+        <div class="form-button">
+          <button type="submit">Absenden</button> <button type="reset">Zurücksetzen</button>
+        </div>
+      </form>
+      <div class="hr">
+        <hr>
+      </div>
+      <h2>
+        Option Darstellung in Spalten, Fehlerausgaben
+      </h2>
+      <form action="#">
+        <fieldset>
+          <legend>Darstellung in Spalten</legend>
+          <div class="form-group columnar">
+            <label for="form2-email1">Beispiel Text-Input</label>
+            <div class="form-group-col">
+              <input type="email" class="form-control" id="form2-email1" aria-labelledby="form2-email1-feedback">
+              <div class="invalid-feedback" id="form2-email1-feedback">
+                Dieses Feld erfordert Ihre Aufmerksamkeit!
+              </div>
+            </div>
+          </div>
+          <div class="form-group columnar">
+            <label for="form2-file">Uploadfeld</label>
+            <div class="form-group-col">
+              <input type="file" class="form-control" id="form2-file">
+            </div>
+          </div>
+          <div class="form-group columnar">
+            <label for="form2-textarea1">Beispiel Textfeld</label>
+            <div class="form-group-col">
+              <textarea class="form-control" id="form2-textarea1" rows="3"></textarea>
+            </div>
+          </div>
+          <div class="form-check columnar">
+            <input id="example-checkbox-20" type="checkbox" value="Beispiel Checkbox"> <label for="example-checkbox-20">Beispiel Checkbox</label>
+          </div>
+          <div class="form-check columnar">
+            <input id="example-checkbox-21" type="checkbox" name="internet" value="Beispiel mit Erklärung"> <label for="example-checkbox-21">Beispiel Checkbox mit Infotext <a class="info-button" href="demo/formulare.html#info-box-example-21" data-label-open="Infotext öffnen" data-label-close="Infotext schließen"><span>Text der Einverständniserklärung zur Internetveröffentlichung</span></a></label>
+            <div id="info-box-example-21" class="info-box" role="status" aria-live="assertive" aria-label="Hinweise zur Internetveröffentlichung">
+              <p>
+                Wenn Sie diese Option wählen, wird Ihre Meldung ohne persönliche Angaben (Vorname, Name etc.) auf der Webseite „Anliegenlistel“ veröffentlicht. Der aktuelle Bearbeitungsstand kann dort eingesehen werden. Bitte verzichten Sie bei der Beschreibung Ihrer Meldung auf die Angabe personenbezogener Daten wie Anreden oder Grußformeln, da die gesamte Meldung ansonsten aus Datenschutzgründen nicht veröffentlich werden darf. Über die Veröffentlichung entscheidet im Einzelfall der
+                Geschäftsbereich Personal und Organisation.
+              </p>
+            </div>
+          </div>
+          <div class="form-group-check columnar">
+            <label id="example-radio-22-label" class="form-group-label">Beispiel Gruppierung</label>
+            <div class="form-group-col">
+              <div class="form-check">
+                <input id="example-radio-22-1" type="radio" name="radioexample22" value="option1" aria-labelledby="example-radio-22-label example-radio-22-1-label"> <label id="example-radio-22-1-label" for="example-radio-22-1">ja</label>
+              </div>
+              <div class="form-check">
+                <input id="example-radio-22-2" type="radio" name="radioexample22" value="option2"> <label for="example-radio-22-2">nein</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group-check columnar">
+            <label id="example-radio-23-label" class="form-group-label">Beispiel Gruppierung, inline</label>
+            <div class="form-group-col">
+              <div class="form-check form-check-inline">
+                <input id="example-radio-23-1" type="radio" name="radioexample23" value="option1" aria-labelledby="example-radio-23-label example-radio-23-1-label"> <label id="example-radio-23-1-label" for="example-radio-23-1">ja</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input id="example-radio-23-2" type="radio" name="radioexample23" value="option2"> <label for="example-radio-23-2">nein</label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Fehlerausgaben (Server)</legend>
+          <div class="form-group form-error columnar">
+            <label for="example-error-1" class="form-required">E-Mail <sup>* <span>Pflichtfeld</span></sup></label>
+            <div class="form-group-col">
+              <input type="text" class="form-control" id="example-error-1" aria-labelledby="example-error-1-message" autocomplete="email" required=""> <strong class="form-error-message" id="example-error-1-message">Das Feld E-Mail muss ausgefüllt werden!</strong>
+            </div>
+          </div>
+          <div class="form-group form-error columnar">
+            <label for="example-error-2" class="form-required">Text <sup>* <span>Pflichtfeld</span></sup></label>
+            <div class="form-group-col">
+              <textarea class="form-control" id="example-error-2" aria-labelledby="example-error-2-message" rows="3" required=""></textarea> <strong class="form-error-message" id="example-error-2-message">Das Feld E-Mail muss ausgefüllt werden!</strong>
+            </div>
+          </div>
+          <div class="form-check form-error columnar">
+            <input id="example-error-3" type="checkbox" aria-labelledby="example-error-3-message" value="Beispiel Checkbox" required=""> <label for="example-error-3" class="form-required">Beispiel Checkbox <sup>* <span>Pflichtfeld</span></sup></label> <strong class="form-error-message" id="example-error-3-message">Das Feld E-Mail muss aktiviert werden!</strong>
+          </div>
+        </fieldset>
+        <div class="form-button columnar">
+          <button type="submit">Absenden</button> <button type="reset">Zurücksetzen</button>
+        </div>
+      </form>
+      <div class="sponsors">
+        <h2>
+          <span>Data Week</span> Sponsoren
+        </h2>
+        <ul>
+          <li>
+            <a href="demo/formulare.html#"><img src="files/sponsor-appplant.png" alt="Logo appPlant"></a>
+          </li>
+          <li>
+            <a href="demo/formulare.html#"><img src="files/sponsor-datev.svg" alt="Logo Datev"></a>
+          </li>
+          <li>
+            <a href="demo/formulare.html#"><img src="files/sponsor-eccenca.svg" alt="Logo eccenca"></a>
+          </li>
+          <li>
+            <a href="demo/formulare.html#"><img src="files/sponsor-stackfuel.png" alt="Logo stackfuel"></a>
+          </li>
+          <li>
+            <a href="demo/formulare.html#"><img src="files/sponsor-vistex.png" alt="Logo Vistex"></a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <div class="nav-mobil" id="navigation">
+      <nav class="nav-lang-mobil" aria-label="Sprachmenü">
+        <ul>
+          <li aria-current="true">
+            <strong>deutsch</strong>
+          </li>
+          <li>
+            <a href="demo/formulare.html#en" hreflang="en" lang="en">english</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="nav-sitemap" aria-label="Mobilmenü">
+        <ul>
+          <li>
+            <a href="programm_montag_bereich-a.html">Programm</a>
+            <ul>
+              <li>
+                <a href="programm_montag_bereich-a.html"><span>26.6.2023</span> Montag</a>
+                <ul>
+                  <li>
+                    <a href="programm_montag_bereich-a.html">Bereich A</a>
+                  </li>
+                  <li>
+                    <a href="programm_montag_bereich-b.html">Bereich B</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="programm_dienstag.html"><span>27.6.2023</span> Dienstag</a>
+              </li>
+              <li>
+                <a href="programm_mittwoch.html"><span>28.6.2023</span> Mittwoch</a>
+              </li>
+              <li>
+                <a href="programm_donnerstag.html"><span>29.6.2023</span> Donnerstag</a>
+              </li>
+              <li>
+                <a href="programm_freitag.html"><span>30.6.2023</span> Freitag</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="sprecher.html">Sprecher</a>
+          </li>
+          <li>
+            <a href="veranstaltungsort.html">Veranstaltungsort</a>
+          </li>
+          <li>
+            <a href="organisationsteam_team-a.html">Organisationsteam</a>
+            <ul>
+              <li>
+                <a href="organisationsteam_team-a.html"><span>Team</span> LSWT2022</a>
+              </li>
+              <li>
+                <a href="organisationsteam_team-b.html"><span>Team</span> DBpedia</a>
+              </li>
+              <li>
+                <a href="organisationsteam_team-c.html"><span>Team</span> Big Data / Ai</a>
+              </li>
+              <li>
+                <a href="organisationsteam_team-d.html"><span>Team</span> Workshops</a>
+              </li>
+              <li>
+                <a href="organisationsteam_team-e.html"><span>Team</span> Stadt Leipzig</a>
+              </li>
+            </ul>
+          </li>
+          <li class="open">
+            <a class="active" href="demo.html">Demo</a>
+            <ul>
+              <li>
+                <a href="demo/news.html">Newsauflistung</a>
+              </li>
+              <li>
+                <a href="demo/datentabellen.html">Datentabellen</a>
+              </li>
+              <li>
+                <a href="demo/datenquellen.html">Datenquellen</a>
+              </li>
+              <li>
+                <a href="demo/lightbox.html">Lightbox</a>
+              </li>
+              <li>
+                <a href="demo/osm.html">OpenStreetMap</a>
+              </li>
+              <li>
+                <a href="demo/video.html">Video</a>
+              </li>
+              <li>
+                <a href="demo/paging.html">Paging</a>
+              </li>
+              <li class="open">
+                <strong aria-current="page">Formularbaukasten</strong>
+              </li>
+              <li>
+                <a href="demo/grid.html">Grid</a>
+              </li>
+              <li>
+                <a href="demo/svg-icons.html">SVG Icons</a>
+              </li>
+              <li>
+                <a href="demo/consent-dialog.html">Consent Dialog</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="impressum.html">Impressum</a>
+          </li>
+          <li>
+            <a href="datenschutz.html">Datenschutz</a>
+          </li>
+          <li>
+            <a href="kontakt.html">Kontakt</a>
+          </li>
+          <li>
+            <a href="event-archiv.html">Event-Archiv</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <footer class="page-footer">
+      <div class="page-footer-inner">
+        <nav class="nav-meta" id="hilfsmenue" aria-label="Hilfsmenü">
+          <ul>
+            <li>
+              <a href="impressum.html">Impressum</a>
+            </li>
+            <li>
+              <a href="datenschutz.html">Datenschutz</a>
+            </li>
+            <li>
+              <a href="kontakt.html">Kontakt</a>
+            </li>
+            <li>
+              <a href="event-archiv.html">Event-Archiv</a>
+            </li>
+          </ul>
+        </nav>
+        <p class="socialmedia">
+          <a href="https://youtube.de/@dataqeekleipzig"><svg role="img" focusable="false" aria-hidden="true" height="28" width="42">
+          <use xlink:href="images/socialmedia.svg#youtube"></use></svg> @dataweekleipzig</a> <a href="https://twitter.de/@DataWeekLeipzig"><svg role="img" focusable="false" aria-hidden="true" height="28" width="42">
+          <use xlink:href="images/socialmedia.svg#twitter"></use></svg>@DataWeekLeipzig</a>
+        </p>
+      </div>
+      <div class="page-footer-partner">
+        <h2>
+          In Kooperation mit:
+        </h2>
+        <ul>
+          <li>
+            <a href="demo/formulare.html#"><img src="files/logo-stadt-leipzig.png" alt="Logo Stadt Leipzg"></a>
+          </li>
+          <li>
+            <a href="demo/formulare.html#"><img src="files/logo-cut.svg" alt="Logo CUT"></a>
+          </li>
+          <li>
+            <a href="demo/formulare.html#"><img src="files/logo-kmi.png" alt="Logo KMI"></a>
+          </li>
+          <li>
+            <a href="demo/formulare.html#"><img src="files/logo-ogc.png" alt="Logo OGC"></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <div class="toplink">
+      <a href="demo/formulare.html#top" aria-label="zum Seitenanfang springen" title="zum Seitenanfang"><svg role="img" focusable="false" aria-hidden="true" viewbox="0 0 28 28" height="28" width="28">
+      <use xlink:href="images/icons.svg#button-toplink"></use></svg></a>
+    </div>
+    <script>
+    var base = {
+    'btnArrow' : ''
+    }
+    </script>
+    <script>
+
+    /* Lightbox */
+    var lightbox = {
+    'ariaLabel' : 'Fenster vergrößerte Ansicht',
+    'prevText' : 'zurück',
+    'prevSvg' : '<svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="images/icons.svg#lightbox-prev"><\/use><\/svg>',
+    'nextText' : 'weiter',
+    'nextSvg' : '<svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="images/icons.svg#lightbox-next"><\/use><\/svg>',
+    'closeText' : 'schließen (Esc)',
+    'closeSvg' : '<svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="images/icons.svg#lightbox-close"><\/use><\/svg>',
+    'countText' : '{CUR} von {SUM}',
+    'shareTilte' : 'Bild teilen',
+    'shareHiddenText' : 'Social-Media-Plattform auswählen',
+    'shareSvg' : '<svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="images/icons.svg#lightbox-share"><\/use><\/svg>',
+    'shareTwitter' : '<a data-href="https://www.twitter.com/share?url={IMAGE}" aria-label="Bild bei Twitter teilen." title="Twitter"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="images/socialmedia.svg#share-twitter"><\/use><\/svg><\/a>',
+    'shareFacebook' : '<a data-href="https://www.facebook.com/sharer/sharer.php?u={IMAGE}" aria-label="Bild bei Facebook teilen." title="Facebook"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="images/socialmedia.svg#share-facebook"><\/use><\/svg><\/a>',  
+    'sharePinterest' : '<a data-href="https://pinterest.com/pin/create/link/?url={IMAGE}" aria-label="Bild bei Pinterest teilen." title="Pinterest"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="images/socialmedia.svg#share-pinterest"><\/use><\/svg><\/a>'
+    };
+    </script>
+    <script>
+
+    /* Swiper */
+    var swiper = {
+    'prev'        : '<svg focusable="false" aria-hidden="true" role="img" width="28px" height="28px"><use xlink:href="images/icons.svg#arrow-left"><\/use><\/svg>',
+    'prevTitle'   : 'vorheriger Eintrag',
+    'next'        : '<svg focusable="false" aria-hidden="true" role="img" width="28px" height="28px"><use xlink:href="images/icons.svg#arrow-right"><\/use><\/svg>',
+    'nextTitle'   : 'folgender Eintrag',
+    'firstTitle'  : 'erster Eintrag',
+    'lastTitle'   : 'letzter Eintrag',
+    'bulletTitle' : 'gehe zu Eintrag {{index}}'
+    };
+    </script>
+    <script>
+
+    /* Leaflet */
+    var leaflet = {
+    'zoomInTitle'  : 'Karte vergrößern',
+    'zoomOutTitle' : 'Karte verkleinern',
+    'closePopupLabel' : 'Modalfester schließen',
+    'skipToControls' : 'Zum Kartenfilter springen',
+    'skipToStart' : 'Zum Anfang der Karte springen',
+    'skipToEnd' : 'Zum Ende der Karte springen',
+    'fullScreenTitle': 'Karte in Bildschirmgröße anzeigen',
+    'fullScreenTitleCancel': 'Karte wieder in Normalansicht anzeigen',
+    'layerFilterLabel': 'Filter für Kartenmarker',
+    'layerBaseMap': 'Basiskarte',
+    'wakeMessage': 'Zum Aufwachen Maus über Karte bewegen.',
+    'wakeMessageTouch': 'Zum Aufwachen tippen.'
+    };
+    </script> 
+    <script src="js/additional/px-consent.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="print" href="css/print/print.css">
+  </body>
+</html>
