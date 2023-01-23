@@ -1,10 +1,13 @@
 {% assign rootResource = site.rootResource | rdf_get %}
 {% assign subEvent = rootResource | rdf_property: "schema:subEvent" %}
-
+{% assign query = 'SELECT ?link WHERE { ?roomday rdf:type dw:RoomDay ; schema:date ?date ; dw:rel_link ?link . } ORDER BY ?date LIMIT 1' %}
+{% assign resultset = page.rdf | sparql_query: query %}
+{% assign result = resultset | first %}
 <nav class="nav-main" aria-label="Hauptmenü">
   <ul>
     <li>
-      <a href="/program.html">
+      
+      <a href="{{ result.link }}">
         {% if site.language == 'en' %}
           Program
         {% else %}
