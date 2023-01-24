@@ -38,9 +38,7 @@ order by ASC(?person)
 {% capture dates_query %}
 SELECT distinct ?ds WHERE {
   ?rd a <https://dataweek.de/#RoomDay> ;
-  	<https://dataweek.de/#datestring> ?ds .
-
-  FILTER(langMatches(lang(?ds), "{{ site.language }}"))
+  	schema:date ?ds .
 }  order by ASC(?ds)
 {% endcapture %}
 
@@ -70,22 +68,29 @@ SELECT distinct ?al ?affiliation WHERE {
 }  order by ASC(lcase(?al))
 {% endcapture %}
 
-{% capture details_query %}
-SELECT distinct (GROUP_CONCAT(distinct ?affiliation;SEPARATOR=",") as ?affiliations) (GROUP_CONCAT(distinct ?date;SEPARATOR=",") as ?dates)
+{% capture details1_query %}
+SELECT distinct (GROUP_CONCAT(distinct ?date;SEPARATOR=" ") as ?dates)
 WHERE {
   <{{ rootResource }}> schema:subEvent ?subEvent .
   ?subEvent schema:subEvent ?session ;
-            rdfs:label ?eventTitle ;
             schema:date ?date .
-  ?session schema:location ?location ;
-           schema:startTime ?session_start ;
-           schema:endTime ?session_end ;
-           dct:title ?session_name ;
-           schema:subEvent ?talk .
+  ?session  schema:subEvent ?talk .
   ?talk dct:title ?talk_title ;
-        schema:performer ?person ;
-        schema:startTime ?start ;
-        schema:endTime ?end .
+        schema:performer ?person .
+
+  filter (?person = ?resourceUri)
+}
+order by ASC(?person)
+{% endcapture %}
+
+{% capture details2_query %}
+SELECT distinct (GROUP_CONCAT(distinct ?affiliation;SEPARATOR=" ") as ?affiliations)
+WHERE {
+  <{{ rootResource }}> schema:subEvent ?subEvent .
+  ?subEvent schema:subEvent ?session .
+  ?session  schema:subEvent ?talk .
+  ?talk dct:title ?talk_title ;
+        schema:performer ?person .
 
   OPTIONAL {
       Select distinct ?person ?affiliation where {
@@ -104,6 +109,42 @@ WHERE {
 order by ASC(?person)
 {% endcapture %}
 
+<script type="text/javascript">
+  function filterSpeakers() {
+    var affiliation = document.getElementById("speaker_form-select_affiliation").value;
+    var date = document.getElementById("speaker_form-select_date").value;
+    var ul = document.getElementById("speaker_ul_list");
+    
+    if (!affiliation && !date) {
+      for (let li of ul.children) {
+        li.style.display = "";
+      }
+      return;
+    }
+
+    for (let li of ul.children) {
+      var local_affiliations = li.attributes["data-affiliations"].value;
+      var local_dates = li.attributes["data-dates"].value;
+
+      var show = true;
+      if (affiliation) {
+        if (local_affiliations.indexOf(affiliation) === -1)
+          show = false;
+      }
+
+      if (show && date) {
+        if (local_dates.indexOf(date) === -1)
+          show = false;
+      }
+
+      if (!show)
+        li.style.display = "none";
+      else
+        li.style.display = "";
+    }
+  }
+</script>
+
 <div class="content-header">
   <h1>
     {% if site.language == 'en' %}
@@ -118,7 +159,7 @@ order by ASC(?person)
   <form class="filter" action="#">
     <div>
       <label for="form-select1" class="hideme">Affiliation</label>
-      <select class="form-control" id="form-select1">
+      <select class="form-control" id="speaker_form-select_affiliation">
         <option value="">
           {% if site.language == 'en' %}
             Choose affiliation
@@ -134,7 +175,7 @@ order by ASC(?person)
         {% endfor %}
       </select>
       <label for="form-select2" class="hideme">Tag</label>
-      <select class="form-control" id="form-select2">
+      <select class="form-control" id="speaker_form-select_date">
         <option value="">
           {% if site.language == 'en' %}
             Choose day
@@ -149,7 +190,7 @@ order by ASC(?person)
           </option>
         {% endfor %}
       </select>
-      <button type="submit">
+      <button onclick="filterSpeakers()">
         {% if site.language == 'en' %}
           Filter speakers
         {% else %}
@@ -160,11 +201,15 @@ order by ASC(?person)
   </form>
 </div>
 <div class="contact-list">
-  <ul>
+  <ul id="speaker_ul_list">
     {% assign persons = rootResource | sparql_query: persons_query %}
     {% for p in persons %}
-      {% assign details = p.person.rdf | sparql_query: details_query | first %}
-      <li data-dates="{{ details.dates }}" data-affiliations="{{ details.affiliations }}">
+      {% assign details1 = p.person | sparql_query: details1_query %}
+      {% assign date = details1 | first %}
+      {% assign details2 = p.person | sparql_query: details2_query %}
+      {% assign affiliations = details2 | first %}
+
+      <li data-dates="{{ date.dates }}" data-affiliations="{{ affiliations.affiliations }}">
         {% include components/person.html organizer=p.person  %}
       </li>
     {% endfor %}
