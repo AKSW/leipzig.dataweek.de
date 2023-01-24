@@ -1,29 +1,27 @@
 version: '3'
 
 vars:
-  PAGE_GRAPH: graph
-  PROGRAM_GRAPH: program
-  SITE_GRAPH: site
-  CMEM: aksw.eccenca.dev
-  WORKFLOW: 54b8da6d-1c3b-4c84-9268-3e456165b9ad_Programm:238cc3fb-389b-439c-9b7b-d492305db2d3_ProgrammTransformation
-  PAGE_GRAPH_IRI: https://dataweek.de/
-  PROGRAM_GRAPH_IRI: https://dataweek.de/programm
+  MODEL_REPO: git@github.com:AKSW/leipzig.dataweek.de-model.git
+  GRAPH_FILE: graph
+  GRAPH_IRI:
+    sh: cat {{.GRAPH_FILE}}.nt.graph
+
   GIT_USER_NAME: DataWeek CMEM Update Bot 🤖
   GIT_USER_EMAIL: dw-cmem-update-bot@example.org
   GIT_COMMIT_MESSAGE: Update from CMEM
+
   WORKING_DIRECTORY: '{{.github.workspace | default .PWD}}'
-  CMEMC_VERSION: v22.2
-  CMEMC_IMAGE: docker-registry.eccenca.com/eccenca-cmemc:{{.CMEMC_VERSION}}
-  CMEMC_DOCKER: docker run -i --rm -e "CMEM_BASE_URI=https://aksw.eccenca.dev/" -e "OAUTH_CLIENT_SECRET={{.OAUTH_CLIENT_SECRET}}" -v {{.WORKING_DIRECTORY}}:/data {{.CMEMC_IMAGE}}
-  CMEMC: '{{.CMEMC_LOCAL | default .CMEMC_DOCKER}}'
   ID_UID:
     sh: id -u
   ID_GID:
     sh: id -g
+
   JEKYLL_UID: '{{.JEKYLL_UID | default .ID_UID}}'
   JEKYLL_GID: '{{.JEKYLL_GID | default .ID_GID}}'
   JEKYLL_IMAGE: ghcr.io/aksw/jekyll-rdf:develop
+
   LANGUAGE: '{{.LANGUAGE | default "de"}}'
+
   TARGET: '{{.TARGET | default "_site"}}'
   TARGET_DE: '{{.TARGET_DE | default .TARGET}}'
   TARGET_EN: '{{.TARGET_EN | default "_site/en"}}'
@@ -35,45 +33,28 @@ tasks:
     cmds:
       - task -a
 
-  build:
-    desc: Build the page locally
-    cmds:
-      - task: helper:normalize-turtle
-      - task: sync:get-program
-      - task: sync:clean
-      - task: build:de
-      - task: build:en
-
   ci:
     desc: Build tasks for the CI
     cmds:
-      - task: build:de:docker
-      - task: build:en:docker
+      - task: sync-data
+      - task: build
 
-  ci:data-sync:
+  sync-data:
     desc: Synchronize the data in the CI
     cmds:
-      - task: sync:get-program
-      - task: sync:upload-page-graph
-      - task: sync:merge-site-graph
+      - task: sync:get-graph
       - task: track:commit-and-push-data
+
+  build:
+    desc: Build the page locally
+    cmds:
+      - task: build:de
+      - task: build:en
 
   serve:
     desc: Serve the locally built site
     cmds:
       - python -m http.server --directory {{.TARGET}}
-
-  build:de:
-    cmds:
-      - bundle exec jekyll build -d {{.TARGET_DE}}
-    env:
-      JEKYLL_LANGUAGE: de
-
-  build:en:
-    cmds:
-      - bundle exec jekyll build -d {{.TARGET_EN}}
-    env:
-      JEKYLL_LANGUAGE: en
 
   build:de:docker:
     cmds:
@@ -97,41 +78,29 @@ tasks:
       -e TZ=Europe/Berlin -e JEKYLL_UID="{{.JEKYLL_UID}}" -e JEKYLL_GID="{{.JEKYLL_GID}}" -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
       {{.JEKYLL_IMAGE}} jekyll build -d {{.TARGET}}
 
-  sync:clean:
-    - rapper -i turtle -o ntriples {{.PAGE_GRAPH}}.ttl | LC_ALL=C sort -u > {{.PAGE_GRAPH}}.nt
-    - task: sync:merge-site-graph
+  sync-data:get-graph:
+    deps:
+      - sync-data:model-update
+    cmds:
+      - cp .model/{{.GRAPH_FILE}}.nt {{.GRAPH_FILE}}.nt
+      - cp .model/{{.GRAPH_FILE}}.nt.graph {{.GRAPH_FILE}}.nt.graph
+      - echo {{.MODEL_REPO}} > ../{{.GRAPH_FILE}}.nt.source
+      - cd .model && git rev-parse HEAD >> ../{{.GRAPH_FILE}}.nt.source
 
-  sync:merge-site-graph:
-    - cat {{.PAGE_GRAPH}}.nt {{.PROGRAM_GRAPH}}.nt | LC_ALL=C sort -u > {{.SITE_GRAPH}}.nt
+  sync-data:model-init:
+    cmds:
+      - git clone {{.MODEL_REPO}} .model
+    status:
+      - test -d .model
 
-  sync:get-program:
-    - '{{.CMEMC}} workflow execute --wait {{.WORKFLOW}}'
-    - '{{.CMEMC}} graph export {{.PROGRAM_GRAPH_IRI}} | LC_ALL=C sort -u > {{.PROGRAM_GRAPH}}.nt'
-
-  sync:upload-page-graph:
-    - '{{.CMEMC}} graph import --replace {{.PAGE_GRAPH}}.ttl {{.PAGE_GRAPH_IRI}}'
+  sync-data:model-update:
+    deps:
+      - sync-data:model-init
+    cmds:
+      - cd .model && git pull
 
   track:commit-and-push-data:
     - |
-      git add {{.SITE_GRAPH}}.nt {{.PROGRAM_GRAPH}}.nt
+      git add {{.GRAPH_FILE}}.nt {{.GRAPH_FILE}}.nt.graph {{.GRAPH_FILE}}.nt.source
       git -c user.name="{{.GIT_USER_NAME}}" -c user.email="{{.GIT_USER_EMAIL}}" commit -m "{{.GIT_COMMIT_MESSAGE}}" || echo ""
       git push || echo ""
-
-  helper:normalize-turtle:
-    - |
-      rapper -i turtle -o turtle \
-        -f 'xmlns:xsd="http://www.w3.org/2001/XMLSchema#"' \
-        -f 'xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"' \
-        -f 'xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"' \
-        -f 'xmlns:owl="http://www.w3.org/2002/07/owl#"' \
-        -f 'xmlns:dct="http://purl.org/dc/terms/"' \
-        -f 'xmlns:skos="http://www.w3.org/2004/02/skos/core#"' \
-        -f 'xmlns:schema="http://schema.org/"' \
-        -f 'xmlns:foaf="http://xmlns.com/foaf/0.1/"' \
-        -f 'xmlns:ecc-ns="https://ns.eccenca.com/"' \
-        -f 'xmlns:site="http://ns.ontowiki.net/SysOnt/Site/"' \
-        -f 'xmlns:orp="https://www.openresearch.org/wiki/Property:"' \
-        -f 'xmlns:aksw="http://aksw.org/"' \
-        -f 'xmlns:dw="https://dataweek.de/#"' \
-        -f 'xmlns:gnd="https://d-nb.info/standards/elementset/gnd#"' \
-        {{.PAGE_GRAPH}}.ttl | sponge {{.PAGE_GRAPH}}.ttl

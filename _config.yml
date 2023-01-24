@@ -25,7 +25,7 @@ exclude:
   - src
   - todo.md
 jekyll_rdf:
-  path: "site.nt"
+  path: "graph.nt"
   restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"dataweek.de\") }"
   class_template_mappings:
 #    "http://xmlns.com/foaf/0.1/Document" : "basic.html"

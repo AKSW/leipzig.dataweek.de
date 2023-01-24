@@ -21,7 +21,7 @@ jobs:
     - name: Run CI Tasks ⚙️
       env:
         OAUTH_CLIENT_SECRET: ${{ secrets.OAUTH_CLIENT_SECRET }}
-      run: task ci:data-sync ci
+      run: task ci
     - name: Deploy 🚀
       uses: peaceiris/actions-gh-pages@v3
       with:
