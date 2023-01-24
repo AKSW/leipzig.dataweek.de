@@ -4,7 +4,7 @@ vars:
   MODEL_REPO: git@github.com:AKSW/leipzig.dataweek.de-model.git
   GRAPH_FILE: graph
   GRAPH_IRI:
-    sh: cat {{.GRAPH_FILE}}.nt.graph
+    sh: cat {{.GRAPH_FILE}}.nt.graph || echo none
 
   GIT_USER_NAME: DataWeek CMEM Update Bot 🤖
   GIT_USER_EMAIL: dw-cmem-update-bot@example.org
@@ -37,13 +37,13 @@ tasks:
     desc: Build tasks for the CI
     cmds:
       - task: sync-data
+      - task: track:commit-and-push-data
       - task: build
 
   sync-data:
     desc: Synchronize the data in the CI
     cmds:
-      - task: sync:get-graph
-      - task: track:commit-and-push-data
+      - task: sync-data:get-graph
 
   build:
     desc: Build the page locally
@@ -84,20 +84,20 @@ tasks:
     cmds:
       - cp .model/{{.GRAPH_FILE}}.nt {{.GRAPH_FILE}}.nt
       - cp .model/{{.GRAPH_FILE}}.nt.graph {{.GRAPH_FILE}}.nt.graph
-      - echo {{.MODEL_REPO}} > ../{{.GRAPH_FILE}}.nt.source
+      - echo {{.MODEL_REPO}} > {{.GRAPH_FILE}}.nt.source
       - cd .model && git rev-parse HEAD >> ../{{.GRAPH_FILE}}.nt.source
-
-  sync-data:model-init:
-    cmds:
-      - git clone {{.MODEL_REPO}} .model
-    status:
-      - test -d .model
 
   sync-data:model-update:
     deps:
       - sync-data:model-init
     cmds:
       - cd .model && git pull
+
+  sync-data:model-init:
+    cmds:
+      - git clone {{.MODEL_REPO}} .model
+    status:
+      - test -d .model
 
   track:commit-and-push-data:
     - |
