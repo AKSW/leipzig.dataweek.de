@@ -56,14 +56,14 @@ tasks:
     cmds:
       - python -m http.server --directory {{.TARGET}}
 
-  build:de:docker:
+  build:de:
     cmds:
       - task: build:docker
         vars:
           LANGUAGE: de
           TARGET: '{{.TARGET_DE}}'
 
-  build:en:docker:
+  build:en:
     cmds:
       - task: build:docker
         vars:
