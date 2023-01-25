@@ -53,7 +53,7 @@ tasks:
       - task: build:de
       - task: build:en
     cmds:
-      - rm -r _site
+      - test -d _site || rm -r _site
       - mv {{.TARGET_TMP_DE}} {{.TARGET_DE}}
       - mv {{.TARGET_TMP_EN}} {{.TARGET_EN}}
 
