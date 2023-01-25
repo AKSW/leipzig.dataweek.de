@@ -2,9 +2,9 @@
 layout: basic
 ---
 
-{% capture scope_query %} 
+{% capture scope_query %}
 SELECT ?link ?date ?location WHERE {
-  ?resourceUri schema:date ?date ; 
+  ?resourceUri schema:date ?date ;
     schema:location ?location;
     dw:rel_link ?link .
 }
@@ -14,7 +14,7 @@ SELECT ?link ?date ?location WHERE {
 
 {% capture days_query %}
 SELECT (min(?l) as ?link) ?location ?date ?datestring
-WHERE { 
+WHERE {
     ?roomday rdf:type dw:RoomDay ;
       schema:date ?date ;
       dw:rel_link ?l ;
@@ -28,7 +28,7 @@ WHERE {
 {% capture roomdays_query %}
 SELECT ?roomday_iri ?link ?date ?location ?location_name ?datestring WHERE {
   ?roomday_iri rdf:type dw:RoomDay ;
-    schema:date ?date ; 
+    schema:date ?date ;
     schema:location ?location ;
     dw:datestring ?datestring ;
     dw:rel_link ?link .
@@ -41,7 +41,7 @@ SELECT ?roomday_iri ?link ?date ?location ?location_name ?datestring WHERE {
 
 {% capture events_query %}
 SELECT DISTINCT ?event ?eventTitle ?eventDescription ?datestring
-WHERE { 
+WHERE {
   ?resourceUri rdf:type dw:RoomDay ;
     dw:datestring ?datestring ;
     schema:date ?date ;
@@ -52,7 +52,7 @@ WHERE {
   ?event schema:subEvent ?session ;
      dct:description ?eventDescription ;
      rdfs:label ?eventTitle ;
-     schema:date ?date . 
+     schema:date ?date .
   FILTER(langMatches(lang(?eventTitle), "en"))
   ?session schema:location ?location ;
     dct:title ?sessionTitle ;
@@ -64,7 +64,7 @@ WHERE {
 
 {% capture sessions_query %}
 SELECT ?session ?eventDescription ?eventTitle ?sessionTitle ?sessionDescription ?talk_title ?start ?end ?speaker
-WHERE { 
+WHERE {
   ?resourceUri schema:date ?date ;
     schema:location ?location ;
     dw:rel_link ?link .
@@ -72,7 +72,7 @@ WHERE {
   ?subEvent schema:subEvent ?session ;
      rdfs:label ?eventTitle ;
      dct:description ?eventDescription ;
-     schema:date ?date . 
+     schema:date ?date .
   FILTER(langMatches(lang(?eventTitle), "en"))
   ?session schema:location ?location ;
     dct:title ?sessionTitle ;
@@ -86,7 +86,7 @@ WHERE {
 
 {% capture talks_query %}
 SELECT DISTINCT ?session ?sessionTitle ?talk_title ?start ?end ?speaker ?name
-WHERE { 
+WHERE {
   ?resourceUri schema:date ?date ;
     schema:location ?location ;
     dw:rel_link ?link .
@@ -94,7 +94,7 @@ WHERE {
   ?subEvent schema:subEvent ?session ;
      rdfs:label ?eventTitle ;
      dct:description ?eventDescription ;
-     schema:date ?date . 
+     schema:date ?date .
   FILTER(langMatches(lang(?eventTitle), "en"))
   ?session schema:location ?location ;
     dct:title ?sessionTitle ;
@@ -102,7 +102,7 @@ WHERE {
     schema:endTime ?session_end ;
     schema:subEvent ?talk .
   FILTER(langMatches(lang(?sessionTitle), "en"))
-  OPTIONAL { ?session dct:description ?sessionDescription 
+  OPTIONAL { ?session dct:description ?sessionDescription
     FILTER(langMatches(lang(?sessionsDesription), "en"))
   }
   ?talk dct:title ?talk_title ;
@@ -160,7 +160,7 @@ WHERE {
 </form>
 <nav class="nav-sub1" aria-label="Untermenü Stufe 1">
   <ul>
-    {% for day in days %} 
+    {% for day in days %}
       {% if day.date == scope.date %}
         <li class="open">
           <a class="active" href="{{ day.link }}"><span>{{ day.date }}</span>weekday</a>
