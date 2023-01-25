@@ -6,7 +6,8 @@ layout: basic
   SELECT DISTINCT ?e ?date ?description ?title ?slogan
   WHERE {
     BIND("{{ site.language }}" as ?language)
-    <{{ rootResource }}> schema:subEvent ?e .
+    <https://2022.dataweek.de/> schema:subEvent ?e . # remove if model is clear
+    # <{{ rootResource }}> schema:subEvent ?e . # uncomment if model is clear
     ?e rdfs:label ?title ;
     dct:description ?description ;
     schema:date ?date .
@@ -22,6 +23,13 @@ layout: basic
 
 <div class="content-header">
   {% assign subEvents = rootResource | rdf_property: "schema:subEvent", nil, true %}
+  <h1>
+    {% if site.language == "de" %}
+      Die Veranstaltungen
+    {% else %}
+      Events
+    {% endif %}
+  </h1>
   <nav class="nav-sub1" aria-label="Untermenü Stufe 1">
     <ul>
     {% for event in events %}
@@ -38,9 +46,11 @@ layout: basic
     </ul>
   </nav>
 
-  <h1>
+  </br>
+  </br>
+  <h2>
     {{ subEvent | rdf_property: "rdfs:label", site.language }} 
-  </h1>
+  </h2>
   <p>
     Date: {{ subEvent | rdf_property: "schema:date" }}</br>
     Slogan: {{ subEvent | rdf_property: "schema:slogan" }}</br>
@@ -50,14 +60,18 @@ layout: basic
   </p>
 </div>
 {% assign organizer = page | rdf_property: "schema:organizer" %}
-<h2>
+<h3>
   {% assign label = organizer | rdf_property: "rdfs:label" %}
   {% if label %}
     {{ label }}
   {% else %}
-    Die Organisatoren
+    {% if site.language == "de" %}
+      Die Organisatoren
+    {% else %}
+      Organization Team
+    {% endif %}
   {% endif %}
-</h2>
+</h3>
 <div class="contact-list">
   {% assign organizerTeam = organizer | rdf_container %}
   <ul>
