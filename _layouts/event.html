@@ -83,7 +83,7 @@ layout: basic
     Slogan: {{ subEvent | rdf_property: "schema:slogan" }}<br/>
   </p>
   <p>
-    {{ subEvent | rdf_property: "dct:description" , site.language }}
+    {{ subEvent | rdf_property: "dct:description" , site.language | markdownify }}
   </p>
 </div>
 {% assign organizer = page | rdf_property: "schema:organizer" %}
