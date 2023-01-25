@@ -18,6 +18,7 @@ vars:
 
   JEKYLL_UID: '{{.JEKYLL_UID | default .ID_UID}}'
   JEKYLL_GID: '{{.JEKYLL_GID | default .ID_GID}}'
+  JEKYLL_USER_ARG: '-u "{{.JEKYLL_UID}}:{{.JEKYLL_GID}}"'
   JEKYLL_IMAGE: ghcr.io/aksw/jekyll-rdf:4.0.3
 
   LANGUAGE: '{{.LANGUAGE | default "de"}}'
@@ -81,7 +82,7 @@ tasks:
       docker run --rm \
       --workdir /github/workspace \
       -v {{.WORKING_DIRECTORY}}:/github/workspace \
-      -e TZ=Europe/Berlin -e JEKYLL_UID="{{.JEKYLL_UID}}" -e JEKYLL_GID="{{.JEKYLL_GID}}" -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
+      -e TZ=Europe/Berlin {{.JEKYLL_USER_ARG}} -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
       {{.JEKYLL_IMAGE}} jekyll build -d {{.TARGET}}
 
   sync-data:get-graph:
