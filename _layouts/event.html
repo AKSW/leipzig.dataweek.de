@@ -2,32 +2,52 @@
 layout: basic
 ---
 {% assign rootResource = site.rootResource | rdf_get %}
+{% capture eventsQuery %}
+  SELECT DISTINCT ?e ?date ?description ?title ?slogan
+  WHERE {
+    BIND("{{ site.language }}" as ?language)
+    <{{ rootResource }}> schema:subEvent ?e .
+    ?e rdfs:label ?title ;
+    dct:description ?description ;
+    schema:date ?date .
+    OPTIONAL {
+      ?e schema:slogan ?slogan 
+      FILTER(langMatches(lang(?slogan), ?language))
+    }
+    FILTER(langMatches(lang(?description), ?language))
+    FILTER(langMatches(lang(?title), ?language))
+  } ORDER BY ?e
+{% endcapture %}
+{% assign events = page.rdf | sparql_query: eventsQuery %}
 
 <div class="content-header">
-  <h1>
-    {{ rootResource | rdf_property: "schema:organizer" | rdf_property: "rdfs:label", site.language }}
-  </h1>
-  <p>
-    {{ rootResource | rdf_property: "schema:organizer" | rdf_property: "dct:description", site.language }}
-  </p>
   {% assign subEvents = rootResource | rdf_property: "schema:subEvent", nil, true %}
   <nav class="nav-sub1" aria-label="Untermenü Stufe 1">
     <ul>
-      {% for subEvent in subEvents %}
+    {% for event in events %}
+      {% assign eventShortName = event.e | replace: "https://dataweek.de/", "" | replace: "/", "" %}
+      {% if event.e == page.rdf %}
+        <li class="open">
+          <a class="active" href="{{ eventShortName }}"><span>{{ eventShortName }}</span>{{ eventShortName }}</a>
+      {% else %}
         <li>
-          {% if subEvent.iri == page.rdf.iri %}
-            <strong aria-current="page">
-              <span>Team</span> {{ subEvent | rdf_property: "rdfs:label" }}
-            </strong>
-          {% else %}
-            <a href="/{{ subEvent.iri | replace: rootResource.iri, "" }}">
-              <span>Team</span> {{ subEvent | rdf_property: "rdfs:label" }}
-            </a>
-          {% endif %}
-        </li>
-      {% endfor %}
+          <a href="{{ eventShortName }}"><span>{{ eventShortName }}</span>{{ eventShortName }}</a>
+      {% endif %}
+      </li>
+    {% endfor %}
     </ul>
   </nav>
+
+  <h1>
+    {{ subEvent | rdf_property: "rdfs:label", site.language }} 
+  </h1>
+  <p>
+    Date: {{ subEvent | rdf_property: "schema:date" }}</br>
+    Slogan: {{ subEvent | rdf_property: "schema:slogan" }}</br>
+  </p>
+  <p>
+    {{ subEvent | rdf_property: "dct:description" , site.language }}
+  </p>
 </div>
 {% assign organizer = page | rdf_property: "schema:organizer" %}
 <h2>
@@ -35,7 +55,7 @@ layout: basic
   {% if label %}
     {{ label }}
   {% else %}
-    {{ subEvent | rdf_property: "rdfs:label" }} - die Organisatoren
+    Die Organisatoren
   {% endif %}
 </h2>
 <div class="contact-list">
