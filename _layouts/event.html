@@ -21,6 +21,16 @@ layout: basic
 {% endcapture %}
 {% assign events = page.rdf | sparql_query: eventsQuery %}
 
+{% if site.language == "de" %}
+  {% assign mobileLabel = "Veranstaltung" %}
+  {% assign mobileHint = "Veranstaltung wählen" %}
+  {% assign orgateam = "Die Organisatoren" %}
+{% else %}
+  {% assign mobileLabel = "Event" %}
+  {% assign mobileHint = " Chose an event" %}
+  {% assign orgateam = "Organization Team" %}
+{% endif %}
+
 <div class="content-header">
   {% assign subEvents = rootResource | rdf_property: "schema:subEvent", nil, true %}
   <h1>
@@ -30,6 +40,23 @@ layout: basic
       Events
     {% endif %}
   </h1>
+  <form class="filter only-small-screens" action="#">
+    <div>
+      <label for="form-select1" class="hideme">
+        {{ mobileLabel }}
+      </label> <select class="form-control" id="form-select1">
+        <option value="">
+          {{ mobileHint }}
+        </option>
+        {% for event in events %}
+        {% assign eventShortName = event.e | replace: "https://dataweek.de/", "" | replace: "/", "" %}
+          <option value="{{ eventShortName }}-{{ eventShortName }}">
+            {{ eventShortName }}
+          </option>
+        {% endfor %}
+      </select> <button type="submit">Anzeigen</button>
+    </div>
+  </form>
   <nav class="nav-sub1" aria-label="Untermenü Stufe 1">
     <ul>
     {% for event in events %}
@@ -65,11 +92,7 @@ layout: basic
   {% if label %}
     {{ label }}
   {% else %}
-    {% if site.language == "de" %}
-      Die Organisatoren
-    {% else %}
-      Organization Team
-    {% endif %}
+    {{ orgateam }}
   {% endif %}
 </h3>
 <div class="contact-list">
