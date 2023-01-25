@@ -695,13 +695,17 @@
 <https://dataweek.de/#NievesSande> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#NievesSande> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/NievesSande.png" .
 <https://dataweek.de/#NievesSande> <http://xmlns.com/foaf/0.1/name> "Nieves Sande" .
-<https://dataweek.de/#NilsHempelmann> <http://purl.org/dc/terms/description> "Dr. Nils Hempelmann (male), is responsible for planning and managing OGC Innovation Program initiatives. Mr. Hempelmann holds a PhD in Geography and provides a combination of an extensive scientific background in climate change data assessment and sustainable development as well as software engineering for scientific data processing and information delivery. Furthermore he gained deep insights of the United Nations policy mechanisms e.g. as a member of the German UNCCD delegation as well as a UNFCCC observer. He contributes to OGC with his almost 20 years of research, scientific software development and climate service consultation experiences from international project contributions in research environments as well as consultation of international cooperation organisations."@en .
+<https://dataweek.de/#NilsHempelmann> <http://purl.org/dc/terms/description> "Project Manager "@en .
+<https://dataweek.de/#NilsHempelmann> <http://purl.org/dc/terms/description> "Projekt Manager "@de .
 <https://dataweek.de/#NilsHempelmann> <http://schema.org/affiliation> <https://www.ogc.org/> .
 <https://dataweek.de/#NilsHempelmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#NilsHempelmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#NilsHempelmann> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Nils Hempelmann" .
+<https://dataweek.de/#NilsHempelmann> <http://xmlns.com/foaf/0.1/homepage> <https://www.ogc.org/ogc/organization/staff/nils-hempelmann> .
 <https://dataweek.de/#NilsHempelmann> <http://xmlns.com/foaf/0.1/name> "Nils Hempelmann" .
 <https://dataweek.de/#NilsHempelmann> <http://xmlns.com/foaf/0.1/title> "Dr. " .
+<https://dataweek.de/#NilsHempelmann> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Dr. Nils Hempelmann (male), is responsible for planning and managing OGC Innovation Program initiatives. Mr. Hempelmann holds a PhD in Geography and provides a combination of an extensive scientific background in climate change data assessment and sustainable development as well as software engineering for scientific data processing and information delivery. Furthermore he gained deep insights of the United Nations policy mechanisms e.g. as a member of the German UNCCD delegation as well as a UNFCCC observer. He contributes to OGC with his almost 20 years of research, scientific software development and climate service consultation experiences from international project contributions in research environments as well as consultation of international cooperation organisations."@en .
+<https://dataweek.de/#NilsHempelmann> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Dr. Nils Hempelmann, ist verantwortlich für die Planung und das Management von OGC-Innovationsprogramm-Initiativen. Herr Hempelmann hat einen Doktortitel in Geographie und verfügt über einen umfassenden wissenschaftlichen Hintergrund in der Bewertung von Klimadaten und nachhaltiger Entwicklung sowie in der Softwareentwicklung für die wissenschaftliche Datenverarbeitung und Informationsbereitstellung. Darüber hinaus hat er tiefe Einblicke in die politischen Mechanismen der Vereinten Nationen gewonnen, z.B. als Mitglied der deutschen UNCCD-Delegation und als UNFCCC-Beobachter. Er bringt seine fast 20-jährige Erfahrung in Forschung, wissenschaftlicher Softwareentwicklung und Klimadienstberatung aus internationalen Projektbeiträgen in Forschungsumgebungen sowie der Beratung von internationalen Kooperationsorganisationen in OGC ein."@de .
 <https://dataweek.de/#OliverGraef> <http://purl.org/dc/terms/description> "Group Manager Corporate Analysis and Rating"@en .
 <https://dataweek.de/#OliverGraef> <http://purl.org/dc/terms/description> "Gruppenleiter Unternehmensanalyse und Rating"@de .
 <https://dataweek.de/#OliverGraef> <http://schema.org/affiliation> <https://www.datev.de/> .
@@ -760,6 +764,8 @@
 <https://dataweek.de/#SakyiMannah> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SakyiMannah> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SakyiMannah> <http://xmlns.com/foaf/0.1/name> "Sakyi Mannah" .
+<https://dataweek.de/#SebastianBoehm> <http://purl.org/dc/terms/description> "City of Leipzig/Digital City Department, CUT Project "@en .
+<https://dataweek.de/#SebastianBoehm> <http://purl.org/dc/terms/description> "Stadt Leipzig/Referat Digitale Stadt, CUT Projekt"@de .
 <https://dataweek.de/#SebastianBoehm> <http://schema.org/affiliation> <https://connectedurbantwins.de/> .
 <https://dataweek.de/#SebastianBoehm> <http://schema.org/affiliation> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
 <https://dataweek.de/#SebastianBoehm> <http://schema.org/affiliation> <https://www.leipzig.de/wirtschaft-und-wissenschaft/digitalisierung> .
@@ -1565,6 +1571,7 @@
 <https://www.ogc.org/> <http://www.w3.org/2000/01/rdf-schema#label> "OGC"@de .
 <https://www.ogc.org/> <http://www.w3.org/2000/01/rdf-schema#label> "OGC"@en .
 <https://www.ogc.org/> <http://xmlns.com/foaf/0.1/homepage> <https://www.ogc.org/> .
+<https://www.ogc.org/ogc/organization/staff/nils-hempelmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.pwc.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.pwc.de/en.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.pwc.de/en.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
