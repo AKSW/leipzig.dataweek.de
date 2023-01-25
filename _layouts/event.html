@@ -73,14 +73,14 @@ layout: basic
     </ul>
   </nav>
 
-  </br>
-  </br>
+  <br/>
+  <br/>
   <h2>
     {{ subEvent | rdf_property: "rdfs:label", site.language }}
   </h2>
   <p>
-    Date: {{ subEvent | rdf_property: "schema:date" }}</br>
-    Slogan: {{ subEvent | rdf_property: "schema:slogan" }}</br>
+    Date: {{ subEvent | rdf_property: "schema:date" }}<br/>
+    Slogan: {{ subEvent | rdf_property: "schema:slogan" }}<br/>
   </p>
   <p>
     {{ subEvent | rdf_property: "dct:description" , site.language }}
