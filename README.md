@@ -20,48 +20,13 @@ The setup of the build workflow is as follows:
 
 - Git
 - [Task](https://taskfile.dev/)
-- Node.js & NPM
 - Docker or Podman
 - Python
 
-### Preparation
-
-Install the JavaScript dependencies
-```
-task install_javascript_dependencies
-bundle install
-```
-
-### Build the styles
+### Build the page
 
 ```
-task styles
-```
-
-### Build the page (locally)
-
-Only German language version:
-```
-task build_de
-```
-
-Alternatively all language versions:
-
-```
-task build_de build_en
-```
-
-### Build the page (docker)
-
-Only German language version:
-```
-task build_docker_de
-```
-
-Alternatively all language versions:
-
-```
-task build_docker_de build_docker_en
+task build
 ```
 
 ### Serve the page
@@ -70,12 +35,14 @@ task build_docker_de build_docker_en
 task serve
 ```
 
-### Get the data, build the styles and the page in one run
+Since jekyll only watches pages but not the layouts and data there is no automatic rebuild. You have to run `task build serve` again, if you perform changes.
 
-With a local cmemc setup:
+### Get the data
+
+To work with the data you need to clone https://github.com/AKSW/leipzig.dataweek.de-model/. This is done with
 
 ```
-CMEMC_LOCAL='cmemc -c aksw.eccenca.dev' task default serve
+task sync-data
 ```
 
 ## TODO
@@ -87,4 +54,4 @@ For Persons we might distinguish in the description between:
 
 ## Trouble Shooting
 
-Eventuell muss man noch `bundle add webrick` ausführen, falls ein Fehler mit webrick kommt.
+non known

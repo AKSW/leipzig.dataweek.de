@@ -18,11 +18,14 @@ vars:
 
   JEKYLL_UID: '{{.JEKYLL_UID | default .ID_UID}}'
   JEKYLL_GID: '{{.JEKYLL_GID | default .ID_GID}}'
+  JEKYLL_USER_ARG: '-u "{{.JEKYLL_UID}}:{{.JEKYLL_GID}}"'
   JEKYLL_IMAGE: ghcr.io/aksw/jekyll-rdf:4.0.3
 
   LANGUAGE: '{{.LANGUAGE | default "de"}}'
 
   TARGET: '{{.TARGET | default "_site"}}'
+  TARGET_TMP_DE: '{{.TARGET_DE | default "_tmp/de"}}'
+  TARGET_TMP_EN: '{{.TARGET_DE | default "_tmp/en"}}'
   TARGET_DE: '{{.TARGET_DE | default .TARGET}}'
   TARGET_EN: '{{.TARGET_EN | default "_site/en"}}'
 
@@ -47,9 +50,13 @@ tasks:
 
   build:
     desc: Build the page locally
-    cmds:
+    deps:
       - task: build:de
       - task: build:en
+    cmds:
+      - test -d _site && rm -r _site || true
+      - mv {{.TARGET_TMP_DE}} {{.TARGET_DE}}
+      - mv {{.TARGET_TMP_EN}} {{.TARGET_EN}}
 
   serve:
     desc: Serve the locally built site
@@ -61,21 +68,21 @@ tasks:
       - task: build:docker
         vars:
           LANGUAGE: de
-          TARGET: '{{.TARGET_DE}}'
+          TARGET: '{{.TARGET_TMP_DE}}'
 
   build:en:
     cmds:
       - task: build:docker
         vars:
           LANGUAGE: en
-          TARGET: '{{.TARGET_EN}}'
+          TARGET: '{{.TARGET_TMP_EN}}'
 
   build:docker:
     - |
       docker run --rm \
       --workdir /github/workspace \
       -v {{.WORKING_DIRECTORY}}:/github/workspace \
-      -e TZ=Europe/Berlin -e JEKYLL_UID="{{.JEKYLL_UID}}" -e JEKYLL_GID="{{.JEKYLL_GID}}" -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
+      -e TZ=Europe/Berlin {{.JEKYLL_USER_ARG}} -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
       {{.JEKYLL_IMAGE}} jekyll build -d {{.TARGET}}
 
   sync-data:get-graph:
