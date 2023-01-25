@@ -34,11 +34,11 @@
 <http://aksw.org/EdgardMarx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/EdgardMarx> .
 <http://aksw.org/EdgardMarx> <http://xmlns.com/foaf/0.1/name> "Edgard Marx" .
-<http://aksw.org/Group> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/AKSW_Logo_small.svg" .
+<http://aksw.org/Group> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/resources/images/partner/AKSW_Logo_small.svg" .
 <http://aksw.org/Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <http://aksw.org/Group> <http://www.w3.org/2000/01/rdf-schema#label> "AKSW Research Group" .
 <http://aksw.org/Group> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/> .
-<http://aksw.org/Group> <http://xmlns.com/foaf/0.1/logo> "/images/partner/AKSW_Logo.svg" .
+<http://aksw.org/Group> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/AKSW_Logo.svg" .
 <http://aksw.org/JohannesFrey> <http://purl.org/dc/terms/description> "Research assistant"@en .
 <http://aksw.org/JohannesFrey> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
 <http://aksw.org/JohannesFrey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -267,7 +267,7 @@
 <https://appplant.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://appplant.de/> <http://www.w3.org/2000/01/rdf-schema#label> "appPlant GmbH" .
 <https://appplant.de/> <http://xmlns.com/foaf/0.1/homepage> <https://appplant.de/> .
-<https://appplant.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/AppPlant.png" .
+<https://appplant.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/AppPlant.png" .
 <https://appplant.de/de/home/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://appplant.de/de/home/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://appplant.de/de/home/> <http://www.w3.org/2000/01/rdf-schema#label> "appplant"@de .
@@ -554,12 +554,12 @@
 <https://dataweek.de/#LisaWenige> <http://xmlns.com/foaf/0.1/name> "Lisa Wenige" .
 <https://dataweek.de/#LisaWenige> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#LogoCUT> <http://purl.org/dc/terms/description> "Connected Urban Twins" .
-<https://dataweek.de/#LogoCUT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/images/CUT_Logo.png" .
+<https://dataweek.de/#LogoCUT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/CUT_Logo.png" .
 <https://dataweek.de/#LogoEccenca> <http://purl.org/dc/terms/description> "eccenca GmbH" .
-<https://dataweek.de/#LogoEccenca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/images/partner/eccenca_w.svg" .
-<https://dataweek.de/#LogoEccenca> <https://dataweek.de/#contrastFlavor> "/images/partner/eccenca_w_bg.svg" .
+<https://dataweek.de/#LogoEccenca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/eccenca_w.svg" .
+<https://dataweek.de/#LogoEccenca> <https://dataweek.de/#contrastFlavor> "/resources/images/partner/eccenca_w_bg.svg" .
 <https://dataweek.de/#LogoStadtLeipzig> <http://purl.org/dc/terms/description> "Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig" .
-<https://dataweek.de/#LogoStadtLeipzig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/images/partner/Stadt_Leipzig.png" .
+<https://dataweek.de/#LogoStadtLeipzig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/Stadt_Leipzig.png" .
 <https://dataweek.de/#MagnusKnuth> <http://schema.org/affiliation> <https://www.eccenca.com/> .
 <https://dataweek.de/#MagnusKnuth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MagnusKnuth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -695,6 +695,13 @@
 <https://dataweek.de/#NievesSande> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#NievesSande> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/NievesSande.png" .
 <https://dataweek.de/#NievesSande> <http://xmlns.com/foaf/0.1/name> "Nieves Sande" .
+<https://dataweek.de/#NilsHempelmann> <http://purl.org/dc/terms/description> "Dr. Nils Hempelmann (male), is responsible for planning and managing OGC Innovation Program initiatives. Mr. Hempelmann holds a PhD in Geography and provides a combination of an extensive scientific background in climate change data assessment and sustainable development as well as software engineering for scientific data processing and information delivery. Furthermore he gained deep insights of the United Nations policy mechanisms e.g. as a member of the German UNCCD delegation as well as a UNFCCC observer. He contributes to OGC with his almost 20 years of research, scientific software development and climate service consultation experiences from international project contributions in research environments as well as consultation of international cooperation organisations."@en .
+<https://dataweek.de/#NilsHempelmann> <http://schema.org/affiliation> <https://www.ogc.org/> .
+<https://dataweek.de/#NilsHempelmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#NilsHempelmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#NilsHempelmann> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Nils Hempelmann" .
+<https://dataweek.de/#NilsHempelmann> <http://xmlns.com/foaf/0.1/name> "Nils Hempelmann" .
+<https://dataweek.de/#NilsHempelmann> <http://xmlns.com/foaf/0.1/title> "Dr. " .
 <https://dataweek.de/#OliverGraef> <http://purl.org/dc/terms/description> "Group Manager Corporate Analysis and Rating"@en .
 <https://dataweek.de/#OliverGraef> <http://purl.org/dc/terms/description> "Gruppenleiter Unternehmensanalyse und Rating"@de .
 <https://dataweek.de/#OliverGraef> <http://schema.org/affiliation> <https://www.datev.de/> .
@@ -1314,11 +1321,11 @@
 <https://dataweek.de/venue/> <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.37267 51.33594)" .
 <https://dataweek.de/venue/> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "51.33594"^^<http://www.w3.org/2001/XMLSchema#float> .
 <https://dataweek.de/venue/> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.37267"^^<http://www.w3.org/2001/XMLSchema#float> .
-<https://dbpedia.org/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/images/partner/DBpediaLogo.svg" .
+<https://dbpedia.org/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/resources/images/partner/DBpediaLogo.svg" .
 <https://dbpedia.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://dbpedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Association" .
 <https://dbpedia.org/> <http://xmlns.com/foaf/0.1/homepage> <https://dbpedia.org/> .
-<https://dbpedia.org/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/DBpediaLogo.svg" .
+<https://dbpedia.org/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/DBpediaLogo.svg" .
 <https://dbs.uni-leipzig.de/person/eric_peukert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://dbs.uni-leipzig.de/person/prof_dr_erhard_rahm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://de.linkedin.com/in/arminkr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -1330,7 +1337,7 @@
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/2000/01/rdf-schema#label> "Referat Digitale Stadt" .
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://xmlns.com/foaf/0.1/homepage> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
-<https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/Referat_Digitale_Stadt.png" .
+<https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/Referat_Digitale_Stadt.png" .
 <https://gecko-two.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://gecko-two.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://gecko-two.de/> <http://www.w3.org/2000/01/rdf-schema#label> "GECKO.2"@de .
@@ -1344,7 +1351,7 @@
 <https://htwk-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Hochschule für Technik, Wirtschaft und Kultur Leipzig"@de .
 <https://htwk-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Leipzig University of Applied Sciences (HTWK)"@en .
 <https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://htwk-leipzig.de/> .
-<https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/logo-htwk_v.svg" .
+<https://htwk-leipzig.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/logo-htwk_v.svg" .
 <https://iakleipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://iakleipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://iakleipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "IAK Agrar Consulting GmbH"@de .
@@ -1356,7 +1363,7 @@
 <https://infai.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Institut für Angewandte Informatik e.V."@de .
 <https://infai.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Institute for Applied Informatics"@en .
 <https://infai.org/> <http://xmlns.com/foaf/0.1/homepage> <https://infai.org/> .
-<https://infai.org/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/InfAI_small.svg" .
+<https://infai.org/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/InfAI_small.svg" .
 <https://infai.org/workpage-dr-christian-zinke-wehlmann/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/2000/01/rdf-schema#label> "LEDSPLaY17" .
@@ -1383,7 +1390,7 @@
 <https://scads.ai/> <http://www.w3.org/2000/01/rdf-schema#label> "ScaDS.AI (Center for Scalable Data Analytics and Artificial Intelligence) Dresden/Leipzig"@de .
 <https://scads.ai/> <http://www.w3.org/2000/01/rdf-schema#label> "ScaDS.AI (Center for Scalable Data Analytics and Artificial Intelligence) Dresden/Leipzig"@en .
 <https://scads.ai/> <http://xmlns.com/foaf/0.1/homepage> <https://scads.ai/> .
-<https://scads.ai/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/Scads_AI_Logo.svg" .
+<https://scads.ai/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/Scads_AI_Logo.svg" .
 <https://senec.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://senec.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://senec.com/> <http://www.w3.org/2000/01/rdf-schema#label> "SENEC GmbH"@de .
@@ -1402,7 +1409,7 @@
 <https://stackfuel.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://stackfuel.com/> <http://www.w3.org/2000/01/rdf-schema#label> "StackFuel GmbH" .
 <https://stackfuel.com/> <http://xmlns.com/foaf/0.1/homepage> <https://stackfuel.com/> .
-<https://stackfuel.com/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/Stackfuel.png" .
+<https://stackfuel.com/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/Stackfuel.png" .
 <https://stackfuel.com/de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://stackfuel.com/de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://stackfuel.com/de/> <http://www.w3.org/2000/01/rdf-schema#label> "StackFuel"@de .
@@ -1439,7 +1446,7 @@
 <https://www.cvut.cz/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.cvut.cz/> <http://www.w3.org/2000/01/rdf-schema#label> "Czech technical university in Prague" .
 <https://www.cvut.cz/> <http://xmlns.com/foaf/0.1/homepage> <https://www.cvut.cz/en/> .
-<https://www.cvut.cz/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/CTU.png" .
+<https://www.cvut.cz/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/CTU.png" .
 <https://www.datev.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.datev.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.datev.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
@@ -1447,7 +1454,7 @@
 <https://www.datev.de/> <http://www.w3.org/2000/01/rdf-schema#label> "DATEV eG"@de .
 <https://www.datev.de/> <http://www.w3.org/2000/01/rdf-schema#label> "DATEV eG"@en .
 <https://www.datev.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.datev.de/> .
-<https://www.datev.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/DATEV.svg" .
+<https://www.datev.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/DATEV.svg" .
 <https://www.diw.de/de/diw_01.c.611027.de/personen/gebel__tobias.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.diw.de/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.diw.de/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
@@ -1553,6 +1560,11 @@
 <https://www.linkedin.com/in/thomas-grzeschik-68a5631/?locale=de_DE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/tom-potutschek-45983b148/?original_referer=https%253A%252F%252Fwww%252Egoogle%252Ecom%252F&originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/ulrike-hagen-09bb3022a/?originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.ogc.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.ogc.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.ogc.org/> <http://www.w3.org/2000/01/rdf-schema#label> "OGC"@de .
+<https://www.ogc.org/> <http://www.w3.org/2000/01/rdf-schema#label> "OGC"@en .
+<https://www.ogc.org/> <http://xmlns.com/foaf/0.1/homepage> <https://www.ogc.org/> .
 <https://www.pwc.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.pwc.de/en.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.pwc.de/en.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
@@ -1567,7 +1579,7 @@
 <https://www.th-brandenburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.th-brandenburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Hochschule Brandenburg" .
 <https://www.th-brandenburg.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.th-brandenburg.de/> .
-<https://www.th-brandenburg.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/THB.svg" .
+<https://www.th-brandenburg.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/THB.svg" .
 <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.tib.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.tib.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
@@ -1588,7 +1600,7 @@
 <https://www.vistex.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.vistex.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Vistex, Inc." .
 <https://www.vistex.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.vistex.com/> .
-<https://www.vistex.com/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/Vistex.jpg" .
+<https://www.vistex.com/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/Vistex.jpg" .
 <https://www.vse.cz/english/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.vse.cz/english/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.vse.cz/english/> <http://www.w3.org/2000/01/rdf-schema#label> "Prague University of Economics"@en .
