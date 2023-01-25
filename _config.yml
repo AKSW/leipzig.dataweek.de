@@ -19,11 +19,15 @@ kramdown:
 
 plugins:
   - jekyll-rdf
+
 exclude:
   - Gemfile
   - Gemfile.lock
   - src
   - todo.md
+  - Taskfile.yml
+  - README.md
+
 jekyll_rdf:
   path: "graph.nt"
   restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"dataweek.de\") }"
