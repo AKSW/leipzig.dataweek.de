@@ -12,7 +12,7 @@ layout: basic
     dct:description ?description ;
     schema:date ?date .
     OPTIONAL {
-      ?e schema:slogan ?slogan 
+      ?e schema:slogan ?slogan
       FILTER(langMatches(lang(?slogan), ?language))
     }
     FILTER(langMatches(lang(?description), ?language))
@@ -76,7 +76,7 @@ layout: basic
   </br>
   </br>
   <h2>
-    {{ subEvent | rdf_property: "rdfs:label", site.language }} 
+    {{ subEvent | rdf_property: "rdfs:label", site.language }}
   </h2>
   <p>
     Date: {{ subEvent | rdf_property: "schema:date" }}</br>
