@@ -27,8 +27,12 @@ en
               <strong>{{ lang }}</strong>
             </li>
           {% else %}
+            {% assign lang_correct = lang %}
+            {% if lang_correct == "de" %}
+              {% assign lang_correct = "" %}
+            {% endif %}
             <li>
-              <a href="/{{ lang }}" hreflang="{{ lang }}" lang="{{ lang }}">{{ lang }}</a>
+              <a href="/{{ lang_correct }}" hreflang="{{ lang_correct }}" lang="{{ lang }}">{{ lang }}</a>
             </li>
           {% endif %}
         {% endfor %}
