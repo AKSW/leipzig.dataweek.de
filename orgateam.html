@@ -1,0 +1,36 @@
+---
+layout: basic
+---
+{% assign rootResource = site.rootResource | rdf_get %}
+
+{% if site.language == "de" %}
+  {% assign orgateam = "Die Organisatoren" %}
+{% else %}
+  {% assign orgateam = "Organization Team" %}
+{% endif %}
+
+{% assign event = "<https://2023.dataweek.de/>" | rdf_get: %}
+{% assign eventLabel = event | rdf_property: "rdfs:label" %}
+{% assign organizer = event | rdf_property: "schema:organizer" %}
+
+<div class="content-header">
+  <h1>
+    {{ page.rdf }}
+    {% assign label = organizer | rdf_property: "rdfs:label", site.language %}
+    {% if label %}
+      {{ label }} - {{ eventLabel }}
+    {% else %}
+      {{ orgateam }} - {{ eventLabel }}
+    {% endif %}
+  </h1>
+</div>
+<div class="contact-list">
+  {% assign organizerTeam = organizer | rdf_container %}
+  <ul>
+    {% for person in organizerTeam %}
+      <li>
+        {% include components/person.html organizer=person %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
