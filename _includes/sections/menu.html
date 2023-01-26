@@ -4,7 +4,7 @@
   <ul>
     <li>
 
-      <a href="/{{ subEvent.iri | replace: rootResource.iri, "" }}">
+      <a href="{{ subEvent.page_url | relativize_url }}">
         {% if site.language == 'en' %}
           Events
         {% else %}
@@ -13,7 +13,7 @@
       </a>
     </li>
     <li>
-      <a href="/location.html">
+      <a href="{% relative_link location.html %}.html">
         {% if site.language == 'en' %}
           Location
         {% else %}
@@ -22,7 +22,7 @@
       </a>
     </li>
     <li>
-      <a href="/orgateam.html">
+      <a href="{% relative_link orgateam.html %}.html">
           {% if site.language == 'en' %}
             Organization Team
           {% else %}
