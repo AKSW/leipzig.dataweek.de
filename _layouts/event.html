@@ -6,8 +6,8 @@ layout: basic
   SELECT DISTINCT ?e ?date ?description ?title ?slogan
   WHERE {
     BIND("{{ site.language }}" as ?language)
-    <https://2022.dataweek.de/> schema:subEvent ?e . # remove if model is clear
-    # <{{ rootResource }}> schema:subEvent ?e . # uncomment if model is clear
+    #<https://2022.dataweek.de/> schema:subEvent ?e . # remove if model is clear
+    <{{ rootResource }}> schema:subEvent ?e . # uncomment if model is clear
     ?e rdfs:label ?title ;
     dct:description ?description ;
     schema:date ?date .
@@ -62,12 +62,13 @@ layout: basic
     {% for event in events %}
       {% assign weekday = event.date | localize: "%a" %}
       {% assign eventShortName = event.e | replace: "https://dataweek.de/", "" | replace: "/", "" %}
+      {% assign slug = event.e | rdf_property: "dw:slug" %}
       {% if event.e == page.rdf %}
         <li class="open">
-          <a class="active" href="{{ event.e.page_url | relativize_url }}"><span>{{ weekday }}</span>{{ eventShortName }}</a>
+          <a class="active" href="{{ event.e.page_url | relativize_url }}"><span>{{ weekday }}</span>{{ eventShortName }} {{ slug }}</a>
       {% else %}
         <li>
-          <a href="{{ event.e.page_url | relativize_url }}"><span>{{ weekday }}</span>{{ eventShortName }}</a>
+          <a href="{{ event.e.page_url | relativize_url }}"><span>{{ weekday }}</span>{{ eventShortName }} {{ slug }}</a>
       {% endif %}
       </li>
     {% endfor %}
