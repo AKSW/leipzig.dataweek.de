@@ -6,6 +6,7 @@ LOCALE = :de # set your locale
 # Create folder "_locales" and put some locale file from https://github.com/svenfuchs/rails-i18n/tree/master/rails/locale
 module Jekyll
   module I18nFilter
+    # LOCALE = site.config["language"]
     # Example:
     #   {{ post.date | localize: "%d.%m.%Y" }}
     #   {{ post.date | localize: ":short" }}
@@ -13,7 +14,7 @@ module Jekyll
       load_translations(language)
       format = (format =~ /^:(\w+)/) ? $1.to_sym : format
       if !input.is_a?(Date)
-        input = Date.parse(input)
+        input = Date.parse(input.to_s)
       end
       I18n.l input, :format => format
     rescue
@@ -27,7 +28,11 @@ module Jekyll
         if language
           I18n.locale = language
         else
-          I18n.locale = LOCALE
+          if ENV.has_key?("JEKYLL_LANGUAGE")
+            I18n.locale = ENV["JEKYLL_LANGUAGE"]
+          else
+            I18n.locale = LOCALE
+          end
         end
       end
     end

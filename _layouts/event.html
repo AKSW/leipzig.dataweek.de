@@ -17,7 +17,7 @@ layout: basic
     }
     FILTER(langMatches(lang(?description), ?language))
     FILTER(langMatches(lang(?title), ?language))
-  } ORDER BY ?e
+  } ORDER BY ?date
 {% endcapture %}
 {% assign events = page.rdf | sparql_query: eventsQuery %}
 
@@ -60,13 +60,14 @@ layout: basic
   <nav class="nav-sub1" aria-label="Untermenü Stufe 1">
     <ul>
     {% for event in events %}
+      {% assign weekday = event.date | localize: "%a" %}
       {% assign eventShortName = event.e | replace: "https://dataweek.de/", "" | replace: "/", "" %}
       {% if event.e == page.rdf %}
         <li class="open">
-          <a class="active" href="{{ eventShortName }}"><span>{{ eventShortName }}</span>{{ eventShortName }}</a>
+          <a class="active" href="{{ event.e.page_url | relativize_url }}"><span>{{ weekday }}</span>{{ eventShortName }}</a>
       {% else %}
         <li>
-          <a href="{{ eventShortName }}"><span>{{ eventShortName }}</span>{{ eventShortName }}</a>
+          <a href="{{ event.e.page_url | relativize_url }}"><span>{{ weekday }}</span>{{ eventShortName }}</a>
       {% endif %}
       </li>
     {% endfor %}
