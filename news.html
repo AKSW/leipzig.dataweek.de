@@ -2,3 +2,75 @@
 layout: basic
 ---
 {% assign rootResource = site.rootResource | rdf_get %}
+
+<div class="content-header">
+  <h1>
+    {% if site.language == 'en' %}
+      News
+    {% else %}
+      Neuigkeiten
+    {% endif %}
+  </h1>
+  <!--p>
+
+  </p>
+  <form class="filter" action="#">
+    <div>
+      <label for="form-select1" class="hideme">Kategorie</label> <select class="form-control" id="form-select1">
+        <option value="">
+          Kategorie wählen
+        </option>
+        <option value="a">
+          Option A
+        </option>
+        <option value="b">
+          Option B
+        </option>
+        <option value="c">
+          Option C
+        </option>
+        <option value="d">
+          Option D
+        </option>
+        <option value="e">
+          Option E
+        </option>
+      </select> <label for="form-select2" class="hideme">Jahr</label> <select class="form-control" id="form-select2">
+        <option value="">
+          Jahr wählen
+        </option>
+        <option value="a">
+          Option A
+        </option>
+        <option value="b">
+          Option B
+        </option>
+        <option value="c">
+          Option C
+        </option>
+        <option value="d">
+          Option D
+        </option>
+        <option value="e">
+          Option E
+        </option>
+      </select> <button type="submit">Anzeige filtern</button>
+    </div>
+  </form-->
+</div>
+<div class="news-list">
+  <ul>
+    {% assign all_news = rootResource | rdf_property: "<https://dataweek.de/#news>", nil, true %}
+    {% for news in all_news %}
+      <li class="news-item">
+        <h2>
+          {{ news | rdf_property: "rdfs:label" }}<br>
+          <time datetime="{{ news | rdf_property: "schema:date" }}">{{ news | rdf_property: "schema:date" }}</time>
+        </h2>
+        <p>
+          {{ news | rdf_property: "dct:description" }}
+        </p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
