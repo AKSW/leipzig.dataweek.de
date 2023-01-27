@@ -48,9 +48,11 @@ layout: basic
           {{ mobileHint }}
         </option>
         {% for event in events %}
-        {% assign eventShortName = event.e | replace: "https://dataweek.de/", "" | replace: "/", "" %}
-          <option value="{{ eventShortName }}-{{ eventShortName }}">
-            {{ eventShortName }}
+          {% assign weekday = event.date | localize: "%a" %}
+          {% assign eventShortName = event.e | replace: "https://2023.dataweek.de/", "" | replace: "/", "" %}
+          {% assign slug = event.e | rdf_property: "dw:slug" %}
+          <option value="{{ event.e.page_url | relativize_url }}">
+            {{ slug | default: eventShortName }} - {{ weekday }}, {{ event.date }}
           </option>
         {% endfor %}
       </select> <button type="submit">Anzeigen</button>
