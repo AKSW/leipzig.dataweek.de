@@ -27,9 +27,9 @@
           <img src="{{ depiction | relativize_url }}" alt="{{ name }}">
         </noscript>
       {% else %}
-          {% include components/img.html alt=name src="/resources/images/people/placeholder.svg" %}
+          {% include components/img.html alt=name src="/resources/files/generated/user_1200.png" %}
           <noscript>
-            <img src="{% relative_link /resources/images/people/placeholder.svg %}" alt="{{ name }}">
+            <img src="{% relative_link /resources/files/generated/user_1200.png %}" alt="{{ name }}">
           </noscript>
       {% endif %}
     </figure>

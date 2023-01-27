@@ -25,5 +25,12 @@
 {%- if simple -%}
   <img src="{{ src | relativize_url }}" alt="{{ alt }}">
 {%- else -%}
-  <img class="js-load" data-src="{{ src | relativize_url }}" data-sizes="auto" data-srcset="{{ src | relativize_url }} 480w, {{ src | relativize_url }} 800w, {{ src | relativize_url }} 1200w" width="1500" height="1500" style="max-width:1500px" alt="{{ alt }}">
+  <img class="js-load"
+    data-src="{{ src | relativize_url }}"
+    data-sizes="auto"
+    data-srcset="{{ src | relativize_url }} 120w"
+    width="120"
+    height="120"
+    style="max-width:120px"
+    alt="{{ alt }}" />
 {%- endif -%}
