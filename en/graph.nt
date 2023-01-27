@@ -54,6 +54,7 @@
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/JuliaHolze.png" .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/JuliaHolze> .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/name> "Julia Holze" .
+<http://aksw.org/JuliaHolze> <https://2023.dataweek.de/#role> <https://2023.dataweek.de/#ViceGeneralChair> .
 <http://aksw.org/KurtJunghanns> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/KurtJunghanns> <http://schema.org/memberOf> <http://aksw.org/Group> .
 <http://aksw.org/KurtJunghanns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -82,6 +83,7 @@
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/MichaelMartin> .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/name> "Michael Martin" .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<http://aksw.org/MichaelMartin> <https://2023.dataweek.de/#role> <https://2023.dataweek.de/#GeneralChair> .
 <http://aksw.org/MilanDojchinovski> <http://purl.org/dc/terms/description> "Research Associate / Assistant Professor"@en .
 <http://aksw.org/MilanDojchinovski> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter / Assistenzprofessor"@de .
 <http://aksw.org/MilanDojchinovski> <http://schema.org/affiliation> <https://dbpedia.org/> .
@@ -223,6 +225,8 @@
 <https://2022.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
 <https://2022.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2022.dataweek.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2022" .
+<https://2023.dataweek.de/#GeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@de .
+<https://2023.dataweek.de/#GeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@en .
 <https://2023.dataweek.de/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.leipzig.de/> .
 <https://2023.dataweek.de/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://connectedurbantwins.de/> .
 <https://2023.dataweek.de/#Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
@@ -232,34 +236,27 @@
 <https://2023.dataweek.de/#Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2023.dataweek.de/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://2023.dataweek.de/#Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
-<https://2023.dataweek.de/#Team_Dissemination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/JuliaHolze> .
-<https://2023.dataweek.de/#Team_Dissemination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#NievesSande> .
-<https://2023.dataweek.de/#Team_Dissemination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://dataweek.de/#JanaBendigs> .
-<https://2023.dataweek.de/#Team_Dissemination> <http://www.w3.org/2000/01/rdf-schema#label> "Dissemination and Sponsoring"@en .
-<https://2023.dataweek.de/#Team_Dissemination> <http://www.w3.org/2000/01/rdf-schema#label> "Marketing"@de .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <http://aksw.org/NatanaelArndt> .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_11> <http://aksw.org/KurtJunghanns> .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_12> <http://aksw.org/NormanRadtke> .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_13> <http://aksw.org/SebastianTramp> .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/JuliaHolze> .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#NievesSande> .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://dataweek.de/#MirkoMuehlpfort> .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://dataweek.de/#KatrinMehler> .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://dataweek.de/#JanaBendigs> .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://dataweek.de/#MiriamWelz> .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <http://aksw.org/MichaelMartin> .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://dataweek.de/#SebastianBoehm> .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://dataweek.de/#NilsHempelmann> .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "DataWeek Team"@de .
+<https://2023.dataweek.de/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "DataWeek Team"@en .
 <https://2023.dataweek.de/#Team_GeneralChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/JuliaHolze> .
 <https://2023.dataweek.de/#Team_GeneralChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/MichaelMartin> .
 <https://2023.dataweek.de/#Team_GeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@de .
 <https://2023.dataweek.de/#Team_GeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@en .
-<https://2023.dataweek.de/#Team_LocalChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://dataweek.de/#MirkoMuehlpfort> .
-<https://2023.dataweek.de/#Team_LocalChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#KatrinMehler> .
-<https://2023.dataweek.de/#Team_LocalChair> <http://www.w3.org/2000/01/rdf-schema#label> "Local Chair"@de .
-<https://2023.dataweek.de/#Team_LocalChair> <http://www.w3.org/2000/01/rdf-schema#label> "Local Chair"@en .
-<https://2023.dataweek.de/#Team_MajorProgramChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://dataweek.de/#JanaBendigs> .
-<https://2023.dataweek.de/#Team_MajorProgramChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#MiriamWelz> .
-<https://2023.dataweek.de/#Team_MajorProgramChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/JuliaHolze> .
-<https://2023.dataweek.de/#Team_MajorProgramChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/MichaelMartin> .
-<https://2023.dataweek.de/#Team_MajorProgramChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://dataweek.de/#MirkoMuehlpfort> .
-<https://2023.dataweek.de/#Team_MajorProgramChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://dataweek.de/#SebastianBoehm> .
-<https://2023.dataweek.de/#Team_MajorProgramChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://dataweek.de/#NilsHempelmann> .
-<https://2023.dataweek.de/#Team_MajorProgramChair> <http://www.w3.org/2000/01/rdf-schema#label> "Program Chair"@en .
-<https://2023.dataweek.de/#Team_MajorProgramChair> <http://www.w3.org/2000/01/rdf-schema#label> "Verantwortliche des Gesamtprogrammes"@de .
-<https://2023.dataweek.de/#Team_Website> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/NatanaelArndt> .
-<https://2023.dataweek.de/#Team_Website> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/KurtJunghanns> .
-<https://2023.dataweek.de/#Team_Website> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/NormanRadtke> .
-<https://2023.dataweek.de/#Team_Website> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/SebastianTramp> .
-<https://2023.dataweek.de/#Team_Website> <http://www.w3.org/2000/01/rdf-schema#label> "DataWeek Webseite"@de .
-<https://2023.dataweek.de/#Team_Website> <http://www.w3.org/2000/01/rdf-schema#label> "Website"@en .
+<https://2023.dataweek.de/#ViceGeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "Vice General Chair"@de .
+<https://2023.dataweek.de/#ViceGeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "Vice General Chair"@en .
 <https://2023.dataweek.de/> <http://schema.org/abstract> "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en .
 <https://2023.dataweek.de/> <http://schema.org/abstract> "Die Data Week ist eine einw\u00F6chige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf K\u00FCnstliche Intelligenz und Daten integriert."@de .
 <https://2023.dataweek.de/> <http://schema.org/date> "26. bis 30.06.2023"@de .
@@ -267,11 +264,8 @@
 <https://2023.dataweek.de/> <http://schema.org/endDate> "2023-06-26"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/> <http://schema.org/location> <https://dataweek.de/venue/> .
 <https://2023.dataweek.de/> <http://schema.org/logo> <https://dataweek.de/images/DataWeek_Logo.png> .
-<https://2023.dataweek.de/> <http://schema.org/organizer> <https://2023.dataweek.de/#Team_Dissemination> .
+<https://2023.dataweek.de/> <http://schema.org/organizer> <https://2023.dataweek.de/#Team> .
 <https://2023.dataweek.de/> <http://schema.org/organizer> <https://2023.dataweek.de/#Team_GeneralChair> .
-<https://2023.dataweek.de/> <http://schema.org/organizer> <https://2023.dataweek.de/#Team_LocalChair> .
-<https://2023.dataweek.de/> <http://schema.org/organizer> <https://2023.dataweek.de/#Team_MajorProgramChair> .
-<https://2023.dataweek.de/> <http://schema.org/organizer> <https://2023.dataweek.de/#Team_Website> .
 <https://2023.dataweek.de/> <http://schema.org/partner> <https://2023.dataweek.de/#Partner> .
 <https://2023.dataweek.de/> <http://schema.org/slogan> "Forum for Data and AI Enthusiasts in Leipzig"@en .
 <https://2023.dataweek.de/> <http://schema.org/slogan> "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de .
@@ -303,7 +297,7 @@
 <https://2023.dataweek.de/eid-2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "European Innovation Day Team"@de .
 <https://2023.dataweek.de/eid-2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "European Innovation Day Team"@en .
 <https://2023.dataweek.de/eid-2023/> <http://purl.org/dc/terms/description> "OGC beteiligt sich an der Data Week Leipzig, um \u00FCber aktuelle Geodaten-Technologien und -Praktiken zu reflektieren. Mit wechselnden Themen wird das Wochenprogramm der Data Week Leipzig erg\u00E4nzt. So liegt am Montag der Schwerpunkt auf europ\u00E4ischen Datenr\u00E4umen und dem Green Deal. Die Stadtplanung (Dienstag) und die semantische Interoperabilit\u00E4t (Mittwoch) folgen anschlie\u00DFend. Zus\u00E4tzlich gibt es die angeschlossene AI Tomorrow Konferenz, die sich aus akademischer Sicht mit dem Thema k\u00FCnstliche Intelligenz besch\u00E4ftigt.\n\nDer Schwerpunkt des European Innovation Day (Dienstag) liegt auf den aktuellen F\u00E4higkeiten und Rollen lokaler, regionaler und nationaler Organisationen und ihren sich entwickelnden Bed\u00FCrfnissen und Herausforderungen. Ziel des OGC-Programms und der Data Week Leipzig ist es mit Pr\u00E4sentationen, \u00F6ffentlichen Diskussionen und Workshops weitere Anforderungen, Priorit\u00E4ten und L\u00FCcken f\u00FCr die Versorgung von Gemeinden im Rahmen einer nachhaltigen Entwicklung zu ermitteln, einschlie\u00DFlich der Herausforderungen von Katastrophen und Klimaverh\u00E4ltnissen.\n\nInnerhalb des Tagungsprogramms werden u.a. politische Entscheidungstr\u00E4ger auf der Ebene von F\u00FChrungskr\u00E4ften und Direktoren einbezogen. Die Themen werden \u00FCber die nachhaltige Entwicklung im Rahmen des Green Deals hinausgehen und Innovationen sowie Strategien einbeziehen, die umsetzbare L\u00F6sungen hervorbringen und zu einer verbesserten Interoperabilit\u00E4t zwischen Interessengruppen, Wissenschaftsbereichen, Industrie und Regierungen f\u00FChren."@de .
-<https://2023.dataweek.de/eid-2023/> <http://purl.org/dc/terms/description> "OGC is contributing to the Data Week Leipzig to reflect on current geospatial technologies and practices. With several topics, the main focus will be daily shifting from European data spaces and green deal (Monday), Urban planning (Tuesday) and semantic interoperability (Wednesday). Additionally, there are two days of the academic track with an emphasis on Artificial intelligence. \n\nIt will particularly focus on the current capabilities and roles of local, regional, and national organizations and their evolving needs and challenges. The objective of the dataweek, with presentations, public discussions and workshops will be to identify requirements, priorities, and gaps for serving communities in the context of green deal sustainable development, including the challenges of disaster and climate circumstances.\n\nThere will be an opportunity to engage executive and director-level decision-makers and policymakers. It will go beyond green deal sustainable development to include innovations and strategies that produce actionable solutions and lead to improved interoperability across stakeholders, science domains, industry, and government."@en .
+<https://2023.dataweek.de/eid-2023/> <http://purl.org/dc/terms/description> "OGC is contributing to the Data Week Leipzig to reflect on current geospatial technologies and practices. With several topics, the main focus will be daily shifting from European data spaces and green deal (Monday), Urban planning (Tuesday) and semantic interoperability (Wednesday). Additionally, there are two days of the academic track with an emphasis on Artificial intelligence.\n\nIt will particularly focus on the current capabilities and roles of local, regional, and national organizations and their evolving needs and challenges. The objective of the dataweek, with presentations, public discussions and workshops will be to identify requirements, priorities, and gaps for serving communities in the context of green deal sustainable development, including the challenges of disaster and climate circumstances.\n\nThere will be an opportunity to engage executive and director-level decision-makers and policymakers. It will go beyond green deal sustainable development to include innovations and strategies that produce actionable solutions and lead to improved interoperability across stakeholders, science domains, industry, and government."@en .
 <https://2023.dataweek.de/eid-2023/> <http://schema.org/date> "2023-06-26"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/eid-2023/> <http://schema.org/organizer> <https://2023.dataweek.de/eid-2023/#Team> .
 <https://2023.dataweek.de/eid-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
