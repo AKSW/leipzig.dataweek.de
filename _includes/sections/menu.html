@@ -30,6 +30,15 @@
           {% endif %}
       </a>
     </li>
+    <li>
+      <a href="{% relative_link news.html %}.html">
+        {% if site.language == 'en' %}
+          News
+        {% else %}
+          Neuigkeiten
+        {% endif %}
+      </a>
+    </li>
   </ul>
 </nav>
 
