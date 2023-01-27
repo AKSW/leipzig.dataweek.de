@@ -15,11 +15,17 @@
 {% unless size %}
   {% assign size = 3 %}
 {% endunless %}
+{% assign role = organizer | rdf_property: "<https://2023.dataweek.de/#role>" | rdf_property: "rdfs:label" %}
 
 <div class="contact">
-    <h{{ size }}>
+    <h{{ size }} style="margin-bottom: 0em!important;">
       {{ name }}
     </h{{ size }}>
+    {% if role %}
+      <strong>
+        {{ role }}
+      </strong>
+    {% endif %}
     <figure>
       {% if depiction %}
         {% include components/img.html alt=name src=depiction %}
