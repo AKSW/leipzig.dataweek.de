@@ -32,7 +32,6 @@ layout: basic
 {% endif %}
 
 <div class="content-header">
-  {% assign subEvents = rootResource | rdf_property: "schema:subEvent", nil, true %}
   <h1>
     {% if site.language == "de" %}
       Die Veranstaltungen
@@ -78,17 +77,20 @@ layout: basic
   <br/>
   <br/>
   <h2>
-    {{ subEvent | rdf_property: "rdfs:label", site.language }}
+    {{ page.rdf | rdf_property: "rdfs:label", site.language }}
   </h2>
   <p>
-    Date: {{ subEvent | rdf_property: "schema:date" }}<br/>
-    Slogan: {{ subEvent | rdf_property: "schema:slogan" }}<br/>
+    {{ page.rdf | rdf_property: "schema:date" }}
+    {% assign slogan = page.rdf | rdf_property: "schema:slogan" %}
+    {% if slogan %}
+      <br>{{ slogan }}
+    {% endif %}
   </p>
   <p>
-    {{ subEvent | rdf_property: "dct:description" , site.language | markdownify }}
+    {{ page.rdf | rdf_property: "dct:description" , site.language | markdownify }}
   </p>
 </div>
-{% assign organizer = page | rdf_property: "schema:organizer" %}
+{% assign organizer = page.rdf | rdf_property: "schema:organizer" %}
 <h3>
   {% assign label = organizer | rdf_property: "rdfs:label" %}
   {% if label %}
