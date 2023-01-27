@@ -279,6 +279,7 @@
 <https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/ai-tomorrow-2023/> .
 <https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/dsm-2023/> .
 <https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/eid-2023/> .
+<https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/> .
 <https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/> .
 <https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/> .
 <https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/scads-tutorials-2023/> .
@@ -327,6 +328,19 @@
 <https://2023.dataweek.de/eid-2023/> <http://www.w3.org/2000/01/rdf-schema#label> "European Innovation Day"@de .
 <https://2023.dataweek.de/eid-2023/> <http://www.w3.org/2000/01/rdf-schema#label> "European Innovation Day"@en .
 <https://2023.dataweek.de/eid-2023/> <https://dataweek.de/#slug> "EID" .
+<https://2023.dataweek.de/free-2023/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://dataweek.de/#KatrinMehler> .
+<https://2023.dataweek.de/free-2023/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#MirkoMuehlpfort> .
+<https://2023.dataweek.de/free-2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Daten befreien! Team"@de .
+<https://2023.dataweek.de/free-2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Free data! Team"@en .
+<https://2023.dataweek.de/free-2023/> <http://purl.org/dc/terms/description> "Daten befreien! Kompetenzen und Tools f\u00FCr klimaangepasste St\u00E4dte \n\nAn Tag 2 der Data Week hei\u00DFt es \"Daten befreien! Kompetenzen und Tools f\u00FCr klimaangepasste St\u00E4dte\". Das Connected Urban Twins Projekt und weitere Vorhaben der Stadt zeigen hier ganz konkret wie Daten aus verschiedenen Datenquellen kombiniert und unter anderem durch den Einsatz von Digitalen Zwillingen wichtige Erkenntnisse f\u00FCr die Stadtentwicklung gewonnen werden. Dar\u00FCber hinaus werden verschiedene Akteure aus Forschung, Verwaltung und Wirtschaft ihre L\u00F6sungen und Initiativen zur Gestaltung einer nachhaltigen und klimagerechten Stadtentwicklung pr\u00E4sentieren."@de .
+<https://2023.dataweek.de/free-2023/> <http://purl.org/dc/terms/description> "Free data! Competences and tools for climate-adapted cities\n\nOn Day 2 of Data Week Leipzig, the theme is \"Freeing Data! Skills and Tools for Climate-Adapted Cities\". The Connected Urban Twins project and other city projects will show how data from different data sources can be combined and how important insights for urban development can be gained through the use of digital twins. In addition, various actors from research, administration and business will present their solutions and initiatives for sustainable and climate-friendly urban development."@en .
+<https://2023.dataweek.de/free-2023/> <http://schema.org/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/free-2023/> <http://schema.org/organizer> <https://2023.dataweek.de/free-2023/#Team> .
+<https://2023.dataweek.de/free-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/free-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://2023.dataweek.de/free-2023/> <http://www.w3.org/2000/01/rdf-schema#label> "Daten befreien!"@de .
+<https://2023.dataweek.de/free-2023/> <http://www.w3.org/2000/01/rdf-schema#label> "Free data!"@en .
+<https://2023.dataweek.de/free-2023/> <https://dataweek.de/#slug> "Free" .
 <https://2023.dataweek.de/kmi-23/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://dataweek.de/#JuliaFriedrich> .
 <https://2023.dataweek.de/kmi-23/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#ChristianZinke> .
 <https://2023.dataweek.de/kmi-23/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "KMI Team"@de .
