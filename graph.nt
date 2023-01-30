@@ -55,11 +55,25 @@
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/JuliaHolze> .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/name> "Julia Holze" .
 <http://aksw.org/JuliaHolze> <https://dataweek.de/#role> <https://2023.dataweek.de/#ViceGeneralChair> .
+<http://aksw.org/KirillBulert> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/KirillBulert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://aksw.org/KirillBulert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/KirillBulert> <http://xmlns.com/foaf/0.1/homepage> <https://aksw.org/KirillBulert> .
+<http://aksw.org/KirillBulert> <http://xmlns.com/foaf/0.1/name> "Kirill Bulert" .
+<http://aksw.org/KurtJunghanns> <http://purl.org/dc/terms/description> "Scientific Researcher"@en .
+<http://aksw.org/KurtJunghanns> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
 <http://aksw.org/KurtJunghanns> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/KurtJunghanns> <http://schema.org/memberOf> <http://aksw.org/Group> .
+<http://aksw.org/KurtJunghanns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/KurtJunghanns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/KurtJunghanns.jpg" .
+<http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/homepage> <https://aksw.org/KurtJunghanns> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/name> "Kurt Junghanns" .
+<http://aksw.org/LarsPeterMeyer> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/homepage> <https://aksw.org/LarsPeterMeyer> .
+<http://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/name> "Lars-Peter Meyer" .
 <http://aksw.org/LorenzBuehmann> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/LorenzBuehmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/LorenzBuehmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -608,26 +622,9 @@
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://www.w3.org/2000/01/rdf-schema#label> "Scads Tutorials"@de .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://www.w3.org/2000/01/rdf-schema#label> "Scads Tutorials"@en .
 <https://2023.dataweek.de/scads-tutorials-2023/> <https://dataweek.de/#slug> "SCADS" .
-<https://aksw.org/KirillBulert> <http://schema.org/affiliation> <https://infai.org/> .
-<https://aksw.org/KirillBulert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://aksw.org/KirillBulert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://aksw.org/KirillBulert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://aksw.org/KirillBulert> <http://xmlns.com/foaf/0.1/homepage> <https://aksw.org/KirillBulert> .
-<https://aksw.org/KirillBulert> <http://xmlns.com/foaf/0.1/name> "Kirill Bulert" .
-<https://aksw.org/KurtJunghanns> <http://purl.org/dc/terms/description> "Scientific Researcher"@en .
-<https://aksw.org/KurtJunghanns> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
-<https://aksw.org/KurtJunghanns> <http://schema.org/affiliation> <https://infai.org/> .
-<https://aksw.org/KurtJunghanns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://aksw.org/KurtJunghanns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://aksw.org/KurtJunghanns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/homepage> <https://aksw.org/KurtJunghanns> .
-<https://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/name> "Kurt Junghanns" .
-<https://aksw.org/LarsPeterMeyer> <http://schema.org/affiliation> <https://infai.org/> .
-<https://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/homepage> <https://aksw.org/LarsPeterMeyer> .
-<https://aksw.org/LarsPeterMeyer> <http://xmlns.com/foaf/0.1/name> "Lars-Peter Meyer" .
 <https://appplant.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://appplant.de/> <http://www.w3.org/2000/01/rdf-schema#label> "appPlant GmbH" .
 <https://appplant.de/> <http://xmlns.com/foaf/0.1/homepage> <https://appplant.de/> .
