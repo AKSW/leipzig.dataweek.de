@@ -22,6 +22,10 @@ jobs:
       with:
         repository: 'AKSW/leipzig.dataweek.de-model'
         path: '.model'
+    - name: Scale Pictures 🖼️
+      env:
+        INSTALL_PICTURES_SCALE_PRECONDITIONS: "True"
+      run: task pictures:scale
     - name: Run CI Tasks ⚙️
       env:
         OAUTH_CLIENT_SECRET: ${{ secrets.OAUTH_CLIENT_SECRET }}
