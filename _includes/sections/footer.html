@@ -1,26 +1,20 @@
+{% include strings.html %}
 <footer class="page-footer">
   <div class="page-footer-inner">
     <nav class="nav-meta" id="hilfsmenue" aria-label="Hilfsmenü">
       <ul>
         <li>
-          <a href="https://infai.org/das-institut/impressum/">Impressum</a>
+          <a href="https://infai.org/das-institut/impressum/">
+            {{ str_imprint }}</a>
         </li>
         <li>
           <a href="/datenschutz/">
-            {% if site.language == 'en' %}
-              Data protection
-            {% else %}
-              Datenschutz
-            {% endif %}
+            {{ str_dataprotection }}
           </a>
         </li>
         <li>
           <a href="/contact.html">
-            {% if site.language == 'en' %}
-              Contact
-            {% else %}
-              Kontakt
-            {% endif %}
+            {{ str_contact }}
           </a>
         </li>
       </ul>

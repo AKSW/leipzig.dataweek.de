@@ -1,37 +1,27 @@
 {% assign rootResource = site.rootResource | rdf_get %}
+{% include strings.html %}
 {% assign subEvent = rootResource | rdf_property: "schema:subEvent" %}
-{% if site.language == 'en' %}
-  {% assign location = "Location" %}
-  {% assign organizer = "Originazation Team" %}
-  {% assign news = "News" %}
-  {% assign events = "Events" %}
-{% else %}
-  {% assign location = "Veranstaltungsort" %}
-  {% assign organizer = "Organisationsteam" %}
-  {% assign news = "Neuigkeiten" %}
-  {% assign events = "Veranstaltungen" %}
-{% endif %}
 <nav class="nav-main" aria-label="Hauptmenü">
   <ul>
     <li>
 
       <a href="{{ subEvent.page_url | relativize_url }}">
-        {{ events }}
+        {{ str_events }}
       </a>
     </li>
     <li>
       <a href="{% relative_link location.html %}.html">
-        {{ location }}
+        {{ str_location }}
       </a>
     </li>
     <li>
       <a href="{% relative_link orgateam.html %}.html">
-        {{ organizer }}
+        {{ str_organizer }}
       </a>
     </li>
     <li>
       <a href="{% relative_link news.html %}.html">
-        {{ news }}
+        {{ str_news }}
       </a>
     </li>
   </ul>
@@ -51,30 +41,30 @@
   <nav class="nav-sitemap" aria-label="Mobilmenü">
     <ul>
       <li>
-        <a href="{{ subEvent.page_url | relativize_url }}">{{ events }}</a>
+        <a href="{{ subEvent.page_url | relativize_url }}">{{ str_events }}</a>
       </li>
       <li>
-        <a href="{% relative_link location.html %}.html">{{ location }}</a>
+        <a href="{% relative_link location.html %}.html">{{ str_location }}</a>
       </li>
       <li>
-        <a href="{% relative_link orgateam.html %}.html">{{ organizer }}</a>
+        <a href="{% relative_link orgateam.html %}.html">{{ str_organizer }}</a>
       </li>
       <li>
-        <a href="{% relative_link news.html %}.html">{{ news }}</a>
+        <a href="{% relative_link news.html %}.html">{{ str_news }}</a>
       </li>
     </ul>
     <ul>
       <li>
-        <a href="impressum.html">Impressum</a>
+        <a href="impressum.html">{{ str_imprint }}</a>
       </li>
       <li>
-        <a href="datenschutz.html">Datenschutz</a>
+        <a href="datenschutz.html">{{ str_dataprotection }}</a>
       </li>
       <li>
-        <a href="kontakt.html">Kontakt</a>
+        <a href="kontakt.html">{{ str_contact }}</a>
       </li>
       <li>
-        <a href="event-archiv.html">Event-Archiv</a>
+        <a href="event-archiv.html">{{ str_event_archive }}</a>
       </li>
     </ul>
   </nav>
