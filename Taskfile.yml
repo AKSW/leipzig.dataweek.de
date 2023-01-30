@@ -116,6 +116,9 @@ tasks:
       TARGET_DIR: resources/images/people
     cmds:
       - for i in {{.SOURCE_DIR}}/* ; do mkdir -p {{.TARGET_DIR}}; test -f "{{.TARGET_DIR}}/$(basename $i)" && echo "skip {{.TARGET_DIR}}/$(basename $i)" || smartcrop --width {{.PICTURE_SIZE}} --height {{.PICTURE_SIZE}} -i "$i" -o "{{.TARGET_DIR}}/$(basename $i)"; done
+      - task: track:add-picture
+        vars:
+          TARGET_DIR: '{{.TARGET_DIR}}'
 
   pictures:scale:preconditions:
     cmds:
@@ -124,8 +127,17 @@ tasks:
     status:
       - '[ ${INSTALL_PICTURES_SCALE_PRECONDITIONS} != "True" ]'
 
+  track:add-picture:
+    - git add {{.TARGET_DIR}}
+    - task: track:commit-and-push-data
+      vars:
+        GIT_COMMIT_MESSAGE: Update Pictures
+
   track:commit-and-push-data:
-    - |
-      git add {{.GRAPH_FILE}}.nt {{.GRAPH_FILE}}.nt.graph {{.GRAPH_FILE}}.nt.source
-      git -c user.name="{{.GIT_USER_NAME}}" -c user.email="{{.GIT_USER_EMAIL}}" commit -m "{{.GIT_COMMIT_MESSAGE}}" || echo ""
-      git push || echo ""
+    - git add {{.GRAPH_FILE}}.nt {{.GRAPH_FILE}}.nt.graph {{.GRAPH_FILE}}.nt.source
+    - task: track:commit-and-push
+
+  track:commit-and-push:
+    cmds:
+      - git -c user.name="{{.GIT_USER_NAME}}" -c user.email="{{.GIT_USER_EMAIL}}" commit -m "{{.GIT_COMMIT_MESSAGE}}" || echo ""
+      - git push || echo ""
