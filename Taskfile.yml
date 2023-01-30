@@ -116,7 +116,7 @@ tasks:
       TARGET_DIR: resources/images/people
     cmds:
       - for i in {{.SOURCE_DIR}}/* ; do mkdir -p {{.TARGET_DIR}}; test -f "{{.TARGET_DIR}}/$(basename $i)" && echo "skip {{.TARGET_DIR}}/$(basename $i)" || smartcrop --width {{.PICTURE_SIZE}} --height {{.PICTURE_SIZE}} -i "$i" -o "{{.TARGET_DIR}}/$(basename $i)"; done
-      - task: track:add-picture
+      - task: track:commit-and-push-pictures
         vars:
           TARGET_DIR: '{{.TARGET_DIR}}'
 
@@ -127,9 +127,9 @@ tasks:
     status:
       - '[ ${INSTALL_PICTURES_SCALE_PRECONDITIONS} != "True" ]'
 
-  track:add-picture:
+  track:commit-and-push-pictures:
     - git add {{.TARGET_DIR}}
-    - task: track:commit-and-push-data
+    - task: track:commit-and-push
       vars:
         GIT_COMMIT_MESSAGE: Update Pictures
 
