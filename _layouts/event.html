@@ -75,23 +75,21 @@ layout: basic
     {% endfor %}
     </ul>
   </nav>
-
-  <br/>
-  <br/>
-  <h2>
-    {{ page.rdf | rdf_property: "rdfs:label", site.language }}
-  </h2>
-  <p>
-    {{ page.rdf | rdf_property: "schema:date" }}
-    {% assign slogan = page.rdf | rdf_property: "schema:slogan" %}
-    {% if slogan %}
-      <br>{{ slogan }}
-    {% endif %}
-  </p>
-  <p>
-    {{ page.rdf | rdf_property: "dct:description" , site.language | markdownify }}
-  </p>
 </div>
+
+<h2>
+  {{ page.rdf | rdf_property: "rdfs:label", site.language }}
+</h2>
+<p>
+  {{ page.rdf | rdf_property: "schema:date" }}
+  {% assign slogan = page.rdf | rdf_property: "schema:slogan" %}
+  {% if slogan %}
+    <br>{{ slogan }}
+  {% endif %}
+</p>
+<p>
+  {{ page.rdf | rdf_property: "dct:description" , site.language | markdownify }}
+</p>
 {% assign organizer = page.rdf | rdf_property: "schema:organizer" %}
 <h3>
   {% assign label = organizer | rdf_property: "rdfs:label" %}
