@@ -111,7 +111,7 @@ tasks:
     deps:
       - task: pictures:scale:preconditions
     vars:
-      PICTURE_SIZE: 500
+      PICTURE_SIZE: 480
       SOURCE_DIR: resources/images/people_raw
       TARGET_DIR: resources/images/people
     cmds:
