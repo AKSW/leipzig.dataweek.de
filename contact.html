@@ -12,9 +12,10 @@ layout: basic
     {% endif %}
   </h1>
   <p>
-    {{ rootResource | rdf_property: "schema:abstract", site.language }}
+    {% if site.language == 'en' %}
+      Do you have any questions about Data Week Leipzig or would you like to become a sponsor? Please send us an e-mail to <a href= "mailto:dataweek@infai.org">dataweek@infai.org</a>. We look forward to your inquiry!
+    {% else %}
+      Haben Sie Fragen zur Data Week Leipzig oder möchten Sie Sponsor:in werden? Dann senden Sie uns eine E-Mail an <a href= "mailto:dataweek@infai.org">dataweek@infai.org</a>. Wir freuen uns auf Ihre Anfrage!
+    {% endif %}
   </p>
 </div>
-<p>
-  TODO
-</p>
