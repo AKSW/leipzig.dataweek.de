@@ -1,7 +1,11 @@
 {% assign rootResource = site.rootResource | rdf_get %}
 <aside class="page-hero">
   <h1>
-    {{ rootResource | rdf_property: "schema:abstract", site.language }}
+    {% if site.language == 'en' %}
+      A data festival for IT enthusiasts! Data Week offers a week-long programme of events focusing on data, digitalisation, artificial intelligence and urban development challenges.
+    {% else %}
+      Ein Datenfestival für IT-Begeisterte! Die Data Week bietet ein einwöchiges Veranstaltungsprogramm rund um die Themenschwerpunkte Daten, Digitalisierung, Künstliche Intelligenz und Herausforderungen der Stadtentwicklung.
+    {% endif %}
   </h1>
   <figure>
     <img class="js-load" data-src="/resources/files/AdobeStock_136389718_Preview_2.jpg" data-sizes="auto"
