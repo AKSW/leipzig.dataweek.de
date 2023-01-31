@@ -64,7 +64,7 @@ layout: basic
     {% for news in all_news %}
       <li class="news-item">
         <h2>
-          {{ news | rdf_property: "rdfs:label", site.language }}<br>
+          {{ news | rdf_property: "dct:title", site.language }}<br>
           <time datetime="{{ news | rdf_property: "schema:date" }}">{{ news | rdf_property: "schema:date" | localize: "%Y-%m-%d" }}</time>
         </h2>
         <p>
