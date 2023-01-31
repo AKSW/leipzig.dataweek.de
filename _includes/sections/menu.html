@@ -1,7 +1,7 @@
 {% assign rootResource = site.rootResource | rdf_get %}
 {% include strings.html %}
 {% capture eventsQuery %}
-SELECT ?e ?date 
+SELECT ?e ?date
 WHERE {
   <{{ rootResource }}> schema:subEvent ?e .
   ?e schema:date ?date .
