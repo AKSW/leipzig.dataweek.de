@@ -1,6 +1,6 @@
 {% capture languages %}
-de
-en
+deutsch
+english
 {% endcapture %}
 {% assign rootResource = site.rootResource | rdf_get %}
 <header class="page-header">
@@ -21,10 +21,11 @@ en
       </p>
       <ul>
         {% assign my_array = languages | strip | newline_to_br | strip_newlines | split: "<br />" %}
-        {% for lang in my_array %}
+        {% for lang_string in my_array %}
+          {% assign lang = lang_string | slice: 2 %}
           {% if lang == site.language %}
             <li aria-current="true">
-              <strong>{{ lang }}</strong>
+              <strong>{{ lang_string }}</strong>
             </li>
           {% else %}
             {% assign lang_correct = lang %}
@@ -32,7 +33,7 @@ en
               {% assign lang_correct = "" %}
             {% endif %}
             <li>
-              <a href="/{{ lang_correct }}" hreflang="{{ lang_correct }}" lang="{{ lang }}">{{ lang }}</a>
+              <a href="/{{ lang_correct }}" hreflang="{{ lang_correct }}" lang="{{ lang_string }}">{{ lang_string }}</a>
             </li>
           {% endif %}
         {% endfor %}
