@@ -1,26 +1,26 @@
 {% assign rootResource = site.rootResource | rdf_get %}
 {% include strings.html %}
 {% assign subEvent = rootResource | rdf_property: "schema:subEvent" %}
+{% assign events = subEvent.page_url | relativize_url %}
 <nav class="nav-main" aria-label="Hauptmenü">
   <ul>
-    <li>
-
-      <a href="{{ subEvent.page_url | relativize_url }}">
+    <li class="{% if events == '.' %}open{% endif %}">
+      <a class="{% if events == '.' %}active{% endif %}" href="{{ events }}">
         {{ str_events }}
       </a>
     </li>
-    <li>
-      <a href="{% relative_link location.html %}.html">
+    <li class="{% if page.url == '/location' %}open{% endif %}">
+      <a class="{% if page.url == '/location' %}active{% endif %}" href="{% relative_link location.html %}.html">
         {{ str_location }}
       </a>
     </li>
-    <li>
-      <a href="{% relative_link orgateam.html %}.html">
+    <li class="{% if page.url == '/orgateam' %}open{% endif %}">
+      <a class="{% if page.url == '/orgateam' %}active{% endif %}" href="{% relative_link orgateam.html %}.html">
         {{ str_organizer }}
       </a>
     </li>
-    <li>
-      <a href="{% relative_link news.html %}.html">
+    <li class="{% if page.url == '/news' %}open{% endif %}">
+      <a class="{% if page.url == '/news' %}active{% endif %}" href="{% relative_link news.html %}.html">
         {{ str_news }}
       </a>
     </li>
