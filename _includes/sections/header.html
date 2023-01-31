@@ -1,7 +1,3 @@
-{% capture languages %}
-deutsch
-english
-{% endcapture %}
 {% assign rootResource = site.rootResource | rdf_get %}
 <header class="page-header">
   <div class="page-header-inner">
@@ -15,30 +11,7 @@ english
         {{ rootResource | rdf_property: "schema:slogan", site.language }}
       </p>
     </div>
-    <nav class="nav-lang" aria-label="Sprachmenü">
-      <p lang="en">
-        Language:
-      </p>
-      <ul>
-        {% assign my_array = languages | strip | newline_to_br | strip_newlines | split: "<br />" %}
-        {% for lang_string in my_array %}
-          {% assign lang = lang_string | slice: 0, 2 %}
-          {% if lang == site.language %}
-            <li aria-current="true">
-              <strong>{{ lang_string }}</strong>
-            </li>
-          {% else %}
-            {% assign lang_correct = lang %}
-            {% if lang_correct == "de" %}
-              {% assign lang_correct = "" %}
-            {% endif %}
-            <li>
-              <a href="/{{ lang_correct }}" hreflang="{{ lang_correct }}" lang="{{ lang_string }}">{{ lang_string }}</a>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </nav>
+    {% include components/lang_switch.html mode="desktop" %}
     <a href="index.html#navigation" class="hamburger" id="hamburger" data-label-open="Menü öffnen" data-label-close="Menü schließen"
       data-text-open="&lt;svg role='img' focusable='false' aria-hidden='true' height='42' width='42'&gt;&lt;use xlink:href='/resources/images/icons.svg#hamburger'&gt;&lt;/use&gt;&lt;/svg&gt;&lt;span&gt;Menü&lt;/span&gt;"
       data-text-close="&lt;svg role='img' focusable='false' aria-hidden='true' height='42' width='42'&gt;&lt;use xlink:href='/resources/images/icons.svg#close'&gt;&lt;/use&gt;&lt;/svg&gt;" data-focus-helper-text="zum Anfang des Menüs springen">

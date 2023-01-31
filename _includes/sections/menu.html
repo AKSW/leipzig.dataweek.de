@@ -36,16 +36,7 @@ WHERE {
 </nav>
 
 <div class="nav-mobil" id="navigation">
-  <nav class="nav-lang-mobil" aria-label="Sprachmenü">
-    <ul>
-      <li aria-current="true">
-        <strong>deutsch</strong>
-      </li>
-      <li>
-        <a href="index.html/en" hreflang="en" lang="en">english</a>
-      </li>
-    </ul>
-  </nav>
+  {% include components/lang_switch.html mode="mobile" %}
   <nav class="nav-sitemap" aria-label="Mobilmenü">
     <ul>
       <li>

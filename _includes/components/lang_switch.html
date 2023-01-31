@@ -1,0 +1,36 @@
+{%- assign incl_mode = include.mode -%}
+{%- if incl_mode == "mobile" -%}
+{%- assign class = "nav-lang-mobil" -%}
+{%- else -%}
+{%- assign class = "nav-lang" -%}
+{%- endif -%}
+{%- capture languages -%}
+deutsch
+english
+{%- endcapture -%}
+<nav class="{{ class }}" aria-label="Sprachmenü">
+  {%- if incl_mode != "mobile" -%}
+  <p lang="en">
+    Language:
+  </p>
+  {%- endif -%}
+  <ul>
+    {% assign my_array = languages | strip | newline_to_br | strip_newlines | split: "<br />" %}
+    {% for lang_string in my_array %}
+      {% assign lang = lang_string | slice: 0, 2 %}
+      {% if lang == site.language %}
+        <li aria-current="true">
+          <strong>{{ lang_string }}</strong>
+        </li>
+      {% else %}
+        {% assign lang_correct = lang %}
+        {% if lang_correct == "de" %}
+          {% assign lang_correct = "" %}
+        {% endif %}
+        <li>
+          <a href="/{{ lang_correct }}" hreflang="{{ lang_correct }}" lang="{{ lang_string }}">{{ lang_string }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>
