@@ -114,7 +114,7 @@ order by ASC(?person)
     var affiliation = document.getElementById("speaker_form-select_affiliation").value;
     var date = document.getElementById("speaker_form-select_date").value;
     var ul = document.getElementById("speaker_ul_list");
-    
+
     if (!affiliation && !date) {
       for (let li of ul.children) {
         li.style.display = "";
@@ -174,7 +174,7 @@ order by ASC(?person)
           </option>
         {% endfor %}
       </select>
-      <label for="form-select2" class="hideme">Tag</label>
+      <label for="speaker_form-select_date" class="hideme">Tag</label>
       <select class="form-control" id="speaker_form-select_date">
         <option value="">
           {% if site.language == 'en' %}

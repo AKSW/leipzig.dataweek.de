@@ -41,9 +41,9 @@ layout: basic
   </h1>
   <form class="filter only-small-screens" action="#">
     <div>
-      <label for="form-select1" class="hideme">
+      <label for="events_form-select" class="hideme">
         {{ mobileLabel }}
-      </label> <select class="form-control" id="form-select1">
+      </label> <select class="form-control" id="events_form-select">
         <option value="">
           {{ mobileHint }}
         </option>
@@ -55,7 +55,7 @@ layout: basic
             {{ slug | default: eventShortName }} - {{ weekday }}, {{ event.date }}
           </option>
         {% endfor %}
-      </select> <button type="submit">Anzeigen</button>
+      </select> <button type="button" onclick="showEvent()">Anzeigen</button>
     </div>
   </form>
   <nav class="nav-sub1" aria-label="Untermenü Stufe 1">
@@ -110,3 +110,15 @@ layout: basic
     {% endfor %}
   </ul>
 </div>
+<script type="text/javascript">
+  function showEvent() {
+    var event = document.getElementById("events_form-select").value;
+
+    if (!event) {
+      return;
+    }
+
+    console.log(location.origin+location.pathname+event);
+    location.href = location.origin+location.pathname+event;
+  }
+</script>
