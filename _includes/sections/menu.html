@@ -8,12 +8,18 @@ WHERE {
 } ORDER BY ?date
 {% endcapture %}
 {% assign results = page.rdf | sparql_query: eventsQuery %}
+{% assign isEvent = false %}
+{% for r in results %}
+  {% if r.e.page_url == page.url %}
+    {% assign isEvent = true %}
+  {% endif %}
+{% endfor %}
 {% assign result = results | first %}
 {% assign event = result.e.page_url | relativize_url %}
 <nav class="nav-main" aria-label="Hauptmenü">
   <ul>
-    <li class="{% if event == '.' %}open{% endif %}">
-      <a class="{% if event == '.' %}active{% endif %}" href="{{ event }}">
+    <li class="{% if isEvent == true %}open{% endif %}">
+      <a class="{% if isEvent == true %}active{% endif %}" href="{{ event }}">
         {{ str_events }}
       </a>
     </li>
@@ -39,8 +45,8 @@ WHERE {
   {% include components/lang_switch.html mode="mobile" %}
   <nav class="nav-sitemap" aria-label="Mobilmenü">
     <ul>
-      <li class="{% if event == '.' %}open{% endif %}">
-        <a class="{% if event == '.' %}active{% endif %}" href="{{ event }}">
+      <li class="{% if isEvent == true %}open{% endif %}">
+        <a class="{% if isEvent == true %}active{% endif %}" href="{{ event }}">
           {{ str_events }}
         </a>
       </li>
