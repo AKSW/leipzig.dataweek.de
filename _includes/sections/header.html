@@ -22,7 +22,7 @@ english
       <ul>
         {% assign my_array = languages | strip | newline_to_br | strip_newlines | split: "<br />" %}
         {% for lang_string in my_array %}
-          {% assign lang = lang_string | slice: 2 %}
+          {% assign lang = lang_string | slice: 0, 2 %}
           {% if lang == site.language %}
             <li aria-current="true">
               <strong>{{ lang_string }}</strong>
