@@ -202,9 +202,9 @@
   </h1>
   <form class="filter only-small-screens" action="#">
     <div>
-      <label for="form-select1" class="hideme">
+      <label for="events_form-select" class="hideme">
         Veranstaltung
-      </label> <select class="form-control" id="form-select1">
+      </label> <select class="form-control" id="events_form-select">
         <option value="">
           Veranstaltung wählen
         </option>
@@ -258,7 +258,7 @@
             DSM - Do, 2023-06-29
           </option>
         
-      </select> <button type="submit">Anzeigen</button>
+      </select> <button type="button" onclick="showEvent()">Anzeigen</button>
     </div>
   </form>
   <nav class="nav-sub1" aria-label="Untermenü Stufe 1">
@@ -569,6 +569,18 @@
     
   </ul>
 </div>
+<script type="text/javascript">
+  function showEvent() {
+    var event = document.getElementById("events_form-select").value;
+
+    if (!event) {
+      return;
+    }
+
+    console.log(location.origin+location.pathname+event);
+    location.href = location.origin+location.pathname+event;
+  }
+</script>
 
 </main>
 
