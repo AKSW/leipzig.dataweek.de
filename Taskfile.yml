@@ -59,6 +59,19 @@ tasks:
       - mv {{.TARGET_TMP_DE}} {{.TARGET_DE}}
       - mv {{.TARGET_TMP_EN}} {{.TARGET_EN}}
 
+  watch:
+    desc: Serve the page and rebuild it on changes
+    deps:
+      - task: serve
+      - task: build:watch
+    cmds:
+      - echo "Terminate"
+
+  build:watch:
+    desc: Watch for changes in the directory and rebuild the page, should be combined with task serve in a second terminal
+    cmds:
+      - find . -name '*' | entr task build
+
   serve:
     desc: Serve the locally built site
     cmds:

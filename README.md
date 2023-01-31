@@ -21,7 +21,9 @@ The setup of the build workflow is as follows:
 - Git
 - [Task](https://taskfile.dev/)
 - Docker or Podman
-- Python
+- Optionally:
+  - Python (for `serve` resp. `watch` and `pictures:scale` resp. `pictures:scale:preconditions`)
+  - [entr](http://eradman.com/entrproject/) (for `watch` resp. `build:watch`)
 
 ### Build the page
 
@@ -36,6 +38,17 @@ task serve
 ```
 
 Since jekyll only watches pages but not the layouts and data there is no automatic rebuild. You have to run `task build serve` again, if you perform changes.
+
+### Development Setup
+
+*Additional requirement:* [entr](http://eradman.com/entrproject/)
+
+```
+task watch
+```
+
+Serves the page and rebuilds it when changes happen in the directory.
+
 
 ### Get the data
 
