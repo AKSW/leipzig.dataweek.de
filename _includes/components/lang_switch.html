@@ -11,19 +11,26 @@ deutsch,english
 de,en
 {%- endcapture -%}
 {%- capture lang_paths -%}
-/,/en/
+,/en
 {%- endcapture -%}
 {% assign languages_array = languages | strip | split: "," %}
 {% assign lang_isos_array = lang_isos | strip | split: "," %}
 {% assign lang_paths_array = lang_paths | strip | split: "," %}
 <nav class="{{ class }}" aria-label="Sprachmenü">
   {%- if incl_mode != "mobile" -%}
-  <p lang="en">
-    Language:
-  </p>
+  <p lang="en">Language:</p>
   {%- endif -%}
   <ul>
     {% for lang_string in languages_array %}
+      {% if page.name == "index.html" %}
+      {% assign html = "" %}
+      {% else %}
+      {% if page.name == "index.md" %}
+      {% assign html = "" %}
+      {% else %}
+      {% assign html = ".html" %}
+      {% endif %}
+      {% endif %}
       {% assign lang = lang_string | slice: 0, 2 %}
       {% if lang == site.language %}
         <li aria-current="true">
@@ -31,7 +38,7 @@ de,en
         </li>
       {% else %}
         <li>
-          <a href="{{ lang_paths_array[forloop.index0] }}" hreflang="{{ lang_isos_array[forloop.index0] }}" lang="{{ lang_isos_array[forloop.index0] }}">{{ lang_string }}</a>
+          <a href="{{ lang_paths_array[forloop.index0] }}{{ page.url | append: html }}" hreflang="{{ lang_isos_array[forloop.index0] }}" lang="{{ lang_isos_array[forloop.index0] }}">{{ lang_string }}</a>
         </li>
       {% endif %}
     {% endfor %}
