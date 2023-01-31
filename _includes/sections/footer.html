@@ -4,18 +4,13 @@
     <nav class="nav-meta" id="hilfsmenue" aria-label="Hilfsmenü">
       <ul>
         <li>
-          <a href="https://infai.org/das-institut/impressum/">
-            {{ str_imprint }}</a>
+          <a href="https://infai.org/das-institut/impressum/">{{ str_imprint }}</a>
         </li>
         <li>
-          <a href="/datenschutz/">
-            {{ str_dataprotection }}
-          </a>
+          <a href="{% relative_link datenschutz/index.md %}">{{ str_dataprotection }}</a>
         </li>
         <li>
-          <a href="/contact.html">
-            {{ str_contact }}
-          </a>
+          <a href="{% relative_link contact/index.html %}">{{ str_contact }}</a>
         </li>
       </ul>
     </nav>
