@@ -1,11 +1,19 @@
 {% assign rootResource = site.rootResource | rdf_get %}
 {% include strings.html %}
-{% assign subEvent = rootResource | rdf_property: "schema:subEvent" %}
-{% assign events = subEvent.page_url | relativize_url %}
+{% capture eventsQuery %}
+SELECT ?e ?date 
+WHERE {
+  <{{ rootResource }}> schema:subEvent ?e .
+  ?e schema:date ?date .
+} ORDER BY ?date
+{% endcapture %}
+{% assign results = page.rdf | sparql_query: eventsQuery %}
+{% assign result = results | first %}
+{% assign event = result.e.page_url | relativize_url %}
 <nav class="nav-main" aria-label="Hauptmenü">
   <ul>
-    <li class="{% if events == '.' %}open{% endif %}">
-      <a class="{% if events == '.' %}active{% endif %}" href="{{ events }}">
+    <li class="{% if event == '.' %}open{% endif %}">
+      <a class="{% if event == '.' %}active{% endif %}" href="{{ event }}">
         {{ str_events }}
       </a>
     </li>
@@ -41,7 +49,7 @@
   <nav class="nav-sitemap" aria-label="Mobilmenü">
     <ul>
       <li>
-        <a href="{{ subEvent.page_url | relativize_url }}">{{ str_events }}</a>
+        <a href="{{ event }}">{{ str_events }}</a>
       </li>
       <li>
         <a href="{% relative_link location.html %}.html">{{ str_location }}</a>
