@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="de" class="no-js">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      Data Week Leipzig 2022 | Demo / Video mit Consent
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js','js'); 
+    </script>
+    <script src="js/base.js" defer></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/base.css">
+    <script type="application/ld+json">
+    {
+    "@context": "https:\/\/schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@id": "https:\/\/example.com\/index.html",
+                "name": "Startseite"
+            }
+        }
+    ]
+    }
+    </script>
+    <style>
+    :root {
+    --mark-before: ' [Start der Markierung] ';
+    --mark-after: ' [Ende der Markierung] ';
+    --del-before: ' [Start von Gelöscht] ';
+    --del-after: ' [Ende von Gelöscht] ';
+    --ins-before: ' [Start von Eingefügt] ';
+    --ins-after: ' [Ende von Eingefügt] ';
+    --s-before: ' [Start von Durchgestrichen] ';
+    --s-after: ' [Ende von Durchgestrichen] ';
+    }
+    </style>
+  </head>
+  <body class="">
+    <a id="top"></a>
+    <nav class="nav-first" aria-label="Sprunglinks">
+      <a href="demo/video.html#inhalt">zum Inhalt</a> <a href="demo/video.html#hilfsmenue">zum Hilfsmenü</a>
+    </nav>
+    <header class="page-header">
+      <div class="page-header-inner">
+        <div class="page-logo">
+          <a href="index.html" title="zurück zur Startseite">
+          <p class="title">
+            Data Week Leipzig <span>2022</span> <strong>26. - 30.6.2023</strong>
+          </p></a>
+          <p class="claim">
+            Netzwerk- und Austauschplattform zu KI und Daten in Leipzig
+          </p>
+        </div>
+        <nav class="nav-lang" aria-label="Sprachmenü">
+          <p lang="en">
+            Language:
+          </p>
+          <ul>
+            <li aria-current="true">
+              <strong>deutsch</strong>
+            </li>
+            <li>
+              <a href="demo/video.html#en" hreflang="en" lang="en">english</a>
+            </li>
+          </ul>
+        </nav><a href="demo/video.html#navigation" class="hamburger" id="hamburger" data-label-open="Menü öffnen" data-label-close="Menü schließen" data-text-open="&lt;svg role='img' focusable='false' aria-hidden='true' height='42' width='42'&gt;&lt;use xlink:href='images/icons.svg#hamburger'&gt;&lt;/use&gt;&lt;/svg&gt;&lt;span&gt;Menü&lt;/span&gt;" data-text-close=
+        "&lt;svg role='img' focusable='false' aria-hidden='true' height='42' width='42'&gt;&lt;use xlink:href='images/icons.svg#close'&gt;&lt;/use&gt;&lt;/svg&gt;" data-focus-helper-text="zum Anfang des Menüs springen"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
+        <use xlink:href="images/icons.svg#hamburger"></use></svg><span>zum Menü</span></a>
+      </div>
+    </header>
+    <nav class="nav-main" aria-label="Hauptmenü">
+      <ul>
+        <li>
+          <a href="programm_montag_bereich-a.html">Programm</a>
+        </li>
+        <li>
+          <a href="sprecher.html">Sprecher</a>
+        </li>
+        <li>
+          <a href="veranstaltungsort.html">Veranstaltungsort</a>
+        </li>
+        <li>
+          <a href="organisationsteam_team-a.html">Organisationsteam</a>
+        </li>
+        <li class="open">
+          <a class="active" href="demo.html">Demo</a>
+        </li>
+      </ul>
+    </nav>
+    <main class="page-main" aria-label="Inhalt" id="inhalt">
+      <div class="content-header">
+        <h1>
+          YouTube Video mit Consent
+        </h1>
+      </div>
+      <div class="grid">
+        <div class="grid-6">
+          <div class="ce-video" data-consent="" data-consent-name="youtube" data-consent-callback="pxConsentYoutube1">
+            <script>
+            window.pxConsentYoutube1 = function (consentElement,active) {
+            consentElement.innerHTML = '<iframe title="Youtube-Video" src="https://www.youtube-nocookie.com/embed/FupVhEO7Tzc?modestbranding=0&amp;hl=de&amp;controls=1&amp;autoplay=0&amp;cc_load_policy=1&amp;loop=0&amp;iv_load_policy=1&amp;fs=1&amp;showinfo=0&amp;rel=0&amp;ap=%2526fmt%3D18&amp;playsinline=0&amp;version=3"><\/iframe>';
+            if (active === true) { consentElement.querySelector('iframe').focus(); }
+            }
+            </script>
+            <div class="video-iframe" data-consent-ready="" style="padding-bottom: 56.25%;">
+              <figure class="video-cover" data-consent-preview="">
+                <img src="http://img.youtube.com/vi/FupVhEO7Tzc/maxresdefault.jpg" alt="@@"> <svg role="img" focusable="false" aria-hidden="true" height="28" width="42">
+                <use xlink:href="images/socialmedia.svg#youtube"></use></svg>
+              </figure>
+            </div>
+            <div data-consent-form="">
+              <p id="px-consent-video-info-1">
+                This video is embedded from YouTube. By loading the video, you accept YouTube’s <a href="demo/video.html#">privacy policy</a>.
+              </p>
+              <form action="#">
+                <div>
+                  <label><input type="checkbox" data-consent-form-setcookie="" name="setcookie" checked> <span>Always unlock YouTube<br>
+                  <small>(save setting as cookie)</small></span></label><br>
+                  <button aria-describedby="px-consent-video-info-1" data-consent-form-button="">Unlock now</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="js/additional/px-consent.min.js"></script>
+      <div class="sponsors">
+        <h2>
+          <span>Data Week</span> Sponsoren
+        </h2>
+        <ul>
+          <li>
+            <a href="demo/video.html#"><img src="files/sponsor-appplant.png" alt="Logo appPlant"></a>
+          </li>
+          <li>
+            <a href="demo/video.html#"><img src="files/sponsor-datev.svg" alt="Logo Datev"></a>
+          </li>
+          <li>
+            <a href="demo/video.html#"><img src="files/sponsor-eccenca.svg" alt="Logo eccenca"></a>
+          </li>
+          <li>
+            <a href="demo/video.html#"><img src="files/sponsor-stackfuel.png" alt="Logo stackfuel"></a>
+          </li>
+          <li>
+            <a href="demo/video.html#"><img src="files/sponsor-vistex.png" alt="Logo Vistex"></a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <div class="nav-mobil" id="navigation">
+      <nav class="nav-lang-mobil" aria-label="Sprachmenü">
+        <ul>
+          <li aria-current="true">
+            <strong>deutsch</strong>
+          </li>
+          <li>
+            <a href="demo/video.html#en" hreflang="en" lang="en">english</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="nav-sitemap" aria-label="Mobilmenü">
+        <ul>
+          <li>
+            <a href="programm_montag_bereich-a.html">Programm</a>
+            <ul>
+              <li>
+                <a href="programm_montag_bereich-a.html"><span>26.6.2023</span> Montag</a>
+                <ul>
+                  <li>
+                    <a href="programm_montag_bereich-a.html">Bereich A</a>
+                  </li>
+                  <li>
+                    <a href="programm_montag_bereich-b.html">Bereich B</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="programm_dienstag.html"><span>27.6.2023</span> Dienstag</a>
+              </li>
+              <li>
+                <a href="programm_mittwoch.html"><span>28.6.2023</span> Mittwoch</a>
+              </li>
+              <li>
+                <a href="programm_donnerstag.html"><span>29.6.2023</span> Donnerstag</a>
+              </li>
+              <li>
+                <a href="programm_freitag.html"><span>30.6.2023</span> Freitag</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="sprecher.html">Sprecher</a>
+          </li>
+          <li>
+            <a href="veranstaltungsort.html">Veranstaltungsort</a>
+          </li>
+          <li>
+            <a href="organisationsteam_team-a.html">Organisationsteam</a>
+            <ul>
+              <li>
+                <a href="organisationsteam_team-a.html"><span>Team</span> LSWT2022</a>
+              </li>
+              <li>
+                <a href="organisationsteam_team-b.html"><span>Team</span> DBpedia</a>
+              </li>
+              <li>
+                <a href="organisationsteam_team-c.html"><span>Team</span> Big Data / Ai</a>
+              </li>
+              <li>
+                <a href="organisationsteam_team-d.html"><span>Team</span> Workshops</a>
+              </li>
+              <li>
+                <a href="organisationsteam_team-e.html"><span>Team</span> Stadt Leipzig</a>
+              </li>
+            </ul>
+          </li>
+          <li class="open">
+            <a class="active" href="demo.html">Demo</a>
+            <ul>
+              <li>
+                <a href="demo/news.html">Newsauflistung</a>
+              </li>
+              <li>
+                <a href="demo/datentabellen.html">Datentabellen</a>
+              </li>
+              <li>
+                <a href="demo/datenquellen.html">Datenquellen</a>
+              </li>
+              <li>
+                <a href="demo/lightbox.html">Lightbox</a>
+              </li>
+              <li>
+                <a href="demo/osm.html">OpenStreetMap</a>
+              </li>
+              <li class="open">
+                <strong aria-current="page">Video</strong>
+              </li>
+              <li>
+                <a href="demo/paging.html">Paging</a>
+              </li>
+              <li>
+                <a href="demo/formulare.html">Formularbaukasten</a>
+              </li>
+              <li>
+                <a href="demo/grid.html">Grid</a>
+              </li>
+              <li>
+                <a href="demo/svg-icons.html">SVG Icons</a>
+              </li>
+              <li>
+                <a href="demo/consent-dialog.html">Consent Dialog</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="impressum.html">Impressum</a>
+          </li>
+          <li>
+            <a href="datenschutz.html">Datenschutz</a>
+          </li>
+          <li>
+            <a href="kontakt.html">Kontakt</a>
+          </li>
+          <li>
+            <a href="event-archiv.html">Event-Archiv</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <footer class="page-footer">
+      <div class="page-footer-inner">
+        <nav class="nav-meta" id="hilfsmenue" aria-label="Hilfsmenü">
+          <ul>
+            <li>
+              <a href="impressum.html">Impressum</a>
+            </li>
+            <li>
+              <a href="datenschutz.html">Datenschutz</a>
+            </li>
+            <li>
+              <a href="kontakt.html">Kontakt</a>
+            </li>
+            <li>
+              <a href="event-archiv.html">Event-Archiv</a>
+            </li>
+          </ul>
+        </nav>
+        <p class="socialmedia">
+          <a href="https://youtube.de/@dataqeekleipzig"><svg role="img" focusable="false" aria-hidden="true" height="28" width="42">
+          <use xlink:href="images/socialmedia.svg#youtube"></use></svg> @dataweekleipzig</a> <a href="https://twitter.de/@DataWeekLeipzig"><svg role="img" focusable="false" aria-hidden="true" height="28" width="42">
+          <use xlink:href="images/socialmedia.svg#twitter"></use></svg>@DataWeekLeipzig</a>
+        </p>
+      </div>
+      <div class="page-footer-partner">
+        <h2>
+          In Kooperation mit:
+        </h2>
+        <ul>
+          <li>
+            <a href="demo/video.html#"><img src="files/logo-stadt-leipzig.png" alt="Logo Stadt Leipzg"></a>
+          </li>
+          <li>
+            <a href="demo/video.html#"><img src="files/logo-cut.svg" alt="Logo CUT"></a>
+          </li>
+          <li>
+            <a href="demo/video.html#"><img src="files/logo-kmi.png" alt="Logo KMI"></a>
+          </li>
+          <li>
+            <a href="demo/video.html#"><img src="files/logo-ogc.png" alt="Logo OGC"></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <div class="toplink">
+      <a href="demo/video.html#top" aria-label="zum Seitenanfang springen" title="zum Seitenanfang"><svg role="img" focusable="false" aria-hidden="true" viewbox="0 0 28 28" height="28" width="28">
+      <use xlink:href="images/icons.svg#button-toplink"></use></svg></a>
+    </div>
+    <script>
+    var base = {
+    'btnArrow' : ''
+    }
+    </script>
+    <script>
+
+    /* Lightbox */
+    var lightbox = {
+    'ariaLabel' : 'Fenster vergrößerte Ansicht',
+    'prevText' : 'zurück',
+    'prevSvg' : '<svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="images/icons.svg#lightbox-prev"><\/use><\/svg>',
+    'nextText' : 'weiter',
+    'nextSvg' : '<svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="images/icons.svg#lightbox-next"><\/use><\/svg>',
+    'closeText' : 'schließen (Esc)',
+    'closeSvg' : '<svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="images/icons.svg#lightbox-close"><\/use><\/svg>',
+    'countText' : '{CUR} von {SUM}',
+    'shareTilte' : 'Bild teilen',
+    'shareHiddenText' : 'Social-Media-Plattform auswählen',
+    'shareSvg' : '<svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="images/icons.svg#lightbox-share"><\/use><\/svg>',
+    'shareTwitter' : '<a data-href="https://www.twitter.com/share?url={IMAGE}" aria-label="Bild bei Twitter teilen." title="Twitter"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="images/socialmedia.svg#share-twitter"><\/use><\/svg><\/a>',
+    'shareFacebook' : '<a data-href="https://www.facebook.com/sharer/sharer.php?u={IMAGE}" aria-label="Bild bei Facebook teilen." title="Facebook"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="images/socialmedia.svg#share-facebook"><\/use><\/svg><\/a>',  
+    'sharePinterest' : '<a data-href="https://pinterest.com/pin/create/link/?url={IMAGE}" aria-label="Bild bei Pinterest teilen." title="Pinterest"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="images/socialmedia.svg#share-pinterest"><\/use><\/svg><\/a>'
+    };
+    </script>
+    <script>
+
+    /* Swiper */
+    var swiper = {
+    'prev'        : '<svg focusable="false" aria-hidden="true" role="img" width="28px" height="28px"><use xlink:href="images/icons.svg#arrow-left"><\/use><\/svg>',
+    'prevTitle'   : 'vorheriger Eintrag',
+    'next'        : '<svg focusable="false" aria-hidden="true" role="img" width="28px" height="28px"><use xlink:href="images/icons.svg#arrow-right"><\/use><\/svg>',
+    'nextTitle'   : 'folgender Eintrag',
+    'firstTitle'  : 'erster Eintrag',
+    'lastTitle'   : 'letzter Eintrag',
+    'bulletTitle' : 'gehe zu Eintrag {{index}}'
+    };
+    </script>
+    <script>
+
+    /* Leaflet */
+    var leaflet = {
+    'zoomInTitle'  : 'Karte vergrößern',
+    'zoomOutTitle' : 'Karte verkleinern',
+    'closePopupLabel' : 'Modalfester schließen',
+    'skipToControls' : 'Zum Kartenfilter springen',
+    'skipToStart' : 'Zum Anfang der Karte springen',
+    'skipToEnd' : 'Zum Ende der Karte springen',
+    'fullScreenTitle': 'Karte in Bildschirmgröße anzeigen',
+    'fullScreenTitleCancel': 'Karte wieder in Normalansicht anzeigen',
+    'layerFilterLabel': 'Filter für Kartenmarker',
+    'layerBaseMap': 'Basiskarte',
+    'wakeMessage': 'Zum Aufwachen Maus über Karte bewegen.',
+    'wakeMessageTouch': 'Zum Aufwachen tippen.'
+    };
+    </script> 
+    <script src="js/additional/px-consent.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="print" href="css/print/print.css">
+  </body>
+</html>
