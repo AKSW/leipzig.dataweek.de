@@ -688,14 +688,13 @@ body {
   text-decoration: none;
 }
 .page-logo p.title {
-  font-size: 18px;
-  font-size: 1.125rem;
+  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 800;
   padding: 0.4375rem 0 0.4375rem 0.5rem;
 }
 .page-logo p.title span {
   color: #3da6dc;
-  margin-left: .625rem;
 }
 .page-logo p.title strong {
   color: #ff7600;
@@ -703,20 +702,13 @@ body {
 }
 @media only screen and (max-width: 359px) {
   .page-logo p.title {
-    font-size: 16px;
-    font-size: 1rem;
+    font-size: 22px;
+    font-size: 1.375rem;
   }
 }
 @media only screen and (max-width: 759px) {
-  .page-logo p.title span {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+  .page-logo p.title strong {
+    display: block;
   }
 }
 @media only screen and (min-width: 760px) {
@@ -737,6 +729,9 @@ body {
   .page-logo p.title strong {
     margin-left: auto;
   }
+  .page-logo p.title span {
+    margin-left: .625rem;
+  }
 }
 @media only screen and (min-width: 980px) {
   .page-logo p.title {
@@ -753,11 +748,17 @@ body {
   .page-logo p.claim {
     background: #17214c;
     color: #fff;
-    font-size: 12px;
-    font-size: 0.75rem;
+    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
     line-height: 0.875rem;
     padding: 0.4375rem 0.125rem 0.4375rem 0.5rem;
+  }
+}
+@media only screen and (max-width: 374px) {
+  .page-logo p.claim {
+    font-size: 12px;
+    font-size: 0.75rem;
   }
 }
 @media only screen and (min-width: 760px) {
@@ -778,7 +779,7 @@ body {
 .page-header .hamburger {
   background: #3da6dc;
   color: #17214c;
-  padding: 0.4375rem 0.65625rem;
+  padding: 1.3125rem 0.875rem;
   position: absolute;
   top: 0;
   right: 0;
@@ -1558,14 +1559,16 @@ html.overlay-open {
   background: #e8f7fd;
   background: bottom left -webkit-repeating-linear-gradient(135deg, #e8f7fd, #e8f7fd 5px, #d7eefa 5px, #d7eefa 10px);
   background: bottom left repeating-linear-gradient(-45deg, #e8f7fd, #e8f7fd 5px, #d7eefa 5px, #d7eefa 10px);
+  background-size: 500px 500px;
   color: #17214c;
   padding-top: 0.875rem;
   padding-bottom: 0;
   position: relative;
 }
 .nav-sub1 a.active::before, .nav-sub1 strong::before {
-  background: top left -1px -webkit-repeating-linear-gradient(135deg, #e8f7fd, #e8f7fd 5px, #d7eefa 5px, #d7eefa 10px);
-  background: top left -1px repeating-linear-gradient(-45deg, #e8f7fd, #e8f7fd 5px, #d7eefa 5px, #d7eefa 10px);
+  background: top left -5px -webkit-repeating-linear-gradient(135deg, #e8f7fd, #e8f7fd 5px, #d7eefa 5px, #d7eefa 10px);
+  background: top left -5px repeating-linear-gradient(-45deg, #e8f7fd, #e8f7fd 5px, #d7eefa 5px, #d7eefa 10px);
+  background-size: 500px 500px;
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
   content: '';
@@ -3739,11 +3742,33 @@ form.filter optgroup {
     bottom: 5.25rem;
   }
 }
+.page-hero figure {
+  background: black;
+  min-height: 17.5rem;
+}
+@media only screen and (min-width: 760px) {
+  .page-hero figure {
+    min-height: 28rem;
+  }
+}
+@media only screen and (min-width: 980px) {
+  .page-hero figure {
+    min-height: 1.75rem;
+  }
+}
+.page-hero figure img {
+  height: 17.5rem;
+  object-fit: cover;
+  width: 100%;
+}
+@media only screen and (min-width: 760px) {
+  .page-hero figure img {
+    height: 28rem;
+  }
+}
 @media only screen and (min-width: 980px) {
   .page-hero figure img {
     height: calc( 100vh - 10.5rem );
-    object-fit: cover;
-    width: 100%;
   }
 }
 
