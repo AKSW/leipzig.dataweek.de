@@ -2,8 +2,6 @@
 name: Build Jekyll Page Preview for the Next Layout
 
 on:
-  push:
-    branches: [ next ]
   workflow_dispatch:
 
 jobs:
