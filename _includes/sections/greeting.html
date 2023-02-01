@@ -8,11 +8,17 @@
     {% endif %}
   </h1>
   <figure>
-    <img class="js-load" data-src="/resources/images/Leipzig.jpg" data-sizes="auto"
-      data-srcset="/resources/images/Leipzig_480.jpg 480w, /resources/images/Leipzig_800.jpg 800w, /resources/images/Leipzig_1200.jpg 1200w, /resources/images/Leipzig_1600.jpg 1600w, /resources/images/Leipzig_1980.jpg 1980w"
+    {%- assign size_array = "480 800 1200 1600 1980" | split: " " -%}
+    <img class="js-load" data-src="{% relative_link /resources/images/Leipzig.jpg %}" data-sizes="auto"
+      data-srcset="
+      {%- for size in size_array -%}
+      {%- assign link = "/resources/images/Leipzig_" | append: size | append: ".jpg"-%}
+      {{ link | relativize_url }} {{ size }}w,
+      {%- endfor -%}
+      "
       width="2600" height="1300" style="max-width:2600px" alt="@@" />
     <noscript>
-      <img src="/resources/images/Leipzig.jpg" alt="@@">
+      <img src="{% relative_link /resources/images/Leipzig.jpg %}" alt="@@">
     </noscript>
   </figure>
 </aside>
