@@ -55,7 +55,13 @@ layout: basic
             {{ slug | default: eventShortName }} - {{ weekday }}, {{ event.date }}
           </option>
         {% endfor %}
-      </select> <button type="button" onclick="showEvent()">Anzeigen</button>
+      </select> <button type="button" onclick="showEvent()">
+          {% if site.language == "de" %}
+            Anzeigen
+          {% else %}
+            Show
+          {% endif %}
+        </button>
     </div>
   </form>
   <nav class="nav-sub1" aria-label="Untermenü Stufe 1">
