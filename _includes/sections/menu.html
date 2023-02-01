@@ -86,12 +86,24 @@ WHERE {
       <li>
         <a href="https://infai.org/das-institut/impressum/">{{ str_imprint }}</a>
       </li>
-      <li>
-        <a href="{% relative_link datenschutz/index.md %}">{{ str_dataprotection }}</a>
-      </li>
-      <li>
-        <a href="{% relative_link contact/index.html %}">{{ str_contact }}</a>
-      </li>
+      {% if page.url == '/datenschutz/' %}
+        <li class="open">
+          <strong aria-current="page"><span>{{ str_dataprotection }}</span></strong>
+        </li>
+      {% else %}
+        <li>
+          <a href="{% relative_link datenschutz/index.md %}"><span>{{ str_dataprotection }}</span></a>
+        </li>
+      {% endif %}
+      {% if page.url == '/contact/' %}
+        <li class="open">
+          <strong aria-current="page"><span>{{ str_contact }}</span></strong>
+        </li>
+      {% else %}
+        <li>
+          <a href="{% relative_link contact/index.html %}"><span>{{ str_contact }}</span></a>
+        </li>
+      {% endif %}
     </ul>
   </nav>
 </div>
