@@ -3742,11 +3742,28 @@ form.filter optgroup {
     bottom: 5.25rem;
   }
 }
+.page-hero figure {
+  background: black;
+  min-height: 17.5rem;
+}
+@media only screen and (min-width: 760px) {
+  .page-hero figure {
+    min-height: 28rem;
+  }
+}
+.page-hero figure img {
+  height: 17.5rem;
+  object-fit: cover;
+  width: 100%;
+}
+@media only screen and (min-width: 760px) {
+  .page-hero figure img {
+    height: 28rem;
+  }
+}
 @media only screen and (min-width: 980px) {
   .page-hero figure img {
     height: calc( 100vh - 10.5rem );
-    object-fit: cover;
-    width: 100%;
   }
 }
 
