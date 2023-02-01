@@ -1566,8 +1566,8 @@ html.overlay-open {
   position: relative;
 }
 .nav-sub1 a.active::before, .nav-sub1 strong::before {
-  background: top left -5px -webkit-repeating-linear-gradient(135deg, #e8f7fd, #e8f7fd 5px, #d7eefa 5px, #d7eefa 10px);
-  background: top left -5px repeating-linear-gradient(-45deg, #e8f7fd, #e8f7fd 5px, #d7eefa 5px, #d7eefa 10px);
+  background: top left -4px -webkit-repeating-linear-gradient(135deg, #e8f7fd, #e8f7fd 5px, #d7eefa 5px, #d7eefa 10px);
+  background: top left -4px repeating-linear-gradient(-45deg, #e8f7fd, #e8f7fd 5px, #d7eefa 5px, #d7eefa 10px);
   background-size: 500px 500px;
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
@@ -1577,6 +1577,8 @@ html.overlay-open {
   top: 100%;
   right: 0;
   left: 0;
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
 }
 .nav-sub1 a.active span, .nav-sub1 strong span {
   color: #ff7600;
