@@ -140,6 +140,10 @@ tasks:
     status:
       - '[ ${INSTALL_PICTURES_SCALE_PRECONDITIONS} != "True" ]'
 
+  pictures:scale:leipzig:
+    cmds:
+      - sizes="480 800 1200 1600 1980"; for i in $sizes; do convert resources/images/Leipzig.jpg -resize ${i}x resources/images/Leipzig_${i}.jpg; done
+
   track:commit-and-push-pictures:
     - git add {{.TARGET_DIR}}
     - task: track:commit-and-push
