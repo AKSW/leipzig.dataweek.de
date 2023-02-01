@@ -45,26 +45,42 @@ WHERE {
   {% include components/lang_switch.html mode="mobile" %}
   <nav class="nav-sitemap" aria-label="Mobilmenü">
     <ul>
-      <li class="{% if isEvent == true %}open{% endif %}">
-        <a class="{% if isEvent == true %}active{% endif %}" href="{{ event }}">
-          {{ str_events }}
-        </a>
-      </li>
-      <li class="{% if page.url == '/location' %}open{% endif %}">
-        <a class="{% if page.url == '/location' %}active{% endif %}" href="{% relative_link location.html %}.html">
-          {{ str_location }}
-        </a>
-      </li>
-      <li class="{% if page.url == '/orgateam' %}open{% endif %}">
-        <a class="{% if page.url == '/orgateam' %}active{% endif %}" href="{% relative_link orgateam.html %}.html">
-          {{ str_organizer }}
-        </a>
-      </li>
-      <li class="{% if page.url == '/news' %}open{% endif %}">
-        <a class="{% if page.url == '/news' %}active{% endif %}" href="{% relative_link news.html %}.html">
-          {{ str_news }}
-        </a>
-      </li>
+      {% if isEvent == true %}
+        <li class="open">
+          <strong aria-current="page"><span>{{ str_events }}</span></strong>
+        </li>
+      {% else %}
+        <li>
+          <a href="{{ event }}"><span>{{ str_events }}</span></a>
+        </li>
+      {% endif %}
+      {% if page.url == '/location' %}
+        <li class="open">
+          <strong aria-current="page"><span>{{ str_location }}</span></strong>
+        </li>
+      {% else %}
+        <li>
+          <a href="{% relative_link location.html %}.html"><span>{{ str_organizer }}</span></a>
+        </li>
+      {% endif %}
+      {% if page.url == '/orgateam' %}
+        <li class="open">
+          <strong aria-current="page"><span>{{ str_organizer }}</span></strong>
+        </li>
+      {% else %}
+        <li>
+          <a href="{% relative_link orgateam.html %}.html"><span>{{ str_organizer }}</span></a>
+        </li>
+      {% endif %}
+      {% if page.url == '/news' %}
+        <li class="open">
+          <strong aria-current="page"><span>{{ str_news }}</span></strong>
+        </li>
+      {% else %}
+        <li>
+          <a href="{% relative_link news.html %}.html"><span>{{ str_news }}</span></a>
+        </li>
+      {% endif %}
     </ul>
     <ul>
       <li>
