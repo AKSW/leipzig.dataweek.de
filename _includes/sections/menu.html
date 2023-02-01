@@ -60,12 +60,12 @@ WHERE {
         </li>
       {% else %}
         <li>
-          <a href="{% relative_link location.html %}.html"><span>{{ str_organizer }}</span></a>
+          <a href="{% relative_link location.html %}.html"><span>{{ str_location }}</span></a>
         </li>
       {% endif %}
       {% if page.url == '/orgateam' %}
         <li class="open">
-          <strong aria-current="page"><span>{{ str_organizer }}</span></strong>
+          <strong aria-current="page"><span>{{ str_location }}</span></strong>
         </li>
       {% else %}
         <li>
