@@ -1,0 +1,18 @@
+{% assign sponsors = rootResource | rdf_property: "schema:sponsor" %}
+{% assign sponsorsList = sponsors | rdf_container %}
+<div class="sponsors">
+  <h2>
+    <span>Data Week</span> {{ sponsors | rdf_property: "rdfs:label", site.language }}
+  </h2>
+  <ul>
+    {% for sponsor in sponsorsList %}
+      <li>
+        <a href="{{ sponsor | rdf_property: "foaf:homepage" }}">
+          {% assign imageResource = sponsor | rdf_property: "foaf:logo" %}
+          {% assign alt = sponsor | rdf_property: "foaf:homepage" | append: " logo" %}
+          {% include components/img.html resource=imageResource simple=true alt=alt %}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

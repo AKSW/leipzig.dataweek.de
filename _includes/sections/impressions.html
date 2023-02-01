@@ -1,0 +1,36 @@
+
+<div class="grid">
+  <div class="grid-8">
+    <h2 class="no-space-bottom">
+      {% if site.language == 'en' %}
+        Impressions of the Data Week <span>2022</span>
+      {% else %}
+        Impressionen der Data Week <span>2022</span>
+      {% endif %}
+    </h2>
+    <p>
+      {% if site.language == 'en' %}
+      An exciting week of events for startups, students as well as representatives from science, administration and industry with more than 340 participants at the New City Hall Leipzig.<br/>
+      The week-long event at Leipzig's New Town Hall brought together stakeholders from business, science and administration over five days of events. What all participants from various disciplines had in common was an interest in topics of digitization, data and artificial intelligence. Commenting on this interdisciplinarity, Dr. Sebastian Tramp, CTO of eccenca GmbH, said, "With Data Week, we are broadening our scope from a purely academic event to one that can really interest everyone." The conference week was characterized by varied exchange and networking opportunities. Many presentations, workshops and discussion panels were organized. Furthermore, Data Week Leipzig opened on July 4, 2022 with the exciting keynote presentation "Of Errors in Data and Errors in Thinking" by Stefan Holtel (Curator for Digital Transformation at PricewaterhouseCoopers GmbH). All slides and presentations can be found on the Data Week 2022 website:
+      {% else %}
+        Eine spannende Veranstaltungswoche für Startups, Studierende sowie Vertreterinnen aus Wissenschaft, Verwaltung und Industrie mit mehr als 340 Teilnehmenden im Neuen Rathaus Leipzig.
+        <br />
+        Die einwöchige Veranstaltung im Neuen Rathaus Leipzig hat Akteure aus der Wirtschaft, Wissenschaft und Verwaltung an fünf Veranstaltungstagen zusammengebracht. Was alle Beteiligten aus den verschiedenen Disziplinen gemeinsam hatten, war das Interesse an den Themen Digitalisierung, Daten und Künstliche Intelligenz. Zu dieser Interdisziplinarität kommentierte Dr. Sebastian Tramp, CTO der eccenca GmbH: „Mit der Data Week verbreitern wir unseren Scope von einer rein akademischen Veranstaltung zu einer Veranstaltung, die wirklich alle interessieren kann.“ Die Konferenzwoche war geprägt von abwechslungsreichen Austausch- und Netzwerkmöglichkeiten. Des Weiteren wurden viele interessante Präsentationen, Workshops und Diskussionsrunden organisiert und durchgeführt. Weiterhin wurde die Data Week Leipzig am 4. Juli 2022 mit der spannenden Keynote Präsentation “Von Fehlern in Daten und Fehlern im Denken” von Stefan Holtel (Kurator für digitalen Wandel bei der PricewaterhouseCoopers GmbH) eröffnet.
+        Alle Folien und Präsentationen sind auf der Data Week 2022 Website zu finden:
+      {% endif %}
+    </p>
+    <p>
+       <a class="btn" href="https://2022.dataweek.de/">Data Week 2022</a>
+    </p>
+  </div>
+</div>
+<div class="breakout">
+  <div class="grid">
+    <div class="grid-7">
+      {% include components/slider.html %}
+    </div>
+    <div class="grid-5">
+      {% include components/video.html %}
+    </div>
+  </div>
+</div>

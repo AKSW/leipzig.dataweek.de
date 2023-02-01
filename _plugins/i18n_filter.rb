@@ -1,7 +1,6 @@
 require 'i18n'
 
-#LOCALE = :lv # set your locale
-LOCALE = :de # set your locale
+LOCALE = :de # set your fallback locale
 
 # Create folder "_locales" and put some locale file from https://github.com/svenfuchs/rails-i18n/tree/master/rails/locale
 module Jekyll
@@ -13,7 +12,7 @@ module Jekyll
       load_translations(language)
       format = (format =~ /^:(\w+)/) ? $1.to_sym : format
       if !input.is_a?(Date)
-        input = Date.parse(input)
+        input = Date.parse(input.to_s)
       end
       I18n.l input, :format => format
     rescue
@@ -27,7 +26,12 @@ module Jekyll
         if language
           I18n.locale = language
         else
-          I18n.locale = LOCALE
+          if @context.registers[:site].config.has_key?("language")
+            puts "use config language: " + @context.registers[:site].config["language"]
+            I18n.locale = @context.registers[:site].config["language"]
+          else
+            I18n.locale = LOCALE
+          end
         end
       end
     end

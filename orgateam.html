@@ -1,0 +1,123 @@
+---
+layout: basic
+---
+{% assign rootResource = site.rootResource | rdf_get %}
+{% assign teams = rootResource | rdf_property: "schema:organizer", nil, true %}
+{% capture affiliations_query %}
+SELECT distinct ?affiliation
+WHERE {
+  <{{ rootResource }}> schema:organizer ?team .
+  ?team ?p ?person .
+
+  ?person foaf:name ?person_name .
+
+  OPTIONAL {
+      Select distinct ?person ?affiliation where {
+      {
+          ?person a schema:Person ;
+            schema:affiliation ?affiliation .
+          optional {
+            FILTER(langMatches(lang(?l), "en"))
+          }
+      } union
+      {
+          ?person a schema:Person ;
+            schema:memberOf ?affiliation .
+          optional {
+            FILTER(langMatches(lang(?l), "en"))
+          }
+      } }
+  }
+  Filter ( ?affiliation != <https://connectedurbantwins.de/> && ?affiliation !=  <http://aksw.org/Group>  )
+}
+order by ?person_name
+{% endcapture %}
+
+{% capture persons_query %}
+SELECT distinct ?person ?role_name
+WHERE {
+  <{{ rootResource }}> schema:organizer ?team .
+  ?team ?p ?person .
+
+  ?person foaf:name ?person_name .
+
+  OPTIONAL {
+      Select distinct ?person ?role_name where {
+          ?person a schema:Person ;
+            <https://dataweek.de/#role> ?role .
+          ?role rdfs:label ?role_name .
+
+    	FILTER(langMatches(lang(?role_name), "{{ site.language }}"))
+    }
+  }
+}
+order by ?person_name
+{% endcapture %}
+
+<div class="contact">
+  <ul class="logos">
+    {% assign affiliations = rootResource | sparql_query: affiliations_query %}
+    {% for affiliation in affiliations %}
+      {% assign depiction = affiliation.affiliation | rdf_property: "site:small_logo" %}
+      {% unless depiction %}
+        {% assign depiction = affiliation.affiliation | rdf_property: "foaf:logo" %}
+      {% endunless %}
+      {% assign affiliation_label = affiliation.affiliation | rdf_property: "rdfs:label" %}
+      <li>
+        {% if depiction %}
+            <a href="{{ affiliation.affiliation }}">
+              {% include components/img.html alt=affiliation_label resource=depiction simple=true %}
+            </a>
+        {% else %}
+          <p>
+            {{ affiliation_label }}
+          </p>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+{% assign persons = rootResource | sparql_query: persons_query %}
+<div class="content-header">
+  <h1>
+    {% if site.language == 'en' %}
+      General Chair
+    {% else %}
+      General Chair
+    {% endif %}
+  </h1>
+</div>
+<div class="contact-list">
+  <ul>
+    {% for person in persons %}
+      {% assign role = person.person | rdf_property: "<https://dataweek.de/#role>" %}
+      {% if role %}
+        <li>
+          {% include components/person.html organizer=person.person %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+<div class="content-header">
+  <h1>
+    {% if site.language == 'en' %}
+      DataWeek Team
+    {% else %}
+      DataWeek Team
+    {% endif %}
+  </h1>
+</div>
+<div class="contact-list">
+  <ul>
+    {% for person in persons %}
+      {% assign role = person.person | rdf_property: "<https://dataweek.de/#role>" %}
+      {% if role %}
+      {% else %}
+        <li>
+          {% include components/person.html organizer=person.person %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

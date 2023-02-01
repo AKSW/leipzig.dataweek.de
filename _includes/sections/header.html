@@ -1,0 +1,30 @@
+{% assign rootResource = site.rootResource | rdf_get %}
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="page-logo">
+      <a href="{{ rootResource.page_url | relativize_url }}" title="">
+        <p class="title">
+          Data Week Leipzig <span>2023</span> <strong>{{ rootResource | rdf_property: "schema:date" }}</strong>
+        </p>
+      </a>
+      <p class="claim">
+        {{ rootResource | rdf_property: "schema:slogan", site.language }}
+      </p>
+    </div>
+    {% include components/lang_switch.html mode="desktop" %}
+    <a href="index.html#navigation" class="hamburger" id="hamburger" data-label-open="Menü öffnen" data-label-close="Menü schließen"
+      data-text-open="&lt;svg role='img' focusable='false' aria-hidden='true' height='42' width='42'&gt;&lt;use xlink:href='/resources/images/icons.svg#hamburger'&gt;&lt;/use&gt;&lt;/svg&gt;&lt;span&gt;Menü&lt;/span&gt;"
+      data-text-close="&lt;svg role='img' focusable='false' aria-hidden='true' height='42' width='42'&gt;&lt;use xlink:href='/resources/images/icons.svg#close'&gt;&lt;/use&gt;&lt;/svg&gt;" data-focus-helper-text="zum Anfang des Menüs springen">
+      <svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
+        <use xlink:href="/resources/images/icons.svg#hamburger"></use>
+      </svg>
+      <span>
+        {% if site.language == 'en' %}
+          open menu
+        {% else %}
+          zum Menü
+        {% endif %}
+      </span>
+    </a>
+  </div>
+</header>

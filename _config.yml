@@ -19,17 +19,19 @@ kramdown:
 
 plugins:
   - jekyll-rdf
+
 exclude:
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - package.json
-  - package-lock.json
-  - webpack.config.js
   - src
+  - todo.md
+  - Taskfile.yml
+  - README.md
+  - docu
+
 jekyll_rdf:
-  path: "site.nt"
-  restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"https://2023.dataweek.de/\") }"
+  path: "graph.nt"
+  restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"dataweek.de\") }"
   class_template_mappings:
-    "http://xmlns.com/foaf/0.1/Document" : "subpage.html"
+#    "http://xmlns.com/foaf/0.1/Document" : "basic.html"
     "http://schema.org/Event" : "event.html"

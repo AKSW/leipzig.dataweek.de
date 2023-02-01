@@ -1,0 +1,217 @@
+---
+layout: basic
+---
+{% assign rootResource = site.rootResource | rdf_get %}
+
+{% capture persons_query %}
+SELECT distinct ?person
+WHERE {
+  ?resourceUri schema:subEvent ?subEvent .
+  ?subEvent schema:subEvent ?session ;
+            rdfs:label ?eventTitle ;
+            schema:date ?date .
+  ?session schema:location ?location ;
+           schema:startTime ?session_start ;
+           schema:endTime ?session_end ;
+           dct:title ?session_name ;
+           schema:subEvent ?talk .
+  ?talk dct:title ?talk_title ;
+        schema:performer ?person ;
+        schema:startTime ?start ;
+        schema:endTime ?end .
+
+  OPTIONAL {
+    Select distinct ?person ?affiliation where {
+    {
+        ?person a <http://schema.org/Person> ;
+          schema:affiliation ?affiliation .
+    } union
+    {
+        ?person a <http://schema.org/Person> ;
+          schema:memberOf ?affiliation .
+    }}
+  }
+}
+order by ASC(?person)
+{% endcapture %}
+
+{% capture dates_query %}
+SELECT distinct ?ds WHERE {
+  ?rd a <https://dataweek.de/#RoomDay> ;
+  	schema:date ?ds .
+}  order by ASC(?ds)
+{% endcapture %}
+
+{% capture affiliations_query %}
+SELECT distinct ?al ?affiliation WHERE {
+  {
+    ?person a <http://schema.org/Person> ;
+      <http://xmlns.com/foaf/0.1/name> ?name ;
+      schema:affiliation ?affiliation .
+    ?event a schema:Event ;
+      schema:performer ?person .
+    ?affiliation rdfs:label ?al .
+
+    FILTER(langMatches(lang(?al), "{{ site.language }}"))
+  }
+  UNION
+  {
+  	?person a <http://schema.org/Person> ;
+      <http://xmlns.com/foaf/0.1/name> ?name ;
+      schema:memberOf ?affiliation .
+    ?event a schema:Event ;
+      schema:performer ?person .
+    ?affiliation rdfs:label ?al .
+
+    FILTER(langMatches(lang(?al), "{{ site.language }}"))
+  }
+}  order by ASC(lcase(?al))
+{% endcapture %}
+
+{% capture details1_query %}
+SELECT distinct (GROUP_CONCAT(distinct ?date;SEPARATOR=" ") as ?dates)
+WHERE {
+  <{{ rootResource }}> schema:subEvent ?subEvent .
+  ?subEvent schema:subEvent ?session ;
+            schema:date ?date .
+  ?session  schema:subEvent ?talk .
+  ?talk dct:title ?talk_title ;
+        schema:performer ?person .
+
+  filter (?person = ?resourceUri)
+}
+order by ASC(?person)
+{% endcapture %}
+
+{% capture details2_query %}
+SELECT distinct (GROUP_CONCAT(distinct ?affiliation;SEPARATOR=" ") as ?affiliations)
+WHERE {
+  <{{ rootResource }}> schema:subEvent ?subEvent .
+  ?subEvent schema:subEvent ?session .
+  ?session  schema:subEvent ?talk .
+  ?talk dct:title ?talk_title ;
+        schema:performer ?person .
+
+  OPTIONAL {
+      Select distinct ?person ?affiliation where {
+      {
+          ?person a schema:Person ;
+            schema:affiliation ?affiliation .
+      } union
+      {
+          ?person a schema:Person ;
+            schema:memberOf ?affiliation .
+      } }
+  }
+
+  filter (?person = ?resourceUri)
+}
+order by ASC(?person)
+{% endcapture %}
+
+<script type="text/javascript">
+  function filterSpeakers() {
+    var affiliation = document.getElementById("speaker_form-select_affiliation").value;
+    var date = document.getElementById("speaker_form-select_date").value;
+    var ul = document.getElementById("speaker_ul_list");
+
+    if (!affiliation && !date) {
+      for (let li of ul.children) {
+        li.style.display = "";
+      }
+      return;
+    }
+
+    for (let li of ul.children) {
+      var local_affiliations = li.attributes["data-affiliations"].value;
+      var local_dates = li.attributes["data-dates"].value;
+
+      var show = true;
+      if (affiliation) {
+        if (local_affiliations.indexOf(affiliation) === -1)
+          show = false;
+      }
+
+      if (show && date) {
+        if (local_dates.indexOf(date) === -1)
+          show = false;
+      }
+
+      if (!show)
+        li.style.display = "none";
+      else
+        li.style.display = "";
+    }
+  }
+</script>
+
+<div class="content-header">
+  <h1>
+    {% if site.language == 'en' %}
+      Our speakers
+    {% else %}
+      Unsere Vortragende
+    {% endif %}
+  </h1>
+  <p>
+    {{ rootResource | rdf_property: "schema:abstract", site.language }}
+  </p>
+  <form class="filter" action="#">
+    <div>
+      <label for="form-select1" class="hideme">Affiliation</label>
+      <select class="form-control" id="speaker_form-select_affiliation">
+        <option value="">
+          {% if site.language == 'en' %}
+            Choose affiliation
+          {% else %}
+            Affiliation wählen
+          {% endif %}
+        </option>
+        {% assign affiliations = rootResource | sparql_query: affiliations_query %}
+        {% for a in affiliations %}
+          <option value="{{ a.affiliation }}">
+            {{ a.al }}
+          </option>
+        {% endfor %}
+      </select>
+      <label for="speaker_form-select_date" class="hideme">Tag</label>
+      <select class="form-control" id="speaker_form-select_date">
+        <option value="">
+          {% if site.language == 'en' %}
+            Choose day
+          {% else %}
+            Tag wählen
+          {% endif %}
+        </option>
+        {% assign dates = rootResource | sparql_query: dates_query %}
+        {% for day in dates %}
+          <option value="{{ day.ds }}">
+            {{ day.ds }}
+          </option>
+        {% endfor %}
+      </select>
+      <button onclick="filterSpeakers()">
+        {% if site.language == 'en' %}
+          Filter speakers
+        {% else %}
+          Vortragende filtern
+        {% endif %}
+      </button>
+    </div>
+  </form>
+</div>
+<div class="contact-list">
+  <ul id="speaker_ul_list">
+    {% assign persons = rootResource | sparql_query: persons_query %}
+    {% for p in persons %}
+      {% assign details1 = p.person | sparql_query: details1_query %}
+      {% assign date = details1 | first %}
+      {% assign details2 = p.person | sparql_query: details2_query %}
+      {% assign affiliations = details2 | first %}
+
+      <li data-dates="{{ date.dates }}" data-affiliations="{{ affiliations.affiliations }}">
+        {% include components/person.html organizer=p.person  %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>

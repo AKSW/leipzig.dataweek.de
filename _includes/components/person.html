@@ -1,0 +1,63 @@
+{% assign organizer = include.organizer %}
+{% capture name %}{% include components/label.html iri = organizer.iri %}{% endcapture %}
+{% assign homepage = organizer | rdf_property: "foaf:homepage" %}
+{% assign depiction = organizer | rdf_property: "foaf:depiction" %}
+{% assign affiliations = organizer | rdf_property: "schema:affiliation", nil, true %}
+{% assign groups_foaf = organizer | rdf_property: "foaf:member", nil, true %}
+{% if groups_foaf %}
+    {% assign affiliations = affiliations | concat: groups_foaf %}
+{% endif %}
+{% assign groups_schema = organizer | rdf_property: "schema:memberOf", nil, true %}
+{% if groups_schema %}
+    {% assign affiliations = affiliations | concat: groups_schema %}
+{% endif %}
+{% assign size = include.size %}
+{% unless size %}
+  {% assign size = 3 %}
+{% endunless %}
+{% assign role = organizer | rdf_property: "<https://2023.dataweek.de/#role>" | rdf_property: "rdfs:label" %}
+
+<div class="contact">
+    <h{{ size }} style="margin-bottom: 0em!important;">
+      {{ name }}
+    </h{{ size }}>
+    {% if role %}
+      <strong>
+        {{ role }}
+      </strong>
+    {% endif %}
+    <figure>
+      {% if depiction %}
+        {% include components/img.html alt=name src=depiction %}
+        <noscript>
+          <img src="{{ depiction | relativize_url }}" alt="{{ name }}">
+        </noscript>
+      {% else %}
+          {% include components/img.html alt=name src="/resources/files/generated/user_1200.png" %}
+          <noscript>
+            <img src="{% relative_link /resources/files/generated/user_1200.png %}" alt="{{ name }}">
+          </noscript>
+      {% endif %}
+    </figure>
+
+    <ul class="logos">
+      {% for affiliation in affiliations %}
+        {% assign depiction = affiliation | rdf_property: "site:small_logo" %}
+        {% unless depiction %}
+          {% assign depiction = affiliation | rdf_property: "foaf:logo" %}
+        {% endunless %}
+        {% assign affiliation_label = affiliation | rdf_property: "rdfs:label" %}
+        <li>
+          {% if depiction %}
+              <a href="{{ affiliation }}">
+                {% include components/img.html alt=affiliation_label resource=depiction simple=true %}
+              </a>
+          {% else %}
+            <p>
+              {{ affiliation_label }}
+            </p>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+</div>

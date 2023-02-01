@@ -1,133 +1,156 @@
 version: '3'
 
-output:
-  group:
-    begin: '::group::{{.TASK}}'
-    end: '::endgroup::'
-
 vars:
-  PAGE_GRAPH: graph
-  PROGRAM_GRAPH: program
-  SITE_GRAPH: site
-  CMEM: aksw.eccenca.dev
-  WORKFLOW: 54b8da6d-1c3b-4c84-9268-3e456165b9ad_Programm:238cc3fb-389b-439c-9b7b-d492305db2d3_ProgrammTransformation
-  PAGE_GRAPH_IRI: https://dataweek.de/
-  PROGRAM_GRAPH_IRI: https://dataweek.de/programm
+  MODEL_REPO: git@github.com:AKSW/leipzig.dataweek.de-model.git
+  GRAPH_FILE: graph
+  GRAPH_IRI:
+    sh: cat {{.GRAPH_FILE}}.nt.graph || echo none
+
   GIT_USER_NAME: DataWeek CMEM Update Bot 🤖
   GIT_USER_EMAIL: dw-cmem-update-bot@example.org
   GIT_COMMIT_MESSAGE: Update from CMEM
+
   WORKING_DIRECTORY: '{{.github.workspace | default .PWD}}'
-  CMEMC_VERSION: v21.11.4
-  CMEMC_IMAGE: docker-registry.eccenca.com/eccenca-cmemc:{{.CMEMC_VERSION}}
-  CMEMC_DOCKER: docker run -i --rm -e "CMEM_BASE_URI=https://aksw.eccenca.dev/" -e "OAUTH_CLIENT_SECRET={{.OAUTH_CLIENT_SECRET}}" -v {{.WORKING_DIRECTORY}}:/data {{.CMEMC_IMAGE}}
-  CMEMC: '{{.CMEMC_LOCAL | default .CMEMC_DOCKER}}'
   ID_UID:
     sh: id -u
   ID_GID:
     sh: id -g
+
   JEKYLL_UID: '{{.JEKYLL_UID | default .ID_UID}}'
   JEKYLL_GID: '{{.JEKYLL_GID | default .ID_GID}}'
+  JEKYLL_USER_ARG:
+    sh: '[ $(docker info --format "{{`{{if .Host.Security.Rootless}}true{{end}}`}}") = "true" ] || echo -u "{{.JEKYLL_UID}}:{{.JEKYLL_GID}}"'
+  JEKYLL_IMAGE: ghcr.io/aksw/jekyll-rdf:4.0.3
+
+  LANGUAGE: '{{.LANGUAGE | default "de"}}'
+
+  TARGET: '{{.TARGET | default "_site"}}'
+  TARGET_TMP_DE: '{{.TARGET_DE | default "_tmp/de"}}'
+  TARGET_TMP_EN: '{{.TARGET_DE | default "_tmp/en"}}'
+  TARGET_DE: '{{.TARGET_DE | default .TARGET}}'
+  TARGET_EN: '{{.TARGET_EN | default "_site/en"}}'
 
 tasks:
 
   default:
-    - task: normalize_turtle
-    - task: get_program
-    - task: sync_clean
-    - task: styles
-    - task: build_de
-    - task: build_en
+    desc: List all tasks
+    cmds:
+      - task -a
 
   ci:
-    - task: install_javascript_dependencies
-    - task: styles
-    - task: build_docker_de
-    - task: build_docker_en
+    desc: Build tasks for the CI
+    cmds:
+      - task: sync-data
+      - task: track:commit-and-push-data
+      - task: build
 
-  ci_data_sync:
-    - task: get_program
-    - task: upload_page
-    - task: sync_sources_to_site
-    - task: commit_and_push_data
+  sync-data:
+    desc: Synchronize the data in the CI
+    cmds:
+      - task: sync-data:get-graph
+
+  build:
+    desc: Build the page locally
+    deps:
+      - task: build:de
+      - task: build:en
+    cmds:
+      - test -d _site && rm -r _site || true
+      - mv {{.TARGET_TMP_DE}} {{.TARGET_DE}}
+      - mv {{.TARGET_TMP_EN}} {{.TARGET_EN}}
+
+  watch:
+    desc: Serve the page and rebuild it on changes
+    deps:
+      - task: serve
+      - task: build:watch
+    cmds:
+      - echo "Terminate"
+
+  build:watch:
+    desc: Watch for changes in the directory and rebuild the page, should be combined with task serve in a second terminal
+    cmds:
+      - find . -name '*' | entr task build
 
   serve:
-    - python -m http.server --directory _site
-
-  styles:
-    - npx webpack
-
-  build_de:
+    desc: Serve the locally built site
     cmds:
-      - bundle exec jekyll build -d _site
-    env:
-      JEKYLL_LANGUAGE: de
+      - python -m http.server --directory {{.TARGET}}
 
-  build_en:
+  build:de:
     cmds:
-      - bundle exec jekyll build -d _site/en
-    env:
-      JEKYLL_LANGUAGE: en
+      - task: build:docker
+        vars:
+          LANGUAGE: de
+          TARGET: '{{.TARGET_TMP_DE}}'
 
-  build_docker_de:
-    - task: build_docker
-      vars:
-        LANGUAGE: de
-        TARGET: _site
+  build:en:
+    cmds:
+      - task: build:docker
+        vars:
+          LANGUAGE: en
+          TARGET: '{{.TARGET_TMP_EN}}'
 
-  build_docker_en:
-    - task: build_docker
-      vars:
-        LANGUAGE: en
-        TARGET: _site/en
-
-  build_docker:
+  build:docker:
     - |
       docker run --rm \
       --workdir /github/workspace \
       -v {{.WORKING_DIRECTORY}}:/github/workspace \
-      -e TZ=Europe/Berlin -e JEKYLL_UID="{{.JEKYLL_UID}}" -e JEKYLL_GID="{{.JEKYLL_GID}}" -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
-      jekyll/builder jekyll build -d {{.TARGET}}
+      -e TZ=Europe/Berlin {{.JEKYLL_USER_ARG}} -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
+      {{.JEKYLL_IMAGE}} jekyll build -d {{.TARGET}}
 
-  sync_clean:
-    - rapper -i turtle -o ntriples {{.PAGE_GRAPH}}.ttl | LC_ALL=C sort -u > {{.PAGE_GRAPH}}.nt
-    - task: sync_sources_to_site
+  sync-data:get-graph:
+    deps:
+      - sync-data:model-update
+    cmds:
+      - cp .model/{{.GRAPH_FILE}}.nt {{.GRAPH_FILE}}.nt
+      - cp .model/{{.GRAPH_FILE}}.nt.graph {{.GRAPH_FILE}}.nt.graph
+      - echo {{.MODEL_REPO}} > {{.GRAPH_FILE}}.nt.source
+      - cd .model && git rev-parse HEAD >> ../{{.GRAPH_FILE}}.nt.source
 
-  sync_sources_to_site:
-    - cat {{.PAGE_GRAPH}}.nt {{.PROGRAM_GRAPH}}.nt | LC_ALL=C sort -u > {{.SITE_GRAPH}}.nt
+  sync-data:model-update:
+    deps:
+      - sync-data:model-init
+    cmds:
+      - cd .model && git pull
 
-  get_program:
-    - '{{.CMEMC}} workflow execute --wait {{.WORKFLOW}}'
-    - '{{.CMEMC}} graph export {{.PROGRAM_GRAPH_IRI}} | LC_ALL=C sort -u > {{.PROGRAM_GRAPH}}.nt'
+  sync-data:model-init:
+    cmds:
+      - git clone {{.MODEL_REPO}} .model
+    status:
+      - test -d .model
 
-  upload_page:
-    - '{{.CMEMC}} graph import --replace {{.PAGE_GRAPH}}.ttl {{.PAGE_GRAPH_IRI}}'
+  pictures:scale:
+    deps:
+      - task: pictures:scale:preconditions
+    vars:
+      PICTURE_SIZE: 480
+      SOURCE_DIR: resources/images/people_raw
+      TARGET_DIR: resources/images/people
+    cmds:
+      - for i in {{.SOURCE_DIR}}/* ; do mkdir -p {{.TARGET_DIR}}; test -f "{{.TARGET_DIR}}/$(basename $i)" && echo "skip {{.TARGET_DIR}}/$(basename $i)" || smartcrop --width {{.PICTURE_SIZE}} --height {{.PICTURE_SIZE}} -i "$i" -o "{{.TARGET_DIR}}/$(basename $i)"; done
+      - task: track:commit-and-push-pictures
+        vars:
+          TARGET_DIR: '{{.TARGET_DIR}}'
 
-  commit_and_push_data:
-    - |
-      git config user.name "{{.GIT_USER_NAME}}"
-      git config user.email "{{.GIT_USER_EMAIL}}"
-      git add {{.SITE_GRAPH}}.nt {{.PROGRAM_GRAPH}}.nt
-      git commit -m "{{.GIT_COMMIT_MESSAGE}}" || echo ""
-      git push || echo ""
+  pictures:scale:preconditions:
+    cmds:
+      - pip install opencv-python
+      - pip install git+https://github.com/epixelic/python-smart-crop
+    status:
+      - '[ ${INSTALL_PICTURES_SCALE_PRECONDITIONS} != "True" ]'
 
-  normalize_turtle:
-    - |
-      rapper -i turtle -o turtle \
-        -f 'xmlns:xsd="http://www.w3.org/2001/XMLSchema#"' \
-        -f 'xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"' \
-        -f 'xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"' \
-        -f 'xmlns:owl="http://www.w3.org/2002/07/owl#"' \
-        -f 'xmlns:dct="http://purl.org/dc/terms/"' \
-        -f 'xmlns:skos="http://www.w3.org/2004/02/skos/core#"' \
-        -f 'xmlns:schema="http://schema.org/"' \
-        -f 'xmlns:foaf="http://xmlns.com/foaf/0.1/"' \
-        -f 'xmlns:ecc-ns="https://ns.eccenca.com/"' \
-        -f 'xmlns:site="http://ns.ontowiki.net/SysOnt/Site/"' \
-        -f 'xmlns:orp="https://www.openresearch.org/wiki/Property:"' \
-        -f 'xmlns:aksw="http://aksw.org/"' \
-        -f 'xmlns:dw="https://dataweek.de/#"' \
-        -f 'xmlns:gnd="https://d-nb.info/standards/elementset/gnd#"' \
-        {{.PAGE_GRAPH}}.ttl | sponge {{.PAGE_GRAPH}}.ttl
+  track:commit-and-push-pictures:
+    - git add {{.TARGET_DIR}}
+    - task: track:commit-and-push
+      vars:
+        GIT_COMMIT_MESSAGE: Update Pictures
 
-  install_javascript_dependencies:
-    - npm install
+  track:commit-and-push-data:
+    - git add {{.GRAPH_FILE}}.nt {{.GRAPH_FILE}}.nt.graph {{.GRAPH_FILE}}.nt.source
+    - task: track:commit-and-push
+
+  track:commit-and-push:
+    cmds:
+      - git -c user.name="{{.GIT_USER_NAME}}" -c user.email="{{.GIT_USER_EMAIL}}" commit -m "{{.GIT_COMMIT_MESSAGE}}" || echo ""
+      - git push || echo ""

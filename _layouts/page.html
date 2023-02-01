@@ -2,99 +2,127 @@
 ---
 <!doctype html>
 <html lang="{{ site.language }}" prefix="og: http://ogp.me/ns#">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    {% assign rootResource = site.rootResource | rdf_get %}
 
-    {% assign title = page.rdf | rdf_property: "rdfs:label", site.language %}
-    {% assign slogan = page.rdf | rdf_property: "schema:slogan", site.language | strip %}
-    {% assign abstract = page.rdf | rdf_property: "schema:abstract", page.language | markdownify | strip_html | strip %}
-    {% assign description = page.rdf | rdf_property: "dct:description", page.language | markdownify | strip_html | strip %}
-    {% assign logo = page.rdf | rdf_property: "schema:logo" %}
-    {% assign root_title = rootResource | rdf_property: "rdfs:label", page.language %}
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    {% if title %}
-    {% assign media_title = title %}
-    {% assign media_slogan = slogan %}
-    {% else %}
-    {% assign media_title = root_title %}
-    {% assign media_slogan = rootResource | rdf_property: "schema:slogan", site.language %}
-    {% endif %}
+  {% assign rootResource = site.rootResource | rdf_get %}
 
+  {% assign title = page.rdf | rdf_property: "rdfs:label", site.language %}
+  {% assign slogan = page.rdf | rdf_property: "schema:slogan", site.language | strip %}
+  {% assign abstract = page.rdf | rdf_property: "schema:abstract", page.language | markdownify | strip_html | strip %}
+  {% assign description = page.rdf | rdf_property: "dct:description", page.language | markdownify | strip_html | strip %}
+  {% assign logo = page.rdf | rdf_property: "schema:logo" %}
+  {% assign root_title = rootResource | rdf_property: "rdfs:label", page.language %}
 
-    {% if abstract != nil and abstract != '' %}
-    {% assign media_description = abstract %}
-    {% endif %}
+  <title>
+    Data Week Leipzig 2023 | Startseite
+  </title>
 
-    {% unless media_description %}
-    {% if description != nil and description != '' %}
-    {% assign media_description = description %}
-    {% endif %}
-    {% endunless %}
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+  </script>
+  <script src="/resources/js/base.js" defer></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="/resources/css/base.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https:\/\/schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/example.com\/index.html",
+          "name": "Startseite"
+        }
+      }]
+    }
+  </script>
 
-    {% unless media_description %}
-    {% if slogan != nil and slogan != '' %}
-    {% assign media_description = slogan %}
-    {% endif %}
-    {% endunless %}
+  <style>
+    :root {
+      --mark-before: ' [Start der Markierung] ';
+      --mark-after: ' [Ende der Markierung] ';
+      --del-before: ' [Start von Gelöscht] ';
+      --del-after: ' [Ende von Gelöscht] ';
+      --ins-before: ' [Start von Eingefügt] ';
+      --ins-after: ' [Ende von Eingefügt] ';
+      --s-before: ' [Start von Durchgestrichen] ';
+      --s-after: ' [Ende von Durchgestrichen] ';
+    }
+  </style>
 
-    {% unless media_description %}
-    {% assign root_abstract = rootResource | rdf_property: "schema:abstract", page.language | markdownify | strip_html | strip %}
-    {% if root_abstract != nil and root_abstract != '' %}
-    {% assign media_description = root_abstract %}
-    {% endif %}
-    {% endunless %}
+</head>
 
-    {% unless media_description %}
-    {% assign root_description = rootResource | rdf_property: "dct:description", page.language | markdownify | strip_html | strip %}
-    {% if root_description != nil and root_description != '' %}
-    {% assign media_description = root_description %}
-    {% endif %}
-    {% endunless %}
+<body>
 
-    {% unless media_description %}
-    {% assign root_slogan = rootResource | rdf_property: "schema:slogan", site.language %}
-    {% if root_slogan != nil and root_slogan != '' %}
-    {% assign media_description = root_slogan %}
-    {% endif %}
-    {% endunless %}
+  <style>
+    .contact ul.logos img {
+      width: 4.5rem!important;
+      height: auto!important;
+    }
+  </style>
 
+  {{ content }}
 
-    {% if logo != nil and logo != '' %}
-    {% assign media_logo = logo %}
-    {% else %}
-    {% assign media_logo = rootResource | rdf_property: "schema:logo" %}
-    {% endif %}
+  <script>
+    var base = {
+      'btnArrow': ''
+    }
+  </script>
+  <script>
+    /* Lightbox */
+    var lightbox = {
+      'ariaLabel': 'Fenster vergrößerte Ansicht',
+      'prevText': 'zurück',
+      'prevSvg': '<svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="/resources/images/icons.svg#lightbox-prev"><\/use><\/svg>',
+      'nextText': 'weiter',
+      'nextSvg': '<svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="/resources/images/icons.svg#lightbox-next"><\/use><\/svg>',
+      'closeText': 'schließen (Esc)',
+      'closeSvg': '<svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="/resources/images/icons.svg#lightbox-close"><\/use><\/svg>',
+      'countText': '{CUR} von {SUM}',
+      'shareTilte': 'Bild teilen',
+      'shareHiddenText': 'Social-Media-Plattform auswählen',
+      'shareSvg': '<svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="/resources/images/icons.svg#lightbox-share"><\/use><\/svg>',
+      'shareTwitter': '<a data-href="https://www.twitter.com/share?url={IMAGE}" aria-label="Bild bei Twitter teilen." title="Twitter"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="/resources/images/socialmedia.svg#share-twitter"><\/use><\/svg><\/a>',
+      'shareFacebook': '<a data-href="https://www.facebook.com/sharer/sharer.php?u={IMAGE}" aria-label="Bild bei Facebook teilen." title="Facebook"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="/resources/images/socialmedia.svg#share-facebook"><\/use><\/svg><\/a>',
+      'sharePinterest': '<a data-href="https://pinterest.com/pin/create/link/?url={IMAGE}" aria-label="Bild bei Pinterest teilen." title="Pinterest"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="/resources/images/socialmedia.svg#share-pinterest"><\/use><\/svg><\/a>'
+    };
+  </script>
+  <script>
+    /* Swiper */
+    var swiper = {
+      'prev': '<svg focusable="false" aria-hidden="true" role="img" width="28px" height="28px"><use xlink:href="/resources/images/icons.svg#arrow-left"><\/use><\/svg>',
+      'prevTitle': 'vorheriger Eintrag',
+      'next': '<svg focusable="false" aria-hidden="true" role="img" width="28px" height="28px"><use xlink:href="/resources/images/icons.svg#arrow-right"><\/use><\/svg>',
+      'nextTitle': 'folgender Eintrag',
+      'firstTitle': 'erster Eintrag',
+      'lastTitle': 'letzter Eintrag',
+      'bulletTitle': 'gehe zu Eintrag {{index}}'
+    };
+  </script>
+  <script>
+    /* Leaflet */
+    var leaflet = {
+      'zoomInTitle': 'Karte vergrößern',
+      'zoomOutTitle': 'Karte verkleinern',
+      'closePopupLabel': 'Modalfester schließen',
+      'skipToControls': 'Zum Kartenfilter springen',
+      'skipToStart': 'Zum Anfang der Karte springen',
+      'skipToEnd': 'Zum Ende der Karte springen',
+      'fullScreenTitle': 'Karte in Bildschirmgröße anzeigen',
+      'fullScreenTitleCancel': 'Karte wieder in Normalansicht anzeigen',
+      'layerFilterLabel': 'Filter für Kartenmarker',
+      'layerBaseMap': 'Basiskarte',
+      'wakeMessage': 'Zum Aufwachen Maus über Karte bewegen.',
+      'wakeMessageTouch': 'Zum Aufwachen tippen.'
+    };
+  </script>
 
-    {% if media_logo.iri %}
-    {% assign media_logo = media_logo %}
-    {% else %}
-    {% assign media_logo = media_logo | relativize_url %}
-    {% endif %}
+  <script src="/resources/js/additional/px-consent.min.js"></script>
+  <link rel="stylesheet" type="text/css" media="print" href="/resources/css/print/print.css">
 
-    <title>{{ media_title }}</title>
-    <meta property="og:title" content="{{ media_title }}">
-    <meta name="twitter:title" content="{{ media_title }}">
+</body>
 
-    <meta name="description" content="{{ media_description }}">
-    <meta property="og:description" content="{{ media_description }}">
-    <meta name="twitter:description" content="{{ media_description }}">
-    <meta property="og:image" content="{{ media_logo }}">
-    <meta name="twitter:image" content="{{ media_logo }}">
-
-    <meta name="twitter:site" content="{{ site.twitter_username }}">
-
-    <meta property="og:type" content="article">
-    <meta name="twitter:card" content="summary">
-
-    <link rel="stylesheet" type="text/css" href="{% relative_link /dist/main.css %}" />
-
-  </head>
-  <body>
-    <div class="main-container">
-      {{ content }}
-    </div>
-    <script src="/dist/main.js" type="text/javascript"></script>
-  </body>
 </html>

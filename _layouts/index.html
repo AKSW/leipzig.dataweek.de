@@ -5,39 +5,20 @@ type: Event
 ---
 {% assign rootResource = site.rootResource | rdf_get %}
 
-<h1>{{ rootResource | rdf_property: "rdfs:label" }}</h1>
-<span class="subtitle">{{ rootResource | rdf_property: "schema:slogan", site.language }}</span>
-
-<div class="subtitle"><span class="date">{{ rootResource | rdf_property: "schema:date", site.language }}</span></div>
-
-<div>
-  <a href="{{ "/en" }}">English</a> |
-  <a href="{{ "/" }}">German</a>
+<a id="top"></a>
+<nav class="nav-first" aria-label="Sprunglinks">
+  <a href="index.html#inhalt">zum Inhalt</a> <a href="index.html#hilfsmenue">zum Hilfsmenü</a>
+</nav>
+{% include sections/header.html %}
+{% include sections/menu.html %}
+{% include sections/greeting.html %}
+<main class="page-main" aria-label="Inhalt" id="inhalt">
+  {{ content }}
+  {% include sections/impressions.html %}
+</main>
+{% include sections/footer.html %}
+<div class="toplink">
+  <a href="index.html#top" aria-label="zum Seitenanfang springen" title="zum Seitenanfang"><svg role="img" focusable="false" aria-hidden="true" viewbox="0 0 28 28" height="28" width="28">
+      <use xlink:href="/resources/images/icons.svg#button-toplink"></use>
+    </svg></a>
 </div>
-
-{{ content }}
-
-{% include sec_past_events.html %}
-
-{% include sec_impressions.html %}
-
-{% include sec_video.html %}
-
-{% comment %}
-{% include sec_week.html %}
-{% endcomment %}
-
-{% include sec_location.html event=rootResource %}
-
-{% include sec_team.html %}
-
-{% include sec_sponsors.html %}
-
-{% include sec_partner.html %}
-
-<h2></h2>
-<p>
-  <a href="https://infai.org/das-institut/impressum/">Impressum</a>
-  <a href="{% relative_link datenschutz.md %}.html">Datenschutz</a>
-  <a href="https://twitter.com/DataWeekLeipzig">Twitter</a>
-</p>

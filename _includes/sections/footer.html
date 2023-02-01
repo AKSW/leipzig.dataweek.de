@@ -1,0 +1,55 @@
+{% include strings.html %}
+<footer class="page-footer">
+  <div class="page-footer-inner">
+    <nav class="nav-meta" id="hilfsmenue" aria-label="Hilfsmenü">
+      <ul>
+        <li>
+          <a href="https://infai.org/das-institut/impressum/">{{ str_imprint }}</a>
+        </li>
+        <li>
+          <a href="{% relative_link datenschutz/index.md %}">{{ str_dataprotection }}</a>
+        </li>
+        <li>
+          <a href="{% relative_link contact/index.html %}">{{ str_contact }}</a>
+        </li>
+      </ul>
+    </nav>
+    <p class="socialmedia">
+      <a href="https://youtube.de/@dataweekleipzig">
+        <svg role="img" focusable="false" aria-hidden="true" height="28" width="42">
+          <use xlink:href="/resources/images/socialmedia.svg#youtube"></use>
+        </svg> @dataweekleipzig</a>
+      <a href="https://twitter.com/@DataWeekLeipzig">
+        <svg role="img" focusable="false" aria-hidden="true" height="28" width="42">
+          <use xlink:href="/resources/images/socialmedia.svg#twitter"></use>
+        </svg>@DataWeekLeipzig</a>
+      <a href="https://toot.io/@DataWeekLeipzig">
+        <svg role="img" focusable="false" aria-hidden="true" height="28" width="42">
+          <use xlink:href="/resources/images/socialmedia.svg#mastodon"></use>
+        </svg>@DataWeekLeipzig@toot.io</a>
+    </p>
+  </div>
+  <div class="page-footer-partner">
+    <h2>
+      {% if site.language == 'en' %}
+        In coorperation with:
+      {% else %}
+        In Kooperation mit:
+      {% endif %}
+    </h2>
+    <ul>
+      <li>
+        <a href="index.html#"><img src="/resources/files/logo-stadt-leipzig.png" alt="Logo Stadt Leipzg"></a>
+      </li>
+      <li>
+        <a href="index.html#"><img src="/resources/files/logo-cut.png" alt="Logo CUT"></a>
+      </li>
+      <li>
+        <a href="index.html#"><img src="/resources/files/logo-kmi.png" alt="Logo KMI"></a>
+      </li>
+      <li>
+        <a href="index.html#"><img src="/resources/files/logo-ogc.png" alt="Logo OGC"></a>
+      </li>
+    </ul>
+  </div>
+</footer>

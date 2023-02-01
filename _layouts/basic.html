@@ -1,0 +1,29 @@
+---
+rdf_prefix_path: _data/prefixes.sparql
+layout: page
+type: Document
+---
+{% assign rootResource = site.rootResource | rdf_get %}
+
+<a id="top"></a>
+<nav class="nav-first" aria-label="Sprunglinks">
+  <a href="index.html#inhalt">zum Inhalt</a> <a href="index.html#hilfsmenue">zum Hilfsmenü</a>
+</nav>
+{% include sections/header.html %}
+{% include sections/menu.html %}
+<main class="page-main" aria-label="Inhalt" id="inhalt">
+  {{ content }}
+</main>
+{% include sections/footer.html %}
+
+{% assign label1 = "zum Seitenanfang springen" %}
+{% assign label2 = "zum Seitenanfang" %}
+{% if site.language == 'en' %}
+  {% assign label1 = "jump to the top" %}
+  {% assign label2 = "To the top" %}
+{% endif %}
+<div class="toplink">
+  <a href="index.html#top" aria-label="{{ label1 }}" title="{{ label2 }}"><svg role="img" focusable="false" aria-hidden="true" viewbox="0 0 28 28" height="28" width="28">
+      <use xlink:href="/resources/images/icons.svg#button-toplink"></use>
+    </svg></a>
+</div>

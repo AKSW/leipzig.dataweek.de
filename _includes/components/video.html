@@ -1,0 +1,69 @@
+<div class="ce-video" data-consent="" data-consent-name="youtube" data-consent-callback="pxConsentYoutube1">
+  <script>
+    window.pxConsentYoutube1 = function(consentElement, active) {
+      consentElement.innerHTML =
+        '<iframe title="Youtube-Video" src="https://www.youtube-nocookie.com/embed/LnNSeUo3-8o?modestbranding=0&amp;hl=de&amp;controls=1&amp;autoplay=0&amp;cc_load_policy=1&amp;loop=0&amp;iv_load_policy=1&amp;fs=1&amp;showinfo=0&amp;rel=0&amp;ap=%2526fmt%3D18&amp;playsinline=0&amp;version=3"><\/iframe>';
+      if (active === true) {
+        consentElement.querySelector('iframe').focus();
+      }
+    }
+  </script>
+  <div class="video-iframe" data-consent-ready="" style="padding-bottom: 56.25%;">
+    <figure class="video-cover" data-consent-preview="">
+      <img src="http://img.youtube.com/vi/LnNSeUo3-8o/maxresdefault.jpg" alt="@@"> <svg role="img" focusable="false" aria-hidden="true" height="28" width="42">
+        <use xlink:href="resources/images/socialmedia.svg#youtube"></use>
+      </svg>
+    </figure>
+  </div>
+  <div data-consent-form="">
+    <p id="px-consent-video-info-1">
+      {% if site.language == 'en' %}
+        This video is embedded from YouTube. By loading the video, you accept YouTube’s
+      {% else %}
+        Dieses Video ist von YouTube eingebettet. Durch laden diesen Videos, wird den YouTube-Regeln zugestimmt:
+      {% endif %}
+      <a href="index.html#">privacy policy</a>.
+    </p>
+    <form action="#">
+      <div>
+        <label>
+          <input type="checkbox" data-consent-form-setcookie="" name="setcookie" checked>
+          <span>
+            {% if site.language == 'en' %}
+              Always unlock YouTube
+            {% else %}
+              YouTube immer freigeben
+            {% endif %}
+            <br>
+            <small>
+              {% if site.language == 'en' %}
+                (save setting as cookie)
+              {% else %}
+                (Speichere Einstellung als Cookie)
+              {% endif %}
+            </small>
+          </span>
+        </label>
+        <br>
+        <button aria-describedby="px-consent-video-info-1" data-consent-form-button="">
+          {% if site.language == 'en' %}
+            Unlock now
+          {% else %}
+            Jetzt freigeben
+          {% endif %}
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+<p>
+  <strong>
+    <a href="https://www.youtube.com/watch?v=LnNSeUo3-8o">
+      {% if site.language == 'en' %}
+        Watch on YouTube
+      {% else %}
+        Direkt bei YouTube anschauen
+      {% endif %}
+    </a>
+  </strong>
+</p>

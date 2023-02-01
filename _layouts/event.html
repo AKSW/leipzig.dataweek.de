@@ -1,23 +1,124 @@
 ---
-rdf_prefix_path: _data/prefixes.sparql
-layout: subpage
-type: Event
+layout: basic
 ---
-{% assign title = page.rdf | rdf_property: "rdfs:label", site.language %}
-{% assign slogan = page.rdf | rdf_property: "schema:slogan", site.language %}
-<h1>{{title}}</h1>
-{% if slogan %}
-<span class="subtitle">{{ slogan }}</span>
+{% assign rootResource = site.rootResource | rdf_get %}
+{% capture eventsQuery %}
+  SELECT DISTINCT ?e ?date ?description ?title ?slogan
+  WHERE {
+    BIND("{{ site.language }}" as ?language)
+    #<https://2022.dataweek.de/> schema:subEvent ?e . # remove if model is clear
+    <{{ rootResource }}> schema:subEvent ?e . # uncomment if model is clear
+    ?e rdfs:label ?title ;
+    dct:description ?description ;
+    schema:date ?date .
+    OPTIONAL {
+      ?e schema:slogan ?slogan
+      FILTER(langMatches(lang(?slogan), ?language))
+    }
+    FILTER(langMatches(lang(?description), ?language))
+    FILTER(langMatches(lang(?title), ?language))
+  } ORDER BY ?date
+{% endcapture %}
+{% assign events = page.rdf | sparql_query: eventsQuery %}
+
+{% if site.language == "de" %}
+  {% assign mobileLabel = "Veranstaltung" %}
+  {% assign mobileHint = "Veranstaltung wählen" %}
+  {% assign orgateam = "Die Organisatoren" %}
+{% else %}
+  {% assign mobileLabel = "Event" %}
+  {% assign mobileHint = " Chose an event" %}
+  {% assign orgateam = "Organization Team" %}
 {% endif %}
 
-<div class="subtitle"><span class="date">{{ page.rdf | rdf_property: "schema:date" }}</span></div>
+<div class="content-header">
+  <h1>
+    {% if site.language == "de" %}
+      Die Veranstaltungen
+    {% else %}
+      Events
+    {% endif %}
+  </h1>
+  <form class="filter only-small-screens" action="#">
+    <div>
+      <label for="events_form-select" class="hideme">
+        {{ mobileLabel }}
+      </label> <select class="form-control" id="events_form-select">
+        <option value="">
+          {{ mobileHint }}
+        </option>
+        {% for event in events %}
+          {% assign weekday = event.date | localize: "%a" %}
+          {% assign eventShortName = event.e | replace: "https://2023.dataweek.de/", "" | replace: "/", "" %}
+          {% assign slug = event.e | rdf_property: "dw:slug" %}
+          <option value="{{ event.e.page_url | relativize_url }}">
+            {{ slug | default: eventShortName }} - {{ weekday }}, {{ event.date }}
+          </option>
+        {% endfor %}
+      </select> <button type="button" onclick="showEvent()">Anzeigen</button>
+    </div>
+  </form>
+  <nav class="nav-sub1" aria-label="Untermenü Stufe 1">
+    <ul>
+    {% for event in events %}
+      {% assign weekday = event.date | localize: "%a" %}
+      {% assign shortdate = event.date | localize: "%d.%m." %}
+      {% assign eventShortName = event.e | replace: "https://2023.dataweek.de/", "" | replace: "/", "" %}
+      {% assign slug = event.e | rdf_property: "dw:slug" %}
+      {% if event.e == page.rdf %}
+        <li class="open">
+          <a class="active" href="{{ event.e.page_url | relativize_url }}"><span>{{ weekday }}, {{ shortdate }}</span>{{ slug | default: eventShortName }}</a>
+      {% else %}
+        <li>
+          <a href="{{ event.e.page_url | relativize_url }}"><span>{{ weekday }}, {{ shortdate }}</span>{{ slug | default: eventShortName }}</a>
+      {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  </nav>
+</div>
 
-<p>{{ page.rdf | rdf_property: "dct:description", site.language | markdownify }}</p>
+<h2>
+  {{ page.rdf | rdf_property: "rdfs:label", site.language }}
+</h2>
+<p>
+  {{ page.rdf | rdf_property: "schema:date" }}
+  {% assign slogan = page.rdf | rdf_property: "schema:slogan" %}
+  {% if slogan %}
+    <br>{{ slogan }}
+  {% endif %}
+</p>
+<p>
+  {{ page.rdf | rdf_property: "dct:description" , site.language | markdownify }}
+</p>
+{% assign organizer = page.rdf | rdf_property: "schema:organizer" %}
+<h3>
+  {% assign label = organizer | rdf_property: "rdfs:label" %}
+  {% if label %}
+    {{ label }}
+  {% else %}
+    {{ orgateam }}
+  {% endif %}
+</h3>
+<div class="contact-list">
+  {% assign organizerTeam = organizer | rdf_container %}
+  <ul>
+    {% for person in organizerTeam %}
+      <li>
+        {% include components/person.html organizer=person %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+<script type="text/javascript">
+  function showEvent() {
+    var event = document.getElementById("events_form-select").value;
 
-{{ content }}
+    if (!event) {
+      return;
+    }
 
-{% include sec_call.html %}
-{% include sec_recording.html event = page.rdf %}
-{% include sec_programm.html event = page.rdf %}
-{% include sec_team.html %}
-{% include sec_team.html property = "dw:pc" style="simple" %}
+    console.log(location.origin+location.pathname+event);
+    location.href = location.origin+location.pathname+event;
+  }
+</script>

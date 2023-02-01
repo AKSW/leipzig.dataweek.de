@@ -1,0 +1,250 @@
+---
+layout: basic
+---
+
+{% capture scope_query %}
+SELECT ?link ?date ?location WHERE {
+  ?resourceUri schema:date ?date ;
+    schema:location ?location;
+    dw:rel_link ?link .
+}
+{% endcapture %}
+{% assign res_scope = page.rdf | sparql_query: scope_query %}
+{% assign scope = res_scope | first %}
+
+{% capture days_query %}
+SELECT (min(?l) as ?link) ?location ?date ?datestring
+WHERE {
+    ?roomday rdf:type dw:RoomDay ;
+      schema:date ?date ;
+      dw:rel_link ?l ;
+      dw:datestring ?datestring ;
+      schema:location ?location .
+    FILTER(langmatches(lang(?datestring), "de"))
+} GROUP BY ?date ORDER BY ?date
+{% endcapture %}
+{% assign days = page.rdf | sparql_query: days_query %}
+
+{% capture roomdays_query %}
+SELECT ?roomday_iri ?link ?date ?location ?location_name ?datestring WHERE {
+  ?roomday_iri rdf:type dw:RoomDay ;
+    schema:date ?date ;
+    schema:location ?location ;
+    dw:datestring ?datestring ;
+    dw:rel_link ?link .
+  FILTER(langMatches(lang(?datestring), "de"))
+  ?location dct:title ?location_name .
+} ORDER BY ?date ?location
+{% endcapture %}
+{% assign roomdays = page.rdf | sparql_query: roomdays_query %}
+{% assign debug = roomdays | first %}
+
+{% capture events_query %}
+SELECT DISTINCT ?event ?eventTitle ?eventDescription ?datestring
+WHERE {
+  ?resourceUri rdf:type dw:RoomDay ;
+    dw:datestring ?datestring ;
+    schema:date ?date ;
+    schema:location ?location ;
+    dw:rel_link ?link .
+  FILTER(langMatches(lang(?datestring), "de"))
+  ?mainEvent schema:subEvent ?event .
+  ?event schema:subEvent ?session ;
+     dct:description ?eventDescription ;
+     rdfs:label ?eventTitle ;
+     schema:date ?date .
+  FILTER(langMatches(lang(?eventTitle), "en"))
+  ?session schema:location ?location ;
+    dct:title ?sessionTitle ;
+    schema:startTime ?session_start ;
+    schema:subEvent ?talk .
+}
+{% endcapture %}
+{% assign events = page.rdf | sparql_query: events_query %}
+
+{% capture sessions_query %}
+SELECT ?session ?eventDescription ?eventTitle ?sessionTitle ?sessionDescription ?talk_title ?start ?end ?speaker
+WHERE {
+  ?resourceUri schema:date ?date ;
+    schema:location ?location ;
+    dw:rel_link ?link .
+  ?mainEvent schema:subEvent ?subEvent .
+  ?subEvent schema:subEvent ?session ;
+     rdfs:label ?eventTitle ;
+     dct:description ?eventDescription ;
+     schema:date ?date .
+  FILTER(langMatches(lang(?eventTitle), "en"))
+  ?session schema:location ?location ;
+    dct:title ?sessionTitle ;
+    schema:startTime ?start ;
+    schema:endTime ?send ;
+    schema:subEvent ?talk .
+  OPTIONAL { ?session dct:description ?sessionDescription }
+} ORDER BY ?session_start
+{% endcapture %}
+{% assign sessions = page.rdf | sparql_query: sessions_query %}
+
+{% capture talks_query %}
+SELECT DISTINCT ?session ?sessionTitle ?talk_title ?start ?end ?speaker ?name
+WHERE {
+  ?resourceUri schema:date ?date ;
+    schema:location ?location ;
+    dw:rel_link ?link .
+  ?mainEvent schema:subEvent ?subEvent .
+  ?subEvent schema:subEvent ?session ;
+     rdfs:label ?eventTitle ;
+     dct:description ?eventDescription ;
+     schema:date ?date .
+  FILTER(langMatches(lang(?eventTitle), "en"))
+  ?session schema:location ?location ;
+    dct:title ?sessionTitle ;
+    schema:startTime ?session_start ;
+    schema:endTime ?session_end ;
+    schema:subEvent ?talk .
+  FILTER(langMatches(lang(?sessionTitle), "en"))
+  OPTIONAL { ?session dct:description ?sessionDescription
+    FILTER(langMatches(lang(?sessionsDesription), "en"))
+  }
+  ?talk dct:title ?talk_title ;
+      schema:performer ?speaker ;
+      schema:startTime ?start ;
+      schema:endTime ?end .
+  FILTER(langMatches(lang(?talkTitle), "en"))
+  ?speaker foaf:name ?name .
+} ORDER BY ?session_start
+{% endcapture %}
+{% assign talks = page.rdf | sparql_query: talks_query %}
+
+<div class="content-header">
+<h1>
+  Das Programm {{ scope.link }} {{ scope.location }} {{ scope.date }}
+  {{ debug.date }} {{ debug.location_name }} {{ debug.datestring }} {{ debug.d }}
+</h1>
+<p>
+  Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen…
+</p>
+<form class="filter only-small-screens" action="#">
+  <div>
+    <label for="form-select1" class="hideme">Tag / Bereich</label> <select class="form-control" id="form-select1">
+      <option value="">
+        Tag wählen
+      </option>
+      {% for roomday in roomdays %}
+      <option value="{{ roomday.date }}-{{ roomday.location_name }}">
+        {{ roomday.date }} ({{ roomday.location_name }})
+      </option>
+      {% endfor %}
+      <option value="2023-06-26-a">
+        26.6.2023 Montag (Bereich A)
+      </option>
+      <option value="2023-06-26-b">
+        26.6.2023 Montag (Bereich B)
+      </option>
+      <option value="2023-06-27-a">
+        27.6.2023 Dienstag
+      </option>
+      <option value="2023-06-28-a">
+        28.6.2023 Mittwoch
+      </option>
+      <option value="2023-06-29-a">
+        29.6.2023 Donnerstag    ?talk dct:title ?talk_title ;
+        schema:performer ?speaker ;
+        schema:startTime ?start ;
+        schema:endTime ?end .
+      </option>
+      <option value="2023-06-30-a">
+        30.6.2023 Freitag
+      </option>
+    </select> <button type="submit">Anzeigen</button>
+  </div>
+</form>
+<nav class="nav-sub1" aria-label="Untermenü Stufe 1">
+  <ul>
+    {% for day in days %}
+      {% if day.date == scope.date %}
+        <li class="open">
+          <a class="active" href="{{ day.link }}"><span>{{ day.date }}</span>weekday</a>
+      {% else %}
+        <li>
+          <a href="{{ day.link }}"><span>{{ day.date }}</span>weekday</a>
+      {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
+</div>
+<nav class="nav-sub2" aria-label="Untermenü Stufe 2">
+<ul>
+{% for roomday in roomdays %}
+  {% if roomday.date == scope.date %}
+    {% if page.rdf == roomday.roomday_iri %}
+      <li class="open">
+        <strong aria-current="page">{{ roomday.location_name }}</strong>
+      </li>
+    {% else %}
+      <li>
+        <a href="{{ roomday.link }}">{{ roomday.location_name }}</a>
+      </li>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+</ul>
+</nav>
+<section class="timetable">
+{% for event in events %}
+<header>
+  <h2>
+    {{ event.eventTitle }} <span>{{ event.datestring }}</span>
+  </h2>
+  <p class="calendar">
+    <a href="programm_montag_bereich-a.html#">Tag als Kalender abonnieren <svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
+    <use xlink:href="/resources/images/icons.svg#calendar-add"></use></svg></a>
+  </p>
+</header>
+{% for session in sessions %}
+<section class="timetable-unit">
+  <header>
+    <h3>
+      {{ session.begin}}
+    </h3>
+  </header>
+  <div>
+    <h4>
+      h4 {{ session.eventTitle }} - {{ session.sessionTitle }}
+    </h4>
+    <p class="meta">
+      <time datetime="{{ session.start }}">{{ session.start }}</time> - <time datetime="{{ session.end }}">{{ session.end }}</time> <span>|</span> {{ session.location_name}}
+    </p>
+    <p>
+      TODO Session-Moderator: {{ session.moderator }}<br>
+      TODO Session-Title: session.sessionTitle
+    </p>
+    {% for talk in talks %}
+    <ul>
+      <li>TODO Talk-Info: <strong>{{ talk.name }}</strong>{{ talk.affiliate }}<strong>{{ talk.talk_title }}</strong>
+      </li>
+    </ul>
+    {% endfor %}
+    <p class="calendar">
+      <a href="programm_montag_bereich-a.html#" title="Veranstaltung als Kalender-Datei speichern"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
+      <use xlink:href="/resources/images/icons.svg#calendar-add"></use></svg></a>
+    </p>
+  </div>
+</section>
+{% endfor %}
+<section class="timetable-unit timetable-unit-break">
+  <header>
+    <h3>
+      TODO 10:10 Uhr
+    </h3>
+  </header>
+  <div>
+    <h4>
+      TODO Pause
+    </h4>
+    <p class="meta">
+      <time datetime="10:10:00">10:10</time> - <time datetime="10:15:00">10:15 Uhr</time>
+    </p>
+  </div>
+</section>
+{% endfor %}

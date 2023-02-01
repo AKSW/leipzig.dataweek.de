@@ -1,0 +1,109 @@
+{% assign rootResource = site.rootResource | rdf_get %}
+{% include strings.html %}
+{% capture eventsQuery %}
+SELECT ?e ?date
+WHERE {
+  <{{ rootResource }}> schema:subEvent ?e .
+  ?e schema:date ?date .
+} ORDER BY ?date
+{% endcapture %}
+{% assign results = page.rdf | sparql_query: eventsQuery %}
+{% assign isEvent = false %}
+{% for r in results %}
+  {% if r.e.page_url == page.url %}
+    {% assign isEvent = true %}
+  {% endif %}
+{% endfor %}
+{% assign result = results | first %}
+{% assign event = result.e.page_url | relativize_url %}
+<nav class="nav-main" aria-label="Hauptmenü">
+  <ul>
+    <li class="{% if isEvent == true %}open{% endif %}">
+      <a class="{% if isEvent == true %}active{% endif %}" href="{{ event }}">
+        {{ str_events }}
+      </a>
+    </li>
+    <li class="{% if page.url == '/location' %}open{% endif %}">
+      <a class="{% if page.url == '/location' %}active{% endif %}" href="{% relative_link location.html %}.html">
+        {{ str_location }}
+      </a>
+    </li>
+    <li class="{% if page.url == '/orgateam' %}open{% endif %}">
+      <a class="{% if page.url == '/orgateam' %}active{% endif %}" href="{% relative_link orgateam.html %}.html">
+        {{ str_organizer }}
+      </a>
+    </li>
+    <li class="{% if page.url == '/news' %}open{% endif %}">
+      <a class="{% if page.url == '/news' %}active{% endif %}" href="{% relative_link news.html %}.html">
+        {{ str_news }}
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<div class="nav-mobil" id="navigation">
+  {% include components/lang_switch.html mode="mobile" %}
+  <nav class="nav-sitemap" aria-label="Mobilmenü">
+    <ul>
+      {% if isEvent == true %}
+        <li class="open">
+          <strong aria-current="page"><span>{{ str_events }}</span></strong>
+        </li>
+      {% else %}
+        <li>
+          <a href="{{ event }}"><span>{{ str_events }}</span></a>
+        </li>
+      {% endif %}
+      {% if page.url == '/location' %}
+        <li class="open">
+          <strong aria-current="page"><span>{{ str_location }}</span></strong>
+        </li>
+      {% else %}
+        <li>
+          <a href="{% relative_link location.html %}.html"><span>{{ str_location }}</span></a>
+        </li>
+      {% endif %}
+      {% if page.url == '/orgateam' %}
+        <li class="open">
+          <strong aria-current="page"><span>{{ str_organizer }}</span></strong>
+        </li>
+      {% else %}
+        <li>
+          <a href="{% relative_link orgateam.html %}.html"><span>{{ str_organizer }}</span></a>
+        </li>
+      {% endif %}
+      {% if page.url == '/news' %}
+        <li class="open">
+          <strong aria-current="page"><span>{{ str_news }}</span></strong>
+        </li>
+      {% else %}
+        <li>
+          <a href="{% relative_link news.html %}.html"><span>{{ str_news }}</span></a>
+        </li>
+      {% endif %}
+    </ul>
+    <ul>
+      <li>
+        <a href="https://infai.org/das-institut/impressum/">{{ str_imprint }}</a>
+      </li>
+      {% if page.url == '/datenschutz/' %}
+        <li class="open">
+          <strong aria-current="page"><span>{{ str_dataprotection }}</span></strong>
+        </li>
+      {% else %}
+        <li>
+          <a href="{% relative_link datenschutz/index.md %}"><span>{{ str_dataprotection }}</span></a>
+        </li>
+      {% endif %}
+      {% if page.url == '/contact/' %}
+        <li class="open">
+          <strong aria-current="page"><span>{{ str_contact }}</span></strong>
+        </li>
+      {% else %}
+        <li>
+          <a href="{% relative_link contact/index.html %}"><span>{{ str_contact }}</span></a>
+        </li>
+      {% endif %}
+    </ul>
+  </nav>
+</div>
