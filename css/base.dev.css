@@ -3751,6 +3751,11 @@ form.filter optgroup {
     min-height: 28rem;
   }
 }
+@media only screen and (min-width: 980px) {
+  .page-hero figure {
+    min-height: 1.75rem;
+  }
+}
 .page-hero figure img {
   height: 17.5rem;
   object-fit: cover;
