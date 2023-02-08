@@ -3291,6 +3291,41 @@ form.filter optgroup {
   height: 3.5rem;
   width: auto;
 }
+.contact ul.contact-links {
+  background: rgba(232, 247, 253, 0.25);
+  box-shadow: inset 0 0.25rem 0.25rem -0.25rem rgba(0, 0, 0, 0.1);
+  border-bottom-right-radius: .5rem;
+  border-bottom-left-radius: .5rem;
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0.875rem -1rem -1.75rem -1rem;
+  padding: 0.4375rem 1rem;
+}
+.contact ul.contact-links > li {
+  margin: 0 .25rem;
+  padding: 0;
+}
+.contact ul.contact-links a {
+  opacity: .5;
+}
+.contact ul.contact-links a:hover, .contact ul.contact-links a:focus-visible, .contact ul.contact-links a:active {
+  opacity: 1;
+}
+.contact ul.contact-links svg {
+  height: 1.75rem;
+  vertical-align: bottom;
+  width: 1.75rem;
+}
 
 .ce-map {
   margin-bottom: 1.75rem;
