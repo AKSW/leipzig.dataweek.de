@@ -1,4 +1,5 @@
 {%- assign resource = include.resource -%}
+{% include strings.html %}
 {%- assign src = include.src -%}
 {%- assign alt = include.alt -%}
 {%- assign flavor = include.flavor -%}
@@ -13,6 +14,7 @@
   {%- if value -%}
     {%- assign src = value -%}
     {%- assign alt = resource | rdf_property: "dct:description" -%}
+    {% assign alt = str_alt_named | append: " " | append: alt  %}
   {%- else -%}
     {%- assign src = resource.iri -%}
   {%- endif -%}

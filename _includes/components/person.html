@@ -1,4 +1,5 @@
 {% assign organizer = include.organizer %}
+{% include strings.html %}
 {% capture name %}{% include components/label.html iri = organizer.iri %}{% endcapture %}
 {% assign homepage = organizer | rdf_property: "foaf:homepage" %}
 {% assign depiction = organizer | rdf_property: "foaf:depiction" %}
@@ -28,14 +29,16 @@
     {% endif %}
     <figure>
       {% if depiction %}
-        {% include components/img.html alt=name src=depiction %}
+        {% assign contact_alt = str_alt_named | append: " " | append: name %}
+        {% include components/img.html alt=contact_alt src=depiction %}
         <noscript>
-          <img src="{{ depiction | relativize_url }}" alt="{{ name }}">
+          <img src="{{ depiction | relativize_url }}" alt="{{ contact_alt }}">
         </noscript>
       {% else %}
-          {% include components/img.html alt=name src="/resources/files/generated/user_1200.png" %}
+          {% assign contact_alt = str_alt_placeholder | append: " " | append: name %}
+          {% include components/img.html alt=contact_alt src="/resources/files/generated/user_1200.png" %}
           <noscript>
-            <img src="{% relative_link /resources/files/generated/user_1200.png %}" alt="{{ name }}">
+            <img src="{% relative_link /resources/files/generated/user_1200.png %}" alt="{{ contact_alt }}">
           </noscript>
       {% endif %}
     </figure>
@@ -46,15 +49,16 @@
         {% unless depiction %}
           {% assign depiction = affiliation | rdf_property: "foaf:logo" %}
         {% endunless %}
-        {% assign affiliation_label = affiliation | rdf_property: "rdfs:label" %}
+        {% assign affiliation_alt = affiliation | rdf_property: "rdfs:label" %}
+        {% assign affiliation_alt = str_alt_named | append: " " | append: affiliation_alt %}
         <li>
           {% if depiction %}
               <a href="{{ affiliation }}">
-                {% include components/img.html alt=affiliation_label resource=depiction simple=true %}
+                {% include components/img.html alt=affiliation_alt resource=depiction simple=true %}
               </a>
           {% else %}
             <p>
-              {{ affiliation_label }}
+              {{ affiliation_alt }}
             </p>
           {% endif %}
         </li>

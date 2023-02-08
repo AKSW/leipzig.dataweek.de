@@ -3,6 +3,7 @@ layout: basic
 ---
 {% assign rootResource = site.rootResource | rdf_get %}
 {% assign teams = rootResource | rdf_property: "schema:organizer", nil, true %}
+{% include strings.html %}
 {% capture affiliations_query %}
 SELECT distinct ?affiliation
 WHERE {
@@ -66,6 +67,7 @@ order by ?person_name
       <li>
         {% if depiction %}
             <a href="{{ affiliation.affiliation }}">
+              {% assign affiliation_label = str_alt_named | append: " " | append: affiliation_label  %}
               {% include components/img.html alt=affiliation_label resource=depiction simple=true %}
             </a>
         {% else %}
