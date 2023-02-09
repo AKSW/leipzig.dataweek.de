@@ -68,7 +68,7 @@ layout: basic
     <ul>
     {% for event in events %}
       {% assign weekday = event.date | localize: "%a" %}
-      {% assign shortdate = event.date | localize: "%d.%m." %}
+      {% assign shortdate = event.date | localize: "%-d.%-m." %}
       {% assign eventShortName = event.e | replace: "https://2023.dataweek.de/", "" | replace: "/", "" %}
       {% assign slug = event.e | rdf_property: "dw:slug" %}
       {% if event.e == page.rdf %}
@@ -94,6 +94,7 @@ layout: basic
     <br>{{ slogan }}
   {% endif %}
 </p>
+{{ content }}
 <p>
   {{ page.rdf | rdf_property: "dct:description" , site.language | markdownify }}
 </p>
