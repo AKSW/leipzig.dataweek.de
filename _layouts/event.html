@@ -94,6 +94,7 @@ layout: basic
     <br>{{ slogan }}
   {% endif %}
 </p>
+{{ content }}
 <p>
   {{ page.rdf | rdf_property: "dct:description" , site.language | markdownify }}
 </p>
