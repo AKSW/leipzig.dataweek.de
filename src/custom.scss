@@ -270,6 +270,18 @@ div.lswt-textcard {
   max-width: 50%;
 }
 
+@media (min-width: 992px) {
+  .w50-w {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 991px) {
+  .w100-s {
+    max-width: 100%;
+  }
+}
+
 img.h120p {
   max-height: 120px;
 }
