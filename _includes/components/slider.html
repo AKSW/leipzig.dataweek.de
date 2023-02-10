@@ -1,11 +1,11 @@
 {% capture imageQuery %}
   SELECT ?image ?description ?link
   WHERE {
+    <https://2022.dataweek.de/> foaf:depiction ?image .
     ?image rdf:type foaf:Image ;
       rdf:value ?link ;
       dct:description ?description .
     FILTER(langMatches(lang(?description), "{{ site.language }}"))
-    #FILTER(strstarts(?link, "/resources/images/impressions/"))
   }
 {% endcapture %}
 {% assign images = rootResource | sparql_query: imageQuery %}
