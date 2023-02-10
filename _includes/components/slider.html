@@ -14,12 +14,13 @@
     <div class="slider">
       <ul>
         {% for image in images %}
+        {% assign relativeLink = image.link | relativize_url %}
           <li>
-            <img class="js-load" data-src="{{ image.link }}" data-sizes="auto"
-              data-srcset="{{ image.link }} 800w, {{ image.link }} 1980w"
+            <img class="js-load" data-src="{{ relativeLink }}" data-sizes="auto"
+              data-srcset="{{ relativeLink  }} 800w, {{ relativeLink }} 1980w"
               width="6240" height="4160" style="max-width:6240px" alt="{{ image.description }}">
               <noscript>
-                <img src="{{ image.link }}" alt="{{ image.description }}" />
+                <img src="{{ relativeLink }}" alt="{{ image.description }}" />
               </noscript>
           </li>
         {% endfor %}
