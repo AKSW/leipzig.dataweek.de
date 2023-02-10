@@ -240,6 +240,16 @@
 <https://2022.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
 <https://2022.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2022.dataweek.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2022" .
+<https://2022.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#DSCF2671-min.JPG> .
+<https://2022.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#IMG_7453.jpg> .
+<https://2022.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#IMG_7685-min.JPG> .
+<https://2022.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#IMG_7693-min.JPG> .
+<https://2022.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#IMG_7697-min.JPG> .
+<https://2022.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#IMG_7763-min.JPG> .
+<https://2022.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#img_7493_optimized.jpg> .
+<https://2022.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#img_7500_optimized.jpg> .
+<https://2022.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#img_7592_optimized.jpg> .
+<https://2022.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#img_7615_optimized.jpg> .
 <https://2023.dataweek.de/#GeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@de .
 <https://2023.dataweek.de/#GeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@en .
 <https://2023.dataweek.de/#News1> <http://purl.org/dc/terms/description> "We are very pleased to introduce our new Data Week website just in time for Data Week Leipzig 2023! Following on from the successful conference week in 2022, the network platform that has been created is now being expanded and developed. Discover the latest information on keynote speakers, workshops, and networking events and start planning your Data Week Leipzig 2023 experience today."@en .
@@ -790,6 +800,10 @@
 <https://dataweek.de/#ChristophFriedrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ChristophFriedrich> <http://xmlns.com/foaf/0.1/homepage> <https://de.linkedin.com/in/christoph-friedrich-522005195?original_referer=https%253A%252F%252Fwww.google.com%252F> .
 <https://dataweek.de/#ChristophFriedrich> <http://xmlns.com/foaf/0.1/name> "Christoph Friedrich" .
+<https://dataweek.de/#DSCF2671-min.JPG> <http://purl.org/dc/terms/description> "Coffee break at the Wandelhalle of New Town Hall"@en .
+<https://dataweek.de/#DSCF2671-min.JPG> <http://purl.org/dc/terms/description> "Kaffepause in der Wandelhalle des Neuen Rathaus'"@de .
+<https://dataweek.de/#DSCF2671-min.JPG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://dataweek.de/#DSCF2671-min.JPG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/DSCF2671-min.JPG" .
 <https://dataweek.de/#EnricoMacholdt%20%20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#EnricoMacholdt%20%20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#EnricoMacholdt%20%20> <http://xmlns.com/foaf/0.1/name> "Enrico Macholdt" .
@@ -880,6 +894,26 @@
 <https://dataweek.de/#HansGertGraebe> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Hans-Gert Gräbe" .
 <https://dataweek.de/#HansGertGraebe> <http://xmlns.com/foaf/0.1/name> "Hans-Gert Gräbe" .
 <https://dataweek.de/#HansGertGraebe> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
+<https://dataweek.de/#IMG_7453.jpg> <http://purl.org/dc/terms/description> "Overview of Wandelhalle and visitors during a coffee break"@en .
+<https://dataweek.de/#IMG_7453.jpg> <http://purl.org/dc/terms/description> "\u00DCberblick \u00FCber die Wandelhalle w\u00E4hrend einer Kaffeepause."@de .
+<https://dataweek.de/#IMG_7453.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://dataweek.de/#IMG_7453.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/IMG_7453.jpg" .
+<https://dataweek.de/#IMG_7685-min.JPG> <http://purl.org/dc/terms/description> "Bild von zwei gl\u00FCcklichen Besuchern."@de .
+<https://dataweek.de/#IMG_7685-min.JPG> <http://purl.org/dc/terms/description> "Image of two happy attendees."@en .
+<https://dataweek.de/#IMG_7685-min.JPG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://dataweek.de/#IMG_7685-min.JPG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/IMG_7685-min.JPG" .
+<https://dataweek.de/#IMG_7693-min.JPG> <http://purl.org/dc/terms/description> "Bild der Siegerehrung der Postersession."@de .
+<https://dataweek.de/#IMG_7693-min.JPG> <http://purl.org/dc/terms/description> "Image of award ceremony of LSWT poster session"@en .
+<https://dataweek.de/#IMG_7693-min.JPG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://dataweek.de/#IMG_7693-min.JPG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/IMG_7693-min.JPG" .
+<https://dataweek.de/#IMG_7697-min.JPG> <http://purl.org/dc/terms/description> "Bild der Siegerehrung der Postersession."@de .
+<https://dataweek.de/#IMG_7697-min.JPG> <http://purl.org/dc/terms/description> "Image of award ceremony of LSWT poster session"@en .
+<https://dataweek.de/#IMG_7697-min.JPG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://dataweek.de/#IMG_7697-min.JPG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/IMG_7697-min.JPG" .
+<https://dataweek.de/#IMG_7763-min.JPG> <http://purl.org/dc/terms/description> "Bild aus Sicht des Publikums w\u00E4hrend eines Talks im Sitzungssaal"@de .
+<https://dataweek.de/#IMG_7763-min.JPG> <http://purl.org/dc/terms/description> "Image of a talk from the perspective of the audience."@en .
+<https://dataweek.de/#IMG_7763-min.JPG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://dataweek.de/#IMG_7763-min.JPG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/IMG_7763-min.JPG" .
 <https://dataweek.de/#JakobFreese> <http://purl.org/dc/terms/description> "Coordinator eCulture"@en .
 <https://dataweek.de/#JakobFreese> <http://purl.org/dc/terms/description> "Koordinator eCulture"@de .
 <https://dataweek.de/#JakobFreese> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/dezernat-kultur-024> .
@@ -1369,6 +1403,22 @@
 <https://dataweek.de/#VolkerGruhn> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <https://dataweek.de/#VolkerGruhn> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "His research focus is software processes for the development of data-driven and mobile applications as well as cyber-physical systems."@en .
 <https://dataweek.de/#VolkerGruhn> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Sein Forschungsschwerpunkt bezieht sich auf Softwareprozesse zur Entwicklung von datengetriebenen und mobilen Anwendungen sowie cyberphysikalischen Systemen."@de .
+<https://dataweek.de/#img_7493_optimized.jpg> <http://purl.org/dc/terms/description> "Bild eines gerade stattfindenden Workshops im Ratsplenarsaal."@de .
+<https://dataweek.de/#img_7493_optimized.jpg> <http://purl.org/dc/terms/description> "Image of an ongoing workshop at Ratsplenarsaal"@en .
+<https://dataweek.de/#img_7493_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://dataweek.de/#img_7493_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/img_7493_optimized.jpg" .
+<https://dataweek.de/#img_7500_optimized.jpg> <http://purl.org/dc/terms/description> "Bild einer Gruppe die sich zur Kaffeepause unterh\u00E4lt."@de .
+<https://dataweek.de/#img_7500_optimized.jpg> <http://purl.org/dc/terms/description> "Image of a group talking at coffee break"@en .
+<https://dataweek.de/#img_7500_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://dataweek.de/#img_7500_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/img_7500_optimized.jpg" .
+<https://dataweek.de/#img_7592_optimized.jpg> <http://purl.org/dc/terms/description> "Bild von Besuchern und Studierenden zur Postersession."@de .
+<https://dataweek.de/#img_7592_optimized.jpg> <http://purl.org/dc/terms/description> "Image of visitors and students at the poster session."@en .
+<https://dataweek.de/#img_7592_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://dataweek.de/#img_7592_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/img_7592_optimized.jpg" .
+<https://dataweek.de/#img_7615_optimized.jpg> <http://purl.org/dc/terms/description> "Bild w\u00E4hrend eines Vortrags vor dem Publikum im Sitzungssaal"@de .
+<https://dataweek.de/#img_7615_optimized.jpg> <http://purl.org/dc/terms/description> "Image of a talk in front of the audience at Sitzungssaal"@en .
+<https://dataweek.de/#img_7615_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://dataweek.de/#img_7615_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/img_7615_optimized.jpg" .
 <https://dataweek.de/> <http://www.w3.org/2002/07/owl#sameAs> <https://2023.dataweek.de/> .
 <https://dataweek.de/language#de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Language> .
 <https://dataweek.de/language#de> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsch"@de .
@@ -1468,46 +1518,6 @@
 <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> <http://xmlns.com/foaf/0.1/homepage> <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> .
 <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> <http://xmlns.com/foaf/0.1/logo> <https://dataweek.de/#LogoStatistikUndWahlen> .
 <https://program.2023.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/di/Dataset> .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/DSCF2671-min.JPG> <http://purl.org/dc/terms/description> "Coffee break at the Wandelhalle of New Town Hall"@en .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/DSCF2671-min.JPG> <http://purl.org/dc/terms/description> "Kaffepause in der Wandelhalle des Neuen Rathaus'"@de .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/DSCF2671-min.JPG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/DSCF2671-min.JPG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/DSCF2671-min.JPG" .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7453.jpg> <http://purl.org/dc/terms/description> "Overview of Wandelhalle and visitors during a coffee break"@en .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7453.jpg> <http://purl.org/dc/terms/description> "\u00DCberblick \u00FCber die Wandelhalle w\u00E4hrend einer Kaffeepause."@de .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7453.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7453.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/IMG_7453.jpg" .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7685-min.JPG> <http://purl.org/dc/terms/description> "Bild von zwei gl\u00FCcklichen Besuchern."@de .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7685-min.JPG> <http://purl.org/dc/terms/description> "Image of two happy attendees."@en .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7685-min.JPG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7685-min.JPG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/IMG_7685-min.JPG" .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7693-min.JPG> <http://purl.org/dc/terms/description> "Bild der Siegerehrung der Postersession."@de .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7693-min.JPG> <http://purl.org/dc/terms/description> "Image of award ceremony of LSWT poster session"@en .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7693-min.JPG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7693-min.JPG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/IMG_7693-min.JPG" .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7697-min.JPG> <http://purl.org/dc/terms/description> "Bild der Siegerehrung der Postersession."@de .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7697-min.JPG> <http://purl.org/dc/terms/description> "Image of award ceremony of LSWT poster session"@en .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7697-min.JPG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7697-min.JPG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/IMG_7697-min.JPG" .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7763-min.JPG> <http://purl.org/dc/terms/description> "Bild aus Sicht des Publikums w\u00E4hrend eines Talks im Sitzungssaal"@de .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7763-min.JPG> <http://purl.org/dc/terms/description> "Image of a talk from the perspective of the audience."@en .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7763-min.JPG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/IMG_7763-min.JPG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/IMG_7763-min.JPG" .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7493_optimized.jpg> <http://purl.org/dc/terms/description> "Bild eines gerade stattfindenden Workshops im Ratsplenarsaal."@de .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7493_optimized.jpg> <http://purl.org/dc/terms/description> "Image of an ongoing workshop at Ratsplenarsaal"@en .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7493_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7493_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/img_7493_optimized.jpg" .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7500_optimized.jpg> <http://purl.org/dc/terms/description> "Bild einer Gruppe die sich zur Kaffeepause unterh\u00E4lt."@de .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7500_optimized.jpg> <http://purl.org/dc/terms/description> "Image of a group talking at coffee break"@en .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7500_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7500_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/img_7500_optimized.jpg" .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7592_optimized.jpg> <http://purl.org/dc/terms/description> "Bild von Besuchern und Studierenden zur Postersession."@de .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7592_optimized.jpg> <http://purl.org/dc/terms/description> "Image of visitors and students at the poster session."@en .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7592_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7592_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/img_7592_optimized.jpg" .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7615_optimized.jpg> <http://purl.org/dc/terms/description> "Bild w\u00E4hrend eines Vortrags vor dem Publikum im Sitzungssaal"@de .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7615_optimized.jpg> <http://purl.org/dc/terms/description> "Image of a talk in front of the audience at Sitzungssaal"@en .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7615_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
-<https://raw.githubusercontent.com/AKSW/leipzig.dataweek.de/main/resources/images/impressions/img_7615_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/img_7615_optimized.jpg" .
 <https://scads.ai/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://scads.ai/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://scads.ai/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
