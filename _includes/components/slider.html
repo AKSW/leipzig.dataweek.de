@@ -1,23 +1,26 @@
-{% assign event = include.event %}
-{% assign impressions = nil | arrayify %}
-{% for file in site.static_files %}
-  {% assign isImpression = file.path | startswith: "/resources/images/impressions/" %}
-  {% if isImpression %}
-    {% assign fileArray = file | arrayify %}
-    {% assign impressions = impressions | concat: fileArray %}
-  {% endif %}
-{% endfor %}
-{% if impressions.first %}
+{% capture imageQuery %}
+  SELECT ?image ?description ?link
+  WHERE {
+    <https://2022.dataweek.de/> foaf:depiction ?image .
+    ?image rdf:type foaf:Image ;
+      rdf:value ?link ;
+      dct:description ?description .
+    FILTER(langMatches(lang(?description), "{{ site.language }}"))
+  }
+{% endcapture %}
+{% assign images = rootResource | sparql_query: imageQuery %}
+{% if images.first %}
   <div class="slider-box">
     <div class="slider">
       <ul>
-        {% for impression in impressions %}
+        {% for image in images %}
+        {% assign relativeLink = image.link | relativize_url %}
           <li>
-            <img class="js-load" data-src="{{ impression.path | relativize_url }}" data-sizes="auto"
-              data-srcset="{{ impression.path | relativize_url }} 800w, {{ impression.path | relativize_url }} 1980w"
-              width="6240" height="4160" style="max-width:6240px" alt="">
+            <img class="js-load" data-src="{{ relativeLink }}" data-sizes="auto"
+              data-srcset="{{ relativeLink  }} 800w, {{ relativeLink }} 1980w"
+              width="6240" height="4160" style="max-width:6240px" alt="{{ image.description }}">
               <noscript>
-                <img src="{{ impression.path | relativize_url }}" alt="" />
+                <img src="{{ relativeLink }}" alt="{{ image.description }}" />
               </noscript>
           </li>
         {% endfor %}
@@ -25,3 +28,4 @@
     </div>
   </div>
 {% endif %}
+
