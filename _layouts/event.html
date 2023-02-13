@@ -52,6 +52,13 @@ layout: basic
           {% assign weekdays = event.e | rdf_property: "schema:date", nil, true %}
           {% assign weekday_string = "" %}
           {% for weekday in weekdays %}
+            {% unless forloop.first %}
+              {% if forloop.last %}
+                {% assign weekday_string = " & " | prepend: weekday_string %}
+              {% else %}
+                {% assign weekday_string = ", " | prepend: weekday_string %}
+              {% endif %}
+            {% endunless %}
             {% assign weekday_string = weekday | localize: "%a" | prepend: weekday_string %}
           {% endfor %}
           {% assign eventShortName = event.e | replace: "https://2023.dataweek.de/", "" | replace: "/", "" %}
