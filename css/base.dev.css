@@ -1515,22 +1515,27 @@ html.overlay-open {
 
 @media only screen and (max-width: 979px) {
   .nav-sub1 {
-    background: rgba(255, 255, 255, 0.85);
-    background: bottom left -webkit-repeating-linear-gradient(135deg, #e8f7fd, #e8f7fd 5px, #d9f0fc 5px, #d9f0fc 10px);
-    background: bottom left repeating-linear-gradient(-45deg, #e8f7fd, #e8f7fd 5px, #d9f0fc 5px, #d9f0fc 10px);
-    border-radius: 6px;
-    margin-bottom: -3.5rem;
     overflow: hidden;
   }
   .nav-sub1 ul {
     padding: 0.4375rem 0;
   }
+  .nav-sub1 ul li {
+    padding-top: .125rem;
+  }
   .nav-sub1 ul a, .nav-sub1 ul strong {
-    color: #17214c;
+    border-radius: 6px;
+    color: #b5e3f8;
+    display: inline-block;
+    font-size: 1.1875rem;
     font-weight: 600;
-    padding: 0 1rem 0 2rem;
+    padding: 0 .75rem 0 1.25rem;
     position: relative;
     text-decoration: none;
+  }
+  .nav-sub1 ul a span, .nav-sub1 ul strong span {
+    color: #17214c;
+    font-size: 1rem;
   }
   .nav-sub1 ul a::before, .nav-sub1 ul strong::before {
     background: #3da6dc;
@@ -1538,27 +1543,32 @@ html.overlay-open {
     content: '';
     height: .375rem;
     position: absolute;
-    top: .5rem;
-    left: 1rem;
+    top: .75rem;
+    left: .5rem;
     width: .375rem;
   }
-  .nav-sub1 ul a:hover, .nav-sub1 ul a:focus-visible, .nav-sub1 ul a:active {
-    color: #3da6dc;
+  .nav-sub1 ul a:hover, .nav-sub1 ul a:focus-visible, .nav-sub1 ul a:active, .nav-sub1 ul strong {
+    background: bottom left -webkit-repeating-linear-gradient(135deg, #e8f7fd, #e8f7fd 5px, #d9f0fc 5px, #d9f0fc 10px);
+    background: bottom left repeating-linear-gradient(-45deg, #e8f7fd, #e8f7fd 5px, #d9f0fc 5px, #d9f0fc 10px);
+    color: #ff7600;
     text-decoration: none;
   }
-  .nav-sub1 ul a.active, .nav-sub1 ul strong {
-    color: #ff7600;
+  .nav-sub1 ul a:hover::before, .nav-sub1 ul a:focus-visible::before, .nav-sub1 ul a:active::before, .nav-sub1 ul strong::before {
+    background: #3da6dc;
   }
-}
-@media screen and (min-width: 480px) and (max-width: 979px) {
-  .nav-sub1 > ul {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+  .nav-sub1 ul a:hover span, .nav-sub1 ul a:focus-visible span, .nav-sub1 ul a:active span, .nav-sub1 ul strong span {
+    color: #17214c;
+  }
+  .nav-sub1 ul ul {
+    padding: 0;
+    margin-left: 1.25rem;
+  }
+  .nav-sub1 ul ul a, .nav-sub1 ul ul strong {
+    color: #17214c;
+    font-size: 1rem;
+  }
+  .nav-sub1 ul ul a:hover, .nav-sub1 ul ul a:focus-visible, .nav-sub1 ul ul a:active, .nav-sub1 ul ul strong {
+    color: #ff7600;
   }
 }
 @media only screen and (min-width: 980px) {
@@ -1573,6 +1583,9 @@ html.overlay-open {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+  }
+  .nav-sub1 ul ul {
+    display: none;
   }
   .nav-sub1 ul li + li {
     margin-left: .5rem;
@@ -3859,8 +3872,13 @@ form.filter optgroup {
   box-shadow: 50vw 0 0 0 #2f97cc, -50vw 0 0 0 #2f97cc, 25vw 0 0 0 #2f97cc, -25vw 0 0 0 #2f97cc, inset 2rem 0 0 0 #2f97cc;
   color: #fff;
   margin-bottom: 3.5rem;
-  padding: 3.5rem 0 0.875rem 0;
+  padding: 1.75rem 0 0.875rem 0;
   position: relative;
+}
+@media only screen and (min-width: 760px) {
+  .content-header {
+    padding-top: 3.5rem;
+  }
 }
 .content-header h1, .content-header h2 {
   color: #fff;
