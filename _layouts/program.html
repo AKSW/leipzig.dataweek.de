@@ -1,6 +1,7 @@
 ---
 layout: basic
 ---
+{% include strings.html %}
 {% assign link = page.rdf | rdf_property: "dw:rel_link" %}
 {% assign location = page.rdf | rdf_property: "schema:location" %}
 {% assign date = page.rdf | rdf_property: "schema:date" %}
@@ -163,10 +164,12 @@ WHERE {
 {% endcapture %}
 {% assign sessions = page.rdf | sparql_query: sessions_query %}
 {% for session in sessions %}
+{%- assign session_start = session.start | date: "%H:%M" -%}
+{%- assign session_end = session.end | date: "%H:%M" -%}
 <section class="timetable-unit">
   <header>
     <h3>
-      {{ session.start }}
+      {{ session_start }} {{ str_clock }}
     </h3>
   </header>
   <div>
@@ -174,7 +177,7 @@ WHERE {
       {{ session.title }}
     </h4>
     <p class="meta">
-      <time datetime="{{ session.start }}">{{ session.start }}</time> - <time datetime="{{ session.end }}">{{ session.end }}</time> <span>|</span> {{ location }}
+      <time datetime="{{ session_start }}">{{ session_start }}</time> - <time datetime="{{ session_end }}">{{ session_end }}</time> <span>|</span> {{ location }}
     </p>
     <p>
       Hosted by {{ session.host }}
@@ -198,9 +201,11 @@ WHERE {
     {% endcapture %}
     {% assign talks = page.rdf | sparql_query: talks_query %}
     {% for talk in talks %}
+    {%- assign talk_start = talk.start | date: "%H:%M" -%}
+    {%- assign talk_end = talk.end | date: "%H:%M" -%}
     <ul>
       <li>
-        <strong>{{ talk.speaker }} - {{ talk.name }} </strong> {{ talk.start }} - {{ talk.end }}<strong> {{ talk.title }}</strong>
+        <strong>{{ talk.speaker }} - {{ talk.name }} </strong> {{ talk_start }} - {{ talk_end }}<strong> {{ talk.title }}</strong>
       </li>
     </ul>
     {% endfor %}
@@ -210,10 +215,11 @@ WHERE {
     </p>
   </div>
 </section>
+{% if talks.first %}
 <section class="timetable-unit timetable-unit-break">
   <header>
     <h3>
-      {{ session.end }}
+      {{ session_end }} {{ str_clock }}
     </h3>
   </header>
   <div>
@@ -221,9 +227,10 @@ WHERE {
       Pause
     </h4>
     <p class="meta">
-      <time datetime="10:10:00">{{ session.end }}</time> - <time datetime="10:15:00">lookahead? </time>
+      <time datetime="10:10:00">{{ session_end }}</time> - <time datetime="10:15:00">lookahead? </time>
     </p>
   </div>
 </section>
+{% endif %}
 {% endfor %}
 {% endfor %}
