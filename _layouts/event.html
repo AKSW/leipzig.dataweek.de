@@ -25,11 +25,9 @@ layout: basic
 {% if site.language == "de" %}
   {% assign mobileLabel = "Veranstaltung" %}
   {% assign mobileHint = "Veranstaltung wählen" %}
-  {% assign orgateam = "Die Organisatoren" %}
 {% else %}
   {% assign mobileLabel = "Event" %}
   {% assign mobileHint = " Chose an event" %}
-  {% assign orgateam = "Organization Team" %}
 {% endif %}
 
 <div class="content-header">
@@ -120,25 +118,7 @@ layout: basic
 <p>
   {{ page.rdf | rdf_property: "dct:description" , site.language | markdownify }}
 </p>
-{% assign organizer = page.rdf | rdf_property: "schema:organizer" %}
-<h3>
-  {% assign label = organizer | rdf_property: "rdfs:label" %}
-  {% if label %}
-    {{ label }}
-  {% else %}
-    {{ orgateam }}
-  {% endif %}
-</h3>
-<div class="contact-list">
-  {% assign organizerTeam = organizer | rdf_container %}
-  <ul>
-    {% for person in organizerTeam %}
-      <li>
-        {% include components/person.html organizer=person %}
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+{% include sections/organizerTeam.html event=page.rdf %}
 <script type="text/javascript">
   function showEvent() {
     var event = document.getElementById("events_form-select").value;

@@ -1,0 +1,21 @@
+{% include strings.html %}
+{% assign event = include.event %}
+{% assign organizer = event | rdf_property: "schema:organizer" %}
+<h3>
+  {% assign label = organizer | rdf_property: "rdfs:label" %}
+  {% if label %}
+    {{ label }}
+  {% else %}
+    {{ str_organizer }}
+  {% endif %}
+</h3>
+<div class="contact-list">
+  {% assign organizerTeam = organizer | rdf_container %}
+  <ul>
+    {% for person in organizerTeam %}
+      <li>
+        {% include components/person.html organizer=person %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
