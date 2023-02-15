@@ -1781,3 +1781,10 @@
 <urn:url-encoded-value:https%3A%2F%2Fdataweek.de%2F%23FelixCzepluch+%0A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <urn:url-encoded-value:https%3A%2F%2Fdataweek.de%2F%23FelixCzepluch+%0A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <urn:url-encoded-value:unset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://2023.dataweek.de/2023-06-28-Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "A resource helping jekyll-rdf in program.html." .
+<https://2023.dataweek.de/2023-06-28-Sitzungssaal> <https://dataweek.de/#datestring> "28.6.2023"@de .
+<https://2023.dataweek.de/2023-06-28-Sitzungssaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#RoomDay> .
+<https://2023.dataweek.de/2023-06-28-Sitzungssaal> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2023.dataweek.de/2023-06-28-Sitzungssaal> <https://dataweek.de/#datestring> "2023-06-28"@en .
+<https://2023.dataweek.de/2023-06-28-Sitzungssaal> <http://schema.org/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/2023-06-28-Sitzungssaal> <https://dataweek.de/#rel_link> "/2023-06-28-Sitzungssaal.html" .
