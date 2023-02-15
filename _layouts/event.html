@@ -118,6 +118,7 @@ layout: basic
 <p>
   {{ page.rdf | rdf_property: "dct:description" , site.language | markdownify }}
 </p>
+{% include sections/call.html event=page.rdf %}
 {% include sections/organizerTeam.html event=page.rdf %}
 <script type="text/javascript">
   function showEvent() {

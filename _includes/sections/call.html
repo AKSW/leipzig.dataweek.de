@@ -1,0 +1,13 @@
+{% include strings.html %}
+{% assign cfps = event | rdf_property: "or:Cfp", nil, true %}
+{% if cfps.first %}
+{% for cfp in cfps %}
+<div class="box" id="cfp">
+    <h3>{{ cfp | rdf_property: "rdfs:label", site.language }}</h3>
+
+    <a href="{{ cfp | rdf_property: "dct:hasFormat" }}" role="button" class="btn">{{ str_download_call }}</a>
+
+    <p>{{ cfp | rdf_property: "dct:description", site.language | markdownify }}</p>
+</div>
+{% endfor %}
+{% endif %}
