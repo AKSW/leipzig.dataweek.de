@@ -4,46 +4,26 @@ layout: basic
 {% include strings.html %}
 {% assign link = page.rdf | rdf_property: "dw:rel_link" %}
 {% assign location = page.rdf | rdf_property: "schema:location" %}
+{% assign current_location_string = location | rdf_property: "dct:title" %}
 {% assign date = page.rdf | rdf_property: "schema:date" %}
 
-{% capture days_query %}
-# This query selects all dw:RoomDay resources to help build
-# the menu for each dw:RoomDay class mapping
-SELECT (min(?l) as ?link) ?location ?date ?datestring
-WHERE {
-    ?roomday rdf:type dw:RoomDay ;
-      schema:date ?date ;
-      dw:rel_link ?l ;
-      dw:datestring ?datestring ;
-      schema:location ?location .
-    FILTER(langmatches(lang(?datestring), "de"))
-} GROUP BY ?date ORDER BY ?date
-{% endcapture %}
-{% assign days = page.rdf | sparql_query: days_query %}
 
 {% capture roomdays_query %}
-SELECT ?roomday_iri ?link ?date ?location ?location_name ?datestring WHERE {
-  ?roomday_iri rdf:type dw:RoomDay ;
+# This query selects all dw:RoomDay resources to help build
+# the menu and mobile menu for each day and location
+SELECT ?iri ?date ?location ?location_name ?datestring WHERE {
+  ?iri rdf:type dw:RoomDay ;
     schema:date ?date ;
-    schema:location ?location ;
-    dw:datestring ?datestring ;
-    dw:rel_link ?link .
-  FILTER(langMatches(lang(?datestring), "de"))
+    schema:location ?location .
   ?location dct:title ?location_name .
 } ORDER BY ?date ?location
 {% endcapture %}
 {% assign roomdays = page.rdf | sparql_query: roomdays_query %}
-{% assign debug = roomdays | first %}
-
 
 
 <div class="content-header">
 <h1>
-  Das Programm<br /> Hier müssen allgemeine Sache zur Dataweek hin<br />
-{{ link }}<br />
-{{ location }}<br />
-{{ date }}<br />
-DEBUG: {{ debug.date }} {{ debug.location_name }} {{ debug.datestring }} {{ debug.d }}<br />
+  Das Programm<br /> Hier müssen allgemeine Sache zur Dataweek oder dem ausgewählten Event bzw. Tag hin<br />
 </h1>
 <p>
   Die Data Week ist eine einwöchige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen…
@@ -54,10 +34,16 @@ DEBUG: {{ debug.date }} {{ debug.location_name }} {{ debug.datestring }} {{ debu
       <option value="">
         Tag wählen
       </option>
-      {% for roomday in roomdays %}
-      <option value="{{ roomday.date }}-{{ roomday.location_name }}">
-        {{ roomday.date }} ({{ roomday.location_name }})
-      </option>
+      {% for day in roomdays %}
+        {% assign weekday = day.date | localize: "%a"  %}
+        {% if site.language == 'de' %}
+          {% assign date_string = day.date | date: "%d.%m.%Y" %}
+        {% else %}
+          {% assign date_string = day.date %}
+        {% endif %}
+        <option value="{{ day.iri.page_url | relativize_url }}">
+          {{ weekday }}, {{ date_string }} ({{ day.location_name }})
+        </option>
       {% endfor %}
       <option value="2023-06-26-a">
         26.6.2023 Montag (Bereich A)
@@ -65,33 +51,24 @@ DEBUG: {{ debug.date }} {{ debug.location_name }} {{ debug.datestring }} {{ debu
       <option value="2023-06-26-b">
         26.6.2023 Montag (Bereich B)
       </option>
-      <option value="2023-06-27-a">
-        27.6.2023 Dienstag
-      </option>
-      <option value="2023-06-28-a">
-        28.6.2023 Mittwoch
-      </option>
-      <option value="2023-06-29-a">
-        29.6.2023 Donnerstag    ?talk dct:title ?talk_title ;
-        schema:performer ?speaker ;
-        schema:startTime ?start ;
-        schema:endTime ?end .
-      </option>
-      <option value="2023-06-30-a">
-        30.6.2023 Freitag
-      </option>
     </select> <button type="submit">Anzeigen</button>
   </div>
 </form>
 <nav class="nav-sub1" aria-label="Untermenü Stufe 1">
   <ul>
-    {% for day in days %}
+    {% for day in roomdays %}
+      {% assign weekday = day.date | localize: "%A"  %}
+      {% if site.language == 'de' %}
+       {% assign date_string = day.date | date: "%d.%m.%Y" %}
+      {% else %}
+        {% assign date_string = day.date %}
+      {% endif %}
       {% if day.date == date %}
         <li class="open">
-          <a class="active" href="{{ day.link }}"><span>{{ day.date }}</span>weekday</a>
+          <a class="active" href="{{ day.iri.page_url | relativize_link  }}.html"><span>{{ date_string }}</span>{{ weekday }}</a>
       {% else %}
         <li>
-          <a href="{{ day.link }}"><span>{{ day.date }}</span>weekday</a>
+          <a href="{{ day.iri.page_url | relativize_link }}.html"><span>{{ date_string}}</span>{{ weekday }}</a>
       {% endif %}
       </li>
     {% endfor %}
@@ -100,15 +77,15 @@ DEBUG: {{ debug.date }} {{ debug.location_name }} {{ debug.datestring }} {{ debu
 </div>
 <nav class="nav-sub2" aria-label="Untermenü Stufe 2">
 <ul>
-{% for roomday in roomdays %}
-  {% if roomday.date == date %}
-    {% if page.rdf == roomday.roomday_iri %}
+{% for day in roomdays %}
+  {% if day.date == date %}
+    {% if page.rdf == day.iri %}
       <li class="open">
-        <strong aria-current="page">{{ roomday.location_name }}</strong>
+        <strong aria-current="page">{{ day.location_name }}</strong>
       </li>
     {% else %}
       <li>
-        <a href="{{ roomday.link }}">{{ roomday.location_name }}</a>
+        <a href="{{ day.iri.page_url | relativize_url  }}.html">{{ day.location_name }}</a>
       </li>
     {% endif %}
   {% endif %}
@@ -117,120 +94,119 @@ DEBUG: {{ debug.date }} {{ debug.location_name }} {{ debug.datestring }} {{ debu
 </nav>
 <section class="timetable">
 {% capture events_query %}
-SELECT DISTINCT ?event ?title ?description ?datestring ?date
-WHERE {
-  <{{ page.rdf }}> rdf:type dw:RoomDay ;
-    dw:datestring ?datestring ;
-    schema:date ?date ;
-    schema:location ?location ;
-    dw:rel_link ?link .
-  FILTER(langMatches(lang(?datestring), "{{ site.language }}"))
-  ?mainEvent schema:subEvent ?event .
-  ?event schema:subEvent ?session ;
-      dct:description ?eventDescription ;
-      rdfs:label ?title ;
-      schema:date ?date .
-  FILTER(langMatches(lang(?title), "{{ site.language }}"))
-  ?session schema:location ?location ;
-    schema:startTime ?session_start .
-} ORDER BY ?session_start
+  SELECT DISTINCT (?event as ?iri) ?title ?description ?datestring ?date
+  WHERE {
+    <{{ page.rdf }}> rdf:type dw:RoomDay ;
+      schema:date ?date ;
+      schema:location ?location .
+    ?mainEvent schema:subEvent ?event .
+    ?event schema:subEvent ?session ;
+        dct:description ?eventDescription ;
+        rdfs:label ?title ;
+        schema:date ?date .
+    FILTER(langMatches(lang(?title), "{{ site.language }}"))
+    ?session schema:location ?location ;
+      schema:startTime ?session_start .
+  } ORDER BY ?session_start
 {% endcapture %}
 {% assign events = page.rdf | sparql_query: events_query %}
 {% for event in events %}
-<header>
-  <h2>
-    {{ event.eventTitle }} <span>{{ event.datestring }}</span>
-  </h2>
-  <p class="calendar">
-    <a href="programm_montag_bereich-a.html#">Tag als Kalender abonnieren <svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
-    <use xlink:href="/resources/images/icons.svg#calendar-add"></use></svg></a>
-  </p>
-</header>
-{% capture sessions_query %}
-SELECT DISTINCT ?session ?title ?description ?start ?end ?host
-WHERE {
-  <{{ event.event }}> schema:subEvent ?session ;
-     schema:date ?date .
-  ?session schema:location <{{ location }}> ;
-    dct:title ?title ;
-    schema:startTime ?start ;
-    schema:performer ?host ;
-    schema:endTime ?end .
-    FILTER(langMatches(lang(?title), "{{ site.language }}"))
-  OPTIONAL { ?session dct:description ?description .
-    FILTER(langMatches(lang(?description), "{{ site.language }}"))
-  }
-} ORDER BY ?start
-{% endcapture %}
-{% assign sessions = page.rdf | sparql_query: sessions_query %}
-{% for session in sessions %}
-{%- assign session_start = session.start | date: "%H:%M" -%}
-{%- assign session_end = session.end | date: "%H:%M" -%}
-<section class="timetable-unit">
   <header>
-    <h3>
-      {{ session_start }} {{ str_clock }}
-    </h3>
-  </header>
-  <div>
-    <h4>
-      {{ session.title }}
-    </h4>
-    <p class="meta">
-      <time datetime="{{ session_start }}">{{ session_start }}</time> - <time datetime="{{ session_end }}">{{ session_end }}</time> <span>|</span> {{ location }}
-    </p>
-    <p>
-      Hosted by {{ session.host }}
-      {% if session.description %}
-      <br />{{ session.description }}
-      {% endif %}
-    </p>
-    {% capture talks_query %}
-      SELECT DISTINCT ?title ?description ?start ?end ?speaker
-      WHERE {
-        <{{ session.session }}> schema:subEvent ?talk .
-        ?talk dct:title ?title ;
-            schema:performer ?speaker ;
-            schema:startTime ?start ;
-            schema:endTime ?end .
-        FILTER(langMatches(lang(?title), "{{ site.language }}"))
-        OPTIONAL { ?talk dct:description ?description .
-          FILTER(langMatches(lang(?description), "{{ site.language }}"))
-        }
-      }
-    {% endcapture %}
-    {% assign talks = page.rdf | sparql_query: talks_query %}
-    {% for talk in talks %}
-    {%- assign talk_start = talk.start | date: "%H:%M" -%}
-    {%- assign talk_end = talk.end | date: "%H:%M" -%}
-    <ul>
-      <li>
-        <strong>{{ talk.speaker }} - {{ talk.name }} </strong> {{ talk_start }} - {{ talk_end }}<strong> {{ talk.title }}</strong>
-      </li>
-    </ul>
-    {% endfor %}
+    <h2>
+      {{ event.eventTitle }} <span>{{ event.datestring }}</span>
+    </h2>
     <p class="calendar">
-      <a href="programm_montag_bereich-a.html#" title="Veranstaltung als Kalender-Datei speichern"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
+      <a href="programm_montag_bereich-a.html#">Tag als Kalender abonnieren <svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
       <use xlink:href="/resources/images/icons.svg#calendar-add"></use></svg></a>
     </p>
-  </div>
-</section>
-{% if talks.first %}
-<section class="timetable-unit timetable-unit-break">
-  <header>
-    <h3>
-      {{ session_end }} {{ str_clock }}
-    </h3>
   </header>
-  <div>
-    <h4>
-      Pause
-    </h4>
-    <p class="meta">
-      <time datetime="10:10:00">{{ session_end }}</time> - <time datetime="10:15:00">lookahead? </time>
-    </p>
-  </div>
-</section>
-{% endif %}
-{% endfor %}
+  {% capture sessions_query %}
+  SELECT DISTINCT (?session as ?iri) ?title ?description ?start ?end ?host
+  WHERE {
+    <{{ event.iri }}> schema:subEvent ?session ;
+      schema:date ?date .
+    ?session schema:location <{{ location }}> ;
+      dct:title ?title ;
+      schema:startTime ?start ;
+      schema:performer ?host ;
+      schema:endTime ?end .
+      FILTER(langMatches(lang(?title), "{{ site.language }}"))
+    OPTIONAL { ?session dct:description ?description .
+      FILTER(langMatches(lang(?description), "{{ site.language }}"))
+    }
+  } ORDER BY ?start
+  {% endcapture %}
+  {% assign sessions = page.rdf | sparql_query: sessions_query %}
+  {% for session in sessions %}
+    {% assign session_start = session.start | date: "%H:%M" %}
+    {% assign session_end = session.end | date: "%H:%M" %}
+    {% assign host_name = session.host | rdf_property: "foaf:name" %}
+    <section class="timetable-unit">
+      <header>
+        <h3>
+          {{ session_start }} {{ str_clock }}
+        </h3>
+      </header>
+      <div>
+        <h4>
+          {{ session.title }}
+        </h4>
+        <p class="meta">
+          <time datetime="{{ session_start }}">{{ session_start }}</time> - <time datetime="{{ session_end }}">{{ session_end }}</time> <span>|</span> {{ current_location_string }}
+        </p>
+        <p>
+          {{ str_host }} {{ host_name }}
+          {% if session.description %}
+          <br />{{ session.description }}
+          {% endif %}
+        </p>
+        {% capture talks_query %}
+          SELECT DISTINCT ?title ?description ?start ?end ?speaker
+          WHERE {
+            <{{ session.iri }}> schema:subEvent ?talk .
+            ?talk dct:title ?title ;
+                schema:performer ?speaker ;
+                schema:startTime ?start ;
+                schema:endTime ?end .
+            FILTER(langMatches(lang(?title), "{{ site.language }}"))
+            OPTIONAL { ?talk dct:description ?description .
+              FILTER(langMatches(lang(?description), "{{ site.language }}"))
+            }
+          }
+        {% endcapture %}
+        {% assign talks = page.rdf | sparql_query: talks_query %}
+        {% for talk in talks %}
+          {% assign talk_start = talk.start | date: "%H:%M" %}
+          {% assign talk_end = talk.end | date: "%H:%M" %}
+          {% assign speaker_name = talk.speaker | rdf_property: "foaf:name" %}
+          <ul>
+            <li>
+              {{ talk_start }} - {{ talk_end }}<strong>{{ speaker_name }}: {{ talk.title }}</strong>
+            </li>
+          </ul>
+        {% endfor %}
+        <p class="calendar">
+          <a href="programm_montag_bereich-a.html#" title="Veranstaltung als Kalender-Datei speichern"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
+          <use xlink:href="/resources/images/icons.svg#calendar-add"></use></svg></a>
+        </p>
+      </div>
+    </section>
+    {% if talks.first %}
+    <section class="timetable-unit timetable-unit-break">
+      <header>
+        <h3>
+          {{ session_end }} {{ str_clock }}
+        </h3>
+      </header>
+      <div>
+        <h4>
+          Pause
+        </h4>
+        <p class="meta">
+          <time datetime="10:10:00">{{ session_end }}</time> - <time datetime="10:15:00">lookahead? </time>
+        </p>
+      </div>
+    </section>
+    {% endif %}
+  {% endfor %}
 {% endfor %}
