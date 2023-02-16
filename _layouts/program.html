@@ -8,6 +8,15 @@ layout: basic
 {% assign date = page.rdf | rdf_property: "schema:date" %}
 
 
+{% capture menu_query %}
+SELECT (min(?iri) as ?link) ?date ?location ?datestring WHERE {
+  ?iri rdf:type dw:RoomDay ;
+    schema:date ?date ;
+    schema:location ?location .
+} GROUP BY ?date ORDER BY ?date
+{% endcapture %}
+{% assign menudays = page.rdf | sparql_query: menu_query %}
+
 {% capture roomdays_query %}
 # This query selects all dw:RoomDay resources to help build
 # the menu and mobile menu for each day and location
@@ -34,14 +43,14 @@ SELECT ?iri ?date ?location ?location_name ?datestring WHERE {
       <option value="">
         Tag wählen
       </option>
-      {% for day in roomdays %}
+      {% for day in menudays %}
         {% assign weekday = day.date | localize: "%a"  %}
         {% if site.language == 'de' %}
           {% assign date_string = day.date | date: "%d.%m.%Y" %}
         {% else %}
           {% assign date_string = day.date %}
         {% endif %}
-        <option value="{{ day.iri.page_url | relativize_url }}">
+        <option value="{{ day.link.page_url | relativize_url }}">
           {{ weekday }}, {{ date_string }} ({{ day.location_name }})
         </option>
       {% endfor %}
@@ -56,7 +65,7 @@ SELECT ?iri ?date ?location ?location_name ?datestring WHERE {
 </form>
 <nav class="nav-sub1" aria-label="Untermenü Stufe 1">
   <ul>
-    {% for day in roomdays %}
+    {% for day in menudays %}
       {% assign weekday = day.date | localize: "%A"  %}
       {% if site.language == 'de' %}
        {% assign date_string = day.date | date: "%d.%m.%Y" %}
@@ -65,10 +74,10 @@ SELECT ?iri ?date ?location ?location_name ?datestring WHERE {
       {% endif %}
       {% if day.date == date %}
         <li class="open">
-          <a class="active" href="{{ day.iri.page_url | relativize_link  }}.html"><span>{{ date_string }}</span>{{ weekday }}</a>
+          <a class="active" href="{{ day.link.page_url | relativize_link  }}.html"><span>{{ date_string }}</span>{{ weekday }}</a>
       {% else %}
         <li>
-          <a href="{{ day.iri.page_url | relativize_link }}.html"><span>{{ date_string}}</span>{{ weekday }}</a>
+          <a href="{{ day.link.page_url | relativize_link }}.html"><span>{{ date_string}}</span>{{ weekday }}</a>
       {% endif %}
       </li>
     {% endfor %}
