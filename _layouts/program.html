@@ -74,7 +74,7 @@ SELECT ?iri ?date ?location ?location_name ?datestring WHERE {
       {% endif %}
       {% if day.date == date %}
         <li class="open">
-          <a class="active" href="{{ day.link.page_url | relativize_link  }}.html"><span>{{ date_string }}</span>{{ weekday }}</a>
+          <strong aria-current="page"><span>{{ date_string }}</span>{{ weekday }}</strong>
       {% else %}
         <li>
           <a href="{{ day.link.page_url | relativize_link }}.html"><span>{{ date_string}}</span>{{ weekday }}</a>
