@@ -46,7 +46,7 @@ layout: basic
       {% assign slug = event.e | rdf_property: "dw:slug" %}
       {% if event.e == page.rdf %}
         <li class="open">
-          <a class="active" href="{{ event.e.page_url | relativize_url }}"><span>{{ weekday_string }}</span> {{ slug | default: eventShortName }}</a>
+          <strong aria-current="page"><span>{{ weekday_string }}</span> {{ slug | default: eventShortName }}</strong>
       {% else %}
         <li>
           <a href="{{ event.e.page_url | relativize_url }}"><span>{{ weekday_string }}</span> {{ slug | default: eventShortName }}</a>
