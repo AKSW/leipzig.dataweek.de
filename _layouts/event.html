@@ -2,6 +2,7 @@
 layout: basic
 ---
 {% assign rootResource = site.rootResource | rdf_get %}
+{% include strings.html %}
 {% capture eventsQuery %}
   SELECT DISTINCT ?e (MIN(?dates) as ?date) (SAMPLE(?descriptions) as ?description) (SAMPLE(?titles) as ?title) (SAMPLE(?slogans) as ?slogan)
   WHERE {
@@ -22,60 +23,10 @@ layout: basic
 {% endcapture %}
 {% assign events = page.rdf | sparql_query: eventsQuery %}
 
-{% if site.language == "de" %}
-  {% assign mobileLabel = "Veranstaltung" %}
-  {% assign mobileHint = "Veranstaltung wählen" %}
-  {% assign orgateam = "Die Organisatoren" %}
-{% else %}
-  {% assign mobileLabel = "Event" %}
-  {% assign mobileHint = " Chose an event" %}
-  {% assign orgateam = "Organization Team" %}
-{% endif %}
-
 <div class="content-header">
   <h1>
-    {% if site.language == "de" %}
-      Die Veranstaltungen
-    {% else %}
-      Events
-    {% endif %}
+    {{ str_events }}
   </h1>
-  <form class="filter only-small-screens" action="#">
-    <div>
-      <label for="events_form-select" class="hideme">
-        {{ mobileLabel }}
-      </label> <select class="form-control" id="events_form-select">
-        <option value="">
-          {{ mobileHint }}
-        </option>
-        {% for event in events %}
-          {% assign weekdays = event.e | rdf_property: "schema:date", nil, true %}
-          {% assign weekday_string = "" %}
-          {% for weekday in weekdays %}
-            {% unless forloop.first %}
-              {% if forloop.last %}
-                {% assign weekday_string = " & " | prepend: weekday_string %}
-              {% else %}
-                {% assign weekday_string = ", " | prepend: weekday_string %}
-              {% endif %}
-            {% endunless %}
-            {% assign weekday_string = weekday | localize: "%a" | prepend: weekday_string %}
-          {% endfor %}
-          {% assign eventShortName = event.e | replace: "https://2023.dataweek.de/", "" | replace: "/", "" %}
-          {% assign slug = event.e | rdf_property: "dw:slug" %}
-          <option value="{{ event.e.page_url | relativize_url }}">
-            {{ slug | default: eventShortName }} - {{ weekday_string }}
-          </option>
-        {% endfor %}
-      </select> <button type="button" onclick="showEvent()">
-          {% if site.language == "de" %}
-            Anzeigen
-          {% else %}
-            Show
-          {% endif %}
-        </button>
-    </div>
-  </form>
   <nav class="nav-sub1" aria-label="Untermenü Stufe 1">
     <ul>
     {% for event in events %}
@@ -95,10 +46,10 @@ layout: basic
       {% assign slug = event.e | rdf_property: "dw:slug" %}
       {% if event.e == page.rdf %}
         <li class="open">
-          <a class="active" href="{{ event.e.page_url | relativize_url }}"><span>{{ weekday_string }}</span>{{ slug | default: eventShortName }}</a>
+          <a class="active" href="{{ event.e.page_url | relativize_url }}"><span>{{ weekday_string }}</span> {{ slug | default: eventShortName }}</a>
       {% else %}
         <li>
-          <a href="{{ event.e.page_url | relativize_url }}"><span>{{ weekday_string }}</span>{{ slug | default: eventShortName }}</a>
+          <a href="{{ event.e.page_url | relativize_url }}"><span>{{ weekday_string }}</span> {{ slug | default: eventShortName }}</a>
       {% endif %}
       </li>
     {% endfor %}
@@ -120,25 +71,8 @@ layout: basic
 <p>
   {{ page.rdf | rdf_property: "dct:description" , site.language | markdownify }}
 </p>
-{% assign organizer = page.rdf | rdf_property: "schema:organizer" %}
-<h3>
-  {% assign label = organizer | rdf_property: "rdfs:label" %}
-  {% if label %}
-    {{ label }}
-  {% else %}
-    {{ orgateam }}
-  {% endif %}
-</h3>
-<div class="contact-list">
-  {% assign organizerTeam = organizer | rdf_container %}
-  <ul>
-    {% for person in organizerTeam %}
-      <li>
-        {% include components/person.html organizer=person %}
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+{% include sections/call.html event=page.rdf %}
+{% include sections/organizerTeam.html event=page.rdf %}
 <script type="text/javascript">
   function showEvent() {
     var event = document.getElementById("events_form-select").value;
