@@ -1533,8 +1533,11 @@ html.overlay-open {
     position: relative;
     text-decoration: none;
   }
-  .nav-sub1 ul a span, .nav-sub1 ul strong span {
+  .nav-sub1 ul a i, .nav-sub1 ul strong i {
     color: #17214c;
+    font-style: normal;
+  }
+  .nav-sub1 ul a span, .nav-sub1 ul strong span {
     font-size: 1rem;
   }
   .nav-sub1 ul a::before, .nav-sub1 ul strong::before {
@@ -1594,6 +1597,15 @@ html.overlay-open {
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
     color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     font-size: 22px;
     font-size: 1.375rem;
     font-weight: 600;
@@ -1601,16 +1613,23 @@ html.overlay-open {
     padding: 0.4375rem 1.5rem;
     text-decoration: none;
   }
+  .nav-sub1 a i, .nav-sub1 strong i {
+    font-style: normal;
+  }
+  .nav-sub1 a span, .nav-sub1 strong span {
+    color: #17214c;
+    font-size: 16px;
+    font-size: 1rem;
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+        -ms-flex-order: -1;
+            order: -1;
+  }
   .nav-sub1 a:hover, .nav-sub1 a:focus-visible, .nav-sub1 a:active {
     background: #17214c;
   }
   .nav-sub1 a:hover span, .nav-sub1 a:focus-visible span, .nav-sub1 a:active span {
     color: #3da6dc;
-  }
-  .nav-sub1 span {
-    color: #17214c;
-    font-size: 16px;
-    font-size: 1rem;
   }
   .nav-sub1 a.active, .nav-sub1 strong {
     background: #e8f7fd;
@@ -1618,8 +1637,8 @@ html.overlay-open {
     background: bottom left repeating-linear-gradient(-45deg, #e8f7fd, #e8f7fd 5px, #d7eefa 5px, #d7eefa 10px);
     background-size: 500px 500px;
     color: #17214c;
-    padding-top: 0.875rem;
-    padding-bottom: 0;
+    padding-top: 0.65625rem;
+    padding-bottom: 0.21875rem;
     position: relative;
   }
   .nav-sub1 a.active::before, .nav-sub1 strong::before {
@@ -1817,6 +1836,9 @@ html.overlay-open {
 .nav-sitemap a, .nav-sitemap strong {
   font-weight: 600;
   text-decoration: none;
+}
+.nav-sitemap i {
+  font-style: normal;
 }
 .nav-sitemap strong {
   color: #ff7600;
