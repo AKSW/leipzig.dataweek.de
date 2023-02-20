@@ -73,15 +73,3 @@ layout: basic
 </p>
 {% include sections/call.html event=page.rdf %}
 {% include sections/organizerTeam.html event=page.rdf %}
-<script type="text/javascript">
-  function showEvent() {
-    var event = document.getElementById("events_form-select").value;
-
-    if (!event) {
-      return;
-    }
-
-    console.log(location.origin+location.pathname+event);
-    location.href = location.origin+location.pathname+event;
-  }
-</script>
