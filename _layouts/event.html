@@ -3,59 +3,9 @@ layout: basic
 ---
 {% assign rootResource = site.rootResource | rdf_get %}
 {% include strings.html %}
-{% capture eventsQuery %}
-  SELECT DISTINCT ?e (MIN(?dates) as ?date) (SAMPLE(?descriptions) as ?description) (SAMPLE(?titles) as ?title) (SAMPLE(?slogans) as ?slogan)
-  WHERE {
-    BIND("{{ site.language }}" as ?language)
-    <{{ rootResource }}> schema:subEvent ?e .
-    ?e rdfs:label ?titles ;
-    dct:description ?descriptions ;
-    schema:date ?dates .
-    OPTIONAL {
-      ?e schema:slogan ?slogans
-      FILTER(langMatches(lang(?slogans), ?language))
-    }
-    FILTER(langMatches(lang(?descriptions), ?language))
-    FILTER(langMatches(lang(?titles), ?language))
-  }
-  GROUP BY ?e
-  ORDER BY ?date
-{% endcapture %}
-{% assign events = page.rdf | sparql_query: eventsQuery %}
 
-<div class="content-header">
-  <h1>
-    {{ str_events }}
-  </h1>
-  <nav class="nav-sub1" aria-label="Untermenü Stufe 1">
-    <ul>
-    {% for event in events %}
-      {% assign weekdays = event.e | rdf_property: "schema:date", nil, true %}
-      {% assign weekday_string = "" %}
-      {% for weekday in weekdays %}
-        {% unless forloop.first %}
-          {% if forloop.last %}
-            {% assign weekday_string = " & " | prepend: weekday_string %}
-          {% else %}
-            {% assign weekday_string = ", " | prepend: weekday_string %}
-          {% endif %}
-        {% endunless %}
-        {% assign weekday_string = weekday | localize: "%a" | prepend: weekday_string %}
-      {% endfor %}
-      {% assign eventShortName = event.e | replace: "https://2023.dataweek.de/", "" | replace: "/", "" %}
-      {% assign slug = event.e | rdf_property: "dw:slug" %}
-      {% if event.e == page.rdf %}
-        <li class="open">
-          <strong aria-current="page"><i>{{ slug | default: eventShortName }}</i> <span>{{ weekday_string }}</span></strong>
-      {% else %}
-        <li>
-          <a href="{{ event.e.page_url | relativize_url }}"><i>{{ slug | default: eventShortName }}</i> <span>{{ weekday_string }}</span></a>
-      {% endif %}
-      </li>
-    {% endfor %}
-    </ul>
-  </nav>
-</div>
+{% include components/navigation_events.html %}
+
 
 <h2>
   {{ page.rdf | rdf_property: "rdfs:label", site.language }}
@@ -73,15 +23,3 @@ layout: basic
 </p>
 {% include sections/call.html event=page.rdf %}
 {% include sections/organizerTeam.html event=page.rdf %}
-<script type="text/javascript">
-  function showEvent() {
-    var event = document.getElementById("events_form-select").value;
-
-    if (!event) {
-      return;
-    }
-
-    console.log(location.origin+location.pathname+event);
-    location.href = location.origin+location.pathname+event;
-  }
-</script>
