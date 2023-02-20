@@ -1559,6 +1559,9 @@ html.overlay-open {
   .nav-sub1 ul a:hover::before, .nav-sub1 ul a:focus-visible::before, .nav-sub1 ul a:active::before, .nav-sub1 ul strong::before {
     background: #3da6dc;
   }
+  .nav-sub1 ul a:hover i, .nav-sub1 ul a:focus-visible i, .nav-sub1 ul a:active i, .nav-sub1 ul strong i {
+    color: #ff7600;
+  }
   .nav-sub1 ul a:hover span, .nav-sub1 ul a:focus-visible span, .nav-sub1 ul a:active span, .nav-sub1 ul strong span {
     color: #17214c;
   }
