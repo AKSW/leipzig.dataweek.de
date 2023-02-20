@@ -51,8 +51,8 @@ layout: basic
   <li>
     <div class="contact">
       <h2><a class="highlight" href="{{ row.event.page_url | relativize_url }}">{{ row.event | rdf_property: "rdfs:label", site.language }} ({{ row.event | rdf_property: "dw:slug" }})</a></h2>
-      <time>{{ weekday_string }}<br/>{{ dates_string }}</time>
       {% if slogan %}<div><em>{{ slogan }}</em></div>{% endif %}
+      <time>{{ weekday_string }}<br/>{{ dates_string }}</time>
       {% if abstract %}<p><small>{{ abstract }}</small></p>{% endif %}
     </div>
   </li>
