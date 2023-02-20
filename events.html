@@ -1,0 +1,58 @@
+---
+layout: basic
+---
+{% assign rootResource = site.rootResource | rdf_get %}
+{% include strings.html %}
+
+{% capture subEventQuery %}
+  SELECT DISTINCT ?event (MIN(?dates) as ?date)
+  WHERE {
+    BIND("{{ site.language }}" as ?lang)
+    ?resourceUri schema:subEvent ?event .
+    ?event schema:date ?dates .
+  }
+  GROUP BY ?event
+  ORDER BY ?date
+{% endcapture %}
+
+{% assign subEvents = rootResource | sparql_query: subEventQuery %}
+
+<div class="grid">
+  {% for row in subEvents %}
+  {% assign slogan = row.event | rdf_property: "schema:slogan", site.language %}
+  {% assign abstract = row.event | rdf_property: "schema:abstract", site.language %}
+  {% assign dates = row.event | rdf_property: "schema:date", nil, true %}
+  {% assign weekday_string = "" %}
+  {% for weekday in dates %}
+    {% unless forloop.first %}
+      {% if forloop.last %}
+        {% assign weekday_string = " & " | prepend: weekday_string %}
+      {% else %}
+        {% assign weekday_string = ", " | prepend: weekday_string %}
+      {% endif %}
+    {% endunless %}
+    {% assign weekday_string = weekday | localize: "%a" | prepend: weekday_string %}
+  {% endfor %}
+  {% assign dates_string = "" %}
+  {% for weekday in dates %}
+    {% unless forloop.first %}
+      {% if forloop.last %}
+        {% assign dates_string = " & " | prepend: dates_string %}
+      {% else %}
+        {% assign dates_string = ", " | prepend: dates_string %}
+      {% endif %}
+    {% endunless %}
+    {% assign dates_string = weekday | prepend: dates_string %}
+  {% endfor %}
+  <div class="grid-6 box">
+    <div><h3><a class="highlight" href="{{ row.event.page_url | relativize_url }}">{{ row.event | rdf_property: "rdfs:label", site.language }} ({{ row.event | rdf_property: "dw:slug" }})</a></h3></div>
+    <time>{{ weekday_string }}<br/>{{ dates_string }}</time>
+    {% if slogan %}<div><em>{{ slogan }}</em></div>{% endif %}
+    {% if abstract %}<p>{{ abstract }}</p>{% endif %}
+  </div>
+  {% assign odd = forloop.index0 | modulo: 2 %}
+  {% if odd == 1 %}
+  <br/>
+  {% endif %}
+  {% endfor %}
+</div>
