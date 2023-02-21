@@ -21,7 +21,7 @@ vars:
   JEKYLL_GID: '{{.JEKYLL_GID | default .ID_GID}}'
   JEKYLL_USER_ARG:
     sh: '[ "$(docker info --format "{{`{{if .Host.Security.Rootless}}true{{end}}`}}")" = "true" ] || echo -u "{{.JEKYLL_UID}}:{{.JEKYLL_GID}}"'
-  JEKYLL_IMAGE: ghcr.io/aksw/jekyll-rdf:4.0.3
+  JEKYLL_IMAGE: ghcr.io/aksw/jekyll-rdf:4.0.4
 
   LANGUAGE: '{{.LANGUAGE | default "de"}}'
 
@@ -94,7 +94,7 @@ tasks:
       docker run --rm \
       --workdir /github/workspace \
       -v {{.WORKING_DIRECTORY}}:/github/workspace \
-      -e TZ=Europe/Berlin {{.JEKYLL_USER_ARG}} -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
+      -e TZ=Europe/Berlin {{.JEKYLL_USER_ARG}} -e BUNDLE_PATH=.vendor -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
       {{.JEKYLL_IMAGE}} jekyll build -d {{.TARGET}}
 
   data:sync:
