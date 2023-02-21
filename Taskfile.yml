@@ -41,14 +41,14 @@ tasks:
   ci:
     desc: Build tasks for the CI
     cmds:
-      - task: sync-data
+      - task: data:sync
       - task: track:commit-and-push-data
       - task: build
 
-  sync-data:
+  data:sync:
     desc: Synchronize the data in the CI
     cmds:
-      - task: sync-data:get-graph
+      - task: data:get-graph
 
   build:
     desc: Build the page locally
@@ -100,22 +100,22 @@ tasks:
       -e TZ=Europe/Berlin {{.JEKYLL_USER_ARG}} -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
       {{.JEKYLL_IMAGE}} jekyll build -d {{.TARGET}}
 
-  sync-data:get-graph:
+  data:get-graph:
     deps:
-      - sync-data:model-update
+      - data:model-update
     cmds:
       - cp {{.MODEL_DIR}}/{{.GRAPH_FILE}}.nt {{.GRAPH_FILE}}.nt
       - cp {{.MODEL_DIR}}/{{.GRAPH_FILE}}.nt.graph {{.GRAPH_FILE}}.nt.graph
       - echo {{.MODEL_REPO}} > {{.GRAPH_FILE}}.nt.source
       - cd {{.MODEL_DIR}} && git rev-parse HEAD >> ../{{.GRAPH_FILE}}.nt.source
 
-  sync-data:model-update:
+  data:model-update:
     deps:
-      - sync-data:model-init
+      - data:model-init
     cmds:
       - cd {{.MODEL_DIR}} && git pull
 
-  sync-data:model-init:
+  data:model-init:
     cmds:
       - git clone {{.MODEL_REPO}} {{.MODEL_DIR}}
     status:
