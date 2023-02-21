@@ -2,6 +2,7 @@ version: '3'
 
 vars:
   MODEL_REPO: git@github.com:AKSW/leipzig.dataweek.de-model.git
+  MODEL_DIR: .model
   GRAPH_FILE: graph
   GRAPH_IRI:
     sh: cat {{.GRAPH_FILE}}.nt.graph || echo none
@@ -103,22 +104,22 @@ tasks:
     deps:
       - sync-data:model-update
     cmds:
-      - cp .model/{{.GRAPH_FILE}}.nt {{.GRAPH_FILE}}.nt
-      - cp .model/{{.GRAPH_FILE}}.nt.graph {{.GRAPH_FILE}}.nt.graph
+      - cp {{.MODEL_DIR}}/{{.GRAPH_FILE}}.nt {{.GRAPH_FILE}}.nt
+      - cp {{.MODEL_DIR}}/{{.GRAPH_FILE}}.nt.graph {{.GRAPH_FILE}}.nt.graph
       - echo {{.MODEL_REPO}} > {{.GRAPH_FILE}}.nt.source
-      - cd .model && git rev-parse HEAD >> ../{{.GRAPH_FILE}}.nt.source
+      - cd {{.MODEL_DIR}} && git rev-parse HEAD >> ../{{.GRAPH_FILE}}.nt.source
 
   sync-data:model-update:
     deps:
       - sync-data:model-init
     cmds:
-      - cd .model && git pull
+      - cd {{.MODEL_DIR}} && git pull
 
   sync-data:model-init:
     cmds:
-      - git clone {{.MODEL_REPO}} .model
+      - git clone {{.MODEL_REPO}} {{.MODEL_DIR}}
     status:
-      - test -d .model
+      - test -d {{.MODEL_DIR}}
 
   pictures:scale:
     deps:
