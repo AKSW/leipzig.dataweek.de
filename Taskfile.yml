@@ -45,11 +45,6 @@ tasks:
       - task: track:commit-and-push-data
       - task: build
 
-  data:sync:
-    desc: Synchronize the data in the CI
-    cmds:
-      - task: data:get-graph
-
   build:
     desc: Build the page locally
     deps:
@@ -99,6 +94,11 @@ tasks:
       -v {{.WORKING_DIRECTORY}}:/github/workspace \
       -e TZ=Europe/Berlin {{.JEKYLL_USER_ARG}} -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
       {{.JEKYLL_IMAGE}} jekyll build -d {{.TARGET}}
+
+  data:sync:
+    desc: Synchronize the data in the CI
+    cmds:
+      - task: data:get-graph
 
   data:get-graph:
     deps:
