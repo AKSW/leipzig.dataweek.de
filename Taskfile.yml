@@ -2,6 +2,7 @@ version: '3'
 
 vars:
   MODEL_REPO: git@github.com:AKSW/leipzig.dataweek.de-model.git
+  MODEL_DIR: .model
   GRAPH_FILE: graph
   GRAPH_IRI:
     sh: cat {{.GRAPH_FILE}}.nt.graph || echo none
@@ -19,8 +20,8 @@ vars:
   JEKYLL_UID: '{{.JEKYLL_UID | default .ID_UID}}'
   JEKYLL_GID: '{{.JEKYLL_GID | default .ID_GID}}'
   JEKYLL_USER_ARG:
-    sh: '[ $(docker info --format "{{`{{if .Host.Security.Rootless}}true{{end}}`}}") = "true" ] || echo -u "{{.JEKYLL_UID}}:{{.JEKYLL_GID}}"'
-  JEKYLL_IMAGE: ghcr.io/aksw/jekyll-rdf:4.0.3
+    sh: '[ "$(docker info --format "{{`{{if .Host.Security.Rootless}}true{{end}}`}}")" = "true" ] || echo -u "{{.JEKYLL_UID}}:{{.JEKYLL_GID}}"'
+  JEKYLL_IMAGE: ghcr.io/aksw/jekyll-rdf:4.0.4
 
   LANGUAGE: '{{.LANGUAGE | default "de"}}'
 
@@ -29,6 +30,8 @@ vars:
   TARGET_TMP_EN: '{{.TARGET_DE | default "_tmp/en"}}'
   TARGET_DE: '{{.TARGET_DE | default .TARGET}}'
   TARGET_EN: '{{.TARGET_EN | default "_site/en"}}'
+
+  BUILD_WATCH_FILES: find . -name '*' -not -path "./.git/*" -not -path "./.git" -not -path "./.jekyll-cache/*" -not -path "./.jekyll-cache"
 
 tasks:
 
@@ -40,14 +43,9 @@ tasks:
   ci:
     desc: Build tasks for the CI
     cmds:
-      - task: sync-data
+      - task: data:sync
       - task: track:commit-and-push-data
       - task: build
-
-  sync-data:
-    desc: Synchronize the data in the CI
-    cmds:
-      - task: sync-data:get-graph
 
   build:
     desc: Build the page locally
@@ -70,7 +68,7 @@ tasks:
   build:watch:
     desc: Watch for changes in the directory and rebuild the page, should be combined with task serve in a second terminal
     cmds:
-      - find . -name '*' | entr task build
+      - '{{.BUILD_WATCH_FILES}} | entr task build'
 
   serve:
     desc: Serve the locally built site
@@ -96,29 +94,34 @@ tasks:
       docker run --rm \
       --workdir /github/workspace \
       -v {{.WORKING_DIRECTORY}}:/github/workspace \
-      -e TZ=Europe/Berlin {{.JEKYLL_USER_ARG}} -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
+      -e TZ=Europe/Berlin {{.JEKYLL_USER_ARG}} -e BUNDLE_PATH=.vendor -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
       {{.JEKYLL_IMAGE}} jekyll build -d {{.TARGET}}
 
-  sync-data:get-graph:
-    deps:
-      - sync-data:model-update
+  data:sync:
+    desc: Synchronize the data in the CI
     cmds:
-      - cp .model/{{.GRAPH_FILE}}.nt {{.GRAPH_FILE}}.nt
-      - cp .model/{{.GRAPH_FILE}}.nt.graph {{.GRAPH_FILE}}.nt.graph
+      - task: data:get-graph
+
+  data:get-graph:
+    deps:
+      - data:model-update
+    cmds:
+      - cp {{.MODEL_DIR}}/{{.GRAPH_FILE}}.nt {{.GRAPH_FILE}}.nt
+      - cp {{.MODEL_DIR}}/{{.GRAPH_FILE}}.nt.graph {{.GRAPH_FILE}}.nt.graph
       - echo {{.MODEL_REPO}} > {{.GRAPH_FILE}}.nt.source
-      - cd .model && git rev-parse HEAD >> ../{{.GRAPH_FILE}}.nt.source
+      - cd {{.MODEL_DIR}} && git rev-parse HEAD >> ../{{.GRAPH_FILE}}.nt.source
 
-  sync-data:model-update:
+  data:model-update:
     deps:
-      - sync-data:model-init
+      - data:model-init
     cmds:
-      - cd .model && git pull
+      - cd {{.MODEL_DIR}} && git pull
 
-  sync-data:model-init:
+  data:model-init:
     cmds:
-      - git clone {{.MODEL_REPO}} .model
+      - git clone {{.MODEL_REPO}} {{.MODEL_DIR}}
     status:
-      - test -d .model
+      - test -d {{.MODEL_DIR}}
 
   pictures:scale:
     deps:
