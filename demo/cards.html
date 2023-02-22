@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <title>
-      Data Week Leipzig 2022 | Programm / Detailseite
+      Data Week Leipzig 2022 | Demo / Cards
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
     <script>
     document.documentElement.className = document.documentElement.className.replace('no-js','js'); 
     </script>
@@ -22,14 +23,6 @@
             "item": {
                 "@id": "https:\/\/example.com\/index.html",
                 "name": "Startseite"
-            }
-        },
-        {
-            "@type": "ListItem",
-            "position": 1,
-            "item": {
-                "@id": "https:\/\/example.com\/programm.html",
-                "name": "Programm"
             }
         }
     ]
@@ -51,7 +44,7 @@
   <body class="">
     <a id="top"></a>
     <nav class="nav-first" aria-label="Sprunglinks">
-      <a href="programm_detail.html#inhalt">zum Inhalt</a> <a href="programm_detail.html#hilfsmenue">zum Hilfsmenü</a>
+      <a href="demo/cards.html#inhalt">zum Inhalt</a> <a href="demo/cards.html#hilfsmenue">zum Hilfsmenü</a>
     </nav>
     <header class="page-header">
       <div class="page-header-inner">
@@ -73,18 +66,18 @@
               <strong>deutsch</strong>
             </li>
             <li>
-              <a href="programm_detail.html#en" hreflang="en" lang="en">english</a>
+              <a href="demo/cards.html#en" hreflang="en" lang="en">english</a>
             </li>
           </ul>
-        </nav><a href="programm_detail.html#navigation" class="hamburger" id="hamburger" data-label-open="Menü öffnen" data-label-close="Menü schließen" data-text-open="&lt;svg role='img' focusable='false' aria-hidden='true' height='42' width='42'&gt;&lt;use xlink:href='images/icons.svg#hamburger'&gt;&lt;/use&gt;&lt;/svg&gt;&lt;span&gt;Menü&lt;/span&gt;" data-text-close=
+        </nav><a href="demo/cards.html#navigation" class="hamburger" id="hamburger" data-label-open="Menü öffnen" data-label-close="Menü schließen" data-text-open="&lt;svg role='img' focusable='false' aria-hidden='true' height='42' width='42'&gt;&lt;use xlink:href='images/icons.svg#hamburger'&gt;&lt;/use&gt;&lt;/svg&gt;&lt;span&gt;Menü&lt;/span&gt;" data-text-close=
         "&lt;svg role='img' focusable='false' aria-hidden='true' height='42' width='42'&gt;&lt;use xlink:href='images/icons.svg#close'&gt;&lt;/use&gt;&lt;/svg&gt;" data-focus-helper-text="zum Anfang des Menüs springen"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
         <use xlink:href="images/icons.svg#hamburger"></use></svg><span>zum Menü</span></a>
       </div>
     </header>
     <nav class="nav-main" aria-label="Hauptmenü">
       <ul>
-        <li class="open">
-          <a class="active" href="programm_montag_bereich-a.html">Programm</a>
+        <li>
+          <a href="programm_montag_bereich-a.html">Programm</a>
         </li>
         <li>
           <a href="sprecher.html">Sprecher</a>
@@ -95,59 +88,142 @@
         <li>
           <a href="organisationsteam_team-a.html">Organisationsteam</a>
         </li>
-        <li>
-          <a href="demo.html">Demo</a>
+        <li class="open">
+          <a class="active" href="demo.html">Demo</a>
         </li>
       </ul>
     </nav>
     <main class="page-main" aria-label="Inhalt" id="inhalt">
       <div class="content-header">
         <h1>
-          <span class="tag">Keynote</span> <span class="pre">Maria-Esther Vidal <small>(L3S Research Center, Hannover)</small></span> Big Data and knowledge graphs in medicine and healthcare - How does Data fight diseases?
+          Cards
         </h1>
       </div>
-      <div class="grid">
-        <div class="grid-8">
-          <div class="box">
-            <p class="space-bottom-half-line">
-              <svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
-              <use xlink:href="images/icons.svg#calendar-add"></use></svg> <strong><a href="programm_detail.html#">Termin im Kalender speichern</a></strong>
-            </p>
-            <p class="meta">
-              <time datetime="09:30:00">9:30</time> - <time datetime="09:40:00">09:40 Uhr</time> <span>|</span> Sitzungssaal
-            </p>
-            <p>
-              Schwerpunkte – mit einem besonderen Fokus auf Datenmanagement – sind in den Bereichen:
-            </p>
-            <ul class="styled">
-              <li>Data Science, Semantic Web, Knowledge Graphs and Big Data Analytics
-              </li>
-              <li>Databases, Federated Query Optimization and Processing
-              </li>
-              <li>Information Systems, Data Integration, Linked Data
-              </li>
-              <li>Semantic Data Management for Bio-Medicine and Life Sciences, OMICS Data Integration and Analytics, Research Infrastructures
-              </li>
-            </ul>
-            <p class="download">
-              <svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
-              <use xlink:href="images/icons.svg#cloud"></use></svg> <a href="programm_detail.html#">Folien</a>, <a href="programm_detail.html#">Aufzeichnung</a>
-            </p>
-          </div>
-        </div>
-        <div class="grid-4">
-          <div class="contact">
-            <h2>
-              Maria-Esther Vidal
-            </h2>
-            <figure>
-              <img class="js-load" data-src="files/user.png" data-sizes="auto" data-srcset="files/generated/user_480.png 480w, files/generated/user_800.png 800w, files/generated/user_1200.png 1200w" width="1500" height="1500" style="max-width:1500px" alt="Foto von User"><noscript><img src="files/user.png" alt="Foto von User"></noscript>
-            </figure>
-            <p>
-              L3S Research Center, Hannover
-            </p>
-          </div>
-        </div>
+      <div class="card-list">
+        <ul>
+          <li>
+            <div class="card">
+              <h2>
+                <a href="demo/cards.html#">EU Green Deal Data Space (EGD)</a>
+              </h2>
+              <p class="dates">
+                <time><strong class="highlighted xl">Monday</strong><br>
+                <strong>2023-06-26</strong></time>
+              </p>
+              <p class="justify">
+                Ziel des EU Green Deal Data Space Tags ist, mit Präsentationen, öffentlichen Diskussionen und Workshops Anforderungen, Prioritäten und Lücken für die Versorgung von Gemeinden im Rahmen einer nachhaltigen Entwicklung zu ermitteln.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h2>
+                <a href="demo/cards.html#">EU Green Deal Data Space (EGD)</a>
+              </h2>
+              <p class="dates">
+                <time><strong class="highlighted xl">Montag</strong><br>
+                <strong>2023-06-26</strong></time> <time><strong class="highlighted xl">Dienstag</strong><br>
+                <strong>2023-06-27</strong></time> <time><strong class="highlighted xl">Mittwoch</strong><br>
+                <strong>2023-06-28</strong></time>
+              </p>
+              <p class="justify">
+                Ziel des EU Green Deal Data Space Tags ist, mit Präsentationen, öffentlichen Diskussionen und Workshops Anforderungen, Prioritäten und Lücken für die Versorgung von Gemeinden im Rahmen einer nachhaltigen Entwicklung zu ermitteln.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="card-list card-list-max-3">
+        <ul>
+          <li>
+            <div class="card">
+              <h2>
+                Card
+              </h2>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h2>
+                Card
+              </h2>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h2>
+                Card
+              </h2>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h2>
+                Card
+              </h2>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h2>
+                Card
+              </h2>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h2>
+                Card
+              </h2>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="card-list card-list-max-4">
+        <ul>
+          <li>
+            <div class="card">
+              <h2>
+                Card
+              </h2>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h2>
+                Card
+              </h2>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h2>
+                Card
+              </h2>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h2>
+                Card
+              </h2>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h2>
+                Card
+              </h2>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h2>
+                Card
+              </h2>
+            </div>
+          </li>
+        </ul>
       </div>
       <div class="sponsors">
         <h2>
@@ -155,19 +231,19 @@
         </h2>
         <ul>
           <li>
-            <a href="programm_detail.html#"><img src="files/sponsor-appplant.png" alt="Logo appPlant"></a>
+            <a href="demo/cards.html#"><img src="files/sponsor-appplant.png" alt="Logo appPlant"></a>
           </li>
           <li>
-            <a href="programm_detail.html#"><img src="files/sponsor-datev.svg" alt="Logo Datev"></a>
+            <a href="demo/cards.html#"><img src="files/sponsor-datev.svg" alt="Logo Datev"></a>
           </li>
           <li>
-            <a href="programm_detail.html#"><img src="files/sponsor-eccenca.svg" alt="Logo eccenca"></a>
+            <a href="demo/cards.html#"><img src="files/sponsor-eccenca.svg" alt="Logo eccenca"></a>
           </li>
           <li>
-            <a href="programm_detail.html#"><img src="files/sponsor-stackfuel.png" alt="Logo stackfuel"></a>
+            <a href="demo/cards.html#"><img src="files/sponsor-stackfuel.png" alt="Logo stackfuel"></a>
           </li>
           <li>
-            <a href="programm_detail.html#"><img src="files/sponsor-vistex.png" alt="Logo Vistex"></a>
+            <a href="demo/cards.html#"><img src="files/sponsor-vistex.png" alt="Logo Vistex"></a>
           </li>
         </ul>
       </div>
@@ -179,14 +255,14 @@
             <strong>deutsch</strong>
           </li>
           <li>
-            <a href="programm_detail.html#en" hreflang="en" lang="en">english</a>
+            <a href="demo/cards.html#en" hreflang="en" lang="en">english</a>
           </li>
         </ul>
       </nav>
       <nav class="nav-sitemap" aria-label="Mobilmenü">
         <ul>
-          <li class="open">
-            <a class="active" href="programm_montag_bereich-a.html">Programm</a>
+          <li>
+            <a href="programm_montag_bereich-a.html">Programm</a>
             <ul>
               <li>
                 <a href="programm_montag_bereich-a.html"><i>Montag</i> <span>26.6.2023</span></a>
@@ -239,8 +315,8 @@
               </li>
             </ul>
           </li>
-          <li>
-            <a href="demo.html">Demo</a>
+          <li class="open">
+            <a class="active" href="demo.html">Demo</a>
             <ul>
               <li>
                 <a href="demo/news.html">Newsauflistung</a>
@@ -275,8 +351,8 @@
               <li>
                 <a href="demo/consent-dialog.html">Consent Dialog</a>
               </li>
-              <li>
-                <a href="demo/cards.html">Cards</a>
+              <li class="open">
+                <strong aria-current="page">Cards</strong>
               </li>
             </ul>
           </li>
@@ -328,22 +404,22 @@
         </h2>
         <ul>
           <li>
-            <a href="programm_detail.html#"><img src="files/logo-stadt-leipzig.png" alt="Logo Stadt Leipzg"></a>
+            <a href="demo/cards.html#"><img src="files/logo-stadt-leipzig.png" alt="Logo Stadt Leipzg"></a>
           </li>
           <li>
-            <a href="programm_detail.html#"><img src="files/logo-cut.svg" alt="Logo CUT"></a>
+            <a href="demo/cards.html#"><img src="files/logo-cut.svg" alt="Logo CUT"></a>
           </li>
           <li>
-            <a href="programm_detail.html#"><img src="files/logo-kmi.png" alt="Logo KMI"></a>
+            <a href="demo/cards.html#"><img src="files/logo-kmi.png" alt="Logo KMI"></a>
           </li>
           <li>
-            <a href="programm_detail.html#"><img src="files/logo-ogc.png" alt="Logo OGC"></a>
+            <a href="demo/cards.html#"><img src="files/logo-ogc.png" alt="Logo OGC"></a>
           </li>
         </ul>
       </div>
     </footer>
     <div class="toplink">
-      <a href="programm_detail.html#top" aria-label="zum Seitenanfang springen" title="zum Seitenanfang"><svg role="img" focusable="false" aria-hidden="true" viewbox="0 0 28 28" height="28" width="28">
+      <a href="demo/cards.html#top" aria-label="zum Seitenanfang springen" title="zum Seitenanfang"><svg role="img" focusable="false" aria-hidden="true" viewbox="0 0 28 28" height="28" width="28">
       <use xlink:href="images/icons.svg#button-toplink"></use></svg></a>
     </div>
     <script>
