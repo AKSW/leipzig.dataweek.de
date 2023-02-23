@@ -1,6 +1,12 @@
 {% assign rootResource = site.rootResource | rdf_get %}
 {% include strings.html %}
 
+{% assign current_page = page.path | relativize_url %}
+{% assign current_page_index = current_page | slice: 0, 5 | join %}
+{% if current_page_index == 'index' %}
+{% assign current_page = "." %}
+{% endif %}
+
 {% capture eventsQuery %}
   SELECT DISTINCT ?e (MIN(?dates) as ?date)
   WHERE {
@@ -20,11 +26,31 @@
   {% endif %}
 {% endfor %}
 
-{% assign current_page = page.path | relativize_url %}
-{% assign current_page_index = current_page | slice: 0, 5 | join %}
-{% if current_page_index == 'index' %}
-{% assign current_page = "." %}
-{% endif %}
+{% capture events_submenu %}
+<ul>
+{% for event in events %}
+  {% assign weekdays = event.e | rdf_property: "schema:date", nil, true %}
+  {% assign weekday_string = "" %}
+  {% for weekday in weekdays %}
+    {% unless forloop.first %}
+      {% if forloop.last %}
+        {% assign weekday_string = " & " | prepend: weekday_string %}
+      {% else %}
+        {% assign weekday_string = ", " | prepend: weekday_string %}
+      {% endif %}
+    {% endunless %}
+    {% assign weekday_string = weekday | localize: "%a" | prepend: weekday_string %}
+  {% endfor %}
+  {% assign event_label = event.e | rdf_property: "dw:slug" | append: " (" | append: weekday_string | append: ")" %}
+  {% assign event_link = event.e.render_path | relativize_url %}
+  {% assign isActive = false %}
+  {% if event.e == page.rdf %}
+  {% assign isActive = true %}
+  {% endif %}
+  {% include components/menu_entry.html active=isActive link=event_link label=event_label%}
+{% endfor %}
+</ul>
+{% endcapture %}
 
 {% assign events_link = "events.html" | relativize_url %}
 {% assign location_link = "location.html" | relativize_url %}
@@ -46,7 +72,7 @@
   {% include components/lang_switch.html mode="mobile" %}
   <nav class="nav-sitemap" aria-label="Mobilmenü">
     <ul current="{{current_page}}" page="{{page.path}}" current_i="{{current_page_index}}">
-      {% include components/menu_entry.html active=isEvent current=current_page link=events_link label=str_events %}
+      {% include components/menu_entry.html current=current_page link=events_link label=str_events submenu=events_submenu %}
       {% include components/menu_entry.html current=current_page link=location_link label=str_location %}
       {% include components/menu_entry.html current=current_page link=orgateam_link label=str_organizer %}
       {% include components/menu_entry.html current=current_page link=news_link label=str_news %}
