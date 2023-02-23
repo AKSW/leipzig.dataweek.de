@@ -1,0 +1,22 @@
+{% assign active = include.active %}
+{% assign current = include.current %}
+{% assign link = include.link %}
+{% assign label = include.label %}
+{% assign submenu = include.submenu %}
+
+{% unless active %}
+{% if current %}
+{% if link == current %}
+{% assign active = true %}
+{% endif %}
+{% endif %}
+{% endunless %}
+
+<li {% if active %}class="open"{% endif %} link="{{link}}" current="{{current}}">
+  <a href="{{ link }}">
+    {% if active %}<strong aria-current="page">{% endif %}
+    <span>{{ label }}</span>
+    {% if active %}</strong>{% endif %}
+  </a>
+  {{ submenu }}
+</li>
