@@ -4,8 +4,8 @@
 {% capture eventsQuery %}
   SELECT DISTINCT ?e (MIN(?dates) as ?date)
   WHERE {
-    ?resourceUri schema:subEvent ?e ;
-        schema:date ?dates .
+    ?resourceUri schema:subEvent ?e .
+    ?e schema:date ?dates .
   }
   GROUP BY ?e
   ORDER BY ?date
