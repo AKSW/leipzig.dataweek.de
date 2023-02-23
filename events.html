@@ -10,7 +10,6 @@ layout: basic
 {% capture subEventQuery %}
   SELECT DISTINCT ?event (MIN(?dates) as ?date)
   WHERE {
-    BIND("{{ site.language }}" as ?lang)
     ?resourceUri schema:subEvent ?event .
     ?event schema:date ?dates .
   }
