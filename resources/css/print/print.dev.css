@@ -281,6 +281,12 @@ sup {
   text-align: right;
 }
 
+.xl {
+  display: inline-block;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .justify {
   text-align: justify;
 }
@@ -294,7 +300,7 @@ sup {
 }
 
 .highlighted.highlighted {
-  color: #17214c;
+  color: #ff7600;
 }
 
 .truncated {
