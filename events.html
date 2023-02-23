@@ -10,7 +10,6 @@ layout: basic
 {% capture subEventQuery %}
   SELECT DISTINCT ?event (MIN(?dates) as ?date)
   WHERE {
-    BIND("{{ site.language }}" as ?lang)
     ?resourceUri schema:subEvent ?event .
     ?event schema:date ?dates .
   }
@@ -20,40 +19,30 @@ layout: basic
 
 {% assign subEvents = rootResource | sparql_query: subEventQuery %}
 
-<div class="contact-list">
+<div class="card-list">
   <ul>
   {% for row in subEvents %}
   {% assign slogan = row.event | rdf_property: "schema:slogan", site.language %}
   {% assign abstract = row.event | rdf_property: "schema:abstract", site.language %}
   {% assign dates = row.event | rdf_property: "schema:date", nil, true %}
-  {% assign weekday_string = "" %}
-  {% for weekday in dates %}
-    {% unless forloop.first %}
-      {% if forloop.last %}
-        {% assign weekday_string = " & " | prepend: weekday_string %}
-      {% else %}
-        {% assign weekday_string = ", " | prepend: weekday_string %}
-      {% endif %}
-    {% endunless %}
-    {% assign weekday_string = weekday | localize: "%a" | prepend: weekday_string %}
-  {% endfor %}
-  {% assign dates_string = "" %}
-  {% for weekday in dates %}
-    {% unless forloop.first %}
-      {% if forloop.last %}
-        {% assign dates_string = " & " | prepend: dates_string %}
-      {% else %}
-        {% assign dates_string = ", " | prepend: dates_string %}
-      {% endif %}
-    {% endunless %}
-    {% assign dates_string = weekday | prepend: dates_string %}
-  {% endfor %}
   <li>
-    <div class="contact">
-      <h2><a class="highlight" href="{{ row.event.page_url | relativize_url }}">{{ row.event | rdf_property: "rdfs:label", site.language }} ({{ row.event | rdf_property: "dw:slug" }})</a></h2>
-      {% if slogan %}<div><em>{{ slogan }}</em></div>{% endif %}
-      <time>{{ weekday_string }}<br/>{{ dates_string }}</time>
-      {% if abstract %}<p><small>{{ abstract }}</small></p>{% endif %}
+    <div class="card">
+      <h2>
+        <a class="highlight" href="{{ row.event.page_url | relativize_url }}">
+          {{ row.event | rdf_property: "rdfs:label", site.language }}
+          ({{ row.event | rdf_property: "dw:slug" }})
+        </a>
+      </h2>
+      <p class="dates">
+        {% for weekday in dates %}
+        <time>
+          <strong class="highlighted x1">{{ weekday | localize: "%a" }}</strong><br/>
+          <strong>{{ weekday }}</strong>
+        </time>
+        {% endfor %}
+      </p>
+      {% if slogan %}<p><em>{{ slogan }}</em></p>{% endif %}
+      {% if abstract %}<p class="justify"><small>{{ abstract }}</small></p>{% endif %}
     </div>
   </li>
   {% endfor %}

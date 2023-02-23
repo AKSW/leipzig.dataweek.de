@@ -1,25 +1,15 @@
-
 {% assign rootResource = site.rootResource | rdf_get %}
 {% include strings.html %}
 {% capture eventsQuery %}
-  SELECT DISTINCT ?e (MIN(?dates) as ?date) (SAMPLE(?descriptions) as ?description) (SAMPLE(?titles) as ?title) (SAMPLE(?slogans) as ?slogan)
+  SELECT DISTINCT ?e (MIN(?dates) as ?date)
   WHERE {
-    BIND("{{ site.language }}" as ?language)
-    <{{ rootResource }}> schema:subEvent ?e .
-    ?e rdfs:label ?titles ;
-    dct:description ?descriptions ;
-    schema:date ?dates .
-    OPTIONAL {
-      ?e schema:slogan ?slogans
-      FILTER(langMatches(lang(?slogans), ?language))
-    }
-    FILTER(langMatches(lang(?descriptions), ?language))
-    FILTER(langMatches(lang(?titles), ?language))
+    ?resourceUri schema:subEvent ?e .
+    ?e schema:date ?dates .
   }
   GROUP BY ?e
   ORDER BY ?date
 {% endcapture %}
-{% assign events = page.rdf | sparql_query: eventsQuery %}
+{% assign events = rootResource | sparql_query: eventsQuery %}
 
 <div class="content-header">
   <h1>
@@ -40,14 +30,13 @@
         {% endunless %}
         {% assign weekday_string = weekday | localize: "%a" | prepend: weekday_string %}
       {% endfor %}
-      {% assign eventShortName = event.e | replace: "https://2023.dataweek.de/", "" | replace: "/", "" %}
       {% assign slug = event.e | rdf_property: "dw:slug" %}
       {% if event.e == page.rdf %}
         <li class="open">
-          <strong aria-current="page"><i>{{ slug | default: eventShortName }}</i> <span>{{ weekday_string }}</span></strong>
+          <strong aria-current="page"><i>{{ slug }}</i> <span>{{ weekday_string }}</span></strong>
       {% else %}
         <li>
-          <a href="{{ event.e.page_url | relativize_url }}"><i>{{ slug | default: eventShortName }}</i> <span>{{ weekday_string }}</span></a>
+          <a href="{{ event.e.page_url | relativize_url }}"><i>{{ slug }}</i> <span>{{ weekday_string }}</span></a>
       {% endif %}
       </li>
     {% endfor %}
