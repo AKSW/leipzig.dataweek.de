@@ -904,6 +904,15 @@
 <https://dataweek.de/#FelixEngel> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.-Ing. Felix Engel" .
 <https://dataweek.de/#FelixEngel> <http://xmlns.com/foaf/0.1/name> "Felix Engel" .
 <https://dataweek.de/#FelixEngel> <http://xmlns.com/foaf/0.1/title> "Dr.-Ing." .
+<https://dataweek.de/#FelixSasaki> <http://schema.org/affiliation> <https://www.sap.com> .
+<https://dataweek.de/#FelixSasaki> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#FelixSasaki> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#FelixSasaki> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Felix Sasaki" .
+<https://dataweek.de/#FelixSasaki> <http://xmlns.com/foaf/0.1/homepage> <https://www.sap.com/germany/index.html> .
+<https://dataweek.de/#FelixSasaki> <http://xmlns.com/foaf/0.1/name> "Felix Sasaki" .
+<https://dataweek.de/#FelixSasaki> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#FelixSasaki> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "From 1993 until 1999, Felix studied Japanese and Linguistics in Berlin, Nagoya (Japan) and Tokyo. He then finished his PhD about XML and RDF based linguist modeling at the University of Bielefeld (Germany). His major workplaces include the World Wide Web Consortium (W3C), the DFKI (German research center for artificial intelligence), the educational publisher Cornelsen and the Brandenburg University of Applied Sciences. In October 2021, he joined SAP to work on in the realm of AI knowledge graphs and semantic technologies."@en .
+<https://dataweek.de/#FelixSasaki> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Von 1993 bis 1999 studierte Felix Japanisch und Linguistik in Berlin, Nagoya (Japan) und Tokio. Anschließend promovierte er an der Universität Bielefeld (Deutschland) über XML und RDF-basierte linguistische Modellierung. Zu seinen wichtigsten Arbeitsplätzen gehören das World Wide Web Consortium (W3C), das DFKI (Deutsches Forschungszentrum für Künstliche Intelligenz), der Bildungsverlag Cornelsen und die Fachhochschule Brandenburg. Im Oktober 2021 wechselte er zu SAP, um im Bereich der KI-Wissensgraphen und semantischen Technologien zu arbeiten."@de .
 <https://dataweek.de/#FidanLimani> <http://purl.org/dc/terms/description> "Research assistant"@en .
 <https://dataweek.de/#FidanLimani> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
 <https://dataweek.de/#FidanLimani> <http://schema.org/affiliation> <https://www.zbw.eu/de/> .
@@ -1739,6 +1748,12 @@
 <https://www.pwc.de/en.html> <http://www.w3.org/2000/01/rdf-schema#label> "PricewaterhouseCoopers GmbH"@de .
 <https://www.pwc.de/en.html> <http://www.w3.org/2000/01/rdf-schema#label> "PricewaterhouseCoopers GmbH"@en .
 <https://www.pwc.de/en.html> <http://xmlns.com/foaf/0.1/homepage> <https://www.pwc.de/en.html> .
+<https://www.sap.com/germany/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.sap.com> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.sap.com> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.sap.com> <http://www.w3.org/2000/01/rdf-schema#label> "SAP SE"@de .
+<https://www.sap.com> <http://www.w3.org/2000/01/rdf-schema#label> "SAP SE"@en .
+<https://www.sap.com> <http://xmlns.com/foaf/0.1/homepage> <https://www.sap.com> .
 <https://www.smwk.sachsen.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.smwk.sachsen.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.smwk.sachsen.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Saxon State Ministry for Science, Culture and Tourism"@en .
