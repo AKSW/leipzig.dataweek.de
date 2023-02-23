@@ -129,28 +129,89 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <nav class="nav-main" aria-label="Hauptmenü">
   <ul>
-    <li class="">
-      <a class="" href="egd-2023">
-        Veranstaltungen
-      </a>
-    </li>
-    <li class="">
-      <a class="" href="location.html">
-        Veranstaltungsort
-      </a>
-    </li>
-    <li class="">
-      <a class="" href="orgateam.html">
-        Organisationsteam
-      </a>
-    </li>
-    <li class="">
-      <a class="" href="news.html">
-        Neuigkeiten
-      </a>
-    </li>
+    
+
+
+
+
+
+
+
+<li class="open" link="events.html" current="events.html">
+  <a href="events.html">
+    <strong aria-current="page">
+    <span>Veranstaltungen</span>
+    </strong>
+  </a>
+  
+</li>
+
+    
+
+
+
+
+
+
+
+<li  link="location.html" current="events.html">
+  <a href="location.html">
+    
+    <span>Veranstaltungsort</span>
+    
+  </a>
+  
+</li>
+
+    
+
+
+
+
+
+
+
+<li  link="orgateam.html" current="events.html">
+  <a href="orgateam.html">
+    
+    <span>Organisationsteam</span>
+    
+  </a>
+  
+</li>
+
+    
+
+
+
+
+
+
+
+<li  link="news.html" current="events.html">
+  <a href="news.html">
+    
+    <span>Neuigkeiten</span>
+    
+  </a>
+  
+</li>
+
   </ul>
 </nav>
 
@@ -180,49 +241,120 @@
 </nav>
 
   <nav class="nav-sitemap" aria-label="Mobilmenü">
-    <ul>
+    <ul current="events.html" page="events.html" current_i="event">
       
-        <li>
-          <a href="egd-2023"><span>Veranstaltungen</span></a>
-        </li>
+
+
+
+
+
+
+
+<li class="open" link="events.html" current="events.html">
+  <a href="events.html">
+    <strong aria-current="page">
+    <span>Veranstaltungen</span>
+    </strong>
+  </a>
+  
+</li>
+
       
+
+
+
+
+
+
+
+<li  link="location.html" current="events.html">
+  <a href="location.html">
+    
+    <span>Veranstaltungsort</span>
+    
+  </a>
+  
+</li>
+
       
-        <li>
-          <a href="location.html"><span>Veranstaltungsort</span></a>
-        </li>
+
+
+
+
+
+
+
+<li  link="orgateam.html" current="events.html">
+  <a href="orgateam.html">
+    
+    <span>Organisationsteam</span>
+    
+  </a>
+  
+</li>
+
       
-      
-        <li>
-          <a href="orgateam.html"><span>Organisationsteam</span></a>
-        </li>
-      
-      
-        <li>
-          <a href="news.html"><span>Neuigkeiten</span></a>
-        </li>
-      
+
+
+
+
+
+
+
+<li  link="news.html" current="events.html">
+  <a href="news.html">
+    
+    <span>Neuigkeiten</span>
+    
+  </a>
+  
+</li>
+
     </ul>
     <ul>
       <li>
         <a href="https://infai.org/das-institut/impressum/">Impressum</a>
       </li>
       
-        <li>
-          <a href="datenschutz"><span>Datenschutz</span></a>
-        </li>
+
+
+
+
+
+
+
+<li  link="datenschutz" current="events.html">
+  <a href="datenschutz">
+    
+    <span>Datenschutz</span>
+    
+  </a>
+  
+</li>
+
       
-      
-        <li>
-          <a href="contact"><span>Kontakt</span></a>
-        </li>
-      
+
+
+
+
+
+
+
+<li  link="contact" current="events.html">
+  <a href="contact">
+    
+    <span>Kontakt</span>
+    
+  </a>
+  
+</li>
+
     </ul>
   </nav>
 </div>
 
 <main class="page-main" aria-label="Inhalt" id="inhalt">
   
-
 
 
 
@@ -244,13 +376,11 @@
       
       
       
-      
         <li>
           <a href="egd-2023"><i>EGD</i> <span>Mo</span></a>
       
       </li>
     
-      
       
       
       
@@ -266,13 +396,11 @@
       
       
       
-      
         <li>
           <a href="free-2023"><i>Free!</i> <span>Di</span></a>
       
       </li>
     
-      
       
       
       
@@ -288,13 +416,11 @@
       
       
       
-      
         <li>
           <a href="dsm-2023"><i>DSM</i> <span>Mi</span></a>
       
       </li>
     
-      
       
       
       
@@ -310,13 +436,11 @@
       
       
       
-      
         <li>
           <a href="lswt2023"><i>LSWT</i> <span>Mi</span></a>
       
       </li>
     
-      
       
       
       
@@ -337,134 +461,213 @@
 
 
 
-<div class="contact-list">
+<div class="card-list">
   <ul>
   
   
   
   
-  
-  
-  
-  
   <li>
-    <div class="contact">
-      <h2><a class="highlight" href="egd-2023">EU Green Deal Data Space (EGD)</a></h2>
+    <div class="card">
+      <h2>
+        <a class="highlight" href="egd-2023">
+          EU Green Deal Data Space
+          (EGD)
+        </a>
+      </h2>
+      <p class="dates">
+        
+        <time>
+          <strong class="highlighted x1">Mo</strong><br/>
+          <strong>2023-06-26</strong>
+        </time>
+        
+      </p>
       
-      <time>Mo<br/>2023-06-26</time>
-      <p><small>Ziel des EU Green Deal Data Space Tags ist, mit Präsentationen, öffentlichen Diskussionen und Workshops Anforderungen, Prioritäten und Lücken für die Versorgung von Gemeinden im Rahmen einer nachhaltigen Entwicklung zu ermitteln.</small></p>
+      <p class="justify"><small>Ziel des EU Green Deal Data Space Tags ist, mit Präsentationen, öffentlichen Diskussionen und Workshops Anforderungen, Prioritäten und Lücken für die Versorgung von Gemeinden im Rahmen einer nachhaltigen Entwicklung zu ermitteln.</small></p>
     </div>
   </li>
   
   
   
   
-  
-  
-  
-  
   <li>
-    <div class="contact">
-      <h2><a class="highlight" href="scads-tutorials-2023">Scads Tutorials (ScaDS)</a></h2>
+    <div class="card">
+      <h2>
+        <a class="highlight" href="scads-tutorials-2023">
+          Scads Tutorials
+          (ScaDS)
+        </a>
+      </h2>
+      <p class="dates">
+        
+        <time>
+          <strong class="highlighted x1">Mo</strong><br/>
+          <strong>2023-06-26</strong>
+        </time>
+        
+        <time>
+          <strong class="highlighted x1">Di</strong><br/>
+          <strong>2023-06-27</strong>
+        </time>
+        
+        <time>
+          <strong class="highlighted x1">Do</strong><br/>
+          <strong>2023-06-29</strong>
+        </time>
+        
+      </p>
       
-      <time>Mo, Di & Do<br/>2023-06-26, 2023-06-27 & 2023-06-29</time>
-      <p><small>Im Rahmen der Data Week bietet ScaDS.AI Dresden/Leipzig an drei Tagen Data Science Trainings für interessierte Wissenschaftler:innen, Student:innen und nicht-wissenschaftliche Nutzer:innen an.</small></p>
+      <p class="justify"><small>Im Rahmen der Data Week bietet ScaDS.AI Dresden/Leipzig an drei Tagen Data Science Trainings für interessierte Wissenschaftler:innen, Student:innen und nicht-wissenschaftliche Nutzer:innen an.</small></p>
     </div>
   </li>
   
   
   
   
-  
-  
-  
-  
   <li>
-    <div class="contact">
-      <h2><a class="highlight" href="free-2023">Daten befreien! (Free!)</a></h2>
+    <div class="card">
+      <h2>
+        <a class="highlight" href="free-2023">
+          Daten befreien!
+          (Free!)
+        </a>
+      </h2>
+      <p class="dates">
+        
+        <time>
+          <strong class="highlighted x1">Di</strong><br/>
+          <strong>2023-06-27</strong>
+        </time>
+        
+      </p>
       
-      <time>Di<br/>2023-06-27</time>
-      <p><small>Das Connected Urban Twins Projekt und weitere Vorhaben der Stadt zeigen mit dieser Veranstaltung, wie Daten aus verschiedenen Datenquellen kombiniert und für die Stadtentwicklung genutzt werden können.</small></p>
+      <p class="justify"><small>Das Connected Urban Twins Projekt und weitere Vorhaben der Stadt zeigen mit dieser Veranstaltung, wie Daten aus verschiedenen Datenquellen kombiniert und für die Stadtentwicklung genutzt werden können.</small></p>
     </div>
   </li>
   
   
   
   
-  
-  
-  
-  
   <li>
-    <div class="contact">
-      <h2><a class="highlight" href="lodh-2023">Leipzig Open Data Hackathon (LODH)</a></h2>
+    <div class="card">
+      <h2>
+        <a class="highlight" href="lodh-2023">
+          Leipzig Open Data Hackathon
+          (LODH)
+        </a>
+      </h2>
+      <p class="dates">
+        
+        <time>
+          <strong class="highlighted x1">Di</strong><br/>
+          <strong>2023-06-27</strong>
+        </time>
+        
+      </p>
       
-      <time>Di<br/>2023-06-27</time>
-      <p><small>Interessierte Bürger/-innen, Studierende, IT-Begeisterte und Open-Data-Enthusiasten sind eingeladen, das bestehende Angebot des Leipziger Open-Data-Portals mit eigenen Ideen und Anregungen noch besser zu machen.</small></p>
+      <p class="justify"><small>Interessierte Bürger/-innen, Studierende, IT-Begeisterte und Open-Data-Enthusiasten sind eingeladen, das bestehende Angebot des Leipziger Open-Data-Portals mit eigenen Ideen und Anregungen noch besser zu machen.</small></p>
     </div>
   </li>
   
   
   
   
-  
-  
-  
-  
   <li>
-    <div class="contact">
-      <h2><a class="highlight" href="dsm-2023">Data Science Mania (DSM)</a></h2>
+    <div class="card">
+      <h2>
+        <a class="highlight" href="dsm-2023">
+          Data Science Mania
+          (DSM)
+        </a>
+      </h2>
+      <p class="dates">
+        
+        <time>
+          <strong class="highlighted x1">Mi</strong><br/>
+          <strong>2023-06-28</strong>
+        </time>
+        
+      </p>
       
-      <time>Mi<br/>2023-06-28</time>
-      <p><small>Auf der Data Science Mania reden wir über Leadership und Agilität im Data Science Umfeld, über erfolgreiche und vielleicht auch nicht so erfolgreiche Projekte (und was man daraus lernen kann) und über vielversprechende methodische Ansätze - unabhängig von der Programmiersprache und vom Framework.</small></p>
+      <p class="justify"><small>Auf der Data Science Mania reden wir über Leadership und Agilität im Data Science Umfeld, über erfolgreiche und vielleicht auch nicht so erfolgreiche Projekte (und was man daraus lernen kann) und über vielversprechende methodische Ansätze - unabhängig von der Programmiersprache und vom Framework.</small></p>
     </div>
   </li>
   
   
   
   
-  
-  
-  
-  
   <li>
-    <div class="contact">
-      <h2><a class="highlight" href="kmi-23">KMI Konsortialtreffen (KMI)</a></h2>
+    <div class="card">
+      <h2>
+        <a class="highlight" href="kmi-23">
+          KMI Konsortialtreffen
+          (KMI)
+        </a>
+      </h2>
+      <p class="dates">
+        
+        <time>
+          <strong class="highlighted x1">Mi</strong><br/>
+          <strong>2023-06-28</strong>
+        </time>
+        
+      </p>
       
-      <time>Mi<br/>2023-06-28</time>
-      <p><small>Das KMI Konsortium (künstlich – menschlich – intelligent) stellt sicher der interessierten Öffentlichkeit vor und gibt Einblicke in aktuelle Entwicklungen rund um KI in der Region des Mitteldeutschen Kohlereviers.</small></p>
+      <p class="justify"><small>Das KMI Konsortium (künstlich – menschlich – intelligent) stellt sicher der interessierten Öffentlichkeit vor und gibt Einblicke in aktuelle Entwicklungen rund um KI in der Region des Mitteldeutschen Kohlereviers.</small></p>
     </div>
   </li>
   
   
   
   
-  
-  
-  
-  
   <li>
-    <div class="contact">
-      <h2><a class="highlight" href="lswt2023">11. Leipziger Semantic Web Tag (LSWT)</a></h2>
-      <div><em>Wissensgraphen in Unternehmen und Organisationen</em></div>
-      <time>Mi<br/>2023-06-28</time>
-      <p><small>Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen.</small></p>
+    <div class="card">
+      <h2>
+        <a class="highlight" href="lswt2023">
+          11. Leipziger Semantic Web Tag
+          (LSWT)
+        </a>
+      </h2>
+      <p class="dates">
+        
+        <time>
+          <strong class="highlighted x1">Mi</strong><br/>
+          <strong>2023-06-28</strong>
+        </time>
+        
+      </p>
+      <p><em>Wissensgraphen für intelligente Informationsnetze</em></p>
+      <p class="justify"><small>Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die Möglichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen.</small></p>
     </div>
   </li>
   
   
   
   
-  
-  
-  
-  
   <li>
-    <div class="contact">
-      <h2><a class="highlight" href="ai-tomorrow-2023">AI-Tomorrow (AI-T)</a></h2>
+    <div class="card">
+      <h2>
+        <a class="highlight" href="ai-tomorrow-2023">
+          AI-Tomorrow
+          (AI-T)
+        </a>
+      </h2>
+      <p class="dates">
+        
+        <time>
+          <strong class="highlighted x1">Do</strong><br/>
+          <strong>2023-06-29</strong>
+        </time>
+        
+        <time>
+          <strong class="highlighted x1">Fr</strong><br/>
+          <strong>2023-06-30</strong>
+        </time>
+        
+      </p>
       
-      <time>Do & Fr<br/>2023-06-29 & 2023-06-30</time>
-      <p><small>Die erste Arbeitskonferenz zur Entwicklung einer künstlicher Intelligenz für eine widerstandsfähige und nachhaltige Zukunft wird vom Kompetenzzentrum KMI in Zusammenarbeit mit mehreren Partnern organisiert.</small></p>
+      <p class="justify"><small>Die erste Arbeitskonferenz zur Entwicklung einer künstlicher Intelligenz für eine widerstandsfähige und nachhaltige Zukunft wird vom Kompetenzzentrum KMI in Zusammenarbeit mit mehreren Partnern organisiert.</small></p>
     </div>
   </li>
   
