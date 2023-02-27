@@ -31,7 +31,7 @@ vars:
   TARGET_DE: '{{.TARGET_DE | default .TARGET}}'
   TARGET_EN: '{{.TARGET_EN | default "_site/en"}}'
 
-  BUILD_WATCH_FILES: find . -name '*' -not -path "./.git/*" -not -path "./.git" -not -path "./.jekyll-cache/*" -not -path "./.jekyll-cache"
+  BUILD_WATCH_FILES: find . -name '*' -not -path "./.git/*" -not -path "./.git" -not -path "./.jekyll-cache/*" -not -path "./.jekyll-cache" -not -path "./_tmp" -not -path "./_tmp/*"
 
 tasks:
 
