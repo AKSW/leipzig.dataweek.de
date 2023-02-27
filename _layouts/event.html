@@ -5,13 +5,36 @@ layout: basic
 {% include strings.html %}
 
 {% include components/navigation_events.html %}
+{% capture dateQuery %}
+  SELECT DISTINCT (MIN(?dates) as ?minDate) (MAX(?dates) as ?maxDate) ?startDate ?endDate
+  WHERE {
+    <{{ page.rdf }}> schema:date ?dates .
+    OPTIONAL { <{{ page.rdf }}> schema:startDate ?startDate . }
+    OPTIONAL { <{{ page.rdf }}> schema:endDate ?endDate . }
+  }
+  ORDER BY ?date
+{% endcapture %}
 
+{% assign dateResults = rootResource | sparql_query: dateQuery %}
+{% assign dates = dateResults.first %}
 
 <h2>
   {{ page.rdf | rdf_property: "rdfs:label", site.language }}
 </h2>
 <p>
-  {{ page.rdf | rdf_property: "schema:date" }}
+  {% if dates.startDate and dates.endDate %}
+    {% if dates.startDate != dates.endDate %}
+      {{ dates.startDate }} - {{ dates.endDate }}
+    {% else %}
+      {{ dates.minDate }}
+    {% endif %}
+  {% else %}
+    {% if dates.minDate != dates.maxDate %}
+      {{ dates.minDate }} - {{ dates.maxDate }}
+    {% else %}
+      {{ dates.minDate }}
+    {% endif %}
+  {% endif %}
   {% assign slogan = page.rdf | rdf_property: "schema:slogan" %}
   {% if slogan %}
     <br>{{ slogan }}
