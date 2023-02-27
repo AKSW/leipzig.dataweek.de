@@ -630,7 +630,18 @@ sup {
   line-height: 1.75rem;
 }
 
+h2 .xl, h3 .xl {
+  display: inline-block;
+  font-size: 1.75rem;
+  line-height: 2.625rem;
+}
+
 .justify {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+      hyphens: auto;
   text-align: justify;
 }
 
@@ -644,6 +655,14 @@ sup {
 
 .highlighted.highlighted {
   color: #ff7600;
+}
+
+.highlighted2.highlighted2 {
+  color: #3da6dc;
+}
+
+a .hideunderline {
+  text-decoration: none;
 }
 
 .truncated {
