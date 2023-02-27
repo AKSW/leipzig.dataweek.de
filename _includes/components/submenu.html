@@ -1,0 +1,13 @@
+{%- assign entries = include.entries -%}
+{% assign current_page = page.path | relativize_url %}
+{% assign current_page_index = current_page | slice: 0, 5 | join %}
+{% if current_page_index == 'index' %}
+{% assign current_page = "." %}
+{% endif %}
+<nav class="nav-sub2" aria-label="Untermenü Stufe 2">
+  <ul>
+{% for entry in entries %}
+{% include components/menu_entry.html current=current_page link=entry.link label=entry.label %}
+{% endfor %}
+  </ul>
+</nav>
