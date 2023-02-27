@@ -1,0 +1,13 @@
+{%- assign entries = include.entries -%}
+{% assign active_entry = include.active_entry %}
+<nav class="nav-sub1" aria-label="Untermenü Stufe 1">
+  <ul>
+{% for entry in entries %}
+{% assign active = false %}
+{% if entry.id == active_entry %}
+{% assign active = true %}
+{% endif %}
+{% include components/menu_sub_entry.html active=active link=entry.link label=entry.label_en %}
+{% endfor %}
+  </ul>
+</nav>

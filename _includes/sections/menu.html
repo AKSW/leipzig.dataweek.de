@@ -47,7 +47,7 @@
   {% if event.e == page.rdf %}
   {% assign isActive = true %}
   {% endif %}
-  {% include components/menu_entry.html active=isActive link=event_link label=event_label%}
+  {% include components/menu_sub_entry.html active=isActive link=event_link label=event_label%}
 {% endfor %}
 </ul>
 {% endcapture %}
@@ -61,10 +61,10 @@
 
 <nav class="nav-main" aria-label="Hauptmenü">
   <ul>
-    {% include components/menu_entry.html active=isEvent current=current_page link=events_link label=str_events%}
-    {% include components/menu_entry.html current=current_page link=location_link label=str_location %}
-    {% include components/menu_entry.html current=current_page link=orgateam_link label=str_organizer %}
-    {% include components/menu_entry.html current=current_page link=news_link label=str_news %}
+    {% include components/menu_main_entry.html active=isEvent current=current_page link=events_link label=str_events%}
+    {% include components/menu_main_entry.html current=current_page link=location_link label=str_location %}
+    {% include components/menu_main_entry.html current=current_page link=orgateam_link label=str_organizer %}
+    {% include components/menu_main_entry.html current=current_page link=news_link label=str_news %}
   </ul>
 </nav>
 
@@ -72,17 +72,17 @@
   {% include components/lang_switch.html mode="mobile" %}
   <nav class="nav-sitemap" aria-label="Mobilmenü">
     <ul current="{{current_page}}" page="{{page.path}}" current_i="{{current_page_index}}">
-      {% include components/menu_entry.html current=current_page link=events_link label=str_events submenu=events_submenu %}
-      {% include components/menu_entry.html current=current_page link=location_link label=str_location %}
-      {% include components/menu_entry.html current=current_page link=orgateam_link label=str_organizer %}
-      {% include components/menu_entry.html current=current_page link=news_link label=str_news %}
+      {% include components/menu_sub_entry.html current=current_page link=events_link label=str_events submenu=events_submenu %}
+      {% include components/menu_sub_entry.html current=current_page link=location_link label=str_location %}
+      {% include components/menu_sub_entry.html current=current_page link=orgateam_link label=str_organizer %}
+      {% include components/menu_sub_entry.html current=current_page link=news_link label=str_news %}
     </ul>
     <ul>
       <li>
         <a href="https://infai.org/das-institut/impressum/">{{ str_imprint }}</a>
       </li>
-      {% include components/menu_entry.html current=current_page link=datenschutz_link label=str_dataprotection %}
-      {% include components/menu_entry.html current=current_page link=contact_link label=str_contact %}
+      {% include components/menu_sub_entry.html current=current_page link=datenschutz_link label=str_dataprotection %}
+      {% include components/menu_sub_entry.html current=current_page link=contact_link label=str_contact %}
     </ul>
   </nav>
 </div>

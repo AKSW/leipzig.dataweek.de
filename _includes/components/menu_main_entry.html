@@ -1,0 +1,7 @@
+{% assign active = include.active %}
+{% assign current = include.current %}
+{% assign link = include.link %}
+{% assign label = include.label %}
+{% assign submenu = include.submenu %}
+
+{% include components/menu_entry.html current=current active=active link=link label_span=label submenu=submenu %}
