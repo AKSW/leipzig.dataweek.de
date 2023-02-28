@@ -1,18 +1,5 @@
 ---
 layout: basic
-menu_entries:
-  - id: 'venue'
-    label_de: 'Veranstaltungsort'
-    label_en: 'Venue'
-    link: 'index.html'
-  - id: 'travel'
-    label_de: 'Anreise'
-    label_en: 'Travel'
-    link: 'travel.html'
-  - id: 'accomodation'
-    label_de: 'Unterkunft'
-    label_en: 'Accomodation'
-    link: 'accomodation.html'
 ---
 {% assign rootResource = site.rootResource | rdf_get %}
 {% include strings.html %}
@@ -30,12 +17,12 @@ menu_entries:
   <address>
     {{ address }}
   </address>
-  {% include components/menu_sub1_static.html entries=page.menu_entries active_entry='venue' %}
+  {% assign menuResource = "<https://2023.dataweek.de/Venue/>" | rdf_get %}
+  {% include components/menu_sub1.html menuResource=menuResource %}
 </div>
 
 
 <div class="box">
-
   <h2>
     {% if site.language == 'en' %}
       Map view
