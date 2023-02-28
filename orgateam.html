@@ -82,11 +82,7 @@ order by ?person_name
 {% assign persons = rootResource | sparql_query: persons_query %}
 <div class="content-header">
   <h1>
-    {% if site.language == 'en' %}
-      General Chair
-    {% else %}
-      General Chair
-    {% endif %}
+    {{ str_general_chair }}
   </h1>
 </div>
 <div class="contact-list">
@@ -103,11 +99,7 @@ order by ?person_name
 </div>
 <div class="content-header">
   <h1>
-    {% if site.language == 'en' %}
-      DataWeek Team
-    {% else %}
-      DataWeek Team
-    {% endif %}
+    {{ str_dw_team }}
   </h1>
 </div>
 <div class="contact-list">
