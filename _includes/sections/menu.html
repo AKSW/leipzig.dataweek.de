@@ -1,7 +1,11 @@
 {% assign rootResource = site.rootResource | rdf_get %}
 {% include strings.html %}
 
+{% if page.rdf %}
+{% assign current_page = page.rdf.render_path | relativize_url %}
+{% else %}
 {% assign current_page = page.path | relativize_url %}
+{% endif %}
 
 {% capture eventsQuery %}
   SELECT DISTINCT ?e (MIN(?dates) as ?date)
@@ -50,7 +54,7 @@
 
 {% assign events_link = "events.html" | relativize_url %}
 {% assign location_link = "location.html" | relativize_url %}
-{% assign orgateam_link = "orgateam.html" | relativize_url %}
+{% assign orgateam_link = "Team.html" | relativize_url %}
 {% assign news_link = "news.html" | relativize_url %}
 {% assign datenschutz_link = "datenschutz/" | relativize_url %}
 {% assign contact_link = "contact/" | relativize_url %}
