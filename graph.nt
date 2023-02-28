@@ -274,10 +274,10 @@
 <https://2023.dataweek.de/#FooterMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/datenschutz> .
 <https://2023.dataweek.de/#FooterMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/contact> .
 <https://2023.dataweek.de/#FooterMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
-<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/events> .
+<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/Events> .
 <https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/Venue> .
 <https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/Team> .
-<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2023.dataweek.de/news> .
+<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2023.dataweek.de/News> .
 <https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2023.dataweek.de/#MainMenu> <http://xmlns.com/foaf/0.1/primaryTopic> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/> <http://rdfs.org/ns/void#rootResource> <https://2023.dataweek.de/#MainMenu> .
@@ -340,8 +340,8 @@
 <https://2023.dataweek.de/Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <http://aksw.org/MichaelMartin> .
 <https://2023.dataweek.de/Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://dataweek.de/#SebastianBoehm> .
 <https://2023.dataweek.de/Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://dataweek.de/#NilsHempelmann> .
-<https://2023.dataweek.de/Team> <http://www.w3.org/2000/01/rdf-schema#label> "DataWeek Team"@de .
-<https://2023.dataweek.de/Team> <http://www.w3.org/2000/01/rdf-schema#label> "DataWeek Team"@en .
+<https://2023.dataweek.de/Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam"@de .
+<https://2023.dataweek.de/Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organization Team"@en .
 <https://2023.dataweek.de/Team_GeneralChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/JuliaHolze> .
 <https://2023.dataweek.de/Team_GeneralChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/MichaelMartin> .
 <https://2023.dataweek.de/Team_GeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@de .
