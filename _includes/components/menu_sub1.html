@@ -12,13 +12,15 @@ select distinct ?entry {
   {
     bind(<{{page.rdf}}> as ?entry)
     <{{menuResource.iri}}> ?cmprop_1st ?entry .
+    bind(1 as ?level)
   } union {
     <{{menuResource.iri}}> ?cmprop_1st ?entry .
     ?entry ?cmprop_2nd <{{page.rdf}}> .
+    bind(2 as ?level)
   }
   ?cmprop_1st a rdfs:ContainerMembershipProperty .
   ?cmprop_2nd a rdfs:ContainerMembershipProperty .
-}
+} order by ?level limit 1
 {% endcapture %}
 
 {% assign selected_res = rootResource | sparql_query: subMenuQuery %}
