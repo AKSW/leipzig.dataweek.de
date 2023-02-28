@@ -6,12 +6,11 @@
         <li>
           <a href="https://infai.org/das-institut/impressum/">{{ str_imprint }}</a>
         </li>
-        <li>
-          <a href="{% relative_link datenschutz/index.md %}">{{ str_dataprotection }}</a>
-        </li>
-        <li>
-          <a href="{% relative_link contact/index.html %}">{{ str_contact }}</a>
-        </li>
+        {% assign datenschutz = "<https://2023.dataweek.de/datenschutz/>" | rdf_get %}
+        {% assign contact = "<https://2023.dataweek.de/contact/>" | rdf_get %}
+
+        {% include components/menu_main_entry.html current=current_page resource=datenschutz %}
+        {% include components/menu_main_entry.html current=current_page resource=contact %}
       </ul>
     </nav>
     <p class="socialmedia">

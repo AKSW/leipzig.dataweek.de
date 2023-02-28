@@ -1,9 +1,17 @@
 {% assign active = include.active %}
 {% assign current = include.current %}
 {% assign link = include.link %}
+{% assign resource = include.resource %}
 {% assign label_span = include.label_span %}
 {% assign label_i = include.label_i %}
+{% assign label_flipped = include.label_flipped %}
 {% assign submenu = include.submenu %}
+
+{% if resource %}
+{% unless link %}
+{% assign link = resource.render_path | relativize_url %}
+{% endunless %}
+{% endif %}
 
 {% unless active %}
 {% if current %}
@@ -13,16 +21,33 @@
 {% endif %}
 {% endunless %}
 
-<li {% if active %}class="open"{% endif %} link="{{link}}" current="{{current}}">
+{% capture label_span_tag %}
+{% if label_span %}<span>{{ label_span }}</span>{% endif %}
+{% endcapture %}
+{% capture label_i_tag %}
+{% if label_i %}<i>{{ label_i }}</i>{% endif %}
+{% endcapture %}
+
+<li {% if active %}class="open"{% endif %}>
   {% if active %}
     <strong aria-current="page">
-      {% if label_span %}<span>{{ label_span }}</span>{% endif %}
-      {% if label_i %}<i>{{ label_i }}</i>{% endif %}
+      {% if label_flipped %}
+      {{label_i_tag}}
+      {{label_span_tag}}
+      {% else %}
+      {{label_span_tag}}
+      {{label_i_tag}}
+      {% endif %}
     </strong>
   {% else %}
     <a href="{{ link }}">
-      {% if label_span %}<span>{{ label_span }}</span>{% endif %}
-      {% if label_i %}<i>{{ label_i }}</i>{% endif %}
+      {% if label_flipped %}
+      {{label_i_tag}}
+      {{label_span_tag}}
+      {% else %}
+      {{label_span_tag}}
+      {{label_i_tag}}
+      {% endif %}
     </a>
   {% endif %}
   {{ submenu }}

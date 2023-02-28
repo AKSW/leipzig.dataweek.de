@@ -33,7 +33,7 @@
       {% endfor %}
       {% assign slug = event.e | rdf_property: "dw:slug" %}
       {% assign event_link = event.e.page_url | relativize_url %}
-      {% include components/menu_sub_entry.html current=current_page link=event_link label=slug label_sub=weekday_string %}
+      {% include components/menu_sub_entry.html current=current_page link=event_link label=slug label_sub=weekday_string label_flipped=true %}
     {% endfor %}
     </ul>
   </nav>
