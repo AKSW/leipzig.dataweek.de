@@ -14,6 +14,11 @@ module Jekyll
     def relativize_url(input)
       return if input.nil?
       input = ensure_leading_slash(input)
+      if input.end_with?("/index.html")
+        input = input.slice(0..-11)
+      elsif input.end_with?("/index.md")
+        input = input.slice(0..-9)
+      end
       page_url = @context.registers[:page]["url"]
       if page_url.end_with?("/")
         page_dir = Pathname(page_url)

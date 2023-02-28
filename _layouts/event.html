@@ -4,7 +4,7 @@ layout: basic
 {% assign rootResource = site.rootResource | rdf_get %}
 {% include strings.html %}
 
-{% include components/navigation_events.html %}
+{% include components/menu_events.html %}
 
 <h2>{{ page.rdf | rdf_property: "rdfs:label", site.language }}</h2>
 {% assign slogan = page.rdf | rdf_property: "schema:slogan" %}

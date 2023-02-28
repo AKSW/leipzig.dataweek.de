@@ -1,8 +1,16 @@
 {% assign active = include.active %}
 {% assign current = include.current %}
 {% assign link = include.link %}
+{% assign resource = include.resource %}
 {% assign label = include.label %}
 {% assign label_sub = include.label_sub %}
+{% assign label_flipped = include.label_flipped %}
 {% assign submenu = include.submenu %}
 
-{% include components/menu_entry.html current=current active=active link=link label_i=label label_span=label_sub submenu=submenu %}
+{% if resource %}
+{% unless label %}
+{% assign label = resource | rdf_property: "rdfs:label", site.language %}
+{% endunless %}
+{% endif %}
+
+{% include components/menu_entry.html current=current active=active resource=resource link=link label_i=label label_span=label_sub label_flipped=label_flipped submenu=submenu %}

@@ -1,0 +1,19 @@
+{% assign menuResource = include.menuResource %}
+{% include strings.html %}
+
+{% if page.rdf %}
+{% assign current_page = page.rdf.render_path | relativize_url %}
+{% else %}
+{% assign current_page = page.path | relativize_url %}
+{% endif %}
+
+{% assign current_page = page.rdf.render_path | relativize_url %}
+{% assign menu = menuResource | rdf_container %}
+
+<nav class="nav-sub2" aria-label="{{ str_sub2_menu }}">
+  <ul>
+    {% for entry in menu %}
+    {% include components/menu_main_entry.html current=current_page resource=entry %}
+    {% endfor %}
+  </ul>
+</nav>

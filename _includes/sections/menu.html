@@ -1,10 +1,10 @@
 {% assign rootResource = site.rootResource | rdf_get %}
 {% include strings.html %}
 
+{% if page.rdf %}
+{% assign current_page = page.rdf.render_path | relativize_url %}
+{% else %}
 {% assign current_page = page.path | relativize_url %}
-{% assign current_page_index = current_page | slice: 0, 5 | join %}
-{% if current_page_index == 'index' %}
-{% assign current_page = "." %}
 {% endif %}
 
 {% capture eventsQuery %}
@@ -52,10 +52,10 @@
 </ul>
 {% endcapture %}
 
-{% assign events_link = "events.html" | relativize_url %}
-{% assign location_link = "venue/index.html" | relativize_url %}
-{% assign orgateam_link = "orgateam.html" | relativize_url %}
-{% assign news_link = "news.html" | relativize_url %}
+{% assign events_link = "Events.html" | relativize_url %}
+{% assign location_link = "location.html" | relativize_url %}
+{% assign orgateam_link = "Team.html" | relativize_url %}
+{% assign news_link = "News.html" | relativize_url %}
 {% assign datenschutz_link = "datenschutz/" | relativize_url %}
 {% assign contact_link = "contact/" | relativize_url %}
 

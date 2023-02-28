@@ -45,7 +45,7 @@ WHERE {
   OPTIONAL {
       Select distinct ?person ?role_name where {
           ?person a schema:Person ;
-            <https://dataweek.de/#role> ?role .
+            dw:role ?role .
           ?role rdfs:label ?role_name .
 
     	FILTER(langMatches(lang(?role_name), "{{ site.language }}"))
@@ -82,17 +82,13 @@ order by ?person_name
 {% assign persons = rootResource | sparql_query: persons_query %}
 <div class="content-header">
   <h1>
-    {% if site.language == 'en' %}
-      General Chair
-    {% else %}
-      General Chair
-    {% endif %}
+    {{ str_general_chair }}
   </h1>
 </div>
 <div class="contact-list">
   <ul>
     {% for person in persons %}
-      {% assign role = person.person | rdf_property: "<https://dataweek.de/#role>" %}
+      {% assign role = person.person | rdf_property: "dw:role" %}
       {% if role %}
         <li>
           {% include components/person.html organizer=person.person %}
@@ -103,23 +99,18 @@ order by ?person_name
 </div>
 <div class="content-header">
   <h1>
-    {% if site.language == 'en' %}
-      DataWeek Team
-    {% else %}
-      DataWeek Team
-    {% endif %}
+    {{ str_dw_team }}
   </h1>
 </div>
 <div class="contact-list">
   <ul>
     {% for person in persons %}
-      {% assign role = person.person | rdf_property: "<https://dataweek.de/#role>" %}
-      {% if role %}
-      {% else %}
+      {% assign role = person.person | rdf_property: "dw:role" %}
+      {% unless role %}
         <li>
           {% include components/person.html organizer=person.person %}
         </li>
-      {% endif %}
+      {% endunless %}
     {% endfor %}
   </ul>
 </div>
