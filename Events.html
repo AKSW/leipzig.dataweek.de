@@ -4,8 +4,7 @@ layout: basic
 {% assign rootResource = site.rootResource | rdf_get %}
 {% include strings.html %}
 
-{% include components/navigation_events.html %}
-
+{% include components/menu_events.html %}
 
 {% capture subEventQuery %}
   SELECT DISTINCT ?event (MIN(?dates) as ?date)
