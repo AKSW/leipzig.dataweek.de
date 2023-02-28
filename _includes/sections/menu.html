@@ -2,10 +2,6 @@
 {% include strings.html %}
 
 {% assign current_page = page.path | relativize_url %}
-{% assign current_page_index = current_page | slice: 0, 5 | join %}
-{% if current_page_index == 'index' %}
-{% assign current_page = "." %}
-{% endif %}
 
 {% capture eventsQuery %}
   SELECT DISTINCT ?e (MIN(?dates) as ?date)
