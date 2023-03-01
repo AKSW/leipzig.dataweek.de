@@ -17,12 +17,6 @@ vars:
   ID_GID:
     sh: id -g
 
-  JEKYLL_UID: '{{.JEKYLL_UID | default .ID_UID}}'
-  JEKYLL_GID: '{{.JEKYLL_GID | default .ID_GID}}'
-  JEKYLL_USER_ARG:
-    sh: '[ "$(docker info --format "{{`{{if .Host.Security.Rootless}}true{{end}}`}}")" = "true" ] || echo -u "{{.JEKYLL_UID}}:{{.JEKYLL_GID}}"'
-  JEKYLL_IMAGE: ghcr.io/aksw/jekyll-rdf:4.0.4
-
   LANGUAGE: '{{.LANGUAGE | default "de"}}'
 
   TARGET: '{{.TARGET | default "_site"}}'
@@ -36,9 +30,10 @@ vars:
 tasks:
 
   default:
-    desc: List all tasks
+    summary: List all tasks
+    silent: true
     cmds:
-      - task -a
+      - task --list
 
   ci:
     desc: Build tasks for the CI
@@ -90,12 +85,19 @@ tasks:
           TARGET: '{{.TARGET_TMP_EN}}'
 
   build:docker:
-    - |
-      docker run --rm \
-      --workdir /github/workspace \
-      -v {{.WORKING_DIRECTORY}}:/github/workspace \
-      -e TZ=Europe/Berlin {{.JEKYLL_USER_ARG}} -e BUNDLE_PATH=.vendor -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
-      {{.JEKYLL_IMAGE}} jekyll build -d {{.TARGET}}
+    vars:
+      JEKYLL_UID: '{{.JEKYLL_UID | default .ID_UID}}'
+      JEKYLL_GID: '{{.JEKYLL_GID | default .ID_GID}}'
+      JEKYLL_USER_ARG:
+        sh: '[ "$(docker info --format "{{`{{if .Host.Security.Rootless}}true{{end}}`}}")" = "true" ] || echo -u "{{.JEKYLL_UID}}:{{.JEKYLL_GID}}"'
+      JEKYLL_IMAGE: ghcr.io/aksw/jekyll-rdf:4.0.4
+    cmds:
+      - |
+        docker run --rm \
+        --workdir /github/workspace \
+        -v {{.WORKING_DIRECTORY}}:/github/workspace \
+        -e TZ=Europe/Berlin {{.JEKYLL_USER_ARG}} -e BUNDLE_PATH=.vendor -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
+        {{.JEKYLL_IMAGE}} jekyll build -d {{.TARGET}}
 
   data:sync:
     desc: Synchronize the data in the CI
