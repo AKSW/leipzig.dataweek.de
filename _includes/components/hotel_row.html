@@ -1,0 +1,30 @@
+{% assign hotel = include.hotel %}
+{% assign name = hotel | rdf_property: "rdfs:label" %}
+{% assign address = hotel | rdf_property: "schema:address" %}
+{% assign telephone = hotel | rdf_property: "schema:telephone" %}
+{% assign email = hotel | rdf_property: "schema:email" %}
+{% assign reducedRate = hotel | rdf_property: "dw23:reducedRate" %}
+{% assign recommended = hotel | rdf_property: "dw23:recommended" %}
+
+<tr>
+  <th scope="row">{{ name }}</th>
+  <td>
+    {{ address }}<br />
+    {{ telephone }}<br />
+    {% if email %}
+    <a href="mailto:{{ email }}">{{ email }}</a>
+    {% endif %}
+  </td>
+{% if recommended %}
+  <td>
+    {% if reducedRate %}
+      {% if site.language == 'en' %}
+        To get a reduced rate, please write an email to <a href="mailto:dataweek@infai.org">dataweek@infai.org</a>.
+      {% else %}
+        Um einen ermäßigten Tarif zu erhalten, schreiben Sie bitte eine E-Mail an <a href="mailto:dataweek@infai.org">dataweek@infai.org</a>.
+      {% endif %}
+    {% endif %}
+  </td>
+{% endif %}
+</tr>
+
