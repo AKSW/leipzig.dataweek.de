@@ -1,0 +1,92 @@
+---
+layout: basic
+---
+{% assign rootResource = site.rootResource | rdf_get %}
+{% include strings.html %}
+{% assign venue = rootResource | rdf_property: "schema:location" %}
+{% capture recommendedHotelsQuery %}
+SELECT DISTINCT ?hotel WHERE {
+  ?hotel a schema:Hotel ;
+    rdfs:label ?label ;
+    schema:address ?address ;
+  	dw23:recommended true .
+}
+ORDER BY ?label
+{% endcapture %}
+{% assign recommendedHotels = rootResource | sparql_query: recommendedHotelsQuery %}
+{% capture lowPriceHotelsQuery %}
+SELECT DISTINCT ?hotel WHERE {
+  ?hotel a schema:Hotel ;
+    rdfs:label ?label ;
+    schema:address ?address ;
+    dw23:lowPrice true .
+}
+{% endcapture %}
+{% assign lowPriceHotels = rootResource | sparql_query: lowPriceHotelsQuery %}
+
+<div class="content-header">
+<!--
+  <h1>
+    {{ venue | rdf_property: "rdfs:label", site.language }}
+  </h1>
+-->
+  {% include components/menu_sub1.html menuResource=venue %}
+</div>
+
+<div class="ce-table" role="region" aria-labelledby="ce-table-caption-1" tabindex="0">
+  <table>
+    <caption id="ce-table-caption-1">
+    {% if site.language == 'en' %}
+      Recommended Hotels
+    {% else %}
+      Empfohlene Hotels
+    {% endif %}
+    </caption><!-- caption muss vorhanden sein, kann aber mit .hideme ausgeblendet werden -->
+    <thead>
+      <tr>
+      {% if site.language == 'en' %}
+        <th scope="col">Hotel</th>
+	<th scope="col">Address</th>
+	<th scope="col">Get a reduced rate until May 28, 2023</th>
+      {% else %}
+        <th scope="col">Hotel</th>
+	<th scope="col">Addresse</th>
+	<th scope="col">Erhalten Sie einen ermäßigten Tarif bis 28. Mai 2023</th>
+      {% endif %}
+      </tr>
+    </thead>
+    <tbody>
+    {% for s in recommendedHotels %}
+      {% include components/hotel_row.html hotel=s.hotel  %}
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<div class="ce-table" role="region" aria-labelledby="ce-table-caption-1" tabindex="0">
+  <table>
+    <caption id="ce-table-caption-1">
+    {% if site.language == 'en' %}
+      Low-price accommodation
+    {% else %}
+      Preisgünstige Unterkunft
+    {% endif %}
+    </caption><!-- caption muss vorhanden sein, kann aber mit .hideme ausgeblendet werden -->
+    <thead>
+      <tr>
+      {% if site.language == 'en' %}
+        <th scope="col">Hotel</th>
+	<th scope="col">Address</th>
+      {% else %}
+        <th scope="col">Hotel</th>
+	<th scope="col">Addresse</th>
+      {% endif %}
+      </tr>
+    </thead>
+    <tbody>
+    {% for s in lowPriceHotels %}
+      {% include components/hotel_row.html hotel=s.hotel  %}
+    {% endfor %}
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,116 @@
+{% assign rootResource = site.rootResource | rdf_get %}
+{% include strings.html %}
+
+{% assign menuResource = rootResource | rdf_property: "void:rootResource" %}
+
+{% if page.rdf %}
+{% assign current_page = page.rdf.render_path | relativize_url %}
+{% else %}
+{% assign current_page = page.path | relativize_url %}
+{% endif %}
+
+{% capture subMenuQuery %}
+select distinct ?entry {
+  {
+    bind(<{{page.rdf}}> as ?entry)
+    <{{menuResource.iri}}> ?cmprop_1st ?entry .
+    bind(1 as ?level)
+  } union {
+    <{{menuResource.iri}}> ?cmprop_1st ?entry .
+    ?entry ?cmprop_2nd <{{page.rdf}}> .
+    bind(2 as ?level)
+  } union {
+    <{{menuResource.iri}}> ?cmprop_1st ?entry .
+    ?entry ?cmprop_2nd ?sub_entry .
+    ?sub_entry ?cmprop_3nd <{{page.rdf}}> .
+    bind(3 as ?level)
+  }
+  ?cmprop_1st a rdfs:ContainerMembershipProperty .
+  ?cmprop_2nd a rdfs:ContainerMembershipProperty .
+  ?cmprop_3rd a rdfs:ContainerMembershipProperty .
+} order by ?level limit 1
+{% endcapture %}
+
+{% assign selected_res = rootResource | sparql_query: subMenuQuery %}
+{% for s in selected_res %}
+{% assign selected = s.entry %}
+{% endfor %}
+
+{% assign current_super_page = selected.render_path | relativize_url %}
+{% assign current_page = page.rdf.render_path | relativize_url %}
+
+{% assign navigation_type = "site:Navigation" | rdf_get %}
+{% assign events_iri = "dw23:Events" | rdf_get %}
+{% assign events = events_iri | rdf_container %}
+
+{% capture events_submenu %}
+<ul>
+{% for event in events %}
+  {% assign weekdays = event | rdf_property: "schema:date", nil, true %}
+  {% assign weekday_string = "" %}
+  {% for weekday in weekdays %}
+    {% unless forloop.first %}
+      {% if forloop.last %}
+        {% assign weekday_string = " & " | prepend: weekday_string %}
+      {% else %}
+        {% assign weekday_string = ", " | prepend: weekday_string %}
+      {% endif %}
+    {% endunless %}
+    {% assign weekday_string = weekday | localize: "%a" | prepend: weekday_string %}
+  {% endfor %}
+  {% assign event_label = event | rdf_property: "dw:slug" | append: " (" | append: weekday_string | append: ")" %}
+  {% assign event_link = event.render_path | relativize_url %}
+  {% include components/menu_sub_entry.html current=current_page link=event_link label=event_label %}
+{% endfor %}
+</ul>
+{% endcapture %}
+
+{% assign menu = menuResource | rdf_container %}
+
+<nav class="nav-main" aria-label="{{ str_main_menu }}">
+  <ul>
+    {% for entry in menu %}
+    {% include components/menu_main_entry.html current=current_super_page resource=entry %}
+    {% endfor %}
+  </ul>
+</nav>
+
+<div class="nav-mobil" id="navigation">
+  {% include components/lang_switch.html mode="mobile" %}
+  <nav class="nav-sitemap" aria-label="{{ str_mobile_menu }}">
+    <ul current="{{current_page}}" page="{{page.path}}" current_i="{{current_page_index}}">
+      {% for entry in menu %}
+      {% assign submenu = "" %}
+      {% if entry == events_iri %}
+      {% assign submenu = events_submenu %}
+      {% else %}
+      {% assign isNavigation = entry | rdf_property: "rdf:type", nil, true | contains: navigation_type %}
+      {% if isNavigation %}
+      {% assign sub_menu = entry | rdf_container %}
+      {% if sub_menu.first %}
+      {% capture submenu %}
+      <ul>
+      {% for sub_entry in sub_menu %}
+      {% include components/menu_sub_entry.html current=current_page resource=sub_entry %}
+      {% endfor %}
+      </ul>
+      {% endcapture %}
+      {% endif %}
+      {% endif %}
+      {% endif %}
+
+      {% include components/menu_sub_entry.html current=current_page resource=entry submenu=submenu %}
+      {% endfor %}
+    </ul>
+    <ul>
+      <li>
+        <a href="https://infai.org/das-institut/impressum/">{{ str_imprint }}</a>
+      </li>
+      {% assign datenschutz = "<https://2023.dataweek.de/datenschutz/>" | rdf_get %}
+      {% assign contact = "<https://2023.dataweek.de/contact/>" | rdf_get %}
+
+      {% include components/menu_sub_entry.html current=current_page resource=datenschutz %}
+      {% include components/menu_sub_entry.html current=current_page resource=contact %}
+    </ul>
+  </nav>
+</div>

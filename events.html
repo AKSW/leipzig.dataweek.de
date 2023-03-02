@@ -4,8 +4,7 @@ layout: basic
 {% assign rootResource = site.rootResource | rdf_get %}
 {% include strings.html %}
 
-{% include components/navigation_events.html %}
-
+{% include components/menu_events.html %}
 
 {% capture subEventQuery %}
   SELECT DISTINCT ?event (MIN(?dates) as ?date)
@@ -28,9 +27,9 @@ layout: basic
   <li>
     <div class="card">
       <h2>
-        <a class="highlight" href="{{ row.event.page_url | relativize_url }}">
-          {{ row.event | rdf_property: "rdfs:label", site.language }}
-          ({{ row.event | rdf_property: "dw:slug" }})
+        <a href="{{ row.event.page_url | relativize_url }}">
+          <span class="highlighted2">{{ row.event | rdf_property: "dw:slug" }}</span><br>
+          <span class="xl hideunderline">{{ row.event | rdf_property: "rdfs:label", site.language }}</span>
         </a>
       </h2>
       <p class="dates">

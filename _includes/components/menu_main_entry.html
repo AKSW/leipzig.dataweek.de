@@ -1,0 +1,14 @@
+{% assign active = include.active %}
+{% assign current = include.current %}
+{% assign link = include.link %}
+{% assign label = include.label %}
+{% assign resource = include.resource %}
+{% assign submenu = include.submenu %}
+
+{% if resource %}
+{% unless label %}
+{% assign label = resource | rdf_property: "rdfs:label", site.language %}
+{% endunless %}
+{% endif %}
+
+{% include components/menu_entry.html current=current active=active resource=resource link=link label_span=label submenu=submenu %}

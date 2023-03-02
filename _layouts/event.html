@@ -4,45 +4,19 @@ layout: basic
 {% assign rootResource = site.rootResource | rdf_get %}
 {% include strings.html %}
 
-{% include components/navigation_events.html %}
-{% capture dateQuery %}
-  SELECT DISTINCT (MIN(?dates) as ?minDate) (MAX(?dates) as ?maxDate) ?startDate ?endDate
-  WHERE {
-    <{{ page.rdf }}> schema:date ?dates .
-    OPTIONAL { <{{ page.rdf }}> schema:startDate ?startDate . }
-    OPTIONAL { <{{ page.rdf }}> schema:endDate ?endDate . }
-  }
-  ORDER BY ?date
-{% endcapture %}
+{% include components/menu_events.html %}
 
-{% assign dateResults = rootResource | sparql_query: dateQuery %}
-{% assign dates = dateResults.first %}
+<h2>{{ page.rdf | rdf_property: "rdfs:label", site.language }}</h2>
+{% assign slogan = page.rdf | rdf_property: "schema:slogan" %}
+{% if slogan %}
+<p>{{ slogan }}</p>
+{% endif %}
 
-<h2>
-  {{ page.rdf | rdf_property: "rdfs:label", site.language }}
-</h2>
-<p>
-  {% if dates.startDate and dates.endDate %}
-    {% if dates.startDate != dates.endDate %}
-      {{ dates.startDate }} - {{ dates.endDate }}
-    {% else %}
-      {{ dates.minDate }}
-    {% endif %}
-  {% else %}
-    {% if dates.minDate != dates.maxDate %}
-      {{ dates.minDate }} - {{ dates.maxDate }}
-    {% else %}
-      {{ dates.minDate }}
-    {% endif %}
-  {% endif %}
-  {% assign slogan = page.rdf | rdf_property: "schema:slogan" %}
-  {% if slogan %}
-    <br>{{ slogan }}
-  {% endif %}
-</p>
 {{ content }}
+
 <p>
   {{ page.rdf | rdf_property: "dct:description" , site.language | markdownify }}
 </p>
+
 {% include sections/call.html event=page.rdf %}
 {% include sections/organizerTeam.html event=page.rdf %}

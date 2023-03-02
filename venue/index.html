@@ -1,0 +1,133 @@
+---
+layout: basic
+---
+{% assign rootResource = site.rootResource | rdf_get %}
+{% include strings.html %}
+{% assign venue = rootResource | rdf_property: "schema:location" %}
+{% capture address %}
+  {{ venue | rdf_property: "schema:name" }}<br>
+  {{ venue | rdf_property: "schema:streetAddress" }}<br>
+  {{ venue | rdf_property: "schema:postalCode" }} {{ venue | rdf_property: "schema:addressLocality" }}
+{% endcapture %}
+
+<div class="content-header">
+<!--
+  <h1>
+    {{ venue | rdf_property: "rdfs:label", site.language }}
+  </h1>
+-->
+  {% include components/menu_sub1.html menuResource=venue %}
+</div>
+
+<div class="card-list">
+  <ul>
+  <li>
+    <div class="card">
+	<p style="text-align: left;">
+        {% if site.language == 'en' %}
+          The Data Week 2023 will take place on the first floor of the New Town Hall Leipzig (Neues Rathaus).
+	  The building is the seat of the Leipzig city administration since 1905 and is located inside of the Leipzig city center.
+        {% else %}
+          Die Data Week 2023 findet im 1. Obergeschoss des Neuen Rathaus der Stadt Leipzig statt.
+	  Das Gebäude ist seit 1905 der Sitz der Leipziger Stadtverwaltung und befindet sich direkt in der Leipziger Innenstadt.
+        {% endif %}
+	</p>
+        <address>
+          {{ address }}
+        </address>
+    </div>
+  </li>
+
+  <li>
+    <div class="card">
+        <p class="justify">
+          <a
+            href="{% relative_link /resources/images/Neues_Rathaus_Leipzig_2010.jpg %}"
+            title="{{ str_img_townhall_title }}"
+            data-lightbox
+            data-alt="{{ str_img_townhall_alt }}"
+            data-description="{{ str_img_townhall_description }}"
+	        >
+            <img src="{% relative_link /resources/images/Neues_Rathaus_Leipzig_2010.jpg %}" alt="{{ str_img_townhall_title }}; {{ str_img_townhall_description }}"/>
+          </a>
+        </p>
+        <p>
+          <svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="{% relative_link /resources/images/socialmedia.svg %}#contact-link"></use></svg> <a
+            href="{{ str_link_wikipedia_townhall }}">Wikipedia</a>
+        </p>
+    </div>
+  </li>
+
+  <li>
+    <div class="card">
+        {% if site.language == 'en' %}
+  <figure>
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 896 588" width="100%">
+    <path fill="#e8f7fd" d="M893.001 585H703V409h112.001v-20H282.999v-98h-33.997v294H3V3h246.002v266h33.997v-56h42.003v-34h-42V3h106v176h-42.001v34h118.001v-34h-42.001V3h106v176h-42v34h118v-34h-41.998V3h105.998v176h-42v34h188v-34H703V3h190.001v176H837v34h56.001v176H837v20h56.001v176Z"></path>
+    <path fill="#b5e3f8" d=
+    "M890.001 582V412H834v-26h56.001V216H834v-40h56.001V6H706v170h112.001v40h-194v-40h42V6h-99.998v170h41.998v40h-124v-40h42V6h-100v170h42.001v40H344.001v-40h42.001V6h-100v170h42v40h-42.003v56h-39.997V6H6v576h240.002V288h39.997v98h532.002v26H706v170h184.001m6 6H700V406h112.001v-14H279.999v-98h-27.997v294H0V0h252.002v266h27.997v-56h42.003v-28h-42V0h112v182h-42.001v28h112.001v-28h-42.001V0h112v182h-42v28h112v-28h-41.998V0h111.998v182h-42v28h182v-28H700V0h196.001v182H840v28h56.001v182H840v14h56.001v182Z"></path>
+    <text fill="#17214c" font-size="20" font-weight="700" transform="translate(34 288)">Boardroom</text> <text fill="#17214c" font-size="20" font-weight="700" transform="translate(524 288)">Foyer</text> <text fill="#17214c" font-size="20" font-weight="700" transform="translate(719 153)">Council Chamber</text> <text fill="#17214c" font-size="20" font-weight="700" transform="translate(719 558)">Entrance</text> <text fill="#17214c" font-size="20" font-weight="700" transform=
+    "translate(442 153)">R260</text> <text fill="#17214c" font-size="20" font-weight="700" transform="translate(302 153)">R259</text> <text fill="#17214c" font-size="16" font-weight="700" transform="translate(442 125)">Meetup</text> <text fill="#17214c" font-size="16" font-weight="700" transform="translate(302 125)">Meetup</text> </svg>
+        {% else %}
+  <figure>
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 896 588" width="100%">
+    <path fill="#e8f7fd" d="M893.001 585H703V409h112.001v-20H282.999v-98h-33.997v294H3V3h246.002v266h33.997v-56h42.003v-34h-42V3h106v176h-42.001v34h118.001v-34h-42.001V3h106v176h-42v34h118v-34h-41.998V3h105.998v176h-42v34h188v-34H703V3h190.001v176H837v34h56.001v176H837v20h56.001v176Z"></path>
+    <path fill="#b5e3f8" d=
+    "M890.001 582V412H834v-26h56.001V216H834v-40h56.001V6H706v170h112.001v40h-194v-40h42V6h-99.998v170h41.998v40h-124v-40h42V6h-100v170h42.001v40H344.001v-40h42.001V6h-100v170h42v40h-42.003v56h-39.997V6H6v576h240.002V288h39.997v98h532.002v26H706v170h184.001m6 6H700V406h112.001v-14H279.999v-98h-27.997v294H0V0h252.002v266h27.997v-56h42.003v-28h-42V0h112v182h-42.001v28h112.001v-28h-42.001V0h112v182h-42v28h112v-28h-41.998V0h111.998v182h-42v28h182v-28H700V0h196.001v182H840v28h56.001v182H840v14h56.001v182Z"></path>
+    <text fill="#17214c" font-size="20" font-weight="700" transform="translate(34 288)">Sitzungssaal</text> <text fill="#17214c" font-size="20" font-weight="700" transform="translate(524 288)">Wandelhalle</text> <text fill="#17214c" font-size="20" font-weight="700" transform="translate(719 153)">Ratsplenarsaal</text> <text fill="#17214c" font-size="20" font-weight="700" transform="translate(719 558)">Eingang</text> <text fill="#17214c" font-size="20" font-weight="700" transform=
+    "translate(442 153)">R260</text> <text fill="#17214c" font-size="20" font-weight="700" transform="translate(302 153)">R259</text> <text fill="#17214c" font-size="16" font-weight="700" transform="translate(442 125)">Meetup</text> <text fill="#17214c" font-size="16" font-weight="700" transform="translate(302 125)">Meetup</text> </svg>
+        {% endif %}
+  </figure>
+    </div>
+  </li>
+
+  <li>
+    <div class="card">
+      <div class="ce-map-consent" data-consent="" data-consent-name="openstreetmap" data-consent-callback="pxConsentMap1">
+        <script>
+          window.pxConsentMap1 = function (consentElement,active) { window.initLeaflet(consentElement,active); }
+        </script>
+        <div class="ce-map" data-consent-ready="" data-init-lat="51.335790" data-init-lon="12.372070" data-init-zoom="16"
+		data-label-map="Neues Rathaus/City Hall">
+          <div class="map-marker" data-icon="/resources/files/map-icon-01.svg"
+		 data-icon-width="28" data-icon-height="28" data-lat="51.335790" data-lon="12.372070">
+          </div>
+        </div>
+        <div data-consent-form="">
+          <p id="px-consent-map-info-1">
+            <strong>
+            {% if site.language == 'en' %}
+              Here the map from OpenStreetMap gets included. By loading this content, you consent to the data privacy statement of OpenStreetMap.
+            {% else %}
+              An dieser Stelle wird eine Karte direkt von OpenStreetMap eingebunden. Mit dem Laden akzeptieren Sie die Datenschutzerklärung von OpenStreetMap.
+            {% endif %}
+            </strong>
+          </p>
+          <form action="#">
+            <div>
+              <label><input type="checkbox" data-consent-form-setcookie="" name="setcookie" checked>
+		<span>
+                {% if site.language == 'en' %}
+		  Always unblock OpenStreetMap maps <small>(save setting as cookie)</small>
+                {% else %}
+		  OpenStreetMap-Karten immer entsperren <small>(Einstellung als Cookie speichern)</small>
+                {% endif %}
+	        </span>
+	      </label>
+	      <br/>
+              <button aria-describedby="px-consent-map-info-1" data-consent-form-button="">
+                {% if site.language == 'en' %}
+	          Show Map
+                {% else %}
+	          Karte anzeigen
+                {% endif %}
+	      </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  </ul>
+</div>

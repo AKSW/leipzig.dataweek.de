@@ -16,6 +16,12 @@ de,en
 {% assign languages_array = languages | strip | split: "," %}
 {% assign lang_isos_array = lang_isos | strip | split: "," %}
 {% assign lang_paths_array = lang_paths | strip | split: "," %}
+
+{% if page.rdf %}
+{% assign page_url = page.rdf.render_path %}
+{% else %}
+{% assign page_url = page.path %}
+{% endif %}
 <nav class="{{ class }}" aria-label="Sprachmenü">
   {%- if incl_mode != "mobile" -%}
   <p lang="en">Language:</p>
@@ -38,7 +44,7 @@ de,en
         </li>
       {% else %}
         <li>
-          <a href="{{ lang_paths_array[forloop.index0] }}{{ page.url | append: html }}" hreflang="{{ lang_isos_array[forloop.index0] }}" lang="{{ lang_isos_array[forloop.index0] }}">{{ lang_string }}</a>
+          <a href="{{ lang_paths_array[forloop.index0] }}{{ page_url }}" hreflang="{{ lang_isos_array[forloop.index0] }}" lang="{{ lang_isos_array[forloop.index0] }}">{{ lang_string }}</a>
         </li>
       {% endif %}
     {% endfor %}

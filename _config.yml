@@ -32,6 +32,7 @@ exclude:
 jekyll_rdf:
   path: "graph.nt"
   restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"dataweek.de\") }"
+  default_template: default.html
   class_template_mappings:
 #    "http://xmlns.com/foaf/0.1/Document" : "basic.html"
     "http://schema.org/Event" : "event.html"
