@@ -30,8 +30,7 @@ SELECT DISTINCT ?hotel WHERE {
     {{ venue | rdf_property: "rdfs:label", site.language }}
   </h1>
 -->
-  {% assign menuResource = "<https://2023.dataweek.de/Venue/>" | rdf_get %}
-  {% include components/menu_sub1.html menuResource=menuResource %}
+  {% include components/menu_sub1.html menuResource=venue %}
 </div>
 
 <div class="ce-table" role="region" aria-labelledby="ce-table-caption-1" tabindex="0">
