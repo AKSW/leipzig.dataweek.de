@@ -42,14 +42,18 @@ layout: basic
     <div class="card">
         <p class="justify">
           <a
-            href=""
-            title="Neues Rathaus Leipzig (by wikipedia user Appaloosa)"
+            href="{% relative_link /resources/images/Neues_Rathaus_Leipzig_2010.jpg %}"
+            title="{{ str_img_townhall_title }}"
             data-lightbox
-            data-alt="Neues Rathaus Leipzig"
-            data-description="Beschreibung"
-	  >
-            <img src="{% relative_link /resources/images/Neues_Rathaus_Leipzig_2010.jpg %}" alt="Neues Rathaus Leipzig (by wikipedia user Appaloosa)"/>
+            data-alt="{{ str_img_townhall_alt }}"
+            data-description="{{ str_img_townhall_description }}"
+	        >
+            <img src="{% relative_link /resources/images/Neues_Rathaus_Leipzig_2010.jpg %}" alt="{{ str_img_townhall_title }}; {{ str_img_townhall_description }}"/>
           </a>
+        </p>
+        <p>
+          <svg role="img" focusable="false" aria-hidden="true" height="28" width="28"><use xlink:href="{% relative_link /resources/images/socialmedia.svg %}#contact-link"></use></svg> <a
+            href="{{ str_link_wikipedia_townhall }}">Wikipedia</a>
         </p>
     </div>
   </li>
