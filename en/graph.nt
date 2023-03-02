@@ -274,10 +274,10 @@
 <https://2023.dataweek.de/#FooterMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/datenschutz/> .
 <https://2023.dataweek.de/#FooterMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/contact/> .
 <https://2023.dataweek.de/#FooterMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
-<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/Events> .
-<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/Venue> .
-<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/Team> .
-<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2023.dataweek.de/News> .
+<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/events> .
+<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/venue> .
+<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/team> .
+<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2023.dataweek.de/news> .
 <https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2023.dataweek.de/#MainMenu> <http://xmlns.com/foaf/0.1/primaryTopic> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/> <http://rdfs.org/ns/void#rootResource> <https://2023.dataweek.de/#MainMenu> .
@@ -288,8 +288,8 @@
 <https://2023.dataweek.de/> <http://schema.org/endDate> "2023-06-26"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/> <http://schema.org/location> <https://2023.dataweek.de/venue/> .
 <https://2023.dataweek.de/> <http://schema.org/logo> <https://dataweek.de/images/DataWeek_Logo.png> .
-<https://2023.dataweek.de/> <http://schema.org/organizer> <https://2023.dataweek.de/Team> .
-<https://2023.dataweek.de/> <http://schema.org/organizer> <https://2023.dataweek.de/Team_GeneralChair> .
+<https://2023.dataweek.de/> <http://schema.org/organizer> <https://2023.dataweek.de/team-generalchair> .
+<https://2023.dataweek.de/> <http://schema.org/organizer> <https://2023.dataweek.de/team> .
 <https://2023.dataweek.de/> <http://schema.org/partner> <https://2023.dataweek.de/Partner> .
 <https://2023.dataweek.de/> <http://schema.org/slogan> "Forum for Data and AI Enthusiasts in Leipzig"@en .
 <https://2023.dataweek.de/> <http://schema.org/slogan> "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de .
@@ -308,30 +308,12 @@
 <https://2023.dataweek.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2023" .
 <https://2023.dataweek.de/> <http://www.w3.org/2002/07/owl#sameAs> <https://dataweek.de/> .
 <https://2023.dataweek.de/> <https://dataweek.de/#news> <https://2023.dataweek.de/News1> .
-<https://2023.dataweek.de/Events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/egd-2023/> .
-<https://2023.dataweek.de/Events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/scads-tutorials-2023/> .
-<https://2023.dataweek.de/Events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/free-2023/> .
-<https://2023.dataweek.de/Events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2023.dataweek.de/lodh-2023/> .
-<https://2023.dataweek.de/Events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2023.dataweek.de/dsm-2023/> .
-<https://2023.dataweek.de/Events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2023.dataweek.de/kmi-23/> .
-<https://2023.dataweek.de/Events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://2023.dataweek.de/lswt2023/> .
-<https://2023.dataweek.de/Events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://2023.dataweek.de/ai-tomorrow-2023/> .
-<https://2023.dataweek.de/Events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
-<https://2023.dataweek.de/Events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://2023.dataweek.de/Events> <http://www.w3.org/2000/01/rdf-schema#label> "Events"@en .
-<https://2023.dataweek.de/Events> <http://www.w3.org/2000/01/rdf-schema#label> "Veranstaltungen"@de .
-<https://2023.dataweek.de/Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://2023.dataweek.de/Location> <http://www.w3.org/2000/01/rdf-schema#label> "Location"@en .
-<https://2023.dataweek.de/Location> <http://www.w3.org/2000/01/rdf-schema#label> "Veranstaltungsort"@de .
 <https://2023.dataweek.de/News1> <http://purl.org/dc/terms/description> "We are very pleased to introduce our new Data Week website just in time for Data Week Leipzig 2023! Following on from the successful conference week in 2022, the network platform that has been created is now being expanded and developed. Discover the latest information on keynote speakers, workshops, and networking events and start planning your Data Week Leipzig 2023 experience today."@en .
 <https://2023.dataweek.de/News1> <http://purl.org/dc/terms/description> "Wir freuen uns sehr, p\u00FCnktlich zur Data Week Leipzig 2023 unsere neue Website vorstellen zu k\u00F6nnen! Nach der ersten Data Week und einer erfolgreichen Konferenzwoche im Jahr 2022 sind wir als Organisationsteam in der Vorbereitungsphase f\u00FCr die kommende Data Week und haben in diesem Zuge die bisherige Netzwerkplattform ausgebaut und weiterentwickelt. Entdecken Sie unsere neue Webseite mit den neuesten Informationen zu Keynote-Speakern, Workshops und Networking-Events und beginnen Sie noch heute mit der Planung Ihrer Data Week Leipzig 2023."@de .
 <https://2023.dataweek.de/News1> <http://purl.org/dc/terms/title> "Neue Website online!"@de .
 <https://2023.dataweek.de/News1> <http://purl.org/dc/terms/title> "New website online!"@en .
 <https://2023.dataweek.de/News1> <http://schema.org/date> "2023-02-01T14:12:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://2023.dataweek.de/News1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post> .
-<https://2023.dataweek.de/News> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://2023.dataweek.de/News> <http://www.w3.org/2000/01/rdf-schema#label> "Neuigkeiten"@de .
-<https://2023.dataweek.de/News> <http://www.w3.org/2000/01/rdf-schema#label> "News"@en .
 <https://2023.dataweek.de/Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.leipzig.de/> .
 <https://2023.dataweek.de/Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://connectedurbantwins.de/> .
 <https://2023.dataweek.de/Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
@@ -342,38 +324,6 @@
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
-<https://2023.dataweek.de/Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <http://aksw.org/NatanaelArndt> .
-<https://2023.dataweek.de/Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_11> <http://aksw.org/KurtJunghanns> .
-<https://2023.dataweek.de/Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_12> <http://aksw.org/NormanRadtke> .
-<https://2023.dataweek.de/Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_13> <http://aksw.org/SebastianTramp> .
-<https://2023.dataweek.de/Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/JuliaHolze> .
-<https://2023.dataweek.de/Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#NievesSande> .
-<https://2023.dataweek.de/Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://dataweek.de/#MirkoMuehlpfort> .
-<https://2023.dataweek.de/Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://dataweek.de/#KatrinMehler> .
-<https://2023.dataweek.de/Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://dataweek.de/#JanaBendigs> .
-<https://2023.dataweek.de/Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://dataweek.de/#MiriamWelz> .
-<https://2023.dataweek.de/Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <http://aksw.org/MichaelMartin> .
-<https://2023.dataweek.de/Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://dataweek.de/#SebastianBoehm> .
-<https://2023.dataweek.de/Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://dataweek.de/#NilsHempelmann> .
-<https://2023.dataweek.de/Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam"@de .
-<https://2023.dataweek.de/Team> <http://www.w3.org/2000/01/rdf-schema#label> "Organization Team"@en .
-<https://2023.dataweek.de/Team_GeneralChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/JuliaHolze> .
-<https://2023.dataweek.de/Team_GeneralChair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/MichaelMartin> .
-<https://2023.dataweek.de/Team_GeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@de .
-<https://2023.dataweek.de/Team_GeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@en .
-<https://2023.dataweek.de/Venue/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/Venue/> .
-<https://2023.dataweek.de/Venue/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/Venue/Travel> .
-<https://2023.dataweek.de/Venue/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/Venue/Accommodation> .
-<https://2023.dataweek.de/Venue/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
-<https://2023.dataweek.de/Venue/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://2023.dataweek.de/Venue/> <http://www.w3.org/2000/01/rdf-schema#label> "Venue"@en .
-<https://2023.dataweek.de/Venue/> <http://www.w3.org/2000/01/rdf-schema#label> "Veranstaltungsort"@de .
-<https://2023.dataweek.de/Venue/Accommodation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://2023.dataweek.de/Venue/Accommodation> <http://www.w3.org/2000/01/rdf-schema#label> "Accommodation"@en .
-<https://2023.dataweek.de/Venue/Accommodation> <http://www.w3.org/2000/01/rdf-schema#label> "Unterkunft"@de .
-<https://2023.dataweek.de/Venue/Travel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://2023.dataweek.de/Venue/Travel> <http://www.w3.org/2000/01/rdf-schema#label> "Anreise"@de .
-<https://2023.dataweek.de/Venue/Travel> <http://www.w3.org/2000/01/rdf-schema#label> "Travel"@en .
 <https://2023.dataweek.de/ai-tomorrow-2023/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://dataweek.de/#JuliaFriedrich> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#ChristianZinke> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "AI-T Team"@de .
@@ -433,6 +383,18 @@
 <https://2023.dataweek.de/egd-2023/> <http://www.w3.org/2000/01/rdf-schema#label> "EU Green Deal Data Space"@de .
 <https://2023.dataweek.de/egd-2023/> <http://www.w3.org/2000/01/rdf-schema#label> "EU Green Deal Data Space"@en .
 <https://2023.dataweek.de/egd-2023/> <https://dataweek.de/#slug> "EGD" .
+<https://2023.dataweek.de/events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/egd-2023/> .
+<https://2023.dataweek.de/events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/scads-tutorials-2023/> .
+<https://2023.dataweek.de/events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/free-2023/> .
+<https://2023.dataweek.de/events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2023.dataweek.de/lodh-2023/> .
+<https://2023.dataweek.de/events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2023.dataweek.de/dsm-2023/> .
+<https://2023.dataweek.de/events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2023.dataweek.de/kmi-23/> .
+<https://2023.dataweek.de/events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://2023.dataweek.de/lswt2023/> .
+<https://2023.dataweek.de/events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://2023.dataweek.de/ai-tomorrow-2023/> .
+<https://2023.dataweek.de/events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
+<https://2023.dataweek.de/events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://2023.dataweek.de/events> <http://www.w3.org/2000/01/rdf-schema#label> "Events"@en .
+<https://2023.dataweek.de/events> <http://www.w3.org/2000/01/rdf-schema#label> "Veranstaltungen"@de .
 <https://2023.dataweek.de/free-2023/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://dataweek.de/#KatrinMehler> .
 <https://2023.dataweek.de/free-2023/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#MirkoMuehlpfort> .
 <https://2023.dataweek.de/free-2023/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://dataweek.de/#SebastianBoehm> .
@@ -798,6 +760,9 @@
 <https://2023.dataweek.de/lswt2023/> <https://dataweek.de/#slug> "LSWT" .
 <https://2023.dataweek.de/lswt2023/> <https://www.openresearch.org/wiki/Property:Cfp> <https://2023.dataweek.de/lswt2023/#CallForFutureSemanticTechnologyExperts> .
 <https://2023.dataweek.de/lswt2023/> <https://www.openresearch.org/wiki/Property:Cfp> <https://2023.dataweek.de/lswt2023/#CfP> .
+<https://2023.dataweek.de/news> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://2023.dataweek.de/news> <http://www.w3.org/2000/01/rdf-schema#label> "Neuigkeiten"@de .
+<https://2023.dataweek.de/news> <http://www.w3.org/2000/01/rdf-schema#label> "News"@en .
 <https://2023.dataweek.de/scads-tutorials-2023/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://dataweek.de/#MatthiasTaeschner> .
 <https://2023.dataweek.de/scads-tutorials-2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Scads Tutorial Team"@de .
 <https://2023.dataweek.de/scads-tutorials-2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Scads Tutorial Team"@en .
@@ -816,11 +781,34 @@
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://www.w3.org/2000/01/rdf-schema#label> "Scads Tutorials"@de .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://www.w3.org/2000/01/rdf-schema#label> "Scads Tutorials"@en .
 <https://2023.dataweek.de/scads-tutorials-2023/> <https://dataweek.de/#slug> "ScaDS" .
+<https://2023.dataweek.de/team-generalchair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/JuliaHolze> .
+<https://2023.dataweek.de/team-generalchair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/MichaelMartin> .
+<https://2023.dataweek.de/team-generalchair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@de .
+<https://2023.dataweek.de/team-generalchair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@en .
+<https://2023.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <http://aksw.org/NatanaelArndt> .
+<https://2023.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_11> <http://aksw.org/KurtJunghanns> .
+<https://2023.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_12> <http://aksw.org/NormanRadtke> .
+<https://2023.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_13> <http://aksw.org/SebastianTramp> .
+<https://2023.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/JuliaHolze> .
+<https://2023.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#NievesSande> .
+<https://2023.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://dataweek.de/#MirkoMuehlpfort> .
+<https://2023.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://dataweek.de/#KatrinMehler> .
+<https://2023.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://dataweek.de/#JanaBendigs> .
+<https://2023.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://dataweek.de/#MiriamWelz> .
+<https://2023.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <http://aksw.org/MichaelMartin> .
+<https://2023.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://dataweek.de/#SebastianBoehm> .
+<https://2023.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://dataweek.de/#NilsHempelmann> .
+<https://2023.dataweek.de/team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam"@de .
+<https://2023.dataweek.de/team> <http://www.w3.org/2000/01/rdf-schema#label> "Organization Team"@en .
 <https://2023.dataweek.de/venue/> <http://schema.org/addressCountry> "Germany" .
 <https://2023.dataweek.de/venue/> <http://schema.org/addressLocality> "Leipzig" .
 <https://2023.dataweek.de/venue/> <http://schema.org/name> "Neues Rathaus/City Hall" .
 <https://2023.dataweek.de/venue/> <http://schema.org/postalCode> "04109" .
 <https://2023.dataweek.de/venue/> <http://schema.org/streetAddress> "Martin-Luther-Ring 4-6" .
+<https://2023.dataweek.de/venue/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/venue/> .
+<https://2023.dataweek.de/venue/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/venue/Travel> .
+<https://2023.dataweek.de/venue/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/venue/Accommodation> .
+<https://2023.dataweek.de/venue/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2023.dataweek.de/venue/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
 <https://2023.dataweek.de/venue/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2023.dataweek.de/venue/> <http://www.w3.org/2000/01/rdf-schema#label> "Venue"@en .
@@ -828,6 +816,12 @@
 <https://2023.dataweek.de/venue/> <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.37267 51.33594)" .
 <https://2023.dataweek.de/venue/> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "51.33594"^^<http://www.w3.org/2001/XMLSchema#float> .
 <https://2023.dataweek.de/venue/> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.37267"^^<http://www.w3.org/2001/XMLSchema#float> .
+<https://2023.dataweek.de/venue/accommodation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://2023.dataweek.de/venue/accommodation> <http://www.w3.org/2000/01/rdf-schema#label> "Accommodation"@en .
+<https://2023.dataweek.de/venue/accommodation> <http://www.w3.org/2000/01/rdf-schema#label> "Unterkunft"@de .
+<https://2023.dataweek.de/venue/travel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://2023.dataweek.de/venue/travel> <http://www.w3.org/2000/01/rdf-schema#label> "Anreise"@de .
+<https://2023.dataweek.de/venue/travel> <http://www.w3.org/2000/01/rdf-schema#label> "Travel"@en .
 <https://aksw.org/KirillBulert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://aksw.org/KurtJunghanns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
