@@ -6,6 +6,8 @@ layout: basic
 
 {% include components/menu_events.html %}
 
+{% include components/menu_sub2.html menuResource=page.rdf %}
+
 <h2>{{ page.rdf | rdf_property: "rdfs:label", site.language }}</h2>
 {% assign slogan = page.rdf | rdf_property: "schema:slogan" %}
 {% if slogan %}

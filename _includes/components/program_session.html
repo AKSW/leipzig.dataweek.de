@@ -1,3 +1,4 @@
+{% include strings.html %}
 {%- assign session = include.session -%}
 {%- assign start = session | rdf_property: "schema:startTime" | date: "%H:%M" -%}
 {%- assign end = session | rdf_property: "schema:endTime" | date: "%H:%M" -%}
@@ -10,13 +11,13 @@
 {%- assign location_title = location | rdf_property: "dct:title" -%}
 {%- endunless -%}
 {%- assign host = session | rdf_property: "schema:performer" -%}
-{%- capture host_name %}{% include components/label.html iri=host %}{% endcapture -%}
+{%- capture host_name -%}{%- include components/label.html iri=host -%}{%- endcapture -%}
 {% assign pause = "dw:pause" | rdf_get %}
 
 <section class="timetable-unit {% if track == pause %}timetable-unit-break{% endif %}">
   <header>
     <h3>
-      {{ start }} {{ str_clock }}
+      {{ start }}
     </h3>
   </header>
   <div>
@@ -27,11 +28,11 @@
       <time datetime="{{ start }}">{{ start }}</time> - <time datetime="{{ end }}">{{ end }}</time> <span>|</span> {{ location_title }}
     </p>
     <p>
-      {% if host_name %}
+      {% unless host_name == "" %}
       {{ str_host }} {{ host_name }}
-      {% endif %}
+      {% endunless %}
       {% if description %}
-      <br />{{ description }}
+      <br />{{ description | markdownify }}
       {% endif %}
     </p>
     {% capture talks_query %}

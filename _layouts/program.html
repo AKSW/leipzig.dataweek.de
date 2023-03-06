@@ -25,10 +25,6 @@ SELECT ?iri ?date ?location WHERE {
 } ORDER BY ?date ?location
 {% endcapture %}
 {% assign roomdays = page.rdf | sparql_query: roomdays_query %}
-
-<pre>
-  {{roomdays_query | escape}}
-</pre>
 <div class="content-header">
 <h1>{{ str_program_header }}</h1>
 <nav class="nav-sub1" aria-label="Untermenü Stufe 1">
