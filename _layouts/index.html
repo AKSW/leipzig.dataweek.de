@@ -11,10 +11,10 @@ type: Event
 </nav>
 {% include sections/header.html %}
 {% include components/menu_main.html %}
-{% include sections/greeting.html %}
+{% include_cached sections/greeting.html %}
 <main class="page-main" aria-label="Inhalt" id="inhalt">
   {{ content }}
-  {% include sections/impressions.html %}
+  {% include_cached sections/impressions.html %}
 </main>
 {% include sections/sponsors.html %}
 {% include sections/footer.html %}

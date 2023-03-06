@@ -36,5 +36,5 @@ WHERE {
 
 {% assign sessions = view.resource | sparql_query: sessions_query %}
 {% for session_row in sessions %}
-  {% include components/program_session.html session=session_row.session %}
+  {% include_cached components/program_session.html session=session_row.session %}
 {% endfor %}
