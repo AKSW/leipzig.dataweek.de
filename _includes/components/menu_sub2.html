@@ -1,5 +1,5 @@
 {% assign menuResource = include.menuResource %}
-{% include strings.html %}
+{% include_cached strings.html %}
 
 {% if page.rdf %}
 {% assign current_page = page.rdf.render_path | relativize_url %}

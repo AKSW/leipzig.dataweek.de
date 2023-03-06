@@ -1,7 +1,7 @@
 ---
 layout: basic
 ---
-{% include strings.html %}
+{% include_cached strings.html %}
 {% assign link = page.rdf | rdf_property: "dw:rel_link" %}
 {% assign location = page.rdf | rdf_property: "schema:location" %}
 {% assign date = page.rdf | rdf_property: "schema:date" %}
