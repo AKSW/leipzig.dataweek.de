@@ -780,6 +780,21 @@
 <https://2023.dataweek.de/gdds-2023/#programm-talk-9> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-9> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/gdds-2023/2023-06-26/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2023.dataweek.de/gdds-2023/2023-06-26/> <http://www.w3.org/2000/01/rdf-schema#label> "Monday"@en .
+<https://2023.dataweek.de/gdds-2023/2023-06-26/> <http://www.w3.org/2000/01/rdf-schema#label> "Montag"@de .
+<https://2023.dataweek.de/gdds-2023/2023-06-26/> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/gdds-2023/> .
+<https://2023.dataweek.de/gdds-2023/2023-06-26/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-26\"" .
+<https://2023.dataweek.de/gdds-2023/2023-06-27/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2023.dataweek.de/gdds-2023/2023-06-27/> <http://www.w3.org/2000/01/rdf-schema#label> "Dienstag"@de .
+<https://2023.dataweek.de/gdds-2023/2023-06-27/> <http://www.w3.org/2000/01/rdf-schema#label> "Tuesday"@en .
+<https://2023.dataweek.de/gdds-2023/2023-06-27/> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/gdds-2023/> .
+<https://2023.dataweek.de/gdds-2023/2023-06-27/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-27\"" .
+<https://2023.dataweek.de/gdds-2023/2023-06-28/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2023.dataweek.de/gdds-2023/2023-06-28/> <http://www.w3.org/2000/01/rdf-schema#label> "Mittwoch"@de .
+<https://2023.dataweek.de/gdds-2023/2023-06-28/> <http://www.w3.org/2000/01/rdf-schema#label> "Wednesday"@en .
+<https://2023.dataweek.de/gdds-2023/2023-06-28/> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/gdds-2023/> .
+<https://2023.dataweek.de/gdds-2023/2023-06-28/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-28\"" .
 <https://2023.dataweek.de/gdds-2023/> <http://purl.org/dc/terms/description> "OGC beteiligt sich an der Data Week Leipzig, um \u00FCber aktuelle Geodaten-Technologien und -Praktiken zu reflektieren. Mit wechselnden Themen wird das Wochenprogramm der Data Week Leipzig erg\u00E4nzt. So liegt am Montag der Schwerpunkt auf europ\u00E4ischen Datenr\u00E4umen und dem Green Deal. Die Stadtplanung (Dienstag) und die semantische Interoperabilit\u00E4t (Mittwoch) folgen anschlie\u00DFend. Zus\u00E4tzlich gibt es die angeschlossene AI Tomorrow Konferenz, die sich aus akademischer Sicht mit dem Thema k\u00FCnstliche Intelligenz besch\u00E4ftigt.\n\nDer Schwerpunkt des EU Green Deal Data Space (Dienstag) liegt auf den aktuellen F\u00E4higkeiten und Rollen lokaler, regionaler und nationaler Organisationen und ihren sich entwickelnden Bed\u00FCrfnissen und Herausforderungen. Ziel des OGC-Programms und der Data Week Leipzig ist es mit Pr\u00E4sentationen, \u00F6ffentlichen Diskussionen und Workshops weitere Anforderungen, Priorit\u00E4ten und L\u00FCcken f\u00FCr die Versorgung von Gemeinden im Rahmen einer nachhaltigen Entwicklung zu ermitteln, einschlie\u00DFlich der Herausforderungen von Katastrophen und Klimaverh\u00E4ltnissen.\n\nInnerhalb des Tagungsprogramms werden u.a. politische Entschegdungstr\u00E4ger auf der Ebene von F\u00FChrungskr\u00E4ften und Direktoren einbezogen. Die Themen werden \u00FCber die nachhaltige Entwicklung im Rahmen des Green Deals hinausgehen und Innovationen sowie Strategien einbeziehen, die umsetzbare L\u00F6sungen hervorbringen und zu einer verbesserten Interoperabilit\u00E4t zwischen Interessengruppen, Wissenschaftsbereichen, Industrie und Regierungen f\u00FChren."@de .
 <https://2023.dataweek.de/gdds-2023/> <http://purl.org/dc/terms/description> "OGC is contributing to the Data Week Leipzig to reflect on current geospatial technologies and practices. With several topics, the main focus will be daily shifting from European data spaces and green deal (Monday), Urban planning (Tuesday) and semantic interoperability (Wednesday). Additionally, there are two days of the academic track with an emphasis on Artificial intelligence.\n\nIt will particularly focus on the current capabilities and roles of local, regional, and national organizations and their evolving needs and challenges. The objective of the dataweek, with presentations, public discussions and workshops will be to identify requirements, priorities, and gaps for serving communities in the context of green deal sustainable development, including the challenges of disaster and climate circumstances.\n\nThere will be an opportunity to engage executive and director-level decision-makers and policymakers. It will go beyond green deal sustainable development to include innovations and strategies that produce actionable solutions and lead to improved interoperability across stakeholders, science domains, industry, and government."@en .
 <https://2023.dataweek.de/gdds-2023/> <http://schema.org/abstract> "The aim of the EU Green Deal Data Space Day is to use presentations, public discussions and workshops to identify requirements, priorities and gaps in the supply of communities within the framework of sustainable development."@en .
@@ -825,10 +840,17 @@
 <https://2023.dataweek.de/gdds-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/gdds-2023/#programm-talk-6> .
 <https://2023.dataweek.de/gdds-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/gdds-2023/#programm-talk-8> .
 <https://2023.dataweek.de/gdds-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/gdds-2023/#programm-talk-9> .
+<https://2023.dataweek.de/gdds-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/gdds-2023/> .
+<https://2023.dataweek.de/gdds-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/gdds-2023/2023-06-26/> .
+<https://2023.dataweek.de/gdds-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/gdds-2023/2023-06-27/> .
+<https://2023.dataweek.de/gdds-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2023.dataweek.de/gdds-2023/2023-06-28/> .
+<https://2023.dataweek.de/gdds-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2023.dataweek.de/gdds-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/gdds-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2023.dataweek.de/gdds-2023/> <http://www.w3.org/2000/01/rdf-schema#label> "EU Green Deal Data Space"@de .
 <https://2023.dataweek.de/gdds-2023/> <http://www.w3.org/2000/01/rdf-schema#label> "EU Green Deal Data Space"@en .
+<https://2023.dataweek.de/gdds-2023/> <https://dataweek.de/#menuHomeLabel> "General"@en .
+<https://2023.dataweek.de/gdds-2023/> <https://dataweek.de/#menuHomeLabel> "\u00DCbersicht"@de .
 <https://2023.dataweek.de/gdds-2023/> <https://dataweek.de/#slug> "GDDS" .
 <https://2023.dataweek.de/hotels/AOCity> <http://schema.org/address> "Brandenburger Strasse 2, 04103 Leipzig" .
 <https://2023.dataweek.de/hotels/AOCity> <http://schema.org/telephone> "+49 (0)30 809475000" .
@@ -1153,6 +1175,11 @@
 <https://2023.dataweek.de/lswt2023/#programm-talk-9> <http://schema.org/performer> <https://dataweek.de/#MatthiasKindermann> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-9> <http://schema.org/startTime> "11:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/lswt2023/2023-06-28/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2023.dataweek.de/lswt2023/2023-06-28/> <http://www.w3.org/2000/01/rdf-schema#label> "Program"@en .
+<https://2023.dataweek.de/lswt2023/2023-06-28/> <http://www.w3.org/2000/01/rdf-schema#label> "Programm"@de .
+<https://2023.dataweek.de/lswt2023/2023-06-28/> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/lswt2023/> .
+<https://2023.dataweek.de/lswt2023/2023-06-28/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-28\"" .
 <https://2023.dataweek.de/lswt2023/> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/lswt2023/> <http://purl.org/dc/terms/description> "Der Leipziger Semantic Web Tag (LSWT) bietet seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen die M\u00F6glichkeit, sich zu Themen im Bereich semantischer Technologien auszutauschen. In diesem Jahr findet der LSWT wieder gemeinsam mit der 2. Data Week Leipzig statt, einer einw\u00F6chigen Veranstaltung in Leipzig, die sich mit den Herausforderungen von Daten, Digitalisierung, k\u00FCnstlicher Intelligenz und Stadtentwicklung besch\u00E4ftigt.\n\nW\u00E4hrend der LSWT werden wir die neuesten Entwicklungen und Trends in den Bereichen semantische Technologien und Daten hervorheben. Schwerpunkte in diesem Jahr sind Wissensgraphen, E-Government, Geodaten, temporale Daten, ESG, Mobilit\u00E4t, vernetzte Gesellschaft, Datenintegration, Semantic Web in der Industrie und k\u00FCnstliche Intelligenz. Diese Schwerpunkte werden in Vortr\u00E4gen von Experten aus Wirtschaft und Wissenschaft vorgestellt.\n\nFalls Sie weitere Fragen haben, k\u00F6nnen Sie sich gern an das Organisationsteam wenden."@de .
 <https://2023.dataweek.de/lswt2023/> <http://purl.org/dc/terms/description> "Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology.\n  This year, LSWT will again be co-located with the second Data Week Leipzig, a one-week event in Leipzig focusing on data, digitization, artificial intelligence, and urban development challenges.\n\n  During the LSWT, we will emphasize recent developments and trends in the fields of semantic technologies and data.\n  Main points this year shall be knowledge graphs, e-government, geodata, temporal data, ESG, mobility, interlinked society, data integration, semantic web in industry, and artificial intelligence.\n  These emphases are demonstrated in presentations by experts from industry and science.\n\n If you have any further questions don't hesitate to contact the organisation team."@en .
@@ -1176,6 +1203,9 @@
 <https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-2> .
 <https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-6> .
 <https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-7> .
+<https://2023.dataweek.de/lswt2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/lswt2023/> .
+<https://2023.dataweek.de/lswt2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/lswt2023/2023-06-28/> .
+<https://2023.dataweek.de/lswt2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2023.dataweek.de/lswt2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/lswt2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2023.dataweek.de/lswt2023/> <http://www.w3.org/2000/01/rdf-schema#label> "11. Leipziger Semantic Web Tag"@de .
@@ -1240,6 +1270,8 @@
 <https://2023.dataweek.de/venue/> <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.37267 51.33594)" .
 <https://2023.dataweek.de/venue/> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "51.33594"^^<http://www.w3.org/2001/XMLSchema#float> .
 <https://2023.dataweek.de/venue/> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.37267"^^<http://www.w3.org/2001/XMLSchema#float> .
+<https://2023.dataweek.de/venue/> <https://dataweek.de/#menuHomeLabel> "Overview"@en .
+<https://2023.dataweek.de/venue/> <https://dataweek.de/#menuHomeLabel> "\u00DCbersicht"@de .
 <https://2023.dataweek.de/venue/accommodation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2023.dataweek.de/venue/accommodation> <http://www.w3.org/2000/01/rdf-schema#label> "Accommodation"@en .
 <https://2023.dataweek.de/venue/accommodation> <http://www.w3.org/2000/01/rdf-schema#label> "Unterkunft"@de .
