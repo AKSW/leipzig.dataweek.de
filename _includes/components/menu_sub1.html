@@ -1,20 +1,14 @@
 {% assign menuResource = include.menuResource %}
 {% include strings.html %}
 
-{% if page.rdf %}
-{% assign current_page = page.rdf.render_path | relativize_url %}
-{% else %}
-{% assign current_page = page.path | relativize_url %}
-{% endif %}
-
 {% capture subMenuQuery %}
 select distinct ?entry {
   {
     bind(<{{page.rdf}}> as ?entry)
-    <{{menuResource.iri}}> ?cmprop_1st ?entry .
+    ?resourceUri ?cmprop_1st ?entry .
     bind(1 as ?level)
   } union {
-    <{{menuResource.iri}}> ?cmprop_1st ?entry .
+    ?resourceUri ?cmprop_1st ?entry .
     ?entry ?cmprop_2nd <{{page.rdf}}> .
     bind(2 as ?level)
   }
@@ -23,18 +17,19 @@ select distinct ?entry {
 } order by ?level limit 1
 {% endcapture %}
 
-{% assign selected_res = rootResource | sparql_query: subMenuQuery %}
-{% for s in selected_res %}
-{% assign selected = s.entry %}
-{% endfor %}
-
+{% assign selected_res = menuResource | sparql_query: subMenuQuery %}
+{% assign selected = selected_res.first.entry %}
 {% assign current_super_page = selected.render_path | relativize_url %}
 {% assign menu = menuResource | rdf_container %}
 
 <nav class="nav-sub1" aria-label="{{ str_sub1_menu }}">
   <ul>
     {% for entry in menu %}
-    {% include components/menu_sub_entry.html current=current_super_page resource=entry %}
+    {% assign label = nil %}
+    {% if entry == menuResource %}
+    {% assign label = menuResource | rdf_property: "dw:menuHomeLabel", site.language | default: nil %}
+    {% endif %}
+    {% include components/menu_sub_entry.html current=current_super_page resource=entry label=label %}
     {% endfor %}
   </ul>
 </nav>

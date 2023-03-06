@@ -13,7 +13,11 @@
 <nav class="nav-sub2" aria-label="{{ str_sub2_menu }}">
   <ul>
     {% for entry in menu %}
-    {% include components/menu_main_entry.html current=current_page resource=entry %}
+    {% assign label = nil %}
+    {% if entry == menuResource %}
+    {% assign label = menuResource | rdf_property: "dw:menuHomeLabel", site.language | default: nil %}
+    {% endif %}
+    {% include components/menu_main_entry.html current=current_page resource=entry label=label %}
     {% endfor %}
   </ul>
 </nav>
