@@ -28,11 +28,11 @@
       <time datetime="{{ start }}">{{ start }}</time> - <time datetime="{{ end }}">{{ end }}</time> <span>|</span> {{ location_title }}
     </p>
     <p>
-      {% if host_name %}
+      {% unless host_name == "" %}
       {{ str_host }} {{ host_name }}
-      {% endif %}
+      {% endunless %}
       {% if description %}
-      <br />{{ description }}
+      <br />{{ description | markdownify }}
       {% endif %}
     </p>
     {% capture talks_query %}
