@@ -1637,8 +1637,13 @@ html.overlay-open {
     font-size: 22px;
     font-size: 1.375rem;
     font-weight: 600;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    height: 100%;
     line-height: 1.53125rem;
-    padding: 0.4375rem 1.5rem;
+    padding: 0.65625rem 1.5rem 0.4375rem 1.5rem;
     text-decoration: none;
   }
   .nav-sub1 a i, .nav-sub1 strong i {
@@ -1652,6 +1657,7 @@ html.overlay-open {
     -webkit-order: -1;
         -ms-flex-order: -1;
             order: -1;
+    margin-top: -0.21875rem;
   }
   .nav-sub1 a:hover, .nav-sub1 a:focus-visible, .nav-sub1 a:active {
     background: #17214c;
@@ -1676,7 +1682,7 @@ html.overlay-open {
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     content: '';
-    height: 1rem;
+    height: .75rem;
     position: absolute;
     top: 100%;
     right: 0;
