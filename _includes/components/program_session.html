@@ -11,13 +11,13 @@
 {%- assign location_title = location | rdf_property: "dct:title" -%}
 {%- endunless -%}
 {%- assign host = session | rdf_property: "schema:performer" -%}
-{%- capture host_name %}{% include components/label.html iri=host %}{% endcapture -%}
+{%- capture host_name -%}{%- include components/label.html iri=host -%}{%- endcapture -%}
 {% assign pause = "dw:pause" | rdf_get %}
 
 <section class="timetable-unit {% if track == pause %}timetable-unit-break{% endif %}">
   <header>
     <h3>
-      {{ start }} {{ str_clock }}
+      {{ start }}
     </h3>
   </header>
   <div>
