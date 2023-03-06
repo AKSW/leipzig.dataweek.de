@@ -10,6 +10,30 @@
   ORDER BY ?date
 {% endcapture %}
 {% assign events = rootResource | sparql_query: eventsQuery %}
+
+{% assign menuResource = "dw23:events" | rdf_get %}
+
+{% capture subMenuQuery %}
+select distinct ?entry {
+  {
+    bind(<{{page.rdf}}> as ?entry)
+    ?resourceUri ?cmprop_1st ?entry .
+    bind(1 as ?level)
+  } union {
+    ?resourceUri ?cmprop_1st ?entry .
+    ?entry ?cmprop_2nd <{{page.rdf}}> .
+    bind(2 as ?level)
+  }
+  ?cmprop_1st a rdfs:ContainerMembershipProperty .
+  ?cmprop_2nd a rdfs:ContainerMembershipProperty .
+} order by ?level limit 1
+{% endcapture %}
+
+{% assign selected_res = menuResource | sparql_query: subMenuQuery %}
+{% assign selected = selected_res.first.entry %}
+{% assign current_super_page = selected.render_path | relativize_url %}
+{% assign menu = menuResource | rdf_container %}
+
 {% assign current_page = page.rdf.render_path | relativize_url %}
 
 <div class="content-header">
@@ -33,7 +57,7 @@
       {% endfor %}
       {% assign slug = event.e | rdf_property: "dw:slug" %}
       {% assign event_link = event.e.page_url | relativize_url %}
-      {% include components/menu_sub_entry.html current=current_page link=event_link label=slug label_sub=weekday_string label_flipped=true %}
+      {% include components/menu_sub_entry.html current=current_super_page link=event_link label=slug label_sub=weekday_string label_flipped=true %}
     {% endfor %}
     </ul>
   </nav>
