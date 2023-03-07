@@ -46,7 +46,7 @@ select distinct ?entry {
 {% capture events_submenu %}
 <ul>
 {% for event in events %}
-  {% assign weekdays = event | rdf_property: "schema:date", nil, true %}
+  {% assign weekdays = event | rdf_property: "dct:date", nil, true %}
   {% assign weekday_string = "" %}
   {% for weekday in weekdays %}
     {% unless forloop.first %}

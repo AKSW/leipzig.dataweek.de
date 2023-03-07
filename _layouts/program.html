@@ -4,12 +4,12 @@ layout: basic
 {% include_cached strings.html %}
 {% assign link = page.rdf | rdf_property: "dw:rel_link" %}
 {% assign location = page.rdf | rdf_property: "schema:location" %}
-{% assign date = page.rdf | rdf_property: "schema:date" %}
+{% assign date = page.rdf | rdf_property: "dct:date" %}
 
 {% capture menu_query %}
 SELECT (min(?iri) as ?link) ?date WHERE {
   ?iri rdf:type dw:RoomDay ;
-    schema:date ?date .
+    dct:date ?date .
 } GROUP BY ?date ORDER BY ?date
 {% endcapture %}
 {% assign menudays = page.rdf | sparql_query: menu_query %}
@@ -19,7 +19,7 @@ SELECT (min(?iri) as ?link) ?date WHERE {
 # the menu and mobile menu for each day and location
 SELECT ?iri ?date ?location WHERE {
   ?iri rdf:type dw:RoomDay ;
-    schema:date ?date ;
+    dct:date ?date ;
     schema:location ?location .
     filter(str(?date) = "{{ date }}")
 } ORDER BY ?date ?location
@@ -69,13 +69,13 @@ SELECT ?iri ?date ?location WHERE {
   SELECT DISTINCT (?event as ?iri) ?title ?description ?datestring ?date
   WHERE {
     <{{ page.rdf }}> rdf:type dw:RoomDay ;
-      schema:date ?date ;
+      dct:date ?date ;
       schema:location ?location .
     ?mainEvent schema:subEvent ?event .
     ?event schema:subEvent ?session ;
         dct:description ?eventDescription ;
         rdfs:label ?title ;
-        schema:date ?date .
+        dct:date ?date .
     FILTER(langMatches(lang(?title), "{{ site.language }}"))
     ?session schema:location ?location ;
       schema:startTime ?session_start .
@@ -96,7 +96,7 @@ SELECT ?iri ?date ?location WHERE {
   SELECT DISTINCT ?session
   WHERE {
     ?resourceUri schema:subEvent ?session ;
-      schema:date ?date .
+      dct:date ?date .
       ?session schema:startTime ?start .
       {
         ?session schema:location ?location ;

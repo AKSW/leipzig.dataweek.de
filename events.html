@@ -10,7 +10,7 @@ layout: basic
   SELECT DISTINCT ?event (MIN(?dates) as ?date)
   WHERE {
     ?resourceUri schema:subEvent ?event .
-    ?event schema:date ?dates .
+    ?event dct:date ?dates .
   }
   GROUP BY ?event
   ORDER BY ?date
@@ -23,7 +23,7 @@ layout: basic
   {% for row in subEvents %}
   {% assign slogan = row.event | rdf_property: "schema:slogan", site.language %}
   {% assign abstract = row.event | rdf_property: "schema:abstract", site.language %}
-  {% assign dates = row.event | rdf_property: "schema:date", nil, true %}
+  {% assign dates = row.event | rdf_property: "dct:date", nil, true %}
   <li>
     <div class="card">
       <h2>

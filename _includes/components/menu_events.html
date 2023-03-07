@@ -4,7 +4,7 @@
   SELECT DISTINCT ?e (MIN(?dates) as ?date)
   WHERE {
     ?resourceUri schema:subEvent ?e .
-    ?e schema:date ?dates .
+    ?e dct:date ?dates .
   }
   GROUP BY ?e
   ORDER BY ?date
@@ -44,7 +44,7 @@ select distinct ?entry {
     <ul>
     {% for row in events %}
       {% assign entry = row.e %}
-      {% assign weekdays = entry | rdf_property: "schema:date", nil, true %}
+      {% assign weekdays = entry | rdf_property: "dct:date", nil, true %}
       {% assign weekday_string = "" %}
       {% for weekday in weekdays %}
         {% unless forloop.first %}

@@ -21,11 +21,11 @@ CONSTRUCT {
 	rdfs:label "A resource helping jekyll-rdf in program.html." ;
     dw:rel_link ?rel_link ;
 	schema:location ?location ;
-  	schema:date ?date .}
-WHERE { 
+  	dct:date ?date .}
+WHERE {
   ?subEvent schema:subEvent ?session ;
     rdfs:label ?eventTitle ;
-    schema:date ?date . 
+    dct:date ?date .
     FILTER(langMatches(lang(?eventTitle), "en"))
 
   ?session schema:location ?location ;
@@ -36,7 +36,7 @@ WHERE {
   FILTER(langMatches(lang(?talk_title), "en"))
 
   ?location dct:title ?location_name .
-  
+
   FILTER(DATATYPE(?date) = xsd:date)
   BIND(CONCAT("/", str(?date), "-", ?location_name) as ?rel_path)
   BIND(CONCAT(?rel_path, ".html") as ?rel_link)
