@@ -2,10 +2,52 @@
 {% assign current = include.current %}
 {% assign link = include.link %}
 {% assign resource = include.resource %}
+{% assign submenu = include.submenu %}
+
+{% if resource %}
+{% unless link %}
+{% assign link = resource.render_path | relativize_url %}
+{% endunless %}
+{% endif %}
+
+{% unless active %}
+{% if current %}
+{% if link == current %}
+{% assign active = true %}
+{% endif %}
+{% endif %}
+{% endunless %}
+
+{% assign navigation_type = "site:Navigation" | rdf_get %}
+{% unless submenu %}
+  {% if resource %}
+    {% assign isNavigation = resource | rdf_property: "rdf:type", nil, true | contains: navigation_type %}
+    {% if active and isNavigation %}
+      {% assign sub_menu = resource | rdf_container %}
+      {% if sub_menu.first %}
+        {% capture submenu %}
+    <ul>
+          {% for sub_entry in sub_menu %}
+            {% assign sub_label = nil %}
+            {% if sub_entry == resource %}
+              {% assign sub_label = resource | rdf_property: "dw:menuHomeLabel", site.language | default: nil %}
+            {% endif %}
+            {% include components/menu_sub_entry.html current=current resource=sub_entry label=sub_label submenu="" %}
+          {% endfor %}
+    </ul>
+        {% endcapture %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
+{% endunless %}
+
+{% assign active = include.active %}
+{% assign current = include.current %}
+{% assign link = include.link %}
+{% assign resource = include.resource %}
 {% assign label_span = include.label_span %}
 {% assign label_i = include.label_i %}
 {% assign label_flipped = include.label_flipped %}
-{% assign submenu = include.submenu %}
 
 {% if resource %}
 {% unless link %}

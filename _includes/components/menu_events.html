@@ -42,8 +42,9 @@ select distinct ?entry {
   </h1>
   <nav class="nav-sub1" aria-label="Untermenü Stufe 1">
     <ul>
-    {% for event in events %}
-      {% assign weekdays = event.e | rdf_property: "schema:date", nil, true %}
+    {% for row in events %}
+      {% assign entry = row.e %}
+      {% assign weekdays = entry | rdf_property: "schema:date", nil, true %}
       {% assign weekday_string = "" %}
       {% for weekday in weekdays %}
         {% unless forloop.first %}
@@ -55,9 +56,9 @@ select distinct ?entry {
         {% endunless %}
         {% assign weekday_string = weekday | localize: "%a" | prepend: weekday_string %}
       {% endfor %}
-      {% assign slug = event.e | rdf_property: "dw:slug" %}
-      {% assign event_link = event.e.page_url | relativize_url %}
-      {% include components/menu_sub_entry.html current=current_super_page link=event_link label=slug label_sub=weekday_string label_flipped=true %}
+
+      {% assign slug = entry | rdf_property: "dw:slug" %}
+      {% include components/menu_sub_entry.html current=current_super_page resource=entry label=slug label_sub=weekday_string label_flipped=true %}
     {% endfor %}
     </ul>
   </nav>

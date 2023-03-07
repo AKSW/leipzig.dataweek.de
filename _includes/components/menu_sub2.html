@@ -17,7 +17,7 @@
     {% if entry == menuResource %}
     {% assign label = menuResource | rdf_property: "dw:menuHomeLabel", site.language | default: nil %}
     {% endif %}
-    {% include components/menu_main_entry.html current=current_page resource=entry label=label %}
+    {% include components/menu_main_entry.html current=current_page resource=entry label=label submenu="" %}
     {% endfor %}
   </ul>
 </nav>

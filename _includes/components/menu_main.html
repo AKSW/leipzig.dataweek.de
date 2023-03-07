@@ -4,9 +4,9 @@
 {% assign menuResource = rootResource | rdf_property: "void:rootResource" %}
 
 {% if page.rdf %}
-{% assign current_page = page.rdf.render_path | relativize_url %}
+  {% assign current_page = page.rdf.render_path | relativize_url %}
 {% else %}
-{% assign current_page = page.path | relativize_url %}
+  {% assign current_page = page.path | relativize_url %}
 {% endif %}
 
 {% capture subMenuQuery %}
@@ -33,7 +33,7 @@ select distinct ?entry {
 
 {% assign selected_res = rootResource | sparql_query: subMenuQuery %}
 {% for s in selected_res %}
-{% assign selected = s.entry %}
+  {% assign selected = s.entry %}
 {% endfor %}
 
 {% assign current_super_page = selected.render_path | relativize_url %}
@@ -70,7 +70,7 @@ select distinct ?entry {
 <nav class="nav-main" aria-label="{{ str_main_menu }}">
   <ul>
     {% for entry in menu %}
-    {% include components/menu_main_entry.html current=current_super_page resource=entry %}
+    {% include components/menu_main_entry.html current=current_super_page resource=entry submenu="" %}
     {% endfor %}
   </ul>
 </nav>
@@ -80,26 +80,24 @@ select distinct ?entry {
   <nav class="nav-sitemap" aria-label="{{ str_mobile_menu }}">
     <ul current="{{current_page}}" page="{{page.path}}" current_i="{{current_page_index}}">
       {% for entry in menu %}
-      {% assign submenu = "" %}
-      {% if entry == events_iri %}
-      {% assign submenu = events_submenu %}
-      {% else %}
-      {% assign isNavigation = entry | rdf_property: "rdf:type", nil, true | contains: navigation_type %}
-      {% if isNavigation %}
-      {% assign sub_menu = entry | rdf_container %}
-      {% if sub_menu.first %}
-      {% capture submenu %}
+        {% assign submenu = "" %}
+        {% assign isNavigation = entry | rdf_property: "rdf:type", nil, true | contains: navigation_type %}
+        {% if entry == events_iri %}
+          {% assign submenu = events_submenu %}
+        {% elsif isNavigation %}
+          {% assign sub_menu = entry | rdf_container %}
+          {% if sub_menu.first %}
+            {% capture submenu %}
       <ul>
-      {% for sub_entry in sub_menu %}
-      {% include components/menu_sub_entry.html current=current_page resource=sub_entry %}
-      {% endfor %}
+              {% for sub_entry in sub_menu %}
+                {% include components/menu_sub_entry.html current=current_page resource=sub_entry submenu="" %}
+              {% endfor %}
       </ul>
-      {% endcapture %}
-      {% endif %}
-      {% endif %}
-      {% endif %}
+            {% endcapture %}
+          {% endif %}
+        {% endif %}
 
-      {% include components/menu_sub_entry.html current=current_page resource=entry submenu=submenu %}
+        {% include components/menu_sub_entry.html current=current_page resource=entry submenu=submenu %}
       {% endfor %}
     </ul>
     <ul>
