@@ -21,8 +21,8 @@
 {% assign navigation_type = "site:Navigation" | rdf_get %}
 {% unless submenu %}
   {% if resource %}
-    {% assign isNavigation = resource | rdf_property: "rdf:type", nil, true | contains: navigation_type %}
-    {% if active and isNavigation %}
+  {% assign isNavigation = resource | sparql_query: "select ?entity { ?entity rdf:type site:Navigation . filter(?entity = ?resourceUri) }" %}
+    {% if active and isNavigation.first %}
       {% assign sub_menu = resource | rdf_container %}
       {% if sub_menu.first %}
         {% capture submenu %}

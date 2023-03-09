@@ -81,10 +81,10 @@ select distinct ?entry {
     <ul current="{{current_page}}" page="{{page.path}}" current_i="{{current_page_index}}">
       {% for entry in menu %}
         {% assign submenu = "" %}
-        {% assign isNavigation = entry | rdf_property: "rdf:type", nil, true | contains: navigation_type %}
+        {% assign isNavigation = entry | sparql_query: "select ?entity { ?entity rdf:type site:Navigation . filter(?entity = ?resourceUri) }" %}
         {% if entry == events_iri %}
           {% assign submenu = events_submenu %}
-        {% elsif isNavigation %}
+        {% elsif isNavigation.first %}
           {% assign sub_menu = entry | rdf_container %}
           {% if sub_menu.first %}
             {% capture submenu %}
