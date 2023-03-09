@@ -9,6 +9,6 @@
   {{ start }}-{{ end }}
   {% endif %}
   <strong>
-    {% unless speaker == Nil %}{% include components/objects_to_label.html sub=talk pred="schema:performer" %}: {% endunless %}{{ title }}
+    {% unless speaker == Nil %}{% include components/list_inline.html sub=talk pred="schema:performer" %}: {% endunless %}{{ title }}
   </strong>
 </li>

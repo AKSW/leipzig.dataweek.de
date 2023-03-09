@@ -46,18 +46,7 @@ select distinct ?entry {
 {% capture events_submenu %}
 <ul>
 {% for event in events %}
-  {% assign weekdays = event | rdf_property: "dct:date", nil, true %}
-  {% assign weekday_string = "" %}
-  {% for weekday in weekdays %}
-    {% unless forloop.first %}
-      {% if forloop.last %}
-        {% assign weekday_string = " & " | prepend: weekday_string %}
-      {% else %}
-        {% assign weekday_string = ", " | prepend: weekday_string %}
-      {% endif %}
-    {% endunless %}
-    {% assign weekday_string = weekday | localize: "%a" | prepend: weekday_string %}
-  {% endfor %}
+  {% capture weekday_string %}{% include components/list_inline.html sub=event pred="dct:date" variant="date" format="%a" %}{% endcapture %}
   {% assign event_label = event | rdf_property: "dw:slug" | append: " (" | append: weekday_string | append: ")" %}
   {% assign event_link = event.render_path | relativize_url %}
   {% include components/menu_sub_entry.html current=current_page link=event_link label=event_label %}

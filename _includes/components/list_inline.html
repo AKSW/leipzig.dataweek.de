@@ -1,0 +1,62 @@
+{% comment %}
+This component serializes multiple objects for a sp to comma seperated string.
+The labels component will be used to build the strings.
+param:variant can be "", "literal", "date"
+param:format can be set with values for the date filter 
+{% endcomment %}
+
+{% assign sub = include.sub %}
+{% assign pred = include.pred %}
+{% assign variant = include.variant %}
+{% assign format = include.format %}
+{% assign objects_string = "" %}
+{% assign objects = sub | rdf_property: pred, nil, true %}
+
+{% if site.language == "de" %}
+  {% assign conjunction = " und " %}
+{% else %}
+  {% assign conjunction = " and " %}
+{% endif %}
+
+
+{% if variant == "date" and format != Nil %}
+  {% for object in objects %}
+    {% assign object_name = object | localize: format %}
+
+    {% if forloop.first %}
+      {% assign objects_string = object_name %}
+    {% elsif forloop.last %} 
+      {% assign objects_string = object_name | prepend: conjunction | prepend:objects_string %}
+    {% else %} 
+      {% assign objects_string = object_name | prepend: ", " | prepend: objects_string %}
+    {% endif %}
+
+  {% endfor %}
+{% elsif variant == "literal" %}
+  {% for object in objects %}
+    {% if forloop.first %}
+      {% assign objects_string = object_name %}
+    {% elsif forloop.last %} 
+      {% assign objects_string = object | prepend: conjunction | prepend:objects_string %}
+    {% else %} 
+      {% assign objects_string = object | prepend: ", " | prepend: objects_string %}
+    {% endif %}
+  
+  {% endfor %}
+{% elsif variant == Nil or variant == "" %}
+  {% for object in objects %}
+    {% capture object_name %}{% include_cached components/label.html iri=object %}{% endcapture %}
+    
+    {% if forloop.first %}
+      {% assign objects_string = object_name %}
+    {% elsif forloop.last %} 
+      {% assign objects_string = object_name | prepend: conjunction | prepend:objects_string %}
+    {% else %} 
+      {% assign objects_string = object_name | prepend: ", " | prepend: objects_string %}
+    {% endif %}
+
+  {% endfor %}
+
+{% endif %}
+
+{{ objects_string }}
