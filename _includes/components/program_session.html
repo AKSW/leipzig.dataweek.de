@@ -11,7 +11,6 @@
 {%- assign location_title = location | rdf_property: "dct:title" -%}
 {%- endunless -%}
 {%- assign host = session | rdf_property: "schema:performer" -%}
-{%- capture host_name -%}{%- include components/label.html iri=host -%}{%- endcapture -%}
 {% assign pause = "dw:pause" | rdf_get %}
 
 <section class="timetable-unit {% if track == pause %}timetable-unit-break{% endif %}">
@@ -28,8 +27,8 @@
       <time datetime="{{ start }}">{{ start }}</time> - <time datetime="{{ end }}">{{ end }}</time> <span>|</span> {{ location_title }}
     </p>
     <p>
-      {% unless host_name == "" %}
-      {{ str_host }} {{ host_name }}
+      {% unless host == Nil %}
+        {{ str_host }} {% include components/objects_to_label.html sub=session pred="schema:performer" %}
       {% endunless %}
       {% if description %}
       <br />{{ description | markdownify }}
