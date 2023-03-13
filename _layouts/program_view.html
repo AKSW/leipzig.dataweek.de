@@ -1,0 +1,42 @@
+---
+layout: basic
+---
+{% include_cached strings.html %}
+
+{% include components/menu_events.html %}
+
+
+{% capture view_query %}
+SELECT ?resource ?filter
+WHERE {
+  ?resourceUri dw:resourceUri ?resource ;
+    dw:viewFilter ?filter .
+} limit 1
+{% endcapture %}
+
+{% assign view_res = page.rdf | sparql_query: view_query %}
+{% assign view = view_res.first %}
+
+{% capture sessions_query %}
+SELECT DISTINCT ?session
+WHERE {
+  ?resourceUri schema:subEvent ?session .
+    ?session schema:startTime ?start .
+    {
+      ?session schema:location ?location ;
+        dct:date ?date .
+      filter ({{ view.filter }})
+    } union {
+      ?session site:track dw:pause ;
+        dct:date ?date .
+      filter ({{ view.filter }})
+    }
+} ORDER BY ?start
+{% endcapture %}
+
+{% include components/menu_sub2.html menuResource=view.resource %}
+
+{% assign sessions = view.resource | sparql_query: sessions_query %}
+{% for session_row in sessions %}
+  {% include_cached components/program_session.html session=session_row.session %}
+{% endfor %}

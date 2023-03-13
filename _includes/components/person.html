@@ -1,6 +1,6 @@
 {% assign organizer = include.organizer %}
-{% include strings.html %}
-{% capture name %}{% include components/label.html iri = organizer.iri %}{% endcapture %}
+{% include_cached strings.html %}
+{% capture name %}{% include_cached components/label.html iri = organizer.iri %}{% endcapture %}
 {% assign homepage = organizer | rdf_property: "foaf:homepage" %}
 {% assign depiction = organizer | rdf_property: "foaf:depiction" %}
 {% assign affiliations = organizer | rdf_property: "schema:affiliation", nil, true %}

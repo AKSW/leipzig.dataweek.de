@@ -9,7 +9,7 @@ WHERE {
   ?resourceUri schema:subEvent ?subEvent .
   ?subEvent schema:subEvent ?session ;
             rdfs:label ?eventTitle ;
-            schema:date ?date .
+            dct:date ?date .
   ?session schema:location ?location ;
            schema:startTime ?session_start ;
            schema:endTime ?session_end ;
@@ -38,7 +38,7 @@ order by ASC(?person)
 {% capture dates_query %}
 SELECT distinct ?ds WHERE {
   ?rd a <https://dataweek.de/#RoomDay> ;
-  	schema:date ?ds .
+    dct:date ?ds .
 }  order by ASC(?ds)
 {% endcapture %}
 
@@ -73,7 +73,7 @@ SELECT distinct (GROUP_CONCAT(distinct ?date;SEPARATOR=" ") as ?dates)
 WHERE {
   <{{ rootResource }}> schema:subEvent ?subEvent .
   ?subEvent schema:subEvent ?session ;
-            schema:date ?date .
+            dct:date ?date .
   ?session  schema:subEvent ?talk .
   ?talk dct:title ?talk_title ;
         schema:performer ?person .

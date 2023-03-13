@@ -2,3 +2,8 @@
 ---
 
 {% include components/img.html alt=contact_alt src="/lswt2023/Logo_1024.png" %}
+
+<p>
+</p>
+{% assign keynote = "<https://2023.dataweek.de/lswt2023/#programm-talk-2>" | rdf_get %}
+{% include components/program_session.html session=keynote %}

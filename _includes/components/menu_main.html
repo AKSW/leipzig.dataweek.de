@@ -1,12 +1,12 @@
 {% assign rootResource = site.rootResource | rdf_get %}
-{% include strings.html %}
+{% include_cached strings.html %}
 
 {% assign menuResource = rootResource | rdf_property: "void:rootResource" %}
 
 {% if page.rdf %}
-{% assign current_page = page.rdf.render_path | relativize_url %}
+  {% assign current_page = page.rdf.render_path | relativize_url %}
 {% else %}
-{% assign current_page = page.path | relativize_url %}
+  {% assign current_page = page.path | relativize_url %}
 {% endif %}
 
 {% capture subMenuQuery %}
@@ -33,7 +33,7 @@ select distinct ?entry {
 
 {% assign selected_res = rootResource | sparql_query: subMenuQuery %}
 {% for s in selected_res %}
-{% assign selected = s.entry %}
+  {% assign selected = s.entry %}
 {% endfor %}
 
 {% assign current_super_page = selected.render_path | relativize_url %}
@@ -46,18 +46,7 @@ select distinct ?entry {
 {% capture events_submenu %}
 <ul>
 {% for event in events %}
-  {% assign weekdays = event | rdf_property: "schema:date", nil, true %}
-  {% assign weekday_string = "" %}
-  {% for weekday in weekdays %}
-    {% unless forloop.first %}
-      {% if forloop.last %}
-        {% assign weekday_string = " & " | prepend: weekday_string %}
-      {% else %}
-        {% assign weekday_string = ", " | prepend: weekday_string %}
-      {% endif %}
-    {% endunless %}
-    {% assign weekday_string = weekday | localize: "%a" | prepend: weekday_string %}
-  {% endfor %}
+  {% capture weekday_string %}{% include components/list_inline.html sub=event pred="dct:date" variant="date" format="%a" %}{% endcapture %}
   {% assign event_label = event | rdf_property: "dw:slug" | append: " (" | append: weekday_string | append: ")" %}
   {% assign event_link = event.render_path | relativize_url %}
   {% include components/menu_sub_entry.html current=current_page link=event_link label=event_label %}
@@ -70,7 +59,7 @@ select distinct ?entry {
 <nav class="nav-main" aria-label="{{ str_main_menu }}">
   <ul>
     {% for entry in menu %}
-    {% include components/menu_main_entry.html current=current_super_page resource=entry %}
+    {% include components/menu_main_entry.html current=current_super_page resource=entry submenu="" %}
     {% endfor %}
   </ul>
 </nav>
@@ -80,26 +69,24 @@ select distinct ?entry {
   <nav class="nav-sitemap" aria-label="{{ str_mobile_menu }}">
     <ul current="{{current_page}}" page="{{page.path}}" current_i="{{current_page_index}}">
       {% for entry in menu %}
-      {% assign submenu = "" %}
-      {% if entry == events_iri %}
-      {% assign submenu = events_submenu %}
-      {% else %}
-      {% assign isNavigation = entry | rdf_property: "rdf:type", nil, true | contains: navigation_type %}
-      {% if isNavigation %}
-      {% assign sub_menu = entry | rdf_container %}
-      {% if sub_menu.first %}
-      {% capture submenu %}
+        {% assign submenu = "" %}
+        {% assign isNavigation = entry | sparql_query: "select ?entity { ?entity rdf:type site:Navigation . filter(?entity = ?resourceUri) }" %}
+        {% if entry == events_iri %}
+          {% assign submenu = events_submenu %}
+        {% elsif isNavigation.first %}
+          {% assign sub_menu = entry | rdf_container %}
+          {% if sub_menu.first %}
+            {% capture submenu %}
       <ul>
-      {% for sub_entry in sub_menu %}
-      {% include components/menu_sub_entry.html current=current_page resource=sub_entry %}
-      {% endfor %}
+              {% for sub_entry in sub_menu %}
+                {% include components/menu_sub_entry.html current=current_page resource=sub_entry submenu="" %}
+              {% endfor %}
       </ul>
-      {% endcapture %}
-      {% endif %}
-      {% endif %}
-      {% endif %}
+            {% endcapture %}
+          {% endif %}
+        {% endif %}
 
-      {% include components/menu_sub_entry.html current=current_page resource=entry submenu=submenu %}
+        {% include components/menu_sub_entry.html current=current_page resource=entry submenu=submenu %}
       {% endfor %}
     </ul>
     <ul>

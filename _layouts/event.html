@@ -2,9 +2,11 @@
 layout: basic
 ---
 {% assign rootResource = site.rootResource | rdf_get %}
-{% include strings.html %}
+{% include_cached strings.html %}
 
 {% include components/menu_events.html %}
+
+{% include components/menu_sub2.html menuResource=page.rdf %}
 
 <h2>{{ page.rdf | rdf_property: "rdfs:label", site.language }}</h2>
 {% assign slogan = page.rdf | rdf_property: "schema:slogan" %}
@@ -18,5 +20,5 @@ layout: basic
   {{ page.rdf | rdf_property: "dct:description" , site.language | markdownify }}
 </p>
 
-{% include sections/call.html event=page.rdf %}
-{% include sections/organizerTeam.html event=page.rdf %}
+{% include_cached sections/call.html event=page.rdf %}
+{% include_cached sections/organizerTeam.html event=page.rdf %}

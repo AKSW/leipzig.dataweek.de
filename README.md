@@ -58,13 +58,6 @@ To work with the data you need to clone https://github.com/AKSW/leipzig.dataweek
 task sync-data
 ```
 
-## TODO
-
-For Persons we might distinguish in the description between:
-- [https://schema.org/affiliation](https://schema.org/affiliation)
-- [https://schema.org/jobTitle](https://schema.org/jobTitle)
-- [https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation](https://d-nb.info/standards/elementset/gnd#id-feb84240ebb4724e71ceb35c74b63b13) (Short Bio for Keynote Speakers)
-
 ## Trouble Shooting
 
 non known

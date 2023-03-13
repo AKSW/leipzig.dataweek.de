@@ -1,0 +1,14 @@
+{%- assign talk = include.talk -%}
+{%- assign show_date = include.show_date -%}
+{%- assign title = talk | rdf_property: "dct:title", site.language -%}
+{%- assign speaker = talk | rdf_property: "schema:performer" -%}
+<li>
+  {% if show_date %}
+  {%- assign start = talk | rdf_property: "schema:startTime" | date: "%H:%M" -%}
+  {%- assign end = talk | rdf_property: "schema:endTime" | date: "%H:%M" -%}
+  {{ start }}-{{ end }}
+  {% endif %}
+  <strong>
+    {% unless speaker == Nil %}{% include components/list_inline.html sub=talk pred="schema:performer" %}: {% endunless %}{{ title }}
+  </strong>
+</li>
