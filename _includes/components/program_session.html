@@ -35,9 +35,9 @@
     </p>
     <p>
       {% unless host == nil %}
-        {% unless talks.first %}
+        {% if talks.first %}
           {{ str_host }}
-        {% endunless %}
+        {% endif %}
         {% include components/list_inline.html sub=session pred="schema:performer" %}
       {% endunless %}
       {% if description %}
