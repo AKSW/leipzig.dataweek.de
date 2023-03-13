@@ -28,7 +28,7 @@
     </p>
     <p>
       {% unless host == Nil %}
-        {{ str_host }} {% include components/list_inline.html sub=session pred="schema:performer" %}
+        {% include components/list_inline.html sub=session pred="schema:performer" %}
       {% endunless %}
       {% if description %}
       <br />{{ description | markdownify }}
