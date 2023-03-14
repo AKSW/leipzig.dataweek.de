@@ -14,11 +14,13 @@
     </h3>
     <div class="contact-list">
       <ul>  
-        {% for person in organizerTeam %}
-          {% assign type = person | rdf_property: "rdf:type" %}
+        {% for member in organizerTeam %}
+          {% assign type = member | rdf_property: "rdf:type" %}
           <li>
             {% if type.iri == "http://schema.org/Person" or type.iri == "http://xmlns.com/foaf/0.1/Person" %}
-              {% include components/person.html organizer=person %}
+              {% include components/person.html organizer=member %}
+            {% elsif type.iri == "http://schema.org/Organization" %}
+              {% include components/organization.html organizer=member %}
             {% endif %}
           </li>
         {% endfor %}
