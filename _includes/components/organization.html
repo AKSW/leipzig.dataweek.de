@@ -1,0 +1,40 @@
+{% assign organizer = include.organizer %}
+{% include_cached strings.html %}
+{% capture name %}{% include_cached components/label.html iri = organizer.iri %}{% endcapture %}
+{% assign homepage = organizer | rdf_property: "foaf:homepage" %}
+{% assign logo = organizer | rdf_property: "foaf:logo" %}
+{% assign depiction = logo | rdf_property: "rdf:value" %}
+
+{% assign size = include.size %}
+{% unless size %}
+  {% assign size = 3 %}
+{% endunless %}
+
+{% assign role = organizer | rdf_property: "<https://2023.dataweek.de/#role>" | rdf_property: "rdfs:label" %}
+
+<div class="contact">
+    <h{{ size }} style="margin-bottom: 0em!important;">
+      {{ name }}
+    </h{{ size }}>
+    {% if role %}
+      <strong>
+        {{ role }}
+      </strong>
+    {% endif %}
+    <figure>
+      {% if depiction %}
+        {% assign contact_alt = str_alt_named | append: " " | append: name %}
+        {% include components/img.html alt=contact_alt src=depiction %}
+        <noscript>
+          <img src="{{ depiction | relativize_url }}" alt="{{ contact_alt }}">
+        </noscript>
+      {% else %}
+          {% assign contact_alt = str_alt_placeholder | append: " " | append: name %}
+          {% include components/img.html alt=contact_alt src="/resources/files/generated/user_1200.png" %}
+          <noscript>
+            <img src="{% relative_link /resources/files/generated/user_1200.png %}" alt="{{ contact_alt }}">
+          </noscript>
+      {% endif %}
+    </figure>
+
+</div>

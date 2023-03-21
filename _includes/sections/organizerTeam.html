@@ -1,21 +1,31 @@
 {% include strings.html %}
 {% assign event = include.event %}
 {% assign organizer = event | rdf_property: "schema:organizer" %}
-<h3>
-  {% assign label = organizer | rdf_property: "rdfs:label" %}
-  {% if label %}
-    {{ label }}
-  {% else %}
-    {{ str_organizer }}
+{% assign organizerTeam = organizer | rdf_container %}
+{% if organizer %}
+  {% if organizerTeam.first %}
+    <h3>
+      {% assign label = organizer | rdf_property: "rdfs:label" %}
+      {% if label %}
+        {{ label }}
+      {% else %}
+        {{ str_organizer }}
+      {% endif %}
+    </h3>
+    <div class="contact-list">
+      <ul>  
+        {% for member in organizerTeam %}
+          {% assign type = member | rdf_property: "rdf:type" %}
+          <li>
+            {% if type.iri == "http://schema.org/Person" or type.iri == "http://xmlns.com/foaf/0.1/Person" %}
+              {% include components/person.html organizer=member %}
+            {% elsif type.iri == "http://schema.org/Organization" %}
+              {% include components/organization.html organizer=member %}
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
   {% endif %}
-</h3>
-<div class="contact-list">
-  {% assign organizerTeam = organizer | rdf_container %}
-  <ul>
-    {% for person in organizerTeam %}
-      <li>
-        {% include components/person.html organizer=person %}
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+{% endif %}
