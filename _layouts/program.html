@@ -108,6 +108,6 @@ SELECT ?iri ?date ?location WHERE {
   {% endcapture %}
   {% assign sessions = event.iri | sparql_query: sessions_query %}
   {% for session_row in sessions %}
-    {% include_cached components/program_session.html session=session_row.session %}
+    {% include_cached components/program_unit.html session=session_row.session %}
   {% endfor %}
 {% endfor %}

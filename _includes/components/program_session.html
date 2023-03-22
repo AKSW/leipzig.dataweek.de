@@ -1,17 +1,7 @@
 {% include strings.html %}
 {%- assign session = include.session -%}
-{%- assign start = session | rdf_property: "schema:startTime" | date: "%H:%M" -%}
-{%- assign end = session | rdf_property: "schema:endTime" | date: "%H:%M" -%}
-{%- assign title = session | rdf_property: "dct:title", site.language -%}
 {%- assign description = session | rdf_property: "dct:description", site.language -%}
-{%- assign track = session | rdf_property: "site:track" -%}
-{%- assign location = session | rdf_property: "schema:location" -%}
-{%- assign location_title = location | rdf_property: "dct:title", site.language -%}
-{%- unless location_title -%}
-{%- assign location_title = location | rdf_property: "dct:title" -%}
-{%- endunless -%}
 {%- assign host = session | rdf_property: "schema:performer" -%}
-{% assign pause = "dw:pause" | rdf_get %}
 
 {% capture talks_query %}
   SELECT DISTINCT ?talk {
@@ -19,43 +9,21 @@
   }
 {% endcapture %}
 {% assign talks = session | sparql_query: talks_query %}
-
-<section class="timetable-unit {% if track == pause %}timetable-unit-break{% endif %}">
-  <header>
-    <h3>
-      {{ start }}
-    </h3>
-  </header>
-  <div>
-    <h4>
-      {{ title }}
-    </h4>
-    <p class="meta">
-      <time datetime="{{ start }}">{{ start }}</time> - <time datetime="{{ end }}">{{ end }}</time> <span>|</span> {{ location_title }}
-    </p>
-    <p>
-      {% unless host == nil %}
-        {% if talks.first %}
-          {{ str_host }}
-        {% endif %}
-        {% include components/list_inline.html sub=session pred="schema:performer" %}
-      {% endunless %}
-      {% if description %}
-      <br />{{ description | markdownify }}
-      {% endif %}
-    </p>
+<p>
+  {% unless host == nil %}
     {% if talks.first %}
-    <ul>
-    {% for talk_row in talks %}
-      {% include components/program_talk_l2.html talk=talk_row.talk %}
-    {% endfor %}
-    </ul>
+      {{ str_host }}
     {% endif %}
-    {% unless track == pause %}
-    <p class="calendar">
-      <a href="programm_montag_bereich-a.html#" title="Veranstaltung als Kalender-Datei speichern"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
-      <use xlink:href="/resources/images/icons.svg#calendar-add"></use></svg></a>
-    </p>
-    {% endunless %}
-  </div>
-</section>
+    {% include components/list_inline.html sub=session pred="schema:performer" %}
+  {% endunless %}
+  {% if description %}
+  <br />{{ description | markdownify }}
+  {% endif %}
+</p>
+{% if talks.first %}
+<ul>
+{% for talk_row in talks %}
+  {% include components/program_talk_l2.html talk=talk_row.talk %}
+{% endfor %}
+</ul>
+{%- endif -%}
