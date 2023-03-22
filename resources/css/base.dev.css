@@ -4234,6 +4234,46 @@ form.filter optgroup {
 .timetable-unit ul li + li {
   margin-top: 0.875rem;
 }
+.timetable-unit .session-details {
+  min-height: 7.875rem;
+  padding: 0.875rem 0;
+  position: relative;
+}
+@media only screen and (min-width: 760px) {
+  .timetable-unit .session-details {
+    padding: 1.75rem 0 0.875rem 4.8125rem;
+  }
+  .timetable-unit .session-details .session-details-user {
+    position: absolute;
+    top: 0.875rem;
+    left: -2.1875rem;
+  }
+}
+@media only screen and (min-width: 980px) {
+  .timetable-unit .session-details {
+    padding-left: 3.5rem;
+  }
+  .timetable-unit .session-details .session-details-user {
+    left: -3.9375rem;
+  }
+}
+.timetable-unit .session-details .session-details-user {
+  background: #fff;
+  border-radius: 50%;
+  border: #e8f7fd 0.125rem solid;
+  height: 6.125rem;
+  margin-bottom: 0.875rem;
+  padding: .25rem;
+  width: 6.125rem;
+}
+.timetable-unit .session-details .session-details-user img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+.timetable-unit .session-details h5, .timetable-unit .session-details p {
+  margin-bottom: 0.875rem;
+}
 @media only screen and (min-width: 760px) {
   .timetable-unit {
     display: -webkit-box;
