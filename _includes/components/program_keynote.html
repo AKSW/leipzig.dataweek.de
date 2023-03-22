@@ -3,15 +3,19 @@
 {%- assign description = session | rdf_property: "dct:description", site.language -%}
 {%- assign performer = session | rdf_property: "schema:performer" -%}
 {%- assign affiliation = performer | rdf_property: "schema:affiliation" -%}
+{%- assign depiction = performer | rdf_property: "foaf:depiction" -%}
 {%- assign bio = performer | rdf_property: "gnd:biographicalOrHistoricalInformation", site.language -%}
 {%- unless bio -%}
 {%- assign bio = performer | rdf_property: "gnd:biographicalOrHistoricalInformation" -%}
 {%- endunless -%}
 {%- assign title = session | rdf_property: "dct:title", site.language -%}
 
-
 {% capture performer_name %}{% include_cached components/label.html iri=performer %}{% endcapture %}
 {% capture affiliation_title %}{% include_cached components/label.html iri=affiliation %}{% endcapture %}
+
+{% unless depiction %}
+{% assign depiction = "resources/files/user.png" %}
+{% endunless %}
 
 <p>
 
@@ -20,7 +24,7 @@
       {{title}}
     </h5>
     <figure class="session-details-user">
-      <img class="js-load" data-src="{% relative_link resources/files/user.png %}" data-sizes="auto" width="1500" height="1500" style="max-width:1500px" alt="Foto von User"><noscript><img src="{% relative_link resources/files/user.png %}" alt="Foto von User"></noscript>
+      <img class="js-load" data-src="{{ depiction | relativize_url }}" data-sizes="auto" width="1500" height="1500" style="max-width:1500px" alt="Foto von User"><noscript><img src="{{ depiction | relativize_url }}" alt="Foto von User"></noscript>
     </figure>
     {% if performer %}
     <p>
