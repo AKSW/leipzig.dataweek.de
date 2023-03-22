@@ -1,10 +1,21 @@
 ---
 layout: basic
 ---
-{% include_cached strings.html %}
+{% include strings.html %}
+{% assign rootResource = site.rootResource | rdf_get %}
+{% assign baseEventResource = page.rdf | rdf_property: "dw:resourceUri" %}
 
-{% include components/menu_events.html %}
-
+{% if baseEventResource == rootResource %}
+  {% assign programMenuResource = "dw23:program" | rdf_get %}
+  <div class="content-header">
+    <h1>
+      {{ str_events }}
+    </h1>
+  {% include components/menu_sub1.html menuResource=programMenuResource %}
+  </div>
+{% else %}
+  {% include components/menu_events.html %}
+{% endif %}
 
 {% capture view_query %}
 SELECT ?resource ?filter
@@ -20,23 +31,45 @@ WHERE {
 {% capture sessions_query %}
 SELECT DISTINCT ?session
 WHERE {
-  ?resourceUri schema:subEvent ?session .
-    ?session schema:startTime ?start .
-    {
-      ?session schema:location ?location ;
-        dct:date ?date .
-      filter ({{ view.filter }})
-    } union {
-      ?session site:track dw:pause ;
-        dct:date ?date .
-      filter ({{ view.filter }})
-    }
+  {
+    ?resourceUri schema:subEvent ?session .
+  } union {
+    ?resourceUri schema:subEvent ?subEvent .
+    ?subEvent schema:subEvent ?session .
+  }
+  ?session schema:startTime ?start .
+  {
+    ?session schema:location ?location ;
+      dct:date ?date .
+    filter ({{ view.filter }})
+  } union {
+    ?session site:track dw:pause ;
+      dct:date ?date .
+    filter ({{ view.filter }})
+  }
 } ORDER BY ?start
 {% endcapture %}
 
-{% include components/menu_sub2.html menuResource=view.resource %}
-
 {% assign sessions = view.resource | sparql_query: sessions_query %}
-{% for session_row in sessions %}
-  {% include_cached components/program_unit.html session=session_row.session %}
-{% endfor %}
+
+{% if baseEventResource == rootResource %}
+  {%- assign navigation = session | sparql_query: "select ?entity { ?entity a site:Navigation . filter(?entity = ?resourceUri) }" -%}
+  {%- unless navigation.first -%}
+  {%- assign navigation = session | sparql_query: "select ?entity { ?entity a site:Navigation ; ?cmp ?resourceUri . ?cmp a rdfs:ContainerMembershipProperty }" -%}
+  {%- endunless -%}
+  {%- assign menuResource = navigation.first.entity -%}
+{% else %}
+  {%- assign menuResource = view.resource -%}
+{% endif %}
+
+{%- include components/menu_sub2.html menuResource=menuResource -%}
+
+{%- if sessions.first -%}
+  {%- for session_row in sessions -%}
+    {%- include_cached components/program_unit.html session=session_row.session -%}
+  {%- endfor -%}
+{%- else -%}
+  <div class="box">
+    {{str_program_under_construction}}
+  </div>
+{%- endif -%}

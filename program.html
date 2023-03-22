@@ -1,0 +1,15 @@
+---
+layout: basic
+---
+{% assign rootResource = site.rootResource | rdf_get %}
+{% include_cached strings.html %}
+{% assign programMenuResource = "dw23:program" | rdf_get %}
+
+<div class="content-header">
+<!--
+  <h1>
+    {{ venue | rdf_property: "rdfs:label", site.language }}
+  </h1>
+-->
+  {% include components/menu_sub1.html menuResource=programMenuResource %}
+</div>
