@@ -8,7 +8,5 @@
   {%- assign end = talk | rdf_property: "schema:endTime" | date: "%H:%M" -%}
   {{ start }}-{{ end }}
   {% endif %}
-  <strong>
     {% unless speaker == Nil %}{% include components/list_inline.html sub=talk pred="schema:performer" %}: {% endunless %}{{ title }}
-  </strong>
 </li>
