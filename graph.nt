@@ -295,13 +295,13 @@
 <https://2023.dataweek.de/2023-06-26/> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-26/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-26\"" .
 <https://2023.dataweek.de/2023-06-26/Ratsplenarsaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2023.dataweek.de/2023-06-26/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Monday"@en .
-<https://2023.dataweek.de/2023-06-26/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Montag"@de .
+<https://2023.dataweek.de/2023-06-26/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Ratsplenarsaal"@de .
+<https://2023.dataweek.de/2023-06-26/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Ratsplenarsaal"@en .
 <https://2023.dataweek.de/2023-06-26/Ratsplenarsaal> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-26/Ratsplenarsaal> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-26\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 <https://2023.dataweek.de/2023-06-26/Sitzungssaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2023.dataweek.de/2023-06-26/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Monday"@en .
-<https://2023.dataweek.de/2023-06-26/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Montag"@de .
+<https://2023.dataweek.de/2023-06-26/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Sitzungssaal"@de .
+<https://2023.dataweek.de/2023-06-26/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Sitzungssaal"@en .
 <https://2023.dataweek.de/2023-06-26/Sitzungssaal> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-26/Sitzungssaal> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-26\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 <https://2023.dataweek.de/2023-06-27/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/2023-06-27/Ratsplenarsaal> .
@@ -312,30 +312,30 @@
 <https://2023.dataweek.de/2023-06-27/> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-27/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-27\"" .
 <https://2023.dataweek.de/2023-06-27/Ratsplenarsaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2023.dataweek.de/2023-06-27/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Dienstag"@de .
-<https://2023.dataweek.de/2023-06-27/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Tuesday"@en .
+<https://2023.dataweek.de/2023-06-27/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Ratsplenarsaal"@de .
+<https://2023.dataweek.de/2023-06-27/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Ratsplenarsaal"@en .
 <https://2023.dataweek.de/2023-06-27/Ratsplenarsaal> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-27/Ratsplenarsaal> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-27\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 <https://2023.dataweek.de/2023-06-27/Sitzungssaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2023.dataweek.de/2023-06-27/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Dienstag"@de .
-<https://2023.dataweek.de/2023-06-27/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Tuesday"@en .
+<https://2023.dataweek.de/2023-06-27/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Sitzungssaal"@de .
+<https://2023.dataweek.de/2023-06-27/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Sitzungssaal"@en .
 <https://2023.dataweek.de/2023-06-27/Sitzungssaal> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-27/Sitzungssaal> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-27\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 <https://2023.dataweek.de/2023-06-28/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/2023-06-28/Ratsplenarsaal> .
 <https://2023.dataweek.de/2023-06-28/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/2023-06-28/Sitzungssaal> .
 <https://2023.dataweek.de/2023-06-28/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2023.dataweek.de/2023-06-28/> <http://www.w3.org/2000/01/rdf-schema#label> "Mittwoch"@de .
-<https://2023.dataweek.de/2023-06-28/> <http://www.w3.org/2000/01/rdf-schema#label> "Wednesday"@en .
+<https://2023.dataweek.de/2023-06-28/> <http://www.w3.org/2000/01/rdf-schema#label> "Sitzungssaal"@de .
+<https://2023.dataweek.de/2023-06-28/> <http://www.w3.org/2000/01/rdf-schema#label> "Sitzungssaal"@en .
 <https://2023.dataweek.de/2023-06-28/> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-28/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-28\"" .
 <https://2023.dataweek.de/2023-06-28/Ratsplenarsaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2023.dataweek.de/2023-06-28/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Mittwoch"@de .
-<https://2023.dataweek.de/2023-06-28/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Wednesday"@en .
+<https://2023.dataweek.de/2023-06-28/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Ratsplenarsaal"@de .
+<https://2023.dataweek.de/2023-06-28/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Ratsplenarsaal"@en .
 <https://2023.dataweek.de/2023-06-28/Ratsplenarsaal> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-28/Ratsplenarsaal> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-28\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 <https://2023.dataweek.de/2023-06-28/Sitzungssaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2023.dataweek.de/2023-06-28/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Mittwoch"@de .
-<https://2023.dataweek.de/2023-06-28/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Wednesday"@en .
+<https://2023.dataweek.de/2023-06-28/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Sitzungssaal"@de .
+<https://2023.dataweek.de/2023-06-28/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Sitzungssaal"@en .
 <https://2023.dataweek.de/2023-06-28/Sitzungssaal> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-28/Sitzungssaal> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-28\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 <https://2023.dataweek.de/2023-06-29/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/2023-06-29/Ratsplenarsaal> .
@@ -346,13 +346,13 @@
 <https://2023.dataweek.de/2023-06-29/> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-29/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-29\"" .
 <https://2023.dataweek.de/2023-06-29/Ratsplenarsaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2023.dataweek.de/2023-06-29/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Donnerstag"@de .
-<https://2023.dataweek.de/2023-06-29/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Thursday"@en .
+<https://2023.dataweek.de/2023-06-29/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Ratsplenarsaal"@de .
+<https://2023.dataweek.de/2023-06-29/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Ratsplenarsaal"@en .
 <https://2023.dataweek.de/2023-06-29/Ratsplenarsaal> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-29/Ratsplenarsaal> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-29\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 <https://2023.dataweek.de/2023-06-29/Sitzungssaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2023.dataweek.de/2023-06-29/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Donnerstag"@de .
-<https://2023.dataweek.de/2023-06-29/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Thursday"@en .
+<https://2023.dataweek.de/2023-06-29/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Sitzungssaal"@de .
+<https://2023.dataweek.de/2023-06-29/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Sitzungssaal"@en .
 <https://2023.dataweek.de/2023-06-29/Sitzungssaal> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-29/Sitzungssaal> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-29\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 <https://2023.dataweek.de/2023-06-30/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/2023-06-30/Ratsplenarsaal> .
@@ -363,13 +363,13 @@
 <https://2023.dataweek.de/2023-06-30/> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-30/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-30\"" .
 <https://2023.dataweek.de/2023-06-30/Ratsplenarsaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2023.dataweek.de/2023-06-30/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Freitag"@de .
-<https://2023.dataweek.de/2023-06-30/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Friday"@en .
+<https://2023.dataweek.de/2023-06-30/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Ratsplenarsaal"@de .
+<https://2023.dataweek.de/2023-06-30/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Ratsplenarsaal"@en .
 <https://2023.dataweek.de/2023-06-30/Ratsplenarsaal> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-30/Ratsplenarsaal> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-30\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 <https://2023.dataweek.de/2023-06-30/Sitzungssaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2023.dataweek.de/2023-06-30/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Freitag"@de .
-<https://2023.dataweek.de/2023-06-30/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Friday"@en .
+<https://2023.dataweek.de/2023-06-30/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Sitzungssaal"@de .
+<https://2023.dataweek.de/2023-06-30/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Sitzungssaal"@en .
 <https://2023.dataweek.de/2023-06-30/Sitzungssaal> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-30/Sitzungssaal> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-30\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 <https://2023.dataweek.de/> <http://purl.org/dc/terms/date> "26. - 30.6.2023"@de .
@@ -1737,6 +1737,8 @@
 <https://2023.dataweek.de/program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/2023-06-26/> .
 <https://2023.dataweek.de/program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/2023-06-27/> .
 <https://2023.dataweek.de/program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/2023-06-28/> .
+<https://2023.dataweek.de/program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2023.dataweek.de/2023-06-29/> .
+<https://2023.dataweek.de/program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2023.dataweek.de/2023-06-30/> .
 <https://2023.dataweek.de/program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2023.dataweek.de/program> <http://www.w3.org/2000/01/rdf-schema#label> "Program"@en .
 <https://2023.dataweek.de/program> <http://www.w3.org/2000/01/rdf-schema#label> "Programm"@de .
