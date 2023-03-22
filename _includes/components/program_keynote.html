@@ -1,0 +1,45 @@
+{% include strings.html %}
+{%- assign session = include.session -%}
+{%- assign description = session | rdf_property: "dct:description", site.language -%}
+{%- assign performer = session | rdf_property: "schema:performer" -%}
+{%- assign affiliation = performer | rdf_property: "schema:affiliation" -%}
+{%- assign bio = performer | rdf_property: "gnd:biographicalOrHistoricalInformation", site.language -%}
+{%- unless bio -%}
+{%- assign bio = performer | rdf_property: "gnd:biographicalOrHistoricalInformation" -%}
+{%- endunless -%}
+{%- assign title = session | rdf_property: "dct:title", site.language -%}
+
+
+{% capture performer_name %}{% include_cached components/label.html iri=performer %}{% endcapture %}
+{% capture affiliation_title %}{% include_cached components/label.html iri=affiliation %}{% endcapture %}
+
+<p>
+
+  <div class="session-details">
+    <h5 class="xl">
+      {{title}}
+    </h5>
+    <figure class="session-details-user">
+      <img class="js-load" data-src="{% relative_link resources/files/user.png %}" data-sizes="auto" width="1500" height="1500" style="max-width:1500px" alt="Foto von User"><noscript><img src="{% relative_link resources/files/user.png %}" alt="Foto von User"></noscript>
+    </figure>
+    {% if performer %}
+    <p>
+      <strong>{{performer_name}}</strong> ({{affiliation_title}})
+    </p>
+    {% endif %}
+    {% if bio %}
+    <h6>
+      Vita
+    </h6>
+    <p>
+      {{bio | markdownify | strip }}
+    </p>
+    {% endif %}
+  </div>
+  {% if description %}
+  <!-- h6>
+    Schwerpunkte
+  </h6 -->
+  {{ description | markdownify }}
+  {% endif %}
+</p>
