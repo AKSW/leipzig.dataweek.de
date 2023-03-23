@@ -1,9 +1,9 @@
 {% comment %}
-This component serializes multiple objects for two sp's to comma seperated 
+This component serializes multiple objects for two sp's to comma seperated
 string where the second sp will be serialized into brackets.
 The labels component will be used to build the strings.
 param:variant can be "", "literal", "date"
-param:format can be set with values for the date filter 
+param:format can be set with values for the date filter
 {% endcomment %}
 
 {% assign this_objects_string = "" %}
@@ -18,35 +18,35 @@ param:format can be set with values for the date filter
 
 {% if include.variant == "date" and include.format != Nil %}
   {% for this_object in this_objects %}
-    
+
     {% capture bracket %}
       {%- include components/list_inline.html sub=this_object pred="schema:affiliation" -%}
     {% endcapture %}
 
     {%- assign bracket = bracket | strip -%}
-    
+
     {% assign this_object = this_object | localize: format %}
-    
+
     {% if bracket != "" %}
       {%- assign this_object = this_object | append: " (" | append: bracket | append: ")" -%}
     {% endif %}
-    
+
     {% if forloop.first %}
       {% assign this_objects_string = this_object %}
     {% elsif forloop.last %}
       {% assign this_objects_string = this_object | prepend: conjunction | prepend:this_objects_string %}
-    {% else %} 
+    {% else %}
       {% assign this_objects_string = this_object | prepend: ", " | prepend: this_objects_string %}
     {% endif %}
 
   {% endfor %}
 {% elsif include.variant == "literal" %}
   {% for this_object in this_objects %}
-    
+
     {% capture bracket %}
       {%- include components/list_inline.html sub=this_object pred="schema:affiliation" -%}
     {% endcapture %}
-  
+
     {%- assign bracket = bracket | strip -%}
 
     {% if bracket != "" %}
@@ -55,19 +55,19 @@ param:format can be set with values for the date filter
 
     {% if forloop.first %}
       {% assign this_objects_string = this_object %}
-    {% elsif forloop.last %} 
+    {% elsif forloop.last %}
       {% assign this_objects_string = this_object | prepend: conjunction | prepend:this_objects_string %}
-    {% else %} 
+    {% else %}
       {% assign this_objects_string = this_object | prepend: ", " | prepend: this_objects_string %}
     {% endif %}
-  
+
   {% endfor %}
 {% elsif include.variant == Nil or include.variant == "" %}
   {% for this_object in this_objects %}
     {% capture this_object_name %}
       {% include_cached components/label.html iri=this_object %}
     {% endcapture %}
-    
+
     {% capture bracket %}
       {%- include components/list_inline.html sub=this_object pred="schema:affiliation" -%}
     {% endcapture %}
@@ -77,12 +77,12 @@ param:format can be set with values for the date filter
     {% if bracket != "" %}
       {%- assign this_object_name = this_object_name | append: " (" | append: bracket | append: ")" -%}
     {% endif %}
-    
+
     {% if forloop.first %}
       {% assign this_objects_string = this_object_name %}
-    {% elsif forloop.last %} 
+    {% elsif forloop.last %}
       {% assign this_objects_string = this_object_name | prepend: conjunction | prepend:this_objects_string %}
-    {% else %} 
+    {% else %}
       {% assign this_objects_string = this_object_name | prepend: ", " | prepend: this_objects_string %}
     {% endif %}
 
