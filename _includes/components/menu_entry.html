@@ -5,23 +5,23 @@
 {% assign submenu = include.submenu %}
 
 {% if resource %}
-{% unless link %}
-{% assign link = resource.render_path | relativize_url %}
-{% endunless %}
+  {% unless link %}
+    {% assign link = resource.render_path | relativize_url %}
+  {% endunless %}
 {% endif %}
 
 {% unless active %}
-{% if current %}
-{% if link == current %}
-{% assign active = true %}
-{% endif %}
-{% endif %}
+  {% if current %}
+    {% if link == current %}
+      {% assign active = true %}
+    {% endif %}
+  {% endif %}
 {% endunless %}
 
 {% assign navigation_type = "site:Navigation" | rdf_get %}
 {% unless submenu %}
   {% if resource %}
-  {% assign isNavigation = resource | sparql_query: "select ?entity { ?entity rdf:type site:Navigation . filter(?entity = ?resourceUri) }" %}
+    {% assign isNavigation = resource | sparql_query: "select ?entity { ?entity rdf:type site:Navigation . filter(?entity = ?resourceUri) }" %}
     {% if active and isNavigation.first %}
       {% assign sub_menu = resource | rdf_container %}
       {% if sub_menu.first %}
@@ -50,45 +50,62 @@
 {% assign label_flipped = include.label_flipped %}
 
 {% if resource %}
-{% unless link %}
-{% assign link = resource.render_path | relativize_url %}
-{% endunless %}
+  {% unless link %}
+    {% assign link = resource.render_path | relativize_url %}
+  {% endunless %}
 {% endif %}
 
 {% unless active %}
-{% if current %}
-{% if link == current %}
-{% assign active = true %}
-{% endif %}
-{% endif %}
+  {% if current %}
+    {% if link == current %}
+      {% assign active = true %}
+    {% endif %}
+  {% endif %}
 {% endunless %}
 
+{% assign active_exact = false %}
+{% if current %}
+  {% if link == current %}
+    {% assign active_exact = true %}
+  {% endif %}
+{% endif %}
+
 {% capture label_span_tag %}
-{% if label_span %}<span>{{ label_span }}</span>{% endif %}
+  {% if label_span %}<span>{{ label_span }}</span>{% endif %}
 {% endcapture %}
 {% capture label_i_tag %}
-{% if label_i %}<i>{{ label_i }}</i>{% endif %}
+  {% if label_i %}<i>{{ label_i }}</i>{% endif %}
 {% endcapture %}
 
 <li {% if active %}class="open"{% endif %}>
-  {% if active %}
+  {% if active_exact %}
     <strong aria-current="page">
       {% if label_flipped %}
-      {{label_i_tag}}
-      {{label_span_tag}}
+        {{label_i_tag}}
+        {{label_span_tag}}
       {% else %}
-      {{label_span_tag}}
-      {{label_i_tag}}
+        {{label_span_tag}}
+        {{label_i_tag}}
       {% endif %}
     </strong>
+  {% elsif active %}
+    <a href="{{ link }}" class="active">
+      {% if label_flipped %}
+        {{label_i_tag}}
+        {{label_span_tag}}
+      {% else %}
+        {{label_span_tag}}
+        {{label_i_tag}}
+      {% endif %}
+    </a>
   {% else %}
     <a href="{{ link }}">
       {% if label_flipped %}
-      {{label_i_tag}}
-      {{label_span_tag}}
+        {{label_i_tag}}
+        {{label_span_tag}}
       {% else %}
-      {{label_span_tag}}
-      {{label_i_tag}}
+        {{label_span_tag}}
+        {{label_i_tag}}
       {% endif %}
     </a>
   {% endif %}

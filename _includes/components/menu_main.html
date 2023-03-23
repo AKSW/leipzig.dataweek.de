@@ -32,12 +32,7 @@ select distinct ?entry {
 {% endcapture %}
 
 {% assign selected_res = rootResource | sparql_query: subMenuQuery %}
-{% for s in selected_res %}
-  {% assign selected = s.entry %}
-{% endfor %}
-
-{% assign current_super_page = selected.render_path | relativize_url %}
-{% assign current_page = page.rdf.render_path | relativize_url %}
+{% assign current_super_resource = selected_res.first.entry %}
 
 {% assign navigation_type = "site:Navigation" | rdf_get %}
 {% assign events_iri = "dw23:Events" | rdf_get %}
@@ -59,7 +54,11 @@ select distinct ?entry {
 <nav class="nav-main" aria-label="{{ str_main_menu }}">
   <ul>
     {% for entry in menu %}
-    {% include components/menu_main_entry.html current=current_super_page resource=entry submenu="" %}
+      {% assign active = false %}
+      {% if entry == current_super_resource %}
+        {% assign active = true %}
+      {% endif %}
+      {% include components/menu_main_entry.html active=active current=current_page resource=entry submenu="" %}
     {% endfor %}
   </ul>
 </nav>
@@ -67,7 +66,7 @@ select distinct ?entry {
 <div class="nav-mobil" id="navigation">
   {% include components/lang_switch.html mode="mobile" %}
   <nav class="nav-sitemap" aria-label="{{ str_mobile_menu }}">
-    <ul current="{{current_page}}" page="{{page.path}}" current_i="{{current_page_index}}">
+    <ul page="{{page.path}}" current_i="{{current_page_index}}">
       {% for entry in menu %}
         {% assign submenu = "" %}
         {% assign isNavigation = entry | sparql_query: "select ?entity { ?entity rdf:type site:Navigation . filter(?entity = ?resourceUri) }" %}
