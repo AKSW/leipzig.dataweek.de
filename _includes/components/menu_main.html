@@ -22,7 +22,7 @@ select distinct ?entry {
   } union {
     <{{menuResource.iri}}> ?cmprop_1st ?entry .
     ?entry ?cmprop_2nd ?sub_entry .
-    ?sub_entry ?cmprop_3nd <{{page.rdf}}> .
+    ?sub_entry ?cmprop_3rd <{{page.rdf}}> .
     bind(3 as ?level)
   }
   ?cmprop_1st a rdfs:ContainerMembershipProperty .
@@ -32,7 +32,10 @@ select distinct ?entry {
 {% endcapture %}
 
 {% assign selected_res = rootResource | sparql_query: subMenuQuery %}
-{% assign current_super_resource = selected_res.first.entry %}
+{% assign current_super_resource = nil %}
+{% if selected_res.first %}
+  {% assign current_super_resource = selected_res.first.entry %}
+{% endif %}
 
 {% assign navigation_type = "site:Navigation" | rdf_get %}
 {% assign events_iri = "dw23:Events" | rdf_get %}
