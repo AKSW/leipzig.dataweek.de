@@ -22,6 +22,8 @@ param:format can be set with values for the date filter
     {% capture bracket %}
       {%- include components/list_inline.html sub=this_object pred="schema:affiliation" -%}
     {% endcapture %}
+
+    {%- assign bracket = bracket | strip -%}
     
     {% assign this_object = this_object | localize: format %}
     
@@ -45,6 +47,8 @@ param:format can be set with values for the date filter
       {%- include components/list_inline.html sub=this_object pred="schema:affiliation" -%}
     {% endcapture %}
   
+    {%- assign bracket = bracket | strip -%}
+
     {% if bracket %}
       {%- assign this_object = this_object | append: " (" | append: bracket | append: ")" -%}
     {% endif %}
@@ -67,7 +71,9 @@ param:format can be set with values for the date filter
     {% capture bracket %}
       {%- include components/list_inline.html sub=this_object pred="schema:affiliation" -%}
     {% endcapture %}
-    
+
+    {%- assign bracket = bracket | strip -%}
+
     {% if bracket %}
       {%- assign this_object_name = this_object_name | append: " (" | append: bracket | append: ")" -%}
     {% endif %}
