@@ -1,7 +1,7 @@
 ---
 layout: basic
 ---
-{% include_cached strings.html %}
+{% include strings.html %}
 {% assign link = page.rdf | rdf_property: "dw:rel_link" %}
 {% assign location = page.rdf | rdf_property: "schema:location" %}
 {% assign date = page.rdf | rdf_property: "dct:date" %}
@@ -27,7 +27,7 @@ SELECT ?iri ?date ?location WHERE {
 {% assign roomdays = page.rdf | sparql_query: roomdays_query %}
 <div class="content-header">
 <h1>{{ str_program_header }}</h1>
-<nav class="nav-sub1" aria-label="Untermenü Stufe 1">
+<nav class="nav-sub1" aria-label="{{str_sub1_menu}}">
   <ul>
     {% for day in menudays %}
       {% assign weekday = day.date | localize: "%A"  %}
@@ -48,7 +48,7 @@ SELECT ?iri ?date ?location WHERE {
   </ul>
 </nav>
 </div>
-<nav class="nav-sub2" aria-label="Untermenü Stufe 2">
+<nav class="nav-sub2" aria-label="{{str_sub2_menu}}">
 <ul>
 {% for day in roomdays %}
   {% assign location_name = day.location | rdf_property: "dct:title" %}
