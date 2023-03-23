@@ -6,13 +6,7 @@ layout: basic
 {% assign baseEventResource = page.rdf | rdf_property: "dw:resourceUri" %}
 
 {% if baseEventResource == rootResource %}
-  {% assign programMenuResource = "dw23:program" | rdf_get %}
-  <div class="content-header">
-    <h1>
-      {{ str_events }}
-    </h1>
-  {% include components/menu_sub1.html menuResource=programMenuResource %}
-  </div>
+  {% include components/menu_program.html %}
 {% else %}
   {% include components/menu_events.html %}
 {% endif %}
@@ -53,9 +47,9 @@ WHERE {
 {% assign sessions = view.resource | sparql_query: sessions_query %}
 
 {% if baseEventResource == rootResource %}
-  {%- assign navigation = session | sparql_query: "select ?entity { ?entity a site:Navigation . filter(?entity = ?resourceUri) }" -%}
+  {%- assign navigation = page.rdf | sparql_query: "select ?entity { ?entity a site:Navigation . filter(?entity = ?resourceUri) }" -%}
   {%- unless navigation.first -%}
-  {%- assign navigation = session | sparql_query: "select ?entity { ?entity a site:Navigation ; ?cmp ?resourceUri . ?cmp a rdfs:ContainerMembershipProperty }" -%}
+    {%- assign navigation = page.rdf | sparql_query: "select ?entity { ?entity a site:Navigation ; ?cmp ?resourceUri . ?cmp a rdfs:ContainerMembershipProperty }" -%}
   {%- endunless -%}
   {%- assign menuResource = navigation.first.entity -%}
 {% else %}
