@@ -4316,7 +4316,7 @@ form.filter optgroup {
 @media only screen and (min-width: 980px) {
   .timetable-unit {
     padding-top: 1.75rem;
-    padding-left: 10rem;
+    padding-left: 8rem;
   }
   .timetable-unit > header h3 {
     color: #17214c;
@@ -4330,6 +4330,77 @@ p.meta {
 p.meta span {
   color: #dadbe2;
   font-weight: 400;
+}
+
+.timetable-floorplan {
+  border-radius: 1rem;
+}
+.timetable-floorplan table {
+  background: #fff;
+  position: relative;
+}
+.timetable-floorplan th, .timetable-floorplan td {
+  font-size: 0.75rem;
+  line-height: 1.3125rem;
+}
+.timetable-floorplan th h4, .timetable-floorplan td h4 {
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+}
+.timetable-floorplan th h4 .calendar, .timetable-floorplan td h4 .calendar {
+  float: right;
+}
+.timetable-floorplan th p.meta, .timetable-floorplan td p.meta {
+  font-size: 0.75rem;
+}
+.timetable-floorplan th p, .timetable-floorplan td p {
+  line-height: 1.09375rem;
+  margin: 0;
+}
+.timetable-floorplan thead th {
+  color: #17214c;
+  font-size: 1.125rem;
+}
+.timetable-floorplan .headline th {
+  border-bottom: 0;
+  padding-bottom: .125rem;
+}
+.timetable-floorplan .headline th h3 {
+  color: #3da6dc;
+  font-size: 1.125rem;
+  margin: 0;
+  padding: 0;
+}
+.timetable-floorplan tr.headline + tr td {
+  padding-top: 0.21875rem;
+}
+.timetable-floorplan .break th {
+  background: bottom left -webkit-repeating-linear-gradient(135deg, #e8f7fd, #e8f7fd 5px, #d7eefa 5px, #d7eefa 10px);
+  background: bottom left repeating-linear-gradient(-45deg, #e8f7fd, #e8f7fd 5px, #d7eefa 5px, #d7eefa 10px);
+}
+.timetable-floorplan .break th > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.timetable-floorplan .break th div.floorplan-break-session {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: .5rem;
+  margin-left: auto;
+  padding: 0.875rem;
+}
+.timetable-floorplan tbody tr td:not(:last-child) {
+  position: relative;
+}
+.timetable-floorplan tbody tr td:not(:last-child)::after {
+  background: #e8f7fd;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0.875rem;
+  width: .125rem;
 }
 
 .card-list .card {
