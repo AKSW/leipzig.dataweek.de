@@ -1,4 +1,55 @@
 ---
 layout: basic
 ---
+{% assign rootResource = site.rootResource | rdf_get %}
 {% include components/menu_program.html %}
+
+{% capture dayQuery %}
+  SELECT DISTINCT ?day
+  WHERE {
+    ?resourceUri ?cmprop ?day .
+    ?day dct:date ?date .
+    ?cmprop a rdfs:ContainerMembershipProperty .
+  }
+  GROUP BY ?day
+{% endcapture %}
+
+
+{% capture subEventQuery %}
+  SELECT DISTINCT ?subEvent (MIN(?sortDates) as ?sortDate)
+  WHERE {
+    ?resourceUri dct:date ?date .
+    <{{rootResource}}> schema:subEvent ?subEvent .
+    ?subEvent dct:date ?date , ?sortDates .
+  }
+  GROUP BY ?subEvent
+  ORDER BY ?sortDate
+{% endcapture %}
+
+{% assign days = page.rdf | sparql_query: dayQuery %}
+
+<div class="card-list">
+  <ul>
+  {% for row in days %}
+    {% assign description = row.day | rdf_property: "dct:description", site.language %}
+    {% assign events = row.day | sparql_query: subEventQuery %}
+    <li>
+      <div class="card">
+        <h2>
+          <a href="{{ row.day.page_url | relativize_url }}">
+            <span class="xl hideunderline">{{ row.day | rdf_property: "rdfs:label", site.language }}</span>
+          </a>
+        </h2>
+        <p class="dates">
+          {% for events_row in events %}
+          <time ev="{{event.iri}}">
+            <strong class="highlighted x1">{{ events_row.subEvent | rdf_property: "dw:slug" }}</strong><br/>
+          </time>
+          {% endfor %}
+        </p>
+        {% if description %}<p class="justify"><small>{{ description }}</small></p>{% endif %}
+      </div>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
