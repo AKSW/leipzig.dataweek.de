@@ -2285,8 +2285,13 @@
 <https://dataweek.de/#JakobFreese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JakobFreese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JakobFreese> <http://xmlns.com/foaf/0.1/name> "Jakob Freese" .
+<https://dataweek.de/#JanEwald> <http://purl.org/dc/terms/description> "ScaDS.AI Dresden/Leipzig, Service and Transfer Center, Bioinformatics, Dynamical Systems, Machine Learning"@en .
+<https://dataweek.de/#JanEwald> <http://purl.org/dc/terms/description> "ScaDS.AI Dresden/Leipzig, Service- und Transferzentrum, Bioinformatik, Dynamische Systeme, Maschinelles Lernen"@de .
+<https://dataweek.de/#JanEwald> <http://schema.org/affiliation> <https://scads.ai/> .
 <https://dataweek.de/#JanEwald> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JanEwald> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JanEwald> <http://xmlns.com/foaf/0.1/homepage> <https://scads.ai/scads-ai-team/> .
+<https://dataweek.de/#JanEwald> <http://xmlns.com/foaf/0.1/name> "Dr. Jan Ewald" .
 <https://dataweek.de/#JanReichert> <http://purl.org/dc/terms/description> "Projektmanager"@de .
 <https://dataweek.de/#JanReichert> <http://purl.org/dc/terms/description> "project manager"@en .
 <https://dataweek.de/#JanReichert> <http://schema.org/affiliation> <https://www.acod.de/ueber-uns> .
@@ -2946,6 +2951,7 @@
 <https://scads.ai/> <http://www.w3.org/2000/01/rdf-schema#label> "ScaDS.AI (Center for Scalable Data Analytics and Artificial Intelligence) Dresden/Leipzig"@en .
 <https://scads.ai/> <http://xmlns.com/foaf/0.1/homepage> <https://scads.ai/> .
 <https://scads.ai/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/Scads_AI_Logo.svg" .
+<https://scads.ai/scads-ai-team/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://senec.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://senec.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://senec.com/> <http://www.w3.org/2000/01/rdf-schema#label> "SENEC GmbH"@de .
