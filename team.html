@@ -4,35 +4,6 @@ layout: basic
 {% assign rootResource = site.rootResource | rdf_get %}
 {% assign teams = rootResource | rdf_property: "schema:organizer", nil, true %}
 {% include strings.html %}
-{% capture affiliations_query %}
-SELECT distinct ?affiliation
-WHERE {
-  <{{ rootResource }}> schema:organizer ?team .
-  ?team ?p ?person .
-
-  ?person foaf:name ?person_name .
-
-  OPTIONAL {
-      Select distinct ?person ?affiliation where {
-      {
-          ?person a schema:Person ;
-            schema:affiliation ?affiliation .
-          optional {
-            FILTER(langMatches(lang(?l), "en"))
-          }
-      } union
-      {
-          ?person a schema:Person ;
-            schema:memberOf ?affiliation .
-          optional {
-            FILTER(langMatches(lang(?l), "en"))
-          }
-      } }
-  }
-  Filter ( ?affiliation != <https://connectedurbantwins.de/> && ?affiliation !=  <http://aksw.org/Group>  )
-}
-order by ?person_name
-{% endcapture %}
 
 {% capture persons_query %}
 SELECT distinct ?person ?role_name
@@ -55,30 +26,6 @@ WHERE {
 order by ?person_name
 {% endcapture %}
 
-<div class="contact">
-  <ul class="logos">
-    {% assign affiliations = rootResource | sparql_query: affiliations_query %}
-    {% for affiliation in affiliations %}
-      {% assign depiction = affiliation.affiliation | rdf_property: "site:small_logo" %}
-      {% unless depiction %}
-        {% assign depiction = affiliation.affiliation | rdf_property: "foaf:logo" %}
-      {% endunless %}
-      {% assign affiliation_label = affiliation.affiliation | rdf_property: "rdfs:label" %}
-      <li>
-        {% if depiction %}
-            <a href="{{ affiliation.affiliation }}">
-              {% assign affiliation_label = str_alt_named | append: " " | append: affiliation_label  %}
-              {% include components/img.html alt=affiliation_label resource=depiction simple=true %}
-            </a>
-        {% else %}
-          <p>
-            {{ affiliation_label }}
-          </p>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-</div>
 {% assign persons = rootResource | sparql_query: persons_query %}
 <div class="content-header">
   <h1>

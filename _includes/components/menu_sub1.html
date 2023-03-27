@@ -1,5 +1,5 @@
 {% assign menuResource = include.menuResource %}
-{% include_cached strings.html %}
+{% include strings.html %}
 
 {% capture subMenuQuery %}
 select distinct ?entry {
@@ -18,13 +18,17 @@ select distinct ?entry {
 {% endcapture %}
 
 {% assign selected_res = menuResource | sparql_query: subMenuQuery %}
-{% assign selected = selected_res.first.entry %}
-{% assign current_super_page = selected.render_path | relativize_url %}
+{% assign current_super_resource = selected_res.first.entry %}
+{% assign current_page = page.rdf.render_path | relativize_url %}
 {% assign menu = menuResource | rdf_container %}
 
 <nav class="nav-sub1" aria-label="{{ str_sub1_menu }}">
   <ul>
     {% for entry in menu %}
+      {% assign active = false %}
+      {% if entry == current_super_resource %}
+        {% assign active = true %}
+      {% endif %}
       {% assign label = nil %}
       {% assign submenu = nil %}
       {% if entry == menuResource %}
@@ -32,7 +36,7 @@ select distinct ?entry {
         {% assign submenu = "" %}
       {% endif %}
 
-      {% include components/menu_sub_entry.html current=current_super_page resource=entry label=label submenu=submenu %}
+      {% include components/menu_sub_entry.html active=active current=current_page resource=entry label=label submenu=submenu %}
     {% endfor %}
   </ul>
 </nav>

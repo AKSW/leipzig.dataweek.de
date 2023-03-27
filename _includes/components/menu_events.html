@@ -1,5 +1,5 @@
 {% assign rootResource = site.rootResource | rdf_get %}
-{% include_cached strings.html %}
+{% include strings.html %}
 {% capture eventsQuery %}
   SELECT DISTINCT ?e (MIN(?dates) as ?date)
   WHERE {
@@ -30,23 +30,25 @@ select distinct ?entry {
 {% endcapture %}
 
 {% assign selected_res = menuResource | sparql_query: subMenuQuery %}
-{% assign selected = selected_res.first.entry %}
-{% assign current_super_page = selected.render_path | relativize_url %}
-{% assign menu = menuResource | rdf_container %}
-
+{% assign current_super_resource = selected_res.first.entry %}
 {% assign current_page = page.rdf.render_path | relativize_url %}
+{% assign menu = menuResource | rdf_container %}
 
 <div class="content-header">
   <h1>
     {{ str_events }}
   </h1>
-  <nav class="nav-sub1" aria-label="Untermenü Stufe 1">
+  <nav class="nav-sub1" aria-label="{{str_sub1_menu}}">
     <ul>
     {% for row in events %}
       {% assign entry = row.e %}
+      {% assign active = false %}
+      {% if entry == current_super_resource %}
+        {% assign active = true %}
+      {% endif %}
       {% capture weekday_string %}{% include components/list_inline.html sub=entry pred="dct:date" variant="date" format="%a" %}{% endcapture %}
       {% assign slug = entry | rdf_property: "dw:slug" %}
-      {% include components/menu_sub_entry.html current=current_super_page resource=entry label=slug label_sub=weekday_string label_flipped=true %}
+      {% include components/menu_sub_entry.html active=active current=current_page resource=entry label=slug label_sub=weekday_string label_flipped=true %}
     {% endfor %}
     </ul>
   </nav>
