@@ -61,7 +61,7 @@ layout: basic
 <div class="news-list">
   <ul>
     {% assign all_news = rootResource | rdf_property: "<https://dataweek.de/#news>", nil, true %}
-    {% for news in all_news %}
+    {% for news in all_news reversed %}
       <li class="news-item">
         <h2>
           {{ news | rdf_property: "dct:title", site.language }}<br>
