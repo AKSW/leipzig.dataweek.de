@@ -1,0 +1,33 @@
+{% assign view = include.view %}
+
+{% capture sessions_query %}
+SELECT DISTINCT ?session
+WHERE {
+  {
+    ?resourceUri schema:subEvent ?session .
+  } union {
+    ?resourceUri schema:subEvent ?subEvent .
+    ?subEvent schema:subEvent ?session .
+  }
+  ?session schema:startTime ?start .
+  {
+    ?session schema:location ?location ;
+      dct:date ?date .
+    filter ({{ view.filter }})
+  } union {
+    ?session site:track dw:pause ;
+      dct:date ?date .
+    filter ({{ view.filter }})
+  }
+} ORDER BY ?start
+{% endcapture %}
+
+{% assign sessions = view.resource | sparql_query: sessions_query %}
+
+{%- if sessions.first -%}
+  {%- for session_row in sessions -%}
+    {%- include components/program_unit.html session=session_row.session -%}
+  {%- endfor -%}
+{%- else -%}
+  {%- assign program_empty = true -%}
+{%- endif -%}
