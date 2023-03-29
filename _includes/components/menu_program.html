@@ -10,7 +10,7 @@
   {% comment %}
     In this case we utilize a sideeffect of the include which sets the variable current_super_resource to the currently selected day.
   {% endcomment %}
-  {% assign description = current_super_resource | rdf_property: "dct:description" %}
+  {% assign description = current_super_resource | rdf_property: "dct:description", site.language %}
   {% if description %}
     <p>
       {{description}}
