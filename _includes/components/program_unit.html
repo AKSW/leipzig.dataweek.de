@@ -30,9 +30,9 @@
       <time datetime="{{ start }}">{{ start }}</time> - <time datetime="{{ end }}">{{ end }}</time> <span>|</span> {{ location_title }}
     </p>
     {%- if isKeynote.first -%}
-    {% include components/program_keynote.html session=include.session %}
+      {% include components/program_keynote.html session=include.session %}
     {%- else -%}
-    {% include_cached components/program_session.html session=include.session %}
+      {% include_cached components/program_session.html session=include.session %}
     {%- endif -%}
     {% unless track == pause %}
     <!--p class="calendar">

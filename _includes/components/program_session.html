@@ -17,13 +17,13 @@
     {% include components/list_inline_pair.html sub=session pred="schema:performer" %}
   {% endunless %}
   {% if description %}
-  <br />{{ description | markdownify }}
+    <br />{{ description | markdownify }}
   {% endif %}
 </p>
 {% if talks.first %}
-<ul>
-{% for talk_row in talks %}
-  {% include components/program_talk_l2.html talk=talk_row.talk %}
-{% endfor %}
-</ul>
+  <ul>
+  {% for talk_row in talks %}
+    {% include components/program_talk_l2.html talk=talk_row.talk %}
+  {% endfor %}
+  </ul>
 {%- endif -%}
