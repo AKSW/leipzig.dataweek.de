@@ -309,6 +309,7 @@
 <https://2023.dataweek.de/2023-06-26/> <https://dataweek.de/#menuHomeLabel> "alle"@de .
 <https://2023.dataweek.de/2023-06-26/> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-26/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-26\"" .
+<https://2023.dataweek.de/2023-06-26/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Table> .
 <https://2023.dataweek.de/2023-06-26/Festsaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2023.dataweek.de/2023-06-26/Festsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Festsaal"@de .
 <https://2023.dataweek.de/2023-06-26/Festsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Festsaal"@en .
@@ -351,6 +352,7 @@
 <https://2023.dataweek.de/2023-06-27/> <https://dataweek.de/#menuHomeLabel> "alle"@de .
 <https://2023.dataweek.de/2023-06-27/> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-27/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-27\"" .
+<https://2023.dataweek.de/2023-06-27/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Table> .
 <https://2023.dataweek.de/2023-06-27/Festsaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2023.dataweek.de/2023-06-27/Festsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Festsaal"@de .
 <https://2023.dataweek.de/2023-06-27/Festsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Festsaal"@en .
@@ -393,6 +395,7 @@
 <https://2023.dataweek.de/2023-06-28/> <https://dataweek.de/#menuHomeLabel> "alle"@de .
 <https://2023.dataweek.de/2023-06-28/> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-28/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-28\"" .
+<https://2023.dataweek.de/2023-06-28/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Table> .
 <https://2023.dataweek.de/2023-06-28/Festsaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2023.dataweek.de/2023-06-28/Festsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Festsaal"@de .
 <https://2023.dataweek.de/2023-06-28/Festsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Festsaal"@en .
@@ -435,6 +438,7 @@
 <https://2023.dataweek.de/2023-06-29/> <https://dataweek.de/#menuHomeLabel> "alle"@de .
 <https://2023.dataweek.de/2023-06-29/> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-29/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-29\"" .
+<https://2023.dataweek.de/2023-06-29/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Table> .
 <https://2023.dataweek.de/2023-06-29/Festsaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2023.dataweek.de/2023-06-29/Festsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Festsaal"@de .
 <https://2023.dataweek.de/2023-06-29/Festsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Festsaal"@en .
@@ -477,6 +481,7 @@
 <https://2023.dataweek.de/2023-06-30/> <https://dataweek.de/#menuHomeLabel> "alle"@de .
 <https://2023.dataweek.de/2023-06-30/> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-30/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-30\"" .
+<https://2023.dataweek.de/2023-06-30/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Table> .
 <https://2023.dataweek.de/2023-06-30/Festsaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2023.dataweek.de/2023-06-30/Festsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Festsaal"@de .
 <https://2023.dataweek.de/2023-06-30/Festsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Festsaal"@en .
@@ -2736,20 +2741,39 @@
 <https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://dataweek.de/#KatrinMehler> .
 <https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://dataweek.de/#MirkoMuehlpfort> .
 <https://dataweek.de/venue#Festsaal> <http://purl.org/dc/terms/title> "Festsaal " .
+<https://dataweek.de/venue#Festsaal> <http://purl.org/dc/terms/title> "Festsaal "@de .
+<https://dataweek.de/venue#Festsaal> <http://purl.org/dc/terms/title> "Festsaal "@en .
+<https://dataweek.de/venue#Festsaal> <https://dataweek.de/#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/description> "ScaDS.AI  Büro Leipzig<br/>\nLöhrs Carré<br/>\nHumboldtstraße 25,<br/>\n3. Obergeschoss<br/>\n04105 Leipzig"@de .
 <https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/description> "ScaDS.AI Leipzig Office<br/>\nLöhrs Carré<br/>\nHumboldtstraße 25<br/>\n3rd floor<br/>\n04105 Leipzig"@en .
 <https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/title> "Living Lab" .
+<https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/title> "Living Lab"@de .
+<https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/title> "Living Lab"@en .
 <https://dataweek.de/venue#Ratsplenarsaal> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@de .
 <https://dataweek.de/venue#Ratsplenarsaal> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@en .
 <https://dataweek.de/venue#Ratsplenarsaal> <http://purl.org/dc/terms/title> "Ratsplenarsaal" .
-<https://dataweek.de/venue#Room259> <http://purl.org/dc/terms/title> "Room259" .
-<https://dataweek.de/venue#Room260> <http://purl.org/dc/terms/title> "Room260" .
+<https://dataweek.de/venue#Ratsplenarsaal> <http://purl.org/dc/terms/title> "Ratsplenarsaal"@de .
+<https://dataweek.de/venue#Ratsplenarsaal> <http://purl.org/dc/terms/title> "Ratsplenarsaal"@en .
+<https://dataweek.de/venue#Ratsplenarsaal> <https://dataweek.de/#order> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://dataweek.de/venue#Room259> <http://purl.org/dc/terms/title> "Raum 259"@de .
+<https://dataweek.de/venue#Room259> <http://purl.org/dc/terms/title> "Room 259" .
+<https://dataweek.de/venue#Room259> <http://purl.org/dc/terms/title> "Room 259"@en .
+<https://dataweek.de/venue#Room259> <https://dataweek.de/#order> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://dataweek.de/venue#Room260> <http://purl.org/dc/terms/title> "Raum 260"@de .
+<https://dataweek.de/venue#Room260> <http://purl.org/dc/terms/title> "Room 260" .
+<https://dataweek.de/venue#Room260> <http://purl.org/dc/terms/title> "Room 260"@en .
+<https://dataweek.de/venue#Room260> <https://dataweek.de/#order> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://dataweek.de/venue#Sitzungssaal> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@de .
 <https://dataweek.de/venue#Sitzungssaal> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@en .
 <https://dataweek.de/venue#Sitzungssaal> <http://purl.org/dc/terms/title> "Sitzungssaal" .
+<https://dataweek.de/venue#Sitzungssaal> <http://purl.org/dc/terms/title> "Sitzungssaal"@de .
+<https://dataweek.de/venue#Sitzungssaal> <http://purl.org/dc/terms/title> "Sitzungssaal"@en .
+<https://dataweek.de/venue#Sitzungssaal> <https://dataweek.de/#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://dataweek.de/venue#Wandelhalle> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@de .
 <https://dataweek.de/venue#Wandelhalle> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@en .
 <https://dataweek.de/venue#Wandelhalle> <http://purl.org/dc/terms/title> "Wandelhalle" .
+<https://dataweek.de/venue#Wandelhalle> <http://purl.org/dc/terms/title> "Wandelhalle"@de .
+<https://dataweek.de/venue#Wandelhalle> <http://purl.org/dc/terms/title> "Wandelhalle"@en .
 <https://dbpedia.org/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/resources/images/partner/DBpediaLogo.svg" .
 <https://dbpedia.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://dbpedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Association" .
