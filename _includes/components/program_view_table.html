@@ -2,7 +2,7 @@
 {%- assign pause = "dw:pause" | rdf_get -%}
 
 {% capture locations_query %}
-SELECT DISTINCT ?location
+SELECT DISTINCT ?location ?order
 WHERE {
   {
     ?resourceUri schema:subEvent ?session .
@@ -10,17 +10,11 @@ WHERE {
     ?resourceUri schema:subEvent ?subEvent .
     ?subEvent schema:subEvent ?session .
   }
-  ?session schema:startTime ?start .
-  {
-    ?session schema:location ?location ;
-      dct:date ?date .
-    filter ({{ view.filter }})
-  } union {
-    ?session site:track dw:pause ;
-      dct:date ?date .
-    filter ({{ view.filter }})
-  }
-} ORDER BY ?start
+  ?session schema:location ?location ;
+    dct:date ?date .
+  ?location dw:order ?order .
+  filter ({{ view.filter }})
+} ORDER BY ?order
 {% endcapture %}
 
 {% capture sessions_query %}
@@ -36,13 +30,14 @@ WHERE {
   {
     ?session schema:location ?location ;
       dct:date ?date .
+    ?location dw:order ?order .
     filter ({{ view.filter }})
   } union {
     ?session site:track dw:pause ;
       dct:date ?date .
     filter ({{ view.filter }})
   }
-} ORDER BY ?start
+} ORDER BY ?start ?order
 {% endcapture %}
 
 {% assign sessions = view.resource | sparql_query: sessions_query %}
@@ -73,7 +68,7 @@ WHERE {
           {%- for location_row in locations -%}
             {%- assign num_locations = num_locations | plus: 1 -%}
             <th scope="col" id="room1"><!-- TODO set id correctly -->
-              {{ location_row.location }} <!-- TODO get label -->
+              {{ location_row.location | rdf_property: "dct:title", site.language }}
             </th>
           {%- endfor -%}
         </tr>
