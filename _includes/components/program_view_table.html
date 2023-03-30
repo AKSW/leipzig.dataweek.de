@@ -66,7 +66,7 @@ WHERE {
         <tr>
           {%- for location_row in locations -%}
             {%- assign num_locations = forloop.length -%}
-            <th scope="col" id="room1"><!-- TODO set id correctly -->
+            <th scope="col" id="room1" style="width: {{ 100 | divided_by: forloop.length }}%"><!-- TODO set id correctly -->
               {{ location_row.location | rdf_property: "dct:title", site.language }}
             </th>
           {%- endfor -%}
@@ -100,9 +100,8 @@ WHERE {
               {% assign column_counter = 1 %}
             {%- endunless -%}
             {%- unless column_counter == location_order -%}
-              <td colspan="{{ location_order | minus: column_counter }}">span: {{ location_order | minus: column_counter }}, location_order: {{location_order}}, column_counter: {{column_counter}}</td>
+              <td colspan="{{ location_order | minus: column_counter }}"></td>
               {% assign column_counter = location_order %}
-
             {%- endunless -%}
             {%- include components/program_view_table_unit.html session=session -%}
             {% assign column_counter = column_counter | plus: 1 %}
