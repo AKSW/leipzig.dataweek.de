@@ -102,11 +102,18 @@ tasks:
   data:sync:
     desc: Synchronize the data in the CI
     cmds:
+      - task: data:model-update
+      - task: data:get-graph
+
+  data:sync:local:
+    desc: Synchronize the data including local changes in a dev setup
+    deps:
+      - data:model-init
+    cmds:
+      - cd .model && task sync:local
       - task: data:get-graph
 
   data:get-graph:
-    deps:
-      - data:model-update
     cmds:
       - cp {{.MODEL_DIR}}/{{.GRAPH_FILE}}.nt {{.GRAPH_FILE}}.nt
       - cp {{.MODEL_DIR}}/{{.GRAPH_FILE}}.nt.graph {{.GRAPH_FILE}}.nt.graph
