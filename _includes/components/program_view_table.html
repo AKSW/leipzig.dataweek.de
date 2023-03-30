@@ -74,11 +74,13 @@ WHERE {
       </thead>
       <tbody>
         {% assign last_start = false %}
+        {% assign column_counter = 1 %}
         {%- for session_row in sessions -%}
           {%- assign session = session_row.session -%}
           {%- assign track = session | rdf_property: "site:track" -%}
           {%- assign start = session | rdf_property: "schema:startTime" -%}
           {%- assign end = session | rdf_property: "schema:endTime" -%}
+          {%- assign location_order = session | rdf_property: "schema:location" | rdf_property: "dw:order" | plus: 0 -%}
 
           {%- if track == pause -%}
             {%- include components/program_view_table_break.html session=session -%}
@@ -87,8 +89,6 @@ WHERE {
               {%- unless forloop.first -%}
                 <tr>
               {%- endunless -%}
-            {%- endunless -%}
-            {%- unless last_start == start -%}
               <tr class="headline">
                 <th colspan="{{num_locations}}" id="period1">
                   <h3>
@@ -97,8 +97,16 @@ WHERE {
                 </th>
               </tr>
               <tr>
+              {% assign column_counter = 1 %}
+            {%- endunless -%}
+            {%- unless column_counter == location_order -%}
+              <td colspan="{{ location_order | minus: column_counter }}">span: {{ location_order | minus: column_counter }}, location_order: {{location_order}}, column_counter: {{column_counter}}</td>
+              {% assign column_counter = location_order %}
+
             {%- endunless -%}
             {%- include components/program_view_table_unit.html session=session -%}
+            {% assign column_counter = column_counter | plus: 1 %}
+
           {%- endif -%}
           {%- assign last_start = start -%}
           {%- if forloop.last -%}

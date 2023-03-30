@@ -1,7 +1,7 @@
 {%- assign session = include.session -%}
-{%- assign track = session | rdf_property: "site:track" -%}
 {%- assign start = session | rdf_property: "schema:startTime" -%}
 {%- assign end = session | rdf_property: "schema:endTime" -%}
+{%- assign location = session | rdf_property: "schema:location" -%}
 {%- assign title = session | rdf_property: "dct:title", site.language -%}
 {%- assign description = session | rdf_property: "dct:description", site.language -%}
 
@@ -15,7 +15,7 @@
     {{ title }}
   </h4>
   <p class="meta">
-    <time datetime="{{start}}">{{start | date: "%H:%M"}}</time> - <time datetime="{{end}}">{{end | date: "%H:%M"}}</time> <span>|</span> Event
+    <time datetime="{{start}}">{{start | date: "%H:%M"}}</time> - <time datetime="{{end}}">{{end | date: "%H:%M"}}</time> <span>|</span> Event <span>|</span> {{ location | rdf_property: "dct:title", site.language }}
   </p>
   <p>
     {{ description | markdownify }}
