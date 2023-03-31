@@ -1,0 +1,23 @@
+{%- assign session = include.session -%}
+{%- assign start = session | rdf_property: "schema:startTime" -%}
+{%- assign end = session | rdf_property: "schema:endTime" -%}
+{%- assign location = session | rdf_property: "schema:location" -%}
+{%- assign title = session | rdf_property: "dct:title", site.language -%}
+{%- assign description = session | rdf_property: "dct:description", site.language -%}
+
+<td headers="room1 period1">
+  <h4>
+    <!--a class="calendar" href="programm_montag.html#" title="Veranstaltung als Kalender-Datei speichern">
+      <svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
+        <use xlink:href="images/icons.svg#calendar-add"></use>
+      </svg>
+    </a-->
+    {{ title }}
+  </h4>
+  <p class="meta">
+    <time datetime="{{start}}">{{start | date: "%H:%M"}}</time> - <time datetime="{{end}}">{{end | date: "%H:%M"}}</time> <span>|</span> Event <span>|</span> {{ location | rdf_property: "dct:title", site.language }}
+  </p>
+  <p>
+    {{ description | markdownify }}
+  </p>
+</td>

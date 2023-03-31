@@ -1,0 +1,133 @@
+{% assign view = include.view %}
+{%- assign pause = "dw:pause" | rdf_get -%}
+
+{% assign check_view = page.rdf | rdf_property: "rdf:type" %}
+
+{% capture all_locations_query %}
+SELECT DISTINCT ?location ?order
+WHERE {
+  ?roomResource schema:location ?location .
+  ?location dw:order ?order .
+} ORDER BY ?order
+{% endcapture %}
+
+{% capture locations_query %}
+SELECT DISTINCT ?location ?order
+WHERE {
+  {
+    ?resourceUri ?p ?session .
+  } union {
+    ?resourceUri schema:subEvent ?subEvent .
+    ?subEvent schema:subEvent ?session .
+  }
+  ?session schema:location ?location ;
+    dct:date ?date .
+  ?location dw:order ?order .
+  filter ({{ view.filter }})
+} ORDER BY ?order
+{% endcapture %}
+
+{% capture sessions_query %}
+SELECT DISTINCT ?session
+WHERE {
+  {
+    ?resourceUri schema:subEvent ?session .
+  } union {
+    ?resourceUri schema:subEvent ?subEvent .
+    ?subEvent schema:subEvent ?session .
+  }
+  ?session schema:startTime ?start .
+  {
+    ?session schema:location ?location ;
+      dct:date ?date .
+    ?location dw:order ?order .
+    filter ({{ view.filter }})
+  } union {
+    ?session site:track dw:pause ;
+      dct:date ?date .
+    filter ({{ view.filter }})
+  }
+} ORDER BY ?start ?order
+{% endcapture %}
+
+{% assign sessions = view.resource | sparql_query: sessions_query %}
+{% assign locations = view.resource | sparql_query: all_locations_query %}
+
+<section class="timetable">
+  <header>
+    <h2>
+      Überschrift zum ausgewählten Tag <span>26.6.2023</span>
+    </h2>
+    <p class="calendar">
+      <a href="programm_montag.html#">Tag als Kalender abonnieren <svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
+      <use xlink:href="images/icons.svg#calendar-add"></use></svg></a>
+    </p>
+  </header>
+
+{%- if sessions.first -%}
+  <div class="ce-table timetable-floorplan" role="region" aria-labelledby="ce-table-caption-0" tabindex="0">
+    <table>
+      <caption id="ce-table-caption-0" class="hideme">
+        Tagesübersicht
+      </caption>
+      <thead>
+        <tr>
+          {%- for location_row in locations -%}
+            {%- assign num_locations = forloop.length -%}
+            <th scope="col" id="room1" style="width: {{ 100 | divided_by: forloop.length }}%"><!-- TODO set id correctly -->
+              {{ location_row.location | rdf_property: "dct:title", site.language }}
+            </th>
+          {%- endfor -%}
+        </tr>
+      </thead>
+      <tbody>
+        {% assign last_start = false %}
+        {% assign column_counter = 1 %}
+        {%- for session_row in sessions -%}
+          {%- assign session = session_row.session -%}
+          {%- assign track = session | rdf_property: "site:track" -%}
+          {%- assign start = session | rdf_property: "schema:startTime" -%}
+          {%- assign end = session | rdf_property: "schema:endTime" -%}
+          {%- assign location_order = session | rdf_property: "schema:location" | rdf_property: "dw:order" | plus: 0 -%}
+
+          {%- if track == pause -%}
+            {%- include components/program_view_table_break.html session=session -%}
+          {%- else -%}
+            {%- unless last_start == start -%}
+              {%- unless forloop.first -%}
+                <tr>
+              {%- endunless -%}
+              <tr class="headline">
+                <th colspan="{{num_locations}}" id="period1">
+                  <h3>
+                    <time datetime="{{start}}">{{start | date: "%H:%M"}}</time>
+                  </h3>
+                </th>
+              </tr>
+              <tr>
+              {% assign column_counter = 1 %}
+            {%- endunless -%}
+            {%- unless column_counter == location_order -%}
+              <td colspan="{{ location_order | minus: column_counter }}"></td>
+              {% assign column_counter = location_order %}
+            {%- endunless -%}
+            {%- assign location_check = session | rdf_property: "schema:location" -%}
+            {% if location_check %}
+            {% endif %}
+            {%- include components/program_view_table_unit.html session=session -%}
+            {% assign column_counter = column_counter | plus: 1 %}
+
+          {%- endif -%}
+          {%- assign last_start = start -%}
+          {%- if forloop.last -%}
+            <tr>
+          {%- endif -%}
+        {%- endfor -%}
+      </tbody>
+    </table>
+  </div>
+{%- else -%}
+  {%- assign program_empty = true -%}
+{%- endif -%}
+
+</section>
