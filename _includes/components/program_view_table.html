@@ -1,11 +1,21 @@
 {% assign view = include.view %}
 {%- assign pause = "dw:pause" | rdf_get -%}
 
+{% assign check_view = page.rdf | rdf_property: "rdf:type" %}
+
+{% capture all_locations_query %}
+SELECT DISTINCT ?location ?order
+WHERE {
+  ?roomResource schema:location ?location .
+  ?location dw:order ?order .
+} ORDER BY ?order
+{% endcapture %}
+
 {% capture locations_query %}
 SELECT DISTINCT ?location ?order
 WHERE {
   {
-    ?resourceUri schema:subEvent ?session .
+    ?resourceUri ?p ?session .
   } union {
     ?resourceUri schema:subEvent ?subEvent .
     ?subEvent schema:subEvent ?session .
@@ -41,7 +51,7 @@ WHERE {
 {% endcapture %}
 
 {% assign sessions = view.resource | sparql_query: sessions_query %}
-{% assign locations = view.resource | sparql_query: locations_query %}
+{% assign locations = view.resource | sparql_query: all_locations_query %}
 
 <section class="timetable">
   <header>
@@ -101,6 +111,9 @@ WHERE {
               <td colspan="{{ location_order | minus: column_counter }}"></td>
               {% assign column_counter = location_order %}
             {%- endunless -%}
+            {%- assign location_check = session | rdf_property: "schema:location" -%}
+            {% if location_check %}
+            {% endif %}
             {%- include components/program_view_table_unit.html session=session -%}
             {% assign column_counter = column_counter | plus: 1 %}
 
