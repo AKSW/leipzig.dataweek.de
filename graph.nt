@@ -860,6 +860,11 @@
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://schema.org/endTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://schema.org/startTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/free-2023/2023-06-27/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2023.dataweek.de/free-2023/2023-06-27/> <http://www.w3.org/2000/01/rdf-schema#label> "Dienstag"@de .
+<https://2023.dataweek.de/free-2023/2023-06-27/> <http://www.w3.org/2000/01/rdf-schema#label> "Tuesday"@en .
+<https://2023.dataweek.de/free-2023/2023-06-27/> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/free-2023/> .
+<https://2023.dataweek.de/free-2023/2023-06-27/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-27\"" .
 <https://2023.dataweek.de/free-2023/> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/free-2023/> <http://purl.org/dc/terms/description> "Daten befreien! Kompetenzen und Tools f\u00FCr klimaangepasste St\u00E4dte\n\nAn Tag 2 der Data Week hei\u00DFt es \"Daten befreien! Kompetenzen und Tools f\u00FCr klimaangepasste St\u00E4dte\". Das Connected Urban Twins Projekt und weitere Vorhaben der Stadt zeigen hier ganz konkret wie Daten aus verschiedenen Datenquellen kombiniert und unter anderem durch den Einsatz von Digitalen Zwillingen wichtige Erkenntnisse f\u00FCr die Stadtentwicklung gewonnen werden. Dar\u00FCber hinaus werden verschiedene Akteure aus Forschung, Verwaltung und Wirtschaft ihre L\u00F6sungen und Initiativen zur Gestaltung einer nachhaltigen und klimagerechten Stadtentwicklung pr\u00E4sentieren."@de .
 <https://2023.dataweek.de/free-2023/> <http://purl.org/dc/terms/description> "Free data! Competences and tools for climate-adapted cities\n\nOn Day 2 of Data Week Leipzig, the theme is \"Freeing Data! Skills and Tools for Climate-Adapted Cities\". The Connected Urban Twins project and other city projects will show how data from different data sources can be combined and how important insights for urban development can be gained through the use of digital twins. In addition, various actors from research, administration and business will present their solutions and initiatives for sustainable and climate-friendly urban development."@en .
@@ -876,6 +881,8 @@
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-22> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-6> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-8> .
+<https://2023.dataweek.de/free-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/free-2023/> .
+<https://2023.dataweek.de/free-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/free-2023/2023-06-27/> .
 <https://2023.dataweek.de/free-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2023.dataweek.de/free-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
