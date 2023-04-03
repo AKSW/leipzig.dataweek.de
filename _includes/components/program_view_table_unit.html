@@ -15,7 +15,7 @@
     {{ title }}
   </h4>
   <p class="meta">
-    <time datetime="{{start}}">{{start | date: "%H:%M"}}</time> - <time datetime="{{end}}">{{end | date: "%H:%M"}}</time> <span>|</span> Event <span>|</span> {{ location | rdf_property: "dct:title", site.language }}
+    <time datetime="{{start}}">{{start | date: "%H:%M"}}</time> - <time datetime="{{end}}">{{end | date: "%H:%M"}}</time> <span>|</span> Event
   </p>
   <p>
     {{ description | markdownify }}

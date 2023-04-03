@@ -2,19 +2,10 @@
 {% assign programMenuResource = "dw23:program" | rdf_get %}
 <div class="content-header">
   <h1>
-    {{ str_events }}
+    {{ str_program_header }}
   </h1>
   {% capture program_menu %}
     {% include components/menu_sub1.html menuResource=programMenuResource %}
   {% endcapture %}
-  {% comment %}
-    In this case we utilize a sideeffect of the include which sets the variable current_super_resource to the currently selected day.
-  {% endcomment %}
-  {% assign description = current_super_resource | rdf_property: "dct:description", site.language %}
-  {% if description %}
-    <p>
-      {{description}}
-    </p>
-  {% endif %}
   {{ program_menu }}
 </div>
