@@ -747,6 +747,7 @@
 <https://2023.dataweek.de/free-2023/#programm-talk-15> <http://purl.org/dc/terms/title> "tba"@en .
 <https://2023.dataweek.de/free-2023/#programm-talk-15> <http://schema.org/endTime> "15:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-15> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2023.dataweek.de/free-2023/#programm-talk-15> <http://schema.org/performer> <https://dataweek.de/#OguzhanYayla> .
 <https://2023.dataweek.de/free-2023/#programm-talk-15> <http://schema.org/performer> <https://dataweek.de/#SebastianKlemm> .
 <https://2023.dataweek.de/free-2023/#programm-talk-15> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -2705,6 +2706,12 @@
 <https://dataweek.de/#NilsHempelmann> <http://xmlns.com/foaf/0.1/name> "Nils Hempelmann" .
 <https://dataweek.de/#NilsHempelmann> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Dr. Nils Hempelmann (male), is responsible for planning and managing OGC Innovation Program initiatives. Mr. Hempelmann holds a PhD in Geography and provides a combination of an extensive scientific background in climate change data assessment and sustainable development as well as software engineering for scientific data processing and information delivery. Furthermore he gained deep insights of the United Nations policy mechanisms e.g. as a member of the German UNCCD delegation as well as a UNFCCC observer. He contributes to OGC with his almost 20 years of research, scientific software development and climate service consultation experiences from international project contributions in research environments as well as consultation of international cooperation organisations."@en .
 <https://dataweek.de/#NilsHempelmann> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Dr. Nils Hempelmann, ist verantwortlich für die Planung und das Management von OGC-Innovationsprogramm-Initiativen. Herr Hempelmann hat einen Doktortitel in Geographie und verfügt über einen umfassenden wissenschaftlichen Hintergrund in der Bewertung von Klimadaten und nachhaltiger Entwicklung sowie in der Softwareentwicklung für die wissenschaftliche Datenverarbeitung und Informationsbereitstellung. Darüber hinaus hat er tiefe Einblicke in die politischen Mechanismen der Vereinten Nationen gewonnen, z.B. als Mitglied der deutschen UNCCD-Delegation und als UNFCCC-Beobachter. Er bringt seine fast 20-jährige Erfahrung in Forschung, wissenschaftlicher Softwareentwicklung und Klimadienstberatung aus internationalen Projektbeiträgen in Forschungsumgebungen sowie der Beratung von internationalen Kooperationsorganisationen in OGC ein."@de .
+<https://dataweek.de/#OguzhanYayla> <http://purl.org/dc/terms/description> "Co-founder at Lucidminds AI"@de .
+<https://dataweek.de/#OguzhanYayla> <http://purl.org/dc/terms/description> "Co-founder at Lucidminds AI"@en .
+<https://dataweek.de/#OguzhanYayla> <http://schema.org/affiliation> <https://www.lucidminds.ai/> .
+<https://dataweek.de/#OguzhanYayla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#OguzhanYayla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#OguzhanYayla> <http://xmlns.com/foaf/0.1/name> "Oguzhan Yayla" .
 <https://dataweek.de/#OliverGraef> <http://purl.org/dc/terms/description> "Group Manager Corporate Analysis and Rating"@en .
 <https://dataweek.de/#OliverGraef> <http://purl.org/dc/terms/description> "Gruppenleiter Unternehmensanalyse und Rating"@de .
 <https://dataweek.de/#OliverGraef> <http://schema.org/affiliation> <https://www.datev.de/> .
