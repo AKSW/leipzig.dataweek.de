@@ -829,7 +829,6 @@
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-7> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-8> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/free-2023/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/title> "Session 3"@de .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/title> "Session 3"@en .
@@ -892,8 +891,7 @@
 <https://2023.dataweek.de/free-2023/#programm-talk-12> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-talk-13> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/free-2023/#programm-talk-13> <http://purl.org/dc/terms/description> "tba"@de .
-<https://2023.dataweek.de/free-2023/#programm-talk-13> <http://purl.org/dc/terms/description> "tba"@en .
+<https://2023.dataweek.de/free-2023/#programm-talk-13> <http://purl.org/dc/terms/description> "Alle an einen Tisch: wie eine Pop-up Platform Expert*innen und Entwickler*innen zusammen bringt"@de .
 <https://2023.dataweek.de/free-2023/#programm-talk-13> <http://purl.org/dc/terms/title> "tba"@de .
 <https://2023.dataweek.de/free-2023/#programm-talk-13> <http://purl.org/dc/terms/title> "tba"@en .
 <https://2023.dataweek.de/free-2023/#programm-talk-13> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -1014,6 +1012,7 @@
 <https://2023.dataweek.de/free-2023/#programm-talk-7> <http://schema.org/performer> <https://dataweek.de/#ChristianGuethert> .
 <https://2023.dataweek.de/free-2023/#programm-talk-7> <http://schema.org/startTime> "09:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://purl.org/dc/terms/description> "Strategien für eine klimagerechte Stadtentwicklung"@de .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://purl.org/dc/terms/description> "Strategien für eine klimagerechte Stadtentwicklung"@en .
@@ -2358,7 +2357,8 @@
 <https://dataweek.de/#FidanLimani> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#FidanLimani> <http://xmlns.com/foaf/0.1/homepage> <https://www.zbw.eu/de/forschung/science-2-0/fidan-limani> .
 <https://dataweek.de/#FidanLimani> <http://xmlns.com/foaf/0.1/name> "Fidan Limani" .
-<https://dataweek.de/#FranziskaLoeffler> <http://purl.org/dc/terms/description> "Stadt Leipzig"@de .
+<https://dataweek.de/#FranziskaLoeffler> <http://purl.org/dc/terms/description> "Stadt Leipzig/Amt für Stadtgrün und Gewässer"@de .
+<https://dataweek.de/#FranziskaLoeffler> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-stadtgruen-und-gewaesser-67/> .
 <https://dataweek.de/#FranziskaLoeffler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#FranziskaLoeffler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#FranziskaLoeffler> <http://xmlns.com/foaf/0.1/name> "Franziska Löffler" .
@@ -2395,7 +2395,7 @@
 <https://dataweek.de/#HendrikKondziella> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#HendrikKondziella> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/dr-hendrik-kondziella-22b152123/> .
 <https://dataweek.de/#HendrikKondziella> <http://xmlns.com/foaf/0.1/name> "Hendrik Kondziella" .
-<https://dataweek.de/#HenrykBarthel> <http://purl.org/dc/terms/description> "Oberarzt"@en .
+<https://dataweek.de/#HenrykBarthel> <http://purl.org/dc/terms/description> "Oberarzt"@de .
 <https://dataweek.de/#HenrykBarthel> <http://schema.org/affiliation> <https://www.uniklinikum-leipzig.de/> .
 <https://dataweek.de/#HenrykBarthel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#HenrykBarthel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -2461,6 +2461,7 @@
 <https://dataweek.de/#JanaDietrich> <http://xmlns.com/foaf/0.1/name> "Jana Dietrich" .
 <https://dataweek.de/#JasminBatke> <http://purl.org/dc/terms/description> "City planner at the city of Paderborn"@en .
 <https://dataweek.de/#JasminBatke> <http://purl.org/dc/terms/description> "Stadtplanerin bei der Stadt Paderborn"@de .
+<https://dataweek.de/#JasminBatke> <http://schema.org/affiliation> <https://www.paderborn.de/> .
 <https://dataweek.de/#JasminBatke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JasminBatke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JasminBatke> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/jasmin-batke-352591225/> .
@@ -2876,8 +2877,9 @@
 <https://dataweek.de/#StavroulaChatzipanagioti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#StavroulaChatzipanagioti> <http://xmlns.com/foaf/0.1/homepage> <https://sriw.de/> .
 <https://dataweek.de/#StavroulaChatzipanagioti> <http://xmlns.com/foaf/0.1/name> "Stavroula Chatzipanagioti" .
-<https://dataweek.de/#StefanHartleib> <http://purl.org/dc/terms/description> "Tech Lead"@de .
-<https://dataweek.de/#StefanHartleib> <http://purl.org/dc/terms/description> "Tech Lead"@en .
+<https://dataweek.de/#StefanHartleib> <http://purl.org/dc/terms/description> "Field Applicaton Engineer"@de .
+<https://dataweek.de/#StefanHartleib> <http://purl.org/dc/terms/description> "Field Applicaton Engineer"@en .
+<https://dataweek.de/#StefanHartleib> <http://schema.org/affiliation> <https://www.kunbus.de/> .
 <https://dataweek.de/#StefanHartleib> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#StefanHartleib> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#StefanHartleib> <http://xmlns.com/foaf/0.1/name> "Stefan Hartleib" .
@@ -3272,6 +3274,11 @@
 <https://www.infineon.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Infineon Technologies AG"@en .
 <https://www.infineon.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.infineon.com/> .
 <https://www.kongress-bw.de/referent/dr-beate-ginzel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.kunbus.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.kunbus.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.kunbus.de/> <http://www.w3.org/2000/01/rdf-schema#label> "KUNBUS"@de .
+<https://www.kunbus.de/> <http://www.w3.org/2000/01/rdf-schema#label> "KUNBUS"@en .
+<https://www.kunbus.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.kunbus.de/> .
 <https://www.l.de/gruppe/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.l.de/gruppe/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.l.de/gruppe/> <http://www.w3.org/2000/01/rdf-schema#label> "LVV Leipziger Versorgungs- und Verkehrsgesellschaft mbH"@de .
@@ -3295,6 +3302,10 @@
 <https://www.leipzig.de/bauen-und-wohnen/stadtentwicklung/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.leipzig.de/bauen-und-wohnen/stadtentwicklung/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig/Stadtplanungsamt"@en .
 <https://www.leipzig.de/bauen-und-wohnen/stadtentwicklung/> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/bauen-und-wohnen/stadtentwicklung/> .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-stadtgruen-und-gewaesser-67/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-stadtgruen-und-gewaesser-67/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-stadtgruen-und-gewaesser-67/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig/Amt für Stadtgrün und Gewäser"@de .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-stadtgruen-und-gewaesser-67/> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-stadtgruen-und-gewaesser-67/> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/buero-fuer-ratsangelegenheiten-0115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/buero-fuer-ratsangelegenheiten-0115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/buero-fuer-ratsangelegenheiten-0115> <http://www.w3.org/2000/01/rdf-schema#label> "Büro für Ratsangelegenheiten der Stadt Leipzig"@de .
@@ -3307,8 +3318,7 @@
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/dezernat-kultur-024> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/dezernat-kultur-024> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/dezernat-wirtschaft-arbeit-und-digitales-028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/dezernat-wirtschaft-arbeit-und-digitales-028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/dezernat-wirtschaft-arbeit-und-digitales-028> <http://www.w3.org/2000/01/rdf-schema#label> "City of Leipzig/Department of Economics, Labour and Digital Affairs"@de .
-<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/dezernat-wirtschaft-arbeit-und-digitales-028> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig/Dezernat Wirtschaft, Arbeit und Digitales"@en .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/dezernat-wirtschaft-arbeit-und-digitales-028> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig/Dezernat Wirtschaft, Arbeit und Digitales"@de .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/dezernat-wirtschaft-arbeit-und-digitales-028> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/dezernat-wirtschaft-arbeit-und-digitales-028> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/geodatenservice-624> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/geodatenservice-624> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
@@ -3318,7 +3328,7 @@
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-nachhaltige-entwicklung-und-klimaschutz-38#contact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-nachhaltige-entwicklung-und-klimaschutz-38#contact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-nachhaltige-entwicklung-und-klimaschutz-38#contact> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig/Referat Nachhaltige Entwicklung und Klimaschutz "@en .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-nachhaltige-entwicklung-und-klimaschutz-38#contact> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig/Referat Nachhaltige Entwicklung und Klimaschutz "@de .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-nachhaltige-entwicklung-und-klimaschutz-38#contact> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-nachhaltige-entwicklung-und-klimaschutz-38#contact> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
