@@ -825,7 +825,6 @@
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/endTime> "09:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-1> .
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-3> .
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-4> .
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -834,7 +833,6 @@
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/startTime> "09:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-2> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-7> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-8> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -902,7 +900,7 @@
 <https://2023.dataweek.de/free-2023/#programm-talk-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-talk-13> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/free-2023/#programm-talk-13> <http://purl.org/dc/terms/description> "Alle an einen Tisch: wie eine Pop-up Platform Expert:innen und Entwickler:innen zusammen bringt"@de .
-<https://2023.dataweek.de/free-2023/#programm-talk-13> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2023.dataweek.de/free-2023/#programm-talk-13> <http://purl.org/dc/terms/title> "Alle an einen Tisch: wie eine Pop-up Platform Expert:innen und Entwickler:innen zusammen bringt"@de .
 <https://2023.dataweek.de/free-2023/#programm-talk-13> <http://purl.org/dc/terms/title> "tba"@en .
 <https://2023.dataweek.de/free-2023/#programm-talk-13> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-13> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
@@ -1057,6 +1055,8 @@
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-27/12:00> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-27/14:30> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-27/16:15> .
+<https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-1> .
+<https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-2> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-3> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-4> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-6> .
@@ -1246,8 +1246,8 @@
 <https://2023.dataweek.de/gdds-2023/#programm-session-21> <http://schema.org/subEvent> <https://2023.dataweek.de/gdds-2023/#programm-talk-77> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-22> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/gdds-2023/#programm-session-22> <http://purl.org/dc/terms/description> "Location Innovation Academy offers 3 courses and 12 e-learning modules (see the courses below) to help government agencies, particularly national mapping organizations, make the most of their existing geospatial platforms and create a cloud-based system of generic services that can connect various datasets and services with geospatial data"@de .
-<https://2023.dataweek.de/gdds-2023/#programm-session-22> <http://purl.org/dc/terms/description> "Location Innovation Academy offers 3 courses and 12 e-learning modules (see the courses below) to help government agencies, particularly national mapping organizations, make the most of their existing geospatial platforms and create a cloud-based system of generic services that can connect various datasets and services with geospatial data"@en .
+<https://2023.dataweek.de/gdds-2023/#programm-session-22> <http://purl.org/dc/terms/description> "Location Innovation Academy offers 3 courses and 12 e-learning modules to help government agencies, particularly national mapping organizations, make the most of their existing geospatial platforms and create a cloud-based system of generic services that can connect various datasets and services with geospatial data. The session is a training on how to use this online academy"@de .
+<https://2023.dataweek.de/gdds-2023/#programm-session-22> <http://purl.org/dc/terms/description> "Location Innovation Academy offers 3 courses and 12 e-learning modules to help government agencies, particularly national mapping organizations, make the most of their existing geospatial platforms and create a cloud-based system of generic services that can connect various datasets and services with geospatial data. The session is a training on how to use this online academy"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-session-22> <http://purl.org/dc/terms/title> "Location Innovation Academy"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-session-22> <http://purl.org/dc/terms/title> "Location Innovation Academy"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-session-22> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
@@ -2193,7 +2193,9 @@
 <https://dataweek.de/#AnniinaLundvall> <http://xmlns.com/foaf/0.1/name> "Anniina Lundvall" .
 <https://dataweek.de/#AnttiJakobsson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AnttiJakobsson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#AnttiJakobsson> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Antti Jakobsson" .
 <https://dataweek.de/#AnttiJakobsson> <http://xmlns.com/foaf/0.1/name> "Antti Jakobsson" .
+<https://dataweek.de/#AnttiJakobsson> <http://xmlns.com/foaf/0.1/title> "Dr. " .
 <https://dataweek.de/#ArminGeisler> <http://purl.org/dc/terms/description> "Senior Business Analyst [SENEC GmbH](https://senec.com/)"@de .
 <https://dataweek.de/#ArminGeisler> <http://purl.org/dc/terms/description> "Senior Business Analyst [SENEC GmbH](https://senec.com/)"@en .
 <https://dataweek.de/#ArminGeisler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -2383,9 +2385,15 @@
 <https://dataweek.de/#HansGertGraebe> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Hans-Gert Gräbe" .
 <https://dataweek.de/#HansGertGraebe> <http://xmlns.com/foaf/0.1/name> "Hans-Gert Gräbe" .
 <https://dataweek.de/#HansGertGraebe> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
+<https://dataweek.de/#HelgeL%C3%B6bler> <http://purl.org/dc/terms/description> "Professor"@de .
+<https://dataweek.de/#HelgeL%C3%B6bler> <http://purl.org/dc/terms/description> "Professor"@en .
 <https://dataweek.de/#HelgeL%C3%B6bler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#HelgeL%C3%B6bler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#HelgeL%C3%B6bler> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Dr. h.c. Helge Löbler" .
 <https://dataweek.de/#HelgeL%C3%B6bler> <http://xmlns.com/foaf/0.1/name> "Helge Löbler" .
+<https://dataweek.de/#HelgeL%C3%B6bler> <http://xmlns.com/foaf/0.1/title> "Prof. Dr. Dr. h.c." .
+<https://dataweek.de/#HelgeL%C3%B6bler> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Helge Löbler is Professor Emeritus at Leipzig University. He was director of the Institute for Service and Relationship Management at Leipzig University and initiator and co-director of the Self-Management Initiative Leipzig (SMILE) a highly ranked start-up program. He studied cybernetics and economics at the universities of Stuttgart and Bonn. He holds a PhD in economics from University of Bonn and an honorary doctorate in economics from Tartu University (Estonia).\n\nOne of his main research fields is the social construction of meaning between signs and practices. How does meaning emerge and unfold in socio-technical systems and environments including smart services.\n\nHelge Löbler is also associate member of TAOS institute. He lectured at different international Universities in Austria, China, Denmark, Egypt, Estonia, and the USA. He got several awards for his outstanding research. He has published in and served as reviewer for international journals like Kybernetes, Journal of Service Research, Marketing Theory, Australasian Journal of Marketing, Journal of Service Management, Journal of Cleaner Production, and Journal of Business Venturing. He has worked with various research approaches, ranging from \"hard\" hypothesis testing to various qualitative approaches to autoethnography."@de .
+<https://dataweek.de/#HelgeL%C3%B6bler> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Helge Löbler is Professor Emeritus at Leipzig University. He was director of the Institute for Service and Relationship Management at Leipzig University and initiator and co-director of the Self-Management Initiative Leipzig (SMILE) a highly ranked start-up program. He studied cybernetics and economics at the universities of Stuttgart and Bonn. He holds a PhD in economics from University of Bonn and an honorary doctorate in economics from Tartu University (Estonia).\n\nOne of his main research fields is the social construction of meaning between signs and practices. How does meaning emerge and unfold in socio-technical systems and environments including smart services.\n\nHelge Löbler is also associate member of TAOS institute. He lectured at different international Universities in Austria, China, Denmark, Egypt, Estonia, and the USA. He got several awards for his outstanding research. He has published in and served as reviewer for international journals like Kybernetes, Journal of Service Research, Marketing Theory, Australasian Journal of Marketing, Journal of Service Management, Journal of Cleaner Production, and Journal of Business Venturing. He has worked with various research approaches, ranging from \"hard\" hypothesis testing to various qualitative approaches to autoethnography."@en .
 <https://dataweek.de/#HendrikKondziella> <http://purl.org/dc/terms/description> "Senior Researcher"@en .
 <https://dataweek.de/#HendrikKondziella> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
 <https://dataweek.de/#HendrikKondziella> <http://schema.org/affiliation> <https://www.uni-leipzig.de/> .
@@ -2478,8 +2486,10 @@
 <https://dataweek.de/#JohannLoempcke> <http://xmlns.com/foaf/0.1/name> "Johann Lömpcke" .
 <https://dataweek.de/#JudithFauth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JudithFauth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JudithFauth> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Judith Fauth" .
 <https://dataweek.de/#JudithFauth> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/judith-fauth-5b5137bb/> .
 <https://dataweek.de/#JudithFauth> <http://xmlns.com/foaf/0.1/name> "Judith Fauth" .
+<https://dataweek.de/#JudithFauth> <http://xmlns.com/foaf/0.1/title> "Dr. " .
 <https://dataweek.de/#JuliaFriedrich> <http://purl.org/dc/terms/description> "Researcher"@en .
 <https://dataweek.de/#JuliaFriedrich> <http://purl.org/dc/terms/description> "Wissenschaftliche Mitarbeiterin"@de .
 <https://dataweek.de/#JuliaFriedrich> <http://schema.org/affiliation> <https://infai.org/> .
@@ -2513,7 +2523,9 @@
 <https://dataweek.de/#KlausDaessler> <http://xmlns.com/foaf/0.1/name> "Klaus Däßler" .
 <https://dataweek.de/#LassiLehto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#LassiLehto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#LassiLehto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Lassi Lehto" .
 <https://dataweek.de/#LassiLehto> <http://xmlns.com/foaf/0.1/name> "Lassi Lehto" .
+<https://dataweek.de/#LassiLehto> <http://xmlns.com/foaf/0.1/title> "Dr. " .
 <https://dataweek.de/#LennartCarstensBehrens> <http://schema.org/affiliation> <https://htwk-leipzig.de/> .
 <https://dataweek.de/#LennartCarstensBehrens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#LennartCarstensBehrens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -2688,7 +2700,9 @@
 <https://dataweek.de/#NestorFrenandez> <http://schema.org/affiliation> <https://www.idiv.de/en> .
 <https://dataweek.de/#NestorFrenandez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#NestorFrenandez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#NestorFrenandez> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Nestor Frenandez" .
 <https://dataweek.de/#NestorFrenandez> <http://xmlns.com/foaf/0.1/name> "Nestor Frenandez" .
+<https://dataweek.de/#NestorFrenandez> <http://xmlns.com/foaf/0.1/title> "Dr. " .
 <https://dataweek.de/#NievesSande> <http://purl.org/dc/terms/description> "Research and Event Manager"@de .
 <https://dataweek.de/#NievesSande> <http://purl.org/dc/terms/description> "Research and Event Manager"@en .
 <https://dataweek.de/#NievesSande> <http://schema.org/affiliation> <https://www.eccenca.com/> .
@@ -2701,9 +2715,11 @@
 <https://dataweek.de/#NilsHempelmann> <http://schema.org/affiliation> <https://www.ogc.org/> .
 <https://dataweek.de/#NilsHempelmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#NilsHempelmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#NilsHempelmann> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Nils Hempelmann" .
 <https://dataweek.de/#NilsHempelmann> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/NilsHempelmann.png" .
 <https://dataweek.de/#NilsHempelmann> <http://xmlns.com/foaf/0.1/homepage> <https://www.ogc.org/ogc/organization/staff/nils-hempelmann> .
 <https://dataweek.de/#NilsHempelmann> <http://xmlns.com/foaf/0.1/name> "Nils Hempelmann" .
+<https://dataweek.de/#NilsHempelmann> <http://xmlns.com/foaf/0.1/title> "Dr. " .
 <https://dataweek.de/#NilsHempelmann> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Dr. Nils Hempelmann (male), is responsible for planning and managing OGC Innovation Program initiatives. Mr. Hempelmann holds a PhD in Geography and provides a combination of an extensive scientific background in climate change data assessment and sustainable development as well as software engineering for scientific data processing and information delivery. Furthermore he gained deep insights of the United Nations policy mechanisms e.g. as a member of the German UNCCD delegation as well as a UNFCCC observer. He contributes to OGC with his almost 20 years of research, scientific software development and climate service consultation experiences from international project contributions in research environments as well as consultation of international cooperation organisations."@en .
 <https://dataweek.de/#NilsHempelmann> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Dr. Nils Hempelmann, ist verantwortlich für die Planung und das Management von OGC-Innovationsprogramm-Initiativen. Herr Hempelmann hat einen Doktortitel in Geographie und verfügt über einen umfassenden wissenschaftlichen Hintergrund in der Bewertung von Klimadaten und nachhaltiger Entwicklung sowie in der Softwareentwicklung für die wissenschaftliche Datenverarbeitung und Informationsbereitstellung. Darüber hinaus hat er tiefe Einblicke in die politischen Mechanismen der Vereinten Nationen gewonnen, z.B. als Mitglied der deutschen UNCCD-Delegation und als UNFCCC-Beobachter. Er bringt seine fast 20-jährige Erfahrung in Forschung, wissenschaftlicher Softwareentwicklung und Klimadienstberatung aus internationalen Projektbeiträgen in Forschungsumgebungen sowie der Beratung von internationalen Kooperationsorganisationen in OGC ein."@de .
 <https://dataweek.de/#OguzhanYayla> <http://purl.org/dc/terms/description> "Co-founder at Lucidminds AI"@de .
@@ -2733,13 +2749,18 @@
 <https://dataweek.de/#PhilippUlrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#PhilippUlrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#PhilippUlrich> <http://xmlns.com/foaf/0.1/name> "Philipp Ulrich" .
-<https://dataweek.de/#QuentinGroom> <http://purl.org/dc/terms/description> "quentin.groom@plantentuinmeise.be"@en .
+<https://dataweek.de/#QuentinGroom> <http://purl.org/dc/terms/description> "Research assistant"@de .
+<https://dataweek.de/#QuentinGroom> <http://purl.org/dc/terms/description> "Research assistant"@en .
 <https://dataweek.de/#QuentinGroom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#QuentinGroom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#QuentinGroom> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Quentin Groom" .
 <https://dataweek.de/#QuentinGroom> <http://xmlns.com/foaf/0.1/name> "Quentin Groom" .
+<https://dataweek.de/#QuentinGroom> <http://xmlns.com/foaf/0.1/title> "Dr. " .
 <https://dataweek.de/#RaulPalmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#RaulPalmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#RaulPalmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Raul Palmer" .
 <https://dataweek.de/#RaulPalmer> <http://xmlns.com/foaf/0.1/name> "Raul Palmer" .
+<https://dataweek.de/#RaulPalmer> <http://xmlns.com/foaf/0.1/title> "Dr. " .
 <https://dataweek.de/#RichardFigura> <http://purl.org/dc/terms/description> "CEO"@de .
 <https://dataweek.de/#RichardFigura> <http://purl.org/dc/terms/description> "CEO"@en .
 <https://dataweek.de/#RichardFigura> <http://schema.org/affiliation> <https://www.ciss.de> .
@@ -2783,7 +2804,9 @@
 <https://dataweek.de/#SachaLeprete> <http://schema.org/affiliation> <https://www.presagis.com/en/> .
 <https://dataweek.de/#SachaLeprete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SachaLeprete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#SachaLeprete> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Sacha Leprêtre" .
 <https://dataweek.de/#SachaLeprete> <http://xmlns.com/foaf/0.1/name> "Sacha Leprêtre" .
+<https://dataweek.de/#SachaLeprete> <http://xmlns.com/foaf/0.1/title> "Dr. " .
 <https://dataweek.de/#SaideshwarKota> <http://schema.org/affiliation> <https://www.wichita.edu> .
 <https://dataweek.de/#SaideshwarKota> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SaideshwarKota> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
