@@ -820,19 +820,24 @@
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-3> .
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-4> .
+<https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-5> .
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/free-2023/#programm-session-2> <http://purl.org/dc/terms/description> "tba"@de .
-<https://2023.dataweek.de/free-2023/#programm-session-2> <http://purl.org/dc/terms/description> "tba"@en .
-<https://2023.dataweek.de/free-2023/#programm-session-2> <http://purl.org/dc/terms/title> "Keynote zu Strategien für eine klimagerechte Stadtentwicklung im Gespräch"@de .
-<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/endTime> "10:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/free-2023/#programm-session-2> <http://purl.org/dc/terms/description> "Strategien für eine klimagerechte Stadtentwicklung"@de .
+<https://2023.dataweek.de/free-2023/#programm-session-2> <http://purl.org/dc/terms/description> "Strategien für eine klimagerechte Stadtentwicklung"@en .
+<https://2023.dataweek.de/free-2023/#programm-session-2> <http://purl.org/dc/terms/title> "Panel discussion"@en .
+<https://2023.dataweek.de/free-2023/#programm-session-2> <http://purl.org/dc/terms/title> "Podiumdiskussion"@de .
+<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#BeateGinzel> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#ChristianGuethert> .
-<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/startTime> "09:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#HendrikKondziella> .
+<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#MaximilianRinck> .
+<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#SimonePflaum> .
+<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#StefanieKomm> .
+<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-2> .
-<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-7> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/free-2023/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/title> "Session 3"@de .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/title> "Session 3"@en .
@@ -1001,25 +1006,22 @@
 <https://2023.dataweek.de/free-2023/#programm-talk-3> <http://schema.org/startTime> "09:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-talk-4> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/free-2023/#programm-talk-4> <http://purl.org/dc/terms/title> "Key Note: Grenzen von KI und Analytik"@de .
+<https://2023.dataweek.de/free-2023/#programm-talk-4> <http://purl.org/dc/terms/title> "Key Note: Grenzen von KI und Analytik (angefragt)"@de .
 <https://2023.dataweek.de/free-2023/#programm-talk-4> <http://schema.org/endTime> "10:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-4> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2023.dataweek.de/free-2023/#programm-talk-4> <http://schema.org/performer> <https://dataweek.de/#HenrykBarthel> .
 <https://2023.dataweek.de/free-2023/#programm-talk-4> <http://schema.org/startTime> "09:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://purl.org/dc/terms/description> "Strategien für eine klimagerechte Stadtentwicklung"@de .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://purl.org/dc/terms/description> "Strategien für eine klimagerechte Stadtentwicklung"@en .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://purl.org/dc/terms/title> "Panel discussion"@en .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://purl.org/dc/terms/title> "Podiumdiskussion"@de .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://schema.org/performer> <https://dataweek.de/#BeateGinzel> .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://schema.org/performer> <https://dataweek.de/#ChristianGuethert> .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://schema.org/performer> <https://dataweek.de/#HendrikKondziella> .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://schema.org/performer> <https://dataweek.de/#MaximilianRinck> .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://purl.org/dc/terms/description> "tba"@de .
+<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://purl.org/dc/terms/description> "tba"@en .
+<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://purl.org/dc/terms/title> "Keynote zu Strategien für eine klimagerechte Stadtentwicklung im Gespräch"@de .
+<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://schema.org/endTime> "10:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://schema.org/performer> <https://dataweek.de/#ChristianGuethert> .
+<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://schema.org/startTime> "09:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2023.dataweek.de/free-2023/2023-06-27/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2023.dataweek.de/free-2023/2023-06-27/> <http://www.w3.org/2000/01/rdf-schema#label> "Dienstag"@de .
 <https://2023.dataweek.de/free-2023/2023-06-27/> <http://www.w3.org/2000/01/rdf-schema#label> "Tuesday"@en .
@@ -2205,7 +2207,7 @@
 <https://dataweek.de/#AtriDutta> <http://xmlns.com/foaf/0.1/name> "Atri Dutta" .
 <https://dataweek.de/#AtriDutta> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <https://dataweek.de/#BeateGinzel> <http://purl.org/dc/terms/description> "Digital City Manager"@en .
-<https://dataweek.de/#BeateGinzel> <http://purl.org/dc/terms/description> "Leiterin Digitale Stadt"@de .
+<https://dataweek.de/#BeateGinzel> <http://purl.org/dc/terms/description> "Leiterin Referat Digitale Stadt"@de .
 <https://dataweek.de/#BeateGinzel> <http://schema.org/affiliation> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
 <https://dataweek.de/#BeateGinzel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#BeateGinzel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -2389,7 +2391,7 @@
 <https://dataweek.de/#HenrykBarthel> <http://schema.org/affiliation> <https://www.uniklinikum-leipzig.de/> .
 <https://dataweek.de/#HenrykBarthel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#HenrykBarthel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#HenrykBarthel> <http://xmlns.com/foaf/0.1/name> "Prof. Dr. Henryk Barthel" .
+<https://dataweek.de/#HenrykBarthel> <http://xmlns.com/foaf/0.1/name> "(angefragt) Prof. Dr. Henryk Barthel" .
 <https://dataweek.de/#IMG_7453.jpg> <http://purl.org/dc/terms/description> "Overview of Wandelhalle and visitors during a coffee break"@en .
 <https://dataweek.de/#IMG_7453.jpg> <http://purl.org/dc/terms/description> "\u00DCberblick \u00FCber die Wandelhalle w\u00E4hrend einer Kaffeepause."@de .
 <https://dataweek.de/#IMG_7453.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
@@ -2837,6 +2839,11 @@
 <https://dataweek.de/#SimonMaris> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SimonMaris> <http://xmlns.com/foaf/0.1/homepage> <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/personen/p/simon-maris/> .
 <https://dataweek.de/#SimonMaris> <http://xmlns.com/foaf/0.1/name> "Simon Maris" .
+<https://dataweek.de/#SimonePflaum> <http://purl.org/dc/terms/description> "Referat Nachhaltige Entwicklung und Klimaschutz"@de .
+<https://dataweek.de/#SimonePflaum> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-nachhaltige-entwicklung-und-klimaschutz-38#contact> .
+<https://dataweek.de/#SimonePflaum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#SimonePflaum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#SimonePflaum> <http://xmlns.com/foaf/0.1/name> "(angefragt) Simone Ariane Pflaum" .
 <https://dataweek.de/#SmithaHaridasan> <http://purl.org/dc/terms/description> "PhD student at School of Computing at Wichita State University"@de .
 <https://dataweek.de/#SmithaHaridasan> <http://purl.org/dc/terms/description> "PhD student at School of Computing at Wichita State University"@en .
 <https://dataweek.de/#SmithaHaridasan> <http://schema.org/affiliation> <https://www.wichita.edu> .
@@ -2876,6 +2883,11 @@
 <https://dataweek.de/#StefanHoltel> <http://xmlns.com/foaf/0.1/name> "Stefan Holtel" .
 <https://dataweek.de/#StefanHoltel> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Among other things, he worked for 11 years in research and development at Vodafone and holds several international patents. He regularly presents, publishes and lectures on how companies can manage digital transformation. He currently works at PricewaterhouseCoopers' DigiLab as a thought leader on interdisciplinary issues in Artificial Intelligence."@en .
 <https://dataweek.de/#StefanHoltel> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Er arbeitete u.a. 11 Jahre in der Forschung und Entwicklung von Vodafone und hält mehrere internationale Patente. Regelmäßig präsentiert, publiziert und doziert er zur Frage, wie Unternehmen die digitale Transformation bewältigen können. Derzeit arbeitet er im DigiLab von PricewaterhouseCoopers als Vordenker zu interdisziplinären Fragen der Künstlichen Intelligenz."@de .
+<https://dataweek.de/#StefanieKomm> <http://purl.org/dc/terms/description> "Stadtplanungsamt Leipzig"@de .
+<https://dataweek.de/#StefanieKomm> <http://schema.org/affiliation> <https://www.leipzig.de/bauen-und-wohnen/stadtentwicklung/> .
+<https://dataweek.de/#StefanieKomm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#StefanieKomm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#StefanieKomm> <http://xmlns.com/foaf/0.1/name> "(angefragt) Stefanie Komm" .
 <https://dataweek.de/#ThomasBurghardt> <http://schema.org/affiliation> <https://scads.ai/> .
 <https://dataweek.de/#ThomasBurghardt> <http://schema.org/affiliation> <https://www.uni-leipzig.de/> .
 <https://dataweek.de/#ThomasBurghardt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -3271,6 +3283,10 @@
 <https://www.leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig" .
 <https://www.leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/> .
 <https://www.leipzig.de/> <http://xmlns.com/foaf/0.1/logo> <https://dataweek.de/#LogoStadtLeipzig> .
+<https://www.leipzig.de/bauen-und-wohnen/stadtentwicklung/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.leipzig.de/bauen-und-wohnen/stadtentwicklung/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.leipzig.de/bauen-und-wohnen/stadtentwicklung/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig/Stadtplanungsamt"@en .
+<https://www.leipzig.de/bauen-und-wohnen/stadtentwicklung/> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/bauen-und-wohnen/stadtentwicklung/> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/buero-fuer-ratsangelegenheiten-0115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/buero-fuer-ratsangelegenheiten-0115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/buero-fuer-ratsangelegenheiten-0115> <http://www.w3.org/2000/01/rdf-schema#label> "Büro für Ratsangelegenheiten der Stadt Leipzig"@de .
@@ -3292,6 +3308,10 @@
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/geodatenservice-624> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig/Geodateninfrastruktur"@de .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/geodatenservice-624> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/geodatenservice-624> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-nachhaltige-entwicklung-und-klimaschutz-38#contact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-nachhaltige-entwicklung-und-klimaschutz-38#contact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-nachhaltige-entwicklung-und-klimaschutz-38#contact> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig/Referat Nachhaltige Entwicklung und Klimaschutz "@en .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-nachhaltige-entwicklung-und-klimaschutz-38#contact> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-nachhaltige-entwicklung-und-klimaschutz-38#contact> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://www.w3.org/2000/01/rdf-schema#label> "Road Traffic Authority / Traffic Management - Traffic and Civil Engineering Office"@en .
