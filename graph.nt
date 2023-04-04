@@ -2116,6 +2116,11 @@
 <https://darkmatterlabs.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Dark Matter Labs"@de .
 <https://darkmatterlabs.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Dark Matter Labs"@en .
 <https://darkmatterlabs.org/> <http://xmlns.com/foaf/0.1/homepage> <https://darkmatterlabs.org/> .
+<https://datalab-westsax.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://datalab-westsax.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://datalab-westsax.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Lab West Sax"@de .
+<https://datalab-westsax.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Lab West Sax"@en .
+<https://datalab-westsax.de/> <http://xmlns.com/foaf/0.1/homepage> <https://datalab-westsax.de/> .
 <https://dataweek.de/#AdamantiosKoumpis> <http://purl.org/dc/terms/description> "RWTH Aachen, University of Cologne"@en .
 <https://dataweek.de/#AdamantiosKoumpis> <http://purl.org/dc/terms/description> "RWTH Aachen, Universität Köln"@de .
 <https://dataweek.de/#AdamantiosKoumpis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -2248,6 +2253,7 @@
 <https://dataweek.de/#ChristophFriedrich> <http://xmlns.com/foaf/0.1/name> "Christoph Friedrich" .
 <https://dataweek.de/#ChristophLaroque> <http://purl.org/dc/terms/description> "Professor Business Analytics"@en .
 <https://dataweek.de/#ChristophLaroque> <http://purl.org/dc/terms/description> "Professor für Wirtschaftsinformatik"@de .
+<https://dataweek.de/#ChristophLaroque> <http://schema.org/affiliation> <https://datalab-westsax.de/> .
 <https://dataweek.de/#ChristophLaroque> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ChristophLaroque> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ChristophLaroque> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Christoph Laroque" .
