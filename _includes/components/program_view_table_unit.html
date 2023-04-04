@@ -1,9 +1,10 @@
 {%- assign session = include.session -%}
+{%- assign event = include.event -%}
 {%- assign start = session | rdf_property: "schema:startTime" -%}
 {%- assign end = session | rdf_property: "schema:endTime" -%}
-{%- assign location = session | rdf_property: "schema:location" -%}
 {%- assign title = session | rdf_property: "dct:title", site.language -%}
 {%- assign description = session | rdf_property: "dct:description", site.language -%}
+{%- assign event_slug = event | rdf_property: "dw:slug" -%}
 
 <td headers="room1 period1">
   <h4>
@@ -15,7 +16,7 @@
     {{ title }}
   </h4>
   <p class="meta">
-    <time datetime="{{start}}">{{start | date: "%H:%M"}}</time> - <time datetime="{{end}}">{{end | date: "%H:%M"}}</time> <span>|</span> Event
+    <time datetime="{{start}}">{{start | date: "%H:%M"}}</time> - <time datetime="{{end}}">{{end | date: "%H:%M"}}</time> <span>|</span> {{event_slug}}
   </p>
   <p>
     {{ description | markdownify }}

@@ -14,14 +14,10 @@ WHERE {
 {% endcapture %}
 
 {% capture sessions_query %}
-SELECT DISTINCT ?session
+SELECT DISTINCT ?session (SAMPLE(?subEvent) as ?event) ?start ?order
 WHERE {
-  {
-    ?resourceUri schema:subEvent ?session .
-  } union {
-    ?resourceUri schema:subEvent ?subEvent .
-    ?subEvent schema:subEvent ?session .
-  }
+  ?resourceUri schema:subEvent ?subEvent .
+  ?subEvent schema:subEvent ?session .
   ?session schema:startTime ?start .
   {
     ?session schema:location ?location ;
@@ -33,7 +29,9 @@ WHERE {
       dct:date ?date .
     filter ({{ view.filter }})
   }
-} ORDER BY ?start ?order
+}
+GROUP BY ?session ?start ?order
+ORDER BY ?start ?order
 {% endcapture %}
 
 {% assign sessions = view.resource | sparql_query: sessions_query %}
@@ -102,7 +100,7 @@ WHERE {
               <td colspan="{{ location_order | minus: column_counter }}"></td>
               {% assign column_counter = location_order %}
             {%- endunless -%}
-            {%- include components/program_view_table_unit.html session=session -%}
+            {%- include components/program_view_table_unit.html session=session event=session_row.event -%}
             {%- assign column_counter = column_counter | plus: 1 -%}
           {%- endif -%}
           {%- assign last_start = start -%}
