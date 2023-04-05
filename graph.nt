@@ -985,11 +985,12 @@
 <https://2023.dataweek.de/free-2023/#programm-talk-25> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-25> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2023.dataweek.de/free-2023/#programm-talk-25> <http://schema.org/performer> <https://dataweek.de/#BenjaminDitel> .
+<https://2023.dataweek.de/free-2023/#programm-talk-25> <http://schema.org/performer> <https://dataweek.de/#MalteSchwanebeck> .
 <https://2023.dataweek.de/free-2023/#programm-talk-25> <http://schema.org/startTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-talk-26> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/free-2023/#programm-talk-26> <http://purl.org/dc/terms/description> "tba"@de .
-<https://2023.dataweek.de/free-2023/#programm-talk-26> <http://purl.org/dc/terms/description> "tba"@en .
+<https://2023.dataweek.de/free-2023/#programm-talk-26> <http://purl.org/dc/terms/description> "Auf dem Weg zur E-Mobilität - Konsistente Daten zu Ladestationen innerhalb der EU"@de .
+<https://2023.dataweek.de/free-2023/#programm-talk-26> <http://purl.org/dc/terms/description> "Enabling E-Mobility - Providing charging station information for drivers in the EU"@en .
 <https://2023.dataweek.de/free-2023/#programm-talk-26> <http://purl.org/dc/terms/title> "tba"@de .
 <https://2023.dataweek.de/free-2023/#programm-talk-26> <http://schema.org/endTime> "17:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-26> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
@@ -2555,6 +2556,10 @@
 <https://dataweek.de/#MagnusKnuth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MagnusKnuth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MagnusKnuth> <http://xmlns.com/foaf/0.1/name> "Magnus Knuth" .
+<https://dataweek.de/#MalteSchwanebeck> <http://schema.org/affiliation> <urn:url-encoded-value:www.kge.uni-kiel.de> .
+<https://dataweek.de/#MalteSchwanebeck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MalteSchwanebeck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MalteSchwanebeck> <http://xmlns.com/foaf/0.1/name> "Malte Schwanebeck" .
 <https://dataweek.de/#ManishBhandari> <http://purl.org/dc/terms/description> "Data Scientist [Xitaso GmbH](https://xitaso.com/)"@de .
 <https://dataweek.de/#ManishBhandari> <http://purl.org/dc/terms/description> "Data Scientist [Xitaso GmbH](https://xitaso.com/)"@en .
 <https://dataweek.de/#ManishBhandari> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -3506,3 +3511,8 @@
 <https://www.zbw.eu/de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.zbw.eu/de/> .
 <https://www.zbw.eu/de/forschung/science-2-0/fidan-limani> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <urn:url-encoded-value:unset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<urn:url-encoded-value:www.kge.uni-kiel.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<urn:url-encoded-value:www.kge.uni-kiel.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<urn:url-encoded-value:www.kge.uni-kiel.de> <http://www.w3.org/2000/01/rdf-schema#label> "Christian-Albrechts-Universität zu Kiel"@de .
+<urn:url-encoded-value:www.kge.uni-kiel.de> <http://www.w3.org/2000/01/rdf-schema#label> "Christian-Albrechts-Universität zu Kiel"@en .
+<urn:url-encoded-value:www.kge.uni-kiel.de> <http://xmlns.com/foaf/0.1/homepage> <urn:url-encoded-value:www.kge.uni-kiel.de> .
