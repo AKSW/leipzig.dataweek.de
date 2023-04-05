@@ -559,8 +559,26 @@
 <https://2023.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2023" .
 <https://2023.dataweek.de/> <http://www.w3.org/2002/07/owl#sameAs> <https://dataweek.de/> .
+<https://2023.dataweek.de/> <https://dataweek.de/#coordinator> <https://2023.dataweek.de/Coordinators> .
+<https://2023.dataweek.de/> <https://dataweek.de/#coorganizer> <https://2023.dataweek.de/Coorganizers> .
 <https://2023.dataweek.de/> <https://dataweek.de/#news> <https://2023.dataweek.de/News1> .
 <https://2023.dataweek.de/> <https://dataweek.de/#news> <https://2023.dataweek.de/News2> .
+<https://2023.dataweek.de/> <https://dataweek.de/#organizer> <https://2023.dataweek.de/Organizers> .
+<https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://kmi-leipzig.de/> .
+<https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
+<https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://connectedurbantwins.de/> .
+<https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://dbpedia.org/> .
+<https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://aksw.org/Group> .
+<https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://www.geoe3.eu/> .
+<https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+<https://2023.dataweek.de/Cooperators> <http://www.w3.org/2000/01/rdf-schema#label> "In Zusammenarbeit mit"@de .
+<https://2023.dataweek.de/Cooperators> <http://www.w3.org/2000/01/rdf-schema#label> "In cooperation with"@en .
+<https://2023.dataweek.de/Coorganizers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
+<https://2023.dataweek.de/Coorganizers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://scads.ai/> .
+<https://2023.dataweek.de/Coorganizers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://www.ogc.org/> .
+<https://2023.dataweek.de/Coorganizers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+<https://2023.dataweek.de/Coorganizers> <http://www.w3.org/2000/01/rdf-schema#label> "Co-organizers"@en .
+<https://2023.dataweek.de/Coorganizers> <http://www.w3.org/2000/01/rdf-schema#label> "Mitorganisatoren"@de .
 <https://2023.dataweek.de/News1> <http://purl.org/dc/terms/date> "2023-02-01T14:12:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://2023.dataweek.de/News1> <http://purl.org/dc/terms/description> "We are very pleased to introduce our new Data Week website just in time for Data Week Leipzig 2023! Following on from the successful conference week in 2022, the network platform that has been created is now being expanded and developed. Discover the latest information on keynote speakers, workshops, and networking events and start planning your Data Week Leipzig 2023 experience today."@en .
 <https://2023.dataweek.de/News1> <http://purl.org/dc/terms/description> "Wir freuen uns sehr, p\u00FCnktlich zur Data Week Leipzig 2023 unsere neue Website vorstellen zu k\u00F6nnen! Nach der ersten Data Week und einer erfolgreichen Konferenzwoche im Jahr 2022 sind wir als Organisationsteam in der Vorbereitungsphase f\u00FCr die kommende Data Week und haben in diesem Zuge die bisherige Netzwerkplattform ausgebaut und weiterentwickelt. Entdecken Sie unsere neue Webseite mit den neuesten Informationen zu Keynote-Speakern, Workshops und Networking-Events und beginnen Sie noch heute mit der Planung Ihrer Data Week Leipzig 2023."@de .
@@ -573,6 +591,10 @@
 <https://2023.dataweek.de/News2> <http://purl.org/dc/terms/title> "Data Week Leipzig - 26. Juni bis 30. Juni"@de .
 <https://2023.dataweek.de/News2> <http://purl.org/dc/terms/title> "Data Week Leipzig - June 26th to June 30th"@en .
 <https://2023.dataweek.de/News2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post> .
+<https://2023.dataweek.de/Organizers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://infai.org/> .
+<https://2023.dataweek.de/Organizers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+<https://2023.dataweek.de/Organizers> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation"@de .
+<https://2023.dataweek.de/Organizers> <http://www.w3.org/2000/01/rdf-schema#label> "Organizer"@en .
 <https://2023.dataweek.de/Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.leipzig.de/> .
 <https://2023.dataweek.de/Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://connectedurbantwins.de/> .
 <https://2023.dataweek.de/Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
@@ -3125,6 +3147,10 @@
 <https://infai.org/workpage-dr-christian-zinke-wehlmann/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/2000/01/rdf-schema#label> "LEDSPLaY17" .
+<https://kmi-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://kmi-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "K\u00FCnstlich Menschlisch Intelligent Kompetenzzentrum" .
+<https://kmi-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://kmi-leipzig.de/> .
+<https://kmi-leipzig.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/kmi.svg" .
 <https://kurzelinks.de/lc2n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://lswt2019.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2019.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2019" .
