@@ -4,6 +4,8 @@ layout: basic
 {% include strings.html %}
 {% assign rootResource = site.rootResource | rdf_get %}
 {% assign baseEventResource = page.rdf | rdf_property: "dw:resourceUri" %}
+{% assign dwTable = "dw:Table" | rdf_get %}
+{% assign dwList = "dw:List" | rdf_get %}
 
 {% if baseEventResource == rootResource %}
   {% include components/menu_program.html %}
@@ -11,40 +13,19 @@ layout: basic
   {% include components/menu_events.html %}
 {% endif %}
 
-{% capture view_query %}
-SELECT ?resource ?filter
+{% capture viewQuery %}
+SELECT ?resource ?filter ?mode
 WHERE {
   ?resourceUri dw:resourceUri ?resource ;
     dw:viewFilter ?filter .
+  optional {
+    ?resourceUri dw:viewMode ?mode .
+  }
 } limit 1
 {% endcapture %}
 
-{% assign view_res = page.rdf | sparql_query: view_query %}
+{% assign view_res = page.rdf | sparql_query: viewQuery %}
 {% assign view = view_res.first %}
-
-{% capture sessions_query %}
-SELECT DISTINCT ?session
-WHERE {
-  {
-    ?resourceUri schema:subEvent ?session .
-  } union {
-    ?resourceUri schema:subEvent ?subEvent .
-    ?subEvent schema:subEvent ?session .
-  }
-  ?session schema:startTime ?start .
-  {
-    ?session schema:location ?location ;
-      dct:date ?date .
-    filter ({{ view.filter }})
-  } union {
-    ?session site:track dw:pause ;
-      dct:date ?date .
-    filter ({{ view.filter }})
-  }
-} ORDER BY ?start
-{% endcapture %}
-
-{% assign sessions = view.resource | sparql_query: sessions_query %}
 
 {% if baseEventResource == rootResource %}
   {%- assign navigation = page.rdf | sparql_query: "select ?entity { ?entity a site:Navigation . filter(?entity = ?resourceUri) }" -%}
@@ -58,11 +39,15 @@ WHERE {
 
 {%- include components/menu_sub2.html menuResource=menuResource -%}
 
-{%- if sessions.first -%}
-  {%- for session_row in sessions -%}
-    {%- include components/program_unit.html session=session_row.session -%}
-  {%- endfor -%}
-{%- else -%}
+{% assign mode = view.mode | default: dwList %}
+
+{%- if mode == dwList -%}
+  {%- include components/program_view_list.html view=view -%}
+{%- elsif mode == dwTable -%}
+  {%- include components/program_view_table.html view=view -%}
+{%- endif -%}
+
+{%- if program_empty -%}
   <div class="box">
     {{str_program_under_construction}}
   </div>

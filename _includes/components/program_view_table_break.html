@@ -1,0 +1,26 @@
+{%- assign session = include.session -%}
+{%- assign start = session | rdf_property: "schema:startTime" -%}
+{%- assign end = session | rdf_property: "schema:endTime" -%}
+{%- assign location = session | rdf_property: "schema:location" -%}
+{%- assign title = session | rdf_property: "dct:title", site.language -%}
+{%- assign description = session | rdf_property: "dct:description", site.language -%}
+
+<tr class="break">
+  <th colspan="{{num_locations}}">
+    <div class="floorplan-cols">
+      <div>
+        <h4>
+          {{ title }}
+        </h4>
+        <p class="meta">
+          <time datetime="{{start}}">{{start | date: "%H:%M"}}</time> - <time datetime="{{end}}">{{end | date: "%H:%M"}}</time>
+        </p>
+      </div>
+      <div class="floorplan-break-session">
+        <h4>
+          Postersession
+        </h4>
+      </div>
+    </div>
+  </th>
+</tr>
