@@ -859,8 +859,8 @@
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/description> "IoT und Fernerkundung: Wege zum Datensourcing und der Lösungsentwicklung"@de .
-<https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/title> "Session 3"@de .
-<https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/title> "Session 3"@en .
+<https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/title> "Session 3 & 4"@de .
+<https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/title> "Session 3 & 4"@en .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://schema.org/startTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -878,8 +878,8 @@
 <https://2023.dataweek.de/free-2023/#programm-session-4> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-4> .
 <https://2023.dataweek.de/free-2023/#programm-session-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-session-5> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/free-2023/#programm-session-5> <http://purl.org/dc/terms/title> "Session 5 & 6 "@de .
-<https://2023.dataweek.de/free-2023/#programm-session-5> <http://purl.org/dc/terms/title> "Session 5 & 6 "@en .
+<https://2023.dataweek.de/free-2023/#programm-session-5> <http://purl.org/dc/terms/title> "Session 5 "@de .
+<https://2023.dataweek.de/free-2023/#programm-session-5> <http://purl.org/dc/terms/title> "Session 5"@en .
 <https://2023.dataweek.de/free-2023/#programm-session-5> <http://schema.org/endTime> "16:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-5> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2023.dataweek.de/free-2023/#programm-session-5> <http://schema.org/startTime> "14:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -888,6 +888,10 @@
 <https://2023.dataweek.de/free-2023/#programm-session-5> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-19> .
 <https://2023.dataweek.de/free-2023/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-session-6> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/free-2023/#programm-session-6> <http://purl.org/dc/terms/description> "Gesellschaftliche Datenkompetenz sollte man nicht dem Zufall überlassen. Datenkompetenz sollte auch nicht nur als eine Fähigkeit zukünftiger Generationen gesehen werden, sondern muss schon jetzt ein Grundbaustein für die Bildung von Menschen unterschiedlichen Alters werden. In dieser Session stellen Vertreter aus Wissenschaft, Industrie und Verwaltung innovative Projekte vor, die momentan in und um Leipzig zur Datenkompetenz umgesetzt werden. "@de .
+<https://2023.dataweek.de/free-2023/#programm-session-6> <http://purl.org/dc/terms/description> "Social data literacy should not be left to chance. Data literacy should therefore not only be a skill of future generations, but must already become a basic building block for the education of people of different ages. In this session, representatives from science, industry and administration will present innovative projects that are currently being implemented in and around Leipzig on data literacy. "@en .
+<https://2023.dataweek.de/free-2023/#programm-session-6> <http://purl.org/dc/terms/title> "Session Data competence"@en .
+<https://2023.dataweek.de/free-2023/#programm-session-6> <http://purl.org/dc/terms/title> "Session Datenkompetenz "@de .
 <https://2023.dataweek.de/free-2023/#programm-session-6> <http://schema.org/endTime> "16:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-6> <http://schema.org/startTime> "14:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-6> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-21> .
@@ -947,21 +951,23 @@
 <https://2023.dataweek.de/free-2023/#programm-talk-19> <http://schema.org/startTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-talk-21> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/free-2023/#programm-talk-21> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2023.dataweek.de/free-2023/#programm-talk-21> <http://purl.org/dc/terms/title> "DataLab WestSax"@de .
 <https://2023.dataweek.de/free-2023/#programm-talk-21> <http://schema.org/endTime> "15:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-21> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
 <https://2023.dataweek.de/free-2023/#programm-talk-21> <http://schema.org/performer> <https://dataweek.de/#ChristophLaroque> .
 <https://2023.dataweek.de/free-2023/#programm-talk-21> <http://schema.org/startTime> "14:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-talk-22> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/free-2023/#programm-talk-22> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2023.dataweek.de/free-2023/#programm-talk-22> <http://purl.org/dc/terms/title> "Toolbox Datenkomepzenz - Wie Datenkompetenz Deutschland zum digitalen Vorreiter macht"@de .
 <https://2023.dataweek.de/free-2023/#programm-talk-22> <http://schema.org/endTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-22> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
 <https://2023.dataweek.de/free-2023/#programm-talk-22> <http://schema.org/performer> <https://dataweek.de/#MaximilianBarth> .
 <https://2023.dataweek.de/free-2023/#programm-talk-22> <http://schema.org/startTime> "15:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-talk-23> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/free-2023/#programm-talk-23> <http://purl.org/dc/terms/title> "tba"@de .
 <https://2023.dataweek.de/free-2023/#programm-talk-23> <http://schema.org/endTime> "16:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/free-2023/#programm-talk-23> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
 <https://2023.dataweek.de/free-2023/#programm-talk-23> <http://schema.org/startTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-talk-26> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1995,34 +2001,40 @@
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-session-4> <http://schema.org/performer> <https://dataweek.de/#MatthiasTaeschner> .
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-session-4> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-session-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-5> <http://purl.org/dc/terms/date> "2023-06-29"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-5> <http://purl.org/dc/terms/title> "ScaDS.AI Training"@de .
-<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-5> <http://purl.org/dc/terms/title> "ScaDS.AI Training"@en .
-<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-5> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-5> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-5> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-5> <http://purl.org/dc/terms/description> "Dieses Training ist auf die Bedürfnisse der Mitarbeiter:innen der Stadt Leipzig abgestimmt und legt die Schwerpunkte auf die Vermittlung von Datenkompetenzen - insbesondere zu Datenarten und -strukturen, zu verschiedenen Analyseverfahren und der Nutzung der Programmiersprache Python zur Datenanalyse. Neben theoretischen und praktischen Grundlagen zu allen Aspekten (erster Teil, Vormittag) wird die Datenanalyse mit Python auch an praktischen Beispielen vermittelt (zweiter Teil, Nachmittag). Die Anmeldung steht nur Mitarbeiter:innen der Stadt Leipzig zur Verfügung."@de .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-5> <http://purl.org/dc/terms/description> "This training is tailored to the needs of the employees of the City of Leipzig and focuses on teaching data skills - in particular on data types and structures, on various analysis methods and the use of the Python programming language for data analysis. In addition to theoretical and practical basics on all aspects (first part, morning), data analysis with Python will also be taught using practical examples (second part, afternoon). The registration is only available for employees of the city of Leipzig."@en .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-5> <http://purl.org/dc/terms/title> "ScaDS.AI Training in cooperation with the city of Leipzig"@en .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-5> <http://purl.org/dc/terms/title> "ScaDs.AI Training mit der Stadt Leipzig "@de .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-5> <http://schema.org/endTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-5> <http://schema.org/location> <https://dataweek.de/venue#Room260> .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-5> <http://schema.org/performer> <https://dataweek.de/#MatthiasTaeschner> .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-5> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-session-6> <http://purl.org/dc/terms/date> "2023-06-29"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-6> <http://purl.org/dc/terms/title> "Alexander Thamm Training"@de .
-<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-6> <http://purl.org/dc/terms/title> "Alexander Thamm Training"@en .
-<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-6> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-6> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-6> <http://purl.org/dc/terms/title> "ScaDS.AI Training"@de .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-6> <http://purl.org/dc/terms/title> "ScaDS.AI Training"@en .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-6> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-6> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-session-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-session-7> <http://purl.org/dc/terms/date> "2023-06-29"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-session-7> <http://purl.org/dc/terms/title> "Alexander Thamm Training"@de .
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-session-7> <http://purl.org/dc/terms/title> "Alexander Thamm Training"@en .
-<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-7> <http://schema.org/endTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-7> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-7> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-7> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-session-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-8> <http://purl.org/dc/terms/date> "2023-06-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-8> <http://purl.org/dc/terms/title> "Alexander Thamm Training"@de .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-8> <http://purl.org/dc/terms/title> "Alexander Thamm Training"@en .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-8> <http://schema.org/endTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-8> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-talk-10> <http://purl.org/dc/terms/date> "2023-06-29"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-talk-10> <http://purl.org/dc/terms/title> "ScaDS.AI Training"@de .
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-talk-10> <http://purl.org/dc/terms/title> "ScaDS.AI Training"@en .
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-talk-10> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-talk-10> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-talk-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/scads-tutorials-2023/#programm-talk-9> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/scads-tutorials-2023/#programm-talk-9> <http://schema.org/endTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/scads-tutorials-2023/#programm-talk-9> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/scads-tutorials-2023/#programm-talk-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/> <http://www.w3.org/2000/01/rdf-schema#label> "Monday"@en .
 <https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/> <http://www.w3.org/2000/01/rdf-schema#label> "Montag"@de .
@@ -2057,8 +2069,8 @@
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/scads-tutorials-2023/#programm-session-5> .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/scads-tutorials-2023/#programm-session-6> .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/scads-tutorials-2023/#programm-session-7> .
+<https://2023.dataweek.de/scads-tutorials-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/scads-tutorials-2023/#programm-session-8> .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/scads-tutorials-2023/#programm-talk-10> .
-<https://2023.dataweek.de/scads-tutorials-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/scads-tutorials-2023/#programm-talk-9> .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/scads-tutorials-2023/> .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/scads-tutorials-2023/2023-06-26/> .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/scads-tutorials-2023/2023-06-28/> .
