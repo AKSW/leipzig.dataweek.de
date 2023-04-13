@@ -1000,6 +1000,7 @@
 <https://2023.dataweek.de/free-2023/#programm-talk-3> <http://purl.org/dc/terms/title> "Welcoming address"@en .
 <https://2023.dataweek.de/free-2023/#programm-talk-3> <http://schema.org/endTime> "09:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-3> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2023.dataweek.de/free-2023/#programm-talk-3> <http://schema.org/performer> <https://dataweek.de/#WolframGuenther> .
 <https://2023.dataweek.de/free-2023/#programm-talk-3> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-talk-4> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3150,6 +3151,11 @@
 <https://dataweek.de/#VolkerGruhn> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <https://dataweek.de/#VolkerGruhn> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "His research focus is software processes for the development of data-driven and mobile applications as well as cyber-physical systems."@en .
 <https://dataweek.de/#VolkerGruhn> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Sein Forschungsschwerpunkt bezieht sich auf Softwareprozesse zur Entwicklung von datengetriebenen und mobilen Anwendungen sowie cyberphysikalischen Systemen."@de .
+<https://dataweek.de/#WolframGuenther> <http://purl.org/dc/terms/description> "Staatsminister für Energie, Klimaschutz, Umwelt und Landwirtschaft"@de .
+<https://dataweek.de/#WolframGuenther> <http://schema.org/affiliation> <https://www.smekul.sachsen.de/index.html> .
+<https://dataweek.de/#WolframGuenther> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#WolframGuenther> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#WolframGuenther> <http://xmlns.com/foaf/0.1/name> "Wolfram Günther" .
 <https://dataweek.de/#img_7493_optimized.jpg> <http://purl.org/dc/terms/description> "Bild eines gerade stattfindenden Workshops im Ratsplenarsaal."@de .
 <https://dataweek.de/#img_7493_optimized.jpg> <http://purl.org/dc/terms/description> "Image of an ongoing workshop at Ratsplenarsaal"@en .
 <https://dataweek.de/#img_7493_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
@@ -3621,6 +3627,10 @@
 <https://www.sap.com> <http://www.w3.org/2000/01/rdf-schema#label> "SAP SE"@de .
 <https://www.sap.com> <http://www.w3.org/2000/01/rdf-schema#label> "SAP SE"@en .
 <https://www.sap.com> <http://xmlns.com/foaf/0.1/homepage> <https://www.sap.com> .
+<https://www.smekul.sachsen.de/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.smekul.sachsen.de/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.smekul.sachsen.de/index.html> <http://www.w3.org/2000/01/rdf-schema#label> "Sächsisches Staatsministerium für Energie, Klimaschutz, Umwelt und Landwirtschaft"@de .
+<https://www.smekul.sachsen.de/index.html> <http://xmlns.com/foaf/0.1/homepage> <https://www.smekul.sachsen.de/index.html> .
 <https://www.smwk.sachsen.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.smwk.sachsen.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.smwk.sachsen.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Saxon State Ministry for Science, Culture and Tourism"@en .
