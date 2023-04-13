@@ -826,10 +826,10 @@
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://purl.org/dc/terms/title> "Strategien für eine Klimagerechte Stadtentwicklung"@de .
-<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-7> .
+<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/startTime> "09:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-6> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-8> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -913,16 +913,16 @@
 <https://2023.dataweek.de/free-2023/#programm-talk-4> <http://schema.org/startTime> "09:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-talk-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://purl.org/dc/terms/description> "tba"@de .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://purl.org/dc/terms/description> "tba"@en .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://purl.org/dc/terms/title> "Keynote"@de .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://schema.org/performer> <https://dataweek.de/#ChristianGuethert> .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/free-2023/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
+<https://2023.dataweek.de/free-2023/#programm-talk-6> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/free-2023/#programm-talk-6> <http://purl.org/dc/terms/description> "tba"@de .
+<https://2023.dataweek.de/free-2023/#programm-talk-6> <http://purl.org/dc/terms/description> "tba"@en .
+<https://2023.dataweek.de/free-2023/#programm-talk-6> <http://purl.org/dc/terms/title> "Keynote"@de .
+<https://2023.dataweek.de/free-2023/#programm-talk-6> <http://schema.org/endTime> "10:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/free-2023/#programm-talk-6> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2023.dataweek.de/free-2023/#programm-talk-6> <http://schema.org/performer> <https://dataweek.de/#ChristianGuethert> .
+<https://2023.dataweek.de/free-2023/#programm-talk-6> <http://schema.org/startTime> "09:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/free-2023/#programm-talk-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/free-2023/#programm-talk-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://purl.org/dc/terms/description> "Strategien für eine klimagerechte Stadtentwicklung"@de .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://purl.org/dc/terms/title> "Podiumdiskussion"@de .
@@ -2478,6 +2478,13 @@
 <https://dataweek.de/#KatrinMehler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#KatrinMehler> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/KatrinMehler.jpg" .
 <https://dataweek.de/#KatrinMehler> <http://xmlns.com/foaf/0.1/name> "Katrin Mehler" .
+<https://dataweek.de/#KevinTrebing> <http://purl.org/dc/terms/description> "Senior Data Scientist"@de .
+<https://dataweek.de/#KevinTrebing> <http://purl.org/dc/terms/description> "Senior Data Scientist"@en .
+<https://dataweek.de/#KevinTrebing> <http://schema.org/affiliation> <https://www.plan-d.com/> .
+<https://dataweek.de/#KevinTrebing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#KevinTrebing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#KevinTrebing> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/kevin-trebing/> .
+<https://dataweek.de/#KevinTrebing> <http://xmlns.com/foaf/0.1/name> "Kevin Trebing" .
 <https://dataweek.de/#KlausDaessler> <http://purl.org/dc/terms/description> "Gesellschaft für Mathematische Intelligenz"@de .
 <https://dataweek.de/#KlausDaessler> <http://purl.org/dc/terms/description> "Gesellschaft für Mathematische Intelligenz"@en .
 <https://dataweek.de/#KlausDaessler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -2728,6 +2735,13 @@
 <https://dataweek.de/#QuentinGroom> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Quentin Groom" .
 <https://dataweek.de/#QuentinGroom> <http://xmlns.com/foaf/0.1/name> "Quentin Groom" .
 <https://dataweek.de/#QuentinGroom> <http://xmlns.com/foaf/0.1/title> "Dr. " .
+<https://dataweek.de/#RaanaSahebNassagh> <http://purl.org/dc/terms/description> "Senior Data Scientist"@de .
+<https://dataweek.de/#RaanaSahebNassagh> <http://purl.org/dc/terms/description> "Senior Data Scientist"@en .
+<https://dataweek.de/#RaanaSahebNassagh> <http://schema.org/affiliation> <https://www.plan-d.com/> .
+<https://dataweek.de/#RaanaSahebNassagh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#RaanaSahebNassagh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#RaanaSahebNassagh> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/raana-saheb-nassagh/> .
+<https://dataweek.de/#RaanaSahebNassagh> <http://xmlns.com/foaf/0.1/name> "Raana Saheb Nassagh" .
 <https://dataweek.de/#RaulPalmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#RaulPalmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#RaulPalmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Raul Palmer" .
@@ -2840,6 +2854,7 @@
 <https://dataweek.de/#SebastianKlemm> <http://schema.org/affiliation> <https://darkmatterlabs.org/> .
 <https://dataweek.de/#SebastianKlemm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SebastianKlemm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#SebastianKlemm> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/sebastian-klemm-collaboration/> .
 <https://dataweek.de/#SebastianKlemm> <http://xmlns.com/foaf/0.1/name> "Sebastian Klemm" .
 <https://dataweek.de/#SebastianLehmann> <http://purl.org/dc/terms/description> "Senior AI Engineer"@de .
 <https://dataweek.de/#SebastianLehmann> <http://purl.org/dc/terms/description> "Senior AI Engineer"@en .
@@ -2907,6 +2922,7 @@
 <https://dataweek.de/#StefanHartleib> <http://schema.org/affiliation> <https://www.kunbus.de/> .
 <https://dataweek.de/#StefanHartleib> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#StefanHartleib> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#StefanHartleib> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/stefan-hartleib-322544182/> .
 <https://dataweek.de/#StefanHartleib> <http://xmlns.com/foaf/0.1/name> "Stefan Hartleib" .
 <https://dataweek.de/#StefanHoltel> <http://purl.org/dc/terms/description> "Curator of Digital Change"@en .
 <https://dataweek.de/#StefanHoltel> <http://purl.org/dc/terms/description> "Kurator für digitalen Wandel"@de .
@@ -3428,19 +3444,23 @@
 <https://www.linkedin.com/in/jasmin-batke-352591225/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/judith-fauth-5b5137bb/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/julia-friedrich-29461b242/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/kevin-trebing/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/mehdi-azarafza-1865a91b6/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/melaniepufahl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/mirzamohtashim/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/nadine-kuhla-von-bergmann/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/oguzhan-yayla/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/raana-saheb-nassagh/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/ruslan-hrushchak/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/s-albrecht/?originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/sarah-stemmler/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/sebastian-b%25C3%25B6hm-413993183/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/sebastian-graetz-leipzig/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/sebastian-klemm-collaboration/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/sebastianbomberg/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/sebastianhenneberg/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/sophia-kuhl-30567b42/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/stefan-hartleib-322544182/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/thomas-grzeschik-68a5631/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/tom-potutschek-45983b148/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/ulrike-hagen-09bb3022a/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
