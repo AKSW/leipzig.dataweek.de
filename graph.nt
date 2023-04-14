@@ -741,16 +741,6 @@
 <https://2023.dataweek.de/break/2023-06-28/11:45> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
 <https://2023.dataweek.de/break/2023-06-28/11:45> <http://schema.org/startTime> "11:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/break/2023-06-28/11:45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/break/2023-06-28/12:10> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
-<https://2023.dataweek.de/break/2023-06-28/12:10> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/break/2023-06-28/12:10> <http://purl.org/dc/terms/description> "Posters and Stands"@de .
-<https://2023.dataweek.de/break/2023-06-28/12:10> <http://purl.org/dc/terms/description> "Posters and Stands"@en .
-<https://2023.dataweek.de/break/2023-06-28/12:10> <http://purl.org/dc/terms/title> "Lunch "@en .
-<https://2023.dataweek.de/break/2023-06-28/12:10> <http://purl.org/dc/terms/title> "Mittagspause"@de .
-<https://2023.dataweek.de/break/2023-06-28/12:10> <http://schema.org/endTime> "13:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/break/2023-06-28/12:10> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
-<https://2023.dataweek.de/break/2023-06-28/12:10> <http://schema.org/startTime> "12:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/break/2023-06-28/12:10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/break/2023-06-28/14:15> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
 <https://2023.dataweek.de/break/2023-06-28/14:15> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/break/2023-06-28/14:15> <http://purl.org/dc/terms/title> "Coffee break"@en .
@@ -1255,7 +1245,7 @@
 <https://2023.dataweek.de/gdds-2023/#programm-session-25> <http://purl.org/dc/terms/title> "Workshop Semantics: Role of semantic interoperability"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-session-25> <http://purl.org/dc/terms/title> "Workshop Semantics: Role of semantic interoperability"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-session-25> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2023.dataweek.de/gdds-2023/#programm-session-25> <http://schema.org/endTime> "12:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/gdds-2023/#programm-session-25> <http://schema.org/endTime> "11:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-25> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-25> <http://schema.org/performer> <https://dataweek.de/#AlejandroVillar> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-25> <http://schema.org/performer> <https://dataweek.de/#RobAtkinson> .
@@ -1277,7 +1267,7 @@
 <https://2023.dataweek.de/gdds-2023/#programm-session-26> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-26> <http://schema.org/performer> <https://dataweek.de/#AlejandroVillar> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-26> <http://schema.org/performer> <https://dataweek.de/#RobAtkinson> .
-<https://2023.dataweek.de/gdds-2023/#programm-session-26> <http://schema.org/startTime> "13:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/gdds-2023/#programm-session-26> <http://schema.org/startTime> "12:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-26> <http://schema.org/startTime> "15:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-26> <http://schema.org/subEvent> <https://2023.dataweek.de/gdds-2023/#programm-talk-86> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-26> <http://schema.org/subEvent> <https://2023.dataweek.de/gdds-2023/#programm-talk-89> .
@@ -1725,7 +1715,6 @@
 <https://2023.dataweek.de/gdds-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-27/12:10> .
 <https://2023.dataweek.de/gdds-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-27/14:40> .
 <https://2023.dataweek.de/gdds-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-27/16:30> .
-<https://2023.dataweek.de/gdds-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/12:10> .
 <https://2023.dataweek.de/gdds-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/14:40> .
 <https://2023.dataweek.de/gdds-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/16:30> .
 <https://2023.dataweek.de/gdds-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/gdds-2023/#programm-session-10> .
