@@ -5,7 +5,8 @@
 
 {% capture talks_query %}
   SELECT DISTINCT ?talk {
-    ?resourceUri schema:subEvent ?talk .
+    ?resourceUri schema:subEvent ?talk ;
+                 dct:date ?date . # Needed to filter out disabled entries
   }
 {% endcapture %}
 {% assign talks = session | sparql_query: talks_query %}
