@@ -28,6 +28,16 @@
     {{ coorganizers | rdf_property: "rdfs:label", site.language }}
   </h2>
   <ul>
+    {% for organizer in organizersList %}
+      <li>
+        <a href="{{ organizer | rdf_property: "foaf:homepage" }}">
+          {% assign imageResource = organizer | rdf_property: "foaf:logo" %}
+          {% assign alt = organizer | rdf_property: "foaf:homepage" | append: " logo" %}
+          {% include components/img.html resource=imageResource simple=true alt=alt %}
+        </a><br/>
+        ({{ organizers | rdf_property: "rdfs:label", site.language }})
+      </li>
+    {% endfor %}
     {% for coorganizer in coorganizersList %}
       <li>
         <a href="{{ coorganizer | rdf_property: "foaf:homepage" }}">
@@ -48,21 +58,6 @@
         <a href="{{ cooperator | rdf_property: "foaf:homepage" }}">
           {% assign imageResource = cooperator | rdf_property: "foaf:logo" %}
           {% assign alt = cooperator | rdf_property: "foaf:homepage" | append: " logo" %}
-          {% include components/img.html resource=imageResource simple=true alt=alt %}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-  <h2>
-    <span>Data Week</span>
-    {{ organizers | rdf_property: "rdfs:label", site.language }}
-  </h2>
-  <ul>
-    {% for organizer in organizersList %}
-      <li>
-        <a href="{{ organizer | rdf_property: "foaf:homepage" }}">
-          {% assign imageResource = organizer | rdf_property: "foaf:logo" %}
-          {% assign alt = organizer | rdf_property: "foaf:homepage" | append: " logo" %}
           {% include components/img.html resource=imageResource simple=true alt=alt %}
         </a>
       </li>
