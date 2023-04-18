@@ -1,8 +1,56 @@
-{% assign sponsors = rootResource | rdf_property: "schema:sponsor" %}
-{% assign sponsorsList = sponsors | rdf_container %}
+{%- assign sponsors = rootResource | rdf_property: "schema:sponsor" -%}
+{%- assign sponsorsList = sponsors | rdf_container -%}
+{%- assign cooperators = rootResource | rdf_property: "dw:cooperator" -%}
+{%- assign cooperatorsList = cooperators | rdf_container -%}
+{%- assign coorganizers = rootResource | rdf_property: "dw:coorganizer" -%}
+{%- assign coorganizersList = coorganizers | rdf_container -%}
+{%- assign organizers = rootResource | rdf_property: "dw:organizer" -%}
+{%- assign organizersList = organizers | rdf_container -%}
+
 <div class="sponsors">
   <h2>
-    <span>Data Week</span> {{ sponsors | rdf_property: "rdfs:label", site.language }}
+    <span>Data Week</span>
+    {{ coorganizers | rdf_property: "rdfs:label", site.language }}
+  </h2>
+  <ul>
+    {% for organizer in organizersList %}
+      <li>
+        <a href="{{ organizer | rdf_property: "foaf:homepage" }}">
+          {% assign imageResource = organizer | rdf_property: "foaf:logo" %}
+          {% assign alt = organizer | rdf_property: "foaf:homepage" | append: " logo" %}
+          {% include components/img.html resource=imageResource simple=true alt=alt %}
+        </a><br/>
+        <strong>({{ organizers | rdf_property: "rdfs:label", site.language }})</strong>
+      </li>
+    {% endfor %}
+    {% for coorganizer in coorganizersList %}
+      <li>
+        <a href="{{ coorganizer | rdf_property: "foaf:homepage" }}">
+          {% assign imageResource = coorganizer | rdf_property: "foaf:logo" %}
+          {% assign alt = coorganizer | rdf_property: "foaf:homepage" | append: " logo" %}
+          {% include components/img.html resource=imageResource simple=true alt=alt %}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+  <h2>
+    <span>Data Week</span>
+    {{ cooperators | rdf_property: "rdfs:label", site.language }}
+  </h2>
+  <ul>
+    {% for cooperator in cooperatorsList %}
+      <li>
+        <a href="{{ cooperator | rdf_property: "foaf:homepage" }}">
+          {% assign imageResource = cooperator | rdf_property: "foaf:logo" %}
+          {% assign alt = cooperator | rdf_property: "foaf:homepage" | append: " logo" %}
+          {% include components/img.html resource=imageResource simple=true alt=alt %}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+  <h2>
+    <span>Data Week</span>
+    {{ sponsors | rdf_property: "rdfs:label", site.language }}
   </h2>
   <ul>
     {% for sponsor in sponsorsList %}
