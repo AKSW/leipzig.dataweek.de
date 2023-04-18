@@ -35,7 +35,7 @@
           {% assign alt = organizer | rdf_property: "foaf:homepage" | append: " logo" %}
           {% include components/img.html resource=imageResource simple=true alt=alt %}
         </a><br/>
-        ({{ organizers | rdf_property: "rdfs:label", site.language }})
+        <strong>({{ organizers | rdf_property: "rdfs:label", site.language }})</strong>
       </li>
     {% endfor %}
     {% for coorganizer in coorganizersList %}
