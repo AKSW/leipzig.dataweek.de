@@ -88,6 +88,69 @@
       --s-before: ' [Start von Durchgestrichen] ';
       --s-after: ' [Ende von Durchgestrichen] ';
     }
+
+    .btn2-patch {
+      border: 0.125rem #17214c solid;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 18px;
+      font-size: 1.125rem;
+      font-weight: 600;
+      letter-spacing: 0;
+      line-height: 1.75rem;
+      margin: 0 0 0 0;
+      padding: 0.4375rem 1rem 0.4375rem 1rem;
+      position: relative;
+      text-decoration: none;
+      text-transform: none;
+
+      background-color: #3da6dc;
+      color: #17214c;
+      border-radius: 1.3125rem;
+    }
+
+    /*
+    lightblue: #3da6dc
+    darkblue: #17214c
+    orange: #ff7600
+    */
+    @keyframes ripple-keyframes {
+      0% {
+        background: #17214c radial-gradient(circle, transparent 1%, #17214c 1%) center/0%;
+        background-color: #ff7600;
+        background-size: 100%;
+      }
+      33% {
+        background: #17214c radial-gradient(circle, transparent 1%, #17214c 1%) center/15000%;
+        background-color: #ff7600;
+      }
+
+      33.1% {
+        background: #ff7600 radial-gradient(circle, transparent 1%, #ff7600 1%) center/0%;
+        background-color: #3da6dc;
+        background-size: 100%;
+      }
+      66% {
+        background: #ff7600 radial-gradient(circle, transparent 1%, #ff7600 1%) center/15000%;
+        background-color: #3da6dc;
+      }
+
+      66.1% {
+        background: #3da6dc radial-gradient(circle, transparent 1%, #3da6dc 1%) center/0%;
+        background-color: #17214c;
+        background-size: 100%;
+      }
+      100% {
+        background: #3da6dc radial-gradient(circle, transparent 1%, #3da6dc 1%) center/15000%;
+        background-color: #17214c;
+      }
+    }
+
+    /* Ripple effect */
+    .ripple {
+      background-position: center;
+      animation: ripple-keyframes 10s linear infinite;
+    }
   </style>
 
 </head>
@@ -1949,7 +2012,7 @@
 <aside class="page-hero">
   <h1>
     Ein Datenfestival für IT-Begeisterte! Die Data Week bietet ein einwöchiges Veranstaltungsprogramm rund um die Themenschwerpunkte Daten, Digitalisierung, Künstliche Intelligenz und Herausforderungen der Stadtentwicklung.<br/>
-    <a class="btn" href="https://pretix.eu/infai/dataweek2023/" style="background-color: #3da6dc; color: white; border-color: white">Ticket kaufen</a>
+    <a class="btn2-patch ripple" href="https://pretix.eu/infai/dataweek2023/" style="background-color: #3da6dc; color: white; border-color: white">Ticket kaufen</a>
   </h1>
   <figure><img class="js-load" data-src="resources/images/Leipzig.jpg" data-sizes="auto"
       data-srcset="resources/images/Leipzig_480.jpg 480w,resources/images/Leipzig_800.jpg 800w,resources/images/Leipzig_1200.jpg 1200w,resources/images/Leipzig_1600.jpg 1600w,resources/images/Leipzig_1980.jpg 1980w,"
