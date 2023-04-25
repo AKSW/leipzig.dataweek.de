@@ -848,15 +848,15 @@
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/endTime> "12:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#BeateGinzel> .
+<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#BrigittaZiegenbein> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#ChristianGuethert> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#HendrikKondziella> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#MaximilianRinck> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#SimonePflaum> .
-<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#StefanieKomm> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/startTime> "10:50:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/description> "IoT und Fernerkundung: Wege zum Datensourcing und der Lösungsentwicklung"@de .
+<https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/description> "Sensor und Fernerkundung: Wege der Datengewinnung und der Anwendungsentwicklung für städtisches Klimadatenmonitoring"@de .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/title> "Session 3"@de .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/title> "Session 3"@en .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://schema.org/endTime> "14:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -2411,6 +2411,13 @@
 <https://dataweek.de/#BenjaminDitel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#BenjaminDitel> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/benjamin-ditel/> .
 <https://dataweek.de/#BenjaminDitel> <http://xmlns.com/foaf/0.1/name> "(angefragt) Benjamin Ditel" .
+<https://dataweek.de/#BrigittaZiegenbein> <http://purl.org/dc/terms/description> "Leiterin Stadtplanungsamt"@de .
+<https://dataweek.de/#BrigittaZiegenbein> <http://schema.org/affiliation> <https://www.leipzig.de/bauen-und-wohnen/stadtentwicklung/> .
+<https://dataweek.de/#BrigittaZiegenbein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#BrigittaZiegenbein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#BrigittaZiegenbein> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. (angefragt) Brigitta Ziegenbein" .
+<https://dataweek.de/#BrigittaZiegenbein> <http://xmlns.com/foaf/0.1/name> "(angefragt) Brigitta Ziegenbein" .
+<https://dataweek.de/#BrigittaZiegenbein> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#CharisChatzikyriakou> <http://purl.org/dc/terms/description> "Charis Chatzikyriakou"@en .
 <https://dataweek.de/#CharisChatzikyriakou> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#CharisChatzikyriakou> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -3212,11 +3219,6 @@
 <https://dataweek.de/#StefanHoltel> <http://xmlns.com/foaf/0.1/name> "Stefan Holtel" .
 <https://dataweek.de/#StefanHoltel> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Among other things, he worked for 11 years in research and development at Vodafone and holds several international patents. He regularly presents, publishes and lectures on how companies can manage digital transformation. He currently works at PricewaterhouseCoopers' DigiLab as a thought leader on interdisciplinary issues in Artificial Intelligence."@en .
 <https://dataweek.de/#StefanHoltel> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Er arbeitete u.a. 11 Jahre in der Forschung und Entwicklung von Vodafone und hält mehrere internationale Patente. Regelmäßig präsentiert, publiziert und doziert er zur Frage, wie Unternehmen die digitale Transformation bewältigen können. Derzeit arbeitet er im DigiLab von PricewaterhouseCoopers als Vordenker zu interdisziplinären Fragen der Künstlichen Intelligenz."@de .
-<https://dataweek.de/#StefanieKomm> <http://purl.org/dc/terms/description> "Stadtplanungsamt Leipzig"@de .
-<https://dataweek.de/#StefanieKomm> <http://schema.org/affiliation> <https://www.leipzig.de/bauen-und-wohnen/stadtentwicklung/> .
-<https://dataweek.de/#StefanieKomm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
-<https://dataweek.de/#StefanieKomm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#StefanieKomm> <http://xmlns.com/foaf/0.1/name> "(angefragt) Stefanie Komm" .
 <https://dataweek.de/#ThomasBurghardt> <http://schema.org/affiliation> <https://scads.ai/> .
 <https://dataweek.de/#ThomasBurghardt> <http://schema.org/affiliation> <https://www.uni-leipzig.de/> .
 <https://dataweek.de/#ThomasBurghardt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
