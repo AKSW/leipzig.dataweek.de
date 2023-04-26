@@ -289,7 +289,8 @@
 <https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/events> .
 <https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/venue/> .
 <https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2023.dataweek.de/team> .
-<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2023.dataweek.de/news> .
+<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2023.dataweek.de/tickets> .
+<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2023.dataweek.de/news> .
 <https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2023.dataweek.de/#MainMenu> <http://xmlns.com/foaf/0.1/primaryTopic> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-26/> <http://purl.org/dc/terms/date> "2023-06-26"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2370,6 +2371,12 @@
 <https://2023.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://dataweek.de/#NilsHempelmann> .
 <https://2023.dataweek.de/team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam"@de .
 <https://2023.dataweek.de/team> <http://www.w3.org/2000/01/rdf-schema#label> "Organization Team"@en .
+<https://2023.dataweek.de/tickets> <http://purl.org/dc/terms/description> "Daily and weekly tickets can be purchased here: [https://pretix.eu/infai/dataweek2023/](https://pretix.eu/infai/dataweek2023/).\n\nYou must purchase a ticket to attend Data Week Leipzig. Students can secure a discounted ticket at [dataweek@infai.org](mailto:dataweek@infai.org). We will provide a limited contingent. We look forward to your participation!"@en .
+<https://2023.dataweek.de/tickets> <http://purl.org/dc/terms/description> "Tages- und Wochentickets k\u00F6nnen hier erworben werden: [https://pretix.eu/infai/dataweek2023/](https://pretix.eu/infai/dataweek2023/).\n\nSie m\u00FCssen ein Ticket erwerben um an der Data Week Leipzig teilnehmen zu k\u00F6nnen. Studierende k\u00F6nnen sich unter [dataweek@infai.org](mailto:dataweek@infai.org) ein verg\u00FCnstigtes Ticket sichern.\nWir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!"@de .
+<https://2023.dataweek.de/tickets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
+<https://2023.dataweek.de/tickets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://2023.dataweek.de/tickets> <http://www.w3.org/2000/01/rdf-schema#label> "Tickets"@de .
+<https://2023.dataweek.de/tickets> <http://www.w3.org/2000/01/rdf-schema#label> "Tickets"@en .
 <https://2023.dataweek.de/venue/> <http://schema.org/addressCountry> "Germany" .
 <https://2023.dataweek.de/venue/> <http://schema.org/addressLocality> "Leipzig" .
 <https://2023.dataweek.de/venue/> <http://schema.org/name> "Neues Rathaus/City Hall" .
