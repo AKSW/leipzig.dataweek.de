@@ -1,0 +1,47 @@
+---
+layout: basic
+---
+{% include strings.html %}
+
+<h1>
+    {{ page.rdf | rdf_property: "rdfs:label", site.language }}
+</h1>
+<p>{{ page.rdf | rdf_property: "dct:description", site.language | markdownify }}</p>
+<h2>
+  {{ str_pricetable }}
+</h2>
+<div class="ce-table ce-table-tickets" role="region" aria-labelledby="ce-table-caption-0" tabindex="0">
+  <table>
+    <caption id="ce-table-caption-0" class="hideme">
+      {{ str_pricetable }}
+    </caption>
+      <thead>
+        <tr>
+          <th scope="col">
+            Ticket
+          </th>
+          <th scope="col">
+            {{ str_price }}
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">
+            {{str_dayticket}}
+          </th>
+          <td>
+            85,oo €
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">
+            {{str_weekticket}}
+          </th>
+          <td>
+            400,00 €
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</div>
