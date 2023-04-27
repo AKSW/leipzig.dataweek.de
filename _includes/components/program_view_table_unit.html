@@ -5,6 +5,9 @@
 {%- assign title = session | rdf_property: "dct:title", site.language -%}
 {%- assign description = session | rdf_property: "dct:description", site.language -%}
 {%- assign event_slug = event | rdf_property: "dw:slug" -%}
+{%- assign location_iri = session | rdf_property: "schema:location" -%}
+{%- assign location_id = location_iri | split: "#" | last -%}
+{%- assign date = session | rdf_property: "dw:date" -%}
 
 <td headers="room1 period1">
   <h4>
@@ -13,7 +16,7 @@
         <use xlink:href="images/icons.svg#calendar-add"></use>
       </svg>
     </a-->
-    {{ title }}
+    <a href="{{date}}{{location_id}}.html#{{start | date: "%H:%M"}}">{{ title }}</a>
   </h4>
   <p class="meta">
     <time datetime="{{start}}">{{start | date: "%H:%M"}}</time> - <time datetime="{{end}}">{{end | date: "%H:%M"}}</time> <span>|</span> {{event_slug}}

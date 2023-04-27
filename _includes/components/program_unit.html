@@ -16,7 +16,7 @@
 {%- assign title = session | rdf_property: "dct:title", site.language -%}
 {%- endif -%}
 
-<section class="timetable-unit {% if track == pause %}timetable-unit-break{% endif %}">
+<section class="timetable-unit {% if track == pause %}timetable-unit-break{% endif %}"  id="{{ start | date: "%H:%M" }}">
   <header>
     <h3>
       {{ start }}

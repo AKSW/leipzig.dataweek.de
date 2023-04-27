@@ -60,4 +60,13 @@ task sync-data
 
 ## Trouble Shooting
 
-non known
+### Working on a single resource
+
+Use the [`restriction_file` feature (Jekyll RDF Documentation)](https://github.com/AKSW/jekyll-rdf#restrict-resource-selection).
+
+If you work on a single resource respectively the corresponding layout the build time might be to long for active development.
+In this case the `restriction:` in the `_config.yml` file can be out-commented and replaced by a `restriction_file: restriction_file.txt` setting. The restriction file would just contain the resource(s) you are working on, e.g.:
+
+```
+<https://2023.dataweek.de/2023-06-26/>
+```
