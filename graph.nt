@@ -771,6 +771,7 @@
 <https://2023.dataweek.de/break/2023-06-28/14:30> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/break/2023-06-28/14:30> <http://purl.org/dc/terms/description> "Posters and Stands"@de .
 <https://2023.dataweek.de/break/2023-06-28/14:30> <http://purl.org/dc/terms/description> "Posters and Stands"@en .
+<https://2023.dataweek.de/break/2023-06-28/14:30> <http://purl.org/dc/terms/description> "Sebastian Bomberg is an application engineer at MathWorks. He supports customers who want to expand their technical applications and products with the help of AI. Thanks to his many years of experience in data science projects, he knows what makes a successful project and what is better left undone."@en .
 <https://2023.dataweek.de/break/2023-06-28/14:30> <http://purl.org/dc/terms/title> "Break"@en .
 <https://2023.dataweek.de/break/2023-06-28/14:30> <http://purl.org/dc/terms/title> "Coffee break"@en .
 <https://2023.dataweek.de/break/2023-06-28/14:30> <http://purl.org/dc/terms/title> "PAUSE - COFFEE BREAK"@en .
@@ -826,7 +827,7 @@
 <https://2023.dataweek.de/dsm-2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "DSM Team"@en .
 <https://2023.dataweek.de/dsm-2023/#programm-session-10> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-10> <http://purl.org/dc/terms/title> "Podiumsdiskussion alle Speaker*innen"@de .
-<https://2023.dataweek.de/dsm-2023/#programm-session-10> <http://purl.org/dc/terms/title> "Podiumsdiskussion alle Speaker*innen"@en .
+<https://2023.dataweek.de/dsm-2023/#programm-session-10> <http://purl.org/dc/terms/title> "panel discussion with all speakers"@en .
 <https://2023.dataweek.de/dsm-2023/#programm-session-10> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-10> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-10> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -840,6 +841,8 @@
 <https://2023.dataweek.de/dsm-2023/#programm-session-1> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-2> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/dsm-2023/#programm-session-2> <http://purl.org/dc/terms/description> "In our talk, we describe the small and big pitfalls that can occur in the life of a Data Scientist. Coming from the \"safe space\" of the university, where you can tinker around in your own Git repository, you suddenly have to work with many other people in your everyday professional life. \"Hell, it's the others,\" says Sartre. Well, it may not be quite that bad. Still, it makes sense to deal with the different perspectives and expectations of everyone involved. How do I communicate with platform architects and data protection officers? What do I need to consider in customer contact? What do my superiors expect from me - and I from them? Am I allowed to make mistakes? Which tools and procedures help in collaboration? Using concrete examples, we show why Data Scientists need to be able to do much more than analyze data and write code. And why exactly that makes the job so exciting."@en .
+<https://2023.dataweek.de/dsm-2023/#programm-session-2> <http://purl.org/dc/terms/description> "In unserem Vortrag beschreiben wir die kleinen und großen Fallstricke, die im Leben eines Data Scientists auftreten können. Aus dem „Safe Space“ der Universität kommend, wo man in seinem eigenen Git-Repository herumbasteln kann, muss man im Berufsalltag plötzlich mit vielen anderen Menschen zusammenarbeiten. „Die Hölle, das sind die anderen“, sagt Sartre. Nun, ganz so schlimm ist es vielleicht nicht. Trotzdem ist es sinnvoll, sich mit den unterschiedlichen Perspektiven und Erwartungshaltungen aller Beteiligten auseinanderzusetzen. Wie kommuniziere ich mit Plattformarchitekten und Datenschutzbeauftragten? Was muss ich im Kundenkontakt beachten? Was erwarten meine Vorgesetzten von mir – und ich von ihnen? Darf ich Fehler machen? Welche Tools und Verfahren helfen bei der Zusammenarbeit? Anhand konkreter Beispiele zeigen wir, warum Data Scientists deutlich mehr können müssen als Daten analysieren und Code schreiben. Und warum genau das den Job so spannend macht."@de .
 <https://2023.dataweek.de/dsm-2023/#programm-session-2> <http://purl.org/dc/terms/title> "Communication is key: Warum Data Scientists mehr können müssen als Code & Daten"@de .
 <https://2023.dataweek.de/dsm-2023/#programm-session-2> <http://purl.org/dc/terms/title> "Communication is key: Why Data Scientists Must Be Able to Do More Than Code & Data"@en .
 <https://2023.dataweek.de/dsm-2023/#programm-session-2> <http://schema.org/endTime> "09:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -849,6 +852,8 @@
 <https://2023.dataweek.de/dsm-2023/#programm-session-2> <http://schema.org/startTime> "09:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-3> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/dsm-2023/#programm-session-3> <http://purl.org/dc/terms/description> "In meinem Vortrag möchte ich ein paar meiner Einsichten teilen, die mir geholfen haben die demotivierenden Faktoren zu verstehen. Und einen Ausblick auf Lösungsansätze anbieten. Denn es geht auch anders!"@de .
+<https://2023.dataweek.de/dsm-2023/#programm-session-3> <http://purl.org/dc/terms/description> "In my presentation, I would like to share a few of my insights that have helped me understand the demotivating factors. And offer an outlook on possible solutions. Because there is another way!"@en .
 <https://2023.dataweek.de/dsm-2023/#programm-session-3> <http://purl.org/dc/terms/title> "Modern organizational design for more brain activity and better deliveries"@en .
 <https://2023.dataweek.de/dsm-2023/#programm-session-3> <http://purl.org/dc/terms/title> "Modernes Organisationsdesign für mehr Hirnaktivität und bessere Lieferungen"@de .
 <https://2023.dataweek.de/dsm-2023/#programm-session-3> <http://schema.org/endTime> "10:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -857,6 +862,8 @@
 <https://2023.dataweek.de/dsm-2023/#programm-session-3> <http://schema.org/startTime> "09:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-4> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/dsm-2023/#programm-session-4> <http://purl.org/dc/terms/description> "Führung bedeutet heute zuerst Selbstführung. Dafür ist es wichtig, die eigenen (Notfall-) Muster und Glaubenssätze zu verstehen und einen Umgang mit ihnen zu finden, der nicht beim ersten Stresstest in sich zusammenfällt. Erst dann kann ich meinem Team glaubwürdig vorleben, Neues, Sinnvolles und Mutiges tun, was wir zuvor nicht für möglich hielten."@de .
+<https://2023.dataweek.de/dsm-2023/#programm-session-4> <http://purl.org/dc/terms/description> "Leadership today means first and foremost self-leadership. For this, it is important to understand one's own (emergency) patterns and beliefs and to find a way of dealing with them that does not collapse at the first stress test. Only then can I credibly exemplify to my team, do new, meaningful and courageous things that we did not think were possible before."@en .
 <https://2023.dataweek.de/dsm-2023/#programm-session-4> <http://purl.org/dc/terms/title> "(Selbst-) Führung in Data Science Projekten"@de .
 <https://2023.dataweek.de/dsm-2023/#programm-session-4> <http://purl.org/dc/terms/title> "(Self) leadership in Data Science projects"@en .
 <https://2023.dataweek.de/dsm-2023/#programm-session-4> <http://schema.org/endTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -865,6 +872,8 @@
 <https://2023.dataweek.de/dsm-2023/#programm-session-4> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-5> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/dsm-2023/#programm-session-5> <http://purl.org/dc/terms/description> "Die Arbeitsfreude schwindet mehr und mehr: Parallel laufende Projekte, kurze Abgabefristen, ungeregelte Kommunikation und permanente Unterbrechungen lassen das Stresslevel immer weiter steigen. Durch die Digitalisierung entstehen viele Herausforderungen im Arbeitsalltag, die es zu bewältigen gilt. Im Vortrag schauen wir uns daher an, wie eine produktive und gesunde digitale Arbeit aussehen kann."@de .
+<https://2023.dataweek.de/dsm-2023/#programm-session-5> <http://purl.org/dc/terms/description> "The joy of working is dwindling more and more: projects running in parallel, short deadlines, unregulated communication and permanent interruptions cause the stress level to rise more and more. Digitalization creates many challenges in everyday work that need to be overcome. In this presentation, we will therefore take a look at what productive and healthy digital work can look like."@en .
 <https://2023.dataweek.de/dsm-2023/#programm-session-5> <http://purl.org/dc/terms/title> "Digitalen Stress reduzieren – gesund &  produktiv Arbeiten "@de .
 <https://2023.dataweek.de/dsm-2023/#programm-session-5> <http://purl.org/dc/terms/title> "Reduce digital stress - work healthy & productive"@en .
 <https://2023.dataweek.de/dsm-2023/#programm-session-5> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -874,6 +883,8 @@
 <https://2023.dataweek.de/dsm-2023/#programm-session-5> <http://schema.org/startTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-6> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/dsm-2023/#programm-session-6> <http://purl.org/dc/terms/description> "We want to shed light on the different types of leadership in tech. In addition to traditional management, there are other ways of assuming responsibility and leadership. We will show what these are, how they differ, what team architectures result from them, and what role conflicts need to be considered."@en .
+<https://2023.dataweek.de/dsm-2023/#programm-session-6> <http://purl.org/dc/terms/description> "Wir wollen die verschiedenen Arten von Leadership in Tech beleuchten. Neben dem klassischen Management gibt es noch andere Pfade, um Verantwortung und Leadership zu übernehmen. Wir zeigen, welche das sind, wie diese sich unterscheiden, welche Team-Architekturen sich daraus ergeben und welche Rollenkonflikte es zu bedenken gilt."@de .
 <https://2023.dataweek.de/dsm-2023/#programm-session-6> <http://purl.org/dc/terms/title> "Tech Lead — Leadership ohne Management?"@de .
 <https://2023.dataweek.de/dsm-2023/#programm-session-6> <http://purl.org/dc/terms/title> "Tech Lead — Leadership without management?"@en .
 <https://2023.dataweek.de/dsm-2023/#programm-session-6> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -883,6 +894,7 @@
 <https://2023.dataweek.de/dsm-2023/#programm-session-6> <http://schema.org/startTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-7> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/dsm-2023/#programm-session-7> <http://purl.org/dc/terms/description> "Sebastian Bomberg ist Application Engineer bei MathWorks. Er unterstützt Kunden, die mithilfe von KI ihre technischen Anwendungen und Produkte erweitern möchten. Durch seine langjährige Erfahrung in Data Science Projekten weiß er, was ein erfolgreiches Projekt ausmacht und was man besser lassen sollte."@de .
 <https://2023.dataweek.de/dsm-2023/#programm-session-7> <http://purl.org/dc/terms/title> "About the not-so-technical challenges of data science projects in industry and technology"@en .
 <https://2023.dataweek.de/dsm-2023/#programm-session-7> <http://purl.org/dc/terms/title> "Über die gar nicht so technischen Herausforderungen bei Data-Science-Projekten in Industrie und Technik"@de .
 <https://2023.dataweek.de/dsm-2023/#programm-session-7> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -891,6 +903,8 @@
 <https://2023.dataweek.de/dsm-2023/#programm-session-7> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-8> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/dsm-2023/#programm-session-8> <http://purl.org/dc/terms/description> "Evelyn Münster (chartdoktor.com) gibt Impulse für Dashboards, die die Nutzer*innen begeistern und warum jedes Data Science Team auch eine*n Designer*in benötigt."@de .
+<https://2023.dataweek.de/dsm-2023/#programm-session-8> <http://purl.org/dc/terms/description> "Evelyn Münster (chartdoktor.com) gives impulses for dashboards that inspire users and why every data science team also needs a designer."@en .
 <https://2023.dataweek.de/dsm-2023/#programm-session-8> <http://purl.org/dc/terms/title> "in Abstimmung zu Data UI/UX, Data und BI Storytelling"@de .
 <https://2023.dataweek.de/dsm-2023/#programm-session-8> <http://purl.org/dc/terms/title> "in coordination with Data UI/UX, Data and BI Storytelling"@en .
 <https://2023.dataweek.de/dsm-2023/#programm-session-8> <http://schema.org/endTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
