@@ -31,7 +31,6 @@ layout: basic
   <ul>
   {% for row in days %}
     {% assign description = row.day | rdf_property: "dct:description", site.language %}
-    {% assign events = row.day | sparql_query: subEventQuery %}
     <li>
       <div class="card">
         <h2>
@@ -39,14 +38,30 @@ layout: basic
             <span class="xl hideunderline">{{ row.day | rdf_property: "rdfs:label", site.language }}</span>
           </a>
         </h2>
+        <p>{{ row.day | rdf_property: "dct:title", site.language }}</p>
         <p class="dates">
-          {% for events_row in events %}
-          <time ev="{{event.iri}}">
-            <strong class="highlighted x1">{{ events_row.subEvent | rdf_property: "dw:slug" }}</strong><br/>
+          <time ev="">
+            <strong class="highlighted x1">{{ row.day | rdf_property: "dct:subject" }}</strong><br/>
           </time>
-          {% endfor %}
         </p>
-        {% if description %}<p class="justify"><small>{{ description }}</small></p>{% endif %}
+        {% if description %}
+          {% assign sentences = description | split: ". " %}
+          {% if sentences.size > 2 %}
+            <p class="justify">
+              <small>{{ sentences | slice: 0, 2 | join: ". " }}. </small>
+            </p>
+            <details>
+              <summary>
+                <small>Show more</small>
+              </summary>
+              <p class="justify">
+                <small>{{ sentences | slice: 2, sentences.size | join: ". " }}</small>
+              </p>
+            </details>
+          {% else %}
+            <p class="justify"><small>{{ description }}</small></p>
+          {% endif %}
+        {% endif %}
       </div>
     </li>
   {% endfor %}

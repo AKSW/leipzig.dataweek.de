@@ -19,9 +19,6 @@
     <a href="{{date}}{{location_id}}.html#{{start | date: "%H:%M"}}">{{ title }}</a>
   </h4>
   <p class="meta">
-    <time datetime="{{start}}">{{start | date: "%H:%M"}}</time> - <time datetime="{{end}}">{{end | date: "%H:%M"}}</time> <span>|</span> {{event_slug}}
-  </p>
-  <p>
-    {{ description | markdownify }}
+    <time datetime="{{start}}">{{start | date: "%H:%M"}}</time> - <time datetime="{{end}}">{{end | date: "%H:%M"}}</time>
   </p>
 </td>
