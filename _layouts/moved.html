@@ -18,7 +18,7 @@ rdf_prefix_path: _data/prefixes.sparql
   {%- assign media_title = root_title -%}
   {%- endif -%}
 
-  <meta http-equiv="Refresh" content="0; url='{{ moving_target.page_url | relativize_url }}'" />
+  <meta http-equiv="Refresh" content="0; url='{{ moving_target.render_path | relativize_url }}'" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.title }} | {{ media_title }} (moved)</title>
@@ -29,8 +29,8 @@ rdf_prefix_path: _data/prefixes.sparql
   <meta name="twitter:title" content="{{ media_title }}">
 
   <script>
-    window.location.href = "{{ moving_target.page_url | relativize_url }}";
-    window.location.replace(new URL("{{ moving_target.page_url | relativize_url }}", document.baseURI).href);
+    window.location.href = "{{ moving_target.render_path | relativize_url }}";
+    window.location.replace(new URL("{{ moving_target.render_path | relativize_url }}", document.baseURI).href);
   </script>
 </head>
 
