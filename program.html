@@ -34,7 +34,7 @@ layout: basic
     <li>
       <div class="card">
         <h2>
-          <a href="{{ row.day.page_url | relativize_url }}">
+          <a href="{{ row.day.render_path | relativize_url }}">
             <span class="xl hideunderline">{{ row.day | rdf_property: "rdfs:label", site.language }}</span>
           </a>
         </h2>

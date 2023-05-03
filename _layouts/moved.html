@@ -1,0 +1,40 @@
+---
+rdf_prefix_path: _data/prefixes.sparql
+---
+<!doctype html>
+<html lang="{{ site.language }}">
+
+{%- assign rootResource = site.rootResource | rdf_get -%}
+{%- include strings.html -%}
+
+<head>
+  {%- assign moving_target = page.rdf | rdf_property: "owl:sameAs" -%}
+  {%- assign title = moving_target | rdf_property: "rdfs:label", site.language -%}
+  {%- assign root_title = rootResource | rdf_property: "rdfs:label", page.language -%}
+
+  {%- if title -%}
+  {%- assign media_title = title -%}
+  {%- else -%}
+  {%- assign media_title = root_title -%}
+  {%- endif -%}
+
+  <meta http-equiv="Refresh" content="0; url='{{ moving_target.render_path | relativize_url }}'" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }} | {{ media_title }} (moved)</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/svg+xml" href="/resources/images/favicon.svg">
+  <link rel="icon" type="image/png" href="/resources/images/favicon.png">
+  <meta property="og:title" content="{{ media_title }}">
+  <meta name="twitter:title" content="{{ media_title }}">
+
+  <script>
+    window.location.href = "{{ moving_target.render_path | relativize_url }}";
+    window.location.replace(new URL("{{ moving_target.render_path | relativize_url }}", document.baseURI).href);
+  </script>
+</head>
+
+<body>
+
+</body>
+</html>

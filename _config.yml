@@ -35,4 +35,5 @@ jekyll_rdf:
   default_template: default.html
   class_template_mappings:
     "https://dataweek.de/#ProgramView" : "program_view.html"
+    "https://dataweek.de/#MovedResource" : "moved.html"
     "http://schema.org/Event" : "event.html"
