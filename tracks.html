@@ -10,7 +10,8 @@ layout: basic
   SELECT DISTINCT ?event (MIN(?dates) as ?date)
   WHERE {
     ?resourceUri schema:subEvent ?event .
-    ?event dct:date ?dates .
+    ?event dct:date ?dates ;
+      dw:show true .
   }
   GROUP BY ?event
   ORDER BY ?date
