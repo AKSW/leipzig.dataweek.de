@@ -27,7 +27,7 @@ layout: basic
   <li>
     <div class="card">
       <h2>
-        <a href="{{ row.event.page_url | relativize_url }}">
+        <a href="{{ row.event.render_path | relativize_url }}">
           <span class="highlighted2">{{ row.event | rdf_property: "dw:slug" }}</span><br>
           <span class="xl hideunderline">{{ row.event | rdf_property: "rdfs:label", site.language }}</span>
         </a>
