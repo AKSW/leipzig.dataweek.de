@@ -929,16 +929,6 @@
 <https://2023.dataweek.de/dsm-2023/#programm-session-7> <http://schema.org/performer> <https://dataweek.de/#SebastianBomberg> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-7> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/dsm-2023/#programm-session-8> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/dsm-2023/#programm-session-8> <http://purl.org/dc/terms/description> "Evelyn Münster (chartdoktor.com) gibt Impulse für Dashboards, die die Nutzer*innen begeistern und warum jedes Data Science Team auch eine*n Designer*in benötigt."@de .
-<https://2023.dataweek.de/dsm-2023/#programm-session-8> <http://purl.org/dc/terms/description> "Evelyn Münster (chartdoktor.com) gives impulses for dashboards that inspire users and why every data science team also needs a designer."@en .
-<https://2023.dataweek.de/dsm-2023/#programm-session-8> <http://purl.org/dc/terms/title> "in Abstimmung zu Data UI/UX, Data und BI Storytelling"@de .
-<https://2023.dataweek.de/dsm-2023/#programm-session-8> <http://purl.org/dc/terms/title> "in coordination with Data UI/UX, Data and BI Storytelling"@en .
-<https://2023.dataweek.de/dsm-2023/#programm-session-8> <http://schema.org/endTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/dsm-2023/#programm-session-8> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2023.dataweek.de/dsm-2023/#programm-session-8> <http://schema.org/performer> <https://dataweek.de/#EvelynMuenster> .
-<https://2023.dataweek.de/dsm-2023/#programm-session-8> <http://schema.org/startTime> "14:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/dsm-2023/#programm-session-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-9> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-9> <http://purl.org/dc/terms/title> "Our journey to Data Science Mania"@en .
 <https://2023.dataweek.de/dsm-2023/#programm-session-9> <http://purl.org/dc/terms/title> "Unsere Reise zur Data Science Mania"@de .
@@ -949,6 +939,12 @@
 <https://2023.dataweek.de/dsm-2023/#programm-session-9> <http://schema.org/performer> <https://dataweek.de/#MelaniePufahl> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-9> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/dsm-2023/#programm-session-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/dsm-2023/#programm-talk-11> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/dsm-2023/#programm-talk-11> <http://schema.org/endTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/dsm-2023/#programm-talk-11> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2023.dataweek.de/dsm-2023/#programm-talk-11> <http://schema.org/performer> <https://dataweek.de/#EvelynMuenster> .
+<https://2023.dataweek.de/dsm-2023/#programm-talk-11> <http://schema.org/startTime> "14:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/dsm-2023/#programm-talk-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/dsm-2023/#programm-talk-13> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/dsm-2023/#programm-talk-13> <http://purl.org/dc/terms/title> "Break"@en .
 <https://2023.dataweek.de/dsm-2023/#programm-talk-13> <http://purl.org/dc/terms/title> "Pause"@de .
@@ -1187,8 +1183,8 @@
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/dsm-2023/#programm-session-5> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/dsm-2023/#programm-session-6> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/dsm-2023/#programm-session-7> .
-<https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/dsm-2023/#programm-session-8> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/dsm-2023/#programm-session-9> .
+<https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/dsm-2023/#programm-talk-11> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/dsm-2023/#programm-talk-13> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/dsm-2023/#programm-talk-4> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-1> .
@@ -2692,13 +2688,6 @@
 <https://dataweek.de/#EvaHoerster> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/eva-hoerster-26a718190/> .
 <https://dataweek.de/#EvaHoerster> <http://xmlns.com/foaf/0.1/name> "Eva Hoerster" .
 <https://dataweek.de/#EvaHoerster> <http://xmlns.com/foaf/0.1/title> "Dr." .
-<https://dataweek.de/#EvelynMuenster> <http://purl.org/dc/terms/description> "Data visualization & storytelling for data products & BI"@de .
-<https://dataweek.de/#EvelynMuenster> <http://purl.org/dc/terms/description> "Data visualization & storytelling for data products & BI"@en .
-<https://dataweek.de/#EvelynMuenster> <http://schema.org/affiliation> <https://www.chartdoktor.com/> .
-<https://dataweek.de/#EvelynMuenster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
-<https://dataweek.de/#EvelynMuenster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#EvelynMuenster> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/evelynmuenster/> .
-<https://dataweek.de/#EvelynMuenster> <http://xmlns.com/foaf/0.1/name> "Evelyn Münster" .
 <https://dataweek.de/#FalkWittmann> <http://schema.org/affiliation> <https://www.gicon.de/> .
 <https://dataweek.de/#FalkWittmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#FalkWittmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -3052,12 +3041,6 @@
 <https://dataweek.de/#MaximilianPensel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MaximilianPensel> <http://xmlns.com/foaf/0.1/homepage> <https://de.linkedin.com/in/maximilian-pensel-052890204> .
 <https://dataweek.de/#MaximilianPensel> <http://xmlns.com/foaf/0.1/name> "Maximilian Pensel " .
-<https://dataweek.de/#MaximilianRinck> <http://purl.org/dc/terms/description> "Abteilungsleiter Handel und Beschaffung beim BDEW"@de .
-<https://dataweek.de/#MaximilianRinck> <http://schema.org/affiliation> <https://www.bdew.de/> .
-<https://dataweek.de/#MaximilianRinck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
-<https://dataweek.de/#MaximilianRinck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#MaximilianRinck> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/dr-maximilian-rinck-9208368b/> .
-<https://dataweek.de/#MaximilianRinck> <http://xmlns.com/foaf/0.1/name> "Maximilian Rinck" .
 <https://dataweek.de/#MehdiAzarafza> <http://purl.org/dc/terms/description> "Scientific Researcher"@en .
 <https://dataweek.de/#MehdiAzarafza> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
 <https://dataweek.de/#MehdiAzarafza> <http://schema.org/affiliation> <https://infai.org/> .
@@ -3727,22 +3710,12 @@
 <https://www.alexanderthamm.com/> <http://xmlns.com/foaf/0.1/homepage> <https://alexanderthamm.com/> .
 <https://www.alexanderthamm.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.alexanderthamm.com/> .
 <https://www.alexanderthamm.com/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/at.png" .
-<https://www.bdew.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://www.bdew.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-<https://www.bdew.de/> <http://www.w3.org/2000/01/rdf-schema#label> "BDEW Bundesverband der Energie- und Wasserwirtschaft e.V."@de .
-<https://www.bdew.de/> <http://www.w3.org/2000/01/rdf-schema#label> "BDEW"@en .
-<https://www.bdew.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.bdew.de/> .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/personen/p/simon-maris/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://www.w3.org/2000/01/rdf-schema#label> "XLab - Burg Giebichenstein Kunsthochschule Halle"@de .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://www.w3.org/2000/01/rdf-schema#label> "XLab - Burg Giebichenstein University of Art Halle"@en .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://xmlns.com/foaf/0.1/homepage> <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> .
-<https://www.chartdoktor.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://www.chartdoktor.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-<https://www.chartdoktor.com/> <http://www.w3.org/2000/01/rdf-schema#label> "chartdoktor - Data Product School"@de .
-<https://www.chartdoktor.com/> <http://www.w3.org/2000/01/rdf-schema#label> "chartdoktor - Data Product School"@en .
-<https://www.chartdoktor.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.chartdoktor.com/> .
 <https://www.ciss.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.ciss.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.ciss.de> <http://www.w3.org/2000/01/rdf-schema#label> "CISS TDI GmbH"@de .
@@ -3901,11 +3874,9 @@
 <https://www.linkedin.com/in/christian-r%25C3%25B6%25C3%259Fler-67a34594/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/daniel-probst-a355251/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/dr-hendrik-kondziella-22b152123/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://www.linkedin.com/in/dr-maximilian-rinck-9208368b/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/dr-nadine-weissman-2b94ba4b/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/enrico-macholdt-473499110/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/eva-hoerster-26a718190/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://www.linkedin.com/in/evelynmuenster/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/franziska-seidel-482543210/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/gollam-rabby-28203095/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/heide-h%25C3%25BCttner-877b601a8/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
