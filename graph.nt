@@ -763,6 +763,7 @@
 <https://2023.dataweek.de/break/2023-06-27/18:30> <http://purl.org/dc/terms/description> "Der auf dem Fundament des alten Pleißenburgturms errichtete Turm des Neuen Rathauses gilt als höchster Rathausturm Deutschlands und ist eines der wichtigsten Wahrzeichen Leipzigs. Mit einer Höhe von genau 114,7 Metern überragt er die ganze Stadt. Im Rahmen der Data Week Leipzig haben Sie die Möglichkeit den Rathausturm mit uns zu besichtigen."@de .
 <https://2023.dataweek.de/break/2023-06-27/18:30> <http://purl.org/dc/terms/title> "Rathausturmführung"@de .
 <https://2023.dataweek.de/break/2023-06-27/18:30> <http://purl.org/dc/terms/title> "Visit city hall tower"@en .
+<https://2023.dataweek.de/break/2023-06-27/18:30> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2023.dataweek.de/break/2023-06-27/18:30> <http://schema.org/endTime> "19:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/break/2023-06-27/18:30> <http://schema.org/startTime> "18:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/break/2023-06-27/18:30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -998,8 +999,8 @@
 <https://2023.dataweek.de/free-2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Daten befreien! Team"@de .
 <https://2023.dataweek.de/free-2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "Free data! Team"@en .
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/free-2023/#programm-session-1> <http://purl.org/dc/terms/title> "Eröffnung & Grußwort"@de .
-<https://2023.dataweek.de/free-2023/#programm-session-1> <http://purl.org/dc/terms/title> "Welcoming address"@en .
+<https://2023.dataweek.de/free-2023/#programm-session-1> <http://purl.org/dc/terms/title> "Eröffnung "@de .
+<https://2023.dataweek.de/free-2023/#programm-session-1> <http://purl.org/dc/terms/title> "Opening"@en .
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/endTime> "10:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
@@ -1025,6 +1026,7 @@
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/description> "Sensor und Fernerkundung: Wege der Datengewinnung und der Anwendungsentwicklung als Basis für städtisches Klimamonitoring"@de .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/title> "Data sourcing for climate monitoring in cities"@en .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/title> "Datengewinnung für städtisches Klimamonitoring"@de .
+<https://2023.dataweek.de/free-2023/#programm-session-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://schema.org/endTime> "14:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://schema.org/performer> <https://dataweek.de/#MathiasBoedecker> .
@@ -1038,6 +1040,7 @@
 <https://2023.dataweek.de/free-2023/#programm-session-5> <http://purl.org/dc/terms/description> "Measure development and evaluation for the CO2-neutral city of the future"@en .
 <https://2023.dataweek.de/free-2023/#programm-session-5> <http://purl.org/dc/terms/title> "Paths to carbon neutral cities"@en .
 <https://2023.dataweek.de/free-2023/#programm-session-5> <http://purl.org/dc/terms/title> "Wege zur CO2-neutralen Stadt"@de .
+<https://2023.dataweek.de/free-2023/#programm-session-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2023.dataweek.de/free-2023/#programm-session-5> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-5> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2023.dataweek.de/free-2023/#programm-session-5> <http://schema.org/performer> <https://dataweek.de/#JuliaSchlie%C3%9Fauf> .
@@ -1051,6 +1054,7 @@
 <https://2023.dataweek.de/free-2023/#programm-session-6> <http://purl.org/dc/terms/description> "Social data literacy should not be left to chance. Data literacy must already be a basic building block in education today."@en .
 <https://2023.dataweek.de/free-2023/#programm-session-6> <http://purl.org/dc/terms/title> "Session Data competence"@en .
 <https://2023.dataweek.de/free-2023/#programm-session-6> <http://purl.org/dc/terms/title> "Session Datenkompetenz "@de .
+<https://2023.dataweek.de/free-2023/#programm-session-6> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2023.dataweek.de/free-2023/#programm-session-6> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-6> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
 <https://2023.dataweek.de/free-2023/#programm-session-6> <http://schema.org/performer> <https://dataweek.de/#JuliaFriedrich> .
@@ -1064,6 +1068,7 @@
 <https://2023.dataweek.de/free-2023/#programm-session-7> <http://purl.org/dc/terms/description> "Datenquellen, Datenräume, Simulationen und Visualierungen für Urbane Digitale Zwillinge."@de .
 <https://2023.dataweek.de/free-2023/#programm-session-7> <http://purl.org/dc/terms/title> "Der urbane digitale Zwilling: Theorie und Praxis"@de .
 <https://2023.dataweek.de/free-2023/#programm-session-7> <http://purl.org/dc/terms/title> "Urban digital twins: theory and practice"@en .
+<https://2023.dataweek.de/free-2023/#programm-session-7> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2023.dataweek.de/free-2023/#programm-session-7> <http://schema.org/endTime> "18:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-7> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2023.dataweek.de/free-2023/#programm-session-7> <http://schema.org/performer> <https://dataweek.de/#NadjaRiedel> .
@@ -1155,6 +1160,8 @@
 <https://2023.dataweek.de/free-2023/#programm-talk-27> <http://purl.org/dc/terms/title> "Energy Atlas Leipzig: Consolidating, Visualizing and Sharing Renewable Energy Data"@en .
 <https://2023.dataweek.de/free-2023/#programm-talk-27> <http://schema.org/performer> <https://dataweek.de/#JuliaSchlie%C3%9Fauf> .
 <https://2023.dataweek.de/free-2023/#programm-talk-27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/free-2023/#programm-talk-3> <http://purl.org/dc/terms/title> "Grußwort"@de .
+<https://2023.dataweek.de/free-2023/#programm-talk-3> <http://purl.org/dc/terms/title> "Welcoming address"@en .
 <https://2023.dataweek.de/free-2023/#programm-talk-3> <http://schema.org/endTime> "09:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-3> <http://schema.org/performer> <https://dataweek.de/#WolframGuenther> .
 <https://2023.dataweek.de/free-2023/#programm-talk-3> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
