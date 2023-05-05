@@ -1573,14 +1573,14 @@
 <https://2023.dataweek.de/gdds-2023/#programm-talk-13> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-16> <http://purl.org/dc/terms/date> "2023-06-26"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-16> <http://purl.org/dc/terms/title> "Perspectives of the European Commission"@de .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-16> <http://purl.org/dc/terms/title> "Perspectives of the European Commission"@en .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-16> <http://purl.org/dc/terms/title> "European policy developments around the Green Deal data space"@de .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-16> <http://purl.org/dc/terms/title> "European policy developments around the Green Deal data space"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-16> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-17> <http://purl.org/dc/terms/date> "2023-06-26"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-17> <http://purl.org/dc/terms/title> "Eurpean Strategies for Biodiversity protection"@de .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-17> <http://purl.org/dc/terms/title> "Eurpean Strategies for Biodiversity protection"@en .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-17> <http://purl.org/dc/terms/title> "Eurpean Strategies for biodiversity protection"@de .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-17> <http://purl.org/dc/terms/title> "Eurpean Strategies for biodiversity protection"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-17> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-17> <http://schema.org/endTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-17> <http://schema.org/performer> <https://dataweek.de/#NestorFernandez> .
@@ -1588,8 +1588,8 @@
 <https://2023.dataweek.de/gdds-2023/#programm-talk-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-18> <http://purl.org/dc/terms/date> "2023-06-26"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-18> <http://purl.org/dc/terms/title> "Technical Concepts, options and challenges to achieve Green Deal"@de .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-18> <http://purl.org/dc/terms/title> "Technical Concepts, options and challenges to achieve Green Deal"@en .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-18> <http://purl.org/dc/terms/title> "Technical concepts, options and challenges to achieve Green Deal"@de .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-18> <http://purl.org/dc/terms/title> "Technical concepts, options and challenges to achieve Green Deal"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-18> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-18> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-18> <http://schema.org/performer> <https://dataweek.de/#IngoSimonis> .
@@ -2911,6 +2911,11 @@
 <https://dataweek.de/#JohannLoempcke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JohannLoempcke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JohannLoempcke> <http://xmlns.com/foaf/0.1/name> "Johann Lömpcke" .
+<https://dataweek.de/#JordiEscriu> <http://purl.org/dc/terms/description> "ESCRIU Jordi <Jordi.ESCRIU@ec.europa.eu>"@en .
+<https://dataweek.de/#JordiEscriu> <http://schema.org/affiliation> <urn:url-encoded-value:European+Comission> .
+<https://dataweek.de/#JordiEscriu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#JordiEscriu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JordiEscriu> <http://xmlns.com/foaf/0.1/name> "Jordi Escriu" .
 <https://dataweek.de/#JudithFauth> <http://schema.org/affiliation> <urn:url-encoded-value:EUnet4DBP> .
 <https://dataweek.de/#JudithFauth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JudithFauth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
