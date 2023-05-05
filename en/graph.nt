@@ -33,6 +33,14 @@
 <http://aksw.org/DenisStreitmatter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/DenisStreitmatter> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/DenisStreitmatter> .
 <http://aksw.org/DenisStreitmatter> <http://xmlns.com/foaf/0.1/name> "Denis Streitmatter" .
+<http://aksw.org/DirkSchmalzried> <http://purl.org/dc/terms/description> "Professorship for Business Informatics, especially E-Business"@en .
+<http://aksw.org/DirkSchmalzried> <http://purl.org/dc/terms/description> "Professur für Wirtschaftsinformatik, insbesondere E-Business"@de .
+<http://aksw.org/DirkSchmalzried> <http://schema.org/affiliation> <https://www.eah-jena.de/> .
+<http://aksw.org/DirkSchmalzried> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://aksw.org/DirkSchmalzried> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/DirkSchmalzried> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Dirk Schmalzried" .
+<http://aksw.org/DirkSchmalzried> <http://xmlns.com/foaf/0.1/name> "Dirk Schmalzried" .
+<http://aksw.org/DirkSchmalzried> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <http://aksw.org/EdgardMarx> <http://purl.org/dc/terms/description> "HTWK Leipzig/eccenca GmbH"@de .
 <http://aksw.org/EdgardMarx> <http://purl.org/dc/terms/description> "HTWK Leipzig/eccenca GmbH"@en .
 <http://aksw.org/EdgardMarx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -3749,6 +3757,10 @@
 <https://www.diw.de/de> <http://www.w3.org/2000/01/rdf-schema#label> "DIW Berlin"@de .
 <https://www.diw.de/de> <http://www.w3.org/2000/01/rdf-schema#label> "DIW Berlin"@en .
 <https://www.diw.de/de> <http://xmlns.com/foaf/0.1/homepage> <https://www.diw.de/de> .
+<https://www.eah-jena.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.eah-jena.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.eah-jena.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Ernst-Abbe-Hochschule Jena - University of Applied Sciences"@de .
+<https://www.eah-jena.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Ernst-Abbe-Hochschule Jena - University of Applied Sciences"@en .
 <https://www.eccenca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.eccenca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.eccenca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
@@ -3983,11 +3995,10 @@
 <https://www.uni-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Leipzig University"@en .
 <https://www.uni-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Universität Leipzig"@de .
 <https://www.uni-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.uni-leipzig.de/> .
-<https://www.verwegener-trefflich.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.verwegener-trefflich.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.verwegener-trefflich.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Verwegener & Trefflich - Unternehmensberater für Innovationsstrategien​"@de .
 <https://www.verwegener-trefflich.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Verwegener & Trefflich - Unternehmensberater für Innovationsstrategien​"@en .
-<https://www.verwegener-trefflich.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.verwegener-trefflich.de/> .
+<https://www.verwegener-trefflich.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.eah-jena.de/> .
 <https://www.vistex.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.vistex.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Vistex, Inc." .
 <https://www.vistex.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.vistex.com/> .
