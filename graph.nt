@@ -33,6 +33,12 @@
 <http://aksw.org/DenisStreitmatter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/DenisStreitmatter> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/DenisStreitmatter> .
 <http://aksw.org/DenisStreitmatter> <http://xmlns.com/foaf/0.1/name> "Denis Streitmatter" .
+<http://aksw.org/DilyanaBossenz> <http://purl.org/dc/terms/description> "Professional coach"@en .
+<http://aksw.org/DilyanaBossenz> <http://purl.org/dc/terms/description> "Professioneller Coach"@de .
+<http://aksw.org/DilyanaBossenz> <http://schema.org/affiliation> <https://datenkompetenz-online.de/> .
+<http://aksw.org/DilyanaBossenz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://aksw.org/DilyanaBossenz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/DilyanaBossenz> <http://xmlns.com/foaf/0.1/name> "Dilyana Bossenz" .
 <http://aksw.org/DirkSchmalzried> <http://purl.org/dc/terms/description> "Professorship for Business Informatics, especially E-Business"@en .
 <http://aksw.org/DirkSchmalzried> <http://purl.org/dc/terms/description> "Professur für Wirtschaftsinformatik, insbesondere E-Business"@de .
 <http://aksw.org/DirkSchmalzried> <http://schema.org/affiliation> <https://www.eah-jena.de/> .
@@ -1132,6 +1138,7 @@
 <https://2023.dataweek.de/free-2023/#programm-talk-22> <http://purl.org/dc/terms/title> "tba"@de .
 <https://2023.dataweek.de/free-2023/#programm-talk-22> <http://purl.org/dc/terms/title> "tba"@en .
 <https://2023.dataweek.de/free-2023/#programm-talk-22> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/free-2023/#programm-talk-22> <http://schema.org/performer> <http://aksw.org/DilyanaBossenz> .
 <https://2023.dataweek.de/free-2023/#programm-talk-22> <http://schema.org/startTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-talk-25> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3593,6 +3600,11 @@
 <https://dataweek.de/venue#Wandelhalle> <http://purl.org/dc/terms/title> "Wandelhalle" .
 <https://dataweek.de/venue#Wandelhalle> <http://purl.org/dc/terms/title> "Wandelhalle"@de .
 <https://dataweek.de/venue#Wandelhalle> <http://purl.org/dc/terms/title> "Wandelhalle"@en .
+<https://datenkompetenz-online.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://datenkompetenz-online.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://datenkompetenz-online.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Datenkompetenz-Online"@de .
+<https://datenkompetenz-online.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Datenkompetenz-Online"@en .
+<https://datenkompetenz-online.de/> <http://xmlns.com/foaf/0.1/homepage> <https://datenkompetenz-online.de/> .
 <https://dbpedia.org/> <http://ns.ontowiki.net/SysOnt/Site/small_logo> "/resources/images/partner/DBpediaLogo.svg" .
 <https://dbpedia.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://dbpedia.org/> <http://www.w3.org/2000/01/rdf-schema#label> "DBpedia Association" .
