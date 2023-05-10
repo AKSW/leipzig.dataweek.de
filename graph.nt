@@ -654,6 +654,7 @@
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://www.europa.eu/> .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://www.ogc.org/> .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://tovidero.com/> .
+<https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://www.lecos.de/> .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
@@ -2995,6 +2996,8 @@
 <https://dataweek.de/#LogoEccenca> <https://dataweek.de/#contrastFlavor> "/resources/images/partner/eccenca_w_bg.svg" .
 <https://dataweek.de/#LogoGEOE3> <http://purl.org/dc/terms/description> "GEOE3" .
 <https://dataweek.de/#LogoGEOE3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/geoe3.png" .
+<https://dataweek.de/#LogoLecos> <http://purl.org/dc/terms/description> "Lecos GmbH" .
+<https://dataweek.de/#LogoLecos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/lecos.png" .
 <https://dataweek.de/#LogoOGC> <http://purl.org/dc/terms/description> "Open Geospatial Consortium" .
 <https://dataweek.de/#LogoOGC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/Open_Geospatial_Consortium.png" .
 <https://dataweek.de/#LogoStadtLeipzig> <http://purl.org/dc/terms/description> "Wappen der Stadt Leipzig mit Schriftzug: Stadt Leipzig" .
@@ -3887,6 +3890,10 @@
 <https://www.l.de/verkehrsbetriebe/> <http://www.w3.org/2000/01/rdf-schema#label> "Leipzig Transport Services"@en .
 <https://www.l.de/verkehrsbetriebe/> <http://www.w3.org/2000/01/rdf-schema#label> "Leipziger Verkehrsbetriebe"@de .
 <https://www.l.de/verkehrsbetriebe/> <http://xmlns.com/foaf/0.1/homepage> <https://www.l.de/verkehrsbetriebe/> .
+<https://www.lecos.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.lecos.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Lecos GmbH" .
+<https://www.lecos.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.lecos.de/> .
+<https://www.lecos.de/> <http://xmlns.com/foaf/0.1/logo> <https://dataweek.de/#LogoLecos> .
 <https://www.leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig" .
 <https://www.leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/> .
