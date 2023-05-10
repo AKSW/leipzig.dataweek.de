@@ -1,6 +1,6 @@
 {%- assign availableLanguage = include.resource | rdf_property: "schema:availableLanguage" -%}
 
-{%- if availableLanguage == "<http://lexvo.org/id/iso639-3/deu>" -%}
+{%- if availableLanguage.iri == "http://lexvo.org/id/iso639-3/deu" -%}
   {%- assign lang_string = "@de"-%}
 {%- else -%}
   {%- assign lang_string = "@english"-%}
