@@ -19,6 +19,6 @@
     <a href="{{date}}{{location_id}}.html#{{start | date: "%H:%M"}}">{{ title }}</a>
   </h4>
   <p class="meta">
-    <time datetime="{{start}}">{{start | date: "%H:%M"}}</time> - <time datetime="{{end}}">{{end | date: "%H:%M"}}</time>
+    <time datetime="{{start}}">{{start | date: "%H:%M"}}</time> - <time datetime="{{end}}">{{end | date: "%H:%M"}}</time> <span>|</span> {% include components/available_language.html resource=session %}
   </p>
 </td>

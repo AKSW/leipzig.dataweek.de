@@ -27,7 +27,7 @@
       {{ title }}
     </h4>
     <p class="meta">
-      <time datetime="{{ start }}">{{ start }}</time> - <time datetime="{{ end }}">{{ end }}</time> <span>|</span> {{ location_title }}
+      <time datetime="{{ start }}">{{ start }}</time> - <time datetime="{{ end }}">{{ end }}</time> <span>|</span> {{ location_title }} <span>|</span> {% include components/available_language.html resource=session %}
     </p>
     {%- if isKeynote.first -%}
       {% include components/program_keynote.html session=include.session %}
