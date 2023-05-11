@@ -2515,6 +2515,11 @@
 <https://cityscaper.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Cityscaper"@de .
 <https://cityscaper.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Cityscaper"@en .
 <https://cityscaper.de/> <http://xmlns.com/foaf/0.1/homepage> <https://cityscaper.de/> .
+<https://commission.europa.eu/index_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://commission.europa.eu/index_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://commission.europa.eu/index_en> <http://www.w3.org/2000/01/rdf-schema#label> "European Comission"@en .
+<https://commission.europa.eu/index_en> <http://www.w3.org/2000/01/rdf-schema#label> "Europäische Kommission"@de .
+<https://commission.europa.eu/index_en> <http://xmlns.com/foaf/0.1/homepage> <https://commission.europa.eu/index_en> .
 <https://connectedurbantwins.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://connectedurbantwins.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Connected Urban Twins" .
 <https://connectedurbantwins.de/> <http://xmlns.com/foaf/0.1/homepage> <https://connectedurbantwins.de/> .
@@ -2947,7 +2952,7 @@
 <https://dataweek.de/#JohannLoempcke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JohannLoempcke> <http://xmlns.com/foaf/0.1/name> "Johann Lömpcke" .
 <https://dataweek.de/#JordiEscriu> <http://purl.org/dc/terms/description> "Jordi ESCRIU\nScientific Project Officer\n\ncid:image001.gif@01CDFFA3.82E4FE90\nEuropean Commission\nJoint Research Centre\nDigital Economy Unit (T.01)\n\nVia E. Fermi 2749 – TP 263\nI-21027 Ispra (VA)/Italy\nBuil. 26A-1/210\ntel. +39 0332 783963\nJordi.ESCRIU@ec.europa.eu"@en .
-<https://dataweek.de/#JordiEscriu> <http://schema.org/affiliation> <urn:url-encoded-value:European+Comission> .
+<https://dataweek.de/#JordiEscriu> <http://schema.org/affiliation> <https://commission.europa.eu/index_en> .
 <https://dataweek.de/#JordiEscriu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JordiEscriu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JordiEscriu> <http://xmlns.com/foaf/0.1/name> "Jordi Escriu" .
@@ -3241,7 +3246,7 @@
 <https://dataweek.de/#PhilippUlrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#PhilippUlrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#PhilippUlrich> <http://xmlns.com/foaf/0.1/name> "Philipp Ulrich" .
-<https://dataweek.de/#PiotrZaborowski> <http://schema.org/affiliation> <urn:url-encoded-value:OGC> .
+<https://dataweek.de/#PiotrZaborowski> <http://schema.org/affiliation> <https://www.ogc.org/> .
 <https://dataweek.de/#PiotrZaborowski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#PiotrZaborowski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#PiotrZaborowski> <http://xmlns.com/foaf/0.1/name> "Piotr Zaborowski" .
