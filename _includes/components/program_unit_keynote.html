@@ -1,0 +1,32 @@
+{% include strings.html %}
+{%- assign session = include.session -%}
+{%- assign date = session | rdf_property: "dct:date" | date: "%d.%m." -%}
+{%- assign start = session | rdf_property: "schema:startTime" | date: "%H:%M" -%}
+{%- assign end = session | rdf_property: "schema:endTime" | date: "%H:%M" -%}
+{%- assign location = session | rdf_property: "schema:location" -%}
+{%- assign location_title = location | rdf_property: "dct:title", site.language -%}
+{%- unless location_title -%}
+{%- assign location_title = location | rdf_property: "dct:title" -%}
+{%- endunless -%}
+{%- assign title = session | rdf_property: "dct:title", site.language -%}
+
+<section class="timetable-unit" id="{{ start | date: "%H:%M" }}">
+  <header>
+    <h3>
+      {{ date }}
+    </h3>
+  </header>
+  <div>
+    <h4>
+      Keynote
+    </h4>
+    <p class="meta">
+      <time datetime="{{ start }}">{{ start }}</time> - <time datetime="{{ end }}">{{ end }}</time> <span>|</span> {{ location_title }} <span>|</span> {% include components/available_language.html resource=session %}
+    </p>
+    {% include components/program_keynote.html session=include.session %}
+    <!--p class="calendar">
+      <a href="programm_montag_bereich-a.html#" title="Veranstaltung als Kalender-Datei speichern"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
+      <use xlink:href="{% relative_link /resources/images/icons.svg %}#calendar-add"></use></svg></a>
+    </p-->
+  </div>
+</section>

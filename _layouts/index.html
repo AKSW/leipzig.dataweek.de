@@ -22,7 +22,7 @@ type: Event
         <ul>
           {%- for keynote in keynotes -%}
             <li>
-              {%- include components/program_unit.html session=keynote.entity -%}
+              {%- include components/program_unit_keynote.html session=keynote.entity -%}
             </li>
           {%- endfor -%}
         </ul>
