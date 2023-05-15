@@ -2106,32 +2106,28 @@
 <https://2023.dataweek.de/kmi-23/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "KMI Team"@de .
 <https://2023.dataweek.de/kmi-23/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "KMI Team"@en .
 <https://2023.dataweek.de/kmi-23/#programm-session-1> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/kmi-23/#programm-session-1> <http://purl.org/dc/terms/title> "Eröffnung KMI Konsortialtreffen"@de .
-<https://2023.dataweek.de/kmi-23/#programm-session-1> <http://purl.org/dc/terms/title> "Opening"@en .
+<https://2023.dataweek.de/kmi-23/#programm-session-1> <http://purl.org/dc/terms/title> "KMI Consortium Meeting"@en .
+<https://2023.dataweek.de/kmi-23/#programm-session-1> <http://purl.org/dc/terms/title> "KMI Konsortialtreffen"@de .
 <https://2023.dataweek.de/kmi-23/#programm-session-1> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2023.dataweek.de/kmi-23/#programm-session-1> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/kmi-23/#programm-session-1> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/kmi-23/#programm-session-1> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
-<https://2023.dataweek.de/kmi-23/#programm-session-1> <http://schema.org/performer> <https://dataweek.de/#ChristianZinke> .
 <https://2023.dataweek.de/kmi-23/#programm-session-1> <http://schema.org/startTime> "10:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/kmi-23/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-talk-3> .
+<https://2023.dataweek.de/kmi-23/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-talk-4> .
+<https://2023.dataweek.de/kmi-23/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-talk-5> .
 <https://2023.dataweek.de/kmi-23/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/kmi-23/#programm-session-2> <http://purl.org/dc/terms/title> "Impulsvortrag und Vorstellung der KMI Pilotanwendungen"@de .
-<https://2023.dataweek.de/kmi-23/#programm-session-2> <http://purl.org/dc/terms/title> "Keynote speech and presentation of the KMI pilot applications"@en .
+<https://2023.dataweek.de/kmi-23/#programm-session-2> <http://purl.org/dc/terms/title> "Consortium meeting (not public)"@en .
+<https://2023.dataweek.de/kmi-23/#programm-session-2> <http://purl.org/dc/terms/title> "Konsortialtreffen (nicht öffentlich)"@de .
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
-<https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-talk-4> .
-<https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-talk-5> .
+<https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/startTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/kmi-23/#programm-session-3> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/kmi-23/#programm-session-3> <http://purl.org/dc/terms/title> "Consortium meeting (not public)"@en .
-<https://2023.dataweek.de/kmi-23/#programm-session-3> <http://purl.org/dc/terms/title> "Konsortialtreffen (nicht öffentlich)"@de .
-<https://2023.dataweek.de/kmi-23/#programm-session-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2023.dataweek.de/kmi-23/#programm-session-3> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/kmi-23/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
-<https://2023.dataweek.de/kmi-23/#programm-session-3> <http://schema.org/startTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/kmi-23/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/kmi-23/#programm-talk-3> <http://purl.org/dc/terms/title> "Eröffnung "@de .
+<https://2023.dataweek.de/kmi-23/#programm-talk-3> <http://purl.org/dc/terms/title> "Opening"@en .
+<https://2023.dataweek.de/kmi-23/#programm-talk-3> <http://schema.org/performer> <https://dataweek.de/#ChristianZinke> .
+<https://2023.dataweek.de/kmi-23/#programm-talk-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/kmi-23/#programm-talk-4> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/kmi-23/#programm-talk-4> <http://purl.org/dc/terms/title> "AI for society, economy and science\nZAKI - the Center for Applied Artificial Intelligence in Jena"@en .
 <https://2023.dataweek.de/kmi-23/#programm-talk-4> <http://purl.org/dc/terms/title> "KI für die Gesellschaft, Wirtschaft und Wissenschaft\nZAKI - das Zentrum für angewandte Künstliche Intelligenz in Jena "@de .
@@ -2157,7 +2153,6 @@
 <https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/15:30> .
 <https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-session-1> .
 <https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-session-2> .
-<https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-session-3> .
 <https://2023.dataweek.de/kmi-23/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/kmi-23/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2023.dataweek.de/kmi-23/> <http://www.w3.org/2000/01/rdf-schema#label> "KMI Konsortialtreffen"@de .
