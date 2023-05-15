@@ -1034,8 +1034,6 @@
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#MirkoMuehlpfort> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/startTime> "10:50:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-8> .
-<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-talk-4> .
-<https://2023.dataweek.de/free-2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-talk-5> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/free-2023/#programm-session-3> <http://purl.org/dc/terms/description> "Sensor and Remote Sensing: Ways of data acquisition and application development as a basis for urban climate monitoring."@en .
@@ -1246,7 +1244,6 @@
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/09:45> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/12:00> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/14:30> .
-<https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/15:30> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/16:30> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/dsm-2023/#programm-session-1> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/dsm-2023/#programm-session-2> .
@@ -1263,9 +1260,6 @@
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-5> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-6> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-7> .
-<https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-session-1> .
-<https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-session-2> .
-<https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-session-3> .
 <https://2023.dataweek.de/free-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/free-2023/> .
 <https://2023.dataweek.de/free-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/free-2023/2023-06-27/> .
 <https://2023.dataweek.de/free-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
@@ -2127,6 +2121,8 @@
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-talk-4> .
+<https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-talk-5> .
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/kmi-23/#programm-session-3> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/kmi-23/#programm-session-3> <http://purl.org/dc/terms/title> "Consortium meeting (not public)"@en .
@@ -2155,6 +2151,13 @@
 <https://2023.dataweek.de/kmi-23/> <http://schema.org/abstract> "Das KMI Konsortium (K\u00FCnstlich \u2013 Menschlich \u2013 Intelligent) stellt sich der interessierten \u00D6ffentlichkeit vor und gibt Einblicke in aktuelle Entwicklungen rund um KI in der Region des Mitteldeutschen Kohlereviers."@de .
 <https://2023.dataweek.de/kmi-23/> <http://schema.org/abstract> "The KMI consortium (Artificial - Human - Intelligent) will present itself to the interested public and provide insights into current developments around AI in the region of the Central German Coalfield."@en .
 <https://2023.dataweek.de/kmi-23/> <http://schema.org/organizer> <https://2023.dataweek.de/kmi-23/#Team> .
+<https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/09:45> .
+<https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/12:00> .
+<https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/14:30> .
+<https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/15:30> .
+<https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-session-1> .
+<https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-session-2> .
+<https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-session-3> .
 <https://2023.dataweek.de/kmi-23/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/kmi-23/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2023.dataweek.de/kmi-23/> <http://www.w3.org/2000/01/rdf-schema#label> "KMI Konsortialtreffen"@de .
