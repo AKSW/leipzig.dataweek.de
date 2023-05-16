@@ -2,7 +2,10 @@
 <header class="page-header">
   <div class="page-header-inner">
     <div class="page-logo">
-      <a href="index.html" title="zurück zur Startseite"><img src="../resources/images/dataweek_logo.svg" height="84" width="420" alt="Data Week Leipzig 2023"></a>
+      <a href="{{ rootResource.page_url | relativize_url }}" title="{{ str_homepage }}"><img src="{{ "/resources/images/dataweek_logo.svg" | relativize_url }}" alt="Data Week Leipzig 2023"></a>
+      <p class="claim">
+        {{ rootResource | rdf_property: "schema:slogan", site.language }}
+      </p>
     </div>
     <div class="date">
       26. - 30.6.2023
