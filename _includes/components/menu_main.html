@@ -37,14 +37,14 @@ select distinct ?entry {
   {% assign current_super_resource = selected_res.first.entry %}
 {% endif %}
 
-{% assign navigation_type = "site:Navigation" | rdf_get %}
-{% assign events_iri = "dw23:Events" | rdf_get %}
+{% assign events_iri = "dw23:tracks" | rdf_get %}
 {% assign events = events_iri | rdf_container %}
 
 {% capture events_submenu %}
 <ul>
 {% for event in events %}
-  {% capture weekday_string %}{% include components/list_inline.html sub=event pred="dct:date" variant="date" format="%a" %}{% endcapture %}
+  {% capture weekday_string -%}{%- include components/list_inline.html sub=event pred="dct:date" variant="date" format="%a" -%}{%- endcapture %}
+  {% assign weekday_string = weekday_string | strip %}
   {% assign event_label = event | rdf_property: "dw:slug" | append: " (" | append: weekday_string | append: ")" %}
   {% assign event_link = event.render_path | relativize_url %}
   {% include components/menu_sub_entry.html current=current_page link=event_link label=event_label %}
