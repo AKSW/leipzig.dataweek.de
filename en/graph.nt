@@ -41,6 +41,10 @@
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/depiction> "/images/people/ThomasRiechert.png" .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/ThomasRiechert> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/name> "Thomas Riechert" .
+<http://schema.org/PublicationIssue> <http://www.w3.org/2000/01/rdf-schema#label> "Publication"@en .
+<http://schema.org/PublicationIssue> <http://www.w3.org/2000/01/rdf-schema#label> "Publikation"@de .
+<http://schema.org/VideoObject> <http://www.w3.org/2000/01/rdf-schema#label> "Video"@de .
+<http://schema.org/VideoObject> <http://www.w3.org/2000/01/rdf-schema#label> "Video"@en .
 <http://schema.org/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Ort"@de .
 <http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Place"@en .
@@ -55,6 +59,9 @@
 <https://appplant.de/> <http://www.w3.org/2000/01/rdf-schema#label> "appPlant GmbH" .
 <https://appplant.de/> <http://xmlns.com/foaf/0.1/homepage> <https://appplant.de/> .
 <https://appplant.de/> <http://xmlns.com/foaf/0.1/logo> "/images/partner/AppPlant.png" .
+<https://ceur-ws.org/Vol-3376/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://ceur-ws.org/Vol-3376/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PublicationIssue> .
+<https://ceur-ws.org/Vol-3376/> <http://www.w3.org/2000/01/rdf-schema#label> "Proceedings of the International Workshop on Data-driven Resilience Research 2022" .
 <https://connectedurbantwins.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://connectedurbantwins.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Connected Urban Twins" .
 <https://connectedurbantwins.de/> <http://xmlns.com/foaf/0.1/homepage> <https://connectedurbantwins.de/> .
@@ -201,6 +208,7 @@
 <https://dataweek.de/d2r2-22/> <http://schema.org/date> "2022-07-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://dataweek.de/d2r2-22/> <http://schema.org/logo> <https://dataweek.de/d2r2-22/logo.png> .
 <https://dataweek.de/d2r2-22/> <http://schema.org/organizer> <https://dataweek.de/d2r2-22/#Team> .
+<https://dataweek.de/d2r2-22/> <http://schema.org/recordedIn> <https://ceur-ws.org/Vol-3376/> .
 <https://dataweek.de/d2r2-22/> <http://schema.org/recordedIn> <https://www.youtube.com/watch?v=NA5-XYX5Kbo> .
 <https://dataweek.de/d2r2-22/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://dataweek.de/d2r2-22/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -369,6 +377,7 @@
 <https://www.youtube.com/watch?v=HJmDvqTKS8A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://www.youtube.com/watch?v=HJmDvqTKS8A> <http://www.w3.org/2000/01/rdf-schema#label> "10. Leipziger Semantic Web Tag (Sitzungssaal)" .
 <https://www.youtube.com/watch?v=NA5-XYX5Kbo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://www.youtube.com/watch?v=NA5-XYX5Kbo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/VideoObject> .
 <https://www.youtube.com/watch?v=NA5-XYX5Kbo> <http://www.w3.org/2000/01/rdf-schema#label> "International Workshop on Data-driven Resilience Research 2022 (Sitzungssaal)" .
 <https://www.youtube.com/watch?v=RhZ5lsL69eU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://www.youtube.com/watch?v=RhZ5lsL69eU> <http://www.w3.org/2000/01/rdf-schema#label> "Opening Day (Ratsplenarsaal)" .

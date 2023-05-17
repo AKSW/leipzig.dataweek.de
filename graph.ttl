@@ -74,6 +74,12 @@ aksw:ThomasRiechert
     foaf:homepage aksw:ThomasRiechert ;
     foaf:name "Thomas Riechert" .
 
+schema:PublicationIssue
+    rdfs:label "Publication"@en, "Publikation"@de .
+
+schema:VideoObject
+    rdfs:label "Video"@de, "Video"@en .
+
 schema:location
     a owl:ObjectProperty ;
     rdfs:label "Ort"@de, "Place"@en .
@@ -95,6 +101,10 @@ schema:startDate
     rdfs:label "appPlant GmbH" ;
     foaf:homepage <https://appplant.de/> ;
     foaf:logo "/images/partner/AppPlant.png" .
+
+<https://ceur-ws.org/Vol-3376/>
+    a schema:CreativeWork, schema:PublicationIssue ;
+    rdfs:label "Proceedings of the International Workshop on Data-driven Resilience Research 2022" .
 
 <https://connectedurbantwins.de/>
     a schema:Organization ;
@@ -282,7 +292,7 @@ We invite contributions of novel results and ongoing work as well as position pa
     schema:date "2022-07-06"^^xsd:date ;
     schema:logo <https://dataweek.de/d2r2-22/logo.png> ;
     schema:organizer <https://dataweek.de/d2r2-22/#Team> ;
-    schema:recordedIn <https://www.youtube.com/watch?v=NA5-XYX5Kbo>, <https://ceur-ws.org/Vol-3376/> ;
+    schema:recordedIn <https://ceur-ws.org/Vol-3376/>, <https://www.youtube.com/watch?v=NA5-XYX5Kbo> ;
     a schema:Event, foaf:Document ;
     rdfs:label "International Workshop on Data-driven Resilience Research 2022"@de, "International Workshop on Data-driven Resilience Research 2022"@en ;
     dw:pc <https://dataweek.de/d2r2-22/#PC> ;
@@ -698,13 +708,6 @@ Dies spiegelt sich auch den folgenden Programmhighlights wieder:
 <https://www.youtube.com/watch?v=NA5-XYX5Kbo>
     a schema:CreativeWork, schema:VideoObject ;
     rdfs:label "International Workshop on Data-driven Resilience Research 2022 (Sitzungssaal)" .
-
-<https://ceur-ws.org/Vol-3376/>
-    a schema:CreativeWork, schema:PublicationIssue ;
-    rdfs:label "Proceedings of the International Workshop on Data-driven Resilience Research 2022" .
-
-schema:PublicationIssue rdfs:label "Publication"@en, "Publikation"@de .
-schema:VideoObject rdfs:label "Video"@en, "Video"@de .
 
 <https://www.youtube.com/watch?v=RhZ5lsL69eU>
     a schema:CreativeWork ;
