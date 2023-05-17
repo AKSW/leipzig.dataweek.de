@@ -242,8 +242,18 @@
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/ThomasRiechert> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/name> "Thomas Riechert" .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
+<http://lexvo.org/id/iso639-3/deu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lexvo.org/ontology#Language> .
 <http://lexvo.org/id/iso639-3/deu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Language> .
+<http://lexvo.org/id/iso639-3/deu> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsch"@de .
+<http://lexvo.org/id/iso639-3/deu> <http://www.w3.org/2000/01/rdf-schema#label> "German"@en .
+<http://lexvo.org/id/iso639-3/deu> <http://www.w3.org/2004/02/skos/core#altLabel> "de" .
+<http://lexvo.org/id/iso639-3/deu> <http://www.w3.org/2004/02/skos/core#prefLabel> "German" .
+<http://lexvo.org/id/iso639-3/eng> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lexvo.org/ontology#Language> .
 <http://lexvo.org/id/iso639-3/eng> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Language> .
+<http://lexvo.org/id/iso639-3/eng> <http://www.w3.org/2000/01/rdf-schema#label> "Englisch"@de .
+<http://lexvo.org/id/iso639-3/eng> <http://www.w3.org/2000/01/rdf-schema#label> "English"@en .
+<http://lexvo.org/id/iso639-3/eng> <http://www.w3.org/2004/02/skos/core#altLabel> "en" .
+<http://lexvo.org/id/iso639-3/eng> <http://www.w3.org/2004/02/skos/core#prefLabel> "English" .
 <http://schema.org/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Ort"@de .
 <http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Place"@en .
@@ -1370,6 +1380,7 @@
 <https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://purl.org/dc/terms/title> "Hackathon Winners Award Ceremony"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://purl.org/dc/terms/title> "Hackathon Winners Award Ceremony"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://schema.org/endTime> "14:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://schema.org/startTime> "13:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -1789,6 +1800,7 @@
 <https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://purl.org/dc/terms/title> "Leipzig Winners"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://purl.org/dc/terms/title> "Leipzig Winners"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://schema.org/endTime> "14:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://schema.org/startTime> "13:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -1796,6 +1808,7 @@
 <https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://purl.org/dc/terms/title> "Jami Valorinta"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://purl.org/dc/terms/title> "Jami Valorinta"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://schema.org/endTime> "14:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://schema.org/startTime> "13:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -1803,6 +1816,7 @@
 <https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://purl.org/dc/terms/title> "Armando Dauer -  Simulator for Predicting Accumulation and Drainage through Elevation (SPADE)"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://purl.org/dc/terms/title> "Armando Dauer -  Simulator for Predicting Accumulation and Drainage through Elevation (SPADE)"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://schema.org/endTime> "14:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://schema.org/startTime> "13:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -1818,6 +1832,7 @@
 <https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://purl.org/dc/terms/title> "Tiago Tamagusko"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://purl.org/dc/terms/title> "Tiago Tamagusko"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://schema.org/endTime> "14:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://schema.org/startTime> "13:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -3741,18 +3756,6 @@
 <https://dataweek.de/#img_7615_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
 <https://dataweek.de/#img_7615_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/img_7615_optimized.jpg" .
 <https://dataweek.de/> <http://www.w3.org/2002/07/owl#sameAs> <https://2023.dataweek.de/> .
-<https://dataweek.de/language#de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Language> .
-<https://dataweek.de/language#de> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsch"@de .
-<https://dataweek.de/language#de> <http://www.w3.org/2000/01/rdf-schema#label> "German"@en .
-<https://dataweek.de/language#de> <http://www.w3.org/2004/02/skos/core#altLabel> "de" .
-<https://dataweek.de/language#de> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deutsch"@de .
-<https://dataweek.de/language#de> <http://www.w3.org/2004/02/skos/core#prefLabel> "German"@en .
-<https://dataweek.de/language#en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Language> .
-<https://dataweek.de/language#en> <http://www.w3.org/2000/01/rdf-schema#label> "Englisch"@de .
-<https://dataweek.de/language#en> <http://www.w3.org/2000/01/rdf-schema#label> "English"@en .
-<https://dataweek.de/language#en> <http://www.w3.org/2004/02/skos/core#altLabel> "en" .
-<https://dataweek.de/language#en> <http://www.w3.org/2004/02/skos/core#prefLabel> "Englisch"@de .
-<https://dataweek.de/language#en> <http://www.w3.org/2004/02/skos/core#prefLabel> "English"@en .
 <https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://dataweek.de/#JanaBendigs> .
 <https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/JuliaHolze> .
 <https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/MichaelMartin> .
