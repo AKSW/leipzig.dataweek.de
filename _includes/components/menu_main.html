@@ -100,7 +100,7 @@ select distinct ?entry {
       {% assign contact = "<https://2023.dataweek.de/contact/>" | rdf_get %}
 
       {% include components/menu_sub_entry.html current=current_page resource=datenschutz %}
-      {% include components/menu_main_entry.html current=current_page resource=team %}
+      {% include components/menu_sub_entry.html current=current_page resource=team %}
       {% include components/menu_sub_entry.html current=current_page resource=contact %}
     </ul>
   </nav>
