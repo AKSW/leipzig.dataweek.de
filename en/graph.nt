@@ -149,6 +149,8 @@
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Natanael Arndt" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/NatanaelArndt.jpg" .
+<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/holdsAccount> <https://chaos.social/@white_gecko> .
+<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/holdsAccount> <https://twitter.com/white_gecko/> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/NatanaelArndt> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/name> "Natanael Arndt" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/title> "Dr." .
@@ -2637,6 +2639,8 @@
 <https://brox.de/> <http://www.w3.org/2000/01/rdf-schema#label> "brox IT-Solutions GmbH"@de .
 <https://brox.de/> <http://www.w3.org/2000/01/rdf-schema#label> "brox IT-Solutions GmbH"@en .
 <https://brox.de/> <http://xmlns.com/foaf/0.1/homepage> <https://brox.de/> .
+<https://chaos.social/@white_gecko> <http://rdfs.org/sioc/ns#member_of> <https://joinmastodon.org/> .
+<https://chaos.social/@white_gecko> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#UserAccount> .
 <https://cityscaper.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://cityscaper.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://cityscaper.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Cityscaper"@de .
@@ -3863,6 +3867,7 @@
 <https://infai.org/workpage-dr-christian-zinke-wehlmann/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/2000/01/rdf-schema#label> "LEDSPLaY17" .
+<https://joinmastodon.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Usergroup> .
 <https://kmi-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://kmi-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "K\u00FCnstlich Menschlisch Intelligent Kompetenzzentrum" .
 <https://kmi-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://kmi-leipzig.de/> .
@@ -3934,7 +3939,10 @@
 <https://tu-dresden.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Universität Dresden"@de .
 <https://tu-dresden.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Universität Dresden"@en .
 <https://tu-dresden.de/> <http://xmlns.com/foaf/0.1/homepage> <https://tu-dresden.de/> .
+<https://twitter.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Usergroup> .
 <https://twitter.com/mxkindermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://twitter.com/white_gecko/> <http://rdfs.org/sioc/ns#member_of> <https://twitter.com/> .
+<https://twitter.com/white_gecko/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#UserAccount> .
 <https://www.acod.de/ueber-uns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.acod.de/ueber-uns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.acod.de/ueber-uns> <http://www.w3.org/2000/01/rdf-schema#label> "ACOD"@de .
