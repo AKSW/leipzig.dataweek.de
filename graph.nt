@@ -149,6 +149,8 @@
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Natanael Arndt" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/NatanaelArndt.jpg" .
+<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/holdsAccount> <https://chaos.social/@white_gecko> .
+<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/holdsAccount> <https://twitter.com/white_gecko/> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/NatanaelArndt> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/name> "Natanael Arndt" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/title> "Dr." .
@@ -240,9 +242,18 @@
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/ThomasRiechert> .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/name> "Thomas Riechert" .
 <http://aksw.org/ThomasRiechert> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
-<http://lexvo.org/id/iso639-3/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Language> .
+<http://lexvo.org/id/iso639-3/deu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lexvo.org/ontology#Language> .
 <http://lexvo.org/id/iso639-3/deu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Language> .
+<http://lexvo.org/id/iso639-3/deu> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsch"@de .
+<http://lexvo.org/id/iso639-3/deu> <http://www.w3.org/2000/01/rdf-schema#label> "German"@en .
+<http://lexvo.org/id/iso639-3/deu> <http://www.w3.org/2004/02/skos/core#altLabel> "de" .
+<http://lexvo.org/id/iso639-3/deu> <http://www.w3.org/2004/02/skos/core#prefLabel> "German" .
+<http://lexvo.org/id/iso639-3/eng> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://lexvo.org/ontology#Language> .
 <http://lexvo.org/id/iso639-3/eng> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Language> .
+<http://lexvo.org/id/iso639-3/eng> <http://www.w3.org/2000/01/rdf-schema#label> "Englisch"@de .
+<http://lexvo.org/id/iso639-3/eng> <http://www.w3.org/2000/01/rdf-schema#label> "English"@en .
+<http://lexvo.org/id/iso639-3/eng> <http://www.w3.org/2004/02/skos/core#altLabel> "en" .
+<http://lexvo.org/id/iso639-3/eng> <http://www.w3.org/2004/02/skos/core#prefLabel> "English" .
 <http://schema.org/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Ort"@de .
 <http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Place"@en .
@@ -1021,7 +1032,6 @@
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-3> .
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-4> .
-<https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-5> .
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://purl.org/dc/terms/description> "Strategien für eine klimagerechte Stadtentwicklung"@de .
@@ -1204,15 +1214,10 @@
 <https://2023.dataweek.de/free-2023/#programm-talk-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-talk-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2023.dataweek.de/free-2023/#programm-talk-5> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://purl.org/dc/terms/title> "Energiewende in der Stadt - Herausforderungen für Netze und Energieversorger"@de .
-<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://purl.org/dc/terms/title> "Energy transition in the city - smart grid and challenges for energy provider"@en .
 <https://2023.dataweek.de/free-2023/#programm-talk-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2023.dataweek.de/free-2023/#programm-talk-5> <http://schema.org/endTime> "10:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://schema.org/performer> <https://dataweek.de/#ChristianGuethert> .
 <https://2023.dataweek.de/free-2023/#programm-talk-5> <http://schema.org/startTime> "09:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://schema.org/endTime> "12:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
@@ -1260,6 +1265,7 @@
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-5> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-6> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-7> .
+<https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-5> .
 <https://2023.dataweek.de/free-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/free-2023/> .
 <https://2023.dataweek.de/free-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/free-2023/2023-06-27/> .
 <https://2023.dataweek.de/free-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
@@ -1363,7 +1369,7 @@
 <https://2023.dataweek.de/gdds-2023/#programm-session-16> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-16> <http://schema.org/endTime> "12:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-16> <http://schema.org/location> <https://dataweek.de/venue#Room260> .
-<https://2023.dataweek.de/gdds-2023/#programm-session-16> <http://schema.org/performer> <https://dataweek.de/#RaulPalmer> .
+<https://2023.dataweek.de/gdds-2023/#programm-session-16> <http://schema.org/performer> <https://dataweek.de/#RaulPalma> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-16> <http://schema.org/startTime> "10:50:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-16> <http://schema.org/subEvent> <https://2023.dataweek.de/gdds-2023/#programm-talk-53> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-16> <http://schema.org/subEvent> <https://2023.dataweek.de/gdds-2023/#programm-talk-54> .
@@ -1373,7 +1379,8 @@
 <https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://purl.org/dc/terms/description> "Innovative ideas had been developed in several hackathons form Leipzig to Helsinki to bring urban data to the people faster and more effectively. In this slot, the prize winners will be awarded."@en .
 <https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://purl.org/dc/terms/title> "Hackathon Winners Award Ceremony"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://purl.org/dc/terms/title> "Hackathon Winners Award Ceremony"@en .
-<https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/de> .
+<https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://schema.org/endTime> "14:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-17> <http://schema.org/startTime> "13:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -1672,8 +1679,8 @@
 <https://2023.dataweek.de/gdds-2023/#programm-talk-26> <http://schema.org/startTime> "16:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-27> <http://purl.org/dc/terms/date> "2023-06-26"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-27> <http://purl.org/dc/terms/title> "Prof. Dr. Dr. h.c. Helge Löbler"@de .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-27> <http://purl.org/dc/terms/title> "Prof. Dr. Dr. h.c. Helge Löbler"@en .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-27> <http://purl.org/dc/terms/title> "Prof. Dr. Dr. h.c. Helge Löbler (Leipzig University)"@de .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-27> <http://purl.org/dc/terms/title> "Prof. Dr. Dr. h.c. Helge Löbler (Leipzig University)"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-27> <http://schema.org/endTime> "17:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-27> <http://schema.org/startTime> "16:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -1710,9 +1717,9 @@
 <https://2023.dataweek.de/gdds-2023/#programm-talk-3> <http://purl.org/dc/terms/date> "2023-06-26"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-3> <http://purl.org/dc/terms/title> "Grußwort"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-3> <http://purl.org/dc/terms/title> "Welcoming address"@en .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-3> <http://schema.org/endTime> "10:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-3> <http://schema.org/performer> <http://aksw.org/MichaelMartin> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-3> <http://schema.org/performer> <http://aksw.org/ClemensSchuelke> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-3> <http://schema.org/startTime> "09:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-42> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1780,8 +1787,8 @@
 <https://2023.dataweek.de/gdds-2023/#programm-talk-51> <http://schema.org/startTime> "11:50:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-53> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-53> <http://purl.org/dc/terms/title> "Chair: Raul Palma"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-53> <http://purl.org/dc/terms/title> "Chair: Raul Palmer"@de .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-53> <http://purl.org/dc/terms/title> "Chair: Raul Palmer"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-53> <http://schema.org/endTime> "12:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-53> <http://schema.org/startTime> "10:50:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -1792,36 +1799,40 @@
 <https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://purl.org/dc/terms/title> "Leipzig Winners"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://purl.org/dc/terms/title> "Leipzig Winners"@en .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/de> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://schema.org/endTime> "14:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://schema.org/startTime> "13:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://purl.org/dc/terms/title> "Jami Valorinta"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://purl.org/dc/terms/title> "Jami Valorinta"@en .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/de> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://schema.org/endTime> "14:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://schema.org/startTime> "13:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://purl.org/dc/terms/title> "Armando Dauer -  Simulator for Predicting Accumulation and Drainage through Elevation (SPADE)"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://purl.org/dc/terms/title> "Armando Dauer -  Simulator for Predicting Accumulation and Drainage through Elevation (SPADE)"@en .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/de> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://schema.org/endTime> "14:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://schema.org/startTime> "13:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-5> <http://purl.org/dc/terms/date> "2023-06-26"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-5> <http://purl.org/dc/terms/title> "Grußwort"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-5> <http://purl.org/dc/terms/title> "Welcoming address"@en .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-5> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-5> <http://schema.org/performer> <http://aksw.org/ClemensSchuelke> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-5> <http://schema.org/performer> <http://aksw.org/MichaelMartin> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-5> <http://schema.org/startTime> "10:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://purl.org/dc/terms/title> "Tiago Tamagusko"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://purl.org/dc/terms/title> "Tiago Tamagusko"@en .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/de> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://schema.org/endTime> "14:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://schema.org/startTime> "13:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -1934,7 +1945,7 @@
 <https://2023.dataweek.de/gdds-2023/#programm-talk-8> <http://purl.org/dc/terms/title> "Enterprise Europe Network"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-8> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-8> <http://schema.org/endTime> "11:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/gdds-2023/#programm-talk-8> <http://schema.org/performer> <https://dataweek.de/#TobiasEspig> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-8> <http://schema.org/performer> <https://dataweek.de/#JensLehmann> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-8> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-92> <http://purl.org/dc/terms/title> "Focus: Developer perspective"@de .
@@ -2124,9 +2135,12 @@
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/startTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/kmi-23/#programm-talk-3> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/kmi-23/#programm-talk-3> <http://purl.org/dc/terms/title> "Eröffnung "@de .
 <https://2023.dataweek.de/kmi-23/#programm-talk-3> <http://purl.org/dc/terms/title> "Opening"@en .
+<https://2023.dataweek.de/kmi-23/#programm-talk-3> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/kmi-23/#programm-talk-3> <http://schema.org/performer> <https://dataweek.de/#ChristianZinke> .
+<https://2023.dataweek.de/kmi-23/#programm-talk-3> <http://schema.org/startTime> "10:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/kmi-23/#programm-talk-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/kmi-23/#programm-talk-4> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/kmi-23/#programm-talk-4> <http://purl.org/dc/terms/title> "AI for society, economy and science\nZAKI - the Center for Applied Artificial Intelligence in Jena"@en .
@@ -2196,141 +2210,159 @@
 <https://2023.dataweek.de/lswt2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT Team"@de .
 <https://2023.dataweek.de/lswt2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT Team"@en .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/description> "This session will highlight application and use cases with and on top of Knowledge Graphs."@de .
-<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/description> "This session will highlight application and use cases with and on top of Knowledge Graphs."@en .
-<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/title> "Session: Knowledge Graph Use Cases and Applications"@de .
-<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/title> "Session: Knowledge Graph Use Cases and Applications"@en .
+<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/description> "We will give all participants a warm welcome as well as present an overview on the sessions of the day."@de .
+<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/description> "We will give all participants a warm welcome as well as present an overview on the sessions of the day."@en .
+<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/title> "Begrüßung "@de .
+<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/title> "Welcome"@en .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/endTime> "11:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/endTime> "09:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/startTime> "10:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-6> .
-<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-7> .
-<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-8> .
+<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-3> .
+<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-4> .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/description> "This session will present topics in the area of building and modelling of Knowledge Graphs."@de .
-<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/description> "This session will present topics in the area of building and modelling of Knowledge Graphs."@en .
-<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/title> "Session: Ontologies and Data Akquisition for Knowledge Graphs"@de .
-<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/title> "Session: Ontologies and Data Akquisition for Knowledge Graphs"@en .
+<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/description> "This session will highlight application and use cases with and on top of Knowledge Graphs."@de .
+<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/description> "This session will highlight application and use cases with and on top of Knowledge Graphs."@en .
+<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/title> "Session: Knowledge Graph Use Cases and Applications"@de .
+<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/title> "Session: Knowledge Graph Use Cases and Applications"@en .
 <https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/endTime> "11:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/startTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-13> .
-<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-14> .
-<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-15> .
-<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-17> .
-<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-18> .
+<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/startTime> "10:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-10> .
+<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-11> .
+<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-8> .
+<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-9> .
 <https://2023.dataweek.de/lswt2023/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://purl.org/dc/terms/description> "This session will discuss Knowledge Graphs in the context of Large Language Models such as ChatGPT."@de .
-<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://purl.org/dc/terms/description> "This session will discuss Knowledge Graphs in the context of Large Language Models such as ChatGPT."@en .
-<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://purl.org/dc/terms/title> "Session: Knowledge Graphs and Large Language Models"@de .
-<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://purl.org/dc/terms/title> "Session: Knowledge Graphs and Large Language Models"@en .
+<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://purl.org/dc/terms/description> "This session will present topics in the area of building and modelling of Knowledge Graphs."@de .
+<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://purl.org/dc/terms/description> "This session will present topics in the area of building and modelling of Knowledge Graphs."@en .
+<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://purl.org/dc/terms/title> "Session: Ontologies and Data Akquisition for Knowledge Graphs"@de .
+<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://purl.org/dc/terms/title> "Session: Ontologies and Data Akquisition for Knowledge Graphs"@en .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-21> .
-<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-22> .
-<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-23> .
-<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-24> .
+<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/startTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-15> .
+<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-16> .
+<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-17> .
+<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-18> .
+<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-19> .
+<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-20> .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/lswt2023/#programm-session-4> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://purl.org/dc/terms/description> "Built on the foundation of the old Pleißenburg Tower, the tower of the New City Hall is considered the tallest city hall tower in Germany and is one of Leipzig's most important landmarks. With a height of exactly 114.7 meters, it towers over the entire city. As part of Data Week Leipzig, you have the opportunity to visit the town hall tower with us."@en .
-<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://purl.org/dc/terms/description> "Der auf dem Fundament des alten Pleißenburgturms errichtete Turm des Neuen Rathauses gilt als höchster Rathausturm Deutschlands und ist eines der wichtigsten Wahrzeichen Leipzigs. Mit einer Höhe von genau 114,7 Metern überragt er die ganze Stadt. Im Rahmen der Data Week Leipzig haben Sie die Möglichkeit den Rathausturm mit uns zu besichtigen."@de .
-<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://purl.org/dc/terms/title> "Rathausturmführung"@de .
-<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://purl.org/dc/terms/title> "Visit city hall tower"@en .
-<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://schema.org/endTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://schema.org/startTime> "17:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://purl.org/dc/terms/description> "This session will discuss Knowledge Graphs in the context of Large Language Models such as ChatGPT."@de .
+<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://purl.org/dc/terms/description> "This session will discuss Knowledge Graphs in the context of Large Language Models such as ChatGPT."@en .
+<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://purl.org/dc/terms/title> "Session: Knowledge Graphs and Large Language Models"@de .
+<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://purl.org/dc/terms/title> "Session: Knowledge Graphs and Large Language Models"@en .
+<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-23> .
+<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-24> .
+<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-25> .
+<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-26> .
 <https://2023.dataweek.de/lswt2023/#programm-session-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-10> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-10> <http://purl.org/dc/terms/description> "Student from multiple universities will present their Semantic Web projects in a fast and heroic minute madness."@de .
-<https://2023.dataweek.de/lswt2023/#programm-talk-10> <http://purl.org/dc/terms/description> "Student from multiple universities will present their Semantic Web projects in a fast and heroic minute madness."@en .
-<https://2023.dataweek.de/lswt2023/#programm-talk-10> <http://purl.org/dc/terms/title> "Minutes by Future Knowledge Experts (Students)"@de .
-<https://2023.dataweek.de/lswt2023/#programm-talk-10> <http://purl.org/dc/terms/title> "Minutes by Future Knowledge Experts (Students)"@en .
-<https://2023.dataweek.de/lswt2023/#programm-talk-10> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-10> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-10> <http://schema.org/performer> <http://aksw.org/ThomasRiechert> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-10> <http://schema.org/performer> <https://dataweek.de/#VeraMeister> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-10> <http://schema.org/startTime> "11:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-session-5> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/lswt2023/#programm-session-5> <http://purl.org/dc/terms/description> "Built on the foundation of the old Pleißenburg Tower, the tower of the New City Hall is considered the tallest city hall tower in Germany and is one of Leipzig's most important landmarks. With a height of exactly 114.7 meters, it towers over the entire city. As part of Data Week Leipzig, you have the opportunity to visit the town hall tower with us."@en .
+<https://2023.dataweek.de/lswt2023/#programm-session-5> <http://purl.org/dc/terms/description> "Der auf dem Fundament des alten Pleißenburgturms errichtete Turm des Neuen Rathauses gilt als höchster Rathausturm Deutschlands und ist eines der wichtigsten Wahrzeichen Leipzigs. Mit einer Höhe von genau 114,7 Metern überragt er die ganze Stadt. Im Rahmen der Data Week Leipzig haben Sie die Möglichkeit den Rathausturm mit uns zu besichtigen."@de .
+<https://2023.dataweek.de/lswt2023/#programm-session-5> <http://purl.org/dc/terms/title> "Rathausturmführung"@de .
+<https://2023.dataweek.de/lswt2023/#programm-session-5> <http://purl.org/dc/terms/title> "Visit city hall tower"@en .
+<https://2023.dataweek.de/lswt2023/#programm-session-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2023.dataweek.de/lswt2023/#programm-session-5> <http://schema.org/endTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-session-5> <http://schema.org/startTime> "17:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-10> <http://schema.org/endTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-10> <http://schema.org/startTime> "10:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-13> <http://schema.org/endTime> "13:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-13> <http://schema.org/startTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-14> <http://schema.org/endTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-14> <http://schema.org/startTime> "13:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-15> <http://schema.org/endTime> "13:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-15> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-11> <http://schema.org/endTime> "11:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-11> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-12> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-12> <http://purl.org/dc/terms/description> "Student from multiple universities will present their Semantic Web projects in a fast and heroic minute madness."@de .
+<https://2023.dataweek.de/lswt2023/#programm-talk-12> <http://purl.org/dc/terms/description> "Student from multiple universities will present their Semantic Web projects in a fast and heroic minute madness."@en .
+<https://2023.dataweek.de/lswt2023/#programm-talk-12> <http://purl.org/dc/terms/title> "Minutes by Future Knowledge Experts (Students)"@de .
+<https://2023.dataweek.de/lswt2023/#programm-talk-12> <http://purl.org/dc/terms/title> "Minutes by Future Knowledge Experts (Students)"@en .
+<https://2023.dataweek.de/lswt2023/#programm-talk-12> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-12> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-12> <http://schema.org/performer> <http://aksw.org/ThomasRiechert> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-12> <http://schema.org/performer> <https://dataweek.de/#VeraMeister> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-12> <http://schema.org/startTime> "11:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-15> <http://schema.org/endTime> "13:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-15> <http://schema.org/startTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-16> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-16> <http://schema.org/startTime> "13:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-16> <http://schema.org/endTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-16> <http://schema.org/startTime> "13:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-17> <http://schema.org/endTime> "14:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-17> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-17> <http://schema.org/endTime> "13:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-17> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-18> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-18> <http://schema.org/startTime> "14:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-18> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-18> <http://schema.org/startTime> "13:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-21> <http://schema.org/endTime> "15:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-21> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-22> <http://schema.org/endTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-22> <http://schema.org/startTime> "15:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-23> <http://schema.org/endTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-23> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-19> <http://schema.org/endTime> "14:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-19> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-20> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-20> <http://schema.org/startTime> "14:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-23> <http://schema.org/endTime> "15:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-23> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-24> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-24> <http://schema.org/startTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-24> <http://schema.org/endTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-24> <http://schema.org/startTime> "15:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-25> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-25> <http://purl.org/dc/terms/description> "We will award the best student posters with the eccenca LSWT Poster Award as well as close the 11th Leipzig Semantic Web Day."@de .
-<https://2023.dataweek.de/lswt2023/#programm-talk-25> <http://purl.org/dc/terms/description> "We will award the best student posters with the eccenca LSWT Poster Award as well as close the 11th Leipzig Semantic Web Day."@en .
-<https://2023.dataweek.de/lswt2023/#programm-talk-25> <http://purl.org/dc/terms/title> "Poster Awards and Closing Ceremony"@de .
-<https://2023.dataweek.de/lswt2023/#programm-talk-25> <http://purl.org/dc/terms/title> "Poster Awards and Closing Ceremony"@en .
-<https://2023.dataweek.de/lswt2023/#programm-talk-25> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-25> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-25> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-25> <http://schema.org/performer> <http://aksw.org/SebastianTramp> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-25> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-25> <http://schema.org/endTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-25> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-2> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-2> <http://purl.org/dc/terms/description> "We will give all participants a warm welcome as well as present an overview on the sessions of the day."@de .
-<https://2023.dataweek.de/lswt2023/#programm-talk-2> <http://purl.org/dc/terms/description> "We will give all participants a warm welcome as well as present an overview on the sessions of the day."@en .
-<https://2023.dataweek.de/lswt2023/#programm-talk-2> <http://purl.org/dc/terms/title> "Begrüßung & Lightning Talk: Linked Data Engine OGC- Rainbow"@de .
-<https://2023.dataweek.de/lswt2023/#programm-talk-2> <http://purl.org/dc/terms/title> "Welcome & Lightning Talk:  Linked Data engine OGC- Rainbow"@en .
-<https://2023.dataweek.de/lswt2023/#programm-talk-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-2> <http://schema.org/endTime> "09:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-2> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-2> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-2> <http://schema.org/performer> <https://dataweek.de/#IngoSimonis> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-2> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-26> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-26> <http://schema.org/startTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-27> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-27> <http://purl.org/dc/terms/description> "We will award the best student posters with the eccenca LSWT Poster Award as well as close the 11th Leipzig Semantic Web Day."@de .
+<https://2023.dataweek.de/lswt2023/#programm-talk-27> <http://purl.org/dc/terms/description> "We will award the best student posters with the eccenca LSWT Poster Award as well as close the 11th Leipzig Semantic Web Day."@en .
+<https://2023.dataweek.de/lswt2023/#programm-talk-27> <http://purl.org/dc/terms/title> "Poster Awards and Closing Ceremony"@de .
+<https://2023.dataweek.de/lswt2023/#programm-talk-27> <http://purl.org/dc/terms/title> "Poster Awards and Closing Ceremony"@en .
+<https://2023.dataweek.de/lswt2023/#programm-talk-27> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-27> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-27> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-27> <http://schema.org/performer> <http://aksw.org/SebastianTramp> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-27> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://purl.org/dc/terms/title> "Keynote: Große Sprachmodelle, Daten und Wissen: ein positiver Kreislauf"@de .
-<https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://purl.org/dc/terms/title> "Keynote: Large language models, data and knowledge: a virtuous circle"@en .
+<https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://purl.org/dc/terms/title> "Grußwort"@de .
+<https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://purl.org/dc/terms/title> "Welcoming address"@en .
 <https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://schema.org/endTime> "09:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://schema.org/performer> <https://dataweek.de/#FelixSasaki> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://schema.org/startTime> "09:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://schema.org/endTime> "09:05:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-6> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-6> <http://schema.org/startTime> "10:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-7> <http://schema.org/endTime> "10:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-7> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-8> <http://schema.org/endTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-8> <http://schema.org/startTime> "10:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-4> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-4> <http://purl.org/dc/terms/title> "Lightning Talk: Linked Data Engine OGC- Rainbow"@de .
+<https://2023.dataweek.de/lswt2023/#programm-talk-4> <http://purl.org/dc/terms/title> "Lightning Talk: Linked Data Engine OGC- Rainbow"@en .
+<https://2023.dataweek.de/lswt2023/#programm-talk-4> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-4> <http://schema.org/endTime> "09:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-4> <http://schema.org/performer> <https://dataweek.de/#IngoSimonis> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-4> <http://schema.org/startTime> "09:05:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-5> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-5> <http://purl.org/dc/terms/title> "Keynote: Große Sprachmodelle, Daten und Wissen: ein positiver Kreislauf"@de .
+<https://2023.dataweek.de/lswt2023/#programm-talk-5> <http://purl.org/dc/terms/title> "Keynote: Large language models, data and knowledge: a virtuous circle"@en .
+<https://2023.dataweek.de/lswt2023/#programm-talk-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-5> <http://schema.org/endTime> "09:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-5> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-5> <http://schema.org/performer> <https://dataweek.de/#FelixSasaki> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-5> <http://schema.org/startTime> "09:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-8> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-8> <http://schema.org/startTime> "10:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-9> <http://schema.org/endTime> "11:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-9> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-9> <http://schema.org/endTime> "10:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-9> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/lswt2023/2023-06-28/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2023.dataweek.de/lswt2023/2023-06-28/> <http://www.w3.org/2000/01/rdf-schema#label> "Program"@en .
@@ -2355,12 +2387,10 @@
 <https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-session-2> .
 <https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-session-3> .
 <https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-session-4> .
-<https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-10> .
-<https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-16> .
-<https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-25> .
-<https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-2> .
-<https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-3> .
-<https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-9> .
+<https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-session-5> .
+<https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-12> .
+<https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-27> .
+<https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-5> .
 <https://2023.dataweek.de/lswt2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/lswt2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2023.dataweek.de/lswt2023/> <http://www.w3.org/2000/01/rdf-schema#label> "11. Leipziger Semantic Web Tag"@de .
@@ -2569,14 +2599,10 @@
 <https://2023.dataweek.de/tickets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2023.dataweek.de/tickets> <http://www.w3.org/2000/01/rdf-schema#label> "Tickets"@de .
 <https://2023.dataweek.de/tickets> <http://www.w3.org/2000/01/rdf-schema#label> "Tickets"@en .
-<https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/gdds-2023/> .
-<https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/scads-tutorials-2023/> .
-<https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/free-2023/> .
-<https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2023.dataweek.de/lodh-2023/> .
-<https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2023.dataweek.de/dsm-2023/> .
-<https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2023.dataweek.de/kmi-23/> .
-<https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://2023.dataweek.de/lswt2023/> .
-<https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://2023.dataweek.de/ai-tomorrow-2023/> .
+<https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/scads-tutorials-2023/> .
+<https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/kmi-23/> .
+<https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/lswt2023/> .
+<https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2023.dataweek.de/ai-tomorrow-2023/> .
 <https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2023.dataweek.de/tracks> <http://www.w3.org/2000/01/rdf-schema#label> "Tracks"@de .
@@ -2627,6 +2653,8 @@
 <https://brox.de/> <http://www.w3.org/2000/01/rdf-schema#label> "brox IT-Solutions GmbH"@de .
 <https://brox.de/> <http://www.w3.org/2000/01/rdf-schema#label> "brox IT-Solutions GmbH"@en .
 <https://brox.de/> <http://xmlns.com/foaf/0.1/homepage> <https://brox.de/> .
+<https://chaos.social/@white_gecko> <http://rdfs.org/sioc/ns#member_of> <https://joinmastodon.org/> .
+<https://chaos.social/@white_gecko> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#UserAccount> .
 <https://cityscaper.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://cityscaper.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://cityscaper.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Cityscaper"@de .
@@ -2922,11 +2950,11 @@
 <https://dataweek.de/#FelixSasaki> <http://schema.org/affiliation> <https://www.sap.com> .
 <https://dataweek.de/#FelixSasaki> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#FelixSasaki> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#FelixSasaki> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Felix Sasaki" .
+<https://dataweek.de/#FelixSasaki> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Felix Sasaki" .
 <https://dataweek.de/#FelixSasaki> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/FelixSasaki.jpg" .
 <https://dataweek.de/#FelixSasaki> <http://xmlns.com/foaf/0.1/homepage> <https://www.sap.com/germany/index.html> .
 <https://dataweek.de/#FelixSasaki> <http://xmlns.com/foaf/0.1/name> "Felix Sasaki" .
-<https://dataweek.de/#FelixSasaki> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#FelixSasaki> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <https://dataweek.de/#FelixSasaki> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "From 1993 until 1999, Felix studied Japanese and Linguistics in Berlin, Nagoya (Japan) and Tokyo. He then finished his PhD about XML and RDF based linguist modeling at the University of Bielefeld (Germany). His major workplaces include the World Wide Web Consortium (W3C), the DFKI (German research center for artificial intelligence), the educational publisher Cornelsen and the Brandenburg University of Applied Sciences. In October 2021, he joined SAP to work on in the realm of AI knowledge graphs and semantic technologies."@en .
 <https://dataweek.de/#FelixSasaki> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Von 1993 bis 1999 studierte Felix Japanisch und Linguistik in Berlin, Nagoya (Japan) und Tokio. Anschließend promovierte er an der Universität Bielefeld (Deutschland) über XML und RDF-basierte linguistische Modellierung. Zu seinen wichtigsten Arbeitsplätzen gehören das World Wide Web Consortium (W3C), das DFKI (Deutsches Forschungszentrum für Künstliche Intelligenz), der Bildungsverlag Cornelsen und die Fachhochschule Brandenburg. Im Oktober 2021 wechselte er zu SAP, um im Bereich der KI-Wissensgraphen und semantischen Technologien zu arbeiten."@de .
 <https://dataweek.de/#FidanLimani> <http://purl.org/dc/terms/description> "Research assistant"@en .
@@ -3067,6 +3095,14 @@
 <https://dataweek.de/#JasminBatke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JasminBatke> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/jasmin-batke-352591225/> .
 <https://dataweek.de/#JasminBatke> <http://xmlns.com/foaf/0.1/name> "Jasmin Batke" .
+<https://dataweek.de/#JensLehmann> <http://purl.org/dc/terms/description> "Innovation and technology consultant"@en .
+<https://dataweek.de/#JensLehmann> <http://purl.org/dc/terms/description> "Innovations- und Technologieberater"@de .
+<https://dataweek.de/#JensLehmann> <http://schema.org/affiliation> <https://www.agil-leipzig.de/> .
+<https://dataweek.de/#JensLehmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#JensLehmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JensLehmann> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Jens Lehmann" .
+<https://dataweek.de/#JensLehmann> <http://xmlns.com/foaf/0.1/name> "Jens Lehmann" .
+<https://dataweek.de/#JensLehmann> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#JensScholz> <http://purl.org/dc/terms/description> "Geschäftsführer [prudys AG](https://prudsys.de/)"@de .
 <https://dataweek.de/#JensScholz> <http://purl.org/dc/terms/description> "https://dataweek.de/#FelixCzepluch "@en .
 <https://dataweek.de/#JensScholz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -3116,7 +3152,7 @@
 <https://dataweek.de/#JuliaSchlie%C3%9Fauf> <http://schema.org/affiliation> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
 <https://dataweek.de/#JuliaSchlie%C3%9Fauf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JuliaSchlie%C3%9Fauf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#JuliaSchlie%C3%9Fauf> <http://xmlns.com/foaf/0.1/name> "(angefragt) Julia Schließauf" .
+<https://dataweek.de/#JuliaSchlie%C3%9Fauf> <http://xmlns.com/foaf/0.1/name> "Julia Schließauf" .
 <https://dataweek.de/#KatrinMehler> <http://purl.org/dc/terms/description> "City of Leipzig/Digital City Department, CUT Project "@en .
 <https://dataweek.de/#KatrinMehler> <http://purl.org/dc/terms/description> "Stadt Leipzig/Referat Digitale Stadt, CUT Projekt"@de .
 <https://dataweek.de/#KatrinMehler> <http://schema.org/affiliation> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
@@ -3398,11 +3434,11 @@
 <https://dataweek.de/#RaanaSahebNassagh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#RaanaSahebNassagh> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/raana-saheb-nassagh/> .
 <https://dataweek.de/#RaanaSahebNassagh> <http://xmlns.com/foaf/0.1/name> "Raana Saheb Nassagh" .
-<https://dataweek.de/#RaulPalmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
-<https://dataweek.de/#RaulPalmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#RaulPalmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Raul Palmer" .
-<https://dataweek.de/#RaulPalmer> <http://xmlns.com/foaf/0.1/name> "Raul Palmer" .
-<https://dataweek.de/#RaulPalmer> <http://xmlns.com/foaf/0.1/title> "Dr. " .
+<https://dataweek.de/#RaulPalma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#RaulPalma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#RaulPalma> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Raul Palma" .
+<https://dataweek.de/#RaulPalma> <http://xmlns.com/foaf/0.1/name> "Raul Palma" .
+<https://dataweek.de/#RaulPalma> <http://xmlns.com/foaf/0.1/title> "Dr. " .
 <https://dataweek.de/#RichardFigura> <http://purl.org/dc/terms/description> "CEO"@de .
 <https://dataweek.de/#RichardFigura> <http://purl.org/dc/terms/description> "CEO"@en .
 <https://dataweek.de/#RichardFigura> <http://schema.org/affiliation> <https://www.ciss.de> .
@@ -3466,7 +3502,7 @@
 <https://dataweek.de/#SebastianBoehm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SebastianBoehm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SebastianBoehm> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/SebastianBoehm.jpg" .
-<https://dataweek.de/#SebastianBoehm> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/sebastian-b%25C3%25B6hm-413993183/> .
+<https://dataweek.de/#SebastianBoehm> <http://xmlns.com/foaf/0.1/holdsAccount> <https://www.linkedin.com/in/sebastian-b\u00F6hm-413993183/> .
 <https://dataweek.de/#SebastianBoehm> <http://xmlns.com/foaf/0.1/name> "Sebastian Böhm" .
 <https://dataweek.de/#SebastianBomberg> <http://purl.org/dc/terms/description> "Application Engineer bei MathWorks"@de .
 <https://dataweek.de/#SebastianBomberg> <http://purl.org/dc/terms/description> "Application Engineer bei MathWorks"@en .
@@ -3720,18 +3756,6 @@
 <https://dataweek.de/#img_7615_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
 <https://dataweek.de/#img_7615_optimized.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/img_7615_optimized.jpg" .
 <https://dataweek.de/> <http://www.w3.org/2002/07/owl#sameAs> <https://2023.dataweek.de/> .
-<https://dataweek.de/language#de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Language> .
-<https://dataweek.de/language#de> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsch"@de .
-<https://dataweek.de/language#de> <http://www.w3.org/2000/01/rdf-schema#label> "German"@en .
-<https://dataweek.de/language#de> <http://www.w3.org/2004/02/skos/core#altLabel> "de" .
-<https://dataweek.de/language#de> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deutsch"@de .
-<https://dataweek.de/language#de> <http://www.w3.org/2004/02/skos/core#prefLabel> "German"@en .
-<https://dataweek.de/language#en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Language> .
-<https://dataweek.de/language#en> <http://www.w3.org/2000/01/rdf-schema#label> "Englisch"@de .
-<https://dataweek.de/language#en> <http://www.w3.org/2000/01/rdf-schema#label> "English"@en .
-<https://dataweek.de/language#en> <http://www.w3.org/2004/02/skos/core#altLabel> "en" .
-<https://dataweek.de/language#en> <http://www.w3.org/2004/02/skos/core#prefLabel> "Englisch"@de .
-<https://dataweek.de/language#en> <http://www.w3.org/2004/02/skos/core#prefLabel> "English"@en .
 <https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://dataweek.de/#JanaBendigs> .
 <https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/JuliaHolze> .
 <https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/MichaelMartin> .
@@ -3845,6 +3869,7 @@
 <https://infai.org/workpage-dr-christian-zinke-wehlmann/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/2000/01/rdf-schema#label> "LEDSPLaY17" .
+<https://joinmastodon.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Usergroup> .
 <https://kmi-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://kmi-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "K\u00FCnstlich Menschlisch Intelligent Kompetenzzentrum" .
 <https://kmi-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://kmi-leipzig.de/> .
@@ -3916,7 +3941,10 @@
 <https://tu-dresden.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Universität Dresden"@de .
 <https://tu-dresden.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Universität Dresden"@en .
 <https://tu-dresden.de/> <http://xmlns.com/foaf/0.1/homepage> <https://tu-dresden.de/> .
+<https://twitter.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Usergroup> .
 <https://twitter.com/mxkindermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://twitter.com/white_gecko/> <http://rdfs.org/sioc/ns#member_of> <https://twitter.com/> .
+<https://twitter.com/white_gecko/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#UserAccount> .
 <https://www.acod.de/ueber-uns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.acod.de/ueber-uns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.acod.de/ueber-uns> <http://www.w3.org/2000/01/rdf-schema#label> "ACOD"@de .
@@ -4107,6 +4135,7 @@
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://www.w3.org/2000/01/rdf-schema#label> "Road Traffic Authority / Traffic Management - Traffic and Civil Engineering Office"@en .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://www.w3.org/2000/01/rdf-schema#label> "Straßenverkehrsbehörde / Verkehrsmanagement - Verkehrs- und Tiefbauamt"@de .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> .
+<https://www.linkedin.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Usergroup> .
 <https://www.linkedin.com/in/alexanderkrause/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/andrea-hensel-4367699a/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/christian-guethert-a143521/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -4132,7 +4161,8 @@
 <https://www.linkedin.com/in/ruslan-hrushchak/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/s-albrecht/?originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/sarah-stemmler/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://www.linkedin.com/in/sebastian-b%25C3%25B6hm-413993183/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/sebastian-b\u00F6hm-413993183/> <http://rdfs.org/sioc/ns#member_of> <https://www.linkedin.com/> .
+<https://www.linkedin.com/in/sebastian-b\u00F6hm-413993183/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#UserAccount> .
 <https://www.linkedin.com/in/sebastian-graetz-leipzig/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/sebastian-klemm-collaboration/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/sebastianbomberg/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -4151,8 +4181,8 @@
 <https://www.maanmittauslaitos.fi/en/research/contact-information/staff/antti-jakobsson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.maanmittauslaitos.fi/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.maanmittauslaitos.fi/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-<https://www.maanmittauslaitos.fi/en> <http://www.w3.org/2000/01/rdf-schema#label> "National Land Survey"@de .
 <https://www.maanmittauslaitos.fi/en> <http://www.w3.org/2000/01/rdf-schema#label> "National Land Survey"@en .
+<https://www.maanmittauslaitos.fi/en> <http://www.w3.org/2000/01/rdf-schema#label> "Nationale Landvermessung"@de .
 <https://www.maanmittauslaitos.fi/en> <http://xmlns.com/foaf/0.1/homepage> <https://www.maanmittauslaitos.fi/en> .
 <https://www.ogc.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.ogc.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -4212,6 +4242,7 @@
 <https://www.tib.eu/en/research-development/research-groups-and-labs/data-science-digital-libraries/staff/soeren-auer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.umweltbundesamt.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.umweltbundesamt.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.umweltbundesamt.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Environmental Agency"@en .
 <https://www.umweltbundesamt.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Umweltbundesamt"@de .
 <https://www.umweltbundesamt.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.umweltbundesamt.de/> .
 <https://www.uni-hamburg.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -4243,6 +4274,7 @@
 <https://www.wichita.edu> <http://www.w3.org/2000/01/rdf-schema#label> "Wichita State University"@de .
 <https://www.wichita.edu> <http://www.w3.org/2000/01/rdf-schema#label> "Wichita State University"@en .
 <https://www.wichita.edu> <http://xmlns.com/foaf/0.1/homepage> <https://www.wichita.edu> .
+<https://www.xing.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Usergroup> .
 <https://www.xing.com/profile/Alexander_Smalla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.xing.com/profile/Sebastian_Lehmann100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.youtube.com/watch?v=FupVhEO7Tzc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
