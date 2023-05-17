@@ -14,14 +14,14 @@
   {% assign type_string = nil %}
   {% assign types = record | rdf_property: "rdf:type", nil, true %}
   {% for type in types %}
-    {% unless type.iri == "https://schema.org/CreativeWork" %}
+    {% unless type.iri == "http://schema.org/CreativeWork" %}
       {% capture type_label %}
         {% include label.html iri = type.iri %}
       {% endcapture %}
       {% assign type_string = type_label %}
     {% endunless %}
   {% endfor %}
-  <li><a href="{{record.iri}}">{% include label.html iri = record.iri %}</a> {% if type_string %}({{type_string}}){% endif %}</li>
+  <li><a href="{{record.iri}}">{% include label.html iri = record.iri %}</a> {% if type_string %}({{ type_string | strip }}){% endif %}</li>
 {% endfor %}
 {% if records.first %}
 </ul>
