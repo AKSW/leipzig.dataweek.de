@@ -4,14 +4,24 @@
 {% assign records = parent_event | rdf_property: "schema:recordedIn", nil, true %}
 {% if records.first %}
 {% if site.language == 'en' %}
-<h3>Recordings/Stream</h3>
+<h3>Documentation/Recording</h3>
 {% else %}
-<h3>Aufzeichnungen/Übertragung</h3>
+<h3>Dokumentation/Aufzeichnung</h3>
 {% endif %}
 <ul>
 {% endif %}
 {% for record in records %}
-<li><a href="{{record.iri}}">{% include label.html iri = record.iri %}</a></li>
+  {% assign type_string = nil %}
+  {% assign types = record | rdf_property: "rdf:type", nil, true %}
+  {% for type in types %}
+    {% unless type.iri == "https://schema.org/CreativeWork" %}
+      {% capture type_label %}
+        {% include label.html iri = type.iri %}
+      {% endcapture %}
+      {% assign type_string = type_label %}
+    {% endunless %}
+  {% endfor %}
+  <li><a href="{{record.iri}}">{% include label.html iri = record.iri %}</a> {% if type_string %}({{type_string}}){% endif %}</li>
 {% endfor %}
 {% if records.first %}
 </ul>
