@@ -1,5 +1,5 @@
 {% assign rootResource = site.rootResource | rdf_get %}
-{% include_cached strings.html %}
+{% include strings.html %}
 
 {% assign menuResource = rootResource | rdf_property: "void:rootResource" %}
 
@@ -37,14 +37,14 @@ select distinct ?entry {
   {% assign current_super_resource = selected_res.first.entry %}
 {% endif %}
 
-{% assign navigation_type = "site:Navigation" | rdf_get %}
-{% assign events_iri = "dw23:Events" | rdf_get %}
+{% assign events_iri = "dw23:tracks" | rdf_get %}
 {% assign events = events_iri | rdf_container %}
 
 {% capture events_submenu %}
 <ul>
 {% for event in events %}
-  {% capture weekday_string %}{% include components/list_inline.html sub=event pred="dct:date" variant="date" format="%a" %}{% endcapture %}
+  {% capture weekday_string -%}{%- include components/list_inline.html sub=event pred="dct:date" variant="date" format="%a" -%}{%- endcapture %}
+  {% assign weekday_string = weekday_string | strip %}
   {% assign event_label = event | rdf_property: "dw:slug" | append: " (" | append: weekday_string | append: ")" %}
   {% assign event_link = event.render_path | relativize_url %}
   {% include components/menu_sub_entry.html current=current_page link=event_link label=event_label %}
@@ -96,9 +96,11 @@ select distinct ?entry {
         <a href="https://infai.org/das-institut/impressum/">{{ str_imprint }}</a>
       </li>
       {% assign datenschutz = "<https://2023.dataweek.de/datenschutz/>" | rdf_get %}
+      {% assign team = "<https://2023.dataweek.de/team>" | rdf_get %}
       {% assign contact = "<https://2023.dataweek.de/contact/>" | rdf_get %}
 
       {% include components/menu_sub_entry.html current=current_page resource=datenschutz %}
+      {% include components/menu_sub_entry.html current=current_page resource=team %}
       {% include components/menu_sub_entry.html current=current_page resource=contact %}
     </ul>
   </nav>

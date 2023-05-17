@@ -128,7 +128,13 @@
       --s-before: ' [Start von Durchgestrichen] ';
       --s-after: ' [Ende von Durchgestrichen] ';
     }
+  </style>
 
+</head>
+
+<body>
+
+  <style>
     .btn2-patch {
       border: 0.125rem #17214c solid;
       cursor: pointer;
@@ -191,17 +197,16 @@
       background-position: center;
       animation: ripple-keyframes 10s linear infinite;
     }
-  </style>
 
-</head>
-
-<body>
-
-  <style>
     .contact ul.logos img {
       width: 4.5rem!important;
       height: auto!important;
     }
+
+    .contact ul.logos {
+      height: 5rem;
+    }
+
   </style>
 
   {{ content }}

@@ -5,7 +5,7 @@
 {%- assign class = "nav-lang" -%}
 {%- endif -%}
 {%- capture languages -%}
-deutsch,english
+Deutsch,English
 {%- endcapture -%}
 {%- capture lang_isos -%}
 de,en
@@ -37,7 +37,7 @@ de,en
       {% assign html = ".html" %}
       {% endif %}
       {% endif %}
-      {% assign lang = lang_string | slice: 0, 2 %}
+      {% assign lang = lang_string | slice: 0, 2 | downcase %}
       {% if lang == site.language %}
         <li aria-current="true">
           <strong>{{ lang_string }}</strong>
