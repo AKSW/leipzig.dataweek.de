@@ -620,6 +620,7 @@
 <https://2023.dataweek.de/> <https://dataweek.de/#coorganizer> <https://2023.dataweek.de/Coorganizers> .
 <https://2023.dataweek.de/> <https://dataweek.de/#news> <https://2023.dataweek.de/News1> .
 <https://2023.dataweek.de/> <https://dataweek.de/#news> <https://2023.dataweek.de/News2> .
+<https://2023.dataweek.de/> <https://dataweek.de/#news> <https://2023.dataweek.de/News3> .
 <https://2023.dataweek.de/> <https://dataweek.de/#organizer> <https://2023.dataweek.de/Organizers> .
 <https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://kmi-leipzig.de/> .
 <https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
@@ -648,6 +649,12 @@
 <https://2023.dataweek.de/News2> <http://purl.org/dc/terms/title> "Data Week Leipzig - 26. Juni bis 30. Juni"@de .
 <https://2023.dataweek.de/News2> <http://purl.org/dc/terms/title> "Data Week Leipzig - June 26th to June 30th"@en .
 <https://2023.dataweek.de/News2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post> .
+<https://2023.dataweek.de/News3> <http://purl.org/dc/terms/date> "2023-05-16T10:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://2023.dataweek.de/News3> <http://purl.org/dc/terms/description> "After the Data Week Leipzig started for the first time last year, this year the event gets a new look with a new logo! Look forward to inspiring talks, exciting workshops and plenty of networking opportunities, which will now take place under the new logo."@en .
+<https://2023.dataweek.de/News3> <http://purl.org/dc/terms/description> "Nachdem die Data Week Leipzig im letzten Jahr das erste Mal gestartet ist, bekommt die Veranstaltung in diesem Jahr mit einem neuen Logo auch einen neuen Look! Freut euch auf inspirierende Vortr\u00E4ge, spannende Workshops und jede Menge Gelegenheiten zum Netzwerken, die ab jetzt unter dem neuen Logo stattfinden werden."@de .
+<https://2023.dataweek.de/News3> <http://purl.org/dc/terms/title> "Neues Jahr \u2013 Neues Logo"@de .
+<https://2023.dataweek.de/News3> <http://purl.org/dc/terms/title> "New Year \u2013 New Logo"@en .
+<https://2023.dataweek.de/News3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post> .
 <https://2023.dataweek.de/Organizers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://infai.org/> .
 <https://2023.dataweek.de/Organizers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2023.dataweek.de/Organizers> <http://www.w3.org/2000/01/rdf-schema#label> "Organizer"@en .
