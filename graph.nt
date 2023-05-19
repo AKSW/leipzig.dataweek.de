@@ -620,6 +620,7 @@
 <https://2023.dataweek.de/> <https://dataweek.de/#coorganizer> <https://2023.dataweek.de/Coorganizers> .
 <https://2023.dataweek.de/> <https://dataweek.de/#news> <https://2023.dataweek.de/News1> .
 <https://2023.dataweek.de/> <https://dataweek.de/#news> <https://2023.dataweek.de/News2> .
+<https://2023.dataweek.de/> <https://dataweek.de/#news> <https://2023.dataweek.de/News3> .
 <https://2023.dataweek.de/> <https://dataweek.de/#organizer> <https://2023.dataweek.de/Organizers> .
 <https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://kmi-leipzig.de/> .
 <https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
@@ -648,6 +649,12 @@
 <https://2023.dataweek.de/News2> <http://purl.org/dc/terms/title> "Data Week Leipzig - 26. Juni bis 30. Juni"@de .
 <https://2023.dataweek.de/News2> <http://purl.org/dc/terms/title> "Data Week Leipzig - June 26th to June 30th"@en .
 <https://2023.dataweek.de/News2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post> .
+<https://2023.dataweek.de/News3> <http://purl.org/dc/terms/date> "2023-05-16T10:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://2023.dataweek.de/News3> <http://purl.org/dc/terms/description> "After the Data Week Leipzig started for the first time last year, this year the event gets a new look with a new logo! Look forward to inspiring talks, exciting workshops and plenty of networking opportunities, which will now take place under the new logo."@en .
+<https://2023.dataweek.de/News3> <http://purl.org/dc/terms/description> "Nachdem die Data Week Leipzig im letzten Jahr das erste Mal gestartet ist, bekommt die Veranstaltung in diesem Jahr mit einem neuen Logo auch einen neuen Look! Freut euch auf inspirierende Vortr\u00E4ge, spannende Workshops und jede Menge Gelegenheiten zum Netzwerken, die ab jetzt unter dem neuen Logo stattfinden werden."@de .
+<https://2023.dataweek.de/News3> <http://purl.org/dc/terms/title> "Neues Jahr \u2013 Neues Logo"@de .
+<https://2023.dataweek.de/News3> <http://purl.org/dc/terms/title> "New Year \u2013 New Logo"@en .
+<https://2023.dataweek.de/News3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post> .
 <https://2023.dataweek.de/Organizers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://infai.org/> .
 <https://2023.dataweek.de/Organizers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2023.dataweek.de/Organizers> <http://www.w3.org/2000/01/rdf-schema#label> "Organizer"@en .
@@ -665,6 +672,7 @@
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://www.ogc.org/> .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://tovidero.com/> .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://www.lecos.de/> .
+<https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://www.derivo.de/> .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
@@ -812,7 +820,7 @@
 <https://2023.dataweek.de/break/2023-06-28/12:00> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
 <https://2023.dataweek.de/break/2023-06-28/12:00> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/break/2023-06-28/12:00> <http://purl.org/dc/terms/description> "Posters and Stands"@de .
-<https://2023.dataweek.de/break/2023-06-28/12:00> <http://purl.org/dc/terms/description> "Posters and Stands"@en .
+<https://2023.dataweek.de/break/2023-06-28/12:00> <http://purl.org/dc/terms/description> "Where does semantic interoperability happen?\n\nSystems of systems context\n\nAspects of interoperability\n\nDifferent types of resource doing different jobs\n\nThe \"Interoperability Value Pyramid\"\n\nSemantic Grounding: identifiers and registers\n\nFAIR in action - factoring semantics into the economics of re-use\n\nCase study: vocabularies for Essential Variables"@en .
 <https://2023.dataweek.de/break/2023-06-28/12:00> <http://purl.org/dc/terms/title> "Break"@en .
 <https://2023.dataweek.de/break/2023-06-28/12:00> <http://purl.org/dc/terms/title> "Lunch break"@en .
 <https://2023.dataweek.de/break/2023-06-28/12:00> <http://purl.org/dc/terms/title> "Mittagessen"@de .
@@ -1473,7 +1481,7 @@
 <https://2023.dataweek.de/gdds-2023/#programm-session-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-23> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-23> <http://purl.org/dc/terms/description> "Where does semantic interoperability happen?\n\nSystems of systems context - high level\nEIF layers\n\nAspects - metadata schemas example?\n\nDifferent types of resource doing different jobs\n\nThe Interoperability Value Pyramid\n\nSemantic Grounding of identifiers in “registers”\n\nThe Bow-tie view on scalability\n\nFAIR in action - the economics of re-use \n\nFactoring cost of evaluation\n\nHigh Value Datasets and  vocabularies for Essential Variables' \n"@de .
-<https://2023.dataweek.de/gdds-2023/#programm-session-23> <http://purl.org/dc/terms/description> "Where does semantic interoperability happen?\n\nSystems of systems context - high level\nEIF layers\n\nAspects - metadata schemas example?\n\nDifferent types of resource doing different jobs\n\nThe Interoperability Value Pyramid\n\nSemantic Grounding of identifiers in “registers”\n\nThe Bow-tie view on scalability\n\nFAIR in action - the economics of re-use \n\nFactoring cost of evaluation\n\nHigh Value Datasets and  vocabularies for Essential Variables' \n"@en .
+<https://2023.dataweek.de/gdds-2023/#programm-session-23> <http://purl.org/dc/terms/description> "Where does semantic interoperability happen?\n\nSystems of systems context - high level\nEIF layers\n\nAspects of interoperability\nDifferent types of resource doing different jobs\n\nThe Interoperability Value Pyramid\n\nSemantic Grounding of identifiers in “registers”\n\nThe Bow-tie view on scalability\n\nFAIR in action - the economics of re-use \n\nFactoring cost of evaluation\n\nHigh Value Datasets and  vocabularies for Essential Variables' \n"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-session-23> <http://purl.org/dc/terms/title> "Workshop Semantics: Role of semantic interoperability"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-session-23> <http://purl.org/dc/terms/title> "Workshop Semantics: Role of semantic interoperability"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-session-23> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
@@ -1485,8 +1493,8 @@
 <https://2023.dataweek.de/gdds-2023/#programm-session-23> <http://schema.org/subEvent> <https://2023.dataweek.de/gdds-2023/#programm-talk-83> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-24> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/gdds-2023/#programm-session-24> <http://purl.org/dc/terms/description> "The OGC API Building Blocks approach:\n\n* integrating semantic annotations and schemas\n* supporting modular, incremental \"semantic uplift\"\n* exploiting semantic annotations to validate examples\n* CI/CT/CD framework (to be elaborated in final session)\n* exploiting semantic annotations in live systems\n* implications for specifications and standards"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-session-24> <http://purl.org/dc/terms/description> "What are the types of information we need to manage:\nBasic vocabularies\nOntologies (GeoSPARQL, SOSA etc)\nMachine readable specifications \nOGC Reference Model\nProfiles catalog\nObservable Properties\nFeature Type Catalog\n\n"@de .
-<https://2023.dataweek.de/gdds-2023/#programm-session-24> <http://purl.org/dc/terms/description> "What are the types of information we need to manage:\nBasic vocabularies\nOntologies (GeoSPARQL, SOSA etc)\nMachine readable specifications \nOGC Reference Model\nProfiles catalog\nObservable Properties\nFeature Type Catalog\n\n"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-session-24> <http://purl.org/dc/terms/title> "Workshop Semantics: Example - OGC API Building Blocks"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-session-24> <http://purl.org/dc/terms/title> "Workshop Semantics: Example - OGC API Building Blocks"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-session-24> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
@@ -1922,6 +1930,7 @@
 <https://2023.dataweek.de/gdds-2023/#programm-talk-79> <http://schema.org/endTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-79> <http://schema.org/startTime> "17:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-79> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/gdds-2023/#programm-talk-83> <http://purl.org/dc/terms/description> "Where does semantic interoperability happen?\n\nSystems of systems context\n\nAspects of interoperability\n\nDifferent types of resource doing different jobs\n\nThe \"Interoperability Value Pyramid\"\n\nSemantic Grounding: identifiers and registers\n\nFAIR in action - factoring semantics into the economics of re-use\n\nCase study: vocabularies for Essential Variables"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-83> <http://purl.org/dc/terms/title> "Focus: Role of semantic interoperability"@de .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-83> <http://purl.org/dc/terms/title> "Focus: Role of semantic interoperability"@en .
 <https://2023.dataweek.de/gdds-2023/#programm-talk-83> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
@@ -3997,6 +4006,10 @@
 <https://www.datev.de/> <http://www.w3.org/2000/01/rdf-schema#label> "DATEV eG"@en .
 <https://www.datev.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.datev.de/> .
 <https://www.datev.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/DATEV.svg" .
+<https://www.derivo.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.derivo.de/> <http://www.w3.org/2000/01/rdf-schema#label> "derivo GmbH" .
+<https://www.derivo.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.derivo.de/> .
+<https://www.derivo.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/derivo.png" .
 <https://www.diw.de/de/diw_01.c.611027.de/personen/gebel__tobias.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.diw.de/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.diw.de/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
