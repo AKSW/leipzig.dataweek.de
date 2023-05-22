@@ -100,7 +100,7 @@ ORDER BY ?start ?order
               <td colspan="{{ location_order | minus: column_counter }}"></td>
               {% assign column_counter = location_order %}
             {%- endunless -%}
-            {%- include components/program_view_table_unit.html session=session event=session_row.event -%}
+            {%- include components/program_view_table_unit.html session=session -%}
             {%- assign column_counter = column_counter | plus: 1 -%}
           {%- endif -%}
           {%- assign last_start = start -%}

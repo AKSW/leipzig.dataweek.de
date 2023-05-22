@@ -1,10 +1,8 @@
 {%- assign session = include.session -%}
-{%- assign event = include.event -%}
 {%- assign start = session | rdf_property: "schema:startTime" -%}
 {%- assign end = session | rdf_property: "schema:endTime" -%}
 {%- assign title = session | rdf_property: "dct:title", site.language -%}
 {%- assign description = session | rdf_property: "dct:description", site.language -%}
-{%- assign event_slug = event | rdf_property: "dw:slug" -%}
 {%- assign location_iri = session | rdf_property: "schema:location" -%}
 {%- assign location_id = location_iri | split: "#" | last -%}
 {%- assign date = session | rdf_property: "dw:date" -%}
