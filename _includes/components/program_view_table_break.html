@@ -1,9 +1,10 @@
 {%- assign session = include.session -%}
-{%- assign start = session | rdf_property: "schema:startTime" -%}
-{%- assign end = session | rdf_property: "schema:endTime" -%}
-{%- assign location = session | rdf_property: "schema:location" -%}
-{%- assign title = session | rdf_property: "dct:title", site.language -%}
-{%- assign description = session | rdf_property: "dct:description", site.language -%}
+{%- assign session_res = session.resource -%}
+{%- assign start = session.start -%}
+{%- assign end = session.end -%}
+{%- assign location = session_res | rdf_property: "schema:location" -%}
+{%- assign title = session_res | rdf_property: "dct:title", site.language -%}
+{%- assign description = session_res | rdf_property: "dct:description", site.language -%}
 
 <tr class="break">
   <th colspan="{{num_locations}}">
