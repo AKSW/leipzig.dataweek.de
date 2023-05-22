@@ -41,10 +41,6 @@ module Jekyll
         for event in events_row do
           start_index = times.find_index(event["start"])
           end_index = start_index + 1
-          puts "start"
-          puts event["start"]
-          puts "end"
-          puts event["end"]
           for end_time in times.drop(start_index) do
             # TODO maybe convert to dates before
             if event["end"] <= end_time then
@@ -53,8 +49,6 @@ module Jekyll
             end
           end
           event["rowspan"] = end_index - start_index
-          puts "rowspan"
-          puts event["rowspan"]
         end
       end
       return events_table
