@@ -14,7 +14,7 @@ WHERE {
 {% endcapture %}
 
 {% capture sessions_query %}
-SELECT DISTINCT ?session (SAMPLE(?subEvent) as ?event) ?start ?order
+SELECT DISTINCT ?session ?start ?order
 WHERE {
   ?resourceUri schema:subEvent ?subEvent .
   ?subEvent schema:subEvent ?session .
