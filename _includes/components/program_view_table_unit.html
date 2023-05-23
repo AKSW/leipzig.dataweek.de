@@ -1,15 +1,15 @@
 {%- assign session = include.session -%}
-{%- assign event = include.event -%}
-{%- assign start = session | rdf_property: "schema:startTime" -%}
-{%- assign end = session | rdf_property: "schema:endTime" -%}
-{%- assign title = session | rdf_property: "dct:title", site.language -%}
-{%- assign description = session | rdf_property: "dct:description", site.language -%}
-{%- assign event_slug = event | rdf_property: "dw:slug" -%}
-{%- assign location_iri = session | rdf_property: "schema:location" -%}
+{%- assign session_res = session.resource -%}
+{%- assign rowspan = session.rowspan -%}
+{%- assign start = session.start -%}
+{%- assign end = session.end -%}
+{%- assign title = session_res | rdf_property: "dct:title", site.language -%}
+{%- assign description = session_res | rdf_property: "dct:description", site.language -%}
+{%- assign location_iri = session_res | rdf_property: "schema:location" -%}
 {%- assign location_id = location_iri | split: "#" | last -%}
-{%- assign date = session | rdf_property: "dw:date" -%}
+{%- assign date = session_res | rdf_property: "dw:date" -%}
 
-<td headers="room1 period1">
+<td headers="room1 period1" rowspan="{{ rowspan | times: 2 | minus: 1 }}">
   <h4>
     <!--a class="calendar" href="programm_montag.html#" title="Veranstaltung als Kalender-Datei speichern">
       <svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
@@ -19,6 +19,6 @@
     <a href="{{date}}{{location_id}}.html#{{start | date: "%H:%M"}}">{{ title }}</a>
   </h4>
   <p class="meta">
-    <time datetime="{{start}}">{{start | date: "%H:%M"}}</time> - <time datetime="{{end}}">{{end | date: "%H:%M"}}</time> <span>|</span> {% include components/available_language.html resource=session %}
+    <time datetime="{{start}}">{{start | date: "%H:%M"}}</time> - <time datetime="{{end}}">{{end | date: "%H:%M"}}</time> <span>|</span> {% include components/available_language.html resource=session_res %}
   </p>
 </td>

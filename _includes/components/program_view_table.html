@@ -14,11 +14,12 @@ WHERE {
 {% endcapture %}
 
 {% capture sessions_query %}
-SELECT DISTINCT ?session (SAMPLE(?subEvent) as ?event) ?start ?order
+SELECT DISTINCT ?session ?start (SAMPLE(?endTime) as ?end) ?order
 WHERE {
   ?resourceUri schema:subEvent ?subEvent .
   ?subEvent schema:subEvent ?session .
-  ?session schema:startTime ?start .
+  ?session schema:startTime ?start ;
+           schema:endTime ?endTime .
   {
     ?session schema:location ?location ;
       dct:date ?date .
@@ -70,42 +71,36 @@ ORDER BY ?start ?order
         </tr>
       </thead>
       <tbody>
-        {% assign last_start = false %}
-        {% assign column_counter = 1 %}
-        {%- for session_row in sessions -%}
-          {%- assign session = session_row.session -%}
-          {%- assign track = session | rdf_property: "site:track" -%}
-          {%- assign start = session | rdf_property: "schema:startTime" -%}
-          {%- assign end = session | rdf_property: "schema:endTime" -%}
-          {%- assign location_order = session | rdf_property: "schema:location" | rdf_property: "dw:order" | plus: 0 -%}
-
+        {%- assign last_start = false -%}
+        {%- assign column_counter = 1 -%}
+        {%- assign program_table = sessions | program_table %}
+        {%- for session_row in program_table -%}
+          {%- assign start = session_row.first.start -%}
+          {%- assign track = session_row.first.resource | rdf_property: "site:track" -%}
           {%- if track == pause -%}
-            {%- include components/program_view_table_break.html session=session -%}
+            {%- include components/program_view_table_break.html session=session_row.first -%}
           {%- else -%}
-            {%- unless last_start == start -%}
-              {%- unless forloop.first -%}
-                <tr>
-              {%- endunless -%}
-              <tr class="headline">
-                <th colspan="{{num_locations}}" id="period1">
-                  <h3>
-                    <time datetime="{{start}}">{{start | date: "%H:%M"}}</time>
-                  </h3>
-                </th>
-              </tr>
-              <tr>
-              {% assign column_counter = 1 %}
-            {%- endunless -%}
-            {%- unless column_counter == location_order -%}
-              <td colspan="{{ location_order | minus: column_counter }}"></td>
-              {% assign column_counter = location_order %}
-            {%- endunless -%}
-            {%- include components/program_view_table_unit.html session=session event=session_row.event -%}
-            {%- assign column_counter = column_counter | plus: 1 -%}
-          {%- endif -%}
-          {%- assign last_start = start -%}
-          {%- if forloop.last -%}
+            <tr class="headline">
+              <th colspan="{{num_locations}}" id="period1">
+                <h3>
+                  <time datetime="{{start}}">{{start | date: "%H:%M"}}</time>
+                </h3>
+              </th>
+            </tr>
             <tr>
+              {%- assign column_counter = 1 -%}
+              {%- for session in session_row -%}
+                {%- assign location_order = session.order | plus: 0 -%}
+                {%- assign start = session.start -%}
+                {%- assign end = session.end -%}
+                  {%- unless column_counter == location_order -%}
+                    <td colspan="{{ location_order | minus: column_counter }}"></td>
+                    {%- assign column_counter = location_order -%}
+                  {%- endunless -%}
+                  {%- include components/program_view_table_unit.html session=session -%}
+                  {%- assign column_counter = column_counter | plus: 1 -%}
+              {%- endfor -%}
+            </tr>
           {%- endif -%}
         {%- endfor -%}
       </tbody>
