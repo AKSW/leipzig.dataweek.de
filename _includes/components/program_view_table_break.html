@@ -5,7 +5,7 @@
 {%- assign location = session_res | rdf_property: "schema:location" -%}
 {%- assign title = session_res | rdf_property: "dct:title", site.language -%}
 {%- assign description = session_res | rdf_property: "dct:description", site.language -%}
-{%- assign sub_event = session_res | rdf_property: "schema:subEvent" | rdf_property: "rdfs:label", site.language -%}
+{%- assign sub_event = session_res | rdf_property: "schema:subEvent" -%}
 
 <tr class="break">
   <th colspan="{{num_locations}}">
@@ -21,7 +21,7 @@
       {%- if sub_event -%}
         <div class="floorplan-break-session">
           <h4>
-            {{sub_event}}
+            {{sub_event | rdf_property: "rdfs:label", site.language}}
           </h4>
         </div>
       {%- endif -%}
