@@ -23,12 +23,6 @@ https://codyhouse.co/blog/post/line-height-crop
   width: device-width;
 }
 @font-face {
-  font-family: 'Logo Font';
-  font-style: normal;
-  font-weight: 800;
-  src: url("../fonts/data-week-logo-font.woff") format("woff");
-}
-@font-face {
   font-family: 'Source Sans 3';
   font-style: normal;
   font-weight: 200;
@@ -701,7 +695,7 @@ body {
 }
 @media only screen and (min-width: 760px) {
   .page-header {
-    padding: 0.875rem 1rem;
+    padding: 1.75rem 1rem 0.875rem 1rem;
   }
 }
 
@@ -711,155 +705,102 @@ body {
   max-width: 66rem;
 }
 
+.page-logo p {
+  margin: 0;
+}
+.page-logo a {
+  color: #17214c;
+  text-decoration: none;
+}
+.page-logo p.title {
+  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 0.4375rem 0 0.4375rem 0.5rem;
+}
+.page-logo p.title span {
+  color: #3da6dc;
+}
+.page-logo p.title strong {
+  color: #ff7600;
+  font-weight: 800;
+}
+@media only screen and (max-width: 359px) {
+  .page-logo p.title {
+    font-size: 22px;
+    font-size: 1.375rem;
+  }
+}
 @media only screen and (max-width: 759px) {
-  .page-header .date {
-    background: #17214c;
-    color: #fff;
+  .page-logo p.title strong {
     display: block;
-    font-size: 16px;
-    font-size: 1rem;
-    font-weight: 800;
-    line-height: 1.3125rem;
-    padding: 0.21875rem 0.125rem 0.21875rem 1rem;
   }
 }
 @media only screen and (min-width: 760px) {
-  .page-header .date {
-    color: #ff7600;
+  .page-logo p.title {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     font-size: 36px;
     font-size: 2.25rem;
-    font-weight: 800;
     line-height: 2.625rem;
-    position: absolute;
-    top: 0.875rem;
-    right: 0;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 0;
+  }
+  .page-logo p.title strong {
+    margin-left: auto;
+  }
+  .page-logo p.title span {
+    margin-left: .625rem;
   }
 }
 @media only screen and (min-width: 980px) {
-  .page-header .date {
+  .page-logo p.title {
     font-size: 42px;
     font-size: 2.625rem;
   }
 }
-
-.page-logo {
-  padding: 0.4375rem 0 0.4375rem 0.5rem;
-}
-.page-logo img {
-  height: 4.375rem;
-  width: auto;
+@media only screen and (min-width: 1280px) {
+  .page-logo p.title {
+    margin-bottom: 0.4375rem;
+  }
 }
 @media only screen and (max-width: 759px) {
-  .page-logo {
-    padding-top: 0.875rem;
-    padding-bottom: 0.875rem;
+  .page-logo p.claim {
+    background: #17214c;
+    color: #fff;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 0.875rem;
+    padding: 0.4375rem 0.125rem 0.4375rem 0.5rem;
   }
-  .page-logo img {
-    height: 2.625rem;
+}
+@media only screen and (max-width: 374px) {
+  .page-logo p.claim {
+    font-size: 12px;
+    font-size: 0.75rem;
+  }
+}
+@media only screen and (min-width: 760px) {
+  .page-logo p.claim {
+    color: #ff7600;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-width: 980px) {
+  .page-logo p.claim {
+    font-size: 16px;
+    font-size: 1rem;
   }
 }
 
-/*
-.page-logo {
-
-  p {
-    margin: 0;
-  }
-
-  a {
-    color: $keycolor;
-    text-decoration: none;
-  }
-
-  p.title {
-
-    font-size: 24px; font-size: rem(24);
-    font-weight: $black;
-    padding: baseline(.25) 0 baseline(.25) .5rem;
-
-    span {
-      color: $accent;
-    }
-
-    strong {
-      color: $highlight;
-      font-weight: $black;
-    }
-
-    @include breakpoint(360px, max) {
-      font-size: 22px; font-size: rem(22);
-    }
-
-    @include breakpoint(tablet-portrait, max) {
-
-      strong {
-        display: block;
-      }
-
-      //span {
-      //  @include visuallyhidden();
-      //}
-
-    }
-
-    @include breakpoint(tablet-portrait) {
-
-      display: flex;
-      font-size: 36px; font-size: rem(36);
-      line-height: baseline(1.5);
-      justify-content: flex-start;
-      padding: 0;
-
-      strong {
-        margin-left: auto;
-      }
-
-      span {
-        margin-left: .625rem;
-      }
-
-    }
-
-    @include breakpoint(tablet-landscape) {
-      font-size: 42px; font-size: rem(42);
-    }
-
-    @include breakpoint(desktop) {
-      margin-bottom: baseline(.25);
-    }
-
-  }
-
-  p.claim {
-  
-    @include breakpoint(tablet-portrait, max) { 
-      background: $keycolor;
-      color: $text-white;
-      font-size: 14px; font-size: rem(14);
-      font-weight: $medium;
-      line-height: baseline(.5);
-      padding: baseline(.25) .125rem baseline(.25) .5rem;
-    }
-
-    @include breakpoint(375px, max) {
-      font-size: 12px; font-size: rem(12);
-    }
-
-    @include breakpoint(tablet-portrait) {
-      color: $highlight;
-      font-size: 14px; font-size: rem(14);
-      font-weight: $bold;
-    }
-
-    @include breakpoint(tablet-landscape) {
-      font-size: 16px; font-size: rem(16);
-    }
-
-  }
-
-
-}
-*/
 .page-header .hamburger {
   background: #3da6dc;
   color: #17214c;
@@ -1985,7 +1926,7 @@ figure .license a {
   margin-bottom: 1.75rem;
 }
 
-a.btn, a.btn2, button {
+a.btn, button {
   background-color: #17214c;
   border: 0.125rem #17214c solid;
   border-radius: 0;
@@ -2003,24 +1944,13 @@ a.btn, a.btn2, button {
   text-decoration: none;
   text-transform: none;
 }
-a.btn:hover, a.btn:active, a.btn:focus-visible, a.btn2:hover, a.btn2:active, a.btn2:focus-visible, button:hover, button:active, button:focus-visible {
+a.btn:hover, a.btn:active, a.btn:focus-visible, button:hover, button:active, button:focus-visible {
   background-color: #3da6dc;
   border-color: #17214c;
   color: #17214c;
 }
-a.btn:focus-visible, a.btn2:focus-visible, button:focus-visible {
+a.btn:focus-visible, button:focus-visible {
   outline-color: #17214c;
-}
-
-a.btn2 {
-  border-color: #b5e3f8;
-  border-radius: 1.3125rem;
-  color: #b5e3f8;
-}
-a.btn2:hover, a.btn2:active, a.btn2:focus-visible {
-  background: #ff7600;
-  border-color: #ff7600;
-  color: #fff;
 }
 
 a.txt-btn {
@@ -3925,53 +3855,42 @@ form.filter optgroup {
   left: 0;
   z-index: 1;
 }
-.page-hero .page-hero-text {
+.page-hero h1 {
+  color: #fff;
   position: absolute;
   bottom: 1.75rem;
   left: 50%;
   text-align: left;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  width: calc(100% - 4rem);
+  margin: 0;
   max-width: 66rem;
+  width: calc(100% - 4rem);
   z-index: 5;
 }
-@media only screen and (min-width: 760px) {
-  .page-hero .page-hero-text {
-    bottom: 3.5rem;
-    width: calc(100% - 8rem);
-  }
-}
-@media only screen and (min-width: 980px) {
-  .page-hero .page-hero-text {
-    bottom: 5.25rem;
-  }
-}
-.page-hero .page-hero-text h1 {
-  color: #fff;
-  margin: 0;
-}
 @media only screen and (max-width: 759px) {
-  .page-hero .page-hero-text h1 {
+  .page-hero h1 {
     font-size: 22px;
     font-size: 1.375rem;
     line-height: 1.75rem;
   }
 }
 @media only screen and (max-width: 479px) {
-  .page-hero .page-hero-text h1 {
+  .page-hero h1 {
     font-size: 16px;
     font-size: 1rem;
     line-height: 1.3125rem;
   }
 }
-.page-hero .page-hero-text p {
-  margin-top: 0.875rem;
-  margin-bottom: 0;
+@media only screen and (min-width: 760px) {
+  .page-hero h1 {
+    bottom: 3.5rem;
+    width: calc(100% - 8rem);
+  }
 }
 @media only screen and (min-width: 980px) {
-  .page-hero .page-hero-text p {
-    margin-top: 1.75rem;
+  .page-hero h1 {
+    bottom: 5.25rem;
   }
 }
 .page-hero figure {
