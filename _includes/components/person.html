@@ -2,6 +2,46 @@
 {% include_cached strings.html %}
 {% capture name %}{% include_cached components/label.html iri = organizer.iri %}{% endcapture %}
 {% assign homepage = organizer | rdf_property: "foaf:homepage" %}
+{% assign mbox = organizer | rdf_property: "foaf:mbox" %}
+{% assign phone = organizer | rdf_property: "foaf:phone" %}
+{% assign mastodon = nil %}
+{% assign linkedin = nil %}
+{% assign xing = nil %}
+{% assign twitter = nil %}
+{% capture accounts_query %}
+select ?mastodon ?linkedin ?xing ?twitter {
+  optional {
+    ?resourceUri foaf:holdsAccount ?mastodon .
+    ?mastodon sioc:member_of <https://joinmastodon.org/> .
+  }
+  optional {
+    ?resourceUri foaf:holdsAccount ?linkedin .
+    ?linkedin sioc:member_of <https://www.linkedin.com/> .
+  }
+  optional {
+    ?resourceUri foaf:holdsAccount ?xing .
+    ?xing sioc:member_of <https://www.xing.com/> .
+  }
+  optional {
+    ?resourceUri foaf:holdsAccount ?twitter .
+    ?twitter sioc:member_of <https://twitter.com/> .
+  }
+}
+{% endcapture %}
+{% assign account_res = organizer | sparql_query: accounts_query %}
+{% assign accounts = account_res.first %}
+{% if accounts.mastodon %}
+  {% assign mastodon = accounts.mastodon %}
+{% endif %}
+{% if accounts.linkedin %}
+  {% assign linkedin = accounts.linkedin %}
+{% endif %}
+{% if accounts.xing %}
+  {% assign xing = accounts.xing %}
+{% endif %}
+{% if accounts.twitter %}
+  {% assign twitter = accounts.twitter %}
+{% endif %}
 {% assign depiction = organizer | rdf_property: "foaf:depiction" %}
 {% assign affiliations = organizer | rdf_property: "schema:affiliation", nil, true %}
 {% assign groups_foaf = organizer | rdf_property: "foaf:member", nil, true %}
@@ -12,21 +52,11 @@
 {% if groups_schema %}
     {% assign affiliations = affiliations | concat: groups_schema %}
 {% endif %}
-{% assign size = include.size %}
-{% unless size %}
-  {% assign size = 3 %}
-{% endunless %}
-{% assign role = organizer | rdf_property: "<https://2023.dataweek.de/#role>" | rdf_property: "rdfs:label" %}
 
 <div class="contact">
-    <h{{ size }} style="margin-bottom: 0em!important;">
+    <h3>
       {{ name }}
-    </h{{ size }}>
-    {% if role %}
-      <strong>
-        {{ role }}
-      </strong>
-    {% endif %}
+    </h3>
     <figure>
       {% if depiction %}
         {% assign contact_alt = str_alt_named | append: " " | append: name %}
@@ -64,4 +94,53 @@
         </li>
       {% endfor %}
     </ul>
+    {% capture contact_links -%}
+      {%- if homepage -%}
+        <li>
+          <a href="{{homepage}}" title="{{str_personal_webpage}}"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
+          <use xlink:href="{% relative_link /resources/images/socialmedia.svg %}#contact-globe"></use></svg></a>
+        </li>
+      {%- endif -%}
+      {%- if phone -%}
+        <li>
+          <a href="{{phone}}" title="{{str_personal_phone}}"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
+          <use xlink:href="{% relative_link /resources/images/socialmedia.svg %}#contact-phone"></use></svg></a>
+        </li>
+      {%- endif -%}
+      {%- if mastodon -%}
+        <li>
+          <a href="{{mastodon}}" title="{{str_personal_mastodon}}"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
+          <use xlink:href="{% relative_link /resources/images/socialmedia.svg %}#contact-mastodon"></use></svg></a>
+        </li>
+      {%- endif -%}
+      {%- if twitter -%}
+        <li>
+          <a href="{{twitter}}" title="{{str_personal_twitter}}"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
+          <use xlink:href="{% relative_link /resources/images/socialmedia.svg %}#contact-twitter"></use></svg></a>
+        </li>
+      {%- endif -%}
+      {%- if xing -%}
+        <li>
+          <a href="{{xing}}" title="{{str_personal_xing}}"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
+          <use xlink:href="{% relative_link /resources/images/socialmedia.svg %}#contact-xing"></use></svg></a>
+        </li>
+      {%- endif -%}
+      {%- if linkedin -%}
+        <li>
+          <a href="{{linkedin}}" title="{{str_personal_linkedin}}"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
+          <use xlink:href="{% relative_link /resources/images/socialmedia.svg %}#contact-linkedin"></use></svg></a>
+        </li>
+      {%- endif -%}
+      {%- if mbox -%}
+        <li>
+          <a href="{{mbox}}" title="{{str_personal_email}}"><svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
+          <use xlink:href="{% relative_link /resources/images/socialmedia.svg %}#contact-mail"></use></svg></a>
+        </li>
+      {%- endif -%}
+    {%- endcapture %}
+    {% unless contact_links == "" %}
+      <ul class="contact-links">
+        {{ contact_links }}
+      </ul>
+    {% endunless %}
 </div>

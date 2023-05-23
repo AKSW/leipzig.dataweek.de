@@ -1,10 +1,5 @@
-{% include strings.html %}
-{%- assign availableLanguage = include.resource | rdf_property: "schema:availableLanguage" -%}
-
-{%- if availableLanguage.iri == "http://lexvo.org/id/iso639-3/deu" -%}
-  {%- assign lang_string = str_de-%}
-{%- else -%}
-  {%- assign lang_string = str_en -%}
-{%- endif -%}
-
-{{- lang_string -}}
+{%- assign availableLanguages = include.resource | rdf_property: "schema:availableLanguage", nil, true -%}
+{%- for lang in availableLanguages -%}
+  {{ lang | rdf_property: "rdfs:label", site.language }}
+  {%- unless forloop.last -%}, {% endunless -%}
+{%- endfor -%}
