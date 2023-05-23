@@ -5,6 +5,7 @@
 {%- assign location = session_res | rdf_property: "schema:location" -%}
 {%- assign title = session_res | rdf_property: "dct:title", site.language -%}
 {%- assign description = session_res | rdf_property: "dct:description", site.language -%}
+{%- assign sub_event = session_res | rdf_property: "schema:subEvent" | rdf_property: "rdfs:label", site.language -%}
 
 <tr class="break">
   <th colspan="{{num_locations}}">
@@ -17,11 +18,13 @@
           <time datetime="{{start}}">{{start | date: "%H:%M"}}</time> - <time datetime="{{end}}">{{end | date: "%H:%M"}}</time>
         </p>
       </div>
-      <div class="floorplan-break-session">
-        <h4>
-          Postersession
-        </h4>
-      </div>
+      {%- if sub_event -%}
+        <div class="floorplan-break-session">
+          <h4>
+            {{sub_event}}
+          </h4>
+        </div>
+      {%- endif -%}
     </div>
   </th>
 </tr>
