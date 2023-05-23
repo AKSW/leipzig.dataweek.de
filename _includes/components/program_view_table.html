@@ -71,8 +71,8 @@ ORDER BY ?start ?order
         </tr>
       </thead>
       <tbody>
-        {% assign last_start = false %}
-        {% assign column_counter = 1 %}
+        {%- assign last_start = false -%}
+        {%- assign column_counter = 1 -%}
         {%- assign program_table = sessions | program_table %}
         {%- for session_row in program_table -%}
           {%- assign start = session_row.first.start -%}
@@ -88,14 +88,14 @@ ORDER BY ?start ?order
               </th>
             </tr>
             <tr>
-              {% assign column_counter = 1 %}
+              {%- assign column_counter = 1 -%}
               {%- for session in session_row -%}
                 {%- assign location_order = session.order | plus: 0 -%}
                 {%- assign start = session.start -%}
                 {%- assign end = session.end -%}
                   {%- unless column_counter == location_order -%}
                     <td colspan="{{ location_order | minus: column_counter }}"></td>
-                    {% assign column_counter = location_order %}
+                    {%- assign column_counter = location_order -%}
                   {%- endunless -%}
                   {%- include components/program_view_table_unit.html session=session -%}
                   {%- assign column_counter = column_counter | plus: 1 -%}
