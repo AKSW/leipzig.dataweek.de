@@ -27,7 +27,8 @@
     document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
   </script>
   <script src="/resources/js/base.js" defer></script>
-  <link rel="stylesheet" type="text/css" media="screen" href="/resources/css/base.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="/resources/css/base.dev.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="/resources/css/patches.css">
   <script type="application/ld+json">
     {
       "@context": "https:\/\/schema.org",
@@ -59,90 +60,6 @@
 </head>
 
 <body>
-
-  <style>
-    .btn2-patch {
-      border: 0.125rem #17214c solid;
-      cursor: pointer;
-      display: inline-block;
-      font-size: 18px;
-      font-size: 1.125rem;
-      font-weight: 600;
-      letter-spacing: 0;
-      line-height: 1.75rem;
-      margin: 0 0 0 0;
-      padding: 0.4375rem 1rem 0.4375rem 1rem;
-      position: relative;
-      text-decoration: none;
-      text-transform: none;
-
-      background-color: #3da6dc;
-      color: #17214c;
-      border-radius: 1.3125rem;
-    }
-
-    /*
-    lightblue: #3da6dc
-    darkblue: #17214c
-    orange: #ff7600
-    */
-    @keyframes ripple-keyframes {
-      0% {
-        background: #17214c radial-gradient(circle, transparent 1%, #17214c 1%) center/0%;
-        background-color: #ff7600;
-        background-size: 100%;
-      }
-      33% {
-        background: #17214c radial-gradient(circle, transparent 1%, #17214c 1%) center/15000%;
-        background-color: #ff7600;
-      }
-
-      33.01% {
-        background: #ff7600 radial-gradient(circle, transparent 1%, #ff7600 1%) center/0%;
-        background-color: #3da6dc;
-        background-size: 100%;
-      }
-      66% {
-        background: #ff7600 radial-gradient(circle, transparent 1%, #ff7600 1%) center/15000%;
-        background-color: #3da6dc;
-      }
-
-      66.01% {
-        background: #3da6dc radial-gradient(circle, transparent 1%, #3da6dc 1%) center/0%;
-        background-color: #17214c;
-        background-size: 100%;
-      }
-      100% {
-        background: #3da6dc radial-gradient(circle, transparent 1%, #3da6dc 1%) center/15000%;
-        background-color: #17214c;
-      }
-    }
-
-    /* Ripple effect */
-    .ripple {
-      background-position: center;
-      animation: ripple-keyframes 10s linear infinite;
-    }
-
-    .contact ul.logos img {
-      width: 4.5rem!important;
-      height: auto!important;
-    }
-
-    .contact ul.logos {
-      height: 5rem;
-    }
-
-    /* Logo size and position */
-    .page-logo img {
-      height: 2.625rem;
-      left: -.52em;
-      top: .15rem;
-      position: relative;
-    }
-
-  </style>
-
   
 
 <a id="top"></a>
@@ -3002,7 +2919,7 @@
                 </h3>
               </th>
             </tr>
-            <tr><td colspan="3"></td><td headers="room1 period1" rowspan="1">
+            <tr><td colspan="3"></td><td headers="room1 period1" rowspan="1" class="floorplan-session">
   <h4>
     <!--a class="calendar" href="programm_montag.html#" title="Veranstaltung als Kalender-Datei speichern">
       <svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
@@ -3039,7 +2956,7 @@
                 </h3>
               </th>
             </tr>
-            <tr><td colspan="3"></td><td headers="room1 period1" rowspan="1">
+            <tr><td colspan="3"></td><td headers="room1 period1" rowspan="1" class="floorplan-session">
   <h4>
     <!--a class="calendar" href="programm_montag.html#" title="Veranstaltung als Kalender-Datei speichern">
       <svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
@@ -3076,7 +2993,7 @@
                 </h3>
               </th>
             </tr>
-            <tr><td colspan="3"></td><td headers="room1 period1" rowspan="1">
+            <tr><td colspan="3"></td><td headers="room1 period1" rowspan="1" class="floorplan-session">
   <h4>
     <!--a class="calendar" href="programm_montag.html#" title="Veranstaltung als Kalender-Datei speichern">
       <svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
@@ -3113,7 +3030,7 @@
                 </h3>
               </th>
             </tr>
-            <tr><td colspan="3"></td><td headers="room1 period1" rowspan="1">
+            <tr><td colspan="3"></td><td headers="room1 period1" rowspan="1" class="floorplan-session">
   <h4>
     <!--a class="calendar" href="programm_montag.html#" title="Veranstaltung als Kalender-Datei speichern">
       <svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
