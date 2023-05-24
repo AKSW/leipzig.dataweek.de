@@ -1926,7 +1926,7 @@ figure .license a {
   margin-bottom: 1.75rem;
 }
 
-a.btn, button {
+a.btn, a.btn2, button {
   background-color: #17214c;
   border: 0.125rem #17214c solid;
   border-radius: 0;
@@ -1944,13 +1944,24 @@ a.btn, button {
   text-decoration: none;
   text-transform: none;
 }
-a.btn:hover, a.btn:active, a.btn:focus-visible, button:hover, button:active, button:focus-visible {
+a.btn:hover, a.btn:active, a.btn:focus-visible, a.btn2:hover, a.btn2:active, a.btn2:focus-visible, button:hover, button:active, button:focus-visible {
   background-color: #3da6dc;
   border-color: #17214c;
   color: #17214c;
 }
-a.btn:focus-visible, button:focus-visible {
+a.btn:focus-visible, a.btn2:focus-visible, button:focus-visible {
   outline-color: #17214c;
+}
+
+a.btn2 {
+  border-color: #b5e3f8;
+  border-radius: 1.3125rem;
+  color: #b5e3f8;
+}
+a.btn2:hover, a.btn2:active, a.btn2:focus-visible {
+  background: #ff7600;
+  border-color: #ff7600;
+  color: #fff;
 }
 
 a.txt-btn {
@@ -3341,6 +3352,7 @@ form.filter optgroup {
   padding: 0;
 }
 .contact ul.logos {
+  height: 5rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3357,8 +3369,8 @@ form.filter optgroup {
   padding: 0.4375rem;
 }
 .contact ul.logos img {
-  height: 3.5rem;
-  width: auto;
+  width: 4.5rem;
+  height: auto;
 }
 .contact ul.contact-links {
   background: rgba(232, 247, 253, 0.25);
@@ -3855,42 +3867,53 @@ form.filter optgroup {
   left: 0;
   z-index: 1;
 }
-.page-hero h1 {
-  color: #fff;
+.page-hero .page-hero-text {
   position: absolute;
   bottom: 1.75rem;
   left: 50%;
   text-align: left;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  margin: 0;
-  max-width: 66rem;
   width: calc(100% - 4rem);
+  max-width: 66rem;
   z-index: 5;
 }
+@media only screen and (min-width: 760px) {
+  .page-hero .page-hero-text {
+    bottom: 3.5rem;
+    width: calc(100% - 8rem);
+  }
+}
+@media only screen and (min-width: 980px) {
+  .page-hero .page-hero-text {
+    bottom: 5.25rem;
+  }
+}
+.page-hero .page-hero-text h1 {
+  color: #fff;
+  margin: 0;
+}
 @media only screen and (max-width: 759px) {
-  .page-hero h1 {
+  .page-hero .page-hero-text h1 {
     font-size: 22px;
     font-size: 1.375rem;
     line-height: 1.75rem;
   }
 }
 @media only screen and (max-width: 479px) {
-  .page-hero h1 {
+  .page-hero .page-hero-text h1 {
     font-size: 16px;
     font-size: 1rem;
     line-height: 1.3125rem;
   }
 }
-@media only screen and (min-width: 760px) {
-  .page-hero h1 {
-    bottom: 3.5rem;
-    width: calc(100% - 8rem);
-  }
+.page-hero .page-hero-text p {
+  margin-top: 0.875rem;
+  margin-bottom: 0;
 }
 @media only screen and (min-width: 980px) {
-  .page-hero h1 {
-    bottom: 5.25rem;
+  .page-hero .page-hero-text p {
+    margin-top: 1.75rem;
   }
 }
 .page-hero figure {
@@ -6469,4 +6492,77 @@ svg.leaflet-image-layer.leaflet-interactive path {
   top: 0px !important;
   left: 0px !important;
   z-index: 99999;
+}
+
+/* Ripple effect */
+.ripple {
+  background-position: center;
+  animation: ripple-keyframes 10s linear infinite;
+}
+
+/*
+lightblue: #3da6dc
+darkblue: #17214c
+orange: #ff7600
+*/
+@keyframes ripple-keyframes {
+  0% {
+    background: #17214c radial-gradient(circle, transparent 1%, #17214c 1%) center/0%;
+    background-color: #ff7600;
+    background-size: 100%;
+  }
+  33% {
+    background: #17214c radial-gradient(circle, transparent 1%, #17214c 1%) center/15000%;
+    background-color: #ff7600;
+  }
+
+  33.01% {
+    background: #ff7600 radial-gradient(circle, transparent 1%, #ff7600 1%) center/0%;
+    background-color: #3da6dc;
+    background-size: 100%;
+  }
+  66% {
+    background: #ff7600 radial-gradient(circle, transparent 1%, #ff7600 1%) center/15000%;
+    background-color: #3da6dc;
+  }
+
+  66.01% {
+    background: #3da6dc radial-gradient(circle, transparent 1%, #3da6dc 1%) center/0%;
+    background-color: #17214c;
+    background-size: 100%;
+  }
+  100% {
+    background: #3da6dc radial-gradient(circle, transparent 1%, #3da6dc 1%) center/15000%;
+    background-color: #17214c;
+  }
+}
+
+/* Data Week page logo size and position */
+@media only screen and (min-width: 760px) {
+  .page-logo img {
+    height: 2.625rem;
+    left: -.52em;
+    top: .15rem;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  .page-logo img {
+    left: 0em;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .page-logo img {
+    height: 2rem;
+    padding-right: 60px;
+  }
+}
+
+/* Timetable floorplan (overview) */
+.timetable-floorplan tr td.floorplan-session {
+  background: #e8f7fd;
+  border: .1rem solid white;
+  border-radius: .6rem;
 }
