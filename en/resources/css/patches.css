@@ -73,12 +73,28 @@ orange: #ff7600
 }
 
 /* Data Week page logo size and position */
-.page-logo img {
-  height: 2.625rem;
-  left: -.52em;
-  top: .15rem;
-  position: relative;
+@media only screen and (min-width: 760px) {
+  .page-logo img {
+    height: 2.625rem;
+    left: -.52em;
+    top: .15rem;
+    position: relative;
+  }
 }
+
+@media only screen and (max-width: 1120px) {
+  .page-logo img {
+    left: 0em;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .page-logo img {
+    height: 2rem;
+    padding-right: 60px;
+  }
+}
+
 
 /* Timetable floorplan (overview) */
 .timetable-floorplan tr td.floorplan-session {
