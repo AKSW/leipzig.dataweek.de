@@ -9,7 +9,7 @@
 {%- assign location_id = location_iri | split: "#" | last -%}
 {%- assign date = session_res | rdf_property: "dw:date" -%}
 
-<td headers="room1 period1" rowspan="{{ rowspan | times: 2 | minus: 1 }}">
+<td headers="room1 period1" rowspan="{{ rowspan | times: 2 | minus: 1 }}" class="floorplan-session">
   <h4>
     <!--a class="calendar" href="programm_montag.html#" title="Veranstaltung als Kalender-Datei speichern">
       <svg role="img" focusable="false" aria-hidden="true" height="28" width="28">

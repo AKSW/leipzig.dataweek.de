@@ -544,7 +544,7 @@ figcaption p {
 }
 
 table {
-  border-collapse: collapse;
+  border-spacing: 0;
   margin: 0 0 1.75rem 0;
   width: 100%;
 }
@@ -4389,18 +4389,6 @@ p.meta span {
   border-radius: .5rem;
   margin-left: auto;
   padding: 0.875rem;
-}
-.timetable-floorplan tbody tr td:not(:last-child) {
-  position: relative;
-}
-.timetable-floorplan tbody tr td:not(:last-child)::after {
-  background: #e8f7fd;
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0.875rem;
-  width: .125rem;
 }
 
 .card-list .card {
