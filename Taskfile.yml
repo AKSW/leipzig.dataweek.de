@@ -7,6 +7,10 @@ vars:
   GRAPH_IRI:
     sh: cat {{.GRAPH_FILE}}.nt.graph || echo none
 
+  ICAL_REPO: git@github.com:AKSW/ical.dataweek.de.git
+  ICAL_DIR: .ical
+  ICAL_BRANCH: page-live
+
   GIT_USER_NAME: DataWeek CMEM Update Bot 🤖
   GIT_USER_EMAIL: dw-cmem-update-bot@example.org
   GIT_COMMIT_MESSAGE: Update from CMEM
@@ -51,6 +55,7 @@ tasks:
       - test -d _site && rm -r _site || true
       - mv {{.TARGET_TMP_DE}} {{.TARGET_DE}}
       - mv {{.TARGET_TMP_EN}} {{.TARGET_EN}}
+      - task: ical:sync
 
   watch:
     desc: Serve the page and rebuild it on changes
@@ -131,6 +136,30 @@ tasks:
       - git clone {{.MODEL_REPO}} {{.MODEL_DIR}}
     status:
       - test -d {{.MODEL_DIR}}
+
+  ical:update:
+    deps:
+      - ical:init
+    cmds:
+      - cd {{.ICAL_DIR}} && git pull
+
+  ical:init:
+    cmds:
+      - git clone -b {{.ICAL_BRANCH}} {{.ICAL_REPO}} {{.ICAL_DIR}}
+    status:
+      - test -d {{.ICAL_DIR}}
+
+  ical:merge:
+    desc: Merge the ical feeds into the site directory
+    cmds:
+      - cp -r {{.ICAL_DIR}}/* _site/
+      - cp -r {{.ICAL_DIR}}/* _site/en/
+
+  ical:sync:
+    desc: Synchronize the ical feeds
+    cmds:
+      - task: ical:update
+      - task: ical:merge
 
   pictures:scale:
     deps:
