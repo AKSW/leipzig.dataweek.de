@@ -2386,8 +2386,8 @@
 <https://2023.dataweek.de/lswt2023/#programm-talk-27> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://purl.org/dc/terms/title> "Grußwort"@de .
-<https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://purl.org/dc/terms/title> "Welcoming address"@en .
+<https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://purl.org/dc/terms/title> "Greeting and presentation of the program slots"@en .
+<https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://purl.org/dc/terms/title> "Grußwort und Vorstellung des Tagesprogramms"@de .
 <https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://schema.org/endTime> "09:05:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-3> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
@@ -2411,9 +2411,17 @@
 <https://2023.dataweek.de/lswt2023/#programm-talk-5> <http://schema.org/startTime> "09:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-8> <http://purl.org/dc/terms/title> "Reskriver: Template-based Modelling of recurrent Pattern in Knowledge Graphs"@de .
+<https://2023.dataweek.de/lswt2023/#programm-talk-8> <http://purl.org/dc/terms/title> "Reskriver: Template-based Modelling of recurrent Pattern in Knowledge Graphs"@en .
+<https://2023.dataweek.de/lswt2023/#programm-talk-8> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-8> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-8> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-8> <http://schema.org/performer> <https://dataweek.de/#ThomasHoppe> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-8> <http://schema.org/startTime> "10:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-9> <http://purl.org/dc/terms/title> "databri-x: Utilization of KGs for process and software modeling for energy optimization in data analysis"@de .
+<https://2023.dataweek.de/lswt2023/#programm-talk-9> <http://purl.org/dc/terms/title> "databri-x: Utilization of KGs for process and software modeling for energy optimization in data analysis"@en .
+<https://2023.dataweek.de/lswt2023/#programm-talk-9> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-9> <http://schema.org/endTime> "10:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-9> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -2860,8 +2868,8 @@
 <https://dataweek.de/#CharisChatzikyriakou> <http://purl.org/dc/terms/description> "Charis Chatzikyriakou"@en .
 <https://dataweek.de/#CharisChatzikyriakou> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#CharisChatzikyriakou> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#CharisChatzikyriakou> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Charis Chatzikyriakou." .
-<https://dataweek.de/#CharisChatzikyriakou> <http://xmlns.com/foaf/0.1/name> "Charis Chatzikyriakou." .
+<https://dataweek.de/#CharisChatzikyriakou> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Charis Chatzikyriakou" .
+<https://dataweek.de/#CharisChatzikyriakou> <http://xmlns.com/foaf/0.1/name> "Charis Chatzikyriakou" .
 <https://dataweek.de/#CharisChatzikyriakou> <http://xmlns.com/foaf/0.1/title> "Dr. " .
 <https://dataweek.de/#ChristianGuethert> <http://purl.org/dc/terms/description> "Geschäftsführer bei EDF Deutschland GmbH"@de .
 <https://dataweek.de/#ChristianGuethert> <http://purl.org/dc/terms/description> "Managing Director at EDF Deutschlang GmbH"@en .
@@ -3147,6 +3155,11 @@
 <https://dataweek.de/#JasminBatke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JasminBatke> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/jasmin-batke-352591225/> .
 <https://dataweek.de/#JasminBatke> <http://xmlns.com/foaf/0.1/name> "Jasmin Batke" .
+<https://dataweek.de/#JavadChamanara> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#JavadChamanara> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JavadChamanara> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Javad Chamanara" .
+<https://dataweek.de/#JavadChamanara> <http://xmlns.com/foaf/0.1/name> "Javad Chamanara" .
+<https://dataweek.de/#JavadChamanara> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#JensLehmann> <http://purl.org/dc/terms/description> "Innovation and technology consultant"@en .
 <https://dataweek.de/#JensLehmann> <http://purl.org/dc/terms/description> "Innovations- und Technologieberater"@de .
 <https://dataweek.de/#JensLehmann> <http://schema.org/affiliation> <https://www.agil-leipzig.de/> .
@@ -3700,6 +3713,11 @@
 <https://dataweek.de/#ThomasGrzeschik> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ThomasGrzeschik> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/thomas-grzeschik-68a5631/> .
 <https://dataweek.de/#ThomasGrzeschik> <http://xmlns.com/foaf/0.1/name> "Thomas Grzeschik" .
+<https://dataweek.de/#ThomasHoppe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#ThomasHoppe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#ThomasHoppe> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Thomas Hoppe" .
+<https://dataweek.de/#ThomasHoppe> <http://xmlns.com/foaf/0.1/name> "Thomas Hoppe" .
+<https://dataweek.de/#ThomasHoppe> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <https://dataweek.de/#ThomasSchurig> <http://purl.org/dc/terms/description> "Büro für Ratsangelegenheiten der Stadt Leipzig"@de .
 <https://dataweek.de/#ThomasSchurig> <http://purl.org/dc/terms/description> "Office for Council Affairs of the City of Leipzig"@en .
 <https://dataweek.de/#ThomasSchurig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
