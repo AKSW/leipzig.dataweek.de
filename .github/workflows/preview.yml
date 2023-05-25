@@ -25,7 +25,7 @@ jobs:
     - name: Check out iCal Repository 📅
       uses: actions/checkout@v3
       with:
-        repository: 'AKSW/ical.leipzig.dataweek.de'
+        repository: 'AKSW/ical.dataweek.de'
         ref: 'page-live'
         path: '.ical'
     - name: Scale Pictures 🖼️
