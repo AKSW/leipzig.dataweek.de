@@ -2350,6 +2350,7 @@
 <https://2023.dataweek.de/lswt2023/#programm-talk-12> <http://purl.org/dc/terms/description> "Student from multiple universities will present their Semantic Web projects in a fast and heroic minute madness."@en .
 <https://2023.dataweek.de/lswt2023/#programm-talk-12> <http://purl.org/dc/terms/title> "Minutes by Future Knowledge Experts (Students)"@de .
 <https://2023.dataweek.de/lswt2023/#programm-talk-12> <http://purl.org/dc/terms/title> "Minutes by Future Knowledge Experts (Students)"@en .
+<https://2023.dataweek.de/lswt2023/#programm-talk-12> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-12> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-12> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-12> <http://schema.org/performer> <http://aksw.org/ThomasRiechert> .
@@ -3259,6 +3260,7 @@
 <https://dataweek.de/#JasminBatke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JasminBatke> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/jasmin-batke-352591225/> .
 <https://dataweek.de/#JasminBatke> <http://xmlns.com/foaf/0.1/name> "Jasmin Batke" .
+<https://dataweek.de/#JavadChamanara> <http://schema.org/affiliation> <https://www.tib.eu/> .
 <https://dataweek.de/#JavadChamanara> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JavadChamanara> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JavadChamanara> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Javad Chamanara" .
@@ -3330,6 +3332,7 @@
 <https://dataweek.de/#KatrinMehler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#KatrinMehler> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/KatrinMehler.jpg" .
 <https://dataweek.de/#KatrinMehler> <http://xmlns.com/foaf/0.1/name> "Katrin Mehler" .
+<https://dataweek.de/#KenWenzel> <http://schema.org/affiliation> <https://www.iwu.fraunhofer.de/> .
 <https://dataweek.de/#KenWenzel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#KenWenzel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#KenWenzel> <http://xmlns.com/foaf/0.1/name> "Ken Wenzel" .
@@ -3625,6 +3628,7 @@
 <https://dataweek.de/#RichardFigura> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Richard Figura" .
 <https://dataweek.de/#RichardFigura> <http://xmlns.com/foaf/0.1/name> "Richard Figura" .
 <https://dataweek.de/#RichardFigura> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#RichardNagelmaeker> <http://schema.org/affiliation> <https://www.ubindr.nl/> .
 <https://dataweek.de/#RichardNagelmaeker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#RichardNagelmaeker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#RichardNagelmaeker> <http://xmlns.com/foaf/0.1/name> "Richard Nagelmaeker " .
@@ -4236,6 +4240,10 @@
 <https://www.ewerk.com/startseite> <http://www.w3.org/2000/01/rdf-schema#label> "EWERK"@de .
 <https://www.ewerk.com/startseite> <http://www.w3.org/2000/01/rdf-schema#label> "EWERK"@en .
 <https://www.ewerk.com/startseite> <http://xmlns.com/foaf/0.1/homepage> <https://www.ewerk.com/startseite> .
+<https://www.fokus.fraunhofer.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.fokus.fraunhofer.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.fokus.fraunhofer.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer-Institut für Offene Kommunikationssysteme (FOKUS)"@de .
+<https://www.fokus.fraunhofer.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.fokus.fraunhofer.de/> .
 <https://www.geoe3.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.geoe3.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "GEOE3" .
 <https://www.geoe3.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://www.geoe3.eu/> .
@@ -4277,6 +4285,11 @@
 <https://www.infineon.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Infineon Technologies AG"@de .
 <https://www.infineon.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Infineon Technologies AG"@en .
 <https://www.infineon.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.infineon.com/> .
+<https://www.iwu.fraunhofer.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.iwu.fraunhofer.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.iwu.fraunhofer.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer Institute for Machine Tools and Forming Technology"@en .
+<https://www.iwu.fraunhofer.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer-Institut für Werkzeugmaschinen und Umformtechnik IWU"@de .
+<https://www.iwu.fraunhofer.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.iwu.fraunhofer.de/> .
 <https://www.kielregion.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.kielregion.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.kielregion.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Smarte KielRegion GmbH"@de .
@@ -4457,6 +4470,11 @@
 <https://www.tib.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Informationsbibliothek (TIB)"@en .
 <https://www.tib.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://www.tib.eu/> .
 <https://www.tib.eu/en/research-development/research-groups-and-labs/data-science-digital-libraries/staff/soeren-auer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.ubindr.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.ubindr.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.ubindr.nl/> <http://www.w3.org/2000/01/rdf-schema#label> "Ubindr"@de .
+<https://www.ubindr.nl/> <http://www.w3.org/2000/01/rdf-schema#label> "Ubindr"@en .
+<https://www.ubindr.nl/> <http://xmlns.com/foaf/0.1/homepage> <https://www.ubindr.nl/> .
 <https://www.umweltbundesamt.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.umweltbundesamt.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.umweltbundesamt.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Environmental Agency"@en .
