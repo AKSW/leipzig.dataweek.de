@@ -1,0 +1,8 @@
+{% include strings.html %}
+{% assign eventsMenuResource = "dw23:tracks" | rdf_get %}
+<div class="content-header">
+  <h1>
+    {{ str_tracks }}
+  </h1>
+  {% include components/menu_sub1_events.html menuResource=eventsMenuResource %}
+</div>

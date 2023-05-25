@@ -1,0 +1,39 @@
+{% assign rootResource = site.rootResource | rdf_get %}
+{% assign menuResource = include.menuResource %}
+
+{% include strings.html %}
+
+{% capture subMenuQuery %}
+select distinct ?entry {
+  {
+    bind(<{{page.rdf}}> as ?entry)
+    ?resourceUri ?cmprop_1st ?entry .
+    bind(1 as ?level)
+  } union {
+    ?resourceUri ?cmprop_1st ?entry .
+    ?entry ?cmprop_2nd <{{page.rdf}}> .
+    bind(2 as ?level)
+  }
+  ?cmprop_1st a rdfs:ContainerMembershipProperty .
+  ?cmprop_2nd a rdfs:ContainerMembershipProperty .
+} order by ?level limit 1
+{% endcapture %}
+
+{% assign selected_res = menuResource | sparql_query: subMenuQuery %}
+{% assign current_super_resource = selected_res.first.entry %}
+{% assign current_page = page.rdf.render_path | relativize_url %}
+{% assign menu = menuResource | rdf_container %}
+
+<nav class="nav-sub1" aria-label="{{str_sub1_menu}}">
+  <ul>
+    {% for entry in menu %}
+      {% assign active = false %}
+      {% if entry == current_super_resource %}
+        {% assign active = true %}
+      {% endif %}
+      {%- assign weekday_string = entry | rdf_property: "dct:date" | date: "%Y-%m-%d" -%}
+
+      {% include components/menu_sub_entry.html active=active current=current_page resource=entry label_sub=weekday_string label_flipped=true %}
+    {% endfor %}
+  </ul>
+</nav>

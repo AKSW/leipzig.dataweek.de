@@ -8,9 +8,9 @@ layout: basic
 {% assign dwList = "dw:List" | rdf_get %}
 
 {% if baseEventResource == rootResource %}
-  {% include components/menu_program.html %}
+  {% include sections/header_program.html %}
 {% else %}
-  {% include components/menu_events.html %}
+  {% include sections/header_events.html %}
 {% endif %}
 
 {% capture viewQuery %}
