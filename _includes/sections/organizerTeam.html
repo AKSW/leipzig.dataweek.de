@@ -4,14 +4,12 @@
 {% assign organizerTeam = organizer | rdf_container %}
 {% if organizer %}
   {% if organizerTeam.first %}
-    <h3>
-      {% assign label = organizer | rdf_property: "rdfs:label" %}
-      {% if label %}
+    {%- assign label = organizer | rdf_property: "rdfs:label" -%}
+    {%- if label -%}
+      <h3>
         {{ label }}
-      {% else %}
-        {{ str_organizer }}
-      {% endif %}
-    </h3>
+      </h3>
+    {%- endif -%}
     <div class="contact-list">
       <ul>  
         {% for member in organizerTeam %}
