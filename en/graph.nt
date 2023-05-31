@@ -670,6 +670,7 @@
 <https://2023.dataweek.de/Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2023.dataweek.de/Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In Kooperation mit"@de .
 <https://2023.dataweek.de/Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In cooperation with"@en .
+<https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <https://www.ubindr.nl/> .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://www.alexanderthamm.com/> .
 <https://2023.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://www.datev.de/> .
@@ -2798,6 +2799,11 @@
 <https://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://aksw.org/KurtJunghanns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://algorithmwatch.org> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://algorithmwatch.org> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://algorithmwatch.org> <http://www.w3.org/2000/01/rdf-schema#label> "AW AlgorithmWatch gGmbH"@de .
+<https://algorithmwatch.org> <http://www.w3.org/2000/01/rdf-schema#label> "AW AlgorithmWatch gGmbH"@en .
+<https://algorithmwatch.org> <http://xmlns.com/foaf/0.1/homepage> <https://algorithmwatch.org> .
 <https://appplant.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://appplant.de/> <http://www.w3.org/2000/01/rdf-schema#label> "appPlant GmbH" .
 <https://appplant.de/> <http://xmlns.com/foaf/0.1/homepage> <https://appplant.de/> .
@@ -2943,6 +2949,15 @@
 <https://dataweek.de/#AngelieKraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AngelieKraft> <http://xmlns.com/foaf/0.1/homepage> <https://www.inf.uni-hamburg.de/en/inst/ab/sems/people/angelie-kraft.html> .
 <https://dataweek.de/#AngelieKraft> <http://xmlns.com/foaf/0.1/name> "Angelie Kraft" .
+<https://dataweek.de/#AnneMollen> <http://purl.org/dc/terms/description> "Senior Policy & Advocacy Manager"@de .
+<https://dataweek.de/#AnneMollen> <http://purl.org/dc/terms/description> "Senior Policy & Advocacy Manager"@en .
+<https://dataweek.de/#AnneMollen> <http://schema.org/affiliation> <https://algorithmwatch.org> .
+<https://dataweek.de/#AnneMollen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#AnneMollen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#AnneMollen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Anne Mollen" .
+<https://dataweek.de/#AnneMollen> <http://xmlns.com/foaf/0.1/homepage> <https://algorithmwatch.org> .
+<https://dataweek.de/#AnneMollen> <http://xmlns.com/foaf/0.1/name> "Anne Mollen" .
+<https://dataweek.de/#AnneMollen> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#AnniinaLundvall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AnniinaLundvall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AnniinaLundvall> <http://xmlns.com/foaf/0.1/name> "Anniina Lundvall" .
@@ -4497,11 +4512,13 @@
 <https://www.tib.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Informationsbibliothek (TIB)"@en .
 <https://www.tib.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://www.tib.eu/> .
 <https://www.tib.eu/en/research-development/research-groups-and-labs/data-science-digital-libraries/staff/soeren-auer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.ubindr.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.ubindr.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.ubindr.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.ubindr.nl/> <http://www.w3.org/2000/01/rdf-schema#label> "Ubindr"@de .
 <https://www.ubindr.nl/> <http://www.w3.org/2000/01/rdf-schema#label> "Ubindr"@en .
 <https://www.ubindr.nl/> <http://xmlns.com/foaf/0.1/homepage> <https://www.ubindr.nl/> .
+<https://www.ubindr.nl/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/ubindr.png" .
 <https://www.umweltbundesamt.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.umweltbundesamt.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.umweltbundesamt.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Environmental Agency"@en .
