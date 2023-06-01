@@ -1230,7 +1230,7 @@
 <https://2023.dataweek.de/dsm-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2023.dataweek.de/dsm-2023/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Science Mania"@de .
 <https://2023.dataweek.de/dsm-2023/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Science Mania"@en .
-<https://2023.dataweek.de/dsm-2023/> <https://dataweek.de/#show> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://2023.dataweek.de/dsm-2023/> <https://dataweek.de/#show> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://2023.dataweek.de/dsm-2023/> <https://dataweek.de/#slug> "DSM" .
 <https://2023.dataweek.de/events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#MovedResource> .
 <https://2023.dataweek.de/events> <http://www.w3.org/2002/07/owl#sameAs> <https://2023.dataweek.de/tracks> .
@@ -2990,7 +2990,8 @@
 <https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/scads-tutorials-2023/> .
 <https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/kmi-23/> .
 <https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/lswt2023/> .
-<https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2023.dataweek.de/ai-tomorrow-2023/> .
+<https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2023.dataweek.de/dsm-2023/> .
+<https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2023.dataweek.de/ai-tomorrow-2023/> .
 <https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2023.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2023.dataweek.de/tracks> <http://www.w3.org/2000/01/rdf-schema#label> "Tracks"@de .
