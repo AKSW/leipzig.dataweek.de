@@ -1249,6 +1249,7 @@
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-3> .
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-4> .
+<https://2023.dataweek.de/free-2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-5> .
 <https://2023.dataweek.de/free-2023/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/free-2023/#programm-session-2> <http://purl.org/dc/terms/description> "Strategien für eine klimagerechte Stadtentwicklung"@de .
@@ -1431,18 +1432,23 @@
 <https://2023.dataweek.de/free-2023/#programm-talk-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-talk-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2023.dataweek.de/free-2023/#programm-talk-5> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://purl.org/dc/terms/title> "tba"@en .
 <https://2023.dataweek.de/free-2023/#programm-talk-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2023.dataweek.de/free-2023/#programm-talk-5> <http://schema.org/endTime> "10:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://schema.org/performer> <https://dataweek.de/#MatthiasZeller> .
 <https://2023.dataweek.de/free-2023/#programm-talk-5> <http://schema.org/startTime> "09:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/free-2023/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://schema.org/endTime> "12:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://schema.org/performer> <https://dataweek.de/#BeateGinzel> .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://schema.org/performer> <https://dataweek.de/#BrigittaZiegenbein> .
-<https://2023.dataweek.de/free-2023/#programm-talk-8> <http://schema.org/performer> <https://dataweek.de/#ChristianGuethert> .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://schema.org/performer> <https://dataweek.de/#ChristophFriedrich> .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://schema.org/performer> <https://dataweek.de/#HendrikKondziella> .
+<https://2023.dataweek.de/free-2023/#programm-talk-8> <http://schema.org/performer> <https://dataweek.de/#MatthiasZeller> .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://schema.org/performer> <https://dataweek.de/#SimonePflaum> .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://schema.org/startTime> "10:50:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -1482,7 +1488,6 @@
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-5> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-6> .
 <https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-session-7> .
-<https://2023.dataweek.de/free-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-5> .
 <https://2023.dataweek.de/free-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/free-2023/> .
 <https://2023.dataweek.de/free-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/free-2023/2023-06-27/> .
 <https://2023.dataweek.de/free-2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
@@ -2405,8 +2410,8 @@
 <https://2023.dataweek.de/kmi-23/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "KMI Team"@de .
 <https://2023.dataweek.de/kmi-23/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "KMI Team"@en .
 <https://2023.dataweek.de/kmi-23/#programm-session-1> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/kmi-23/#programm-session-1> <http://purl.org/dc/terms/title> "KMI Consortium Meeting"@en .
-<https://2023.dataweek.de/kmi-23/#programm-session-1> <http://purl.org/dc/terms/title> "KMI Konsortialtreffen"@de .
+<https://2023.dataweek.de/kmi-23/#programm-session-1> <http://purl.org/dc/terms/title> "KMI Tranfer Meeting"@en .
+<https://2023.dataweek.de/kmi-23/#programm-session-1> <http://purl.org/dc/terms/title> "KMI Transfertag"@de .
 <https://2023.dataweek.de/kmi-23/#programm-session-1> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2023.dataweek.de/kmi-23/#programm-session-1> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/kmi-23/#programm-session-1> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
@@ -2418,8 +2423,8 @@
 <https://2023.dataweek.de/kmi-23/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/#programm-talk-5> .
 <https://2023.dataweek.de/kmi-23/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/kmi-23/#programm-session-2> <http://purl.org/dc/terms/title> "Consortium meeting (not public)"@en .
-<https://2023.dataweek.de/kmi-23/#programm-session-2> <http://purl.org/dc/terms/title> "Konsortialtreffen (nicht öffentlich)"@de .
+<https://2023.dataweek.de/kmi-23/#programm-session-2> <http://purl.org/dc/terms/title> "KMI Workshop (nicht öffentlich)"@de .
+<https://2023.dataweek.de/kmi-23/#programm-session-2> <http://purl.org/dc/terms/title> "KMI Workshop (not public)"@en .
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
@@ -3240,14 +3245,8 @@
 <https://dataweek.de/#CharisChatzikyriakou> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Charis Chatzikyriakou" .
 <https://dataweek.de/#CharisChatzikyriakou> <http://xmlns.com/foaf/0.1/name> "Charis Chatzikyriakou" .
 <https://dataweek.de/#CharisChatzikyriakou> <http://xmlns.com/foaf/0.1/title> "Dr. " .
-<https://dataweek.de/#ChristianGuethert> <http://purl.org/dc/terms/description> "Geschäftsführer bei EDF Deutschland GmbH"@de .
-<https://dataweek.de/#ChristianGuethert> <http://purl.org/dc/terms/description> "Managing Director at EDF Deutschlang GmbH"@en .
-<https://dataweek.de/#ChristianGuethert> <http://schema.org/affiliation> <https://deutschland.edf.com/de> .
-<https://dataweek.de/#ChristianGuethert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ChristianGuethert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ChristianGuethert> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/ChristianGuethert.jpg" .
-<https://dataweek.de/#ChristianGuethert> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/christian-guethert-a143521/> .
-<https://dataweek.de/#ChristianGuethert> <http://xmlns.com/foaf/0.1/name> "Christian Güthert" .
 <https://dataweek.de/#ChristianR%C3%B6%C3%9Fler> <http://purl.org/dc/terms/description> "Pragmatic Agilist"@de .
 <https://dataweek.de/#ChristianR%C3%B6%C3%9Fler> <http://purl.org/dc/terms/description> "Pragmatic Agilist"@en .
 <https://dataweek.de/#ChristianR%C3%B6%C3%9Fler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -3726,6 +3725,14 @@
 <https://dataweek.de/#MatthiasTaeschner> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MatthiasTaeschner.jpg" .
 <https://dataweek.de/#MatthiasTaeschner> <http://xmlns.com/foaf/0.1/name> "Matthias T\u00E4schner" .
 <https://dataweek.de/#MatthiasTaeschner> <http://xmlns.com/foaf/0.1/name> "Matthias Täschner" .
+<https://dataweek.de/#MatthiasZeller> <http://purl.org/dc/terms/description> "Senior Business Developer"@de .
+<https://dataweek.de/#MatthiasZeller> <http://purl.org/dc/terms/description> "Senior Business Developer"@en .
+<https://dataweek.de/#MatthiasZeller> <http://schema.org/affiliation> <https://www.metroscope.tech/> .
+<https://dataweek.de/#MatthiasZeller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MatthiasZeller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MatthiasZeller> <http://www.w3.org/2004/02/skos/core#prefLabel> "https://dataweek.de/#MatthiasTaeschner  Matthias Zeller" .
+<https://dataweek.de/#MatthiasZeller> <http://xmlns.com/foaf/0.1/name> "Matthias Zeller" .
+<https://dataweek.de/#MatthiasZeller> <http://xmlns.com/foaf/0.1/title> "https://dataweek.de/#MatthiasTaeschner " .
 <https://dataweek.de/#MaximilianBarth> <http://purl.org/dc/terms/description> "Business Development & Strategic Partnerships Manager"@en .
 <https://dataweek.de/#MaximilianBarth> <http://purl.org/dc/terms/description> "Manager für Geschäftsentwicklung und strategische Partnerschaften"@de .
 <https://dataweek.de/#MaximilianBarth> <http://schema.org/affiliation> <https://stackfuel.com/de/> .
@@ -4283,11 +4290,6 @@
 <https://de.mathworks.com/> <http://www.w3.org/2000/01/rdf-schema#label> "The MathWorks, Inc."@en .
 <https://de.mathworks.com/> <http://xmlns.com/foaf/0.1/homepage> <https://de.mathworks.com/> .
 <https://de.wikipedia.org/wiki/Volker_Gruhn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://deutschland.edf.com/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://deutschland.edf.com/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-<https://deutschland.edf.com/de> <http://www.w3.org/2000/01/rdf-schema#label> "EDF Deutschland"@de .
-<https://deutschland.edf.com/de> <http://www.w3.org/2000/01/rdf-schema#label> "EDF Germany"@en .
-<https://deutschland.edf.com/de> <http://xmlns.com/foaf/0.1/homepage> <https://deutschland.edf.com/de> .
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/2000/01/rdf-schema#label> "City of Leipzig/Digital City Department"@de .
@@ -4636,7 +4638,6 @@
 <https://www.linkedin.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Usergroup> .
 <https://www.linkedin.com/in/alexanderkrause/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/andrea-hensel-4367699a/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://www.linkedin.com/in/christian-guethert-a143521/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/christian-r%25C3%25B6%25C3%259Fler-67a34594/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/daniel-probst-a355251/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/dr-hendrik-kondziella-22b152123/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -4682,6 +4683,11 @@
 <https://www.maanmittauslaitos.fi/en> <http://www.w3.org/2000/01/rdf-schema#label> "National Land Survey"@en .
 <https://www.maanmittauslaitos.fi/en> <http://www.w3.org/2000/01/rdf-schema#label> "Nationale Landvermessung"@de .
 <https://www.maanmittauslaitos.fi/en> <http://xmlns.com/foaf/0.1/homepage> <https://www.maanmittauslaitos.fi/en> .
+<https://www.metroscope.tech/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.metroscope.tech/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.metroscope.tech/> <http://www.w3.org/2000/01/rdf-schema#label> "METROSCOPE"@de .
+<https://www.metroscope.tech/> <http://www.w3.org/2000/01/rdf-schema#label> "METROSCOPE"@en .
+<https://www.metroscope.tech/> <http://xmlns.com/foaf/0.1/homepage> <https://www.metroscope.tech/> .
 <https://www.ogc.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.ogc.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.ogc.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
