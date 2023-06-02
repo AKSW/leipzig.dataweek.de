@@ -625,6 +625,7 @@
 <https://2023.dataweek.de/> <https://dataweek.de/#news> <https://2023.dataweek.de/News1> .
 <https://2023.dataweek.de/> <https://dataweek.de/#news> <https://2023.dataweek.de/News2> .
 <https://2023.dataweek.de/> <https://dataweek.de/#news> <https://2023.dataweek.de/News3> .
+<https://2023.dataweek.de/> <https://dataweek.de/#news> <https://2023.dataweek.de/News4> .
 <https://2023.dataweek.de/> <https://dataweek.de/#organizer> <https://2023.dataweek.de/Organizers> .
 <https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://kmi-leipzig.de/> .
 <https://2023.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
@@ -661,6 +662,12 @@
 <https://2023.dataweek.de/News3> <http://purl.org/dc/terms/title> "Neues Jahr \u2013 Neues Logo"@de .
 <https://2023.dataweek.de/News3> <http://purl.org/dc/terms/title> "New Year \u2013 New Logo"@en .
 <https://2023.dataweek.de/News3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post> .
+<https://2023.dataweek.de/News4> <http://purl.org/dc/terms/date> "2023-06-02T10:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://2023.dataweek.de/News4> <http://purl.org/dc/terms/description> "Data Week Leipzig 2023 will take place from June 26 to 30 and focus on digitization, data, AI and urban development. New cooperation partners are expanding the event week to be visible outside of Saxony. The focus is on international data spaces for climate change strategies. This and further information can be found in the new press releases from [InfAI e.V](https://infai.org/ein-datenfestival-fuer-it-begeisterte-data-week-leipzig-2023/) (German) and from the [Open Geospatial Consortium](https://www.ogc.org/press-release/ogc-to-host-european-innovation-days-and-more-at-data-week-leipzig-23/) (English)."@en .
+<https://2023.dataweek.de/News4> <http://purl.org/dc/terms/description> "Die Data Week Leipzig 2023 wird vom 26. bis 30. Juni stattfinden und sich auf Digitalisierung, Daten, KI und Stadtentwicklung konzentrieren. Neue Kooperationspartner erweitern die Veranstaltungswoche, um auch au\u00DFerhalb von Sachsen sichtbar zu sein. Der Fokus liegt auf internationalen Datenr\u00E4umen f\u00FCr Klimaschutzstrategien. Diese und weitere Informationen finden Sie in den neuen Pressemeldungen vom [InfAI e.V](https://infai.org/ein-datenfestival-fuer-it-begeisterte-data-week-leipzig-2023/) (Deutsch) sowie dem [Open Geospatial Consortium](https://www.ogc.org/press-release/ogc-to-host-european-innovation-days-and-more-at-data-week-leipzig-23/) (Englisch)."@de .
+<https://2023.dataweek.de/News4> <http://purl.org/dc/terms/title> "Neue Pressemeldung"@de .
+<https://2023.dataweek.de/News4> <http://purl.org/dc/terms/title> "New Press Release"@en .
+<https://2023.dataweek.de/News4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post> .
 <https://2023.dataweek.de/Organizers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://infai.org/> .
 <https://2023.dataweek.de/Organizers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2023.dataweek.de/Organizers> <http://www.w3.org/2000/01/rdf-schema#label> "Organizer"@en .
