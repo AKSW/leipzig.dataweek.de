@@ -828,14 +828,6 @@
 <https://2023.dataweek.de/break/2023-06-26/12:30> <http://schema.org/startTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/break/2023-06-26/12:30> <http://schema.org/subEvent> <https://2023.dataweek.de/#postersession> .
 <https://2023.dataweek.de/break/2023-06-26/12:30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/break/2023-06-26/12:45> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
-<https://2023.dataweek.de/break/2023-06-26/12:45> <http://purl.org/dc/terms/date> "2023-06-26"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/break/2023-06-26/12:45> <http://purl.org/dc/terms/title> "Lunch break"@en .
-<https://2023.dataweek.de/break/2023-06-26/12:45> <http://purl.org/dc/terms/title> "Mittagessen"@de .
-<https://2023.dataweek.de/break/2023-06-26/12:45> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/break/2023-06-26/12:45> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
-<https://2023.dataweek.de/break/2023-06-26/12:45> <http://schema.org/startTime> "12:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/break/2023-06-26/12:45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/break/2023-06-26/15:30> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
 <https://2023.dataweek.de/break/2023-06-26/15:30> <http://purl.org/dc/terms/date> "2023-06-26"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/break/2023-06-26/15:30> <http://purl.org/dc/terms/description> "Posters and Stands"@de .
@@ -2828,7 +2820,7 @@
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-session-1> <http://purl.org/dc/terms/title> "ScaDS.AI Training Data Visualization"@en .
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-session-1> <http://purl.org/dc/terms/title> "ScaDS.AI Training Datenvisualisierung"@de .
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-session-1> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-1> <http://schema.org/endTime> "12:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/scads-tutorials-2023/#programm-session-1> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-session-1> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-session-1> <http://schema.org/performer> <https://dataweek.de/#JanEwald> .
 <https://2023.dataweek.de/scads-tutorials-2023/#programm-session-1> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -2943,7 +2935,7 @@
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://schema.org/organizer> <https://2023.dataweek.de/scads-tutorials-2023/#Team> .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://schema.org/startDate> "2023-06-26"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-26/10:30> .
-<https://2023.dataweek.de/scads-tutorials-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-26/12:45> .
+<https://2023.dataweek.de/scads-tutorials-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-26/12:30> .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/09:45> .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/12:00> .
 <https://2023.dataweek.de/scads-tutorials-2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/14:30> .
