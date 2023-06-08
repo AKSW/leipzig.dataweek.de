@@ -179,7 +179,7 @@ tasks:
         then
           echo "{{.FUSEKI_CONTAINER_NAME}} running already"
         else
-          docker run {{.DOCKER_ARGS}} --rm --name {{.FUSEKI_CONTAINER_NAME}} \
+          docker run {{.DOCKER_ARGS}} --rm -d --name {{.FUSEKI_CONTAINER_NAME}} \
             --network {{.MODEL_DOCKER_NETWORK}} \
             -v {{.PWD}}/:/graph \
             -v {{.FUSEKI_BASE_VOLUME}}/:/fuseki-base \
