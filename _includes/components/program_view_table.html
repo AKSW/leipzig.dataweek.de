@@ -8,8 +8,10 @@
 {% capture locations_query %}
 SELECT DISTINCT ?location ?order
 WHERE {
-  ?roomResource schema:location ?location .
+  ?session schema:location ?location ;
+    dct:date ?date .
   ?location dw:order ?order .
+  filter ({{ view.filter }})
 } ORDER BY ?order
 {% endcapture %}
 

@@ -13,13 +13,30 @@ module Jekyll
       if input.nil?
         return Array.new()
       end
-      times = Array.new()
-      events_table = Array.new()
-      row = Array.new()
+      times = []
+      events_table = []
+      row = []
+      orders = []
+      order_hash = {}
+      for session_row in input do
+        order = session_row.key?("order") ? session_row["order"].literal : nil
+        if order.to_i > 0 then
+          orders.push(order.to_i)
+        end
+      end
+      orders.uniq!.sort!
+      i = 0
+      for order in orders do
+        i += 1
+        order_hash[order] = i
+      end
       for session_row in input do
         start_time = session_row["start"].literal
         end_time = session_row["end"].literal
         order = session_row.key?("order") ? session_row["order"].literal : nil
+        if order then
+          order = order_hash[order]
+        end
 
         if times.length == 0 or times[-1] != start_time then
           if times.length > 0 then
