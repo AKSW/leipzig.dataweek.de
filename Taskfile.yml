@@ -11,6 +11,18 @@ vars:
   ICAL_DIR: .ical
   ICAL_BRANCH: page-live
 
+  ID_UID:
+    sh: id -u
+  ID_GID:
+    sh: id -g
+  MODEL_DOCKER_NETWORK: '{{.MODEL_EXTERNAL_DOCKER_NETWORK | default "dataweek_data"}}'
+
+  DOCKER_USER_ARG:
+    sh: '[ "$(docker info --format "{{`{{if .Host.Security.Rootless}}true{{end}}`}}")" = "true" ] || echo -u "{{.ID_UID}}:{{.ID_GID}}"'
+  DOCKER_ARGS: '{{.DOCKER_USER_ARG}}'
+
+  FUSEKI_IMAGE: docker.io/secoresearch/fuseki:4.8.0
+
   GIT_USER_NAME: DataWeek CMEM Update Bot 🤖
   GIT_USER_EMAIL: dw-cmem-update-bot@example.org
   GIT_COMMIT_MESSAGE: Update from CMEM
@@ -99,6 +111,7 @@ tasks:
     cmds:
       - |
         docker run --rm \
+        --network {{.MODEL_DOCKER_NETWORK}} \
         --workdir /github/workspace \
         -v {{.WORKING_DIRECTORY}}:/github/workspace \
         -e TZ=Europe/Berlin {{.JEKYLL_USER_ARG}} -e BUNDLE_PATH=.vendor -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
@@ -136,6 +149,33 @@ tasks:
       - git clone {{.MODEL_REPO}} {{.MODEL_DIR}}
     status:
       - test -d {{.MODEL_DIR}}
+
+  data:model-serve:
+    desc: Serve the model with a fuseki store
+    deps:
+      - task: data:model-init
+      - task: data:docker-network
+    cmds:
+      - |
+        docker run {{.DOCKER_ARGS}} --rm -d --name dataweek_model \
+          --network {{.MODEL_DOCKER_NETWORK}} \
+          -v {{.PWD}}/{{.MODEL_DIR}}/:/graph \
+          {{.FUSEKI_IMAGE}} \
+          /jena-fuseki/fuseki-server --tdb2 --file=/graph/{{.GRAPH_FILE}}.nt /model
+    status:
+      - '[ "$( docker inspect --format "{{`{{.State.Running}}`}}" dataweek_model )" = "true" ]'
+
+  data:model-serve-stop:
+    desc: Stop serving the model
+    cmds:
+      - docker stop dataweek_model || echo "data container not running, don't need to stop it"
+
+  data:docker-network:
+    desc: Create a docker network so that jekyll can reach the fuseki store
+    cmds:
+      - docker network create {{.MODEL_DOCKER_NETWORK}}
+    status:
+      - 'docker network inspect {{.MODEL_DOCKER_NETWORK}}'
 
   ical:update:
     deps:

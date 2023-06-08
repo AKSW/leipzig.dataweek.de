@@ -23,7 +23,7 @@ jobs:
         ref: 'page-live'
         path: '.ical'
     - name: Run CI Tasks ⚙️
-      run: task build
+      run: task data:model-serve build data:model-serve-stop
     - name: Deploy 🚀
       uses: peaceiris/actions-gh-pages@v3
       with:
