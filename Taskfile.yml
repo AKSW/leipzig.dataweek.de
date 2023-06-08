@@ -167,13 +167,13 @@ tasks:
       - task: data:docker-network
     cmds:
       - |
-        docker inspect --format "{{`{{.State.Running}}`}}" dataweek_model
+        docker inspect --format "{{`{{.State.Running}}`}}" dataweek_model || echo "inspect dataweek_model: not found"
         docker ps -a
         docker run {{.DOCKER_ARGS}} --rm -d --name dataweek_model \
           --network {{.MODEL_DOCKER_NETWORK}} \
           -v {{.PWD}}/{{.MODEL_DIR}}/:/graph \
           {{.FUSEKI_IMAGE}} \
-          /jena-fuseki/fuseki-server --tdb2 --file=/graph/{{.GRAPH_FILE}}.nt /model
+          /jena-fuseki/fuseki-server --tdb2 --file=/graph/{{.GRAPH_FILE}}.nt /model || echo "inspect dataweek_model: not found"
         docker ps -a
         docker inspect --format "{{`{{.State.Running}}`}}" dataweek_model
     status:
