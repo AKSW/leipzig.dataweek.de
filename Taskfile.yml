@@ -170,7 +170,7 @@ tasks:
     cmds:
       - |
         docker ps -a
-        docker logs {{.FUSEKI_CONTAINER_NAME}}
+        docker logs {{.FUSEKI_CONTAINER_NAME}} || echo "no {{.FUSEKI_CONTAINER_NAME}} so far to get logs"
         while [ "$( docker inspect --format "{{`{{.State.Status}}`}}" {{.FUSEKI_CONTAINER_NAME}} )" = "created" ]
         do
           echo "{{.FUSEKI_CONTAINER_NAME}} created waiting for it to run"
@@ -186,7 +186,7 @@ tasks:
             -v {{.FUSEKI_BASE_VOLUME}}/:/fuseki-base \
             {{.FUSEKI_IMAGE}} \
             /jena-fuseki/fuseki-server --tdb2 --file=/graph/{{.GRAPH_FILE}}.nt /model
-          docker logs {{.FUSEKI_CONTAINER_NAME}}
+          docker logs {{.FUSEKI_CONTAINER_NAME}} || echo "no {{.FUSEKI_CONTAINER_NAME}} so far to get logs"
         fi
     status:
       - '[ "$( docker inspect --format "{{`{{.State.Running}}`}}" {{.FUSEKI_CONTAINER_NAME}} )" = "true" ]'
