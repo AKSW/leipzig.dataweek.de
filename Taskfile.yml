@@ -183,7 +183,7 @@ tasks:
           docker run {{.DOCKER_ARGS}} -d --name {{.FUSEKI_CONTAINER_NAME}} \
             --network {{.MODEL_DOCKER_NETWORK}} \
             -v {{.PWD}}/:/graph \
-            -v {{.FUSEKI_BASE_VOLUME}}/:/fuseki-base \
+            -v {{.FUSEKI_BASE_VOLUME}}:/fuseki-base \
             {{.FUSEKI_IMAGE}} \
             /jena-fuseki/fuseki-server --tdb2 --file=/graph/{{.GRAPH_FILE}}.nt /model
           docker logs {{.FUSEKI_CONTAINER_NAME}} || echo "no {{.FUSEKI_CONTAINER_NAME}} so far to get logs"
