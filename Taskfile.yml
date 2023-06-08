@@ -22,6 +22,7 @@ vars:
   DOCKER_ARGS: '{{.DOCKER_USER_ARG}}'
 
   FUSEKI_IMAGE: docker.io/secoresearch/fuseki:4.8.0
+  FUSEKI_BASE_VOLUME: dataweek_fuseki_base
   FUSEKI_CONTAINER_NAME: dataweek_model
 
   GIT_USER_NAME: DataWeek CMEM Update Bot 🤖
@@ -180,7 +181,8 @@ tasks:
         else
           docker run {{.DOCKER_ARGS}} --rm --name {{.FUSEKI_CONTAINER_NAME}} \
             --network {{.MODEL_DOCKER_NETWORK}} \
-            -v {{.PWD}}/{{.MODEL_DIR}}/:/graph \
+            -v {{.PWD}}/:/graph \
+            -v {{.FUSEKI_BASE_VOLUME}}/:/fuseki-base \
             {{.FUSEKI_IMAGE}} \
             /jena-fuseki/fuseki-server --tdb2 --file=/graph/{{.GRAPH_FILE}}.nt /model
         fi
