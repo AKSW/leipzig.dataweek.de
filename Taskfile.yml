@@ -172,8 +172,7 @@ tasks:
           echo "dataweek_model created waiting for it to run"
           sleep 2
         done
-        if [ $( docker inspect --format "{{`{{.State.Running}}`}}" dataweek_model )" = "true" ]
-        then
+        if [ $( docker inspect --format "{{`{{.State.Running}}`}}" dataweek_model )" = "true" ]; then
           echo "dataweek_model running already"
         else
           docker run {{.DOCKER_ARGS}} --rm -d --name dataweek_model \
