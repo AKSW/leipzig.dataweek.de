@@ -57,9 +57,17 @@ tasks:
       - task: data:sync
       - task: track:commit-and-push-data
       - task: build
+      - task: data:model-serve-stop
 
   build:
     desc: Build the page locally
+    deps:
+      - task: data:model-serve
+    cmds:
+      - task: build:parallel
+
+  build:parallel:
+    desc: Build the page locally parallel for each language
     deps:
       - task: build:de
       - task: build:en
@@ -79,8 +87,6 @@ tasks:
 
   build:watch:
     desc: Watch for changes in the directory and rebuild the page, should be combined with task serve in a second terminal
-    deps:
-      - task: data:model-serve
     cmds:
       - '{{.BUILD_WATCH_FILES}} | entr task build'
 
