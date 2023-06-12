@@ -65,8 +65,11 @@ ORDER BY ?start ?order
       <thead>
         <tr>
           {%- for location_row in locations -%}
-            {%- assign num_locations = forloop.length -%}
-            <th scope="col" id="room1" style="width: {{ 100 | divided_by: forloop.length }}%"><!-- TODO set id correctly -->
+            {%- assign num_cols = forloop.length | plus: 1 -%}
+            {%- if forloop.first -%}
+              <th class="time"></th>
+            {%- endif -%}
+            <th scope="col" id="room1" class="col-{{forloop.length}}"><!-- TODO set id correctly -->
               {{ location_row.location | rdf_property: "dct:title", site.language }}
             </th>
           {%- endfor -%}
@@ -80,27 +83,22 @@ ORDER BY ?start ?order
           {%- assign start = session_row.first.start -%}
           {%- assign track = session_row.first.resource | rdf_property: "site:track" -%}
           {%- if track == pause -%}
-            {%- include components/program_view_table_break.html session=session_row.first -%}
+            {%- include components/program_view_table_break.html session=session_row.first colspan=num_cols -%}
           {%- else -%}
             <tr class="headline">
-              <th colspan="{{num_locations}}" id="period1">
+              <th colspan="{{num_cols}}" id="period1">
                 <h3>
                   <time datetime="{{start}}">{{start | date: "%H:%M"}}</time>
                 </h3>
               </th>
             </tr>
             <tr>
-              {%- assign column_counter = 1 -%}
+              <td></td>
               {%- for session in session_row -%}
-                {%- assign location_order = session.order | plus: 0 -%}
-                {%- assign start = session.start -%}
-                {%- assign end = session.end -%}
-                  {%- unless column_counter == location_order -%}
-                    <td colspan="{{ location_order | minus: column_counter }}"></td>
-                    {%- assign column_counter = location_order -%}
-                  {%- endunless -%}
-                  {%- include components/program_view_table_unit.html session=session -%}
-                  {%- assign column_counter = column_counter | plus: 1 -%}
+                {%- if session.column_shift > 0 -%}
+                  <td colspan="{{ session.column_shift }}"></td>
+                {%- endif -%}
+                {%- include components/program_view_table_unit.html session=session -%}
               {%- endfor -%}
             </tr>
           {%- endif -%}
