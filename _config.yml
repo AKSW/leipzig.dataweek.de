@@ -30,9 +30,7 @@ exclude:
   - docu
 
 jekyll_rdf:
-  # path: "graph.nt"
-  remote:
-    endpoint: "http://dataweek_model:3030/model/query"
+  path: "graph.nt"
   restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"^https://2023.dataweek.de\") }"
   default_template: default.html
   class_template_mappings:

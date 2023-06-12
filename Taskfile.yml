@@ -11,20 +11,6 @@ vars:
   ICAL_DIR: .ical
   ICAL_BRANCH: page-live
 
-  ID_UID:
-    sh: id -u
-  ID_GID:
-    sh: id -g
-  MODEL_DOCKER_NETWORK: '{{.MODEL_EXTERNAL_DOCKER_NETWORK | default "dataweek_data"}}'
-
-  DOCKER_USER_ARG:
-    sh: '[ "$(docker info --format "{{`{{if .Host.Security.Rootless}}true{{end}}`}}")" = "true" ] || echo -u "{{.ID_UID}}:{{.ID_GID}}"'
-  DOCKER_ARGS: '{{.DOCKER_USER_ARG}}'
-
-  FUSEKI_IMAGE: docker.io/secoresearch/fuseki:4.8.0
-  FUSEKI_BASE_VOLUME: dataweek_fuseki_base
-  FUSEKI_CONTAINER_NAME: dataweek_model
-
   GIT_USER_NAME: DataWeek CMEM Update Bot 🤖
   GIT_USER_EMAIL: dw-cmem-update-bot@example.org
   GIT_COMMIT_MESSAGE: Update from CMEM
@@ -59,17 +45,9 @@ tasks:
       - task: data:sync
       - task: track:commit-and-push-data
       - task: build
-      - task: data:model-serve-stop
 
   build:
     desc: Build the page locally
-    deps:
-      - task: data:model-serve
-    cmds:
-      - task: build:parallel
-
-  build:parallel:
-    desc: Build the page locally parallel for each language
     deps:
       - task: build:de
       - task: build:en
@@ -118,12 +96,9 @@ tasks:
       JEKYLL_USER_ARG:
         sh: '[ "$(docker info --format "{{`{{if .Host.Security.Rootless}}true{{end}}`}}")" = "true" ] || echo -u "{{.JEKYLL_UID}}:{{.JEKYLL_GID}}"'
       JEKYLL_IMAGE: ghcr.io/aksw/jekyll-rdf:4.0.4
-    deps:
-      - task: data:model-serve
     cmds:
       - |
         docker run --rm \
-        --network {{.MODEL_DOCKER_NETWORK}} \
         --workdir /github/workspace \
         -v {{.WORKING_DIRECTORY}}:/github/workspace \
         -e TZ=Europe/Berlin {{.JEKYLL_USER_ARG}} -e BUNDLE_PATH=.vendor -e JEKYLL_LANGUAGE={{.LANGUAGE}} \
@@ -161,47 +136,6 @@ tasks:
       - git clone {{.MODEL_REPO}} {{.MODEL_DIR}}
     status:
       - test -d {{.MODEL_DIR}}
-
-  data:model-serve:
-    desc: Serve the model with a fuseki store
-    deps:
-      - task: data:model-init
-      - task: data:docker-network
-    cmds:
-      - |
-        docker ps -a
-        docker logs {{.FUSEKI_CONTAINER_NAME}} || echo "no {{.FUSEKI_CONTAINER_NAME}} so far to get logs"
-        while [ "$( docker inspect --format "{{`{{.State.Status}}`}}" {{.FUSEKI_CONTAINER_NAME}} )" = "created" ]
-        do
-          echo "{{.FUSEKI_CONTAINER_NAME}} created waiting for it to run"
-          sleep 2
-        done
-        if [ "$( docker inspect --format "{{`{{.State.Running}}`}}" {{.FUSEKI_CONTAINER_NAME}} )" = "true" ]
-        then
-          echo "{{.FUSEKI_CONTAINER_NAME}} running already"
-        else
-          docker run {{.DOCKER_ARGS}} -d --name {{.FUSEKI_CONTAINER_NAME}} \
-            --network {{.MODEL_DOCKER_NETWORK}} \
-            -v {{.PWD}}/:/graph \
-            -v {{.FUSEKI_BASE_VOLUME}}:/fuseki-base \
-            {{.FUSEKI_IMAGE}} \
-            /jena-fuseki/fuseki-server --tdb2 --file=/graph/{{.GRAPH_FILE}}.nt /model
-          docker logs {{.FUSEKI_CONTAINER_NAME}} || echo "no {{.FUSEKI_CONTAINER_NAME}} so far to get logs"
-        fi
-    status:
-      - '[ "$( docker inspect --format "{{`{{.State.Running}}`}}" {{.FUSEKI_CONTAINER_NAME}} )" = "true" ]'
-
-  data:model-serve-stop:
-    desc: Stop serving the model
-    cmds:
-      - docker stop {{.FUSEKI_CONTAINER_NAME}} || echo "data container not running, don't need to stop it"
-
-  data:docker-network:
-    desc: Create a docker network so that jekyll can reach the fuseki store
-    cmds:
-      - docker network create {{.MODEL_DOCKER_NETWORK}}
-    status:
-      - 'docker network inspect {{.MODEL_DOCKER_NETWORK}}'
 
   ical:update:
     deps:
