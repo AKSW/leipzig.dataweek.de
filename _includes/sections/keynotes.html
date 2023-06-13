@@ -1,0 +1,12 @@
+{%- assign keynotes = page.rdf | sparql_query: "select distinct ?entity ?date { ?entity a dw:Keynote ; dct:date ?date ; schema:startTime ?start } ORDER BY ?date ?start" -%}
+<div class="slider-box">
+  <div class="slider">
+    <ul>
+      {%- for keynote in keynotes -%}
+        <li>
+          {%- include components/program_unit_keynote.html session=keynote.entity -%}
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</div>

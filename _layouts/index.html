@@ -13,21 +13,10 @@ type: Event
 {% include sections/header.html %}
 {% include components/menu_main.html %}
 {% include_cached sections/greeting.html %}
-{%- assign keynotes = page.rdf | sparql_query: "select distinct ?entity ?date { ?entity a dw:Keynote ; dct:date ?date ; schema:startTime ?start } ORDER BY ?date ?start" -%}
 <main class="page-main" aria-label="Inhalt" id="inhalt">
   {{ content }}
-  
-    <div class="slider-box">
-      <div class="slider">
-        <ul>
-          {%- for keynote in keynotes -%}
-            <li>
-              {%- include components/program_unit_keynote.html session=keynote.entity -%}
-            </li>
-          {%- endfor -%}
-        </ul>
-      </div>
-    </div>
+  {% include_cached sections/keynotes.html %}
+  {% include_cached sections/impressions.html %}
 </main>
 {% include sections/sponsors.html %}
 {% include sections/footer.html %}
