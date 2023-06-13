@@ -1,5 +1,5 @@
 {%- assign keynotes = page.rdf | sparql_query: "select distinct ?entity ?date { ?entity a dw:Keynote ; dct:date ?date ; schema:startTime ?start } ORDER BY ?date ?start" -%}
-<div class="slider-wrapper" style="min-height: 500px; display: flex; align-items: center;"> <!--962px-->
+<div class="slider-wrapper" style="min-height: 500px; display: flex; align-items: center; color: #17214c;"> <!--962px-->
   <div class="slider-box" style="min-width: 0; max-height: calc(500px - 1.75rem);" >
     <div class="slider">
       <ul>
