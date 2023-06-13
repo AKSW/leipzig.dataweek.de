@@ -2,65 +2,63 @@
 layout: index
 ---
 
-<div class="content-header">
-  <h2>
-    {% if site.language == 'en' %}
-      About the Data Week Leipzig
+<h2>
+  {% if site.language == 'en' %}
+    About the Data Week Leipzig
+  {% else %}
+    Über die Data Week Leipzig
+  {% endif %}
+</h2>
+<p>
+  {% if site.language == 'en' %}
+    Data Week Leipzig is the networking and exchange event for highlighting scientific, economic, and social perspectives of data and its use, where industry, citizens, science, and public authorities can enter into dialogue.
+  {% else %}
+    Die Data Week Leipzig ist eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Dabei sollen Industrie, Bürger:innen, Wissenschaft und Behörden in einen Dialog treten können.
+  {% endif %}
+</p>
+<details>
+  <summary>
+    <span>{% if site.language == 'en' %}
+      Show more
     {% else %}
-      Über die Data Week Leipzig
-    {% endif %}
-  </h2>
+      mehr anzeigen
+    {% endif %}</span>
+  </summary>
   <p>
     {% if site.language == 'en' %}
-      Data Week Leipzig is the networking and exchange event for highlighting scientific, economic, and social perspectives of data and its use, where industry, citizens, science, and public authorities can enter into dialogue.
+      Special topics of Data Week Leipzig 2023 are the European Green Deal, NetZero Cities, and sustainable resilient development in various domains. Digital strategies will be presented and discussed from the European to the local Leipzig City level.
     {% else %}
-      Die Data Week Leipzig ist eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Dabei sollen Industrie, Bürger:innen, Wissenschaft und Behörden in einen Dialog treten können.
+      Besondere Themen der Data Week Leipzig 2023 sind der European Green Deal, NetZero Cities und nachhaltige, resiliente Entwicklung in verschiedenen Bereichen. Es werden digitale Strategien von der europäischen bis zur lokalen Ebene der Stadt Leipzig vorgestellt und diskutiert.
     {% endif %}
   </p>
-  <details>
-    <summary>
-      <span>{% if site.language == 'en' %}
-        Show more
-      {% else %}
-        mehr anzeigen
-      {% endif %}</span>
-    </summary>
-    <p>
-      {% if site.language == 'en' %}
-        Special topics of Data Week Leipzig 2023 are the European Green Deal, NetZero Cities, and sustainable resilient development in various domains. Digital strategies will be presented and discussed from the European to the local Leipzig City level.
-      {% else %}
-        Besondere Themen der Data Week Leipzig 2023 sind der European Green Deal, NetZero Cities und nachhaltige, resiliente Entwicklung in verschiedenen Bereichen. Es werden digitale Strategien von der europäischen bis zur lokalen Ebene der Stadt Leipzig vorgestellt und diskutiert.
-      {% endif %}
-    </p>
-  </details>
+</details>
+<p>
+  {% if site.language == 'en' %}
+    We welcome attendees to Leipzig to learn and share experiences about the concepts of data-spaces, urban platforms, and other technical solutions that follow the FAIR principles of ensuring that data remains Findable, Accessible, Interoperable, and Reusable. Days dedicated to the topics of semantics and artificial intelligence will give insights into how these technologies can help achieve a sustainable and resilient future.
+  {% else %}
+    Wir heißen die Teilnehmer:innen in Leipzig willkommen, um mehr über die Konzepte von Datenräumen, städtischen Plattformen und anderen technischen Lösungen zu erfahren und Erfahrungen auszutauschen, die den FAIR-Prinzipien folgen und sicherstellen, dass Daten auffindbar, zugänglich, interoperabel und wiederverwendbar bleiben. Einige Tage sind den Themen Semantik und künstliche Intelligenz gewidmet und werden Einblicke geben, wie diese Technologien zu einer nachhaltigen und widerstandsfähigen Zukunft beitragen können.
+  {% endif %}
+</p>
+<details>
+  <summary>
+    <span>{% if site.language == 'en' %}
+      Show more
+    {% else %}
+      mehr anzeigen
+    {% endif %}</span>
+  </summary>
   <p>
     {% if site.language == 'en' %}
-      We welcome attendees to Leipzig to learn and share experiences about the concepts of data-spaces, urban platforms, and other technical solutions that follow the FAIR principles of ensuring that data remains Findable, Accessible, Interoperable, and Reusable. Days dedicated to the topics of semantics and artificial intelligence will give insights into how these technologies can help achieve a sustainable and resilient future.
+      The organisers would also like to invite students, trainees, and interested citizens to take a look behind the scenes or take part in the various training sessions offered during Leipzig Data Week 2023. Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different principles, techniques, use cases or data sets.
     {% else %}
-      Wir heißen die Teilnehmer:innen in Leipzig willkommen, um mehr über die Konzepte von Datenräumen, städtischen Plattformen und anderen technischen Lösungen zu erfahren und Erfahrungen auszutauschen, die den FAIR-Prinzipien folgen und sicherstellen, dass Daten auffindbar, zugänglich, interoperabel und wiederverwendbar bleiben. Einige Tage sind den Themen Semantik und künstliche Intelligenz gewidmet und werden Einblicke geben, wie diese Technologien zu einer nachhaltigen und widerstandsfähigen Zukunft beitragen können.
+      Die Organisatoren möchten auch Studierende, Auszubildende und interessierte Bürger:innen einladen, einen Blick hinter die Kulissen zu werfen oder an den verschiedenen Schulungen teilzunehmen, die während der Leipzig Data Week 2023 angeboten werden. Während der Data Week Leipzig finden mehrere Schulungen und Tutorien statt, die Einblicke in verschiedene Prinzipien, Techniken, Anwendungsfälle oder Datensätze geben.
     {% endif %}
   </p>
-  <details>
-    <summary>
-      <span>{% if site.language == 'en' %}
-        Show more
-      {% else %}
-        mehr anzeigen
-      {% endif %}</span>
-    </summary>
-    <p>
-      {% if site.language == 'en' %}
-        The organisers would also like to invite students, trainees, and interested citizens to take a look behind the scenes or take part in the various training sessions offered during Leipzig Data Week 2023. Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different principles, techniques, use cases or data sets.
-      {% else %}
-        Die Organisatoren möchten auch Studierende, Auszubildende und interessierte Bürger:innen einladen, einen Blick hinter die Kulissen zu werfen oder an den verschiedenen Schulungen teilzunehmen, die während der Leipzig Data Week 2023 angeboten werden. Während der Data Week Leipzig finden mehrere Schulungen und Tutorien statt, die Einblicke in verschiedene Prinzipien, Techniken, Anwendungsfälle oder Datensätze geben.
-      {% endif %}
-    </p>
-  </details>
-  <div class="content-header-image">
-    <figure>
-      <img class="js-load" data-src="resources/files/IMG_7453.jpg" data-sizes="auto"
-        data-srcset="resources/files/IMG_7453.jpg" width="2953"
-        height="2953" style="max-width:2953px" alt=""><noscript><img src="resources/files/IMG_7453.jpg" alt=""></noscript>
-    </figure>
-  </div>
+</details>
+<div class="content-header-image">
+  <figure>
+    <img class="js-load" data-src="resources/files/IMG_7453.jpg" data-sizes="auto"
+      data-srcset="resources/files/IMG_7453.jpg" width="2953"
+      height="2953" style="max-width:2953px" alt=""><noscript><img src="resources/files/IMG_7453.jpg" alt=""></noscript>
+  </figure>
 </div>
