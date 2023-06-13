@@ -1,12 +1,14 @@
 {%- assign keynotes = page.rdf | sparql_query: "select distinct ?entity ?date { ?entity a dw:Keynote ; dct:date ?date ; schema:startTime ?start } ORDER BY ?date ?start" -%}
-<div class="slider-box">
-  <div class="slider">
-    <ul>
-      {%- for keynote in keynotes -%}
-        <li>
-          {%- include components/program_unit_keynote.html session=keynote.entity -%}
-        </li>
-      {%- endfor -%}
-    </ul>
+<div class="slider-wrapper" style="min-height: 500px; display: flex; align-items: center;"> <!--962px-->
+  <div class="slider-box" style="min-width: 0; max-height: calc(500px - 1.75rem);" >
+    <div class="slider">
+      <ul>
+        {%- for keynote in keynotes -%}
+          <li style="max-height: calc(500px - 2 * 0.4375rem - 1.75rem); overflow: scroll;">
+            {%- include components/program_unit_keynote.html session=keynote.entity -%}
+          </li>
+        {%- endfor -%}
+      </ul>
+    </div>
   </div>
 </div>
