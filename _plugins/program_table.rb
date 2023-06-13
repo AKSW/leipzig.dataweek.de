@@ -55,30 +55,29 @@ module Jekyll
       events_table = Array(events_table).push(row)
 
       rowspans = []
-      for order in orders do
-        rowspans[order] = 0
+      for order in order_hash.values do
+        rowspans[order - 1] = 0
       end
 
       for events_row in events_table do
-        unless events_row[0]["column"] then
-          # skip breaks
-          next
-        end
-        for order in orders do
-          rowspans[order] = [rowspans[order] - 1, 0].max
-        end
+        rowspans.map! { |i| [i - 1, 0].max }
         for event in events_row do
-          start_index = times.find_index(event["start"])
-          end_index = start_index + 1
-          for end_time in times.drop(start_index) do
+          unless event["column"] then
+            # skip breaks
+            next
+          end
+          row_start_index = times.find_index(event["start"])
+          row_end_index = row_start_index + 1
+          for end_time in times.drop(row_start_index) do
             if event["end"] <= end_time then
-              end_index = times.find_index(end_time)
+              row_end_index = times.find_index(end_time)
               break
             end
           end
-          rowspan = end_index - start_index
-          rowspans[event["column"]] = rowspan
-          event["column_shift"] = event["column"] - rowspans[..event["column"] - 1].rindex { |x| x != 0 } - 1
+          rowspan = row_end_index - row_start_index
+          col_index = event["column"] - 1
+          rowspans[col_index] = rowspan
+          event["column_shift"] = col_index - (rowspans[..col_index - 1].rindex { |x| x != 0 } || - 1) - 1
           event["rowspan"] = rowspan
         end
       end
