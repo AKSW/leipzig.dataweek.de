@@ -1,4 +1,5 @@
 {%- assign session = include.session -%}
+{%- assign colspan = include.colspan -%}
 {%- assign session_res = session.resource -%}
 {%- assign start = session.start -%}
 {%- assign end = session.end -%}
@@ -8,7 +9,7 @@
 {%- assign sub_event = session_res | rdf_property: "schema:subEvent" -%}
 
 <tr class="break">
-  <th colspan="{{num_locations}}">
+  <th colspan="{{colspan}}">
     <div class="floorplan-cols">
       <div>
         <h4>

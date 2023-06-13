@@ -128,6 +128,24 @@
       --s-before: ' [Start von Durchgestrichen] ';
       --s-after: ' [Ende von Durchgestrichen] ';
     }
+    .timetable-floorplan .time {
+      width: 100px;
+    }
+    {%- assign num_col_setups = "1,2,3,4,5,6" | split: "," -%}
+    {%- for num_cols in num_col_setups -%}
+      {%- assign quotient = 100 | divided_by: num_cols -%}
+
+      .timetable-floorplan .col-{{num_cols}} {
+        /* Firefox */
+        width: -moz-calc({{ quotient }}% - {{ quotient }}px);
+        /* WebKit */
+        width: -webkit-calc({{ quotient }}% - {{ quotient }}px);
+        /* Opera */
+        width: -o-calc({{ quotient }}% - {{ quotient }}px);
+        /* Standard */
+        width: calc({{ quotient }}% - {{ quotient }}px);
+      }
+    {%- endfor -%}
   </style>
 
 </head>
