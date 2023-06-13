@@ -4,13 +4,18 @@ layout: basic
 {% include strings.html %}
 {% assign rootResource = site.rootResource | rdf_get %}
 {% assign baseEventResource = page.rdf | rdf_property: "dw:resourceUri" %}
+{% assign baseMenuResource = page.rdf | rdf_property: "dw:menuResource" %}
 {% assign dwTable = "dw:Table" | rdf_get %}
 {% assign dwList = "dw:List" | rdf_get %}
 
+{% if baseMenuResource %}
+  {% assign baseEventResource = baseMenuResource %}
+{% endif %}
+
 {% if baseEventResource == rootResource %}
-  {% include sections/header_program.html %}
+  {% include sections/header_program.html menuResource=baseMenuResource %}
 {% else %}
-  {% include sections/header_events.html %}
+  {% include sections/header_events.html menuResource=baseEventResource %}
 {% endif %}
 
 {% capture viewQuery %}
@@ -33,6 +38,8 @@ WHERE {
     {%- assign navigation = page.rdf | sparql_query: "select ?entity { ?entity a site:Navigation ; ?cmp ?resourceUri . ?cmp a rdfs:ContainerMembershipProperty }" -%}
   {%- endunless -%}
   {%- assign menuResource = navigation.first.entity -%}
+{% elsif baseMenuResource %}
+  {%- assign menuResource = baseMenuResource -%}
 {% else %}
   {%- assign menuResource = view.resource -%}
 {% endif %}
