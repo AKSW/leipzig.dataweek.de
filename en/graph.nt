@@ -1311,7 +1311,7 @@
 <https://2023.dataweek.de/free-2023/#programm-session-7> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2023.dataweek.de/free-2023/#programm-session-7> <http://schema.org/endTime> "18:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-7> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2023.dataweek.de/free-2023/#programm-session-7> <http://schema.org/performer> <https://dataweek.de/#ClaudiaG%C3%BCnther> .
+<https://2023.dataweek.de/free-2023/#programm-session-7> <http://schema.org/performer> <https://dataweek.de/#IreneMueller> .
 <https://2023.dataweek.de/free-2023/#programm-session-7> <http://schema.org/startTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-session-7> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-25> .
 <https://2023.dataweek.de/free-2023/#programm-session-7> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/#programm-talk-26> .
@@ -1394,7 +1394,7 @@
 <https://2023.dataweek.de/free-2023/#programm-talk-25> <http://schema.org/startTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/free-2023/#programm-talk-25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/free-2023/#programm-talk-26> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/free-2023/#programm-talk-26> <http://purl.org/dc/terms/title> "Urban Building Energy Modeling (UBEM): Daten für die kommunalen Wärmeplanung in der Stadt Kiel"@de .
+<https://2023.dataweek.de/free-2023/#programm-talk-26> <http://purl.org/dc/terms/title> "Urban Building Energy Modeling (UBEM): Daten für die kommunale Wärmeplanung in der Stadt Kiel"@de .
 <https://2023.dataweek.de/free-2023/#programm-talk-26> <http://purl.org/dc/terms/title> "Urban Building Energy Modeling (UBEM): data for municipal heat planning in the city of Kiel"@en .
 <https://2023.dataweek.de/free-2023/#programm-talk-26> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2023.dataweek.de/free-2023/#programm-talk-26> <http://schema.org/endTime> "17:55:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -3517,6 +3517,12 @@
 <https://dataweek.de/#IngoSimonis> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#IngoSimonis> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Dr. Ingo Simonis, Chief Technology Innovation Officer, leads the the development and execution of the OGC-wide technology and innovation strategy that will achieve objectives in the short, medium and long-term while enabling sustainable growth of OGC’s impact in society and markets. As OGC’s CTIO, Ingo is responsible for driving innovation through R&D and leveraging emerging technologies to bring the newest innovations to the organization, its members, and clients globally. \nDr. Ingo Simonis is the head of the OGC Collaborative Solutions and Innovation Program and responsible for planning, managing and execution of OGC’s R&D initiatives. With his outstanding background in enterprise system design and developmenet of standards-based software architectures for large scale distributed systems, he supports member organizations in their adoption process of state-of-the-art open, distributed, standards-based enterprise architectures."@en .
 <https://dataweek.de/#IngoSimonis> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Dr. Ingo Simonis, Chief Technology Innovation Officer, leitet die Entwicklung und Umsetzung der OGC-weiten Technologie- und Innovationsstrategie, um kurz-, mittel- und langfristige Ziele zu erreichen und gleichzeitig ein nachhaltiges Wachstum des Einflusses von OGC in Gesellschaft und Märkten zu ermöglichen. Als CTIO des OGC ist Ingo Simonis dafür verantwortlich, Innovationen durch Forschung und Entwicklung voranzutreiben und aufkommende Technologien zu nutzen, um der Organisation, ihren Mitgliedern und Kunden weltweit die neuesten Innovationen zugänglich zu machen. \n\nDr. Ingo Simonis ist Leiter des OGC Collaborative Solutions and Innovation Program und verantwortlich für die Planung, Verwaltung und Durchführung der F&E-Initiativen des OGC. Mit seinem herausragenden Hintergrund in der Gestaltung von Unternehmenssystemen und der Entwicklung von standardbasierten Softwarearchitekturen für große verteilte Systeme unterstützt er die Mitgliedsorganisationen bei der Einführung moderner offener, verteilter, standardbasierter Unternehmensarchitekturen."@de .
+<https://dataweek.de/#IreneMueller> <http://purl.org/dc/terms/description> "Project Manager"@en .
+<https://dataweek.de/#IreneMueller> <http://purl.org/dc/terms/description> "Projektmangerin"@de .
+<https://dataweek.de/#IreneMueller> <http://schema.org/affiliation> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
+<https://dataweek.de/#IreneMueller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#IreneMueller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#IreneMueller> <http://xmlns.com/foaf/0.1/name> "Irene Müller" .
 <https://dataweek.de/#JakobFreese> <http://purl.org/dc/terms/description> "Coordinator eCulture"@en .
 <https://dataweek.de/#JakobFreese> <http://purl.org/dc/terms/description> "Koordinator eCulture"@de .
 <https://dataweek.de/#JakobFreese> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/dezernat-kultur-024> .
