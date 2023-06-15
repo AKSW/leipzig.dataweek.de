@@ -5,6 +5,9 @@
 <http://aksw.org/AndreValdestilhas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. André Valdestilhas" .
 <http://aksw.org/AndreValdestilhas> <http://xmlns.com/foaf/0.1/name> "André Valdestilhas" .
 <http://aksw.org/AndreValdestilhas> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<http://aksw.org/AntoniaSch%C3%B6nbrodt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://aksw.org/AntoniaSch%C3%B6nbrodt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/AntoniaSch%C3%B6nbrodt> <http://xmlns.com/foaf/0.1/name> "Antonia Schönbrodt" .
 <http://aksw.org/AntoninDelpeuch> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/AntoninDelpeuch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/AntoninDelpeuch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -3436,6 +3439,12 @@
 <https://dataweek.de/#FidanLimani> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#FidanLimani> <http://xmlns.com/foaf/0.1/homepage> <https://www.zbw.eu/de/forschung/science-2-0/fidan-limani> .
 <https://dataweek.de/#FidanLimani> <http://xmlns.com/foaf/0.1/name> "Fidan Limani" .
+<https://dataweek.de/#FranzKummert> <http://purl.org/dc/terms/description> "Research assistant"@en .
+<https://dataweek.de/#FranzKummert> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
+<https://dataweek.de/#FranzKummert> <http://schema.org/affiliation> <https://www.uni-bielefeld.de/> .
+<https://dataweek.de/#FranzKummert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#FranzKummert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#FranzKummert> <http://xmlns.com/foaf/0.1/name> "Franz Kummert" .
 <https://dataweek.de/#FranziskaLoeffler> <http://purl.org/dc/terms/description> "Stadt Leipzig/Amt für Stadtgrün und Gewässer"@de .
 <https://dataweek.de/#FranziskaLoeffler> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-stadtgruen-und-gewaesser-67/> .
 <https://dataweek.de/#FranziskaLoeffler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -3868,6 +3877,8 @@
 <https://dataweek.de/#NestorFernandez> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/NestorFernandez.jpg" .
 <https://dataweek.de/#NestorFernandez> <http://xmlns.com/foaf/0.1/name> "Néstor Fernández" .
 <https://dataweek.de/#NestorFernandez> <http://xmlns.com/foaf/0.1/title> "Dr. " .
+<https://dataweek.de/#NicoRabethge> <http://purl.org/dc/terms/description> "Research assistant"@en .
+<https://dataweek.de/#NicoRabethge> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
 <https://dataweek.de/#NicoRabethge> <http://schema.org/affiliation> <https://www.uni-bielefeld.de/> .
 <https://dataweek.de/#NicoRabethge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#NicoRabethge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -4361,6 +4372,11 @@
 <https://de.mathworks.com/> <http://www.w3.org/2000/01/rdf-schema#label> "The MathWorks, Inc."@en .
 <https://de.mathworks.com/> <http://xmlns.com/foaf/0.1/homepage> <https://de.mathworks.com/> .
 <https://de.wikipedia.org/wiki/Volker_Gruhn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://digifors.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://digifors.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://digifors.de/> <http://www.w3.org/2000/01/rdf-schema#label> "DigiFors GmbH"@de .
+<https://digifors.de/> <http://www.w3.org/2000/01/rdf-schema#label> "DigiFors GmbH"@en .
+<https://digifors.de/> <http://xmlns.com/foaf/0.1/homepage> <https://digifors.de/> .
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/2000/01/rdf-schema#label> "City of Leipzig/Digital City Department"@de .
