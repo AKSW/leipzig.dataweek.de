@@ -57,6 +57,11 @@ tasks:
       - mv {{.TARGET_TMP_EN}} {{.TARGET_EN}}
       - task: ical:sync
 
+  release:
+    desc: Open a new pull request to merge develop to main
+    cmds:
+      - xdg-open https://github.com/AKSW/leipzig.dataweek.de/compare/main...develop?title=Deploy%20develop%20to%20main
+
   watch:
     desc: Serve the page and rebuild it on changes
     deps:
