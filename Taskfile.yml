@@ -57,6 +57,11 @@ tasks:
       - mv {{.TARGET_TMP_EN}} {{.TARGET_EN}}
       - task: ical:sync
 
+  release:
+    desc: Open a new pull request to merge develop to main
+    cmds:
+      - xdg-open https://github.com/AKSW/leipzig.dataweek.de/compare/main...develop?title=Deploy%20develop%20to%20main
+
   watch:
     desc: Serve the page and rebuild it on changes
     deps:
@@ -95,7 +100,7 @@ tasks:
       JEKYLL_GID: '{{.JEKYLL_GID | default .ID_GID}}'
       JEKYLL_USER_ARG:
         sh: '[ "$(docker info --format "{{`{{if .Host.Security.Rootless}}true{{end}}`}}")" = "true" ] || echo -u "{{.JEKYLL_UID}}:{{.JEKYLL_GID}}"'
-      JEKYLL_IMAGE: ghcr.io/aksw/jekyll-rdf:4.0.4
+      JEKYLL_IMAGE: docker.io/aksw/jekyll-rdf:4.0.4
     cmds:
       - |
         docker run --rm \
