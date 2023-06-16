@@ -716,6 +716,7 @@
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-session-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-session-3> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-session-3> <http://schema.org/performer> <https://dataweek.de/#AnjaBrueckner> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-session-3> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-session-7> <http://purl.org/dc/terms/date> "2023-06-30"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -747,16 +748,53 @@
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-session-9> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-session-9> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-session-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-19> <http://purl.org/dc/terms/date> "2023-06-30"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-19> <http://purl.org/dc/terms/title> "Organisationaler Mindshift für eine nachhaltige KI.\nFür eine integrierte Nachhaltigkeitsperspektive über den gesamten ML-Lebenszyklus"@de .
-<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-19> <http://purl.org/dc/terms/title> "Organizational mindshift for sustainable AI.\nFor an integrated sustainability perspective across the entire ML lifecycle."@en .
-<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-19> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-19> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-19> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
-<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-19> <http://schema.org/performer> <https://dataweek.de/#AnneMollen> .
-<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-19> <http://schema.org/startTime> "09:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-12> <http://purl.org/dc/terms/date> "2023-06-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-12> <http://purl.org/dc/terms/title> "Classification of static poses based on key point detection for application of incriminated image files "@de .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-12> <http://purl.org/dc/terms/title> "Classification of static poses based on key point detection for application of incriminated image files "@en .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-12> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-12> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-13> <http://purl.org/dc/terms/date> "2023-06-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-13> <http://purl.org/dc/terms/title> "TBA"@de .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-13> <http://purl.org/dc/terms/title> "TBA"@en .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-13> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-13> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-14> <http://purl.org/dc/terms/date> "2023-06-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-14> <http://purl.org/dc/terms/title> "TBA"@de .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-14> <http://purl.org/dc/terms/title> "TBA"@en .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-14> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-14> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-22> <http://purl.org/dc/terms/date> "2023-06-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-22> <http://purl.org/dc/terms/title> "Organisationaler Mindshift für eine nachhaltige KI.\nFür eine integrierte Nachhaltigkeitsperspektive über den gesamten ML-Lebenszyklus"@de .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-22> <http://purl.org/dc/terms/title> "Organizational mindshift for sustainable AI.\nFor an integrated sustainability perspective across the entire ML lifecycle."@en .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-22> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-22> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-22> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-22> <http://schema.org/performer> <https://dataweek.de/#AnneMollen> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-22> <http://schema.org/startTime> "09:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-25> <http://purl.org/dc/terms/date> "2023-06-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-25> <http://purl.org/dc/terms/title> "LLM-assisted Knowledge Graph Engineering: Experiments with ChatGPT "@de .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-25> <http://purl.org/dc/terms/title> "LLM-assisted Knowledge Graph Engineering: Experiments with ChatGPT "@en .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-25> <http://schema.org/endTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-25> <http://schema.org/performer> <http://aksw.org/LarsPeterMeyer> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-25> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-26> <http://purl.org/dc/terms/date> "2023-06-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-26> <http://purl.org/dc/terms/title> "TBA"@de .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-26> <http://purl.org/dc/terms/title> "TBA"@en .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-26> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-26> <http://schema.org/startTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-27> <http://purl.org/dc/terms/date> "2023-06-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-27> <http://purl.org/dc/terms/title> "Viability of Knowledge Management Practices for a successful digital transformation in small- and medium-sized enterprises"@de .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-27> <http://purl.org/dc/terms/title> "Viability of Knowledge Management Practices for a successful digital transformation in small- and medium-sized enterprises"@en .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-27> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-27> <http://schema.org/startTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-3> <http://purl.org/dc/terms/date> "2023-06-29"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-3> <http://purl.org/dc/terms/title> "Presentation of the program slots"@en .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-3> <http://purl.org/dc/terms/title> "Vorstellung des Tagesprogramms"@de .
@@ -780,6 +818,7 @@
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-7> <http://purl.org/dc/terms/title> "Developing a human-centred AI-based system to assist sorting laundry "@de .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-7> <http://purl.org/dc/terms/title> "Developing a human-centred AI-based system to assist sorting laundry "@en .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-7> <http://schema.org/endTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-7> <http://schema.org/performer> <https://dataweek.de/#NicoRabethge> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-7> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-8> <http://purl.org/dc/terms/date> "2023-06-29"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -789,6 +828,8 @@
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-8> <http://schema.org/startTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-9> <http://purl.org/dc/terms/date> "2023-06-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-9> <http://purl.org/dc/terms/title> "TBA"@de .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-9> <http://purl.org/dc/terms/title> "TBA"@en .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-9> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-9> <http://schema.org/startTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -2487,7 +2528,13 @@
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-7> .
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-8> .
 <https://2023.dataweek.de/kmi-23/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/kmi-23/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-12> .
+<https://2023.dataweek.de/kmi-23/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-13> .
+<https://2023.dataweek.de/kmi-23/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-14> .
 <https://2023.dataweek.de/kmi-23/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-9> .
+<https://2023.dataweek.de/kmi-23/#programm-session-8> <http://schema.org/subEvent> <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-25> .
+<https://2023.dataweek.de/kmi-23/#programm-session-8> <http://schema.org/subEvent> <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-26> .
+<https://2023.dataweek.de/kmi-23/#programm-session-8> <http://schema.org/subEvent> <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-27> .
 <https://2023.dataweek.de/kmi-23/#programm-talk-3> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/kmi-23/#programm-talk-3> <http://purl.org/dc/terms/title> "Eröffnung "@de .
 <https://2023.dataweek.de/kmi-23/#programm-talk-3> <http://purl.org/dc/terms/title> "Opening"@en .
@@ -2520,7 +2567,7 @@
 <https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/ai-tomorrow-2023/#programm-session-7> .
 <https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/ai-tomorrow-2023/#programm-session-8> .
 <https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/ai-tomorrow-2023/#programm-session-9> .
-<https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-19> .
+<https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-22> .
 <https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-4> .
 <https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/09:45> .
 <https://2023.dataweek.de/kmi-23/> <http://schema.org/subEvent> <https://2023.dataweek.de/break/2023-06-28/12:00> .
@@ -3256,6 +3303,9 @@
 <https://dataweek.de/#AngelieKraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AngelieKraft> <http://xmlns.com/foaf/0.1/homepage> <https://www.inf.uni-hamburg.de/en/inst/ab/sems/people/angelie-kraft.html> .
 <https://dataweek.de/#AngelieKraft> <http://xmlns.com/foaf/0.1/name> "Angelie Kraft" .
+<https://dataweek.de/#AnjaBrueckner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#AnjaBrueckner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#AnjaBrueckner> <http://xmlns.com/foaf/0.1/name> "Anja Brückner" .
 <https://dataweek.de/#AnneMollen> <http://purl.org/dc/terms/description> "Senior Policy & Advocacy Manager"@de .
 <https://dataweek.de/#AnneMollen> <http://purl.org/dc/terms/description> "Senior Policy & Advocacy Manager"@en .
 <https://dataweek.de/#AnneMollen> <http://schema.org/affiliation> <https://algorithmwatch.org> .
