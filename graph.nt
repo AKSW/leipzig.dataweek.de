@@ -5,9 +5,9 @@
 <http://aksw.org/AndreValdestilhas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. André Valdestilhas" .
 <http://aksw.org/AndreValdestilhas> <http://xmlns.com/foaf/0.1/name> "André Valdestilhas" .
 <http://aksw.org/AndreValdestilhas> <http://xmlns.com/foaf/0.1/title> "Dr." .
-<http://aksw.org/AntoniaSch%C3%B6nbrodt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
-<http://aksw.org/AntoniaSch%C3%B6nbrodt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/AntoniaSch%C3%B6nbrodt> <http://xmlns.com/foaf/0.1/name> "Antonia Schönbrodt" .
+<http://aksw.org/AntoniaSchoenbrodt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://aksw.org/AntoniaSchoenbrodt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/AntoniaSchoenbrodt> <http://xmlns.com/foaf/0.1/name> "Antonia Schönbrodt" .
 <http://aksw.org/AntoninDelpeuch> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/AntoninDelpeuch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/AntoninDelpeuch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -752,6 +752,7 @@
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-12> <http://purl.org/dc/terms/title> "Classification of static poses based on key point detection for application of incriminated image files "@de .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-12> <http://purl.org/dc/terms/title> "Classification of static poses based on key point detection for application of incriminated image files "@en .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-12> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-12> <http://schema.org/performer> <http://aksw.org/AntoniaSchoenbrodt> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-12> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-13> <http://purl.org/dc/terms/date> "2023-06-29"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -799,6 +800,7 @@
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-30> <http://purl.org/dc/terms/title> "An Application of AI for Online Estimation of the Impact of Imperfections in Additive Manufactured Components"@de .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-30> <http://purl.org/dc/terms/title> "An Application of AI for Online Estimation of the Impact of Imperfections in Additive Manufactured Components"@en .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-30> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-30> <http://schema.org/performer> <https://dataweek.de/#FranziskaTheurich> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-30> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-31> <http://purl.org/dc/terms/date> "2023-06-30"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -837,6 +839,7 @@
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-8> <http://purl.org/dc/terms/title> "AI-Powered Knowledge and Expertise Mining in Healthcare from a Field Experiment"@de .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-8> <http://purl.org/dc/terms/title> "AI-Powered Knowledge and Expertise Mining in Healthcare from a Field Experiment"@en .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-8> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-8> <http://schema.org/performer> <https://dataweek.de/#SusanneFranke> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-8> <http://schema.org/startTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/ai-tomorrow-2023/#programm-talk-9> <http://purl.org/dc/terms/date> "2023-06-29"^^<http://www.w3.org/2001/XMLSchema#date> .
