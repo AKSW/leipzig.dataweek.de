@@ -2695,6 +2695,7 @@
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/startTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-15> .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-16> .
+<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-17> .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-18> .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-19> .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-20> .
@@ -2762,6 +2763,9 @@
 <https://2023.dataweek.de/lswt2023/#programm-talk-16> <http://schema.org/startTime> "13:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-17> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/lswt2023/#programm-talk-17> <http://purl.org/dc/terms/title> "SCM: Inventory Mgt with Data Semantics"@de .
+<https://2023.dataweek.de/lswt2023/#programm-talk-17> <http://purl.org/dc/terms/title> "SCM: Inventory Mgt with Data Semantics"@en .
+<https://2023.dataweek.de/lswt2023/#programm-talk-17> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-17> <http://schema.org/endTime> "13:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-17> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-talk-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -2902,7 +2906,6 @@
 <https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-session-3> .
 <https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-session-4> .
 <https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-12> .
-<https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-17> .
 <https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-27> .
 <https://2023.dataweek.de/lswt2023/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-5> .
 <https://2023.dataweek.de/lswt2023/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/lswt2023/> .
@@ -3460,6 +3463,12 @@
 <https://dataweek.de/#DanielProbst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#DanielProbst> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/daniel-probst-a355251/> .
 <https://dataweek.de/#DanielProbst> <http://xmlns.com/foaf/0.1/name> "Daniel Probst" .
+<https://dataweek.de/#DeAnnaHarner> <http://purl.org/dc/terms/description> "RPE Solutions, LLC"@de .
+<https://dataweek.de/#DeAnnaHarner> <http://purl.org/dc/terms/description> "RPE Solutions, LLC"@en .
+<https://dataweek.de/#DeAnnaHarner> <http://schema.org/affiliation> <https://rpesolutionsllc.com/> .
+<https://dataweek.de/#DeAnnaHarner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#DeAnnaHarner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#DeAnnaHarner> <http://xmlns.com/foaf/0.1/name> "DeAnna Harner" .
 <https://dataweek.de/#EnricoMacholdt> <http://purl.org/dc/terms/description> "Data Scientist & Engineer"@de .
 <https://dataweek.de/#EnricoMacholdt> <http://purl.org/dc/terms/description> "Data Scientist & Engineer"@en .
 <https://dataweek.de/#EnricoMacholdt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
