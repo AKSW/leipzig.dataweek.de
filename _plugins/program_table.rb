@@ -5,8 +5,6 @@
 #   if current start different to last_start
 #
 
-
-
 module Jekyll
   module ProgramTable
     def program_table(input)
@@ -24,7 +22,8 @@ module Jekyll
           orders.push(order.to_i)
         end
       end
-      orders.uniq!.sort!
+      orders.uniq!
+      orders.sort!
       i = 0
       for order in orders do
         i += 1
