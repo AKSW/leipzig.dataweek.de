@@ -3775,7 +3775,7 @@
 <https://dataweek.de/#JordiEscriuParadell> <http://xmlns.com/foaf/0.1/name> "Jordi Escriu" .
 <https://dataweek.de/#JordiEscriuParadell> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "MSc. in GIS. Geodesy and Cartography Engineer and Surveying Engineer.\n\nWorking as Scientific Project Officer in the Digital Economy Unit, at the European Commission Joint Research Centre (JRC), Ispra (Italy), since August 2021. Participating in the activities for the modernisation of the European Spatial Data Infrastructure for Europe (INSPIRE), the research and implementation activities for its evolution into a digital data ecosystem, the Green Deal Data Space.\n\nBackground: \n\n- Collaborating as INSPIRE Expert and Facilitator from 2008.\n\n- Past member of the EuroGeographics Quality and INSPIRE KENs.\n\n- Experience of more than 17 years in the Regional Mapping Agency of Catalonia (Spain) – ICGC (2003-2021). Technical Manager of the Regional SDI of Catalonia (Spain) - IDEC (2016-2021).\n\n- European Commission Joint Research Centre (JRC) – Digital Economy Unit (B6) - INSPIRE Team (2021-Today).\n"@en .
 <https://dataweek.de/#JordiEscriuParadell> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "MSc. in GIS. Ingenieur für Geodäsie und Kartografie und Vermessungsingenieur.\n\nSeit August 2021 arbeitet er als wissenschaftlicher Projektleiter im Referat Digitale Wirtschaft bei der Gemeinsamen Forschungsstelle (GFS) der Europäischen Kommission in Ispra (Italien). Teilnahme an den Aktivitäten zur Modernisierung der Europäischen Geodateninfrastruktur für Europa (INSPIRE), den Forschungs- und Umsetzungsaktivitäten für deren Weiterentwicklung zu einem digitalen Datenökosystem, dem Green Deal Data Space.\n\nHintergrund: \n\n- Mitarbeit als INSPIRE-Experte und Moderator seit 2008.\n\n- Ehemaliges Mitglied der EuroGeographics Quality und INSPIRE KENs.\n\n- Mehr als 17 Jahre Erfahrung in der regionalen Kartierungsagentur von Katalonien (Spanien) - ICGC (2003-2021). Technischer Leiter der regionalen SDI von Katalonien (Spanien) - IDEC (2016-2021).\n\n- Gemeinsame Forschungsstelle der Europäischen Kommission (JRC) - Referat Digitale Wirtschaft (B6) - INSPIRE-Team (2021-heute)."@de .
-<https://dataweek.de/#JudithFauth> <http://schema.org/affiliation> <urn:url-encoded-value:EUnet4DBP> .
+<https://dataweek.de/#JudithFauth> <http://schema.org/affiliation> <https://eu4dbp.net/> .
 <https://dataweek.de/#JudithFauth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JudithFauth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JudithFauth> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Judith Fauth" .
@@ -4566,6 +4566,11 @@
 <https://edih-saxony.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "edih Saxony" .
 <https://edih-saxony.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://edih-saxony.eu/> .
 <https://edih-saxony.eu/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/edih.png" .
+<https://eu4dbp.net/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://eu4dbp.net/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://eu4dbp.net/> <http://www.w3.org/2000/01/rdf-schema#label> "EUnet4DBP"@de .
+<https://eu4dbp.net/> <http://www.w3.org/2000/01/rdf-schema#label> "EUnet4DBP"@en .
+<https://eu4dbp.net/> <http://xmlns.com/foaf/0.1/homepage> <https://eu4dbp.net/> .
 <https://extrazwei.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://extrazwei.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://extrazwei.de/> <http://www.w3.org/2000/01/rdf-schema#label> "extrazwei"@de .
