@@ -309,11 +309,12 @@
 <https://2023.dataweek.de/#FooterMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/datenschutz/> .
 <https://2023.dataweek.de/#FooterMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/contact/> .
 <https://2023.dataweek.de/#FooterMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
-<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/program> .
-<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/tracks> .
-<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/venue/> .
-<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2023.dataweek.de/tickets> .
-<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2023.dataweek.de/news> .
+<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/live> .
+<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/program> .
+<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/tracks> .
+<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2023.dataweek.de/venue/> .
+<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2023.dataweek.de/tickets> .
+<https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2023.dataweek.de/news> .
 <https://2023.dataweek.de/#MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2023.dataweek.de/#MainMenu> <http://xmlns.com/foaf/0.1/primaryTopic> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/#postersession> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -2629,6 +2630,13 @@
 <https://2023.dataweek.de/kmi-23/> <http://www.w3.org/2000/01/rdf-schema#label> "KMI transfer day"@en .
 <https://2023.dataweek.de/kmi-23/> <https://dataweek.de/#show> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://2023.dataweek.de/kmi-23/> <https://dataweek.de/#slug> "KMI" .
+<https://2023.dataweek.de/live> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
+<https://2023.dataweek.de/live> <http://www.w3.org/2000/01/rdf-schema#label> "Live"@de .
+<https://2023.dataweek.de/live> <http://www.w3.org/2000/01/rdf-schema#label> "Live"@en .
+<https://2023.dataweek.de/live> <https://dataweek.de/#dateCondition> "2023-06-26" .
+<https://2023.dataweek.de/live> <https://dataweek.de/#dateCondition> "2023-06-27" .
+<https://2023.dataweek.de/live> <https://dataweek.de/#dateCondition> "2023-06-28" .
+<https://2023.dataweek.de/live> <https://dataweek.de/#menuHighlight> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://2023.dataweek.de/lodh-2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "LODH Team"@de .
 <https://2023.dataweek.de/lodh-2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "LODH Team"@en .
 <https://2023.dataweek.de/lodh-2023/> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -4631,6 +4639,9 @@
 <https://naturkundemuseum.leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Natural History Museum"@en .
 <https://naturkundemuseum.leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Naturkundemuseum"@de .
 <https://naturkundemuseum.leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://naturkundemuseum.leipzig.de/> .
+<https://noa-invision.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://noa-invision.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Weberpals & Frank GbR - NOA Invision" .
+<https://noa-invision.de/> <http://xmlns.com/foaf/0.1/homepage> <https://noa-invision.de/> .
 <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
