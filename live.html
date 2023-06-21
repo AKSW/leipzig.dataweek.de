@@ -5,11 +5,11 @@ layout: basic
 {% include strings.html %}
 {% assign programResource = "dw23:program" | rdf_get %}
 {% assign venueResource = "<https://2023.dataweek.de/venue/>" | rdf_get %}
+{% assign noainvisionResource = "<https://noa-invision.de/>" | rdf_get %}
+{% assign htwkResource = "<https://htwk-leipzig.de/>" | rdf_get %}
 
 <div class="content-header">
-  <h1>
-    Welcome to the Data Week 2023
-  </h1>
+  <h1>{{str_welcome}}</h1>
   <a class="btn" href="{{ programResource.render_path | relativize_url }}">{{ programResource | rdf_property: "rdfs:label", site.language}}</a>
   <a class="btn" href="{{ venueResource.render_path | relativize_url }}">{{ venueResource | rdf_property: "rdfs:label", site.language}}</a>
 </div>
@@ -20,8 +20,8 @@ layout: basic
     <li>
       <div class="card">
         <h2>
+          <svg role="img" focusable="false" aria-hidden="true" height="28" width="42"><use xlink:href="{% relative_link /resources/images/socialmedia.svg %}#youtube"></use></svg><br/>
           <a href="{{ row.event.render_path | relativize_url }}">
-            <svg role="img" focusable="false" aria-hidden="true" height="28" width="42"><use xlink:href="images/socialmedia.svg#youtube"></use></svg>
             <span class="xl hideunderline">Stream A</span>
           </a>
         </h2>
@@ -42,19 +42,33 @@ layout: basic
             <strong>Sitzungssaal</strong>
           </time>
         </p>
-        <p><em>Mit freundlichen Unterstützung durch</em></p>
+        <p><em>{{str_supported}}</em></p>
         <div class="logos">
-          <a href="https://htwk-leipzig.de/">
-            <img src="../resources/images/partner/logo-htwk_v.svg" alt="Bild von  Hochschule für Technik, Wirtschaft und Kultur Leipzig">
-          </a>
+          {% assign affiliation = htwkResource %}
+          {% assign depiction = affiliation | rdf_property: "site:small_logo" %}
+          {% unless depiction %}
+            {% assign depiction = affiliation | rdf_property: "foaf:logo" %}
+          {% endunless %}
+          {% assign affiliation_alt = affiliation | rdf_property: "rdfs:label" %}
+          {% if depiction %}
+              <a href="{{ affiliation }}">
+                {% include components/img.html alt=affiliation_alt resource=depiction simple=true %}
+              </a>
+          {% else %}
+            <p>
+              <a href="{{ affiliation }}">
+                {{ affiliation_alt }}
+              </a>
+            </p>
+          {% endif %}
         </div>
       </div>
     </li>
     <li>
       <div class="card">
         <h2>
+          <svg role="img" focusable="false" aria-hidden="true" height="28" width="42"><use xlink:href="{% relative_link /resources/images/socialmedia.svg %}#youtube"></use></svg><br/>
           <a href="{{ row.event.render_path | relativize_url }}">
-            <svg role="img" focusable="false" aria-hidden="true" height="28" width="42"><use xlink:href="images/socialmedia.svg#youtube"></use></svg>
             <span class="xl hideunderline">Stream B</span>
           </a>
         </h2>
@@ -75,8 +89,26 @@ layout: basic
             <strong>Festsaal</strong>
           </time>
         </p>
-        <p><em>Mit freundlichen Unterstützung durch</em></p>
-        <p><a href="https://noa-invision.de">Weberpals & Frank GbR - NOA Invision</a></p>
+        <p><em>{{str_supported}}</em></p>
+        <div class="logos">
+          {% assign affiliation = noainvisionResource %}
+          {% assign depiction = affiliation | rdf_property: "site:small_logo" %}
+          {% unless depiction %}
+            {% assign depiction = affiliation | rdf_property: "foaf:logo" %}
+          {% endunless %}
+          {% assign affiliation_alt = affiliation | rdf_property: "rdfs:label" %}
+          {% if depiction %}
+              <a href="{{ affiliation }}">
+                {% include components/img.html alt=affiliation_alt resource=depiction simple=true %}
+              </a>
+          {% else %}
+            <p>
+              <a href="{{ affiliation }}">
+                {{ affiliation_alt }}
+              </a>
+            </p>
+          {% endif %}
+        </div>
       </div>
     </li>
   </ul>
