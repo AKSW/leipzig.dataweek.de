@@ -4,6 +4,7 @@
 {% assign label = include.label %}
 {% assign resource = include.resource %}
 {% assign submenu = include.submenu %}
+{% assign menuHighlight = include.menuHighlight %}
 
 {% if resource %}
 {% unless label %}
@@ -11,4 +12,4 @@
 {% endunless %}
 {% endif %}
 
-{% include components/menu_entry.html current=current active=active resource=resource link=link label_span=label submenu=submenu %}
+{% include components/menu_entry.html current=current active=active resource=resource link=link label_span=label submenu=submenu menuHighlight=menuHighlight %}

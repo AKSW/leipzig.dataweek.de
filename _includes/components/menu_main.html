@@ -61,7 +61,21 @@ select distinct ?entry {
       {% if entry == current_super_resource %}
         {% assign active = true %}
       {% endif %}
-      {% include components/menu_main_entry.html active=active current=current_page resource=entry submenu="" %}
+      {% assign dateCondition = entry | rdf_property: "dw:dateCondition" %}
+      {% assign menuHighlight = entry | rdf_property: "dw:menuHighlight" %}
+      {%- assign show = true -%}
+      {% if dateCondition %}
+        {%- assign today = "now" | date: "%Y-%m-%d" -%}
+        {%- assign show = false -%}
+        {% for condition in dateCondition %}
+          {%- if today == condition -%}
+            {%- assign show = true -%}
+          {%- endif -%}
+        {% endfor %}
+      {% endif %}
+      {%- if show -%}
+        {% include components/menu_main_entry.html active=active current=current_page resource=entry submenu="" menuHighlight=menuHighlight %}
+      {%- endif -%}
     {% endfor %}
   </ul>
 </nav>

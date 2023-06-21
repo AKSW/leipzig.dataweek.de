@@ -3,6 +3,7 @@
 {% assign link = include.link %}
 {% assign resource = include.resource %}
 {% assign submenu = include.submenu %}
+{% assign menuHighlight = include.menuHighlight %}
 
 {% if resource %}
   {% unless link %}
@@ -77,7 +78,18 @@
   {% if label_i %}<i>{{ label_i }}</i>{% endif %}
 {% endcapture %}
 
-<li {% if active %}class="open"{% endif %}>
+{% assign classes = "" %}
+
+{% if active %}
+  {% assign classes = classes | append: "open " %}
+{% endif %}
+
+{% if menuHighlight %}
+  {% assign classes = classes | append: "highlight " %}
+{% endif %}
+
+
+<li {% if classes %}class="{{classes}}"{% endif %}>
   {% if active_exact %}
     <strong aria-current="page">
       {% if label_flipped %}
