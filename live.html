@@ -1,0 +1,83 @@
+---
+layout: basic
+---
+
+{% include strings.html %}
+{% assign programResource = "dw23:program" | rdf_get %}
+{% assign venueResource = "<https://2023.dataweek.de/venue/>" | rdf_get %}
+
+<div class="content-header">
+  <h1>
+    Welcome to the Data Week 2023
+  </h1>
+  <a class="btn" href="{{ programResource.render_path | relativize_url }}">{{ programResource | rdf_property: "rdfs:label", site.language}}</a>
+  <a class="btn" href="{{ venueResource.render_path | relativize_url }}">{{ venueResource | rdf_property: "rdfs:label", site.language}}</a>
+</div>
+
+
+<div class="card-list">
+  <ul>
+    <li>
+      <div class="card">
+        <h2>
+          <a href="{{ row.event.render_path | relativize_url }}">
+            <svg role="img" focusable="false" aria-hidden="true" height="28" width="42"><use xlink:href="images/socialmedia.svg#youtube"></use></svg>
+            <span class="xl hideunderline">Stream A</span>
+          </a>
+        </h2>
+        <p class="dates">
+          <time>
+            <strong class="highlighted x1">{{ "2023-06-26" | localize: "%a" }}</strong><br/>
+            <strong>9.45–17.30</strong><br/>
+            <strong>Sitzungssaal</strong>
+          </time>
+          <time>
+            <strong class="highlighted x1">{{ "2023-06-27" | localize: "%a" }}</strong><br/>
+            <strong>9.00–18.20</strong><br/>
+            <strong>Sitzungssaal</strong>
+          </time>
+          <time>
+            <strong class="highlighted x1">{{ "2023-06-28" | localize: "%a" }}</strong><br/>
+            <strong>9.00–16.30</strong><br/>
+            <strong>Sitzungssaal</strong>
+          </time>
+        </p>
+        <p><em>Mit freundlichen Unterstützung durch</em></p>
+        <div class="logos">
+          <a href="https://htwk-leipzig.de/">
+            <img src="../resources/images/partner/logo-htwk_v.svg" alt="Bild von  Hochschule für Technik, Wirtschaft und Kultur Leipzig">
+          </a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="card">
+        <h2>
+          <a href="{{ row.event.render_path | relativize_url }}">
+            <svg role="img" focusable="false" aria-hidden="true" height="28" width="42"><use xlink:href="images/socialmedia.svg#youtube"></use></svg>
+            <span class="xl hideunderline">Stream B</span>
+          </a>
+        </h2>
+        <p class="dates">
+          <time>
+            <strong class="highlighted x1">{{ "2023-06-26" | localize: "%a" }}</strong><br/>
+            <strong>16.00–17.30</strong><br/>
+            <strong>Ratsplenarsaal</strong>
+          </time>
+          <time>
+            <strong class="highlighted x1">{{ "2023-06-27" | localize: "%a" }}</strong><br/>
+            <strong>10.50–18.20</strong><br/>
+            <strong>Ratsplenarsaal</strong>
+          </time>
+          <time>
+            <strong class="highlighted x1">{{ "2023-06-28" | localize: "%a" }}</strong><br/>
+            <strong>9.30–18.00</strong><br/>
+            <strong>Festsaal</strong>
+          </time>
+        </p>
+        <p><em>Mit freundlichen Unterstützung durch</em></p>
+        <p><a href="https://noa-invision.de">Weberpals & Frank GbR - NOA Invision</a></p>
+      </div>
+    </li>
+  </ul>
+</div>
