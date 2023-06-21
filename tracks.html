@@ -21,30 +21,30 @@ layout: basic
 
 <div class="card-list">
   <ul>
-  {% for row in subEvents %}
-  {% assign slogan = row.event | rdf_property: "schema:slogan", site.language %}
-  {% assign abstract = row.event | rdf_property: "schema:abstract", site.language %}
-  {% assign dates = row.event | rdf_property: "dct:date", nil, true %}
-  <li>
-    <div class="card">
-      <h2>
-        <a href="{{ row.event.render_path | relativize_url }}">
-          <span class="highlighted2">{{ row.event | rdf_property: "dw:slug" }}</span><br>
-          <span class="xl hideunderline">{{ row.event | rdf_property: "rdfs:label", site.language }}</span>
-        </a>
-      </h2>
-      <p class="dates">
-        {% for weekday in dates %}
-        <time>
-          <strong class="highlighted x1">{{ weekday | localize: "%a" }}</strong><br/>
-          <strong>{{ weekday }}</strong>
-        </time>
-        {% endfor %}
-      </p>
-      {% if slogan %}<p><em>{{ slogan }}</em></p>{% endif %}
-      {% if abstract %}<p class="justify"><small>{{ abstract }}</small></p>{% endif %}
-    </div>
-  </li>
-  {% endfor %}
+    {% for row in subEvents %}
+      {% assign slogan = row.event | rdf_property: "schema:slogan", site.language %}
+      {% assign abstract = row.event | rdf_property: "schema:abstract", site.language %}
+      {% assign dates = row.event | rdf_property: "dct:date", nil, true %}
+      <li>
+        <div class="card">
+          <h2>
+            <a href="{{ row.event.render_path | relativize_url }}">
+              <span class="highlighted2">{{ row.event | rdf_property: "dw:slug" }}</span><br>
+              <span class="xl hideunderline">{{ row.event | rdf_property: "rdfs:label", site.language }}</span>
+            </a>
+          </h2>
+          <p class="dates">
+            {% for weekday in dates %}
+              <time>
+                <strong class="highlighted x1">{{ weekday | localize: "%a" }}</strong><br/>
+                <strong>{{ weekday }}</strong>
+              </time>
+            {% endfor %}
+          </p>
+          {% if slogan %}<p><em>{{ slogan }}</em></p>{% endif %}
+          {% if abstract %}<p class="justify"><small>{{ abstract }}</small></p>{% endif %}
+        </div>
+      </li>
+    {% endfor %}
   </ul>
 </div>
