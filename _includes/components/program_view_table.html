@@ -1,6 +1,12 @@
 {% assign view = include.view %}
 {%- assign pause = "dw:pause" | rdf_get -%}
 
+{%- capture sideevents -%}
+  <a id="sideevents" class="anchor"></a>
+  <h3>{{ str_sidevents }}</h3>
+  {%- include components/program_sideevents.html view=view -%}
+{%- endcapture -%}
+
 {% assign check_view = page.rdf | rdf_property: "rdf:type" %}
 {% assign title = page.rdf | rdf_property: "rdfs:label", site.language %}
 {% assign description = page.rdf | rdf_property: "dct:description", site.language %}
@@ -45,6 +51,7 @@ ORDER BY ?start ?order
     <h2>
       {{title}}
     </h2>
+
     <!--p class="calendar">
       <a href="programm_montag.html#">Tag als Kalender abonnieren <svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
       <use xlink:href="{% relative_link /resources/images/icons.svg %}#calendar-add"></use></svg></a>
@@ -55,6 +62,12 @@ ORDER BY ?start ?order
       {{description}}
     </p>
   {% endif %}
+
+  {%- unless sideevents_empty -%}
+  <p>
+    <a href="#sideevents">{{ str_sidevents }} ⇣</a>
+  </p>
+  {%- endunless -%}
 
 {%- if sessions.first -%}
   <div class="ce-table timetable-floorplan" role="region" aria-labelledby="ce-table-caption-0" tabindex="0">
@@ -109,5 +122,8 @@ ORDER BY ?start ?order
 {%- else -%}
   {%- assign program_empty = true -%}
 {%- endif -%}
-
 </section>
+
+{%- unless sideevents_empty -%}
+  {{ sideevents }}
+{%- endunless -%}

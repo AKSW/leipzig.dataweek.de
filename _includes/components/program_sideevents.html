@@ -1,0 +1,27 @@
+{% assign view = include.view %}
+
+{% capture sideevents_query %}
+SELECT DISTINCT ?session
+WHERE {
+  {
+    ?resourceUri schema:subEvent ?session .
+  } union {
+    ?resourceUri schema:subEvent ?subEvent .
+    ?subEvent schema:subEvent ?session .
+  }
+  ?session schema:startTime ?start ;
+           site:track dw:sideevent ;
+           dct:date ?date .
+  filter ({{ view.filter }})
+} ORDER BY ?start
+{% endcapture %}
+
+{% assign sideevents = view.resource | sparql_query: sideevents_query %}
+
+{%- if sideevents.first -%}
+  {%- for session_row in sideevents -%}
+    {%- include components/program_unit.html session=session_row.session -%}
+  {%- endfor -%}
+{%- else -%}
+  {%- assign sideevents_empty = true -%}
+{%- endif -%}
