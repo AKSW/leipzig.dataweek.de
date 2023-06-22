@@ -1898,7 +1898,7 @@
 <https://2023.dataweek.de/gdds-2023/#programm-session-7> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-7> <http://schema.org/endTime> "17:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-7> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
-<https://2023.dataweek.de/gdds-2023/#programm-session-7> <http://schema.org/performer> <https://dataweek.de/#CharisChatzikyriakou> .
+<https://2023.dataweek.de/gdds-2023/#programm-session-7> <http://schema.org/performer> <https://dataweek.de/#MarkDietrich> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-7> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-7> <http://schema.org/subEvent> <https://2023.dataweek.de/gdds-2023/#programm-talk-35> .
 <https://2023.dataweek.de/gdds-2023/#programm-session-7> <http://schema.org/subEvent> <https://2023.dataweek.de/gdds-2023/#programm-talk-36> .
@@ -3942,6 +3942,12 @@
 <https://dataweek.de/#MariaEstherVidal> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Maria-Esther Vidal" .
 <https://dataweek.de/#MariaEstherVidal> <http://xmlns.com/foaf/0.1/name> "Maria-Esther Vidal" .
 <https://dataweek.de/#MariaEstherVidal> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
+<https://dataweek.de/#MarkDietrich> <http://schema.org/affiliation> <urn:url-encoded-value:EGI> .
+<https://dataweek.de/#MarkDietrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MarkDietrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MarkDietrich> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Mark Dietrich" .
+<https://dataweek.de/#MarkDietrich> <http://xmlns.com/foaf/0.1/name> "Mark Dietrich" .
+<https://dataweek.de/#MarkDietrich> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#MartinHentschel> <http://purl.org/dc/terms/description> "Principal Software Engineer [Snowflake](https://www.snowflake.com/)"@de .
 <https://dataweek.de/#MartinHentschel> <http://purl.org/dc/terms/description> "Principal Software Engineer [Snowflake](https://www.snowflake.com/)"@en .
 <https://dataweek.de/#MartinHentschel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
