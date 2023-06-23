@@ -1,7 +1,7 @@
 'use strict';
 
 // const socket = io("wss://chat.lswt2021.comiles.eu/ws");
-const socket = io("ws://localhost:3000");
+const socket = io("wss://chat.2023.dataweek.de/");
 // const ws = new WebSocket('wss://chat.lswt2021.comiles.eu/ws');
 // const ws = new WebSocket('ws://localhost:5000/ws');
 
