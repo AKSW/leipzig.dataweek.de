@@ -62,24 +62,7 @@ layout: basic
 
   <li>
     <div class="card">
-        {% if site.language == 'en' %}
-  <figure>
-    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 896 588" width="100%">
-    <path fill="#e8f7fd" d="M893.001 585H703V409h112.001v-20H282.999v-98h-33.997v294H3V3h246.002v266h33.997v-56h42.003v-34h-42V3h106v176h-42.001v34h118.001v-34h-42.001V3h106v176h-42v34h118v-34h-41.998V3h105.998v176h-42v34h188v-34H703V3h190.001v176H837v34h56.001v176H837v20h56.001v176Z"></path>
-    <path fill="#b5e3f8" d=
-    "M890.001 582V412H834v-26h56.001V216H834v-40h56.001V6H706v170h112.001v40h-194v-40h42V6h-99.998v170h41.998v40h-124v-40h42V6h-100v170h42.001v40H344.001v-40h42.001V6h-100v170h42v40h-42.003v56h-39.997V6H6v576h240.002V288h39.997v98h532.002v26H706v170h184.001m6 6H700V406h112.001v-14H279.999v-98h-27.997v294H0V0h252.002v266h27.997v-56h42.003v-28h-42V0h112v182h-42.001v28h112.001v-28h-42.001V0h112v182h-42v28h112v-28h-41.998V0h111.998v182h-42v28h182v-28H700V0h196.001v182H840v28h56.001v182H840v14h56.001v182Z"></path>
-    <text fill="#17214c" font-size="20" font-weight="700" transform="translate(34 288)">Boardroom</text> <text fill="#17214c" font-size="20" font-weight="700" transform="translate(524 288)">Foyer</text> <text fill="#17214c" font-size="20" font-weight="700" transform="translate(719 153)">Council Chamber</text> <text fill="#17214c" font-size="20" font-weight="700" transform="translate(719 558)">Entrance</text> <text fill="#17214c" font-size="20" font-weight="700" transform=
-    "translate(442 153)">R260</text> <text fill="#17214c" font-size="20" font-weight="700" transform="translate(302 153)">R259</text> <text fill="#17214c" font-size="16" font-weight="700" transform="translate(442 125)">Meetup</text> <text fill="#17214c" font-size="16" font-weight="700" transform="translate(302 125)">Meetup</text> </svg>
-        {% else %}
-  <figure>
-    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 896 588" width="100%">
-    <path fill="#e8f7fd" d="M893.001 585H703V409h112.001v-20H282.999v-98h-33.997v294H3V3h246.002v266h33.997v-56h42.003v-34h-42V3h106v176h-42.001v34h118.001v-34h-42.001V3h106v176h-42v34h118v-34h-41.998V3h105.998v176h-42v34h188v-34H703V3h190.001v176H837v34h56.001v176H837v20h56.001v176Z"></path>
-    <path fill="#b5e3f8" d=
-    "M890.001 582V412H834v-26h56.001V216H834v-40h56.001V6H706v170h112.001v40h-194v-40h42V6h-99.998v170h41.998v40h-124v-40h42V6h-100v170h42.001v40H344.001v-40h42.001V6h-100v170h42v40h-42.003v56h-39.997V6H6v576h240.002V288h39.997v98h532.002v26H706v170h184.001m6 6H700V406h112.001v-14H279.999v-98h-27.997v294H0V0h252.002v266h27.997v-56h42.003v-28h-42V0h112v182h-42.001v28h112.001v-28h-42.001V0h112v182h-42v28h112v-28h-41.998V0h111.998v182h-42v28h182v-28H700V0h196.001v182H840v28h56.001v182H840v14h56.001v182Z"></path>
-    <text fill="#17214c" font-size="20" font-weight="700" transform="translate(34 288)">Sitzungssaal</text> <text fill="#17214c" font-size="20" font-weight="700" transform="translate(524 288)">Wandelhalle</text> <text fill="#17214c" font-size="20" font-weight="700" transform="translate(719 153)">Ratsplenarsaal</text> <text fill="#17214c" font-size="20" font-weight="700" transform="translate(719 558)">Eingang</text> <text fill="#17214c" font-size="20" font-weight="700" transform=
-    "translate(442 153)">R260</text> <text fill="#17214c" font-size="20" font-weight="700" transform="translate(302 153)">R259</text> <text fill="#17214c" font-size="16" font-weight="700" transform="translate(442 125)">Meetup</text> <text fill="#17214c" font-size="16" font-weight="700" transform="translate(302 125)">Meetup</text> </svg>
-        {% endif %}
-  </figure>
+      <img src="{% relative_link /resources/images/floorplan/Floorplan.svg %}"/>
     </div>
   </li>
 
