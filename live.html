@@ -21,8 +21,8 @@ layout: basic
       <div class="card">
         <h2>
           <svg role="img" focusable="false" aria-hidden="true" height="28" width="42"><use xlink:href="{% relative_link /resources/images/socialmedia.svg %}#youtube"></use></svg><br/>
-          <a href="{{ row.event.render_path | relativize_url }}">
-            <span class="xl hideunderline">Stream A</span>
+          <a href="{{ "/live/stream.html" | relativize_url }}#{{site.stream_a}}">
+            <span class="xl hideunderline">{{ str_stream_a }}</span>
           </a>
         </h2>
         <p class="dates">
@@ -68,8 +68,8 @@ layout: basic
       <div class="card">
         <h2>
           <svg role="img" focusable="false" aria-hidden="true" height="28" width="42"><use xlink:href="{% relative_link /resources/images/socialmedia.svg %}#youtube"></use></svg><br/>
-          <a href="{{ row.event.render_path | relativize_url }}">
-            <span class="xl hideunderline">Stream B</span>
+          <a href="{{ "/live/stream.html" | relativize_url }}#{{site.stream_b}}">
+            <span class="xl hideunderline">{{ str_stream_b }}</span>
           </a>
         </h2>
         <p class="dates">
