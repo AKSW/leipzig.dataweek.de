@@ -1,5 +1,7 @@
 ---
 layout: basic
+stream_a: !dFHhDmvNTjsDdFleJx:matrix.org
+stream_b: !LafTJWUTrJHTvUtfqi:matrix.org
 ---
 
 {% include strings.html %}
@@ -21,7 +23,7 @@ layout: basic
       <div class="card">
         <h2>
           <svg role="img" focusable="false" aria-hidden="true" height="28" width="42"><use xlink:href="{% relative_link /resources/images/socialmedia.svg %}#youtube"></use></svg><br/>
-          <a href="{{ "/live/stream.html" | relativize_url }}">
+          <a href="{{ "/live/stream.html" | relativize_url }}#{{page.stream_a}}">
             <span class="xl hideunderline">{{ str_stream_a }}</span>
           </a>
         </h2>
@@ -68,7 +70,7 @@ layout: basic
       <div class="card">
         <h2>
           <svg role="img" focusable="false" aria-hidden="true" height="28" width="42"><use xlink:href="{% relative_link /resources/images/socialmedia.svg %}#youtube"></use></svg><br/>
-          <a href="{{ "/live/stream.html" | relativize_url }}">
+          <a href="{{ "/live/stream.html" | relativize_url }}#{{page.stream_b}}">
             <span class="xl hideunderline">{{ str_stream_b }}</span>
           </a>
         </h2>
