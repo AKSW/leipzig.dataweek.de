@@ -10,6 +10,7 @@ layout: basic
 
 <div class="content-header">
   <h1>{{str_welcome}}</h1>
+  <p>{%- if site.language == 'en' -%}For the online participation no Ticket is required.{%- else -%}Für die Online-Teilnahme ist kein Ticket notwendig.{%- endif -%}</p>
   <a class="btn" href="{{ programResource.render_path | relativize_url }}">{{ programResource | rdf_property: "rdfs:label", site.language}}</a>
   <a class="btn" href="{{ venueResource.render_path | relativize_url }}">{{ venueResource | rdf_property: "rdfs:label", site.language}}</a>
 </div>
