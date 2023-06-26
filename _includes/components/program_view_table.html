@@ -52,10 +52,10 @@ ORDER BY ?start ?order
       {{title}}
     </h2>
 
-    <!--p class="calendar">
-      <a href="programm_montag.html#">Tag als Kalender abonnieren <svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
+    <p class="calendar">
+      <a href="index.ics">{{str_subscribe_ical_day}} <svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
       <use xlink:href="{% relative_link /resources/images/icons.svg %}#calendar-add"></use></svg></a>
-    </p-->
+    </p>
   </header>
   {% if description %}
     <p>

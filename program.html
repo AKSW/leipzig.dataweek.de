@@ -27,6 +27,14 @@ layout: basic
 
 {% assign days = page.rdf | sparql_query: dayQuery %}
 
+<section class="timetable">
+
+<header>
+  <p class="calendar">
+    <a href="index.ics">{{str_subscribe_ical_program}} <svg role="img" focusable="false" aria-hidden="true" height="28" width="28">
+    <use xlink:href="{% relative_link /resources/images/icons.svg %}#calendar-add"></use></svg></a>
+  </p>
+</header>
 <div class="card-list">
   <ul>
   {% for row in days %}
@@ -67,3 +75,4 @@ layout: basic
   {% endfor %}
   </ul>
 </div>
+</section>
