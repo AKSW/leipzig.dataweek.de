@@ -16,8 +16,9 @@ WHERE {
     filter ({{ view.filter }})
   } union {
     ?session site:track dw:pause ;
-      dct:date ?date .
-    filter ({{ view.filter }})
+    dct:date ?date .
+    filter (str(?date) = "{{ view.date }}")
+
   }
 } ORDER BY ?start
 {% endcapture %}

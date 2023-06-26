@@ -19,12 +19,15 @@ layout: basic
 {% endif %}
 
 {% capture viewQuery %}
-SELECT ?resource ?filter ?mode
+SELECT ?resource ?filter ?mode ?date
 WHERE {
   ?resourceUri dw:resourceUri ?resource ;
     dw:viewFilter ?filter .
   optional {
     ?resourceUri dw:viewMode ?mode .
+  }
+  optional {
+    ?resourceUri dct:date ?date .
   }
 } limit 1
 {% endcapture %}
