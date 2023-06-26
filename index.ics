@@ -2,6 +2,12 @@ BEGIN:VCALENDAR
 BEGIN:VEVENT
 SUMMARY:Registration
 DTSTART;TZID=Europe/Berlin:20230626T090000
+DTEND;TZID=Europe/Berlin:20230626T094000
+LOCATION:Wandelhalle
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Registration
+DTSTART;TZID=Europe/Berlin:20230626T090000
 DTEND;TZID=Europe/Berlin:20230626T094500
 LOCATION:Wandelhalle
 END:VEVENT
@@ -33,33 +39,8 @@ DTEND;TZID=Europe/Berlin:20230626T183000
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Panel Discussion\nSmart Services for Green Deal
-DTSTART;TZID=Europe/Berlin:20230626T164500
-DTEND;TZID=Europe/Berlin:20230626T173000
-DESCRIPTION:The panel will discuss the options\, challenges and limits of 
- digital applications to move toward a sustainable Europe. 
-LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Data Spaces: IoT and Sensors
-DTSTART;TZID=Europe/Berlin:20230626T160000
-DTEND;TZID=Europe/Berlin:20230626T173000
-DESCRIPTION:A session focusing on the use of IoT and sensors for data spac
- es: plans and coming developments
-LOCATION:Room 259
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:European Open Science Cloud
-DTSTART;TZID=Europe/Berlin:20230626T160000
-DTEND;TZID=Europe/Berlin:20230626T173000
-DESCRIPTION:The European Open Science Cloud (EOSC) is a European Commissio
- n initiative aiming at developing an infrastructure providing its users wi
- th services promoting open science practices.
-LOCATION:Ratsplenarsaal
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Opening Ceremony
-DTSTART;TZID=Europe/Berlin:20230626T094500
+DTSTART;TZID=Europe/Berlin:20230626T094000
 DTEND;TZID=Europe/Berlin:20230626T103000
 DESCRIPTION:Welcome words by the organising institutions
 LOCATION:Sitzungssaal
@@ -71,12 +52,6 @@ DTEND;TZID=Europe/Berlin:20230626T123000
 DESCRIPTION:Overviews and insights into ongoing initiatives and projects r
  elated to the Green Deal data spaces\n\n
 LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Data Spaces: High Value Datasets\n
-DTSTART;TZID=Europe/Berlin:20230626T160000
-DTEND;TZID=Europe/Berlin:20230626T173000
-LOCATION:Room 260
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Keynotes: \nGreen Deal and Data Space 
@@ -96,6 +71,47 @@ DESCRIPTION:GeoE3 is a project co-financed by the Connecting Europe Facili
  ty of the European Union that will provide the vital connection between ex
  isting and emerging National\, Regional and Cross-Border digital services.
 LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Panel Discussion\nSmart Services for Green Deal
+DTSTART;TZID=Europe/Berlin:20230626T164500
+DTEND;TZID=Europe/Berlin:20230626T173000
+DESCRIPTION:The panel will discuss the options\, challenges and limits of 
+ digital applications to move toward a sustainable Europe. 
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Spaces: IoT and Sensors
+DTSTART;TZID=Europe/Berlin:20230626T160000
+DTEND;TZID=Europe/Berlin:20230626T173000
+DESCRIPTION:A session focusing on the use of IoT and sensors for data spac
+ es: plans and coming developments
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Spaces: High Value Datasets\n
+DTSTART;TZID=Europe/Berlin:20230626T160000
+DTEND;TZID=Europe/Berlin:20230626T173000
+DESCRIPTION:This workshop\, organized by the GREAT project\, aims to bring
+  experts\, stakeholders\, and researchers together to actively participate
+  in shaping an expandable core set of High Priority Datasets to drive the 
+ initial implementation phase of the Green Deal Data Space. Through interac
+ tive presentations and discussions\, the participants will have the opport
+ unity to contribute their valuable insights and expertise to shaping the f
+ uture of the data ecosystem\, ensuring that it aligns with the objectives 
+ of the European Green Deal and promotes sustainable development.\n\nVirtua
+ l Room: https://www4.gotomeeting.com/join/791969853
+LOCATION:Room 259
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:European Open Science Cloud
+DTSTART;TZID=Europe/Berlin:20230626T160000
+DTEND;TZID=Europe/Berlin:20230626T173000
+DESCRIPTION:The European Open Science Cloud (EOSC) is a European Commissio
+ n initiative aiming at developing an infrastructure providing its users wi
+ th services promoting open science practices.\n\nVirtual Room: https://www
+ 4.gotomeeting.com/join/581922365
+LOCATION:Room 260
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ScaDS.AI Training Data Visualization
@@ -244,13 +260,11 @@ DTEND;TZID=Europe/Berlin:20230627T094000
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Urban Planning: Data interoperability in Construction and built en
- vironment
-DTSTART;TZID=Europe/Berlin:20230627T105000
-DTEND;TZID=Europe/Berlin:20230627T121000
-DESCRIPTION:Insights and discussion on software architectures and platform
- s orchestrating the digital building permit data workflows and components
-LOCATION:Room 259
+SUMMARY:Big Data\, Digital Twins and Artificial Intelligence in Energy Gen
+ eration - A Contribution to Sustainable Urban Development?"
+DTSTART;TZID=Europe/Berlin:20230627T094000
+DTEND;TZID=Europe/Berlin:20230627T102000
+LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Data Spaces: Climate \n
@@ -265,8 +279,9 @@ SUMMARY:Data Spaces: Agriculture
 DTSTART;TZID=Europe/Berlin:20230627T105000
 DTEND;TZID=Europe/Berlin:20230627T121000
 DESCRIPTION:Concepts\, Blueprints and technical solutions for data managem
- ent with agriculture related topics
-LOCATION:Room 260
+ ent with agriculture related topics\n\nVirtual room: https://www4.gotomeet
+ ing.com/join/881388485 
+LOCATION:Room 263
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Hackathon Winners Award Ceremony
@@ -282,8 +297,9 @@ SUMMARY:Urban Planning: Digital Building Permits Platforms
 DTSTART;TZID=Europe/Berlin:20230627T131000
 DTEND;TZID=Europe/Berlin:20230627T144000
 DESCRIPTION:Overview and points of views on Digital Building Permit releva
- nt initiatives
-LOCATION:Room 259
+ nt initiatives\n\nVirtual Room: https://www4.gotomeeting.com/join/12717342
+ 9
+LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Urban Planning: Diverse activities towards Digital Building Permit
@@ -291,36 +307,43 @@ SUMMARY:Urban Planning: Diverse activities towards Digital Building Permit
 DTSTART;TZID=Europe/Berlin:20230627T151000
 DTEND;TZID=Europe/Berlin:20230627T163000
 DESCRIPTION:Initiatives\, examples and plans towards integrated models (GI
- S - BIM) applications for construction and built environement use cases.
+ S - BIM) applications for construction and built environement use cases.\n
+ \nVirtual Room: https://www4.gotomeeting.com/join/167583173 
 LOCATION:Room 259
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Data Spaces: Ocean & Marine
-DTSTART;TZID=Europe/Berlin:20230627T151000
-DTEND;TZID=Europe/Berlin:20230627T163000
-DESCRIPTION:Concepts\, Blueprints and technical solutions for data managem
- ent with ocean and marine related topics
-LOCATION:Room 260
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Data Spaces: Biodiversity
 DTSTART;TZID=Europe/Berlin:20230627T170000
 DTEND;TZID=Europe/Berlin:20230627T182000
 DESCRIPTION:Concepts\, Blueprints and technical solutions for data managem
- ent with biodiversity related topics
+ ent with biodiversity related topics\n\nVirtual room: https://www4.gotomee
+ ting.com/join/277405765\n
 LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Training: Location Innovation Academy
 DTSTART;TZID=Europe/Berlin:20230627T170000
 DTEND;TZID=Europe/Berlin:20230627T182000
-DESCRIPTION:Location Innovation Academy offers 3 courses and 12 e-learning
-  modules to help government agencies\, particularly national mapping organ
- izations\, make the most of their existing geospatial platforms and create
-  a cloud-based system of generic services that can connect various dataset
- s and services with geospatial data. The session is a training on how to u
- se this online academy
+DESCRIPTION:Do you want to learn new technologies helping to achieve a sus
+ tainable and resilient future? Become a master of location data and servic
+ e management & integration with us! Location Innovation Academy provides f
+ ree courses for beginners and professionals who want to learn about modern
+  data management\, service management and integration of services and data
+  with the help of OGC API’s. In this session you will learn about our co
+ urses and explore effective ways to learn within the Academy. We discuss a
+ nd share ideas\, and as a result you will have a study plan for yourself. 
+ Take a computer with you for this training.
 LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Urban Planning: Data interoperability in Construction and built en
+ vironment
+DTSTART;TZID=Europe/Berlin:20230627T105000
+DTEND;TZID=Europe/Berlin:20230627T121000
+DESCRIPTION:Insights and discussion on software architectures and platform
+ s orchestrating the digital building permit data workflows and components\
+ n\nVirtual room https://www4.gotomeeting.com/join/208135421 
+LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Building Knowledge Graphs with eccenca Corporate Memory
@@ -330,14 +353,7 @@ DESCRIPTION:Within the session\, all participants will use the brand new e
  ccenca.my service to create their own eccenca Corporate Memory instance\, 
  learn how to build and visualize Knowledge Graphs as well as get further t
  raining material for self-learning on the topic.
-LOCATION:Room 260
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Break
-DTSTART;TZID=Europe/Berlin:20230628T094500
-DTEND;TZID=Europe/Berlin:20230628T101500
-DESCRIPTION:Posters and Stands
-LOCATION:Wandelhalle
+LOCATION:Room 263
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Coffee break
@@ -358,18 +374,6 @@ SUMMARY:Break
 DTSTART;TZID=Europe/Berlin:20230628T120000
 DTEND;TZID=Europe/Berlin:20230628T130000
 DESCRIPTION:Posters and Stands
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Break
-DTSTART;TZID=Europe/Berlin:20230628T120000
-DTEND;TZID=Europe/Berlin:20230628T130000
-DESCRIPTION:Where does semantic interoperability happen?\n\nSystems of sys
- tems context\n\nAspects of interoperability\n\nDifferent types of resource
-  doing different jobs\n\nThe "Interoperability Value Pyramid"\n\nSemantic 
- Grounding: identifiers and registers\n\nFAIR in action - factoring semanti
- cs into the economics of re-use\n\nCase study: vocabularies for Essential 
- Variables
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
@@ -380,18 +384,6 @@ DESCRIPTION:Posters and Stands
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lunch break
-DTSTART;TZID=Europe/Berlin:20230628T120000
-DTEND;TZID=Europe/Berlin:20230628T130000
-DESCRIPTION:Where does semantic interoperability happen?\n\nSystems of sys
- tems context\n\nAspects of interoperability\n\nDifferent types of resource
-  doing different jobs\n\nThe "Interoperability Value Pyramid"\n\nSemantic 
- Grounding: identifiers and registers\n\nFAIR in action - factoring semanti
- cs into the economics of re-use\n\nCase study: vocabularies for Essential 
- Variables
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:PAUSE - LUNCH BREAK
 DTSTART;TZID=Europe/Berlin:20230628T120000
 DTEND;TZID=Europe/Berlin:20230628T130000
@@ -399,33 +391,10 @@ DESCRIPTION:Posters and Stands
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PAUSE - LUNCH BREAK
-DTSTART;TZID=Europe/Berlin:20230628T120000
-DTEND;TZID=Europe/Berlin:20230628T130000
-DESCRIPTION:Where does semantic interoperability happen?\n\nSystems of sys
- tems context\n\nAspects of interoperability\n\nDifferent types of resource
-  doing different jobs\n\nThe "Interoperability Value Pyramid"\n\nSemantic 
- Grounding: identifiers and registers\n\nFAIR in action - factoring semanti
- cs into the economics of re-use\n\nCase study: vocabularies for Essential 
- Variables
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Break
 DTSTART;TZID=Europe/Berlin:20230628T143000
 DTEND;TZID=Europe/Berlin:20230628T150000
 DESCRIPTION:Posters and Stands
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Break
-DTSTART;TZID=Europe/Berlin:20230628T143000
-DTEND;TZID=Europe/Berlin:20230628T150000
-DESCRIPTION:Sebastian Bomberg is an application engineer at MathWorks. He 
- supports customers who want to expand their technical applications and pro
- ducts with the help of AI. Thanks to his many years of experience in data 
- science projects\, he knows what makes a successful project and what is be
- tter left undone.
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
@@ -436,38 +405,10 @@ DESCRIPTION:Posters and Stands
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Coffee break
-DTSTART;TZID=Europe/Berlin:20230628T143000
-DTEND;TZID=Europe/Berlin:20230628T150000
-DESCRIPTION:Sebastian Bomberg is an application engineer at MathWorks. He 
- supports customers who want to expand their technical applications and pro
- ducts with the help of AI. Thanks to his many years of experience in data 
- science projects\, he knows what makes a successful project and what is be
- tter left undone.
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:PAUSE - COFFEE BREAK
 DTSTART;TZID=Europe/Berlin:20230628T143000
 DTEND;TZID=Europe/Berlin:20230628T150000
 DESCRIPTION:Posters and Stands
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:PAUSE - COFFEE BREAK
-DTSTART;TZID=Europe/Berlin:20230628T143000
-DTEND;TZID=Europe/Berlin:20230628T150000
-DESCRIPTION:Sebastian Bomberg is an application engineer at MathWorks. He 
- supports customers who want to expand their technical applications and pro
- ducts with the help of AI. Thanks to his many years of experience in data 
- science projects\, he knows what makes a successful project and what is be
- tter left undone.
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Break
-DTSTART;TZID=Europe/Berlin:20230628T163000
-DTEND;TZID=Europe/Berlin:20230628T170000
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
@@ -478,15 +419,15 @@ LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sebastians way to Data Science Manie
-DTSTART;TZID=Europe/Berlin:20230628T090000
-DTEND;TZID=Europe/Berlin:20230628T091500
+DTSTART;TZID=Europe/Berlin:20230628T093000
+DTEND;TZID=Europe/Berlin:20230628T094500
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Communication is key: Why Data Scientists Must Be Able to Do More 
  Than Code & Data
-DTSTART;TZID=Europe/Berlin:20230628T091500
-DTEND;TZID=Europe/Berlin:20230628T094500
+DTSTART;TZID=Europe/Berlin:20230628T094500
+DTEND;TZID=Europe/Berlin:20230628T101500
 DESCRIPTION:In our talk\, we describe the small and big pitfalls that can 
  occur in the life of a Data Scientist. Coming from the "safe space" of the
   university\, where you can tinker around in your own Git repository\, you
@@ -505,8 +446,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Modern organizational design for more brain activity and better de
  liveries
-DTSTART;TZID=Europe/Berlin:20230628T101500
-DTEND;TZID=Europe/Berlin:20230628T111500
+DTSTART;TZID=Europe/Berlin:20230628T102000
+DTEND;TZID=Europe/Berlin:20230628T104500
 DESCRIPTION:In my presentation\, I would like to share a few of my insight
  s that have helped me understand the demotivating factors. And offer an ou
  tlook on possible solutions. Because there is another way!
@@ -514,7 +455,7 @@ LOCATION:Festsaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(Self) leadership in Data Science projects
-DTSTART;TZID=Europe/Berlin:20230628T111500
+DTSTART;TZID=Europe/Berlin:20230628T110000
 DTEND;TZID=Europe/Berlin:20230628T120000
 DESCRIPTION:Leadership today means first and foremost self-leadership. For
   this\, it is important to understand one's own (emergency) patterns and b
@@ -525,21 +466,9 @@ DESCRIPTION:Leadership today means first and foremost self-leadership. For
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Reduce digital stress - work healthy & productive
-DTSTART;TZID=Europe/Berlin:20230628T130000
-DTEND;TZID=Europe/Berlin:20230628T134500
-DESCRIPTION:The joy of working is dwindling more and more: projects runnin
- g in parallel\, short deadlines\, unregulated communication and permanent 
- interruptions cause the stress level to rise more and more. Digitalization
-  creates many challenges in everyday work that need to be overcome. In thi
- s presentation\, we will therefore take a look at what productive and heal
- thy digital work can look like.
-LOCATION:Festsaal 
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Tech Lead — Leadership without management?
-DTSTART;TZID=Europe/Berlin:20230628T134500
-DTEND;TZID=Europe/Berlin:20230628T143000
+DTSTART;TZID=Europe/Berlin:20230628T130000
+DTEND;TZID=Europe/Berlin:20230628T140000
 DESCRIPTION:We want to shed light on the different types of leadership in 
  tech. In addition to traditional management\, there are other ways of assu
  ming responsibility and leadership. We will show what these are\, how they
@@ -550,20 +479,26 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:About the not-so-technical challenges of data science projects in 
  industry and technology
+DTSTART;TZID=Europe/Berlin:20230628T140000
+DTEND;TZID=Europe/Berlin:20230628T143000
+LOCATION:Festsaal 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reduce digital stress - work healthy & productive
 DTSTART;TZID=Europe/Berlin:20230628T150000
-DTEND;TZID=Europe/Berlin:20230628T160000
+DTEND;TZID=Europe/Berlin:20230628T153000
+DESCRIPTION:The joy of working is dwindling more and more: projects runnin
+ g in parallel\, short deadlines\, unregulated communication and permanent 
+ interruptions cause the stress level to rise more and more. Digitalization
+  creates many challenges in everyday work that need to be overcome. In thi
+ s presentation\, we will therefore take a look at what productive and heal
+ thy digital work can look like.
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Our journey to Data Science Mania
-DTSTART;TZID=Europe/Berlin:20230628T160000
-DTEND;TZID=Europe/Berlin:20230628T163000
-LOCATION:Festsaal 
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Panel discussion with all speakers
-DTSTART;TZID=Europe/Berlin:20230628T170000
-DTEND;TZID=Europe/Berlin:20230628T180000
+DTSTART;TZID=Europe/Berlin:20230628T154500
+DTEND;TZID=Europe/Berlin:20230628T160000
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
@@ -576,19 +511,21 @@ DESCRIPTION:Where does semantic interoperability happen?\n\nSystems of sys
   Pyramid\n\nSemantic Grounding of identifiers in “registers”\n\nThe Bo
  w-tie view on scalability\n\nFAIR in action - the economics of re-use \n\n
  Factoring cost of evaluation\n\nHigh Value Datasets and  vocabularies for 
- Essential Variables' \n
-LOCATION:Room 260
+ Essential Variables' \n\nVirtual Room: https://www4.gotomeeting.com/join/5
+ 70236941
+LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Workshop Semantics: Example - OGC API Building Blocks
 DTSTART;TZID=Europe/Berlin:20230628T130000
 DTEND;TZID=Europe/Berlin:20230628T143000
 DESCRIPTION:The OGC API Building Blocks approach:\n\n* integrating semanti
- c annotations and schemas\n* supporting modular\, incremental "semantic up
- lift"\n* exploiting semantic annotations to validate examples\n* CI/CT/CD 
- framework (to be elaborated in final session)\n* exploiting semantic annot
- ations in live systems\n* implications for specifications and standards
-LOCATION:Room 260
+ c annotations and schemas\n\n* supporting modular\, incremental "semantic 
+ uplift"\n\n* exploiting semantic annotations to validate examples\n\n* CI/
+ CT/CD framework (to be elaborated in final session)\n\n* exploiting semant
+ ic annotations in live systems\n\n* implications for specifications and st
+ andards\n\nVirtal Room: https://www4.gotomeeting.com/join/540092877 \n \n
+LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Workshop Semantics: OGC (and community) semantic resources
@@ -597,8 +534,9 @@ DTEND;TZID=Europe/Berlin:20230628T163000
 DESCRIPTION:What are the types of information we need to manage:\n\nBasic 
  vocabularies\n\nOntologies (GeoSPARQL\, SOSA etc)\n\nMachine readable spec
  ifications \n\nOGC Reference Model\n\nProfiles catalog\n\nObservable Prope
- rties\n\nFeature Type Catalog\n\n
-LOCATION:Room 260
+ rties\n\nFeature Type Catalog\n\nVirtual room: https://www4.gotomeeting.co
+ m/join/318465741 
+LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Workshop Semantics: Developer perspective
@@ -612,17 +550,18 @@ DESCRIPTION:Hands-on session with some of the tools used and/or developed
  n\nWe will also give a tour of our developer tools and libraries available
   to the community\, such as the OGC Playground\, the ready-to-use GitHub r
  epository templates and the OGC Rainbow Docker containers.\n\nFinally\, th
- e topic of specification generation pipelines will be covered.
-LOCATION:Room 260
+ e topic of specification generation pipelines will be covered.\n\nVirtual 
+ room: https://www4.gotomeeting.com/join/432274445 
+LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:KMI Consortium Meeting
+SUMMARY:KMI Tranfer Meeting
 DTSTART;TZID=Europe/Berlin:20230628T101500
 DTEND;TZID=Europe/Berlin:20230628T120000
 LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Consortium meeting (not public)
+SUMMARY:KMI Workshop (not public)
 DTSTART;TZID=Europe/Berlin:20230628T130000
 DTEND;TZID=Europe/Berlin:20230628T143000
 LOCATION:Ratsplenarsaal
@@ -632,31 +571,48 @@ SUMMARY:Welcome
 DTSTART;TZID=Europe/Berlin:20230628T090000
 DTEND;TZID=Europe/Berlin:20230628T091500
 DESCRIPTION:We will give all participants a warm welcome as well as presen
- t an overview on the sessions of the day.
+ t an overview on the sessions of the day. Session Chair: Natanael Ardnt\, 
+ eccenca GmbH
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Session: Knowledge Graph Use Cases and Applications
+SUMMARY:Session: Ontologies\, Tools and Data Akquisition for Knowledge Gra
+ phs
 DTSTART;TZID=Europe/Berlin:20230628T101500
 DTEND;TZID=Europe/Berlin:20230628T111500
-DESCRIPTION:This session will highlight application and use cases with and
-  on top of Knowledge Graphs.
+DESCRIPTION:This session will present topics in the area of building\, mod
+ elling and visualizing Knowledge Graphs. Session Chair: Kirill Bulert\, In
+ stitut für Angewandte Informatik (InfAI)
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Session: Ontologies and Data Akquisition for Knowledge Graphs
+SUMMARY:Session: Knowledge Graphs Use Cases and Applications
 DTSTART;TZID=Europe/Berlin:20230628T130000
 DTEND;TZID=Europe/Berlin:20230628T143000
-DESCRIPTION:This session will present topics in the area of building and m
- odelling of Knowledge Graphs.
+DESCRIPTION:This session will highlight application and use cases with and
+  on top of Knowledge Graphs. Session Chair: Magnus Knuth\, eccenca GmbH
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Session: Knowledge Graphs and Artifical Intelligence
+SUMMARY:Session: Semantic Technologies and Artificial Intelligence
 DTSTART;TZID=Europe/Berlin:20230628T150000
 DTEND;TZID=Europe/Berlin:20230628T160000
-DESCRIPTION:This session will discuss Knowledge Graphs in the broader cont
- ext of Artificial Inteligence and Large Language Models such as ChatGPT.
+DESCRIPTION:This session will discuss Semantic Technologies in the broader
+  context of Artificial Intelligence and Large Language Models such as Chat
+ GPT. Session Chair: Natanael Ardnt\, eccenca GmbH
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GeoSPARQL Queries mit Apache Jena auf RDF Daten 
+DTSTART;TZID=Europe/Berlin:20230628T104500
+DTEND;TZID=Europe/Berlin:20230628T110000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RickView: Lightweight Standalone Knowledge Graph Browsing Powered 
+ by Rust
+DTSTART;TZID=Europe/Berlin:20230628T110000
+DTEND;TZID=Europe/Berlin:20230628T111500
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
@@ -664,7 +620,72 @@ SUMMARY:Minutes by Future Knowledge Experts (Students)
 DTSTART;TZID=Europe/Berlin:20230628T111500
 DTEND;TZID=Europe/Berlin:20230628T120000
 DESCRIPTION:Student from multiple universities will present their Semantic
-  Web projects in a fast and heroic minute madness.
+  Web projects in a fast and heroic minute madness. Session Chair: Thomas R
+ iechert\, HTWK
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Oops\, I forgot. Police intelligence teams dealing with situations
+  nobody thought about
+DTSTART;TZID=Europe/Berlin:20230628T130000
+DTEND;TZID=Europe/Berlin:20230628T131500
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Semantic Web für die Automation und Verbesserung der Energieeffiz
+ ienz von Gebäuden im Betrieb
+DTSTART;TZID=Europe/Berlin:20230628T131500
+DTEND;TZID=Europe/Berlin:20230628T133000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SCM: Inventory Mgt with Data Semantics
+DTSTART;TZID=Europe/Berlin:20230628T133000
+DTEND;TZID=Europe/Berlin:20230628T134500
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DBpedia Databus 2.1
+DTSTART;TZID=Europe/Berlin:20230628T134500
+DTEND;TZID=Europe/Berlin:20230628T140000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Streamlining product development from definition to documentation
+DTSTART;TZID=Europe/Berlin:20230628T140000
+DTEND;TZID=Europe/Berlin:20230628T141500
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exploring and Querying Huge Knowledge Graphs
+DTSTART;TZID=Europe/Berlin:20230628T141500
+DTEND;TZID=Europe/Berlin:20230628T143000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LLMs and Knowledge Graph Engineering: Exploring the possible Role 
+ of ChatGPT & Co in Knowledge Graph Engineering
+DTSTART;TZID=Europe/Berlin:20230628T150000
+DTEND;TZID=Europe/Berlin:20230628T151500
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Is classical NLP coming to an end right now?
+DTSTART;TZID=Europe/Berlin:20230628T151500
+DTEND;TZID=Europe/Berlin:20230628T153000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LinkedFactory: Storing and querying production data at scale
+DTSTART;TZID=Europe/Berlin:20230628T153000
+DTEND;TZID=Europe/Berlin:20230628T154500
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DINOBBIO: Automatic Extracting Biochemical Knowledge From Academic
+  Literature
+DTSTART;TZID=Europe/Berlin:20230628T154500
+DTEND;TZID=Europe/Berlin:20230628T160000
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
@@ -683,6 +704,20 @@ DTEND;TZID=Europe/Berlin:20230628T094500
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Reskriver: Template-based Modelling of recurrent Pattern in Knowle
+ dge Graphs
+DTSTART;TZID=Europe/Berlin:20230628T101500
+DTEND;TZID=Europe/Berlin:20230628T103000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:databri-x: Utilization of KGs for process and software modeling fo
+ r energy optimization in data analysis
+DTSTART;TZID=Europe/Berlin:20230628T103000
+DTEND;TZID=Europe/Berlin:20230628T104500
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ScaDS.AI Training in cooperation with the city of Leipzig
 DTSTART;TZID=Europe/Berlin:20230628T101500
 DTEND;TZID=Europe/Berlin:20230628T120000
@@ -694,7 +729,7 @@ DESCRIPTION:This training is tailored to the needs of the employees of the
  with Python will also be taught using practical examples (second part\, af
  ternoon). The registration is only available for employees of the city of 
  Leipzig.
-LOCATION:Room 259
+LOCATION:Room 377
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ScaDS.AI Training in cooperation with the city of Leipzig
@@ -708,7 +743,7 @@ DESCRIPTION:This training is tailored to the needs of the employees of the
  with Python will also be taught using practical examples (second part\, af
  ternoon). The registration is only available for employees of the city of 
  Leipzig.
-LOCATION:Room 259
+LOCATION:Room 377
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ScaDS.AI Training in cooperation with the city of Leipzig
@@ -722,7 +757,93 @@ DESCRIPTION:This training is tailored to the needs of the employees of the
  with Python will also be taught using practical examples (second part\, af
  ternoon). The registration is only available for employees of the city of 
  Leipzig.
-LOCATION:Room 259
+LOCATION:Room 377
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Welcome 
+DTSTART;TZID=Europe/Berlin:20230629T093000
+DTEND;TZID=Europe/Berlin:20230629T094500
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Digital transformation of organisations or processes through AI
+DTSTART;TZID=Europe/Berlin:20230629T110000
+DTEND;TZID=Europe/Berlin:20230629T123000
+DESCRIPTION:The contributions to the session will highlight opportunities 
+ for the digital transformation of organizations and processes through the 
+ use of AI. The possible applications are diverse and range from the optimi
+ zation of workflows and efficiency increases to the development of innovat
+ ive business models based on AI methods. Specific real-world examples will
+  be presented and discussed on how AI-based solutions can be used in diffe
+ rent industries.
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Opportunities of AI for society
+DTSTART;TZID=Europe/Berlin:20230629T133000
+DTEND;TZID=Europe/Berlin:20230629T150000
+DESCRIPTION:This session will highlight the positive impact and opportunit
+ ies of AI on society. The presented papers show how AI-based technologies 
+ can contribute to solving societal challenges\, e.g. in law enforcement. E
+ thical aspects will be discussed and questions about responsibility and tr
+ ansparency in dealing with AI will be raised. The session will provide spa
+ ce for a broad dialogue on the impact of AI on society and possible strate
+ gies to make the most of the benefits of AI.
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Classification of static poses based on key point detection for ap
+ plication of incriminated image files 
+DTSTART;TZID=Europe/Berlin:20230629T133000
+DTEND;TZID=Europe/Berlin:20230629T140000
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Human Centered Implementation Process of AI in SMEs – Conditions
+  for Success
+DTSTART;TZID=Europe/Berlin:20230629T140000
+DTEND;TZID=Europe/Berlin:20230629T143000
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jusbrasil - AI challenges for the legal domain
+DTSTART;TZID=Europe/Berlin:20230629T143000
+DTEND;TZID=Europe/Berlin:20230629T150000
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Presentation of the program slots
+DTSTART;TZID=Europe/Berlin:20230629T093000
+DTEND;TZID=Europe/Berlin:20230629T094500
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Shaping the future with artificial intelligence? On the role of AI
+  in resilience and sustainability.
+DTSTART;TZID=Europe/Berlin:20230629T094500
+DTEND;TZID=Europe/Berlin:20230629T103000
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Developing a human-centred AI-based system to assist sorting laund
+ ry 
+DTSTART;TZID=Europe/Berlin:20230629T110000
+DTEND;TZID=Europe/Berlin:20230629T113000
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI-Powered Knowledge and Expertise Mining in Healthcare from a Fie
+ ld Experiment
+DTSTART;TZID=Europe/Berlin:20230629T113000
+DTEND;TZID=Europe/Berlin:20230629T120000
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Iterative Development of a Process-Oriented Approach for the Selec
+ tion of Platform-Based Digital Services
+DTSTART;TZID=Europe/Berlin:20230629T120000
+DTEND;TZID=Europe/Berlin:20230629T123000
+LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Admission
@@ -731,9 +852,16 @@ DTEND;TZID=Europe/Berlin:20230629T090000
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Admission
+DTSTART;TZID=Europe/Berlin:20230629T090000
+DTEND;TZID=Europe/Berlin:20230629T093000
+LOCATION:Wandelhalle
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Coffee break
 DTSTART;TZID=Europe/Berlin:20230629T103000
 DTEND;TZID=Europe/Berlin:20230629T110000
+DESCRIPTION:Posters and Stands
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
@@ -752,24 +880,159 @@ BEGIN:VEVENT
 SUMMARY:Alexander Thamm Training
 DTSTART;TZID=Europe/Berlin:20230629T153000
 DTEND;TZID=Europe/Berlin:20230629T180000
+DESCRIPTION:In the training\, the creation of a synthetic dataset suitable
+  for the use case will be explained and presented. Using the already prepa
+ red images\, the participants will then implement and train Convolutional 
+ Neural Networks (CNNs) that recognize the extent of graffiti in relation t
+ o the image area. The learning goal is to develop a sense of the strengths
+  and weaknesses of neural networks in image analysis\, in addition to "han
+ ds-on" testing of CNNs including tuning of hyperparameters. This will be d
+ one within the classic data science life cycle of data pre-processing\, mo
+ del implementation\, model evaluation\, and error analysis. Prerequisite f
+ or participation is rudimentary Python knowledge - or experience with othe
+ r programming languages.
 LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ScaDS.AI Training on the theoretical foundations of AI/ML
 DTSTART;TZID=Europe/Berlin:20230629T090000
 DTEND;TZID=Europe/Berlin:20230629T103000
+DESCRIPTION:The training is aimed at those who want to take their first st
+ eps in Artificial Intelligence (AI) / Machine Learning (ML) and get to kno
+ w the corresponding application possibilities. During the training\, basic
+  principles of AI/ML as well as various methods of supervised and unsuperv
+ ised ML are taught\, as well as the procedure for training and evaluating 
+ ML models. Finally\, what has been learned will be applied to an example u
+ sing the Python programming language and corresponding libraries (includin
+ g Pandas\, Scikit-learn).\nNo prerequisites necessary.
 LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ScaDS.AI Training on the theoretical foundations of AI/ML
 DTSTART;TZID=Europe/Berlin:20230629T110000
 DTEND;TZID=Europe/Berlin:20230629T123000
+DESCRIPTION:The training is aimed at those who want to take their first st
+ eps in Artificial Intelligence (AI) / Machine Learning (ML) and get to kno
+ w the corresponding application possibilities. During the training\, basic
+  principles of AI/ML as well as various methods of supervised and unsuperv
+ ised ML are taught\, as well as the procedure for training and evaluating 
+ ML models. Finally\, what has been learned will be applied to an example u
+ sing the Python programming language and corresponding libraries (includin
+ g Pandas\, Scikit-learn).\nNo prerequisites necessary.
 LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Alexander Thamm Training
 DTSTART;TZID=Europe/Berlin:20230629T133000
 DTEND;TZID=Europe/Berlin:20230629T150000
+DESCRIPTION:In the training\, the creation of a synthetic dataset suitable
+  for the use case will be explained and presented. Using the already prepa
+ red images\, the participants will then implement and train Convolutional 
+ Neural Networks (CNNs) that recognize the extent of graffiti in relation t
+ o the image area. The learning goal is to develop a sense of the strengths
+  and weaknesses of neural networks in image analysis\, in addition to "han
+ ds-on" testing of CNNs including tuning of hyperparameters. This will be d
+ one within the classic data science life cycle of data pre-processing\, mo
+ del implementation\, model evaluation\, and error analysis. Prerequisite f
+ or participation is rudimentary Python knowledge - or experience with othe
+ r programming languages.
 LOCATION:Room 259
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Welcome
+DTSTART;TZID=Europe/Berlin:20230630T093000
+DTEND;TZID=Europe/Berlin:20230630T094500
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI supported knowledge management and learning
+DTSTART;TZID=Europe/Berlin:20230630T110000
+DTEND;TZID=Europe/Berlin:20230630T123000
+DESCRIPTION:This session is dedicated to the use of AI to support knowledg
+ e management and learning processes. The contributions present approaches 
+ to the use of various AI tools and techniques that can help to organize\, 
+ share and use knowledge efficiently. The session also addresses challenges
+  and potentials of AI-supported knowledge management and how this can cont
+ ribute to lifelong learning.
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Manufacturing and factories of the future
+DTSTART;TZID=Europe/Berlin:20230630T133000
+DTEND;TZID=Europe/Berlin:20230630T143000
+DESCRIPTION:This session is about the development and potentials of the ma
+ nufacturing industry in times of AI. The contributions highlight the produ
+ ction of the future and topics that shape the innovation process\, such as
+  Industry 4.0\, the Internet of Things (IoT) and robot-assisted automation
+ . Examples of the use of AI in production\, process optimization and quali
+ ty control are presented.
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Organizational mindshift for sustainable AI.\nFor an integrated su
+ stainability perspective across the entire ML lifecycle.
+DTSTART;TZID=Europe/Berlin:20230630T094500
+DTEND;TZID=Europe/Berlin:20230630T103000
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LLM-assisted Knowledge Graph Engineering: Experiments with ChatGPT
+  
+DTSTART;TZID=Europe/Berlin:20230630T110000
+DTEND;TZID=Europe/Berlin:20230630T113000
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:APOLLO - Building an AI-based digital travel companion app for eve
+ rybody's life-long learning journey 
+DTSTART;TZID=Europe/Berlin:20230630T113000
+DTEND;TZID=Europe/Berlin:20230630T120000
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Viability of Knowledge Management Practices for a successful digit
+ al transformation in small- and medium-sized enterprises
+DTSTART;TZID=Europe/Berlin:20230630T120000
+DTEND;TZID=Europe/Berlin:20230630T123000
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Identification of Machine Learning Algorithms to Share Tacit Exper
+ imental Knowledge in Manual Production 
+DTSTART;TZID=Europe/Berlin:20230630T133000
+DTEND;TZID=Europe/Berlin:20230630T140000
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:An Application of AI for Online Estimation of the Impact of Imperf
+ ections in Additive Manufactured Components
+DTSTART;TZID=Europe/Berlin:20230630T140000
+DTEND;TZID=Europe/Berlin:20230630T143000
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Admission
+DTSTART;TZID=Europe/Berlin:20230630T090000
+DTEND;TZID=Europe/Berlin:20230630T093000
+LOCATION:Wandelhalle
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Check-in
+DTSTART;TZID=Europe/Berlin:20230630T090000
+DTEND;TZID=Europe/Berlin:20230630T093000
+LOCATION:Wandelhalle
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee break
+DTSTART;TZID=Europe/Berlin:20230630T103000
+DTEND;TZID=Europe/Berlin:20230630T110000
+DESCRIPTION:Posters and Stands
+LOCATION:Wandelhalle
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch break
+DTSTART;TZID=Europe/Berlin:20230630T123000
+DTEND;TZID=Europe/Berlin:20230630T133000
+LOCATION:Wandelhalle
 END:VEVENT
 END:VCALENDAR

@@ -1,12 +1,5 @@
 BEGIN:VCALENDAR
 BEGIN:VEVENT
-SUMMARY:Break
-DTSTART;TZID=Europe/Berlin:20230628T094500
-DTEND;TZID=Europe/Berlin:20230628T101500
-DESCRIPTION:Posters and Stands
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Coffee break
 DTSTART;TZID=Europe/Berlin:20230628T094500
 DTEND;TZID=Europe/Berlin:20230628T101500
@@ -25,18 +18,6 @@ SUMMARY:Break
 DTSTART;TZID=Europe/Berlin:20230628T120000
 DTEND;TZID=Europe/Berlin:20230628T130000
 DESCRIPTION:Posters and Stands
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Break
-DTSTART;TZID=Europe/Berlin:20230628T120000
-DTEND;TZID=Europe/Berlin:20230628T130000
-DESCRIPTION:Where does semantic interoperability happen?\n\nSystems of sys
- tems context\n\nAspects of interoperability\n\nDifferent types of resource
-  doing different jobs\n\nThe "Interoperability Value Pyramid"\n\nSemantic 
- Grounding: identifiers and registers\n\nFAIR in action - factoring semanti
- cs into the economics of re-use\n\nCase study: vocabularies for Essential 
- Variables
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
@@ -47,18 +28,6 @@ DESCRIPTION:Posters and Stands
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lunch break
-DTSTART;TZID=Europe/Berlin:20230628T120000
-DTEND;TZID=Europe/Berlin:20230628T130000
-DESCRIPTION:Where does semantic interoperability happen?\n\nSystems of sys
- tems context\n\nAspects of interoperability\n\nDifferent types of resource
-  doing different jobs\n\nThe "Interoperability Value Pyramid"\n\nSemantic 
- Grounding: identifiers and registers\n\nFAIR in action - factoring semanti
- cs into the economics of re-use\n\nCase study: vocabularies for Essential 
- Variables
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:PAUSE - LUNCH BREAK
 DTSTART;TZID=Europe/Berlin:20230628T120000
 DTEND;TZID=Europe/Berlin:20230628T130000
@@ -66,33 +35,10 @@ DESCRIPTION:Posters and Stands
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PAUSE - LUNCH BREAK
-DTSTART;TZID=Europe/Berlin:20230628T120000
-DTEND;TZID=Europe/Berlin:20230628T130000
-DESCRIPTION:Where does semantic interoperability happen?\n\nSystems of sys
- tems context\n\nAspects of interoperability\n\nDifferent types of resource
-  doing different jobs\n\nThe "Interoperability Value Pyramid"\n\nSemantic 
- Grounding: identifiers and registers\n\nFAIR in action - factoring semanti
- cs into the economics of re-use\n\nCase study: vocabularies for Essential 
- Variables
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Break
 DTSTART;TZID=Europe/Berlin:20230628T143000
 DTEND;TZID=Europe/Berlin:20230628T150000
 DESCRIPTION:Posters and Stands
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Break
-DTSTART;TZID=Europe/Berlin:20230628T143000
-DTEND;TZID=Europe/Berlin:20230628T150000
-DESCRIPTION:Sebastian Bomberg is an application engineer at MathWorks. He 
- supports customers who want to expand their technical applications and pro
- ducts with the help of AI. Thanks to his many years of experience in data 
- science projects\, he knows what makes a successful project and what is be
- tter left undone.
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
@@ -103,38 +49,10 @@ DESCRIPTION:Posters and Stands
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Coffee break
-DTSTART;TZID=Europe/Berlin:20230628T143000
-DTEND;TZID=Europe/Berlin:20230628T150000
-DESCRIPTION:Sebastian Bomberg is an application engineer at MathWorks. He 
- supports customers who want to expand their technical applications and pro
- ducts with the help of AI. Thanks to his many years of experience in data 
- science projects\, he knows what makes a successful project and what is be
- tter left undone.
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:PAUSE - COFFEE BREAK
 DTSTART;TZID=Europe/Berlin:20230628T143000
 DTEND;TZID=Europe/Berlin:20230628T150000
 DESCRIPTION:Posters and Stands
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:PAUSE - COFFEE BREAK
-DTSTART;TZID=Europe/Berlin:20230628T143000
-DTEND;TZID=Europe/Berlin:20230628T150000
-DESCRIPTION:Sebastian Bomberg is an application engineer at MathWorks. He 
- supports customers who want to expand their technical applications and pro
- ducts with the help of AI. Thanks to his many years of experience in data 
- science projects\, he knows what makes a successful project and what is be
- tter left undone.
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Break
-DTSTART;TZID=Europe/Berlin:20230628T163000
-DTEND;TZID=Europe/Berlin:20230628T170000
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
@@ -145,15 +63,15 @@ LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sebastians way to Data Science Manie
-DTSTART;TZID=Europe/Berlin:20230628T090000
-DTEND;TZID=Europe/Berlin:20230628T091500
+DTSTART;TZID=Europe/Berlin:20230628T093000
+DTEND;TZID=Europe/Berlin:20230628T094500
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Communication is key: Why Data Scientists Must Be Able to Do More 
  Than Code & Data
-DTSTART;TZID=Europe/Berlin:20230628T091500
-DTEND;TZID=Europe/Berlin:20230628T094500
+DTSTART;TZID=Europe/Berlin:20230628T094500
+DTEND;TZID=Europe/Berlin:20230628T101500
 DESCRIPTION:In our talk\, we describe the small and big pitfalls that can 
  occur in the life of a Data Scientist. Coming from the "safe space" of the
   university\, where you can tinker around in your own Git repository\, you
@@ -172,8 +90,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Modern organizational design for more brain activity and better de
  liveries
-DTSTART;TZID=Europe/Berlin:20230628T101500
-DTEND;TZID=Europe/Berlin:20230628T111500
+DTSTART;TZID=Europe/Berlin:20230628T102000
+DTEND;TZID=Europe/Berlin:20230628T104500
 DESCRIPTION:In my presentation\, I would like to share a few of my insight
  s that have helped me understand the demotivating factors. And offer an ou
  tlook on possible solutions. Because there is another way!
@@ -181,7 +99,7 @@ LOCATION:Festsaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(Self) leadership in Data Science projects
-DTSTART;TZID=Europe/Berlin:20230628T111500
+DTSTART;TZID=Europe/Berlin:20230628T110000
 DTEND;TZID=Europe/Berlin:20230628T120000
 DESCRIPTION:Leadership today means first and foremost self-leadership. For
   this\, it is important to understand one's own (emergency) patterns and b
@@ -192,21 +110,9 @@ DESCRIPTION:Leadership today means first and foremost self-leadership. For
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Reduce digital stress - work healthy & productive
-DTSTART;TZID=Europe/Berlin:20230628T130000
-DTEND;TZID=Europe/Berlin:20230628T134500
-DESCRIPTION:The joy of working is dwindling more and more: projects runnin
- g in parallel\, short deadlines\, unregulated communication and permanent 
- interruptions cause the stress level to rise more and more. Digitalization
-  creates many challenges in everyday work that need to be overcome. In thi
- s presentation\, we will therefore take a look at what productive and heal
- thy digital work can look like.
-LOCATION:Festsaal 
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Tech Lead — Leadership without management?
-DTSTART;TZID=Europe/Berlin:20230628T134500
-DTEND;TZID=Europe/Berlin:20230628T143000
+DTSTART;TZID=Europe/Berlin:20230628T130000
+DTEND;TZID=Europe/Berlin:20230628T140000
 DESCRIPTION:We want to shed light on the different types of leadership in 
  tech. In addition to traditional management\, there are other ways of assu
  ming responsibility and leadership. We will show what these are\, how they
@@ -217,20 +123,26 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:About the not-so-technical challenges of data science projects in 
  industry and technology
+DTSTART;TZID=Europe/Berlin:20230628T140000
+DTEND;TZID=Europe/Berlin:20230628T143000
+LOCATION:Festsaal 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reduce digital stress - work healthy & productive
 DTSTART;TZID=Europe/Berlin:20230628T150000
-DTEND;TZID=Europe/Berlin:20230628T160000
+DTEND;TZID=Europe/Berlin:20230628T153000
+DESCRIPTION:The joy of working is dwindling more and more: projects runnin
+ g in parallel\, short deadlines\, unregulated communication and permanent 
+ interruptions cause the stress level to rise more and more. Digitalization
+  creates many challenges in everyday work that need to be overcome. In thi
+ s presentation\, we will therefore take a look at what productive and heal
+ thy digital work can look like.
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Our journey to Data Science Mania
-DTSTART;TZID=Europe/Berlin:20230628T160000
-DTEND;TZID=Europe/Berlin:20230628T163000
-LOCATION:Festsaal 
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Panel discussion with all speakers
-DTSTART;TZID=Europe/Berlin:20230628T170000
-DTEND;TZID=Europe/Berlin:20230628T180000
+DTSTART;TZID=Europe/Berlin:20230628T154500
+DTEND;TZID=Europe/Berlin:20230628T160000
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
@@ -243,19 +155,21 @@ DESCRIPTION:Where does semantic interoperability happen?\n\nSystems of sys
   Pyramid\n\nSemantic Grounding of identifiers in “registers”\n\nThe Bo
  w-tie view on scalability\n\nFAIR in action - the economics of re-use \n\n
  Factoring cost of evaluation\n\nHigh Value Datasets and  vocabularies for 
- Essential Variables' \n
-LOCATION:Room 260
+ Essential Variables' \n\nVirtual Room: https://www4.gotomeeting.com/join/5
+ 70236941
+LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Workshop Semantics: Example - OGC API Building Blocks
 DTSTART;TZID=Europe/Berlin:20230628T130000
 DTEND;TZID=Europe/Berlin:20230628T143000
 DESCRIPTION:The OGC API Building Blocks approach:\n\n* integrating semanti
- c annotations and schemas\n* supporting modular\, incremental "semantic up
- lift"\n* exploiting semantic annotations to validate examples\n* CI/CT/CD 
- framework (to be elaborated in final session)\n* exploiting semantic annot
- ations in live systems\n* implications for specifications and standards
-LOCATION:Room 260
+ c annotations and schemas\n\n* supporting modular\, incremental "semantic 
+ uplift"\n\n* exploiting semantic annotations to validate examples\n\n* CI/
+ CT/CD framework (to be elaborated in final session)\n\n* exploiting semant
+ ic annotations in live systems\n\n* implications for specifications and st
+ andards\n\nVirtal Room: https://www4.gotomeeting.com/join/540092877 \n \n
+LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Workshop Semantics: OGC (and community) semantic resources
@@ -264,8 +178,9 @@ DTEND;TZID=Europe/Berlin:20230628T163000
 DESCRIPTION:What are the types of information we need to manage:\n\nBasic 
  vocabularies\n\nOntologies (GeoSPARQL\, SOSA etc)\n\nMachine readable spec
  ifications \n\nOGC Reference Model\n\nProfiles catalog\n\nObservable Prope
- rties\n\nFeature Type Catalog\n\n
-LOCATION:Room 260
+ rties\n\nFeature Type Catalog\n\nVirtual room: https://www4.gotomeeting.co
+ m/join/318465741 
+LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Workshop Semantics: Developer perspective
@@ -279,17 +194,18 @@ DESCRIPTION:Hands-on session with some of the tools used and/or developed
  n\nWe will also give a tour of our developer tools and libraries available
   to the community\, such as the OGC Playground\, the ready-to-use GitHub r
  epository templates and the OGC Rainbow Docker containers.\n\nFinally\, th
- e topic of specification generation pipelines will be covered.
-LOCATION:Room 260
+ e topic of specification generation pipelines will be covered.\n\nVirtual 
+ room: https://www4.gotomeeting.com/join/432274445 
+LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:KMI Consortium Meeting
+SUMMARY:KMI Tranfer Meeting
 DTSTART;TZID=Europe/Berlin:20230628T101500
 DTEND;TZID=Europe/Berlin:20230628T120000
 LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Consortium meeting (not public)
+SUMMARY:KMI Workshop (not public)
 DTSTART;TZID=Europe/Berlin:20230628T130000
 DTEND;TZID=Europe/Berlin:20230628T143000
 LOCATION:Ratsplenarsaal
@@ -299,31 +215,48 @@ SUMMARY:Welcome
 DTSTART;TZID=Europe/Berlin:20230628T090000
 DTEND;TZID=Europe/Berlin:20230628T091500
 DESCRIPTION:We will give all participants a warm welcome as well as presen
- t an overview on the sessions of the day.
+ t an overview on the sessions of the day. Session Chair: Natanael Ardnt\, 
+ eccenca GmbH
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Session: Knowledge Graph Use Cases and Applications
+SUMMARY:Session: Ontologies\, Tools and Data Akquisition for Knowledge Gra
+ phs
 DTSTART;TZID=Europe/Berlin:20230628T101500
 DTEND;TZID=Europe/Berlin:20230628T111500
-DESCRIPTION:This session will highlight application and use cases with and
-  on top of Knowledge Graphs.
+DESCRIPTION:This session will present topics in the area of building\, mod
+ elling and visualizing Knowledge Graphs. Session Chair: Kirill Bulert\, In
+ stitut für Angewandte Informatik (InfAI)
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Session: Ontologies and Data Akquisition for Knowledge Graphs
+SUMMARY:Session: Knowledge Graphs Use Cases and Applications
 DTSTART;TZID=Europe/Berlin:20230628T130000
 DTEND;TZID=Europe/Berlin:20230628T143000
-DESCRIPTION:This session will present topics in the area of building and m
- odelling of Knowledge Graphs.
+DESCRIPTION:This session will highlight application and use cases with and
+  on top of Knowledge Graphs. Session Chair: Magnus Knuth\, eccenca GmbH
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Session: Knowledge Graphs and Artifical Intelligence
+SUMMARY:Session: Semantic Technologies and Artificial Intelligence
 DTSTART;TZID=Europe/Berlin:20230628T150000
 DTEND;TZID=Europe/Berlin:20230628T160000
-DESCRIPTION:This session will discuss Knowledge Graphs in the broader cont
- ext of Artificial Inteligence and Large Language Models such as ChatGPT.
+DESCRIPTION:This session will discuss Semantic Technologies in the broader
+  context of Artificial Intelligence and Large Language Models such as Chat
+ GPT. Session Chair: Natanael Ardnt\, eccenca GmbH
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GeoSPARQL Queries mit Apache Jena auf RDF Daten 
+DTSTART;TZID=Europe/Berlin:20230628T104500
+DTEND;TZID=Europe/Berlin:20230628T110000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RickView: Lightweight Standalone Knowledge Graph Browsing Powered 
+ by Rust
+DTSTART;TZID=Europe/Berlin:20230628T110000
+DTEND;TZID=Europe/Berlin:20230628T111500
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
@@ -331,7 +264,72 @@ SUMMARY:Minutes by Future Knowledge Experts (Students)
 DTSTART;TZID=Europe/Berlin:20230628T111500
 DTEND;TZID=Europe/Berlin:20230628T120000
 DESCRIPTION:Student from multiple universities will present their Semantic
-  Web projects in a fast and heroic minute madness.
+  Web projects in a fast and heroic minute madness. Session Chair: Thomas R
+ iechert\, HTWK
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Oops\, I forgot. Police intelligence teams dealing with situations
+  nobody thought about
+DTSTART;TZID=Europe/Berlin:20230628T130000
+DTEND;TZID=Europe/Berlin:20230628T131500
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Semantic Web für die Automation und Verbesserung der Energieeffiz
+ ienz von Gebäuden im Betrieb
+DTSTART;TZID=Europe/Berlin:20230628T131500
+DTEND;TZID=Europe/Berlin:20230628T133000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SCM: Inventory Mgt with Data Semantics
+DTSTART;TZID=Europe/Berlin:20230628T133000
+DTEND;TZID=Europe/Berlin:20230628T134500
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DBpedia Databus 2.1
+DTSTART;TZID=Europe/Berlin:20230628T134500
+DTEND;TZID=Europe/Berlin:20230628T140000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Streamlining product development from definition to documentation
+DTSTART;TZID=Europe/Berlin:20230628T140000
+DTEND;TZID=Europe/Berlin:20230628T141500
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exploring and Querying Huge Knowledge Graphs
+DTSTART;TZID=Europe/Berlin:20230628T141500
+DTEND;TZID=Europe/Berlin:20230628T143000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LLMs and Knowledge Graph Engineering: Exploring the possible Role 
+ of ChatGPT & Co in Knowledge Graph Engineering
+DTSTART;TZID=Europe/Berlin:20230628T150000
+DTEND;TZID=Europe/Berlin:20230628T151500
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Is classical NLP coming to an end right now?
+DTSTART;TZID=Europe/Berlin:20230628T151500
+DTEND;TZID=Europe/Berlin:20230628T153000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LinkedFactory: Storing and querying production data at scale
+DTSTART;TZID=Europe/Berlin:20230628T153000
+DTEND;TZID=Europe/Berlin:20230628T154500
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DINOBBIO: Automatic Extracting Biochemical Knowledge From Academic
+  Literature
+DTSTART;TZID=Europe/Berlin:20230628T154500
+DTEND;TZID=Europe/Berlin:20230628T160000
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
@@ -350,6 +348,20 @@ DTEND;TZID=Europe/Berlin:20230628T094500
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Reskriver: Template-based Modelling of recurrent Pattern in Knowle
+ dge Graphs
+DTSTART;TZID=Europe/Berlin:20230628T101500
+DTEND;TZID=Europe/Berlin:20230628T103000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:databri-x: Utilization of KGs for process and software modeling fo
+ r energy optimization in data analysis
+DTSTART;TZID=Europe/Berlin:20230628T103000
+DTEND;TZID=Europe/Berlin:20230628T104500
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ScaDS.AI Training in cooperation with the city of Leipzig
 DTSTART;TZID=Europe/Berlin:20230628T101500
 DTEND;TZID=Europe/Berlin:20230628T120000
@@ -361,7 +373,7 @@ DESCRIPTION:This training is tailored to the needs of the employees of the
  with Python will also be taught using practical examples (second part\, af
  ternoon). The registration is only available for employees of the city of 
  Leipzig.
-LOCATION:Room 259
+LOCATION:Room 377
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ScaDS.AI Training in cooperation with the city of Leipzig
@@ -375,7 +387,7 @@ DESCRIPTION:This training is tailored to the needs of the employees of the
  with Python will also be taught using practical examples (second part\, af
  ternoon). The registration is only available for employees of the city of 
  Leipzig.
-LOCATION:Room 259
+LOCATION:Room 377
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ScaDS.AI Training in cooperation with the city of Leipzig
@@ -389,6 +401,6 @@ DESCRIPTION:This training is tailored to the needs of the employees of the
  with Python will also be taught using practical examples (second part\, af
  ternoon). The registration is only available for employees of the city of 
  Leipzig.
-LOCATION:Room 259
+LOCATION:Room 377
 END:VEVENT
 END:VCALENDAR

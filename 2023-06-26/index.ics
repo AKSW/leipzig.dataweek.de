@@ -2,6 +2,12 @@ BEGIN:VCALENDAR
 BEGIN:VEVENT
 SUMMARY:Registration
 DTSTART;TZID=Europe/Berlin:20230626T090000
+DTEND;TZID=Europe/Berlin:20230626T094000
+LOCATION:Wandelhalle
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Registration
+DTSTART;TZID=Europe/Berlin:20230626T090000
 DTEND;TZID=Europe/Berlin:20230626T094500
 LOCATION:Wandelhalle
 END:VEVENT
@@ -33,33 +39,8 @@ DTEND;TZID=Europe/Berlin:20230626T183000
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Panel Discussion\nSmart Services for Green Deal
-DTSTART;TZID=Europe/Berlin:20230626T164500
-DTEND;TZID=Europe/Berlin:20230626T173000
-DESCRIPTION:The panel will discuss the options\, challenges and limits of 
- digital applications to move toward a sustainable Europe. 
-LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Data Spaces: IoT and Sensors
-DTSTART;TZID=Europe/Berlin:20230626T160000
-DTEND;TZID=Europe/Berlin:20230626T173000
-DESCRIPTION:A session focusing on the use of IoT and sensors for data spac
- es: plans and coming developments
-LOCATION:Room 259
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:European Open Science Cloud
-DTSTART;TZID=Europe/Berlin:20230626T160000
-DTEND;TZID=Europe/Berlin:20230626T173000
-DESCRIPTION:The European Open Science Cloud (EOSC) is a European Commissio
- n initiative aiming at developing an infrastructure providing its users wi
- th services promoting open science practices.
-LOCATION:Ratsplenarsaal
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Opening Ceremony
-DTSTART;TZID=Europe/Berlin:20230626T094500
+DTSTART;TZID=Europe/Berlin:20230626T094000
 DTEND;TZID=Europe/Berlin:20230626T103000
 DESCRIPTION:Welcome words by the organising institutions
 LOCATION:Sitzungssaal
@@ -71,12 +52,6 @@ DTEND;TZID=Europe/Berlin:20230626T123000
 DESCRIPTION:Overviews and insights into ongoing initiatives and projects r
  elated to the Green Deal data spaces\n\n
 LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Data Spaces: High Value Datasets\n
-DTSTART;TZID=Europe/Berlin:20230626T160000
-DTEND;TZID=Europe/Berlin:20230626T173000
-LOCATION:Room 260
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Keynotes: \nGreen Deal and Data Space 
@@ -96,6 +71,47 @@ DESCRIPTION:GeoE3 is a project co-financed by the Connecting Europe Facili
  ty of the European Union that will provide the vital connection between ex
  isting and emerging National\, Regional and Cross-Border digital services.
 LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Panel Discussion\nSmart Services for Green Deal
+DTSTART;TZID=Europe/Berlin:20230626T164500
+DTEND;TZID=Europe/Berlin:20230626T173000
+DESCRIPTION:The panel will discuss the options\, challenges and limits of 
+ digital applications to move toward a sustainable Europe. 
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Spaces: IoT and Sensors
+DTSTART;TZID=Europe/Berlin:20230626T160000
+DTEND;TZID=Europe/Berlin:20230626T173000
+DESCRIPTION:A session focusing on the use of IoT and sensors for data spac
+ es: plans and coming developments
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Spaces: High Value Datasets\n
+DTSTART;TZID=Europe/Berlin:20230626T160000
+DTEND;TZID=Europe/Berlin:20230626T173000
+DESCRIPTION:This workshop\, organized by the GREAT project\, aims to bring
+  experts\, stakeholders\, and researchers together to actively participate
+  in shaping an expandable core set of High Priority Datasets to drive the 
+ initial implementation phase of the Green Deal Data Space. Through interac
+ tive presentations and discussions\, the participants will have the opport
+ unity to contribute their valuable insights and expertise to shaping the f
+ uture of the data ecosystem\, ensuring that it aligns with the objectives 
+ of the European Green Deal and promotes sustainable development.\n\nVirtua
+ l Room: https://www4.gotomeeting.com/join/791969853
+LOCATION:Room 259
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:European Open Science Cloud
+DTSTART;TZID=Europe/Berlin:20230626T160000
+DTEND;TZID=Europe/Berlin:20230626T173000
+DESCRIPTION:The European Open Science Cloud (EOSC) is a European Commissio
+ n initiative aiming at developing an infrastructure providing its users wi
+ th services promoting open science practices.\n\nVirtual Room: https://www
+ 4.gotomeeting.com/join/581922365
+LOCATION:Room 260
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ScaDS.AI Training Data Visualization
