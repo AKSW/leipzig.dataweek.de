@@ -3037,8 +3037,9 @@
 <https://2023.dataweek.de/lswt2023/program/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2023.dataweek.de/lswt2023/program/> <http://www.w3.org/2000/01/rdf-schema#label> "Program"@en .
 <https://2023.dataweek.de/lswt2023/program/> <http://www.w3.org/2000/01/rdf-schema#label> "Programm"@de .
+<https://2023.dataweek.de/lswt2023/program/> <https://dataweek.de/#menuResource> <https://2023.dataweek.de/lswt2023/> .
 <https://2023.dataweek.de/lswt2023/program/> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/lswt2023/> .
-<https://2023.dataweek.de/lswt2023/program/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-28\"" .
+<https://2023.dataweek.de/lswt2023/program/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-28\" && ?location = <https://dataweek.de/venue#Sitzungssaal> " .
 <https://2023.dataweek.de/lswt2023/workshops/> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/lswt2023/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2023.dataweek.de/lswt2023/workshops/> <http://www.w3.org/2000/01/rdf-schema#label> "Workshops"@de .
