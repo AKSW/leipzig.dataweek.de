@@ -491,10 +491,8 @@
 <https://2023.dataweek.de/2023-06-29/> <http://purl.org/dc/terms/title> "AI tomorrow"@en .
 <https://2023.dataweek.de/2023-06-29/> <http://purl.org/dc/terms/title> "KI f\u00FCr Morgen"@de .
 <https://2023.dataweek.de/2023-06-29/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/2023-06-29/> .
-<https://2023.dataweek.de/2023-06-29/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/2023-06-29/Sitzungssaal> .
-<https://2023.dataweek.de/2023-06-29/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2023.dataweek.de/2023-06-29/Ratsplenarsaal> .
-<https://2023.dataweek.de/2023-06-29/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2023.dataweek.de/2023-06-29/Room259> .
-<https://2023.dataweek.de/2023-06-29/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2023.dataweek.de/2023-06-29/Room260> .
+<https://2023.dataweek.de/2023-06-29/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/2023-06-29/Ratsplenarsaal> .
+<https://2023.dataweek.de/2023-06-29/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/2023-06-29/Room259> .
 <https://2023.dataweek.de/2023-06-29/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2023.dataweek.de/2023-06-29/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2023.dataweek.de/2023-06-29/> <http://www.w3.org/2000/01/rdf-schema#label> "Donnerstag"@de .
@@ -518,20 +516,6 @@
 <https://2023.dataweek.de/2023-06-29/Room259> <http://www.w3.org/2000/01/rdf-schema#label> "Room 259"@en .
 <https://2023.dataweek.de/2023-06-29/Room259> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
 <https://2023.dataweek.de/2023-06-29/Room259> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-29\" && ?location = <https://dataweek.de/venue#Room259>" .
-<https://2023.dataweek.de/2023-06-29/Room260> <http://purl.org/dc/terms/date> "2023-06-29"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/2023-06-29/Room260> <http://schema.org/location> <https://dataweek.de/venue#Room260> .
-<https://2023.dataweek.de/2023-06-29/Room260> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2023.dataweek.de/2023-06-29/Room260> <http://www.w3.org/2000/01/rdf-schema#label> "Raum 260"@de .
-<https://2023.dataweek.de/2023-06-29/Room260> <http://www.w3.org/2000/01/rdf-schema#label> "Room 260"@en .
-<https://2023.dataweek.de/2023-06-29/Room260> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
-<https://2023.dataweek.de/2023-06-29/Room260> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-29\" && ?location = <https://dataweek.de/venue#Room260>" .
-<https://2023.dataweek.de/2023-06-29/Sitzungssaal> <http://purl.org/dc/terms/date> "2023-06-29"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/2023-06-29/Sitzungssaal> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2023.dataweek.de/2023-06-29/Sitzungssaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2023.dataweek.de/2023-06-29/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Sitzungssaal"@de .
-<https://2023.dataweek.de/2023-06-29/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Sitzungssaal"@en .
-<https://2023.dataweek.de/2023-06-29/Sitzungssaal> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/> .
-<https://2023.dataweek.de/2023-06-29/Sitzungssaal> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-29\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 <https://2023.dataweek.de/2023-06-30/> <http://purl.org/dc/terms/date> "2023-06-30"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/2023-06-30/> <http://purl.org/dc/terms/description> "Die Arbeitskonferenz zum Thema \"Artificial Intelligence Development for a Resilient and Sustainable Tomorrow\" (AI Tomorrow) wird Forscher:innen zusammenbringen, um die \u00F6kologischen, sozialen und wirtschaftlichen Auswirkungen zu er\u00F6rtern, die sich aus dem Design, der Entwicklung und dem Einsatz von KI in der Industrie 5.0 ergeben. Die Industrie 5.0, auch bekannt als die f\u00FCnfte industrielle Revolution, ist eine neue, sich abzeichnende Phase der Industrialisierung, in der Menschen mit fortschrittlicher Technologie und KI-gesteuerten Robotern zusammenarbeiten, um Arbeitsabl\u00E4ufe zu verbessern. Dies geht einher mit einer st\u00E4rkeren Fokussierung auf den Menschen sowie mit einer erh\u00F6hten Widerstandsf\u00E4higkeit und einem verbesserten Fokus auf Nachhaltigkeit."@de .
 <https://2023.dataweek.de/2023-06-30/> <http://purl.org/dc/terms/description> "The working conference on \u201CArtificial Intelligence Development for a Resilient and Sustainable Tomorrow\u201D (AI Tomorrow) will bring together researchers to discuss the environmental, social, and economic implications behind the design, development, and deployment of AI in Industry 5.0. Industry 5.0, also known as the Fifth Industrial Revolution, is a new and emerging phase of industrialisation that sees humans working alongside advanced technology and A.I.-powered robots to enhance workplace processes. This is coupled with a more human-centric focus as well as increased resilience and an improved focus on sustainability."@en .
