@@ -2770,25 +2770,27 @@
 <https://2023.dataweek.de/lswt2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT Team"@de .
 <https://2023.dataweek.de/lswt2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT Team"@en .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/description> "We will give all participants a warm welcome as well as present an overview on the sessions of the day. Session Chair: Natanael Ardnt, eccenca GmbH"@de .
-<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/description> "We will give all participants a warm welcome as well as present an overview on the sessions of the day. Session Chair: Natanael Ardnt, eccenca GmbH"@en .
+<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/description> "We will give all participants a warm welcome as well as present an overview on the sessions of the day."@de .
+<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/description> "We will give all participants a warm welcome as well as present an overview on the sessions of the day."@en .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/title> "Begrüßung "@de .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://purl.org/dc/terms/title> "Welcome"@en .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/endTime> "09:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-3> .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-4> .
 <https://2023.dataweek.de/lswt2023/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/description> "This session will present topics in the area of building, modelling and visualizing Knowledge Graphs. Session Chair: Kirill Bulert, Institut für Angewandte Informatik (InfAI)"@en .
-<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/description> "This session will present topics in the area of building, modelling and visualizing Knowledge Graphs. Session Chair: Session Chair: Kirill Bulert, Institut für Angewandte Informatik "@de .
-<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/title> "Session: Ontologies, Tools and Data Akquisition for Knowledge Graphs"@de .
-<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/title> "Session: Ontologies, Tools and Data Akquisition for Knowledge Graphs"@en .
+<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/description> "This session will present topics in the area of building, modelling and visualizing Knowledge Graphs."@de .
+<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/description> "This session will present topics in the area of building, modelling and visualizing Knowledge Graphs."@en .
+<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/title> "Session: Ontologies, Tools and Data Acquisition for Knowledge Graphs"@de .
+<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://purl.org/dc/terms/title> "Session: Ontologies, Tools and Data Acquisition for Knowledge Graphs"@en .
 <https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/endTime> "11:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/performer> <http://aksw.org/KirillBulert> .
 <https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/startTime> "10:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-10> .
 <https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-11> .
@@ -2796,13 +2798,14 @@
 <https://2023.dataweek.de/lswt2023/#programm-session-2> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-9> .
 <https://2023.dataweek.de/lswt2023/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://purl.org/dc/terms/description> "This session will highlight application and use cases with and on top of Knowledge Graphs. Session Chair: Magnus Knuth, eccenca GmbH"@de .
-<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://purl.org/dc/terms/description> "This session will highlight application and use cases with and on top of Knowledge Graphs. Session Chair: Magnus Knuth, eccenca GmbH"@en .
+<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://purl.org/dc/terms/description> "This session will highlight application and use cases with and on top of Knowledge Graphs."@de .
+<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://purl.org/dc/terms/description> "This session will highlight application and use cases with and on top of Knowledge Graphs."@en .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://purl.org/dc/terms/title> "Session: Knowledge Graphs Use Cases and Applications"@de .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://purl.org/dc/terms/title> "Session: Knowledge Graphs Use Cases and Applications"@en .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/performer> <https://dataweek.de/#MagnusKnuth> .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/startTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-15> .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-16> .
@@ -2812,13 +2815,14 @@
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-20> .
 <https://2023.dataweek.de/lswt2023/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2023.dataweek.de/lswt2023/#programm-session-4> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://purl.org/dc/terms/description> "This session will discuss Semantic Technologies in the broader context of Artificial Intelligence and Large Language Models such as ChatGPT. Session Chair: Natanael Ardnt, eccenca GmbH"@de .
-<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://purl.org/dc/terms/description> "This session will discuss Semantic Technologies in the broader context of Artificial Intelligence and Large Language Models such as ChatGPT. Session Chair: Natanael Ardnt, eccenca GmbH"@en .
+<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://purl.org/dc/terms/description> "This session will discuss Semantic Technologies in the broader context of Artificial Intelligence and Large Language Models such as ChatGPT."@de .
+<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://purl.org/dc/terms/description> "This session will discuss Semantic Technologies in the broader context of Artificial Intelligence and Large Language Models such as ChatGPT."@en .
 <https://2023.dataweek.de/lswt2023/#programm-session-4> <http://purl.org/dc/terms/title> "Session: Semantic Technologies and Artificial Intelligence"@de .
 <https://2023.dataweek.de/lswt2023/#programm-session-4> <http://purl.org/dc/terms/title> "Session: Semantic Technologies and Artificial Intelligence"@en .
 <https://2023.dataweek.de/lswt2023/#programm-session-4> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2023.dataweek.de/lswt2023/#programm-session-4> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-session-4> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2023.dataweek.de/lswt2023/#programm-session-4> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
 <https://2023.dataweek.de/lswt2023/#programm-session-4> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2023.dataweek.de/lswt2023/#programm-session-4> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-23> .
 <https://2023.dataweek.de/lswt2023/#programm-session-4> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/#programm-talk-24> .
