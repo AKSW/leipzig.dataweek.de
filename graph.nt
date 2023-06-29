@@ -378,8 +378,8 @@
 <https://2023.dataweek.de/2023-06-27/> <http://purl.org/dc/terms/title> "Free data!"@en .
 <https://2023.dataweek.de/2023-06-27/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2023.dataweek.de/2023-06-27/> .
 <https://2023.dataweek.de/2023-06-27/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2023.dataweek.de/2023-06-27/Sitzungssaal> .
-<https://2023.dataweek.de/2023-06-27/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/2023-06-27/Ratsplenarsaal> .
-<https://2023.dataweek.de/2023-06-27/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2023.dataweek.de/2023-06-27/Festsaal> .
+<https://2023.dataweek.de/2023-06-27/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2023.dataweek.de/2023-06-27/Festsaal> .
+<https://2023.dataweek.de/2023-06-27/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2023.dataweek.de/2023-06-27/Ratsplenarsaal> .
 <https://2023.dataweek.de/2023-06-27/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2023.dataweek.de/2023-06-27/Room259> .
 <https://2023.dataweek.de/2023-06-27/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2023.dataweek.de/2023-06-27/Room263> .
 <https://2023.dataweek.de/2023-06-27/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
@@ -2685,7 +2685,6 @@
 <https://2023.dataweek.de/live> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2023.dataweek.de/live> <http://www.w3.org/2000/01/rdf-schema#label> "Live"@de .
 <https://2023.dataweek.de/live> <http://www.w3.org/2000/01/rdf-schema#label> "Live"@en .
-<https://2023.dataweek.de/live> <https://dataweek.de/#menuHighlight> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://2023.dataweek.de/lodh-2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "LODH Team"@de .
 <https://2023.dataweek.de/lodh-2023/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "LODH Team"@en .
 <https://2023.dataweek.de/lodh-2023/> <http://purl.org/dc/terms/date> "2023-06-27"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2997,9 +2996,8 @@
 <https://2023.dataweek.de/lswt2023/program/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2023.dataweek.de/lswt2023/program/> <http://www.w3.org/2000/01/rdf-schema#label> "Program"@en .
 <https://2023.dataweek.de/lswt2023/program/> <http://www.w3.org/2000/01/rdf-schema#label> "Programm"@de .
-<https://2023.dataweek.de/lswt2023/program/> <https://dataweek.de/#menuResource> <https://2023.dataweek.de/lswt2023/> .
 <https://2023.dataweek.de/lswt2023/program/> <https://dataweek.de/#resourceUri> <https://2023.dataweek.de/lswt2023/> .
-<https://2023.dataweek.de/lswt2023/program/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-28\" && ?location = <https://dataweek.de/venue#Sitzungssaal> " .
+<https://2023.dataweek.de/lswt2023/program/> <https://dataweek.de/#viewFilter> "str(?date) = \"2023-06-28\"" .
 <https://2023.dataweek.de/lswt2023/workshops/> <http://purl.org/dc/terms/date> "2023-06-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2023.dataweek.de/lswt2023/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2023.dataweek.de/lswt2023/workshops/> <http://www.w3.org/2000/01/rdf-schema#label> "Workshops"@de .
@@ -3377,8 +3375,8 @@
 <https://dataweek.de/#AljoschaBurdchardt> <http://schema.org/affiliation> <https://www.dfki.de/> .
 <https://dataweek.de/#AljoschaBurdchardt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AljoschaBurdchardt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#AljoschaBurdchardt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Aljoscha Burdchardt" .
-<https://dataweek.de/#AljoschaBurdchardt> <http://xmlns.com/foaf/0.1/name> "Aljoscha Burdchardt" .
+<https://dataweek.de/#AljoschaBurdchardt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Aljoscha Burchardt" .
+<https://dataweek.de/#AljoschaBurdchardt> <http://xmlns.com/foaf/0.1/name> "Aljoscha Burchardt" .
 <https://dataweek.de/#AljoschaBurdchardt> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#AlpoTurunen> <http://schema.org/affiliation> <https://www.maanmittauslaitos.fi/en> .
 <https://dataweek.de/#AlpoTurunen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
