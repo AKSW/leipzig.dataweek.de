@@ -4,7 +4,14 @@ rdf_prefix_path: _data/prefixes.sparql
 
 {% include components/img.html alt=contact_alt src="/lswt2023/Logo_1024.png" %}
 
+<p></p>
+
 <p>
+  <a href="https://www.youtube-nocookie.com/embed/n8Kb2P8ilwg"><svg role="img" focusable="false" aria-hidden="true" height="28" width="42"><use xlink:href="{% relative_link /resources/images/socialmedia.svg %}#youtube"></use></svg>{{str_recording}}</a>
+  (<strong class="highlighted x1">{{ "2023-06-28" | localize: "%A" }},</strong> <strong>9.00–16.30: Sitzungssaal</strong>)
 </p>
+
+<p></p>
+
 {% assign keynote = "<https://2023.dataweek.de/lswt2023/#programm-talk-5>" | rdf_get %}
 {% include components/program_unit_keynote.html session=keynote %}
