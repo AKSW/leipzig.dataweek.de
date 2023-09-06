@@ -16,6 +16,12 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
     - name: Check out Site Repository 📄
       uses: actions/checkout@v3
+    - name: Check out iCal Repository 📅
+      uses: actions/checkout@v3
+      with:
+        repository: 'AKSW/ical.dataweek.de'
+        ref: 'page-live'
+        path: '.ical'
     - name: Run CI Tasks ⚙️
       run: task build
     - name: Deploy 🚀
