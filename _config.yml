@@ -1,12 +1,12 @@
 # Site settings
-title: Data Week Leipzig 2023
+title: Data Week Leipzig 2024
 email: dataweek@infai.org
 baseurl: ""
-url: "https://2023.dataweek.de"
-rootResource: "<https://2023.dataweek.de/>"
+url: "https://2024.dataweek.de"
+rootResource: "<https://2024.dataweek.de/>"
 translations:
-  de: "<https://2023.dataweek.de/>"
-  en: "<https://2023.dataweek.de/en/>"
+  de: "<https://2024.dataweek.de/>"
+  en: "<https://2024.dataweek.de/en/>"
 language: de
 twitter_username: DataWeekLeipzig
 
@@ -34,7 +34,7 @@ exclude:
 
 jekyll_rdf:
   path: "graph.nt"
-  restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"^https://2023.dataweek.de\") }"
+  restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"^https://2024.dataweek.de\") }"
   default_template: default.html
   class_template_mappings:
     "https://dataweek.de/#ProgramView" : "program_view.html"

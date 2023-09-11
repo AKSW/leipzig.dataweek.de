@@ -6,9 +6,9 @@
         <li>
           <a href="https://infai.org/das-institut/impressum/">{{ str_imprint }}</a>
         </li>
-        {% assign datenschutz = "<https://2023.dataweek.de/datenschutz/>" | rdf_get %}
-        {% assign team = "<https://2023.dataweek.de/team>" | rdf_get %}
-        {% assign contact = "<https://2023.dataweek.de/contact/>" | rdf_get %}
+        {% assign datenschutz = "<https://2024.dataweek.de/datenschutz/>" | rdf_get %}
+        {% assign team = "<https://2024.dataweek.de/team>" | rdf_get %}
+        {% assign contact = "<https://2024.dataweek.de/contact/>" | rdf_get %}
 
         {% include components/menu_main_entry.html current=current_page resource=datenschutz %}
         {% include components/menu_main_entry.html current=current_page resource=team %}
@@ -16,18 +16,22 @@
       </ul>
     </nav>
     <p class="socialmedia">
+      <a rel="me" href="https://www.linkedin.com/showcase/data-week-leipzig/">
+        <svg role="img" focusable="false" aria-hidden="true" height="28" width="42">
+          <use xlink:href="/resources/images/socialmedia.svg#contact-linkedin"></use>
+        </svg></a>
       <a href="https://youtube.de/@dataweekleipzig">
         <svg role="img" focusable="false" aria-hidden="true" height="28" width="42">
           <use xlink:href="/resources/images/socialmedia.svg#youtube"></use>
-        </svg> @dataweekleipzig</a>
+        </svg></a>
       <a href="https://twitter.com/@DataWeekLeipzig">
         <svg role="img" focusable="false" aria-hidden="true" height="28" width="42">
           <use xlink:href="/resources/images/socialmedia.svg#twitter"></use>
-        </svg>@DataWeekLeipzig</a>
+        </svg></a>
       <a rel="me" href="https://toot.io/@DataWeekLeipzig">
         <svg role="img" focusable="false" aria-hidden="true" height="28" width="42">
           <use xlink:href="/resources/images/socialmedia.svg#mastodon"></use>
-        </svg>@DataWeekLeipzig@toot.io</a>
+        </svg></a>
     </p>
   </div>
 </footer>
