@@ -2624,8 +2624,9 @@
 <https://2024.dataweek.de/FooterMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2024.dataweek.de/contact/> .
 <https://2024.dataweek.de/FooterMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2024.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2024.dataweek.de/cfp> .
-<https://2024.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2024.dataweek.de/news> .
-<https://2024.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2024.dataweek.de/venue/> .
+<https://2024.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2024.dataweek.de/news> .
+<https://2024.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2024.dataweek.de/sponsorship> .
+<https://2024.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2024.dataweek.de/venue/> .
 <https://2024.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2024.dataweek.de/MainMenu> <http://xmlns.com/foaf/0.1/primaryTopic> <https://2024.dataweek.de/> .
 <https://2024.dataweek.de/News1> <http://purl.org/dc/terms/date> "2023-09-11T07:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
@@ -2802,6 +2803,12 @@
 <https://2024.dataweek.de/program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2024.dataweek.de/program> <http://www.w3.org/2000/01/rdf-schema#label> "Program"@en .
 <https://2024.dataweek.de/program> <http://www.w3.org/2000/01/rdf-schema#label> "Programm"@de .
+<https://2024.dataweek.de/sponsorship> <http://purl.org/dc/terms/description> "Industrie, B\u00FCrgerschaft, Wissenschaft und Beh\u00F6rden treten in einen Dialog \u2013 dies ist das Ziel der Data Week Leipzig 2024. Die bereits 2023 geschaffene Netzwerk- und Austauschplattform soll nun in Leipzig verstetigt werden. Besonderer Fokus liegt neben dem KI- und Datenschwerpunkt auch auf der Begegnung von Industrie- und Wissenschaftsvertreter:innen mit st\u00E4dtischen Beh\u00F6rden. Weiterhin werden in Workshops und Vortr\u00E4gen internationale IT-Expert:innen neueste Anwendungsf\u00E4lle, zum Beispiel von digitalen Stadt-Zwillinge vorstellen. Die Data Week Leipzig bietet Sponsoren ein hochrangiges Publikum, mit dem sie in Kontakt treten k\u00F6nnen."@de .
+<https://2024.dataweek.de/sponsorship> <http://purl.org/dc/terms/description> "Industry, citizens, science and public authorities enter into a dialog - this is the goal of Data Week Leipzig 2024. The networking and exchange platform, which was already created in 2023, is now to be consolidated in Leipzig. In addition to the focus on AI and data, there will also be a special focus on bringing together industry and science representatives with municipal authorities. representatives with municipal authorities. Furthermore, international IT experts will international IT experts will present the latest use cases, for example of digital city twins. digital city twins. Data Week Leipzig offers sponsors a high-ranking audience with whom they can make contact."@en .
+<https://2024.dataweek.de/sponsorship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
+<https://2024.dataweek.de/sponsorship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://2024.dataweek.de/sponsorship> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoringpakete"@de .
+<https://2024.dataweek.de/sponsorship> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsorship Packages"@en .
 <https://2024.dataweek.de/team-generalchair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/JuliaHolze> .
 <https://2024.dataweek.de/team-generalchair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/MichaelMartin> .
 <https://2024.dataweek.de/team-generalchair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@de .
