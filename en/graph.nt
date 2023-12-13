@@ -2591,6 +2591,8 @@
 <https://2024.dataweek.de/> <http://schema.org/startDate> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/> <http://schema.org/subEvent> <https://2024.dataweek.de/kmi-24/> .
 <https://2024.dataweek.de/> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/> .
+<https://2024.dataweek.de/> <http://schema.org/subEvent> <https://2024.dataweek.de/trainings/> .
+<https://2024.dataweek.de/> <http://schema.org/subEvent> <https://2024.dataweek.de/workshops/> .
 <https://2024.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
 <https://2024.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2024" .
@@ -2836,12 +2838,29 @@
 <https://2024.dataweek.de/tickets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2024.dataweek.de/tickets> <http://www.w3.org/2000/01/rdf-schema#label> "Tickets"@de .
 <https://2024.dataweek.de/tickets> <http://www.w3.org/2000/01/rdf-schema#label> "Tickets"@en .
-<https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2024.dataweek.de/kmi-24/> .
-<https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2024.dataweek.de/lswt2024/> .
+<https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2024.dataweek.de/workshops/> .
+<https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2024.dataweek.de/trainings/> .
+<https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2024.dataweek.de/kmi-24/> .
+<https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2024.dataweek.de/lswt2024/> .
 <https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2024.dataweek.de/tracks> <http://www.w3.org/2000/01/rdf-schema#label> "Tracks"@de .
 <https://2024.dataweek.de/tracks> <http://www.w3.org/2000/01/rdf-schema#label> "Tracks"@en .
+<https://2024.dataweek.de/trainings/> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/trainings/> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/trainings/> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/trainings/> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/trainings/> <http://purl.org/dc/terms/date> "2024-04-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/trainings/> <http://purl.org/dc/terms/description> "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datens\u00E4tze."@de .
+<https://2024.dataweek.de/trainings/> <http://purl.org/dc/terms/description> "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en .
+<https://2024.dataweek.de/trainings/> <http://schema.org/abstract> "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datens\u00E4tze."@de .
+<https://2024.dataweek.de/trainings/> <http://schema.org/abstract> "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en .
+<https://2024.dataweek.de/trainings/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/trainings/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://2024.dataweek.de/trainings/> <http://www.w3.org/2000/01/rdf-schema#label> "Trainings & Tutorials"@de .
+<https://2024.dataweek.de/trainings/> <http://www.w3.org/2000/01/rdf-schema#label> "Trainings & Tutorials"@en .
+<https://2024.dataweek.de/trainings/> <https://dataweek.de/#show> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://2024.dataweek.de/trainings/> <https://dataweek.de/#slug> "Trainings" .
 <https://2024.dataweek.de/venue/> <http://schema.org/addressCountry> "Germany" .
 <https://2024.dataweek.de/venue/> <http://schema.org/addressLocality> "Leipzig" .
 <https://2024.dataweek.de/venue/> <http://schema.org/name> "Neues Rathaus/City Hall" .
@@ -2866,6 +2885,21 @@
 <https://2024.dataweek.de/venue/travel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2024.dataweek.de/venue/travel> <http://www.w3.org/2000/01/rdf-schema#label> "Anreise"@de .
 <https://2024.dataweek.de/venue/travel> <http://www.w3.org/2000/01/rdf-schema#label> "Travel"@en .
+<https://2024.dataweek.de/workshops/> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/workshops/> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/workshops/> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/workshops/> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/workshops/> <http://purl.org/dc/terms/date> "2024-04-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/workshops/> <http://purl.org/dc/terms/description> "As part of Data Week Leipzig, several workshops will be held on topics including GPT, digitalization in education, sustainable AI and 3D printing platforms."@en .
+<https://2024.dataweek.de/workshops/> <http://purl.org/dc/terms/description> "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform statt."@de .
+<https://2024.dataweek.de/workshops/> <http://schema.org/abstract> "As part of Data Week Leipzig, several workshops will be held on topics including GPT, digitalization in education, sustainable AI and 3D printing platforms."@en .
+<https://2024.dataweek.de/workshops/> <http://schema.org/abstract> "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform statt."@de .
+<https://2024.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://2024.dataweek.de/workshops/> <http://www.w3.org/2000/01/rdf-schema#label> "Workshops"@de .
+<https://2024.dataweek.de/workshops/> <http://www.w3.org/2000/01/rdf-schema#label> "Workshops"@en .
+<https://2024.dataweek.de/workshops/> <https://dataweek.de/#show> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://2024.dataweek.de/workshops/> <https://dataweek.de/#slug> "Workshops" .
 <https://aksw.org/KirillBulert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://aksw.org/KonradHoeffner> <http://schema.org/affiliation> <https://www.imise.uni-leipzig.de/> .
 <https://aksw.org/KonradHoeffner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
