@@ -19,6 +19,13 @@ layout: basic
 
 {% assign subEvents = rootResource | sparql_query: subEventQuery %}
 
+<p>
+  {% if site.language == 'en' %}
+    The program is currently under construction and is constantly being expanded. All tracks, Monday to Friday, will be available shortly.
+  {% else %}
+    Das Programm befindet sich im Aufbau und wird stetig ergänzt. In Kürze werden alle Tracks, Montag bis Freitag, zu sehen sein.
+  {% endif %}
+</p>
 <div class="card-list">
   <ul>
     {% for row in subEvents %}
