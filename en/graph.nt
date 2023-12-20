@@ -2589,6 +2589,7 @@
 <https://2024.dataweek.de/> <http://schema.org/slogan> "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de .
 <https://2024.dataweek.de/> <http://schema.org/sponsor> <https://2024.dataweek.de/Sponsors> .
 <https://2024.dataweek.de/> <http://schema.org/startDate> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/> <http://schema.org/subEvent> <https://2024.dataweek.de/dsm/> .
 <https://2024.dataweek.de/> <http://schema.org/subEvent> <https://2024.dataweek.de/kmi-24/> .
 <https://2024.dataweek.de/> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/> .
 <https://2024.dataweek.de/> <http://schema.org/subEvent> <https://2024.dataweek.de/trainings/> .
@@ -2672,6 +2673,24 @@
 <https://2024.dataweek.de/datenschutz/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2024.dataweek.de/datenschutz/> <http://www.w3.org/2000/01/rdf-schema#label> "Data protection"@en .
 <https://2024.dataweek.de/datenschutz/> <http://www.w3.org/2000/01/rdf-schema#label> "Datenschutz"@de .
+<https://2024.dataweek.de/dsm/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://dataweek.de/#ChristianRoessler> .
+<https://2024.dataweek.de/dsm/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#EnricoMacholdt> .
+<https://2024.dataweek.de/dsm/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://dataweek.de/#MelaniePufahl> .
+<https://2024.dataweek.de/dsm/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://dataweek.de/#SebastianBoehm> .
+<https://2024.dataweek.de/dsm/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "DSM Team"@de .
+<https://2024.dataweek.de/dsm/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "DSM Team"@en .
+<https://2024.dataweek.de/dsm/> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/dsm/> <http://purl.org/dc/terms/description> "At Data Science Mania we will talk about leadership and agility in the Data Science environment, about successful and maybe not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of programming language and framework.\n\nAll people who are interested in the topics are invited, regardless of their professional background and career level. After all, that\u2019s what Data Science is really about: different people inspiring each other and creating something new.\n\nFor more information, please visit [datasciencemania.de](https://www.datasciencemania.de/)"@en .
+<https://2024.dataweek.de/dsm/> <http://purl.org/dc/terms/description> "Auf der Data Science Mania reden wir \u00FCber Leadership und Agilit\u00E4t im Data Science Umfeld, \u00FCber erfolgreiche und vielleicht auch nicht so erfolgreiche Projekte (und was man daraus lernen kann) und \u00FCber vielversprechende methodische Ans\u00E4tze - unabh\u00E4ngig von der Programmiersprache und vom Framework.\n\nEingeladen sind alle Menschen, die sich f\u00FCr die Themen interessieren, unabh\u00E4ngig vom fachlichen Hintergrund und von der Karrierestufe. Denn darum geht es doch eigentlich in der Data Science: unterschiedliche Menschen, die sich gegenseitig inspirieren und Neues schaffen.\n\nMehr Informationen dazu findest du auf [datasciencemania.de](https://www.datasciencemania.de/)."@de .
+<https://2024.dataweek.de/dsm/> <http://schema.org/abstract> "At Data Science Mania, we will talk about leadership and agility in the data science environment, about successful and perhaps not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of the programming language and framework."@en .
+<https://2024.dataweek.de/dsm/> <http://schema.org/abstract> "Auf der Data Science Mania reden wir \u00FCber Leadership und Agilit\u00E4t im Data Science Umfeld, \u00FCber erfolgreiche und vielleicht auch nicht so erfolgreiche Projekte (und was man daraus lernen kann) und \u00FCber vielversprechende methodische Ans\u00E4tze - unabh\u00E4ngig von der Programmiersprache und vom Framework."@de .
+<https://2024.dataweek.de/dsm/> <http://schema.org/organizer> <https://2024.dataweek.de/dsm/#Team> .
+<https://2024.dataweek.de/dsm/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/dsm/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://2024.dataweek.de/dsm/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Science Mania"@de .
+<https://2024.dataweek.de/dsm/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Science Mania"@en .
+<https://2024.dataweek.de/dsm/> <https://dataweek.de/#show> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://2024.dataweek.de/dsm/> <https://dataweek.de/#slug> "DSM" .
 <https://2024.dataweek.de/hotels/AOCity> <http://schema.org/address> "Brandenburger Strasse 2, 04103 Leipzig" .
 <https://2024.dataweek.de/hotels/AOCity> <http://schema.org/telephone> "+49 (0)30 809475000" .
 <https://2024.dataweek.de/hotels/AOCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Hotel> .
@@ -2838,10 +2857,11 @@
 <https://2024.dataweek.de/tickets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2024.dataweek.de/tickets> <http://www.w3.org/2000/01/rdf-schema#label> "Tickets"@de .
 <https://2024.dataweek.de/tickets> <http://www.w3.org/2000/01/rdf-schema#label> "Tickets"@en .
-<https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2024.dataweek.de/trainings/> .
-<https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2024.dataweek.de/workshops/> .
-<https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2024.dataweek.de/kmi-24/> .
-<https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2024.dataweek.de/lswt2024/> .
+<https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2024.dataweek.de/dsm/> .
+<https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2024.dataweek.de/trainings/> .
+<https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2024.dataweek.de/workshops/> .
+<https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2024.dataweek.de/kmi-24/> .
+<https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2024.dataweek.de/lswt2024/> .
 <https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2024.dataweek.de/tracks> <http://www.w3.org/2000/01/rdf-schema#label> "Tracks"@de .
