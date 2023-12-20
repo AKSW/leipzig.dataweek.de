@@ -2593,6 +2593,7 @@
 <https://2024.dataweek.de/> <http://schema.org/subEvent> <https://2024.dataweek.de/kmi-24/> .
 <https://2024.dataweek.de/> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/> .
 <https://2024.dataweek.de/> <http://schema.org/subEvent> <https://2024.dataweek.de/trainings/> .
+<https://2024.dataweek.de/> <http://schema.org/subEvent> <https://2024.dataweek.de/usd/> .
 <https://2024.dataweek.de/> <http://schema.org/subEvent> <https://2024.dataweek.de/workshops/> .
 <https://2024.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
 <https://2024.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -2860,8 +2861,9 @@
 <https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2024.dataweek.de/dsm/> .
 <https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2024.dataweek.de/trainings/> .
 <https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2024.dataweek.de/workshops/> .
-<https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2024.dataweek.de/kmi-24/> .
-<https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2024.dataweek.de/lswt2024/> .
+<https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2024.dataweek.de/usd/> .
+<https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2024.dataweek.de/kmi-24/> .
+<https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2024.dataweek.de/lswt2024/> .
 <https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2024.dataweek.de/tracks> <http://www.w3.org/2000/01/rdf-schema#label> "Tracks"@de .
@@ -2881,6 +2883,17 @@
 <https://2024.dataweek.de/trainings/> <http://www.w3.org/2000/01/rdf-schema#label> "Trainings & Tutorials"@en .
 <https://2024.dataweek.de/trainings/> <https://dataweek.de/#show> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://2024.dataweek.de/trainings/> <https://dataweek.de/#slug> "Trainings" .
+<https://2024.dataweek.de/usd/> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/usd/> <http://purl.org/dc/terms/description> "During Data Week Leipzig 2024, our new partner, the Data Competence Center for Cities and Regions (DKSR), will host the Urban Data Summit (UDS). The Urban Data Summit will focus on sustainable municipal design through data and digitalization. The summit offers a colourful and interactive programme on digital applications and scalability that highlights the potential of digitalization and data use in specific urban work areas. It brings together relevant municipal stakeholders for comprehensive data-based solutions and encourages application- and action-oriented exchange and joint implementation."@en .
+<https://2024.dataweek.de/usd/> <http://purl.org/dc/terms/description> "Zur Data Week Leipzig 2024 wird unser neuer Partner, das Daten-Kompetenzzentrum f\u00FCr St\u00E4dte und Regionen (DKSR) den Urban Data Summit (UDS) veranstalten. Beim Urban Data Summit steht die nachhaltige Kommunalgestaltung durch Daten und Digitalisierung im Vordergrund. Der Summit bietet ein buntes und interaktives Programm rund um digitale Anwendungen und Skalierbarkeit, dass die Potenziale von Digitalisierung und Datennutzung in spezifischen st\u00E4dtischen Arbeitsbereichen aufzeigt. Dabei werden relevante kommunale Stakeholder*innen f\u00FCr fl\u00E4chendeckende datenbasierte L\u00F6sungen an einen Tisch gebracht und zum anwendungs- und ma\u00DFnahmenorientierten Austausch sowie gemeinsamen Umsetzungen angeregt."@de .
+<https://2024.dataweek.de/usd/> <http://schema.org/abstract> "Beim Urban Data Summit steht die nachhaltige Kommunalgestaltung durch Daten und Digitalisierung im Vordergrund. Der Summit bietet ein buntes und interaktives Programm rund um digitale Anwendungen und Skalierbarkeit, dass die Potenziale von Digitalisierung und Datennutzung in spezifischen st\u00E4dtischen Arbeitsbereichen aufzeigt."@de .
+<https://2024.dataweek.de/usd/> <http://schema.org/abstract> "The Urban Data Summit focuses on sustainable municipal design through data and digitalization. The summit offers a varied and interactive programme on digital applications and scalability that highlights the potential of digitalization and data use in specific urban work areas."@en .
+<https://2024.dataweek.de/usd/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/usd/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://2024.dataweek.de/usd/> <http://www.w3.org/2000/01/rdf-schema#label> "Urban Data Summit"@de .
+<https://2024.dataweek.de/usd/> <http://www.w3.org/2000/01/rdf-schema#label> "Urban Data Summit"@en .
+<https://2024.dataweek.de/usd/> <https://dataweek.de/#show> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://2024.dataweek.de/usd/> <https://dataweek.de/#slug> "USD" .
 <https://2024.dataweek.de/venue/> <http://schema.org/addressCountry> "Germany" .
 <https://2024.dataweek.de/venue/> <http://schema.org/addressLocality> "Leipzig" .
 <https://2024.dataweek.de/venue/> <http://schema.org/name> "Neues Rathaus/City Hall" .
