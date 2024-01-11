@@ -1331,36 +1331,6 @@
 <https://2024.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2024.dataweek.de/tracks> <http://www.w3.org/2000/01/rdf-schema#label> "Tracks"@de .
 <https://2024.dataweek.de/tracks> <http://www.w3.org/2000/01/rdf-schema#label> "Tracks"@en .
-<https://2024.dataweek.de/trainigs/2024-04-15/> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/trainigs/2024-04-15/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2024.dataweek.de/trainigs/2024-04-15/> <http://www.w3.org/2000/01/rdf-schema#label> "Monday"@en .
-<https://2024.dataweek.de/trainigs/2024-04-15/> <http://www.w3.org/2000/01/rdf-schema#label> "Montag"@de .
-<https://2024.dataweek.de/trainigs/2024-04-15/> <https://dataweek.de/#resourceUri> <https://2024.dataweek.de/trainings/> .
-<https://2024.dataweek.de/trainigs/2024-04-15/> <https://dataweek.de/#viewFilter> "str(?date) = \"2024-04-15\"" .
-<https://2024.dataweek.de/trainigs/2024-04-16/> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/trainigs/2024-04-16/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2024.dataweek.de/trainigs/2024-04-16/> <http://www.w3.org/2000/01/rdf-schema#label> "Dienstag"@de .
-<https://2024.dataweek.de/trainigs/2024-04-16/> <http://www.w3.org/2000/01/rdf-schema#label> "Tuesday"@en .
-<https://2024.dataweek.de/trainigs/2024-04-16/> <https://dataweek.de/#resourceUri> <https://2024.dataweek.de/trainings/> .
-<https://2024.dataweek.de/trainigs/2024-04-16/> <https://dataweek.de/#viewFilter> "str(?date) = \"2024-04-16\"" .
-<https://2024.dataweek.de/trainigs/2024-04-17/> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/trainigs/2024-04-17/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2024.dataweek.de/trainigs/2024-04-17/> <http://www.w3.org/2000/01/rdf-schema#label> "Mittwoch"@de .
-<https://2024.dataweek.de/trainigs/2024-04-17/> <http://www.w3.org/2000/01/rdf-schema#label> "Wednesday"@en .
-<https://2024.dataweek.de/trainigs/2024-04-17/> <https://dataweek.de/#resourceUri> <https://2024.dataweek.de/trainings/> .
-<https://2024.dataweek.de/trainigs/2024-04-17/> <https://dataweek.de/#viewFilter> "str(?date) = \"2024-04-17\"" .
-<https://2024.dataweek.de/trainigs/2024-04-18/> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/trainigs/2024-04-18/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2024.dataweek.de/trainigs/2024-04-18/> <http://www.w3.org/2000/01/rdf-schema#label> "Donnerstag"@de .
-<https://2024.dataweek.de/trainigs/2024-04-18/> <http://www.w3.org/2000/01/rdf-schema#label> "Thursday"@en .
-<https://2024.dataweek.de/trainigs/2024-04-18/> <https://dataweek.de/#resourceUri> <https://2024.dataweek.de/trainings/> .
-<https://2024.dataweek.de/trainigs/2024-04-18/> <https://dataweek.de/#viewFilter> "str(?date) = \"2024-04-18\"" .
-<https://2024.dataweek.de/trainigs/2024-04-19/> <http://purl.org/dc/terms/date> "2024-04-19"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/trainigs/2024-04-19/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2024.dataweek.de/trainigs/2024-04-19/> <http://www.w3.org/2000/01/rdf-schema#label> "Freitag"@de .
-<https://2024.dataweek.de/trainigs/2024-04-19/> <http://www.w3.org/2000/01/rdf-schema#label> "Friday"@en .
-<https://2024.dataweek.de/trainigs/2024-04-19/> <https://dataweek.de/#resourceUri> <https://2024.dataweek.de/trainings/> .
-<https://2024.dataweek.de/trainigs/2024-04-19/> <https://dataweek.de/#viewFilter> "str(?date) = \"2024-04-19\"" .
 <https://2024.dataweek.de/trainings/#programm-session-1> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/trainings/#programm-session-1> <http://purl.org/dc/terms/description> " In this hands-on session, we will work together online on a project on github.com. We will show how to share and collaborate on data, especially source code. The aim of the exercise is to give participants a feel for how they can use tools such as git, git pull-requests and git issues to manage small and large software projects online."@en .
 <https://2024.dataweek.de/trainings/#programm-session-1> <http://purl.org/dc/terms/description> "Daten sind in der heutigen Wissenschaft und Wirtschaft eine relevante Ressource. Ihre Darstellung in Form von Diagrammen und Plots legt den Grundstein für die Analyse, die Kommunikation sowie die Generierung neuer Hypothesen. Im Kurs werden theoretische Aspekte zusammen mit praktischen Erfahrungen in R unter Verwendung des etablierten Pakets ggplot2 vermittelt. Neben dem Hands-on-Tutorial werden den Teilnehmern typische Probleme bei der Datenvisualisierung, die häufig auftreten und manchmal sogar zur Fehlinterpretation von Daten führen, aufgezeigt."@de .
@@ -1504,6 +1474,36 @@
 <https://2024.dataweek.de/trainings/#programm-talk-8> <http://schema.org/location> <https://dataweek.de/venue#Room495> .
 <https://2024.dataweek.de/trainings/#programm-talk-8> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/trainings/#programm-talk-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/trainings/2024-04-15/> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/trainings/2024-04-15/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2024.dataweek.de/trainings/2024-04-15/> <http://www.w3.org/2000/01/rdf-schema#label> "Monday"@en .
+<https://2024.dataweek.de/trainings/2024-04-15/> <http://www.w3.org/2000/01/rdf-schema#label> "Montag"@de .
+<https://2024.dataweek.de/trainings/2024-04-15/> <https://dataweek.de/#resourceUri> <https://2024.dataweek.de/trainings/> .
+<https://2024.dataweek.de/trainings/2024-04-15/> <https://dataweek.de/#viewFilter> "str(?date) = \"2024-04-15\"" .
+<https://2024.dataweek.de/trainings/2024-04-16/> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/trainings/2024-04-16/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2024.dataweek.de/trainings/2024-04-16/> <http://www.w3.org/2000/01/rdf-schema#label> "Dienstag"@de .
+<https://2024.dataweek.de/trainings/2024-04-16/> <http://www.w3.org/2000/01/rdf-schema#label> "Tuesday"@en .
+<https://2024.dataweek.de/trainings/2024-04-16/> <https://dataweek.de/#resourceUri> <https://2024.dataweek.de/trainings/> .
+<https://2024.dataweek.de/trainings/2024-04-16/> <https://dataweek.de/#viewFilter> "str(?date) = \"2024-04-16\"" .
+<https://2024.dataweek.de/trainings/2024-04-17/> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/trainings/2024-04-17/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2024.dataweek.de/trainings/2024-04-17/> <http://www.w3.org/2000/01/rdf-schema#label> "Mittwoch"@de .
+<https://2024.dataweek.de/trainings/2024-04-17/> <http://www.w3.org/2000/01/rdf-schema#label> "Wednesday"@en .
+<https://2024.dataweek.de/trainings/2024-04-17/> <https://dataweek.de/#resourceUri> <https://2024.dataweek.de/trainings/> .
+<https://2024.dataweek.de/trainings/2024-04-17/> <https://dataweek.de/#viewFilter> "str(?date) = \"2024-04-17\"" .
+<https://2024.dataweek.de/trainings/2024-04-18/> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/trainings/2024-04-18/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2024.dataweek.de/trainings/2024-04-18/> <http://www.w3.org/2000/01/rdf-schema#label> "Donnerstag"@de .
+<https://2024.dataweek.de/trainings/2024-04-18/> <http://www.w3.org/2000/01/rdf-schema#label> "Thursday"@en .
+<https://2024.dataweek.de/trainings/2024-04-18/> <https://dataweek.de/#resourceUri> <https://2024.dataweek.de/trainings/> .
+<https://2024.dataweek.de/trainings/2024-04-18/> <https://dataweek.de/#viewFilter> "str(?date) = \"2024-04-18\"" .
+<https://2024.dataweek.de/trainings/2024-04-19/> <http://purl.org/dc/terms/date> "2024-04-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/trainings/2024-04-19/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2024.dataweek.de/trainings/2024-04-19/> <http://www.w3.org/2000/01/rdf-schema#label> "Freitag"@de .
+<https://2024.dataweek.de/trainings/2024-04-19/> <http://www.w3.org/2000/01/rdf-schema#label> "Friday"@en .
+<https://2024.dataweek.de/trainings/2024-04-19/> <https://dataweek.de/#resourceUri> <https://2024.dataweek.de/trainings/> .
+<https://2024.dataweek.de/trainings/2024-04-19/> <https://dataweek.de/#viewFilter> "str(?date) = \"2024-04-19\"" .
 <https://2024.dataweek.de/trainings/> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/trainings/> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/trainings/> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
