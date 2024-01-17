@@ -733,8 +733,8 @@
 <https://2024.dataweek.de/break/2024-04-18/18:00> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/break/2024-04-18/18:00> <http://purl.org/dc/terms/description> "eccenca cordially invites you to the social event \"Semantic Beergarden\" at the Moritz Bastei (Kurt-Masur-Platz 1, 04109 Leipzig)."@en .
 <https://2024.dataweek.de/break/2024-04-18/18:00> <http://purl.org/dc/terms/description> "eccenca lädt Sie herzlich zum Social Event “Semantischer Biergarten“ in der Moritz Bastei (Kurt-Masur-Platz 1, 04109 Leipzig) ein."@de .
-<https://2024.dataweek.de/break/2024-04-18/18:00> <http://purl.org/dc/terms/title> "eccenca Semantic Beergarden"@en .
-<https://2024.dataweek.de/break/2024-04-18/18:00> <http://purl.org/dc/terms/title> "eccenca Semantischer Biergarten"@de .
+<https://2024.dataweek.de/break/2024-04-18/18:00> <http://purl.org/dc/terms/title> "eccenca Semantic Biergarten"@de .
+<https://2024.dataweek.de/break/2024-04-18/18:00> <http://purl.org/dc/terms/title> "eccenca Semantic Biergarten"@en .
 <https://2024.dataweek.de/break/2024-04-18/18:00> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/break/2024-04-18/18:00> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2024.dataweek.de/break/2024-04-18/18:00> <http://schema.org/endTime> "20:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -918,11 +918,9 @@
 <https://2024.dataweek.de/lswt2024/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2024.dataweek.de/lswt2024/#programm-session-2> <http://schema.org/endTime> "11:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/lswt2024/#programm-session-2> <http://schema.org/performer> <http://aksw.org/KirillBulert> .
 <https://2024.dataweek.de/lswt2024/#programm-session-2> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-session-2> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-10> .
 <https://2024.dataweek.de/lswt2024/#programm-session-2> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-11> .
-<https://2024.dataweek.de/lswt2024/#programm-session-2> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-12> .
 <https://2024.dataweek.de/lswt2024/#programm-session-2> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-6> .
 <https://2024.dataweek.de/lswt2024/#programm-session-2> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-7> .
 <https://2024.dataweek.de/lswt2024/#programm-session-2> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-8> .
@@ -936,14 +934,13 @@
 <https://2024.dataweek.de/lswt2024/#programm-session-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2024.dataweek.de/lswt2024/#programm-session-3> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/lswt2024/#programm-session-3> <http://schema.org/performer> <https://dataweek.de/#MagnusKnuth> .
 <https://2024.dataweek.de/lswt2024/#programm-session-3> <http://schema.org/startTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-session-3> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-14> .
 <https://2024.dataweek.de/lswt2024/#programm-session-3> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-15> .
 <https://2024.dataweek.de/lswt2024/#programm-session-3> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-16> .
 <https://2024.dataweek.de/lswt2024/#programm-session-3> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-17> .
 <https://2024.dataweek.de/lswt2024/#programm-session-3> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-18> .
 <https://2024.dataweek.de/lswt2024/#programm-session-3> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-19> .
-<https://2024.dataweek.de/lswt2024/#programm-session-3> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-20> .
 <https://2024.dataweek.de/lswt2024/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-session-4> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/lswt2024/#programm-session-4> <http://purl.org/dc/terms/description> "This session will discuss Semantic Technologies in the broader context of Artificial Intelligence and Large Language Models such as ChatGPT."@de .
@@ -953,180 +950,156 @@
 <https://2024.dataweek.de/lswt2024/#programm-session-4> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2024.dataweek.de/lswt2024/#programm-session-4> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-session-4> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/lswt2024/#programm-session-4> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
 <https://2024.dataweek.de/lswt2024/#programm-session-4> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-session-4> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-22> .
 <https://2024.dataweek.de/lswt2024/#programm-session-4> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-23> .
 <https://2024.dataweek.de/lswt2024/#programm-session-4> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-24> .
 <https://2024.dataweek.de/lswt2024/#programm-session-4> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-25> .
-<https://2024.dataweek.de/lswt2024/#programm-session-4> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-26> .
 <https://2024.dataweek.de/lswt2024/#programm-session-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-10> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-10> <http://purl.org/dc/terms/title> "Talk 7"@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-10> <http://purl.org/dc/terms/title> "Talk 7"@en .
+<https://2024.dataweek.de/lswt2024/#programm-talk-10> <http://purl.org/dc/terms/title> "Talk 5"@de .
+<https://2024.dataweek.de/lswt2024/#programm-talk-10> <http://purl.org/dc/terms/title> "Talk 5"@en .
 <https://2024.dataweek.de/lswt2024/#programm-talk-10> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-10> <http://schema.org/endTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-10> <http://schema.org/endTime> "11:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-10> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-10> <http://schema.org/performer> <http://aksw.org/ThomasRiechert> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-10> <http://schema.org/startTime> "11:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-10> <http://schema.org/startTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-11> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-11> <http://purl.org/dc/terms/title> "Talk 8"@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-11> <http://purl.org/dc/terms/title> "Talk 8"@en .
-<https://2024.dataweek.de/lswt2024/#programm-talk-11> <http://schema.org/endTime> "11:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-11> <http://schema.org/startTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-11> <http://purl.org/dc/terms/title> "Talk 6"@de .
+<https://2024.dataweek.de/lswt2024/#programm-talk-11> <http://purl.org/dc/terms/title> "Talk 6"@en .
+<https://2024.dataweek.de/lswt2024/#programm-talk-11> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-11> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-11> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-11> <http://schema.org/startTime> "11:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-12> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-12> <http://purl.org/dc/terms/title> "Talk 9"@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-12> <http://purl.org/dc/terms/title> "Talk 9"@en .
-<https://2024.dataweek.de/lswt2024/#programm-talk-12> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-12> <http://schema.org/startTime> "11:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-14> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-14> <http://purl.org/dc/terms/title> "Talk 7"@de .
+<https://2024.dataweek.de/lswt2024/#programm-talk-14> <http://purl.org/dc/terms/title> "Talk 7"@en .
+<https://2024.dataweek.de/lswt2024/#programm-talk-14> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-14> <http://schema.org/endTime> "13:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-14> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-14> <http://schema.org/startTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-15> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-15> <http://purl.org/dc/terms/title> "Talk 7"@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-15> <http://purl.org/dc/terms/title> "Talk 7"@en .
+<https://2024.dataweek.de/lswt2024/#programm-talk-15> <http://purl.org/dc/terms/title> "Talk 8"@de .
+<https://2024.dataweek.de/lswt2024/#programm-talk-15> <http://purl.org/dc/terms/title> "Talk 8"@en .
 <https://2024.dataweek.de/lswt2024/#programm-talk-15> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-15> <http://schema.org/endTime> "13:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-15> <http://schema.org/endTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-15> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-15> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-15> <http://schema.org/startTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-15> <http://schema.org/startTime> "13:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-16> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-16> <http://purl.org/dc/terms/title> "Talk 8"@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-16> <http://purl.org/dc/terms/title> "Talk 8"@en .
-<https://2024.dataweek.de/lswt2024/#programm-talk-16> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-16> <http://schema.org/endTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-16> <http://purl.org/dc/terms/title> "Talk 9"@de .
+<https://2024.dataweek.de/lswt2024/#programm-talk-16> <http://purl.org/dc/terms/title> "Talk 9"@en .
+<https://2024.dataweek.de/lswt2024/#programm-talk-16> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-16> <http://schema.org/endTime> "13:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-16> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-16> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-16> <http://schema.org/startTime> "13:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-16> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-17> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-17> <http://purl.org/dc/terms/title> "Talk 9"@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-17> <http://purl.org/dc/terms/title> "Talk 9"@en .
+<https://2024.dataweek.de/lswt2024/#programm-talk-17> <http://purl.org/dc/terms/title> "Talk 10"@de .
+<https://2024.dataweek.de/lswt2024/#programm-talk-17> <http://purl.org/dc/terms/title> "Talk 10"@en .
 <https://2024.dataweek.de/lswt2024/#programm-talk-17> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-17> <http://schema.org/endTime> "13:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-17> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-17> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-17> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-17> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-17> <http://schema.org/startTime> "13:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-18> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-18> <http://purl.org/dc/terms/title> "Talk 10"@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-18> <http://purl.org/dc/terms/title> "Talk 10"@en .
+<https://2024.dataweek.de/lswt2024/#programm-talk-18> <http://purl.org/dc/terms/title> "Talk 11"@de .
+<https://2024.dataweek.de/lswt2024/#programm-talk-18> <http://purl.org/dc/terms/title> "Talk 11"@en .
 <https://2024.dataweek.de/lswt2024/#programm-talk-18> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-18> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-18> <http://schema.org/endTime> "14:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-18> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-18> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-18> <http://schema.org/startTime> "13:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-18> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-19> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-19> <http://purl.org/dc/terms/title> "Talk 11"@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-19> <http://purl.org/dc/terms/title> "Talk 11"@en .
+<https://2024.dataweek.de/lswt2024/#programm-talk-19> <http://purl.org/dc/terms/title> "Talk 12"@de .
+<https://2024.dataweek.de/lswt2024/#programm-talk-19> <http://purl.org/dc/terms/title> "Talk 12"@en .
 <https://2024.dataweek.de/lswt2024/#programm-talk-19> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-19> <http://schema.org/endTime> "14:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-19> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-19> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-19> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-19> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-19> <http://schema.org/startTime> "14:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-20> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-20> <http://purl.org/dc/terms/title> "Talk 12"@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-20> <http://purl.org/dc/terms/title> "Talk 12"@en .
-<https://2024.dataweek.de/lswt2024/#programm-talk-20> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-20> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-20> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-20> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-20> <http://schema.org/startTime> "14:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-22> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-22> <http://purl.org/dc/terms/title> "Talk 13"@de .
+<https://2024.dataweek.de/lswt2024/#programm-talk-22> <http://purl.org/dc/terms/title> "Talk 13"@en .
+<https://2024.dataweek.de/lswt2024/#programm-talk-22> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-22> <http://schema.org/endTime> "15:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-22> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-22> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://purl.org/dc/terms/title> "Talk 13"@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://purl.org/dc/terms/title> "Talk 13"@en .
+<https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://purl.org/dc/terms/title> "Talk 14"@de .
+<https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://purl.org/dc/terms/title> "Talk 14"@en .
 <https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://schema.org/endTime> "15:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://schema.org/endTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://schema.org/performer> <http://aksw.org/LarsPeterMeyer> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://schema.org/startTime> "15:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://purl.org/dc/terms/title> "Talk 14"@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://purl.org/dc/terms/title> "Talk 14"@en .
+<https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://purl.org/dc/terms/title> "Talk 15"@de .
+<https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://purl.org/dc/terms/title> "Talk 15"@en .
 <https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://schema.org/endTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://schema.org/endTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://schema.org/startTime> "15:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-25> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-25> <http://purl.org/dc/terms/title> "Talk 15"@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-25> <http://purl.org/dc/terms/title> "Talk 15"@en .
+<https://2024.dataweek.de/lswt2024/#programm-talk-25> <http://purl.org/dc/terms/title> "Talk 16"@de .
+<https://2024.dataweek.de/lswt2024/#programm-talk-25> <http://purl.org/dc/terms/title> "Talk 16"@en .
 <https://2024.dataweek.de/lswt2024/#programm-talk-25> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-25> <http://schema.org/endTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-25> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-25> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-25> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-25> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-25> <http://schema.org/startTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-26> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-26> <http://purl.org/dc/terms/title> "Talk 16"@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-26> <http://purl.org/dc/terms/title> "Talk 16"@en .
+<https://2024.dataweek.de/lswt2024/#programm-talk-26> <http://purl.org/dc/terms/title> "?"@de .
+<https://2024.dataweek.de/lswt2024/#programm-talk-26> <http://purl.org/dc/terms/title> "?"@en .
 <https://2024.dataweek.de/lswt2024/#programm-talk-26> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-26> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-26> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-26> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-26> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-26> <http://schema.org/startTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-26> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-27> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-27> <http://purl.org/dc/terms/description> "We will award the best student posters with the eccenca LSWT Poster Award as well as close the 11th Leipzig Semantic Web Day."@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-27> <http://purl.org/dc/terms/description> "We will award the best student posters with the eccenca LSWT Poster Award as well as close the 11th Leipzig Semantic Web Day."@en .
-<https://2024.dataweek.de/lswt2024/#programm-talk-27> <http://purl.org/dc/terms/title> "Poster Awards and Closing Ceremony"@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-27> <http://purl.org/dc/terms/title> "Poster Awards and Closing Ceremony"@en .
-<https://2024.dataweek.de/lswt2024/#programm-talk-27> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-27> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-27> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-27> <http://schema.org/performer> <http://aksw.org/SebastianTramp> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-27> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-3> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-3> <http://purl.org/dc/terms/title> "Keynote Talk"@de .
 <https://2024.dataweek.de/lswt2024/#programm-talk-3> <http://purl.org/dc/terms/title> "Keynote Talk"@en .
 <https://2024.dataweek.de/lswt2024/#programm-talk-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-3> <http://schema.org/endTime> "10:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-3> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-3> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-3> <http://schema.org/startTime> "09:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-6> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-6> <http://purl.org/dc/terms/title> "Talk 3"@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-6> <http://purl.org/dc/terms/title> "Talk 3"@en .
+<https://2024.dataweek.de/lswt2024/#programm-talk-6> <http://purl.org/dc/terms/title> "Talk 1"@de .
+<https://2024.dataweek.de/lswt2024/#programm-talk-6> <http://purl.org/dc/terms/title> "Talk 1"@en .
 <https://2024.dataweek.de/lswt2024/#programm-talk-6> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-6> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-6> <http://schema.org/endTime> "10:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-6> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-6> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-6> <http://schema.org/startTime> "10:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-6> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-7> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-7> <http://purl.org/dc/terms/title> "Talk 4"@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-7> <http://purl.org/dc/terms/title> "Talk 4"@en .
+<https://2024.dataweek.de/lswt2024/#programm-talk-7> <http://purl.org/dc/terms/title> "Talk 2"@de .
+<https://2024.dataweek.de/lswt2024/#programm-talk-7> <http://purl.org/dc/terms/title> "Talk 2"@en .
 <https://2024.dataweek.de/lswt2024/#programm-talk-7> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-7> <http://schema.org/endTime> "10:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-7> <http://schema.org/endTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-7> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-7> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-7> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-7> <http://schema.org/startTime> "10:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-8> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-8> <http://purl.org/dc/terms/title> "Talk 5"@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-8> <http://purl.org/dc/terms/title> "Talk 5"@en .
+<https://2024.dataweek.de/lswt2024/#programm-talk-8> <http://purl.org/dc/terms/title> "Talk 3"@de .
+<https://2024.dataweek.de/lswt2024/#programm-talk-8> <http://purl.org/dc/terms/title> "Talk 3"@en .
 <https://2024.dataweek.de/lswt2024/#programm-talk-8> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-8> <http://schema.org/endTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-8> <http://schema.org/endTime> "11:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-8> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-8> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-8> <http://schema.org/startTime> "10:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-8> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-9> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-9> <http://purl.org/dc/terms/title> "Talk 6"@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-9> <http://purl.org/dc/terms/title> "Talk 6"@en .
+<https://2024.dataweek.de/lswt2024/#programm-talk-9> <http://purl.org/dc/terms/title> "Talk 4"@de .
+<https://2024.dataweek.de/lswt2024/#programm-talk-9> <http://purl.org/dc/terms/title> "Talk 4"@en .
 <https://2024.dataweek.de/lswt2024/#programm-talk-9> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-9> <http://schema.org/endTime> "11:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-9> <http://schema.org/endTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-9> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-9> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-9> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-talk-9> <http://schema.org/startTime> "11:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/lswt2024/> <http://purl.org/dc/terms/description> "Der Leipziger Semantic Web Tag (LSWT) erm\u00F6glicht seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen, sich zu Themen im Bereich semantischer Technologien auszutauschen. Der **12. Leipziger Semantic Web Tag (#LSWT2024)** wird am **18. April 2024** im Rahmen der Data Week Leipzig stattfinden.\n\nWie auch schon in den Jahren davor werden die neuesten Entwicklungen und Trends in den Bereichen semantische Technologien und Daten pr\u00E4sentiert. **Schwerpunktthemen** in diesem Jahr sind: aktuelle Herausforderungen bei der Anwendung von Large Language Models; semantische Technologien und KI f\u00FCr die Industrie und die Wissenschaft; Anwendungen von Wissensgrafen und Nachhaltigkeit; FAIR Data und Datenkataloge; Cybersecurity in Data; Management; vernetzte Gesellschaft und Resiliente krisenrelevante Versorgungsnetze.\n\nFalls Sie weitere Fragen haben, k\u00F6nnen Sie sich gern an das Organisationsteam wenden: [lswt@eccenca.com](mailto:lswt@eccenca.com)."@de .
@@ -1144,7 +1117,7 @@
 <https://2024.dataweek.de/lswt2024/> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-session-2> .
 <https://2024.dataweek.de/lswt2024/> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-session-3> .
 <https://2024.dataweek.de/lswt2024/> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-session-4> .
-<https://2024.dataweek.de/lswt2024/> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-27> .
+<https://2024.dataweek.de/lswt2024/> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-26> .
 <https://2024.dataweek.de/lswt2024/> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-3> .
 <https://2024.dataweek.de/lswt2024/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
