@@ -1,0 +1,59 @@
+{% include strings.html %}
+{%- assign title = include.title -%}
+{%- assign view = include.view -%}
+
+{% capture session_query %}
+SELECT DISTINCT ?session
+WHERE {
+  {
+    ?session dct:title "{{- title -}}"@en ;
+      schema:location ?location ;
+      dct:date ?date ;
+    FILTER ({{ view.filter }})
+  }
+} ORDER BY ?date ?start ?end ?location
+{% endcapture %}
+
+{% capture metainformation_query %}
+SELECT DISTINCT ?start ?end ?location
+WHERE {
+  {
+    ?session dct:title "{{- title -}}"@en ;
+      schema:location ?location ;
+      dct:date ?date ;
+      schema:startTime ?start ;
+      schema:endTime ?end .
+    FILTER ({{ view.filter }})
+  }
+} ORDER BY ?date ?start ?end ?location
+{% endcapture %}
+
+{% assign sessions = view.resource | sparql_query: session_query %}
+
+{%- if sessions.first -%}
+  {%- assign title = sessions.first.session | rdf_property: "dct:title", site.language -%}
+{% assign metainformation = sessions.first.session | sparql_query: metainformation_query %}
+{%- assign description = sessions.first.session | rdf_property: "dct:description", site.language -%}
+<section class="timetable-unit"  id="topic">
+  <header>
+    <h3>
+      {{ metainformation.first.start | date: "%H:%M" }}
+    </h3>
+  </header>
+  <div>
+    <h4>
+      {{ title }}
+    </h4>
+  {%- for metadata in metainformation -%}
+    {%- assign location_title = metadata.location | rdf_property: "dct:title", site.language -%}
+    {%- unless location_title -%}
+      {%- assign location_title = metadata.location | rdf_property: "dct:title" -%}
+    {%- endunless -%}
+    <p class="meta">
+      <time datetime="{{ metadata.start | date: "%H:%M" }}">{{ metadata.start  | date: "%H:%M" }}</time> - <time datetime="{{ metadata.end | date: "%H:%M" }}">{{ metadata.end  | date: "%H:%M" }}</time> <span>|</span> {{ location_title }} <span>|</span> {% include components/available_language.html resource=sessions.first.session %}
+    </p>
+  {%-  endfor -%}
+    <p>{{- description -}}</p>
+  </div>
+</section>
+{%-  endif -%}

@@ -7,6 +7,7 @@ layout: basic
 {% assign baseMenuResource = page.rdf | rdf_property: "dw:menuResource" %}
 {% assign dwTable = "dw:Table" | rdf_get %}
 {% assign dwList = "dw:List" | rdf_get %}
+{% assign dwTopiclist = "dw:Topiclist" | rdf_get %}
 
 {% if baseMenuResource %}
   {% assign baseEventResource = baseMenuResource %}
@@ -55,6 +56,8 @@ WHERE {
   {%- include components/program_view_list.html view=view -%}
 {%- elsif mode == dwTable -%}
   {%- include components/program_view_table.html view=view -%}
+{%- elsif mode == dwTopiclist -%}
+  {%- include components/program_view_topiclist.html view=view -%}
 {%- endif -%}
 
 {%- if program_empty -%}
