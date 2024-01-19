@@ -1,0 +1,32 @@
+{% assign view = include.view %}
+
+{% capture sessions_query %}
+SELECT DISTINCT ?title # (min(?q_session) as ?session)
+WHERE {
+  {
+    ?resourceUri schema:subEvent ?q_session ;
+  } union {
+    ?resourceUri schema:subEvent ?subEvent .
+    ?subEvent schema:subEvent ?q_session .
+  }
+  ?q_session dct:title ?title ;
+    schema:startTime ?start .
+  {
+    ?q_session schema:location ?location ;
+      dct:date ?date .
+    FILTER NOT EXISTS  {?q_session site:track ?pause } 
+    FILTER ({{ view.filter }})
+  } FILTER(lang(?title) = "en")
+} ORDER BY ?start
+#} GROUP BY ?title ORDER BY ?start # GROUP BY does not work ruby
+{% endcapture %}
+
+{% assign sessions = view.resource | sparql_query: sessions_query %}
+
+{%- if sessions.first -%}
+  {%- for session_row in sessions -%}
+    {%- include components/program_topic.html title=session_row.title view=view-%}
+  {%- endfor -%}
+{%- else -%}
+  {%- assign program_empty = true -%}
+{%- endif -%}
