@@ -29,6 +29,8 @@ vars:
   TARGET_DE: '{{.TARGET_DE | default .TARGET}}'
   TARGET_EN: '{{.TARGET_EN | default "_site/en"}}'
 
+  FLAVOUR: '{{.FLAVOUR | default "staging"}}'
+
   BUILD_WATCH_FILES: find . -name '*' -not -path "./.git/*" -not -path "./.git" -not -path "./.jekyll-cache/*" -not -path "./.jekyll-cache" -not -path "./_tmp" -not -path "./_tmp/*" -not -path "./_site" -not -path "./_site/*"
 
 tasks:
@@ -56,6 +58,7 @@ tasks:
       - mv {{.TARGET_TMP_DE}} {{.TARGET_DE}}
       - mv {{.TARGET_TMP_EN}} {{.TARGET_EN}}
       - task: ical:sync
+      - task: robots
 
   release:
     desc: Open a new pull request to merge develop to main
@@ -189,6 +192,11 @@ tasks:
   pictures:scale:leipzig:
     cmds:
       - sizes="480 800 1200 1600 1980"; for i in $sizes; do convert resources/images/Leipzig.jpg -resize ${i}x resources/images/Leipzig_${i}.jpg; done
+
+  robots:
+    desc: Put the correct robots.txt into the _site folder
+    cmds:
+      - cp robots-{{.FLAVOUR}}.txt _site/robots.txt
 
   track:commit-and-push-pictures:
     - git add {{.TARGET_DIR}}
