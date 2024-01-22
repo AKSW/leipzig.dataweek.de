@@ -23,6 +23,8 @@ jobs:
         ref: 'page-live'
         path: '.ical'
     - name: Run CI Tasks ⚙️
+      env:
+        FLAVOUR: live
       run: task build
     - name: Deploy 🚀
       uses: peaceiris/actions-gh-pages@v3
