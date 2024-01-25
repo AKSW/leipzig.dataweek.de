@@ -272,6 +272,49 @@
 <https://2014.semantics.cc/> <http://www.w3.org/2000/01/rdf-schema#label> "SEMANTiCS Leipzig 2014" .
 <https://2016.semantics.cc/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2016.semantics.cc/> <http://www.w3.org/2000/01/rdf-schema#label> "SEMANTiCS Leipzig 2016" .
+<https://2023.dataweek.de/> <http://purl.org/dc/terms/date> "26.\u201330.6.2023"@de .
+<https://2023.dataweek.de/> <http://purl.org/dc/terms/date> "June 26th to 30th, 2023"@en .
+<https://2023.dataweek.de/> <http://rdfs.org/ns/void#rootResource> <https://2023.dataweek.de/#MainMenu> .
+<https://2023.dataweek.de/> <http://schema.org/abstract> "Data Week is a week-long event in Leipzig focusing on digitization in heterogeneous areas of life as well as transparent, traceable and sustainable applications. In addition to the obvious STEM focus of the events, the content also integrates political, scientific and overall societal perspectives on artificial intelligence and data."@en .
+<https://2023.dataweek.de/> <http://schema.org/abstract> "Die Data Week ist eine einw\u00F6chige Veranstaltung in Leipzig mit den Themenschwerpunkten Digitalisierung in heterogenen Lebensbereichen sowie transparente, nachvollziehbare und nachhaltige Anwendungen. Inhaltlich werden neben dem offensichtlichen MINT-Schwerpunkt der Veranstaltungen auch politische, wissenschaftliche und gesamtgesellschaftliche Perspektiven auf K\u00FCnstliche Intelligenz und Daten integriert."@de .
+<https://2023.dataweek.de/> <http://schema.org/endDate> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/> <http://schema.org/location> <https://2023.dataweek.de/venue/> .
+<https://2023.dataweek.de/> <http://schema.org/logo> <https://dataweek.de/resources/images/social_image.png> .
+<https://2023.dataweek.de/> <http://schema.org/organizer> <https://2023.dataweek.de/team-generalchair> .
+<https://2023.dataweek.de/> <http://schema.org/organizer> <https://2023.dataweek.de/team> .
+<https://2023.dataweek.de/> <http://schema.org/partner> <https://2023.dataweek.de/Partner> .
+<https://2023.dataweek.de/> <http://schema.org/slogan> "Forum for Data and AI Enthusiasts in Leipzig"@en .
+<https://2023.dataweek.de/> <http://schema.org/slogan> "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de .
+<https://2023.dataweek.de/> <http://schema.org/sponsor> <https://2023.dataweek.de/Sponsors> .
+<https://2023.dataweek.de/> <http://schema.org/startDate> "2023-06-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/ai-tomorrow-2023/> .
+<https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/breaks/> .
+<https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/dsm-2023/> .
+<https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/free-2023/> .
+<https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/gdds-2023/> .
+<https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/kmi-23/> .
+<https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/lodh-2023/> .
+<https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/lswt2023/> .
+<https://2023.dataweek.de/> <http://schema.org/subEvent> <https://2023.dataweek.de/scads-tutorials-2023/> .
+<https://2023.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+<https://2023.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2023.dataweek.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2023" .
+<https://2023.dataweek.de/> <http://www.w3.org/2002/07/owl#sameAs> <https://dataweek.de/> .
+<https://2023.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#impression2301> .
+<https://2023.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#impression2302> .
+<https://2023.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#impression2303> .
+<https://2023.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#impression2304> .
+<https://2023.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#impression2305> .
+<https://2023.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#impression2306> .
+<https://2023.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#impression2307> .
+<https://2023.dataweek.de/> <https://dataweek.de/#cooperator> <https://2023.dataweek.de/Cooperators> .
+<https://2023.dataweek.de/> <https://dataweek.de/#coorganizer> <https://2023.dataweek.de/Coorganizers> .
+<https://2023.dataweek.de/> <https://dataweek.de/#news> <https://2023.dataweek.de/News1> .
+<https://2023.dataweek.de/> <https://dataweek.de/#news> <https://2023.dataweek.de/News2> .
+<https://2023.dataweek.de/> <https://dataweek.de/#news> <https://2023.dataweek.de/News3> .
+<https://2023.dataweek.de/> <https://dataweek.de/#news> <https://2023.dataweek.de/News4> .
+<https://2023.dataweek.de/> <https://dataweek.de/#news> <https://2023.dataweek.de/News5> .
+<https://2023.dataweek.de/> <https://dataweek.de/#organizer> <https://2023.dataweek.de/Organizers> .
 <https://2023.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2024.dataweek.de/break/2024-04-15/08:30> .
 <https://2023.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2024.dataweek.de/break/2024-04-15/10:30> .
 <https://2023.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2024.dataweek.de/break/2024-04-15/12:30> .
@@ -372,6 +415,7 @@
 <https://2024.dataweek.de/> <https://dataweek.de/#coorganizer> <https://2024.dataweek.de/Coorganizers> .
 <https://2024.dataweek.de/> <https://dataweek.de/#news> <https://2024.dataweek.de/News1> .
 <https://2024.dataweek.de/> <https://dataweek.de/#news> <https://2024.dataweek.de/News2> .
+<https://2024.dataweek.de/> <https://dataweek.de/#news> <https://2024.dataweek.de/News3> .
 <https://2024.dataweek.de/> <https://dataweek.de/#organizer> <https://2024.dataweek.de/Organizers> .
 <https://2024.dataweek.de/> <https://www.openresearch.org/wiki/Property:Cfp> <https://2024.dataweek.de/CfP> .
 <https://2024.dataweek.de/CfP> <http://purl.org/dc/terms/description> "Seit 2022 ist die Data Week Leipzig eine Netzwerk- und Austauschveranstaltung, die wissenschaftliche, wirtschaftliche und soziale Perspektiven von Daten und deren Nutzung beleuchtet. Innerhalb der Data Week Leipzig 2024 k\u00F6nnen Workshops, Trainings und Hackathons organisiert werden. Die Konferenzwoche findet vom 15. bis 19. April 2024 im Neuen Rathaus Leipzig statt. \n\nBei der diesj\u00E4hrigen Veranstaltung waren ca. 500 VertreterInnen aus Verwaltung, Forschung und Industrie an f\u00FCnf Veranstaltungstagen im Neuen Rathaus Leipzig zu Gast und haben sich \u00FCber durchgef\u00FChrte und neu zu planende Projekte ausgetauscht. Weiterhin ist die Data Week Leipzig ein hervorragender Rahmen zum Networking, Erfahrungsaustausch und Recruiting. \n\nWir laden insbesondere zu Veranstaltungsvorschl\u00E4gen ein, die sich interdisziplin\u00E4r und \u00FCberregional mit den Themen Daten, Digitalisierung und K\u00FCnstliche Intelligenz befassen.  \n\nEs k\u00F6nnen **Workshops** zu den folgenden Themen eingereicht werden: \n\n- Data Science (Big Data, Data Analytics, Semantics) \n- Open Data Lifecycle \u2013 Von Datenakquisition bis zur Anwendung \n- Digitalisierung und Stadtentwicklung (Mobilit\u00E4t, Energie, Smart Cities)  \n- KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie (z.B. Anwendung von LLM, Aufbau und Nutzung Digitaler Zwillinge) \n- Hardware-Entwicklung f\u00FCr KI-Systeme (z.B. IoT, Sensorik zum Datensourcen) \n- Digitale Tools der B\u00FCrger*innenbeteiligung  \n- Zukunft aus dem Gesundheitssektor  \n- Nachhaltigkeit und neue Technologien \n- Leadership in Daten- / Digitalisierungs- / KI -Teams \n- Projektmanagement in Daten-/ Digitalisierungs- und KI-Projekten \n- Ethische Fragestellungen in Daten-/ Digitalisierungs- und KI-Projekten \n\nDes Weiteren k\u00F6nnen **Trainings** mit den folgenden Schwerpunkten veranstaltet werden:  \n\n- Data Science-Anwendungen \n- Open Data \u2013 Metadatengestaltung und Bereitstellung \n- Datenvisualisierung, Datenanalyse \n- K\u00FCnstliche Intelligenz, Wissensgraphen \n- Einf\u00FChrung in datengetriebene Technologien, Methoden, Werkzeuge, Tools und Trends \n- Hardware-Einsatz (z.B. IoT, Sensorik zum Datensourcen) \n- Leadership und Organisationsaufbau in Daten- / Digitalisierungs- / KI \u2013Teams \n- Projektmanagement in Daten-/ Digitalisierungs-/ KI-Projekten \n\nIT-Firmen sind dazu aufgerufen ihre eigenen Produkte, Datens\u00E4tze oder Anwendungsf\u00E4lle vorzustellen.  \n\nAuch Einreichungen zu **Hackathon**s sind m\u00F6glich. Im letzten Jahr wurde der Leipzig Open Data Hackathon vom Amt f\u00FCr Statistik und Wahlen der Stadt Leipzig veranstaltet. F\u00FCr weitere und andere Themenvorschl\u00E4ge sind wir offen. Bitte nehmen Sie schnellstm\u00F6glich Kontakt mit uns auf. \n\n### Einreichung \n\nDie Einreichung f\u00FCr alle Data Week Leipzig Sub-Events sind ab sofort bis zum 15.11.2023 \u00FCber dataweek[at]infai.org m\u00F6glich. Die Einreichung besteht aus einer kurzen Zusammenfassung des Events (Abstract mit max. 500 W\u00F6rter) sowie einer Beschreibung wie eine ausreichende Anzahl an Teilnehmenden akquiriert bzw. angesprochen wird. Bitte geben Sie bei der Anmeldung Name(n) und E-Mail-Adresse(n) der Ansprechperson(en), Veranstaltungsformat sowie -dauer (halbtags, ganztags) an. Wenn es schon eine bestehende Community gibt oder ein vorheriges Event veranstaltet wurden, senden Sie gern Links im PDF-Dokument mit. Bitte senden Sie uns ihr Abstract als eine PDF-Datei und schreiben Sie dazu, ob die Vortragssprache Deutsch oder Englisch ist.   \n\nWir erwarten, dass die Organisator:innen der Sub-Events pers\u00F6nlich an der Data Week Leipzig teilnehmen und sich selbst f\u00FCr die Konferenz registrieren. \n\nEinreichungen werden nach Eingangsdatum bearbeitet: Wir m\u00F6chten die aktive Beteiligung von allen teilnehmenden Organisationen f\u00F6rdern, um die Gesamtreichweite der Data Week Leipzig zu erweitern. Daher wird nach dem \"First come - first serve!\" Prinzip entschieden. Die \u00DCberpr\u00FCfungskriterien werden wie folgt festgesetzt: 1) Veranstaltungsthema des Subs-Events muss in die Themenbereiche der Data Week passen, 2) Nachvollziehbarkeit der Erkl\u00E4rung, dass das Sub-Event in der Lage ist, ausreichend Teilnehmende anzuziehen. \n\n### Ablauf \n\n- Einreichungsschluss Abstracts: 15.11.2023  \n- Bekanntgabe aller Veranstaltungsformate: 30.11.2023    \n- Einreichung aller Programm- und Sessioninformationen (Ablauf etc.): 31.01.2024  \n- Finales Programm online: 01.03.2024 \n- Veranstaltungswoche: 15.04.2024-19.04. 2024  \n  \nF\u00FCr R\u00FCckfragen wenden Sie sich bitte an dataweek[at]infai.org.  \n\nWir freuen uns auf Ihren Beitrag! \n\nIhr Data Week Leipzig Team"@de .
@@ -418,6 +462,12 @@
 <https://2024.dataweek.de/News2> <http://purl.org/dc/terms/title> "Data Week Leipzig 2024 - 15. bis 19. April"@de .
 <https://2024.dataweek.de/News2> <http://purl.org/dc/terms/title> "Data Week Leipzig 2024 - April 15th to 19th"@en .
 <https://2024.dataweek.de/News2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post> .
+<https://2024.dataweek.de/News3> <http://purl.org/dc/terms/date> "2024-01-25T07:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://2024.dataweek.de/News3> <http://purl.org/dc/terms/description> "Die Inhalte zu den verschiedenen Tracks und Workshops sind nun auf unserer Website online und werden fortlaufend erg\u00E4nzt. Entdecken Sie unser vielf\u00E4ltiges Programm rund um die Themen KI, semantische Technologien und die Potenziale von Digitalisierung und Datennutzung in verschiedenen Arbeitsfeldern. Ab sofort k\u00F6nnen Sie unter dem Men\u00FCpunkt \u201CTracks\u201D alle geplanten Formate, die w\u00E4hrend der Data Week Leipzig stattfinden, einsehen. Unter anderem werden neben einem KMI-Transfertag spannende Workshops zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform sowie Trainings und Tutorials, die einen Einblick in Use Cases und Datens\u00E4tze geben, angeboten. "@de .
+<https://2024.dataweek.de/News3> <http://purl.org/dc/terms/description> "The contents of the various tracks and workshops are now online on our website and are continuously updated. Discover our diverse program on the topics of KI, semantic technologies and the potential of digitalisation and data use in various fields of work. You can now see all the planned sessions taking place during Data Week Leipzig under the menu item \"Tracks\". In addition to a KMI transfer day, there will be exciting workshops on the topics of GPT, digitalisation in education, sustainable AI and 3D printing platforms, as well as training sessions and tutorials that provide an insight into use cases and data sets."@en .
+<https://2024.dataweek.de/News3> <http://purl.org/dc/terms/title> "Data Week Leipzig 2024 - Programm online"@de .
+<https://2024.dataweek.de/News3> <http://purl.org/dc/terms/title> "Data Week Leipzig 2024 - program online"@en .
+<https://2024.dataweek.de/News3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Post> .
 <https://2024.dataweek.de/Organizers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://infai.org/> .
 <https://2024.dataweek.de/Organizers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2024.dataweek.de/Organizers> <http://www.w3.org/2000/01/rdf-schema#label> "Organizer"@en .
