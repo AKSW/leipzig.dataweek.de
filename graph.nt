@@ -450,6 +450,7 @@
 <https://2024.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2024.dataweek.de/news> .
 <https://2024.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2024.dataweek.de/sponsoring> .
 <https://2024.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2024.dataweek.de/venue/> .
+<https://2024.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2024.dataweek.de/tickets> .
 <https://2024.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2024.dataweek.de/MainMenu> <http://xmlns.com/foaf/0.1/primaryTopic> <https://2024.dataweek.de/> .
 <https://2024.dataweek.de/News1> <http://purl.org/dc/terms/date> "2023-09-11T07:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
@@ -1329,8 +1330,8 @@
 <https://2024.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <http://aksw.org/NatanaelArndt> .
 <https://2024.dataweek.de/team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam"@de .
 <https://2024.dataweek.de/team> <http://www.w3.org/2000/01/rdf-schema#label> "Organization Team"@en .
-<https://2024.dataweek.de/tickets> <http://purl.org/dc/terms/description> "Daily and weekly tickets can be purchased here: [https://pretix.eu/infai/dataweek2023/](https://pretix.eu/infai/dataweek2023/).\n\nYou must purchase a ticket to attend Data Week Leipzig. Students can secure a discounted ticket at [dataweek@infai.org](mailto:dataweek@infai.org). We will provide a limited contingent. We look forward to your participation!"@en .
-<https://2024.dataweek.de/tickets> <http://purl.org/dc/terms/description> "Tages- und Wochentickets k\u00F6nnen hier erworben werden: [https://pretix.eu/infai/dataweek2023/](https://pretix.eu/infai/dataweek2023/).\n\nSie m\u00FCssen ein Ticket erwerben um an der Data Week Leipzig teilnehmen zu k\u00F6nnen. Studierende k\u00F6nnen sich unter [dataweek@infai.org](mailto:dataweek@infai.org) ein verg\u00FCnstigtes Ticket sichern.\nWir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!"@de .
+<https://2024.dataweek.de/tickets> <http://purl.org/dc/terms/description> "Daily and weekly tickets can be purchased shortly.\n\nYou must purchase a ticket to attend Data Week Leipzig. Students can secure a discounted ticket at [dataweek2024@fu-confirm.de](mailto:dataweek2024@fu-confirm.de). We will provide a limited contingent. We look forward to your participation!"@en .
+<https://2024.dataweek.de/tickets> <http://purl.org/dc/terms/description> "Tages- und Wochentickets k\u00F6nnen in K\u00FCrze hier erworben werden.\n\nSie m\u00FCssen ein Ticket erwerben um an der Data Week Leipzig teilnehmen zu k\u00F6nnen. Studierende k\u00F6nnen sich unter [dataweek2024@fu-confirm.de](mailto:dataweek2024@fu-confirm.de) ein verg\u00FCnstigtes Ticket sichern.\nWir stellen ein begrenztes Kontigent bereit. Wir freuen uns auf Ihre Teilnahme!"@de .
 <https://2024.dataweek.de/tickets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2024.dataweek.de/tickets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2024.dataweek.de/tickets> <http://www.w3.org/2000/01/rdf-schema#label> "Tickets"@de .
