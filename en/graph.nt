@@ -104,6 +104,7 @@
 <http://aksw.org/MichaelMartin> <http://purl.org/dc/terms/description> "Head of Competence Center"@en .
 <http://aksw.org/MichaelMartin> <http://purl.org/dc/terms/description> "Leiter Kompetenzzentrum"@de .
 <http://aksw.org/MichaelMartin> <http://schema.org/affiliation> <https://infai.org/> .
+<http://aksw.org/MichaelMartin> <http://schema.org/affiliation> <https://tu-chemnitz.de/> .
 <http://aksw.org/MichaelMartin> <http://schema.org/memberOf> <http://aksw.org/Group> .
 <http://aksw.org/MichaelMartin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/MichaelMartin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -425,6 +426,7 @@
 <https://2024.dataweek.de/CfP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2024.dataweek.de/CfP> <http://www.w3.org/2000/01/rdf-schema#label> "Aufruf zur Einreichung von Veranstaltungen"@de .
 <https://2024.dataweek.de/CfP> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Event Submission"@en .
+<https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <https://tu-chemnitz.de/> .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://kmi-leipzig.de/> .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://connectedurbantwins.de/> .
@@ -433,6 +435,7 @@
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <http://aksw.org/Group> .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://htwk-leipzig.de/> .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://datasciencemania.de/> .
+<https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://noa-invision.de/> .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/2000/01/rdf-schema#label> "In Zusammenarbeit mit"@de .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/2000/01/rdf-schema#label> "In cooperation with"@en .
@@ -3435,6 +3438,9 @@
 <https://tovidero.com/> <http://www.w3.org/2000/01/rdf-schema#label> "TOVIDERO UG" .
 <https://tovidero.com/> <http://xmlns.com/foaf/0.1/homepage> <https://tovidero.com/> .
 <https://tovidero.com/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/Tovidero_logo.png" .
+<https://tu-chemnitz.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://tu-chemnitz.de/> <http://xmlns.com/foaf/0.1/homepage> <https://tu-chemnitz.de/> .
+<https://tu-chemnitz.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/tu-chemnitz.png" .
 <https://tu-dresden.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://tu-dresden.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://tu-dresden.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Universität Dresden"@de .
