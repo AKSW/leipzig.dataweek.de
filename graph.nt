@@ -489,9 +489,8 @@
 <https://2024.dataweek.de/2024-04-18/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2024.dataweek.de/2024-04-18/Ratsplenarsaal> .
 <https://2024.dataweek.de/2024-04-18/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2024.dataweek.de/2024-04-18/Room259> .
 <https://2024.dataweek.de/2024-04-18/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2024.dataweek.de/2024-04-18/Room260> .
-<https://2024.dataweek.de/2024-04-18/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://2024.dataweek.de/2024-04-18/Room263> .
-<https://2024.dataweek.de/2024-04-18/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://2024.dataweek.de/2024-04-18/Room270> .
-<https://2024.dataweek.de/2024-04-18/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://2024.dataweek.de/2024-04-18/Room377> .
+<https://2024.dataweek.de/2024-04-18/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://2024.dataweek.de/2024-04-18/Room270> .
+<https://2024.dataweek.de/2024-04-18/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://2024.dataweek.de/2024-04-18/Room377> .
 <https://2024.dataweek.de/2024-04-18/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2024.dataweek.de/2024-04-18/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2024.dataweek.de/2024-04-18/> <http://www.w3.org/2000/01/rdf-schema#label> "Donnerstag"@de .
@@ -529,13 +528,6 @@
 <https://2024.dataweek.de/2024-04-18/Room260> <http://www.w3.org/2000/01/rdf-schema#label> "Room 260"@en .
 <https://2024.dataweek.de/2024-04-18/Room260> <https://dataweek.de/#resourceUri> <https://2024.dataweek.de/> .
 <https://2024.dataweek.de/2024-04-18/Room260> <https://dataweek.de/#viewFilter> "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Room260>" .
-<https://2024.dataweek.de/2024-04-18/Room263> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/2024-04-18/Room263> <http://schema.org/location> <https://dataweek.de/venue#Room263> .
-<https://2024.dataweek.de/2024-04-18/Room263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2024.dataweek.de/2024-04-18/Room263> <http://www.w3.org/2000/01/rdf-schema#label> "Raum 263"@de .
-<https://2024.dataweek.de/2024-04-18/Room263> <http://www.w3.org/2000/01/rdf-schema#label> "Room 263"@en .
-<https://2024.dataweek.de/2024-04-18/Room263> <https://dataweek.de/#resourceUri> <https://2024.dataweek.de/> .
-<https://2024.dataweek.de/2024-04-18/Room263> <https://dataweek.de/#viewFilter> "str(?date) = \"2024-04-18\" && ?location = <https://dataweek.de/venue#Room263>" .
 <https://2024.dataweek.de/2024-04-18/Room270> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/2024-04-18/Room270> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
 <https://2024.dataweek.de/2024-04-18/Room270> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
