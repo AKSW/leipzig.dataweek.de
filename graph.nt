@@ -406,6 +406,7 @@
 <https://2024.dataweek.de/> <http://schema.org/subEvent> <https://2024.dataweek.de/trainings/> .
 <https://2024.dataweek.de/> <http://schema.org/subEvent> <https://2024.dataweek.de/usd/> .
 <https://2024.dataweek.de/> <http://schema.org/subEvent> <https://2024.dataweek.de/workshops/> .
+<https://2024.dataweek.de/> <http://schema.org/subEvent> <https://dataweek.de/stadt-leipzig/> .
 <https://2024.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
 <https://2024.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2024" .
@@ -1550,13 +1551,19 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-9> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-5> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-5> <http://purl.org/dc/terms/title> "Talk 2"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-5> <http://purl.org/dc/terms/title> "Talk 2"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-5> <http://schema.org/endTime> "11:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-5> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-5> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-6> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-6> <http://purl.org/dc/terms/title> "Talk 3"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-6> <http://purl.org/dc/terms/title> "Talk 3"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-6> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-6> <http://schema.org/endTime> "11:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-6> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-6> <http://schema.org/startTime> "11:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-7> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
