@@ -59,7 +59,7 @@ ORDER BY ?start ?order
   </header>
   {% if description %}
     <p>
-      {{description}}
+      {{description | markdownify }}
     </p>
   {% endif %}
 
