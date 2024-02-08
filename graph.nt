@@ -253,6 +253,11 @@
 <http://www.halle.de/> <http://www.w3.org/2000/01/rdf-schema#label> "City of Halle (Saale)"@en .
 <http://www.halle.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Halle (Saale)"@de .
 <http://www.halle.de/> <http://xmlns.com/foaf/0.1/homepage> <http://www.halle.de/> .
+<http://www.leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://www.leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://www.leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "City of Leipzig"@en .
+<http://www.leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig"@de .
+<http://www.leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <http://www.leipzig.de/> .
 <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty> .
 <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <http://www.w3.org/2000/01/rdf-schema#label> "10." .
 <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty> .
@@ -1560,9 +1565,9 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-26> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-27> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-28> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://purl.org/dc/terms/title> "KI Lab Session"@de .
@@ -1579,9 +1584,9 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-35> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/title> "Energiedaten für die Kommune"@de .
@@ -1590,9 +1595,9 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-35> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-36> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-37> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-38> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-39> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-14> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-14> <http://purl.org/dc/terms/title> "Bable"@de .
@@ -1633,10 +1638,10 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-46> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-47> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-49> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-50> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-51> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-1> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-1> <http://purl.org/dc/terms/title> "Eröffnung mit Grußwort und Keynote"@de .
@@ -1668,9 +1673,9 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-22> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-22> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-22> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-22> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-54> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-22> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-55> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-22> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-22> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-22> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-58> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-23> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-23> <http://purl.org/dc/terms/title> "Session 4"@de .
@@ -1731,12 +1736,15 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-2> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-7> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-3> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-3> <http://purl.org/dc/terms/title> "Session 2"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-3> <http://purl.org/dc/terms/title> "Session 2"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-3> <http://purl.org/dc/terms/title> "AI & Ethics"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-3> <http://purl.org/dc/terms/title> "KI & Ethik"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-3> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-3> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-3> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-3> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-11> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-3> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-12> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-4> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-4> <http://purl.org/dc/terms/title> "Session 3"@de .
@@ -1761,7 +1769,9 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-17> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-20> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-21> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-7> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-7> <http://purl.org/dc/terms/title> "Session 2"@de .
@@ -1787,140 +1797,168 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-9> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-9> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-17> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-17> <http://purl.org/dc/terms/title> "Innovation diffusion processes"@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-17> <http://purl.org/dc/terms/title> "Innovationsdiffusionsprozesse"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-17> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-17> <http://schema.org/endTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-17> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-17> <http://schema.org/performer> <https://dataweek.de/#SimonJohanning> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-17> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-18> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> <http://schema.org/performer> <https://dataweek.de/#ElisaEntschew> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-11> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-11> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-11> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-11> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-11> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-12> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-12> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-12> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-12> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-12> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://purl.org/dc/terms/title> "Innovation diffusion processes"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://purl.org/dc/terms/title> "Innovationsdiffusionsprozesse"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://schema.org/endTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://schema.org/performer> <https://dataweek.de/#SimonJohanning> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://purl.org/dc/terms/description> "Thermal bridges are weak points in the building envelope that can lead to energy losses, moisture accumulation and mold growth in the building fabric. Drones with thermographic cameras can be used to detect thermal bridges in large building stocks. To this end, we have created a freely available data set comprising 926 high-resolution 5-channel images (RGB, thermal and height) with 6,927 annotations and cataloged according to FAIR principles. Using deep learning, we also automatically analyzed this extensive set of panoramic image data of the Karlsruhe roofs and segmented thermal bridges. In our experiments, we use current neural model architectures: MaskRCNN R18, MaskRCNN R50, Swin-T Transformer, TridentNet, FSAF with and without pre-training. During training, we also determined the electrical energy required for the learning process."@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://purl.org/dc/terms/description> "Wärmebrücken sind Schwachstellen in der Gebäudehülle, die zu Energieverlusten, Feuchtigkeitsansammlungen und Schimmelbildung in der Bausubstanz führen können. Um Wärmebrücken in großen Gebäudebeständen zu erkennen, können Drohnen mit Thermografiekameras eingesetzt werden. Wir haben dahingehend einen freiverfügbaren Datensatz erstellt, der 926 hochaufgelöste 5-Kanalbilder (RGB, Wärme und Höhe) mit 6.927 Annotationen umfasst und nach den FAIR Prinzipien katalogisiert ist. Mit Hilfe von Deep Learning haben wir diesen umfangreichen Satz von Panoramabilddaten der Karlsruher Dächer außerdem automatisiert analysiert und Wärmebrücken segmentiert. In unseren Experimenten verwenden wir aktuelle neuronale Modellarchitekturen: MaskRCNN R18, MaskRCNN R50, Swin-T Transformer, TridentNet, FSAF mit und ohne Vortraining. Während des Trainings haben wie weiterhin die notwendige elektrische Energie für den Lernprozess bestimmt."@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://purl.org/dc/terms/title> "Automatic detection of thermal bridges in drone images with deep learning"@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://purl.org/dc/terms/title> "Automatische Erkennung von Wärmebrücken in Drohnenbildern mit Deep Learning"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://schema.org/performer> <https://dataweek.de/#MarkusGoetz> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-26> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-26> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-26> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-26> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-26> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-20> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-20> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-20> <http://schema.org/startTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-21> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-21> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-21> <http://schema.org/startTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-27> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-27> <http://purl.org/dc/terms/description> "Thermal bridges are weak points in the building envelope that can lead to energy losses, moisture accumulation and mold growth in the building fabric. Drones with thermographic cameras can be used to detect thermal bridges in large building stocks. To this end, we have created a freely available data set comprising 926 high-resolution 5-channel images (RGB, thermal and height) with 6,927 annotations and cataloged according to FAIR principles. Using deep learning, we also automatically analyzed this extensive set of panoramic image data of the Karlsruhe roofs and segmented thermal bridges. In our experiments, we use current neural model architectures: MaskRCNN R18, MaskRCNN R50, Swin-T Transformer, TridentNet, FSAF with and without pre-training. During training, we also determined the electrical energy required for the learning process."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-27> <http://purl.org/dc/terms/description> "Wärmebrücken sind Schwachstellen in der Gebäudehülle, die zu Energieverlusten, Feuchtigkeitsansammlungen und Schimmelbildung in der Bausubstanz führen können. Um Wärmebrücken in großen Gebäudebeständen zu erkennen, können Drohnen mit Thermografiekameras eingesetzt werden. Wir haben dahingehend einen freiverfügbaren Datensatz erstellt, der 926 hochaufgelöste 5-Kanalbilder (RGB, Wärme und Höhe) mit 6.927 Annotationen umfasst und nach den FAIR Prinzipien katalogisiert ist. Mit Hilfe von Deep Learning haben wir diesen umfangreichen Satz von Panoramabilddaten der Karlsruher Dächer außerdem automatisiert analysiert und Wärmebrücken segmentiert. In unseren Experimenten verwenden wir aktuelle neuronale Modellarchitekturen: MaskRCNN R18, MaskRCNN R50, Swin-T Transformer, TridentNet, FSAF mit und ohne Vortraining. Während des Trainings haben wie weiterhin die notwendige elektrische Energie für den Lernprozess bestimmt."@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-27> <http://purl.org/dc/terms/title> "Automatic detection of thermal bridges in drone images with deep learning"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-27> <http://purl.org/dc/terms/title> "Automatische Erkennung von Wärmebrücken in Drohnenbildern mit Deep Learning"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-27> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-27> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-27> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-27> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-27> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-27> <http://schema.org/performer> <https://dataweek.de/#MarkusGoetz> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-27> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://purl.org/dc/terms/title> "Envir-Data - Rethinking environmental data"@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://purl.org/dc/terms/title> "Envir-Data - Umweltdaten neu gedacht"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-28> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-28> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-28> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-28> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-28> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://purl.org/dc/terms/title> "Envir-Data - Rethinking environmental data"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://purl.org/dc/terms/title> "Envir-Data - Umweltdaten neu gedacht"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/startTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://purl.org/dc/terms/description> "Das Amt für Stadtgrün und Gewässer verantwortet den Erhalt und die Entwicklung der urbanen grün-blauen Infrastruktur und leistet damit einen wertvollen Beitrag für eine attraktive und lebendige Stadt Leipzig. Um die Prozesse Planen, Bauen, Bewirtschaften vom mobilen Arbeiten über administrative Abläufe bis hin zur Teilhabe der Öffentlichkeit digital abzubilden, wird ein digitales Grünflächenmanagementsystem mit medienbruchfreien Workflow in die tägliche Arbeit integriert. Aktuell ist das Managementsystem für den Einsatzbereich der Verkehrssicherheit bei Bäumen und Spielgeräten als verpflichtendes digitales Werkzeug im Einsatz. Perspektivisch soll die gesamte grün-blaue Infrastruktur über das Grünflächenmanagement abgebildet und die Daten für Maßnahmen des Klimaschutzes und der Klimaanpassung sowie dem Erhalt der biologischen Vielfalt nutzbar gemacht werden."@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://purl.org/dc/terms/description> "The Office for Urban Greenery and Water (Amt für Stadtgrün und Gewässer) is responsible for the maintenance and development of the urban green-blue infrastructure and thus makes a valuable contribution to an attractive and vibrant city of Leipzig. In order to digitally map the planning, construction and management processes, from mobile working to administrative procedures and public participation, a digital green space management system with a seamless workflow is being integrated into daily work. The management system is currently being used as a mandatory digital tool for the area of traffic safety for trees and play equipment. In the future, the entire green-blue infrastructure is to be mapped via the green space management system and the data made available for climate protection and adaptation measures as well as the preservation of biodiversity."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://purl.org/dc/terms/title> "Digital green space management: an efficient basis for a sustainable green-blue infrastructure in Leipzig"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://purl.org/dc/terms/title> "Digitales Grünflächenmanagement: effiziente Basis für eine nachhaltige grün-blaue Infrastruktur in Leipzig"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://schema.org/performer> <https://dataweek.de/#ViktoriaEngnath> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-35> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-35> <http://purl.org/dc/terms/title> "AI in the municipal energy supply"@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-35> <http://purl.org/dc/terms/title> "KI in der kommunalen Energieversorgung"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-35> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-35> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-35> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-35> <http://schema.org/performer> <https://dataweek.de/#SimonAlbrecht> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-35> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-35> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-35> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-35> <http://schema.org/startTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-36> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-36> <http://purl.org/dc/terms/title> "Efficient time series prediction with AI / neural networks"@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-36> <http://purl.org/dc/terms/title> "Effiziente Zeitreihenvorhersage mit KI / Neuronalen Netzwerken"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-36> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-36> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-36> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-36> <http://schema.org/performer> <https://dataweek.de/#ArvidWeyrauch> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-36> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-37> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-37> <http://purl.org/dc/terms/title> "AI in the municipal energy supply"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-37> <http://purl.org/dc/terms/title> "KI in der kommunalen Energieversorgung"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-37> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-37> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-37> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-37> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-37> <http://schema.org/startTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-37> <http://schema.org/performer> <https://dataweek.de/#SimonAlbrecht> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-37> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-46> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-46> <http://purl.org/dc/terms/description> "Mit den geförderten Smart City-Maßnahmen soll deutschlandweit eine Breitenwirkung erzeugt werden, um so Digitalisierungsthemen voranzubringen. Laut den Vorstellungen des Fördermittelgebers (BMWSB und KfW) und der begleitenden Literatur zu den Vorhaben der Modellprojekte Smart City, sollen sich Kommunen untereinander über ihre Erfahrungen austauschen und Lösungen sollen von der einen in eine andere Kommune übertragbar sein. Doch sieht man genauer nach, so zeigt sich innerhalb der Smart-City-Welt kein eindeutiges Bild darüber, was genau Transfer und Replikation umfassen sollen, damit sie sich als erfolgreich bezeichnen können. Ist eine Liste mit Städten, mit denen wir in Leipzig über Urbane Digitale Zwillinge gesprochen haben, ein Nachweis für unsere erfolgreichen Wissenstransferaktivitäten? Was genau zeichnet eine erfolgreiche Replikation aus? Leipzig versucht sich an Wegen des Wissenstransfers und der Replikation und macht dabei die Erfahrung, dass es gar nicht so leicht ist, hilfreiches Wissen an andere Städte derart zu vermitteln, so dass andere dazu ermächtigt werden, eigene Urbane Digitale Zwillinge zu bauen. Denn welche Erkenntnisse sind tatsächlich relevant und was brauchen andere Städte? Deshalb sind wir am Austausch mit anderen Städten interessiert, um zu erfahren, welche gängigen Vorstellungen und Lösungen es zur Wissensvermittlung und zur Übertragbarkeit von Lösungen es bereits gibt."@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-46> <http://purl.org/dc/terms/description> "The funded Smart City measures are intended to generate a broad impact throughout Germany in order to advance digitalization issues. According to the ideas of the funding bodies (BMWSB and KfW) and the accompanying literature on the Smart City model projects, municipalities should share their experiences with each other and solutions should be transferable from one municipality to another. However, a closer look reveals no clear picture within the smart city world as to what exactly transfer and replication should involve in order for them to be considered successful. Is a list of cities we talked to in Leipzig about Urban Digital Twins proof of our successful knowledge transfer activities? What exactly characterizes successful replication? Leipzig is trying to find ways of transferring and replicating knowledge and is finding that it is not so easy to transfer helpful knowledge to other cities in such a way that others are empowered to build their own Urban Digital Twins. After all, what knowledge is actually relevant and what do other cities need? We are therefore interested in exchanging ideas with other cities in order to find out what common ideas and solutions already exist for knowledge transfer and the transferability of solutions."@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-46> <http://purl.org/dc/terms/title> "Knowledge transfer and replication - many ideas, little clarity"@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-46> <http://purl.org/dc/terms/title> "Wissenstransfer und Replikation – viele Vorstellungen, wenig Klarheit"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/endTime> "11:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/performer> <http://aksw.org/ElisabethBreitenstein> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-47> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-47> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-47> <http://schema.org/endTime> "11:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-47> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-47> <http://schema.org/startTime> "11:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-38> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-38> <http://purl.org/dc/terms/title> "Efficient time series prediction with AI / neural networks"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-38> <http://purl.org/dc/terms/title> "Effiziente Zeitreihenvorhersage mit KI / Neuronalen Netzwerken"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-38> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-38> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-38> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-38> <http://schema.org/performer> <https://dataweek.de/#ArvidWeyrauch> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-38> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-39> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/startTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/description> "Mit den geförderten Smart City-Maßnahmen soll deutschlandweit eine Breitenwirkung erzeugt werden, um so Digitalisierungsthemen voranzubringen. Laut den Vorstellungen des Fördermittelgebers (BMWSB und KfW) und der begleitenden Literatur zu den Vorhaben der Modellprojekte Smart City, sollen sich Kommunen untereinander über ihre Erfahrungen austauschen und Lösungen sollen von der einen in eine andere Kommune übertragbar sein. Doch sieht man genauer nach, so zeigt sich innerhalb der Smart-City-Welt kein eindeutiges Bild darüber, was genau Transfer und Replikation umfassen sollen, damit sie sich als erfolgreich bezeichnen können. Ist eine Liste mit Städten, mit denen wir in Leipzig über Urbane Digitale Zwillinge gesprochen haben, ein Nachweis für unsere erfolgreichen Wissenstransferaktivitäten? Was genau zeichnet eine erfolgreiche Replikation aus? Leipzig versucht sich an Wegen des Wissenstransfers und der Replikation und macht dabei die Erfahrung, dass es gar nicht so leicht ist, hilfreiches Wissen an andere Städte derart zu vermitteln, so dass andere dazu ermächtigt werden, eigene Urbane Digitale Zwillinge zu bauen. Denn welche Erkenntnisse sind tatsächlich relevant und was brauchen andere Städte? Deshalb sind wir am Austausch mit anderen Städten interessiert, um zu erfahren, welche gängigen Vorstellungen und Lösungen es zur Wissensvermittlung und zur Übertragbarkeit von Lösungen es bereits gibt."@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/description> "The funded Smart City measures are intended to generate a broad impact throughout Germany in order to advance digitalization issues. According to the ideas of the funding bodies (BMWSB and KfW) and the accompanying literature on the Smart City model projects, municipalities should share their experiences with each other and solutions should be transferable from one municipality to another. However, a closer look reveals no clear picture within the smart city world as to what exactly transfer and replication should involve in order for them to be considered successful. Is a list of cities we talked to in Leipzig about Urban Digital Twins proof of our successful knowledge transfer activities? What exactly characterizes successful replication? Leipzig is trying to find ways of transferring and replicating knowledge and is finding that it is not so easy to transfer helpful knowledge to other cities in such a way that others are empowered to build their own Urban Digital Twins. After all, what knowledge is actually relevant and what do other cities need? We are therefore interested in exchanging ideas with other cities in order to find out what common ideas and solutions already exist for knowledge transfer and the transferability of solutions."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/title> "Knowledge transfer and replication - many ideas, little clarity"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/title> "Wissenstransfer und Replikation – viele Vorstellungen, wenig Klarheit"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> <http://schema.org/endTime> "11:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> <http://schema.org/startTime> "11:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> <http://schema.org/performer> <http://aksw.org/ElisabethBreitenstein> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-49> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-49> <http://purl.org/dc/terms/title> "Gemeinsame Diskussion"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-49> <http://purl.org/dc/terms/title> "Joint discussion"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-49> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-49> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-49> <http://schema.org/endTime> "11:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-49> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-49> <http://schema.org/startTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-49> <http://schema.org/startTime> "11:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-54> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-54> <http://purl.org/dc/terms/description> "Die Stadt Halle (Saale) hat das erste Großprojekt im Rahmen ihrer Smart-City-Initiative auf den Weg gebracht. In seiner November-Sitzung votierte der Stadtrat einstimmig für die Vergabe zur Entwicklung eines Digitalen Zwillings der Stadt. In einem kurzen Impuls von Referent Albert Steinbach (Handlungsfeldkoordinator Smart City Halle (Saale)) geht es um den Weg zur Vergabe, die geplante Umsetzung derselben und seine Erfahrungen und Empfehlungen aus dem Prozess."@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-54> <http://purl.org/dc/terms/description> "The city of Halle (Saale) has launched the first major project as part of its Smart City initiative. At its November meeting, the city council voted unanimously in favor of awarding the contract to develop a digital twin of the city. A short presentation by speaker Albert Steinbach (Smart City Halle (Saale) field of action coordinator) will cover the path to the award, the planned implementation and his experiences and recommendations from the process."@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-54> <http://purl.org/dc/terms/title> "Ausschreibung eines digitalen Zwillings in Halle (Saale) – Was es zu beachten gilt?"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-54> <http://purl.org/dc/terms/title> "Tendering for a digital twin in Halle (Saale) - What to consider?"@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-54> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-54> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-54> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-54> <http://schema.org/performer> <https://dataweek.de/#AlbertSteinbach> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-54> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-55> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-55> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-55> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-55> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-55> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-50> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-50> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-50> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-50> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-50> <http://schema.org/startTime> "11:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-51> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-51> <http://purl.org/dc/terms/title> "Gemeinsame Diskussion"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-51> <http://purl.org/dc/terms/title> "Joint discussion"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-51> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-51> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-51> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-51> <http://schema.org/startTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> <http://purl.org/dc/terms/description> "Die Stadt Halle (Saale) hat das erste Großprojekt im Rahmen ihrer Smart-City-Initiative auf den Weg gebracht. In seiner November-Sitzung votierte der Stadtrat einstimmig für die Vergabe zur Entwicklung eines Digitalen Zwillings der Stadt. In einem kurzen Impuls von Referent Albert Steinbach (Handlungsfeldkoordinator Smart City Halle (Saale)) geht es um den Weg zur Vergabe, die geplante Umsetzung derselben und seine Erfahrungen und Empfehlungen aus dem Prozess."@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> <http://purl.org/dc/terms/description> "The city of Halle (Saale) has launched the first major project as part of its Smart City initiative. At its November meeting, the city council voted unanimously in favor of awarding the contract to develop a digital twin of the city. A short presentation by speaker Albert Steinbach (Smart City Halle (Saale) field of action coordinator) will cover the path to the award, the planned implementation and his experiences and recommendations from the process."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> <http://purl.org/dc/terms/title> "Ausschreibung eines digitalen Zwillings in Halle (Saale) – Was es zu beachten gilt?"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> <http://purl.org/dc/terms/title> "Tendering for a digital twin in Halle (Saale) - What to consider?"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> <http://schema.org/performer> <https://dataweek.de/#AlbertSteinbach> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-58> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-58> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-58> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-58> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-58> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-5> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-5> <http://purl.org/dc/terms/title> "Parking space occupancy at the Völkerschlachtdenkmal"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-5> <http://purl.org/dc/terms/title> "Parkraumbelegung am Völkerschlachtdenkmal"@de .
@@ -1985,8 +2023,6 @@
 <https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-session-7> .
 <https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-session-8> .
 <https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-session-9> .
-<https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-18> .
-<https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> .
 <https://2024.dataweek.de/team-generalchair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/JuliaHolze> .
 <https://2024.dataweek.de/team-generalchair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/MichaelMartin> .
 <https://2024.dataweek.de/team-generalchair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@de .
@@ -2885,6 +2921,14 @@
 <https://dataweek.de/#DirkSchmalzried> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Dirk Schmalzried" .
 <https://dataweek.de/#DirkSchmalzried> <http://xmlns.com/foaf/0.1/name> "Dirk Schmalzried" .
 <https://dataweek.de/#DirkSchmalzried> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
+<https://dataweek.de/#ElisaEntschew> <http://purl.org/dc/terms/description> "AI Ethicist"@de .
+<https://dataweek.de/#ElisaEntschew> <http://purl.org/dc/terms/description> "AI Ethicist"@en .
+<https://dataweek.de/#ElisaEntschew> <http://schema.org/affiliation> <https://www.umweltbundesamt.de/> .
+<https://dataweek.de/#ElisaEntschew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#ElisaEntschew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#ElisaEntschew> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Elisa Maria Entschew" .
+<https://dataweek.de/#ElisaEntschew> <http://xmlns.com/foaf/0.1/name> "Elisa Maria Entschew" .
+<https://dataweek.de/#ElisaEntschew> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#EnricoMacholdt> <http://purl.org/dc/terms/description> "Data Scientist & Engineer"@de .
 <https://dataweek.de/#EnricoMacholdt> <http://purl.org/dc/terms/description> "Data Scientist & Engineer"@en .
 <https://dataweek.de/#EnricoMacholdt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -3859,6 +3903,12 @@
 <https://dataweek.de/#VeraMeister> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <https://dataweek.de/#ViceGeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "Vice General Chair"@de .
 <https://dataweek.de/#ViceGeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "Vice General Chair"@en .
+<https://dataweek.de/#ViktoriaEngnath> <http://purl.org/dc/terms/description> "City of Leipzig"@en .
+<https://dataweek.de/#ViktoriaEngnath> <http://purl.org/dc/terms/description> "Stadt Leipzig"@de .
+<https://dataweek.de/#ViktoriaEngnath> <http://schema.org/affiliation> <http://www.leipzig.de/> .
+<https://dataweek.de/#ViktoriaEngnath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#ViktoriaEngnath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#ViktoriaEngnath> <http://xmlns.com/foaf/0.1/name> "Viktoria Engnath" .
 <https://dataweek.de/#VolkerGruhn> <http://purl.org/dc/terms/description> "Founder and chair of the board of directors [adesso SE](https://www.adesso.de/de/index.jsp)\nChair Holder [Software Engineering at University of Duisburg-Essen](https://www.uni-due.de/swe/)\n"@en .
 <https://dataweek.de/#VolkerGruhn> <http://purl.org/dc/terms/description> "Gründer und Vorsitzender des Aufsichtrates [adesso SE](https://www.adesso.de/de/index.jsp)\nInhaber des Lehrstuhls für [Software Engineering an der Universität Duisburg-Essen](https://www.uni-due.de/swe/)\n"@de .
 <https://dataweek.de/#VolkerGruhn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
