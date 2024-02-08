@@ -1549,8 +1549,8 @@
 <https://2024.dataweek.de/sponsoring> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoring"@de .
 <https://2024.dataweek.de/sponsoring> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsorship Packages"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/title> "Digital tools for municipal heat planning"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/title> "Digitale Tools für die Kommunale Wärmeplanung"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/title> "Digitale Tools für die Kommunale Wärmeplanung"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
@@ -1710,7 +1710,7 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-2> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-2> <http://purl.org/dc/terms/title> "Anwendungsfälle in der Kommune - KI und Kameras im öffentlichen Raum"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-2> <http://purl.org/dc/terms/title> "Session 1"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-2> <http://purl.org/dc/terms/title> "Use cases in the municipality - AI and cameras in public spaces"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-2> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
@@ -1790,8 +1790,10 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://purl.org/dc/terms/title> "Anwendungsfall Thermalbrücken"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://purl.org/dc/terms/title> "Application case thermal bridges"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://purl.org/dc/terms/description> "Thermal bridges are weak points in the building envelope that can lead to energy losses, moisture accumulation and mold growth in the building fabric. Drones with thermographic cameras can be used to detect thermal bridges in large building stocks. To this end, we have created a freely available data set comprising 926 high-resolution 5-channel images (RGB, thermal and height) with 6,927 annotations and cataloged according to FAIR principles. Using deep learning, we also automatically analyzed this extensive set of panoramic image data of the Karlsruhe roofs and segmented thermal bridges. In our experiments, we use current neural model architectures: MaskRCNN R18, MaskRCNN R50, Swin-T Transformer, TridentNet, FSAF with and without pre-training. During training, we also determined the electrical energy required for the learning process."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://purl.org/dc/terms/description> "Wärmebrücken sind Schwachstellen in der Gebäudehülle, die zu Energieverlusten, Feuchtigkeitsansammlungen und Schimmelbildung in der Bausubstanz führen können. Um Wärmebrücken in großen Gebäudebeständen zu erkennen, können Drohnen mit Thermografiekameras eingesetzt werden. Wir haben dahingehend einen freiverfügbaren Datensatz erstellt, der 926 hochaufgelöste 5-Kanalbilder (RGB, Wärme und Höhe) mit 6.927 Annotationen umfasst und nach den FAIR Prinzipien katalogisiert ist. Mit Hilfe von Deep Learning haben wir diesen umfangreichen Satz von Panoramabilddaten der Karlsruher Dächer außerdem automatisiert analysiert und Wärmebrücken segmentiert. In unseren Experimenten verwenden wir aktuelle neuronale Modellarchitekturen: MaskRCNN R18, MaskRCNN R50, Swin-T Transformer, TridentNet, FSAF mit und ohne Vortraining. Während des Trainings haben wie weiterhin die notwendige elektrische Energie für den Lernprozess bestimmt."@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://purl.org/dc/terms/title> "Automatic detection of thermal bridges in drone images with deep learning"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://purl.org/dc/terms/title> "Automatische Erkennung von Wärmebrücken in Drohnenbildern mit Deep Learning"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-25> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
@@ -1811,8 +1813,8 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-27> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://purl.org/dc/terms/title> "AI in the municipal energy supply"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://purl.org/dc/terms/title> "KI in der kommunalen Energieversorgung"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://purl.org/dc/terms/title> "KI in der kommunalen Energieversorgung"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
@@ -1820,9 +1822,12 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://purl.org/dc/terms/title> "Efficient time series prediction with AI / neural networks"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://purl.org/dc/terms/title> "Effiziente Zeitreihenvorhersage mit KI / Neuronalen Netzwerken"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/performer> <https://dataweek.de/#ArvidWeyrauch> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1872,8 +1877,9 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-5> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-6> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-6> <http://purl.org/dc/terms/title> "Talk 3"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-6> <http://purl.org/dc/terms/title> "Talk 3"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-6> <http://purl.org/dc/terms/description> "Die Zielstellung des Projektes MoVMi ist es, eine transparente Datengrundlage zu schaffen, um die Effektivität von Mikrologistik im Innenstadtbereich abzuschätzen. Diese setzt sich zusammen aus bestehenden Daten, Daten aus einer Umfrage, synthetisch erzeugten Daten durch eine Simulation und letztendlich Ergebnissen einer Fusion dieser innerhalb einer Logistiksimulation, die diese als Eingangsparameter besitzt. \n\nDazu wurde eine Umfrage durchgeführt, die den Logistikbedarf erfasst hat. Parallel dazu wird durch eine Simulation ein Bewegungsmodell für autonome Transportfahrzeuge erzeugt, welches die Transportgeschwindigkeit abhängig von diversen Einsatzparametern enthält. Final wird darauf basierend eine Logistiksimulation erstellt, mit der die benötigte Anzahl und Art von Transportsystemen abgeschätzt werden kann."@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-6> <http://purl.org/dc/terms/title> "Presentation of the MoVMi project - Modeling inner-city traffic volumes as a data basis for micrologistics and autonomous transport - MoVMi"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-6> <http://purl.org/dc/terms/title> "Vorstellung des Projekts MoVMi - Modellierung des innerstädtischen Verkehrsaufkommens als Datengrundlage für Mikrologistik und autonomen Verkehr – MoVMi"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-6> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-6> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-6> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
@@ -2693,6 +2699,10 @@
 <https://dataweek.de/#ArminGeisler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ArminGeisler> <http://xmlns.com/foaf/0.1/homepage> <https://de.linkedin.com/in/arminkr> .
 <https://dataweek.de/#ArminGeisler> <http://xmlns.com/foaf/0.1/name> "Armin Geisler" .
+<https://dataweek.de/#ArvidWeyrauch> <http://schema.org/affiliation> <https://www.kit.edu> .
+<https://dataweek.de/#ArvidWeyrauch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#ArvidWeyrauch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#ArvidWeyrauch> <http://xmlns.com/foaf/0.1/name> "Arvid Weyrauch" .
 <https://dataweek.de/#AtriDutta> <http://purl.org/dc/terms/description> "Associate Professor of Space Dynamics at the [Department of Aerospace Engineering](https://www.wichita.edu/academics/engineering/aerospace/)"@de .
 <https://dataweek.de/#AtriDutta> <http://purl.org/dc/terms/description> "Associate Professor of Space Dynamics at the [Department of Aerospace Engineering](https://www.wichita.edu/academics/engineering/aerospace/)"@en .
 <https://dataweek.de/#AtriDutta> <http://schema.org/affiliation> <https://www.wichita.edu> .
