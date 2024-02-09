@@ -713,6 +713,7 @@
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://edih-saxony.eu/> .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://lecos.de/> .
+<https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://telekom-mms.com/> .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
@@ -2491,8 +2492,10 @@
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/title> "Agile Kata workshop - more business agility with fewer blueprints (organized by Rolf Irion)"@en .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/title> "Workshop Agile Kata - mehr Business Agilität mit weniger Blaupausen (durchgeführt von Rolf Irion)"@de .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
+<https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/workshops/#programm-session-3> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3350,6 +3353,8 @@
 <https://dataweek.de/#LogoStadtLeipzig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/Stadt_Leipzig.png" .
 <https://dataweek.de/#LogoStatistikUndWahlen> <http://purl.org/dc/terms/description> "Stadt Leipzig/Amt f\u00FCr Statistik und Wahlen" .
 <https://dataweek.de/#LogoStatistikUndWahlen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/ASW.png" .
+<https://dataweek.de/#LogoTelekom> <http://purl.org/dc/terms/description> "Deutsche Telekom" .
+<https://dataweek.de/#LogoTelekom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/t.png" .
 <https://dataweek.de/#LucyBastin> <http://purl.org/dc/terms/description> "l.bastin@aston.ac.uk"@en .
 <https://dataweek.de/#LucyBastin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#LucyBastin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -4274,6 +4279,10 @@
 <https://tech-leaders.academy/> <http://www.w3.org/2000/01/rdf-schema#label> "Tech Leaders Academy"@de .
 <https://tech-leaders.academy/> <http://www.w3.org/2000/01/rdf-schema#label> "Tech Leaders Academy"@en .
 <https://tech-leaders.academy/> <http://xmlns.com/foaf/0.1/homepage> <https://tech-leaders.academy/> .
+<https://telekom-mms.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://telekom-mms.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Deutschen Telekom" .
+<https://telekom-mms.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.telekom-mms.com/> .
+<https://telekom-mms.com/> <http://xmlns.com/foaf/0.1/logo> <https://dataweek.de/#LogoTelekom> .
 <https://tovidero.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://tovidero.com/> <http://www.w3.org/2000/01/rdf-schema#label> "TOVIDERO UG" .
 <https://tovidero.com/> <http://xmlns.com/foaf/0.1/homepage> <https://tovidero.com/> .
