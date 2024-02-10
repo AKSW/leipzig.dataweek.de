@@ -36,13 +36,18 @@ BEGIN:VEVENT
 SUMMARY:Lego Serious Play (Co-Creation Workshop)
 DTSTART;TZID=Europe/Berlin:20240416T133000
 DTEND;TZID=Europe/Berlin:20240416T150000
-DESCRIPTION:Is it possible to solve complex issues in a playful way and in
-  a team? In this workshop\, the innovative problem-solving\, communication
-  and creative method Lego Serious Play will be introduced and applied. Tog
- ether we will work on a current and relevant administrative issue and visu
- alise it with Lego bricks. The workshop trains the understanding that ever
- y thought\, every experience or project can be created in the form of thre
- e-dimensional Lego models.
+DESCRIPTION:Utilizing the hitherto untapped potential of near-surface geot
+ hermal energy in conjunction with cold local heating networks and sensible
+  refurbishment of existing buildings opens up new possibilities for munici
+ pal heating planning. The refurbishment of existing buildings then follows
+  the principle of "fit for renewables" instead of focusing solely on savin
+ gs. The involvement of residents in the development of local energy supply
+  concepts is also of great importance. In addition\, new business models f
+ or energy suppliers are made possible (e.g. use of areas in the district f
+ or PV and geothermal energy\, heat storage in the building mass). With the
+  goodwill of all those involved\, this should help to permanently reduce o
+ perating costs\, overcome energy poverty and strengthen social cohesion in
+  the future.
 LOCATION:Room 270
 END:VEVENT
 BEGIN:VEVENT
@@ -113,15 +118,37 @@ DTEND;TZID=Europe/Berlin:20240416T140000
 DESCRIPTION:Thermal bridges are weak points in the building envelope that 
  can lead to energy losses\, moisture accumulation and mold growth in the b
  uilding fabric. Drones with thermographic cameras can be used to detect th
- ermal bridges in large building stocks. To this end\, we have created a fr
- eely available data set comprising 926 high-resolution 5-channel images (R
- GB\, thermal and height) with 6\,927 annotations and cataloged according t
- o FAIR principles. Using deep learning\, we also automatically analyzed th
- is extensive set of panoramic image data of the Karlsruhe roofs and segmen
- ted thermal bridges. In our experiments\, we use current neural model arch
- itectures: MaskRCNN R18\, MaskRCNN R50\, Swin-T Transformer\, TridentNet\,
-  FSAF with and without pre-training. During training\, we also determined 
- the electrical energy required for the learning process.
+ ermal bridges in large building stocks. With the help of deep learning\, w
+ e have automatically analyzed panoramic image data of Karlsruhe roofs and 
+ segmented thermal bridges.
+LOCATION:Festsaal 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contributions to the development of climate-neutral existing neigh
+ borhoods in the digital age
+DTSTART;TZID=Europe/Berlin:20240416T140000
+DTEND;TZID=Europe/Berlin:20240416T143000
+DESCRIPTION:In our latitudes\, there is a regular demand for heating energ
+ y in buildings in winter and an increasing demand for cooling energy in su
+ mmer due to climate change. It therefore makes sense to aim for a seasonal
+  shift in regenerative heating and cooling by tapping into large storage m
+ asses\, for which the use of the ground by means of near-surface geotherma
+ l energy is predestined.  Near-surface geothermal energy offers a whole ra
+ nge of different technologies\, e.g. flat collectors\, energy baskets or b
+ orehole fields\, as well as agrothermal\, river and tunnel thermal energy\
+ , and enables a sustainable supply of heating and cooling from sources ava
+ ilable on site or in the immediate vicinity.
+LOCATION:Festsaal 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Munich model: A building-specific geoinformation system for munici
+ pal heat planning
+DTSTART;TZID=Europe/Berlin:20240416T143000
+DTEND;TZID=Europe/Berlin:20240416T150000
+DESCRIPTION:The Munich model is a building-specific data set with comprehe
+ nsive simulation and visualization options. It is used for municipal heat 
+ planning\, among other things – from the analysis of the current situati
+ on to the definition of implementation measures.
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
