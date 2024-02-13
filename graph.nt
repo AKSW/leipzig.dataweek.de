@@ -1586,6 +1586,10 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/performer> <https://dataweek.de/#AnaisWiedenhoefer> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/performer> <https://dataweek.de/#ChristophSchubert> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/performer> <https://dataweek.de/#HeikeGebhardt> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/performer> <https://dataweek.de/#KristinBolanz> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2027,8 +2031,10 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/title> "tba"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/description> "Die Stadt Gelsenkirchen schreibt aktuell im Rahmen der Modellprojekte Smart Cities Förderung ein Anwendungszentrum für kommunale KI-Lösungen in der Stadtentwicklung aus, das in Gelsenkirchen aufgebaut und nachhaltig betrieben werden soll. Wie die Stadt die Bereitstellung der Ressourcen dieses Zentrums für Städte und die Replikation von Lösungen plant, wird in diesem Beitrag vorgestellt."@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/description> "The city of Gelsenkirchen is currently inviting tenders for an application center for municipal AI solutions in urban development as part of the Smart Cities model project funding, which is to be set up and sustainably operated in Gelsenkirchen. This article presents how the city plans to provide the resources of this center for cities and the replication of solutions."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/title> "MPSC-Gelsenkirchen: An application center for municipal AI solutions"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/title> "MPSC-Gelsenkirchen: Ein Anwendungszentrum für kommunale KI-Lösungen"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://schema.org/endTime> "11:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
@@ -2940,6 +2946,11 @@
 <https://dataweek.de/#AmitKirschenbaum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AmitKirschenbaum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AmitKirschenbaum> <http://xmlns.com/foaf/0.1/name> "Amit Kirschenbaum" .
+<https://dataweek.de/#AnaisWiedenhoefer> <http://purl.org/dc/terms/description> "Referat für Stadtplanung und Bauordnung, Landeshauptstadt München"@de .
+<https://dataweek.de/#AnaisWiedenhoefer> <http://schema.org/affiliation> <https://stadt.muenchen.de> .
+<https://dataweek.de/#AnaisWiedenhoefer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#AnaisWiedenhoefer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#AnaisWiedenhoefer> <http://xmlns.com/foaf/0.1/name> "Anais Wiedenhöfer" .
 <https://dataweek.de/#AndreaHensel> <http://purl.org/dc/terms/description> "Fachreferentin für Transformation und Nachhaltigkeit in der Kultur"@de .
 <https://dataweek.de/#AndreaHensel> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/dezernat-kultur-024> .
 <https://dataweek.de/#AndreaHensel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -3289,6 +3300,11 @@
 <https://dataweek.de/#HeideHuettner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#HeideHuettner> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/heide-h%25C3%25BCttner-877b601a8/> .
 <https://dataweek.de/#HeideHuettner> <http://xmlns.com/foaf/0.1/name> "Heide Hüttner" .
+<https://dataweek.de/#HeikeGebhardt> <http://purl.org/dc/terms/description> "Referat Digitale Stadt, Stadt Leipzig"@de .
+<https://dataweek.de/#HeikeGebhardt> <http://schema.org/affiliation> <http://www.leipzig.de/> .
+<https://dataweek.de/#HeikeGebhardt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#HeikeGebhardt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#HeikeGebhardt> <http://xmlns.com/foaf/0.1/name> "Heike Gebhardt" .
 <https://dataweek.de/#HelgeL%C3%B6bler> <http://purl.org/dc/terms/description> "Professor"@de .
 <https://dataweek.de/#HelgeL%C3%B6bler> <http://purl.org/dc/terms/description> "Professor"@en .
 <https://dataweek.de/#HelgeL%C3%B6bler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -3483,6 +3499,11 @@
 <https://dataweek.de/#KlausDaessler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#KlausDaessler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#KlausDaessler> <http://xmlns.com/foaf/0.1/name> "Klaus Däßler" .
+<https://dataweek.de/#KristinBolanz> <http://purl.org/dc/terms/description> "Amt für Geoinformation und Bodenordnung, Stadt Leipzig"@de .
+<https://dataweek.de/#KristinBolanz> <http://schema.org/affiliation> <http://www.leipzig.de/> .
+<https://dataweek.de/#KristinBolanz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#KristinBolanz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#KristinBolanz> <http://xmlns.com/foaf/0.1/name> "Kristin Bolanz" .
 <https://dataweek.de/#LassiLehto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#LassiLehto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#LassiLehto> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Lassi Lehto" .
@@ -4469,6 +4490,11 @@
 <https://stackfuel.com/de/> <http://www.w3.org/2000/01/rdf-schema#label> "StackFuel"@en .
 <https://stackfuel.com/de/> <http://xmlns.com/foaf/0.1/homepage> <https://stackfuel.com/de/> .
 <https://stackfuel.com/de/ueber-uns/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://stadt.muenchen.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://stadt.muenchen.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://stadt.muenchen.de> <http://www.w3.org/2000/01/rdf-schema#label> "City of Munich"@en .
+<https://stadt.muenchen.de> <http://www.w3.org/2000/01/rdf-schema#label> "Landeshauptstadt München"@de .
+<https://stadt.muenchen.de> <http://xmlns.com/foaf/0.1/homepage> <https://stadt.muenchen.de> .
 <https://tech-leaders.academy/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://tech-leaders.academy/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://tech-leaders.academy/> <http://www.w3.org/2000/01/rdf-schema#label> "Tech Leaders Academy"@de .
