@@ -1652,8 +1652,8 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-1> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-4> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-20> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-20> <http://purl.org/dc/terms/title> "Kommunen für Kommunen -> Wie gelingt die Replikation?"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-20> <http://purl.org/dc/terms/title> "Municipalities for municipalities -> How does replication work?"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-20> <http://purl.org/dc/terms/title> "Kommunen für Kommunen – Wie gelingt die Replikation?"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-20> <http://purl.org/dc/terms/title> "Municipalities for municipalities – How does replication work?"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-20> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-20> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-20> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
@@ -2027,10 +2027,12 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/title> "Kommunen für Kommunen - Wie gelingt die Replikation?"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/title> "tba"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://schema.org/endTime> "11:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://schema.org/performer> <https://dataweek.de/#MarleneDamerau> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://schema.org/startTime> "11:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-58> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3588,6 +3590,10 @@
 <https://dataweek.de/#MarkusGoetz> <http://xmlns.com/foaf/0.1/homepage> <https://www.scc.kit.edu/personen/11452.php> .
 <https://dataweek.de/#MarkusGoetz> <http://xmlns.com/foaf/0.1/name> "Markus Götz" .
 <https://dataweek.de/#MarkusGoetz> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#MarleneDamerau> <http://schema.org/affiliation> <https://www.gkd-el.de/de/> .
+<https://dataweek.de/#MarleneDamerau> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MarleneDamerau> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MarleneDamerau> <http://xmlns.com/foaf/0.1/name> "Marlene Damerau" .
 <https://dataweek.de/#MartinHentschel> <http://purl.org/dc/terms/description> "Principal Software Engineer [Snowflake](https://www.snowflake.com/)"@de .
 <https://dataweek.de/#MartinHentschel> <http://purl.org/dc/terms/description> "Principal Software Engineer [Snowflake](https://www.snowflake.com/)"@en .
 <https://dataweek.de/#MartinHentschel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -4618,6 +4624,10 @@
 <https://www.gicon.de/> <http://www.w3.org/2000/01/rdf-schema#label> "GICON Gruppe"@de .
 <https://www.gicon.de/> <http://www.w3.org/2000/01/rdf-schema#label> "GICON"@en .
 <https://www.gicon.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.gicon.de/> .
+<https://www.gkd-el.de/de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.gkd-el.de/de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.gkd-el.de/de/> <http://www.w3.org/2000/01/rdf-schema#label> "Gelsenkirchener Kommunale Datenzentrale Emscher-Lippe"@de .
+<https://www.gkd-el.de/de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.gkd-el.de/de/> .
 <https://www.gruene-fraktion-sachsen.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.gruene-fraktion-sachsen.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.gruene-fraktion-sachsen.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Green faction saxony"@en .
