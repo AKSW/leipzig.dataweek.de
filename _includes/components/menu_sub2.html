@@ -9,8 +9,17 @@
 
 {% assign current_page = page.rdf.render_path | relativize_url %}
 {% assign menu = menuResource | rdf_container %}
+{%- if menu.size <= 6 -%}
+  {%- assign fontSize = 100 -%}
+{%- elsif menu.size == 7 -%}
+  {% assign fontSize = 90 -%}
+{%- elsif menu.size == 8 -%}
+  {% assign fontSize = 80 -%}
+{%- else -%}
+  {%- assign fontSize = 70 -%}
+{%- endif -%}
 
-<nav class="nav-sub2" aria-label="{{ str_sub2_menu }}">
+<nav class="nav-sub2" aria-label="{{ str_sub2_menu }}" style="font-size:{{ fontSize }}%;">
   <ul>
     {% for entry in menu %}
     {% assign label = nil %}
