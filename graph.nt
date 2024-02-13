@@ -1903,11 +1903,14 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-28> <http://schema.org/startTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://purl.org/dc/terms/title> "tba"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://purl.org/dc/terms/description> "CoSI – das Cockpit Städtische Infrastruktur – ist ein umfangreiches Addon-Paket für das OpenSource Masterportal, das Visualisierung und Analyse städtischer Statistik- und Strukturdaten vereinfacht, um transparente und fundierte Entscheidungen in der Stadt- und Sozialraumplanung zu unterstützen. Es verknüpft Daten verschiedener Quellen wie Fachbehörden und Unternehmen und integriert räumliche und zeitliche Analysen, sowie Szenarioplanung. Mit interaktiven Karten und benutzerfreundlichen Tools unterstützt CoSI eine vernetzte und datengesteuerte Planung. Am einzelnen Arbeitsplatz und am digitalen Touchtable eingesetzt, wurden mit CoSI bereits u.A. Anwendungsfälle von Stadtteilentwicklung bis zur Flächenfindung für Windkraftanlagen in kollaborativen Workshops umgesetzt. Aus der Forschung in den produktiven Betrieb in Hamburg übernommen, stellen wir CoSI als Instrument für effiziente und inklusive urbane Entwicklung, Smart Governance und digitale Verwaltung vor."@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://purl.org/dc/terms/description> "CoSI – the Cockpit Urban Infrastructure – is a comprehensive add-on package for the OpenSource Masterportal that simplifies the visualization and analysis of urban statistical and structural data to support transparent and well-founded decisions in urban and social space planning. It links data from various sources such as specialized authorities and companies and integrates spatial and temporal analyses as well as scenario planning. With interactive maps and user-friendly tools, CoSI supports networked and data-driven planning. Used at individual workstations and on digital touch tables, CoSI has already been used in collaborative workshops for applications ranging from urban district development to site selection for wind turbines. Transferred from research to productive operation in Hamburg, we present CoSI as a tool for efficient and inclusive urban development, smart governance and digital administration."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://purl.org/dc/terms/title> "Was-wäre-wenn Analysen mit CoSI"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://purl.org/dc/terms/title> "What-if analysis with CoSI"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://schema.org/performer> <https://dataweek.de/#DanielSchulz> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://schema.org/startTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1917,8 +1920,8 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-36> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-36> <http://purl.org/dc/terms/description> "Thermal bridges are weak points in the building envelope that can lead to energy losses, moisture accumulation and mold growth in the building fabric. Drones with thermographic cameras can be used to detect thermal bridges in large building stocks. With the help of deep learning, we have automatically analyzed panoramic image data of Karlsruhe roofs and segmented thermal bridges."@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-36> <http://purl.org/dc/terms/description> "Wärmebrücken sind Schwachstellen in der Gebäudehülle, die zu Energieverlusten, Feuchtigkeitsansammlungen und Schimmelbildung in der Bausubstanz führen können. Um Wärmebrücken in großen Gebäudebeständen zu erkennen, können Drohnen mit Thermografiekameras eingesetzt werden. Mit Hilfe von Deep Learning haben wir Panoramabilddaten von Karlsruher Dächern automatisiert analysiert und Wärmebrücken segmentiert."@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-36> <http://purl.org/dc/terms/description> "Thermal bridges are weak points in the building envelope that can lead to energy losses, moisture accumulation and mold growth in the building fabric. Drones with thermographic cameras can be used to detect thermal bridges in large building stocks. To this end, we have created a freely available data set comprising 926 high-resolution 5-channel images (RGB, thermal and height) with 6,927 annotations and cataloged according to FAIR principles. Using deep learning, we also automatically analyzed this extensive set of panoramic image data of the Karlsruhe roofs and segmented thermal bridges. In our experiments, we use current neural model architectures: MaskRCNN R18, MaskRCNN R50, Swin-T Transformer, TridentNet, FSAF with and without pre-training. During training, we also determined the electrical energy required for the learning process."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-36> <http://purl.org/dc/terms/description> "Wärmebrücken sind Schwachstellen in der Gebäudehülle, die zu Energieverlusten, Feuchtigkeitsansammlungen und Schimmelbildung in der Bausubstanz führen können. Um Wärmebrücken in großen Gebäudebeständen zu erkennen, können Drohnen mit Thermografiekameras eingesetzt werden. Wir haben dahingehend einen freiverfügbaren Datensatz erstellt, der 926 hochaufgelöste 5-Kanalbilder (RGB, Wärme und Höhe) mit 6.927 Annotationen umfasst und nach den FAIR Prinzipien katalogisiert ist. Mit Hilfe von Deep Learning haben wir diesen umfangreichen Satz von Panoramabilddaten der Karlsruher Dächer außerdem automatisiert analysiert und Wärmebrücken segmentiert. In unseren Experimenten verwenden wir aktuelle neuronale Modellarchitekturen: MaskRCNN R18, MaskRCNN R50, Swin-T Transformer, TridentNet, FSAF mit und ohne Vortraining. Während des Trainings haben wie weiterhin die notwendige elektrische Energie für den Lernprozess bestimmt."@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-36> <http://purl.org/dc/terms/title> "Automatic detection of thermal bridges in drone images with deep learning"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-36> <http://purl.org/dc/terms/title> "Automatische Erkennung von Wärmebrücken in Drohnenbildern mit Deep Learning"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-36> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
@@ -1990,6 +1993,8 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-47> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/description> "Time series predictions are a central part of optimizing modern life from electricity consumption to weather forecasts to traffic flow planning.\nAlthough AI models have led to further advances in time series forecasting, classical models are still serious competitors, especially when computational complexity and resource consumption are relevant.\nUsing the ReCycle framework, we show how a good understanding of the advantages and disadvantages of both approaches can improve interpretability, efficiency and precision. The result is AI models that can be trained on a standard laptop and can keep up with or even surpass the state of the art."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/description> "Zeitreihenvorhersagen sind ein zentraler Bestandteil in der Optimierung des modernen Lebens von Stromverbrauch über Wettervorhersagen bis zur Verkehrsflussplanung.\nObwohl KI-Modelle zu weiteren Fortschritten in der Zeitreihenvorhersagen geführt haben, sind klassische Modelle nach wie vor ernsthafte Wettbewerber, insbesonders wenn Rechenkomplexität und Ressourcenverbrauch relevant sind.\nAnhand des ReCycle-Frameworks wird gezeigt, wie ein gutes Verständnis der Vor- und Nachteile beider Ansätze es erlaubt Interpretierbarkeit, Effizienz und Präzision zu verbessern. Das Ergebnis sind KI-Modelle, die auf einem handelsüblichen Laptop trainiert werden können und mit dem Stand der Technik mithalten oder ihn sogar übertreffen."@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/title> "Efficient time series prediction with AI / neural networks"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/title> "Effiziente Zeitreihenvorhersage mit KI / Neuronalen Netzwerken"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
@@ -2022,6 +2027,7 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://purl.org/dc/terms/title> "Kommunen für Kommunen - Wie gelingt die Replikation?"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://schema.org/endTime> "11:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
@@ -3103,6 +3109,10 @@
 <https://dataweek.de/#DanielProbst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#DanielProbst> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/daniel-probst-a355251/> .
 <https://dataweek.de/#DanielProbst> <http://xmlns.com/foaf/0.1/name> "Daniel Probst" .
+<https://dataweek.de/#DanielSchulz> <http://schema.org/affiliation> <https://www.hcu-hamburg.de/> .
+<https://dataweek.de/#DanielSchulz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#DanielSchulz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#DanielSchulz> <http://xmlns.com/foaf/0.1/name> "Daniel Schulz" .
 <https://dataweek.de/#DeAnnaHarner> <http://purl.org/dc/terms/description> "RPE Solutions, LLC"@de .
 <https://dataweek.de/#DeAnnaHarner> <http://purl.org/dc/terms/description> "RPE Solutions, LLC"@en .
 <https://dataweek.de/#DeAnnaHarner> <http://schema.org/affiliation> <https://rpesolutionsllc.com/> .
@@ -3127,8 +3137,8 @@
 <https://dataweek.de/#DirkSchmalzried> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Dirk Schmalzried" .
 <https://dataweek.de/#DirkSchmalzried> <http://xmlns.com/foaf/0.1/name> "Dirk Schmalzried" .
 <https://dataweek.de/#DirkSchmalzried> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
-<https://dataweek.de/#ElisaEntschew> <http://purl.org/dc/terms/description> "AI Ethicist"@de .
-<https://dataweek.de/#ElisaEntschew> <http://purl.org/dc/terms/description> "AI Ethicist"@en .
+<https://dataweek.de/#ElisaEntschew> <http://purl.org/dc/terms/description> "Expert on AI ethics from the UBA AI Lab"@en .
+<https://dataweek.de/#ElisaEntschew> <http://purl.org/dc/terms/description> "Expertin für KI Ethik vom UBA KI-Lab"@de .
 <https://dataweek.de/#ElisaEntschew> <http://schema.org/affiliation> <https://www.umweltbundesamt.de/> .
 <https://dataweek.de/#ElisaEntschew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ElisaEntschew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -4613,6 +4623,11 @@
 <https://www.gruene-fraktion-sachsen.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Green faction saxony"@en .
 <https://www.gruene-fraktion-sachsen.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Grüne Fraktion Sachsen"@de .
 <https://www.gruene-fraktion-sachsen.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.gruene-fraktion-sachsen.de/> .
+<https://www.hcu-hamburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.hcu-hamburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.hcu-hamburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "HafenCity Universität Hamburg"@de .
+<https://www.hcu-hamburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "HafenCity Universität Hamburg"@en .
+<https://www.hcu-hamburg.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.hcu-hamburg.de/> .
 <https://www.hdbw-hochschule.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.hdbw-hochschule.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.hdbw-hochschule.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Hochschule der Bayerischen Wirtschaft (HDBW) gemeinnützige GmbH"@en .
