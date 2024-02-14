@@ -2041,11 +2041,14 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-3> <http://schema.org/startTime> "09:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-44> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-44> <http://purl.org/dc/terms/title> "Envir-Data - Rethinking environmental data"@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-44> <http://purl.org/dc/terms/title> "Envir-Data - Umweltdaten neu gedacht"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-44> <http://purl.org/dc/terms/description> "How can data spaces and ecosystems be designed in such a way that a fair and trust-based data economy can emerge? Practical examples ranging from the use of personal data across different offices (City of Helsinki) to the implementation of requirements under the Supply Chain Due Diligence Act (LKSG) and emissions reporting."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-44> <http://purl.org/dc/terms/description> "Wie können Datenräume und -ökosysteme so gestaltet werden, dass eine faire und vertrauensbasierte Datenwirtschaft entstehen kann? Praktische Beispiele von der Nutzung personenbezogener Daten über verschiedene Ämter hinweg (City of Helsinki) bis hin zu Umsetzung von Vorgaben durch das Lieferkettensorgfaltspflichtengesetz (LKSG) und Emissionsreporting."@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-44> <http://purl.org/dc/terms/title> "Designing data spaces and ecosystems"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-44> <http://purl.org/dc/terms/title> "Gestaltung von Datenräumen und -ökosystemen"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-44> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-44> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-44> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-44> <http://schema.org/performer> <https://dataweek.de/#ClaudiusSeidel> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-44> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-45> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2878,6 +2881,11 @@
 <https://2024.dataweek.de/workshops/> <https://dataweek.de/#menuHomeLabel> "\u00DCbersicht"@de .
 <https://2024.dataweek.de/workshops/> <https://dataweek.de/#show> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://2024.dataweek.de/workshops/> <https://dataweek.de/#slug> "Workshops" .
+<https://adesso-lakes.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://adesso-lakes.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://adesso-lakes.com/> <http://www.w3.org/2000/01/rdf-schema#label> "adesso Lakes GmbH"@de .
+<https://adesso-lakes.com/> <http://www.w3.org/2000/01/rdf-schema#label> "adesso Lakes GmbH"@en .
+<https://adesso-lakes.com/> <http://xmlns.com/foaf/0.1/homepage> <https://adesso-lakes.com/> .
 <https://aksw.org/KirillBulert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://aksw.org/KonradHoeffner> <http://schema.org/affiliation> <https://www.imise.uni-leipzig.de/> .
 <https://aksw.org/KonradHoeffner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -3199,6 +3207,12 @@
 <https://dataweek.de/#ClaudiusLieven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ClaudiusLieven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ClaudiusLieven> <http://xmlns.com/foaf/0.1/name> "Claudius Lieven" .
+<https://dataweek.de/#ClaudiusSeidel> <http://purl.org/dc/terms/description> "Business Development"@de .
+<https://dataweek.de/#ClaudiusSeidel> <http://purl.org/dc/terms/description> "Business Development"@en .
+<https://dataweek.de/#ClaudiusSeidel> <http://schema.org/affiliation> <https://adesso-lakes.com/> .
+<https://dataweek.de/#ClaudiusSeidel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#ClaudiusSeidel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#ClaudiusSeidel> <http://xmlns.com/foaf/0.1/name> "Claudius Seidel" .
 <https://dataweek.de/#ClemensSchuelke> <http://purl.org/dc/terms/description> "Bürgermeister und Beigeordneter für Wirtschaft, Arbeit und Digitales"@de .
 <https://dataweek.de/#ClemensSchuelke> <http://purl.org/dc/terms/description> "Mayor and Councillor for Economic Affairs, Labour and Digital Affairs"@en .
 <https://dataweek.de/#ClemensSchuelke> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/dezernat-wirtschaft-arbeit-und-digitales-028> .
