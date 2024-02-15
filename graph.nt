@@ -109,11 +109,11 @@
 <http://aksw.org/MichaelMartin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/MichaelMartin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/MichaelMartin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/MichaelMartin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Michael Martin" .
+<http://aksw.org/MichaelMartin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Michael Martin" .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MichaelMartin.png" .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/MichaelMartin> .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/name> "Michael Martin" .
-<http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <http://aksw.org/MichaelMartin> <https://dataweek.de/#role> <https://dataweek.de/#GeneralChair> .
 <http://aksw.org/MilanDojchinovski> <http://purl.org/dc/terms/description> "Research Associate / Assistant Professor"@en .
 <http://aksw.org/MilanDojchinovski> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter / Assistenzprofessor"@de .
@@ -3084,7 +3084,7 @@
 <https://dataweek.de/#BrigittaZiegenbein> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Brigitta Ziegenbein" .
 <https://dataweek.de/#BrigittaZiegenbein> <http://xmlns.com/foaf/0.1/name> "Brigitta Ziegenbein" .
 <https://dataweek.de/#BrigittaZiegenbein> <http://xmlns.com/foaf/0.1/title> "Dr." .
-<https://dataweek.de/#C%C3%A9dricCrettaz> <http://purl.org/dc/terms/description> "<ccrettaz@iotlab.com>"@en .
+<https://dataweek.de/#C%C3%A9dricCrettaz> <http://schema.org/affiliation> <https://iotlab.com/> .
 <https://dataweek.de/#C%C3%A9dricCrettaz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#C%C3%A9dricCrettaz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#C%C3%A9dricCrettaz> <http://xmlns.com/foaf/0.1/name> "Cédric Crettaz" .
@@ -4468,6 +4468,11 @@
 <https://infai.org/workpage-dr-christian-zinke-wehlmann/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/2000/01/rdf-schema#label> "LEDSPLaY17" .
+<https://iotlab.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://iotlab.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://iotlab.com/> <http://www.w3.org/2000/01/rdf-schema#label> "IoT Lab"@de .
+<https://iotlab.com/> <http://www.w3.org/2000/01/rdf-schema#label> "IoT Lab"@en .
+<https://iotlab.com/> <http://xmlns.com/foaf/0.1/homepage> <https://iotlab.com/> .
 <https://joinmastodon.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Usergroup> .
 <https://kmi-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://kmi-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "K\u00FCnstlich Menschlisch Intelligent Kompetenzzentrum" .
