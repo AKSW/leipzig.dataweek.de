@@ -1,7 +1,6 @@
 {%- assign talk = include.talk -%}
 {%- assign show_date = include.show_date -%}
 {%- assign title = talk | rdf_property: "dct:title", site.language -%}
-{%- assign description = talk | rdf_property: "dct:description", site.language -%}
 {%- assign speaker = talk | rdf_property: "schema:performer" -%}
 <li>
   {% if show_date %}
@@ -9,8 +8,5 @@
   {%- assign end = talk | rdf_property: "schema:endTime" | date: "%H:%M" -%}
   {{ start }}-{{ end }}
   {% endif %}
-  {%- unless speaker == Nil -%}{%- capture return_value -%}{%- include components/list_inline_pair.html sub=talk pred="schema:performer" -%}{%- endcapture -%}{%- endunless -%}
-  {%- if description -%}<details><summary style="cursor: zoom-in;">{%- endif -%}
-  {% unless return_value == Nil %}{{ return_value | strip }}: {% endunless %}{{ title }}
-  {%- if description -%}</summary>{{ description | markdownify }}</details>{%- endif -%}
+  {% unless speaker == Nil %}{%- capture return_value -%}{%- include components/list_inline_pair.html sub=talk pred="schema:performer" -%}{%- endcapture -%}{{ return_value | strip }}: {% endunless %}{{ title }}
 </li>
