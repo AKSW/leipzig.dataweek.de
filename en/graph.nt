@@ -1436,8 +1436,16 @@
 <https://2024.dataweek.de/lswt2024/#programm-session-4> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-23> .
 <https://2024.dataweek.de/lswt2024/#programm-session-4> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-24> .
 <https://2024.dataweek.de/lswt2024/#programm-session-4> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-25> .
-<https://2024.dataweek.de/lswt2024/#programm-session-4> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-talk-26> .
 <https://2024.dataweek.de/lswt2024/#programm-session-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/lswt2024/#programm-session-5> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/lswt2024/#programm-session-5> <http://purl.org/dc/terms/description> "As we wrap up the 12th Leipzig Semantic Web Day, eccenca invites you to join us for our social event, \"Semantic Biergarten,\" at the Moritz Bastei (Kurt-Masur-Platz 1, 04109 Leipzig) starting at 18:00h."@de .
+<https://2024.dataweek.de/lswt2024/#programm-session-5> <http://purl.org/dc/terms/description> "As we wrap up the 12th Leipzig Semantic Web Day, eccenca invites you to join us for our social event, \"Semantic Biergarten,\" at the Moritz Bastei (Kurt-Masur-Platz 1, 04109 Leipzig) starting at 18:00h."@en .
+<https://2024.dataweek.de/lswt2024/#programm-session-5> <http://purl.org/dc/terms/title> "Closing Ceremony"@de .
+<https://2024.dataweek.de/lswt2024/#programm-session-5> <http://purl.org/dc/terms/title> "Closing Ceremony"@en .
+<https://2024.dataweek.de/lswt2024/#programm-session-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2024.dataweek.de/lswt2024/#programm-session-5> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-session-5> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/lswt2024/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-10> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-10> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-10> <http://schema.org/endTime> "11:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -1510,13 +1518,6 @@
 <https://2024.dataweek.de/lswt2024/#programm-talk-25> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-25> <http://schema.org/startTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-26> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-26> <http://purl.org/dc/terms/description> "As we wrap up the 12th Leipzig Semantic Web Day, eccenca invites you to join us for our social event, \"Semantic Biergarten,\" at the Moritz Bastei (Kurt-Masur-Platz 1, 04109 Leipzig) starting at 18:00h."@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-26> <http://purl.org/dc/terms/description> "As we wrap up the 12th Leipzig Semantic Web Day, eccenca invites you to join us for our social event, \"Semantic Biergarten,\" at the Moritz Bastei (Kurt-Masur-Platz 1, 04109 Leipzig) starting at 18:00h."@en .
-<https://2024.dataweek.de/lswt2024/#programm-talk-26> <http://purl.org/dc/terms/title> "Closing Ceremony"@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-26> <http://purl.org/dc/terms/title> "Closing Ceremony"@en .
-<https://2024.dataweek.de/lswt2024/#programm-talk-26> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-3> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-3> <http://purl.org/dc/terms/description> "FAIR Data at AstraZeneca"@en .
 <https://2024.dataweek.de/lswt2024/#programm-talk-3> <http://purl.org/dc/terms/description> "\nFAIR-Daten bei AstraZeneca"@de .
@@ -1568,6 +1569,7 @@
 <https://2024.dataweek.de/lswt2024/> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-session-2> .
 <https://2024.dataweek.de/lswt2024/> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-session-3> .
 <https://2024.dataweek.de/lswt2024/> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-session-4> .
+<https://2024.dataweek.de/lswt2024/> <http://schema.org/subEvent> <https://2024.dataweek.de/lswt2024/#programm-session-5> .
 <https://2024.dataweek.de/lswt2024/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2024.dataweek.de/lswt2024/> <http://www.w3.org/2000/01/rdf-schema#label> "12. Leipziger Semantic Web Tag"@de .
