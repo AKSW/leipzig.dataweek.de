@@ -1979,7 +1979,7 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-3> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-3> <http://purl.org/dc/terms/title> "Eröffnung durch das Organisationsteam der Data Week"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-3> <http://purl.org/dc/terms/title> "Eröffnung durch das Organisationsteam"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-3> <http://purl.org/dc/terms/title> "Opening by the Data Week organizing team"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-3> <http://schema.org/endTime> "09:38:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -2081,7 +2081,7 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-59> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-5> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-5> <http://purl.org/dc/terms/title> "Grußwort vom Sächsisches Staatsministerium für Regionalentwicklung"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-5> <http://purl.org/dc/terms/title> "Grußwort Sächsisches Staatsministerium für Regionalentwicklung"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-5> <http://purl.org/dc/terms/title> "Welcoming address"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-5> <http://schema.org/endTime> "09:54:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -4466,9 +4466,9 @@
 <https://digifors.de/> <http://xmlns.com/foaf/0.1/homepage> <https://digifors.de/> .
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-<https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/2000/01/rdf-schema#label> "City of Leipzig/Digital City Department"@de .
+<https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/2000/01/rdf-schema#label> "City of Leipzig/Digital City Department"@en .
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/2000/01/rdf-schema#label> "Referat Digitale Stadt" .
-<https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig/Referat DIgital Stadt"@en .
+<https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig/Referat Digital Stadt"@de .
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://xmlns.com/foaf/0.1/homepage> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> .
 <https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/Referat_Digitale_Stadt.png" .
@@ -4960,6 +4960,11 @@
 <https://www.metroscope.tech/> <http://www.w3.org/2000/01/rdf-schema#label> "METROSCOPE"@de .
 <https://www.metroscope.tech/> <http://www.w3.org/2000/01/rdf-schema#label> "METROSCOPE"@en .
 <https://www.metroscope.tech/> <http://xmlns.com/foaf/0.1/homepage> <https://www.metroscope.tech/> .
+<https://www.mittkom.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.mittkom.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.mittkom.de/> <http://www.w3.org/2000/01/rdf-schema#label> "MITTKOM GmbH"@de .
+<https://www.mittkom.de/> <http://www.w3.org/2000/01/rdf-schema#label> "MITTKOM GmbH"@en .
+<https://www.mittkom.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.mittkom.de/> .
 <https://www.ogc.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.ogc.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.ogc.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
