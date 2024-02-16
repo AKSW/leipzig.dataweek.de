@@ -64,12 +64,6 @@ DTEND;TZID=Europe/Berlin:20240416T170000
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:tba
-DTSTART;TZID=Europe/Berlin:20240416T153000
-DTEND;TZID=Europe/Berlin:20240416T170000
-LOCATION:Ratsplenarsaal
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Opening
 DTSTART;TZID=Europe/Berlin:20240416T090000
 DTEND;TZID=Europe/Berlin:20240416T103000
@@ -301,6 +295,13 @@ DESCRIPTION:Join our workshop on "Harnessing the Power of DBpedia: Transfo
  gramming knowledge. The workshop is beginner to intermediate level\, with 
  English as the main language\, and offers individual help in German.
 LOCATION:Room 377
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Generative AI in software development and data management (organiz
+ ed by Deloitte GmbH)
+DTSTART;TZID=Europe/Berlin:20240416T153000
+DTEND;TZID=Europe/Berlin:20240416T182000
+LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mastering the data turnaround: A strategy for a data-driven organi

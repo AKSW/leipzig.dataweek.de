@@ -336,12 +336,6 @@ DTEND;TZID=Europe/Berlin:20240416T170000
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:tba
-DTSTART;TZID=Europe/Berlin:20240416T153000
-DTEND;TZID=Europe/Berlin:20240416T170000
-LOCATION:Ratsplenarsaal
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Opening
 DTSTART;TZID=Europe/Berlin:20240416T090000
 DTEND;TZID=Europe/Berlin:20240416T103000
@@ -573,6 +567,13 @@ DESCRIPTION:Join our workshop on "Harnessing the Power of DBpedia: Transfo
  gramming knowledge. The workshop is beginner to intermediate level\, with 
  English as the main language\, and offers individual help in German.
 LOCATION:Room 377
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Generative AI in software development and data management (organiz
+ ed by Deloitte GmbH)
+DTSTART;TZID=Europe/Berlin:20240416T153000
+DTEND;TZID=Europe/Berlin:20240416T182000
+LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mastering the data turnaround: A strategy for a data-driven organi
@@ -1107,6 +1108,22 @@ DTEND;TZID=Europe/Berlin:20240418T100000
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Data Skills Bootcamp: Basics of Data Literacy for Professionals (o
+ rganized by Dilyana Bossenz)
+DTSTART;TZID=Europe/Berlin:20240418T103000
+DTEND;TZID=Europe/Berlin:20240418T120000
+DESCRIPTION:Immerse yourself in the exciting world of data analysis and da
+ ta visualization! In this half-day training\, we will familiarize you with
+  the basics and guide you through the day-to-day work of a real data analy
+ st: Gabriel. He is a trained journalist who has decided to change careers 
+ and now works as a data analyst. Together we will look at two practical ca
+ se studies in which Gabriel effectively analyzes data and prepares it in a
+  visually appealing way. This will give you an authentic insight into the 
+ techniques of data analysis and presentation that you can apply directly i
+ n your day-to-day work. 
+LOCATION:Room 259
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Empowering Knowledge Graphs with AI (organized by brox-IT Solution
  s) 
 DTSTART;TZID=Europe/Berlin:20240418T103000
@@ -1217,22 +1234,6 @@ DESCRIPTION:We will dive into the world of Open Science and define terms s
   how we can practically integrate them into our work. Aspects such as copy
  right and licensing will play an important role.
 LOCATION:Room 495
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Data Skills Bootcamp: Basics of Data Literacy for Professionals (o
- rganized by Dilyana Bossenz)
-DTSTART;TZID=Europe/Berlin:20240418T103000
-DTEND;TZID=Europe/Berlin:20240418T120000
-DESCRIPTION:Immerse yourself in the exciting world of data analysis and da
- ta visualization! In this half-day training\, we will familiarize you with
-  the basics and guide you through the day-to-day work of a real data analy
- st: Gabriel. He is a trained journalist who has decided to change careers 
- and now works as a data analyst. Together we will look at two practical ca
- se studies in which Gabriel effectively analyzes data and prepares it in a
-  visually appealing way. This will give you an authentic insight into the 
- techniques of data analysis and presentation that you can apply directly i
- n your day-to-day work. 
-LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Build your own GPT assistant: A dialogic approach to information s
