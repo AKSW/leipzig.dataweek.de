@@ -240,38 +240,6 @@ DESCRIPTION:Agile initiatives often come to a standstill at an initial pla
 LOCATION:Room 270
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CoyPu presentation
-DTSTART;TZID=Europe/Berlin:20240415T110000
-DTEND;TZID=Europe/Berlin:20240415T113000
-LOCATION:Ratsplenarsaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:From global networks to local resilience: understanding supply cha
- in complexity in emergency situations
-DTSTART;TZID=Europe/Berlin:20240415T113000
-DTEND;TZID=Europe/Berlin:20240415T120000
-DESCRIPTION:Agile initiatives often come to a standstill at an initial pla
- teau of improvement and then get bogged down in discussions about what is 
- methodologically right\, wrong\, allowed or forbidden. \nAgile Kata combin
- es "lean"\, the root of the agile movement\, with what constitutes true ag
- ility. Agile Kata helps to free oneself from the question of the "right" a
- gile method and to move forward with targeted improvement experiments inst
- ead of copying another "agile" blueprint. blueprint to copy. This can even
-  lead to the development of your own agile approach\, tailored to the need
- s and goals of your organisation. \nIf you actively participate in the ent
- ire workshop\, you have the option of attending an online follow-up sessio
- n of approx. 2 hours - at no additional cost - to cover the remaining cont
- ent of the official AgileKata.Pro curriculum and subsequently obtain certi
- fication as an Agile Kata Professional (AKP).
-LOCATION:Ratsplenarsaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:tba
-DTSTART;TZID=Europe/Berlin:20240415T120000
-DTEND;TZID=Europe/Berlin:20240415T123000
-LOCATION:Ratsplenarsaal
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Admission
 DTSTART;TZID=Europe/Berlin:20240416T081500
 DTEND;TZID=Europe/Berlin:20240416T090000
@@ -336,12 +304,6 @@ DTEND;TZID=Europe/Berlin:20240416T170000
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:tba
-DTSTART;TZID=Europe/Berlin:20240416T153000
-DTEND;TZID=Europe/Berlin:20240416T170000
-LOCATION:Ratsplenarsaal
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Opening
 DTSTART;TZID=Europe/Berlin:20240416T090000
 DTEND;TZID=Europe/Berlin:20240416T103000
@@ -369,54 +331,6 @@ BEGIN:VEVENT
 SUMMARY:Session 3
 DTSTART;TZID=Europe/Berlin:20240416T133000
 DTEND;TZID=Europe/Berlin:20240416T150000
-LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Will it spread or not? Agent-based modeling of sustainable technol
- ogy diffusion
-DTSTART;TZID=Europe/Berlin:20240416T110000
-DTEND;TZID=Europe/Berlin:20240416T113000
-DESCRIPTION:In order to achieve the climate targets\, it is essential that
-  sustainable technologies also become established in private households. W
- hich technologies succeed and which fail often depends on many factors suc
- h as price\, social pressure\, preferences\, perceptions and social networ
- ks. The field of innovation diffusion looks at how technologies spread. At
-  the Chair of Energy Management and Sustainability\, we use models to inve
- stigate how these diffusion patterns play out in an urban context. This le
- cture gives an insight into our research.
-LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Establishment of a digital twin for environmentally sensitive traf
- fic management
-DTSTART;TZID=Europe/Berlin:20240416T113000
-DTEND;TZID=Europe/Berlin:20240416T120000
-DESCRIPTION:As part of the AIAMO (Artificial Intelligence and Mobility) re
- search project funded by the Federal Ministry of Digital and Transport\, w
- e are working with 12 partners on an innovative AI-based environmental mob
- ility management system. Our aim is to make mobility more efficient\, more
-  sustainable and more demand-oriented\, and we will present the initial re
- sults and experiences from our project\, particularly in collaboration wit
- h the Leipzig pilot region.
-LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:What-if analysis with CoSI
-DTSTART;TZID=Europe/Berlin:20240416T120000
-DTEND;TZID=Europe/Berlin:20240416T123000
-DESCRIPTION:CoSI – the Cockpit Urban Infrastructure – is a comprehensi
- ve add-on package for the OpenSource Masterportal that simplifies the visu
- alization and analysis of urban statistical and structural data to support
-  transparent and well-founded decisions in urban and social space planning
- . It links data from various sources such as specialized authorities and c
- ompanies and integrates spatial and temporal analyses as well as scenario 
- planning. With interactive maps and user-friendly tools\, CoSI supports ne
- tworked and data-driven planning. Used at individual workstations and on d
- igital touch tables\, CoSI has already been used in collaborative workshop
- s for applications ranging from urban district development to site selecti
- on for wind turbines. Transferred from research to productive operation in
-  Hamburg\, we present CoSI as a tool for efficient and inclusive urban dev
- elopment\, smart governance and digital administration.
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
@@ -573,6 +487,13 @@ DESCRIPTION:Join our workshop on "Harnessing the Power of DBpedia: Transfo
  gramming knowledge. The workshop is beginner to intermediate level\, with 
  English as the main language\, and offers individual help in German.
 LOCATION:Room 377
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hands-on: Generative AI in software development and data managemen
+ t (organized by Deloitte GmbH)
+DTSTART;TZID=Europe/Berlin:20240416T153000
+DTEND;TZID=Europe/Berlin:20240416T182000
+LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Mastering the data turnaround: A strategy for a data-driven organi
@@ -1057,7 +978,7 @@ DESCRIPTION:Using an open innovation approach with the help of the establi
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Welcome
+SUMMARY:Welcome & Keynote by Ben Gardner (AstraZeneca)
 DTSTART;TZID=Europe/Berlin:20240418T090000
 DTEND;TZID=Europe/Berlin:20240418T092000
 DESCRIPTION:During the welcome\, we are excited to extend a warm welcome t
@@ -1100,12 +1021,27 @@ DESCRIPTION:As we wrap up the 12th Leipzig Semantic Web Day\, eccenca invi
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ben Gardner - R&D Lead for Data Mesh and Semantic Infrastructure a
- t AstraZeneca
+SUMMARY:Enabling new medicines with FAIR Data-centricity: Delivering Linke
+ d Data inside the enterprise
 DTSTART;TZID=Europe/Berlin:20240418T092000
 DTEND;TZID=Europe/Berlin:20240418T100000
-DESCRIPTION:FAIR Data at AstraZeneca
 LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Skills Bootcamp: Basics of Data Literacy for Professionals (o
+ rganized by Dilyana Bossenz)
+DTSTART;TZID=Europe/Berlin:20240418T103000
+DTEND;TZID=Europe/Berlin:20240418T120000
+DESCRIPTION:Immerse yourself in the exciting world of data analysis and da
+ ta visualization! In this half-day training\, we will familiarize you with
+  the basics and guide you through the day-to-day work of a real data analy
+ st: Gabriel. He is a trained journalist who has decided to change careers 
+ and now works as a data analyst. Together we will look at two practical ca
+ se studies in which Gabriel effectively analyzes data and prepares it in a
+  visually appealing way. This will give you an authentic insight into the 
+ techniques of data analysis and presentation that you can apply directly i
+ n your day-to-day work. 
+LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Empowering Knowledge Graphs with AI (organized by brox-IT Solution
@@ -1218,22 +1154,6 @@ DESCRIPTION:We will dive into the world of Open Science and define terms s
   how we can practically integrate them into our work. Aspects such as copy
  right and licensing will play an important role.
 LOCATION:Room 495
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Data Skills Bootcamp: Basics of Data Literacy for Professionals (o
- rganized by Dilyana Bossenz)
-DTSTART;TZID=Europe/Berlin:20240418T103000
-DTEND;TZID=Europe/Berlin:20240418T120000
-DESCRIPTION:Immerse yourself in the exciting world of data analysis and da
- ta visualization! In this half-day training\, we will familiarize you with
-  the basics and guide you through the day-to-day work of a real data analy
- st: Gabriel. He is a trained journalist who has decided to change careers 
- and now works as a data analyst. Together we will look at two practical ca
- se studies in which Gabriel effectively analyzes data and prepares it in a
-  visually appealing way. This will give you an authentic insight into the 
- techniques of data analysis and presentation that you can apply directly i
- n your day-to-day work. 
-LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Build your own GPT assistant: A dialogic approach to information s
