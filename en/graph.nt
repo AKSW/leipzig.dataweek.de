@@ -682,6 +682,7 @@
 <https://2024.dataweek.de/CfP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2024.dataweek.de/CfP> <http://www.w3.org/2000/01/rdf-schema#label> "Aufruf zur Einreichung von Veranstaltungen"@de .
 <https://2024.dataweek.de/CfP> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Event Submission"@en .
+<https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <https://leipzig.impacthub.net/> .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://kmi-leipzig.de/> .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://connectedurbantwins.de/> .
@@ -755,6 +756,8 @@
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://edih-saxony.eu/> .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://lecos.de/> .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://telekom-mms.com/> .
+<https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://www.dm-jobs.com/dmTECH/> .
+<https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://deloitte.com//> .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://2024.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
@@ -4616,6 +4619,9 @@
 <https://de.mathworks.com/> <http://www.w3.org/2000/01/rdf-schema#label> "The MathWorks, Inc."@en .
 <https://de.mathworks.com/> <http://xmlns.com/foaf/0.1/homepage> <https://de.mathworks.com/> .
 <https://de.wikipedia.org/wiki/Volker_Gruhn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://deloitte.com//> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://deloitte.com//> <http://xmlns.com/foaf/0.1/homepage> <https://deloitte.com/> .
+<https://deloitte.com//> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/deloitte.jpg" .
 <https://digifors.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://digifors.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://digifors.de/> <http://www.w3.org/2000/01/rdf-schema#label> "DigiFors GmbH"@de .
@@ -4687,6 +4693,9 @@
 <https://lecos.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Lecos GmbH" .
 <https://lecos.de/> <http://xmlns.com/foaf/0.1/homepage> <https://lecos.de> .
 <https://lecos.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/lecos.png" .
+<https://leipzig.impacthub.net/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://leipzig.impacthub.net/> <http://xmlns.com/foaf/0.1/homepage> <https://leipzig.impacthub.net/> .
+<https://leipzig.impacthub.net/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/impact-hub.png" .
 <https://lswt2019.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2019.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2019" .
 <https://lswt2020.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -4888,6 +4897,9 @@
 <https://www.dksr.city/> <http://www.w3.org/2000/01/rdf-schema#label> "Daten-Kompetenz f\u00FCr St\u00E4dte & Regionen" .
 <https://www.dksr.city/> <http://xmlns.com/foaf/0.1/homepage> <https://www.dksr.city/> .
 <https://www.dksr.city/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/dksr.png" .
+<https://www.dm-jobs.com/dmTECH/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.dm-jobs.com/dmTECH/> <http://xmlns.com/foaf/0.1/homepage> <https://www.dm-jobs.com/dmTECH/> .
+<https://www.dm-jobs.com/dmTECH/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/dm-tech.jpg" .
 <https://www.dnb.de/DE/Home/home_node.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.dnb.de/DE/Home/home_node.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.dnb.de/DE/Home/home_node.html> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsche National Bibliothek "@de .
