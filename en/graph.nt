@@ -1516,8 +1516,8 @@
 <https://2024.dataweek.de/lswt2024/#programm-talk-22> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://purl.org/dc/terms/title> "Tentris"@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://purl.org/dc/terms/title> "Tentris"@en .
+<https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://purl.org/dc/terms/title> "Tentris: From Tensors to Ten X"@de .
+<https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://purl.org/dc/terms/title> "Tentris: From Tensors to Ten X"@en .
 <https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://schema.org/endTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://schema.org/performer> <https://dataweek.de/#AxelNgonga> .
@@ -1914,8 +1914,10 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-9> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-38> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> <http://purl.org/dc/terms/title> "Parking space occupancy at the Völkerschlachtdenkmal"@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> <http://purl.org/dc/terms/title> "Parkraumbelegung am Völkerschlachtdenkmal"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> <http://purl.org/dc/terms/description> "Mit dem vordergründigen Ziel, die Auslastung bestehender P+R-Standorte zu erhöhen, wurde das Projekt Park IT - die Erfassung der Parkraumbelegung an ausgewählten P+R Standorten mittels sensorgestützter Messtechnik – umgesetzt. Zu den funktionalen Anforderungen zählten die Erfassung des Belegungszustands, die Auswertung der Nutzung im Zeitverlauf und die Stellplatz-Genaue Lokalisierung. Dabei erfolgt eine Veröffentlichung der aktuellen Auslastungsdaten über die App LeipzigMOVE der Leipziger Verkehrsbetriebe. "@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> <http://purl.org/dc/terms/description> "The Park IT project - the recording of parking space occupancy at selected P+R locations using sensor-based measurement technology - was implemented with the primary aim of increasing the utilization of existing P+R locations. The functional requirements included the recording of the occupancy status, the evaluation of usage over time and the precise localization of parking spaces. The current occupancy data is published via the LeipzigMOVE app from Leipziger Verkehrsbetriebe."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> <http://purl.org/dc/terms/title> "Park IT project - sensor recording of parking space occupancy"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> <http://purl.org/dc/terms/title> "Projekt Park IT – Sensorerfassung der Parkraumbelegung "@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> <http://schema.org/endTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> <http://schema.org/performer> <https://dataweek.de/#FelixMuhl> .
