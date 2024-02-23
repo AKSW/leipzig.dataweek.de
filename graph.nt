@@ -2185,9 +2185,13 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-61> <http://schema.org/startTime> "11:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-62> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-62> <http://purl.org/dc/terms/title> "TwinBy"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-62> <http://purl.org/dc/terms/title> "TwinBy"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-62> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-62> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-62> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-62> <http://schema.org/performer> <https://dataweek.de/#StefanBobinger> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-62> <http://schema.org/performer> <https://dataweek.de/#SusanneKloepping> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-62> <http://schema.org/startTime> "11:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-63> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -4359,6 +4363,10 @@
 <https://dataweek.de/#StavroulaChatzipanagioti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#StavroulaChatzipanagioti> <http://xmlns.com/foaf/0.1/homepage> <https://sriw.de/> .
 <https://dataweek.de/#StavroulaChatzipanagioti> <http://xmlns.com/foaf/0.1/name> "Stavroula Chatzipanagioti" .
+<https://dataweek.de/#StefanBobinger> <http://schema.org/affiliation> <https://www.stmd.bayern.de/> .
+<https://dataweek.de/#StefanBobinger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#StefanBobinger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#StefanBobinger> <http://xmlns.com/foaf/0.1/name> "Stefan Bobinger" .
 <https://dataweek.de/#StefanHartleib> <http://purl.org/dc/terms/description> "Field Applicaton Engineer"@de .
 <https://dataweek.de/#StefanHartleib> <http://purl.org/dc/terms/description> "Field Applicaton Engineer"@en .
 <https://dataweek.de/#StefanHartleib> <http://schema.org/affiliation> <https://www.kunbus.de/> .
@@ -4382,6 +4390,12 @@
 <https://dataweek.de/#SusanneFranke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SusanneFranke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SusanneFranke> <http://xmlns.com/foaf/0.1/name> "Susanne Franke" .
+<https://dataweek.de/#SusanneKloepping> <http://schema.org/affiliation> <https://www.stmd.bayern.de/> .
+<https://dataweek.de/#SusanneKloepping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#SusanneKloepping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#SusanneKloepping> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Susanne Klöpping" .
+<https://dataweek.de/#SusanneKloepping> <http://xmlns.com/foaf/0.1/name> "Susanne Klöpping" .
+<https://dataweek.de/#SusanneKloepping> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#TeresaAchtenberg> <http://purl.org/dc/terms/description> "Research associate"@en .
 <https://dataweek.de/#TeresaAchtenberg> <http://purl.org/dc/terms/description> "Wissenschaftliche Mitarbeiterin"@de .
 <https://dataweek.de/#TeresaAchtenberg> <http://schema.org/affiliation> <https://www.hdbw-hochschule.de/> .
@@ -5279,6 +5293,11 @@
 <https://www.smwk.sachsen.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Saxon State Ministry for Science, Culture and Tourism"@en .
 <https://www.smwk.sachsen.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Sächsisches Staatsministerium für Wissenschaft, Kultur und Tourismus"@de .
 <https://www.smwk.sachsen.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.smwk.sachsen.de/> .
+<https://www.stmd.bayern.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.stmd.bayern.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.stmd.bayern.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Bayerischen Staatsministerium für Digitales"@de .
+<https://www.stmd.bayern.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Bayerischen Staatsministerium für Digitales"@en .
+<https://www.stmd.bayern.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.stmd.bayern.de/> .
 <https://www.swm.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.swm.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.swm.de/> <http://www.w3.org/2000/01/rdf-schema#label> "SWM – Stadtwerke München"@de .
