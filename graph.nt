@@ -342,6 +342,7 @@
 <https://2023.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2024.dataweek.de/break/2024-04-17/12:30> .
 <https://2023.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2024.dataweek.de/break/2024-04-17/15:00> .
 <https://2023.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2024.dataweek.de/break/2024-04-18/08:30> .
+<https://2023.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2024.dataweek.de/break/2024-04-18/09:30> .
 <https://2023.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2024.dataweek.de/break/2024-04-18/10:00> .
 <https://2023.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2024.dataweek.de/break/2024-04-18/12:00> .
 <https://2023.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2024.dataweek.de/break/2024-04-18/14:30> .
@@ -975,6 +976,18 @@
 <https://2024.dataweek.de/break/2024-04-18/08:30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/break/2024-04-18/08:30> <http://www.w3.org/2004/02/skos/core#prefLabel> "Admission"@en .
 <https://2024.dataweek.de/break/2024-04-18/08:30> <http://www.w3.org/2004/02/skos/core#prefLabel> "Einlass"@de .
+<https://2024.dataweek.de/break/2024-04-18/09:30> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#sideevent> .
+<https://2024.dataweek.de/break/2024-04-18/09:30> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/break/2024-04-18/09:30> <http://purl.org/dc/terms/description> "The workshop will take place at the Smart City Lab Leipzig (Magazingasse 3, 04109 Leipzig)."@de .
+<https://2024.dataweek.de/break/2024-04-18/09:30> <http://purl.org/dc/terms/description> "The workshop will take place at the Smart City Lab Leipzig (Magazingasse 3, 04109 Leipzig)."@en .
+<https://2024.dataweek.de/break/2024-04-18/09:30> <http://purl.org/dc/terms/title> "Workshop Data-driven solutions for Positive Energy Districts"@de .
+<https://2024.dataweek.de/break/2024-04-18/09:30> <http://purl.org/dc/terms/title> "Workshop Data-driven solutions for Positive Energy Districts"@en .
+<https://2024.dataweek.de/break/2024-04-18/09:30> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/break/2024-04-18/09:30> <http://schema.org/location> <https://dataweek.de/venue#SmartCityLab> .
+<https://2024.dataweek.de/break/2024-04-18/09:30> <http://schema.org/startTime> "09:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/break/2024-04-18/09:30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/break/2024-04-18/09:30> <http://www.w3.org/2004/02/skos/core#prefLabel> "Workshop Data-driven solutions for Positive Energy Districts"@de .
+<https://2024.dataweek.de/break/2024-04-18/09:30> <http://www.w3.org/2004/02/skos/core#prefLabel> "Workshop Data-driven solutions for Positive Energy Districts"@en .
 <https://2024.dataweek.de/break/2024-04-18/10:00> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
 <https://2024.dataweek.de/break/2024-04-18/10:00> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/break/2024-04-18/10:00> <http://purl.org/dc/terms/description> "Posters and Stands"@de .
