@@ -1694,7 +1694,10 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/performer> <https://dataweek.de/#JuliaSchliessauf> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/performer> <https://dataweek.de/#AnaisWiedenhoefer> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/performer> <https://dataweek.de/#ChristophSchubert> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/performer> <https://dataweek.de/#HeikeGebhardt> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/performer> <https://dataweek.de/#KristinBolanz> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1995,11 +1998,14 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-18> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://purl.org/dc/terms/title> "Machine Cognition: A look inside artificial intelligence models."@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://purl.org/dc/terms/title> "Machine Cognition: A look inside artificial intelligence models."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://purl.org/dc/terms/description> "Our goal is to better understand how exactly artificial intelligence (AI) represents and processes information in order to solve tasks. We use methods from cognitive neuroscience to investigate the functioning of AI similar to that of the human brain. Using \"virtual imaging\", we examine in particular the forms of activation patterns in artificial neural networks."@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://purl.org/dc/terms/description> "Our goal is to better understand how exactly artificial intelligence (AI) represents and processes information in order to solve tasks. We use methods from cognitive neuroscience to investigate the functioning of AI similar to that of the human brain. Using \"virtual imaging\", we examine in particular the forms of activation patterns in artificial neural networks."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://purl.org/dc/terms/title> "Machine Cognition: A look into the artificial neural network."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://purl.org/dc/terms/title> "Machine Cognition: Ein Blick ins künstliche neuronale Netz."@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://schema.org/performer> <https://dataweek.de/#NicoScherf> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-22> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3426,7 +3432,8 @@
 <https://dataweek.de/#ClaudiaGraf-Pfohl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ClaudiaGraf-Pfohl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ClaudiaGraf-Pfohl> <http://xmlns.com/foaf/0.1/name> "Claudia Graf-Pfohl" .
-<https://dataweek.de/#ClaudiusLieven> <http://purl.org/dc/terms/description> "Behörde für Stadtentwicklung und Wohnen – Stadt Hamburg"@de .
+<https://dataweek.de/#ClaudiusLieven> <http://purl.org/dc/terms/description> "Behörde für Stadtentwicklung und Wohnen/Freie und Hansestadt Hamburg"@de .
+<https://dataweek.de/#ClaudiusLieven> <http://purl.org/dc/terms/description> "Department for Urban Development and Housing/Free and Hanseatic City of Hamburg"@en .
 <https://dataweek.de/#ClaudiusLieven> <http://schema.org/affiliation> <https://www.hamburg.de/> .
 <https://dataweek.de/#ClaudiusLieven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ClaudiusLieven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -4017,6 +4024,8 @@
 <https://dataweek.de/#MarkusGoetz> <http://xmlns.com/foaf/0.1/homepage> <https://www.scc.kit.edu/personen/11452.php> .
 <https://dataweek.de/#MarkusGoetz> <http://xmlns.com/foaf/0.1/name> "Markus Götz" .
 <https://dataweek.de/#MarkusGoetz> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#MarleneDamerau> <http://purl.org/dc/terms/description> "Networked city / City of Gelsenkirchen"@en .
+<https://dataweek.de/#MarleneDamerau> <http://purl.org/dc/terms/description> "Vernetzte Stadt / Stadt Gelsenkirchen"@de .
 <https://dataweek.de/#MarleneDamerau> <http://schema.org/affiliation> <https://www.gkd-el.de/de/> .
 <https://dataweek.de/#MarleneDamerau> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MarleneDamerau> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -4191,6 +4200,15 @@
 <https://dataweek.de/#NicoRabethge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#NicoRabethge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#NicoRabethge> <http://xmlns.com/foaf/0.1/name> "Nico Rabethge" .
+<https://dataweek.de/#NicoScherf> <http://purl.org/dc/terms/description> "Neural Data Science and Statistical Computing / Max Planck Institute for Human Cognitive and Brain Sciences"@en .
+<https://dataweek.de/#NicoScherf> <http://purl.org/dc/terms/description> "Neuronale Datenwissenschaft und statistisches Rechnen / Max-Planck-Institut für Kognitions- und Neurowissenschaften"@de .
+<https://dataweek.de/#NicoScherf> <http://schema.org/affiliation> <https://www.cbs.mpg.de/de> .
+<https://dataweek.de/#NicoScherf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#NicoScherf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#NicoScherf> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Nico Scherf" .
+<https://dataweek.de/#NicoScherf> <http://xmlns.com/foaf/0.1/homepage> <https://www.cbs.mpg.de/person/51582/2482> .
+<https://dataweek.de/#NicoScherf> <http://xmlns.com/foaf/0.1/name> "Nico Scherf" .
+<https://dataweek.de/#NicoScherf> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#NievesSande> <http://purl.org/dc/terms/description> "Research and Event Manager"@de .
 <https://dataweek.de/#NievesSande> <http://purl.org/dc/terms/description> "Research and Event Manager"@en .
 <https://dataweek.de/#NievesSande> <http://schema.org/affiliation> <https://www.eccenca.com/> .
@@ -5094,6 +5112,12 @@
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://www.w3.org/2000/01/rdf-schema#label> "XLab - Burg Giebichenstein Kunsthochschule Halle"@de .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://www.w3.org/2000/01/rdf-schema#label> "XLab - Burg Giebichenstein University of Art Halle"@en .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://xmlns.com/foaf/0.1/homepage> <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> .
+<https://www.cbs.mpg.de/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.cbs.mpg.de/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.cbs.mpg.de/de> <http://www.w3.org/2000/01/rdf-schema#label> "Max Planck Institute for Human Cognitive and Brain Sciences"@en .
+<https://www.cbs.mpg.de/de> <http://www.w3.org/2000/01/rdf-schema#label> "Max-Planck-Instituts für Kognitions- und Neurowissen­­schaften"@de .
+<https://www.cbs.mpg.de/de> <http://xmlns.com/foaf/0.1/homepage> <https://www.cbs.mpg.de/de> .
+<https://www.cbs.mpg.de/person/51582/2482> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.ciss.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.ciss.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.ciss.de> <http://www.w3.org/2000/01/rdf-schema#label> "CISS TDI GmbH"@de .
