@@ -102,19 +102,10 @@
 <http://aksw.org/MarvinHofer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/MarvinHofer> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/MarvinHofer> .
 <http://aksw.org/MarvinHofer> <http://xmlns.com/foaf/0.1/name> "Marvin Hofer" .
-<http://aksw.org/MichaelMartin> <http://purl.org/dc/terms/description> "Head of Competence Center"@en .
-<http://aksw.org/MichaelMartin> <http://purl.org/dc/terms/description> "Leiter Kompetenzzentrum"@de .
-<http://aksw.org/MichaelMartin> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/MichaelMartin> <http://schema.org/affiliation> <https://tu-chemnitz.de/> .
 <http://aksw.org/MichaelMartin> <http://schema.org/memberOf> <http://aksw.org/Group> .
-<http://aksw.org/MichaelMartin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
-<http://aksw.org/MichaelMartin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/MichaelMartin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/MichaelMartin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Michael Martin" .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MichaelMartin.png" .
-<http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/MichaelMartin> .
-<http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/name> "Michael Martin" .
-<http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <http://aksw.org/MichaelMartin> <https://dataweek.de/#role> <https://dataweek.de/#GeneralChair> .
 <http://aksw.org/MilanDojchinovski> <http://purl.org/dc/terms/description> "Research Associate / Assistant Professor"@en .
 <http://aksw.org/MilanDojchinovski> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter / Assistenzprofessor"@de .
@@ -2867,8 +2858,8 @@
 <https://2024.dataweek.de/workshops/#programm-session-20> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/workshops/#programm-session-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/description> "Die Projekte – CoyPu Cognitive Economy Intelligence Plattform für die Resilienz wirtschaftlicher Ökosysteme) und ResKriVer – Kommunikations- und Informationsplattform für resiliente krisenrelevante Versorgungsnetze stellen sich vor und gestalten einen spannenden Workshop zum Thema Krisenresilienz. "@de .
-<https://2024.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/description> "The projects - CoyPu Cognitive Economy Intelligence Platform for the Resilience of Economic Ecosystems) and ResKriVer - Communication and Information Platform for Resilient Crisis-Relevant Supply Networks - will introduce themselves and organise an exciting workshop on the topic of crisis resilience."@en .
+<https://2024.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/description> "Die Projekte aus dem 3. Förderaufruf des KI-Innovationswettbewerbs vom BMWK beschäftigen sich in dieser Session mit dem Begriff Krisenresilienz. Im Workshop werden neben den verschiedenen Projekten auch vielseitige Anwendungsfelder und Demonstratoren vorgestellt. Es wird ein Einblick in die vielseitigen Arbeitsfelder und Einsatzmöglichkeiten der zu entstehenden Dashboards und Plattformen gegeben. Auch nutzen die Projektverantwortlichen diese Session, um einen Einblick in bereits geschaffene Arbeitsergebnisse zu geben und diese der Öffentlichkeit zu präsentieren. "@de .
+<https://2024.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/description> "In this session, the projects from the 3rd funding call of the BMWK AI Innovation Competition will focus on the concept of crisis resilience. In addition to the various projects, the workshop will also present diverse fields of application and demonstrators. It will provide an insight into the diverse fields of work and possible applications of the dashboards and platforms being developed. The project managers will also use this session to provide an insight into work results that have already been created and to present these to the public."@en .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/title> "Crisis resilience workshop"@en .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/title> "Workshop zur Krisenresilienz "@de .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
@@ -4128,6 +4119,15 @@
 <https://dataweek.de/#MelaniePufahl> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MelaniePufahl.jpeg" .
 <https://dataweek.de/#MelaniePufahl> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/melaniepufahl/> .
 <https://dataweek.de/#MelaniePufahl> <http://xmlns.com/foaf/0.1/name> "Melanie Pufahl" .
+<https://dataweek.de/#MichaelMartin> <http://purl.org/dc/terms/description> "Professor"@de .
+<https://dataweek.de/#MichaelMartin> <http://purl.org/dc/terms/description> "Professor"@en .
+<https://dataweek.de/#MichaelMartin> <http://schema.org/affiliation> <https://tu-chemnitz.de/> .
+<https://dataweek.de/#MichaelMartin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MichaelMartin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MichaelMartin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Michael Martin" .
+<https://dataweek.de/#MichaelMartin> <http://xmlns.com/foaf/0.1/homepage> <https://www.tu-chemnitz.de/informatik/dm/professur/> .
+<https://dataweek.de/#MichaelMartin> <http://xmlns.com/foaf/0.1/name> "Michael Martin" .
+<https://dataweek.de/#MichaelMartin> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <https://dataweek.de/#MiriamCarnot> <http://purl.org/dc/terms/description> "ScaDS.AI"@de .
 <https://dataweek.de/#MiriamCarnot> <http://purl.org/dc/terms/description> "ScaDS.AI"@en .
 <https://dataweek.de/#MiriamCarnot> <http://schema.org/affiliation> <https://scads.ai/> .
@@ -5542,6 +5542,7 @@
 <https://www.tib.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Informationsbibliothek (TIB)"@en .
 <https://www.tib.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://www.tib.eu/> .
 <https://www.tib.eu/en/research-development/research-groups-and-labs/data-science-digital-libraries/staff/soeren-auer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.tu-chemnitz.de/informatik/dm/professur/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.tu-dortmund.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.tu-dortmund.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.tu-dortmund.de/> <http://www.w3.org/2000/01/rdf-schema#label> "TU Dortmund University"@en .
