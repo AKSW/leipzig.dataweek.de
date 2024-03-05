@@ -4,6 +4,7 @@
 {%- assign performer = session | rdf_property: "schema:performer" -%}
 {%- assign affiliation = performer | rdf_property: "schema:affiliation" -%}
 {%- assign depiction = performer | rdf_property: "foaf:depiction" -%}
+{%- assign homepage = affiliation | rdf_property: "foaf:homepage" -%}
 {%- assign bio = performer | rdf_property: "gnd:biographicalOrHistoricalInformation", site.language -%}
 {%- unless bio -%}
 {%- assign bio = performer | rdf_property: "gnd:biographicalOrHistoricalInformation" -%}
@@ -28,7 +29,7 @@
     </figure>
     {% if performer %}
     <p>
-      <strong>{{performer_name}}</strong> ({{affiliation_title}})
+      <strong>{{ performer_name }}</strong> <a href="{{ homepage | relativize_link }}">{{ affiliation_title }}</a>
     </p>
     {% endif %}
     {% if bio %}
