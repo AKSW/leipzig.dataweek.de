@@ -3876,6 +3876,13 @@
 <https://dataweek.de/#JennifenChandrabalan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JennifenChandrabalan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JennifenChandrabalan> <http://xmlns.com/foaf/0.1/name> "Jeniffen Chandrabalan" .
+<https://dataweek.de/#JensKlessmann> <http://purl.org/dc/terms/description> "Fraunhofer FOKUS "@de .
+<https://dataweek.de/#JensKlessmann> <http://purl.org/dc/terms/description> "Fraunhofer FOKUS "@en .
+<https://dataweek.de/#JensKlessmann> <http://schema.org/affiliation> <https://www.fokus.fraunhofer.de/dps> .
+<https://dataweek.de/#JensKlessmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#JensKlessmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JensKlessmann> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/jens-klessmann/> .
+<https://dataweek.de/#JensKlessmann> <http://xmlns.com/foaf/0.1/name> "Jens Klessmann" .
 <https://dataweek.de/#JensLehmann> <http://purl.org/dc/terms/description> "Innovation and technology consultant"@en .
 <https://dataweek.de/#JensLehmann> <http://purl.org/dc/terms/description> "Innovations- und Technologieberater"@de .
 <https://dataweek.de/#JensLehmann> <http://schema.org/affiliation> <https://www.agil-leipzig.de/> .
@@ -3900,8 +3907,12 @@
 <https://dataweek.de/#JohannLoempcke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JohannLoempcke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JohannLoempcke> <http://xmlns.com/foaf/0.1/name> "Johann Lömpcke" .
+<https://dataweek.de/#JohannesSautter> <http://purl.org/dc/terms/description> "Fraunhofer Institute for Industrial Engineering IAO"@en .
+<https://dataweek.de/#JohannesSautter> <http://purl.org/dc/terms/description> "Fraunhofer-Institut für Arbeitswirtschaft und Organisation IAO"@de .
+<https://dataweek.de/#JohannesSautter> <http://schema.org/affiliation> <https://www.iao.fraunhofer.de/en.html> .
 <https://dataweek.de/#JohannesSautter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JohannesSautter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JohannesSautter> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/johannes-sautter-7069a82a4/> .
 <https://dataweek.de/#JohannesSautter> <http://xmlns.com/foaf/0.1/name> "Johannes Sautter" .
 <https://dataweek.de/#JohnGrunewald> <http://purl.org/dc/terms/description> "Direktor des Instituts für Bauklimatik (IBK), Technische Universität Dresden"@de .
 <https://dataweek.de/#JohnGrunewald> <http://purl.org/dc/terms/description> "Direktor des Instituts für Bauklimatik (IBK), Technische Universität Dresden"@en .
@@ -5440,6 +5451,11 @@
 <https://www.fokus.fraunhofer.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer Institute for Open Communication Systems (FOKUS)"@en .
 <https://www.fokus.fraunhofer.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer-Institut für Offene Kommunikationssysteme (FOKUS)"@de .
 <https://www.fokus.fraunhofer.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.fokus.fraunhofer.de/> .
+<https://www.fokus.fraunhofer.de/dps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.fokus.fraunhofer.de/dps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.fokus.fraunhofer.de/dps> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer FOKUS "@de .
+<https://www.fokus.fraunhofer.de/dps> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer FOKUS "@en .
+<https://www.fokus.fraunhofer.de/dps> <http://xmlns.com/foaf/0.1/homepage> <https://www.fokus.fraunhofer.de/dps> .
 <https://www.geoe3.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.geoe3.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "GEOE3" .
 <https://www.geoe3.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://www.geoe3.eu/> .
@@ -5488,6 +5504,11 @@
 <https://www.hs-merseburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Hochschule Merseburg"@de .
 <https://www.hs-merseburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Hochschule Merseburg"@en .
 <https://www.hs-merseburg.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.hs-merseburg.de/> .
+<https://www.iao.fraunhofer.de/en.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.iao.fraunhofer.de/en.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.iao.fraunhofer.de/en.html> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer Institute for Industrial Engineering IAO"@en .
+<https://www.iao.fraunhofer.de/en.html> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer-Institut für Arbeitswirtschaft und Organisation IAO"@de .
+<https://www.iao.fraunhofer.de/en.html> <http://xmlns.com/foaf/0.1/homepage> <https://www.iao.fraunhofer.de/en.html> .
 <https://www.idiv.de/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.idiv.de/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.idiv.de/en> <http://www.w3.org/2000/01/rdf-schema#label> "idiv"@de .
@@ -5623,6 +5644,8 @@
 <https://www.linkedin.com/in/heide-h%25C3%25BCttner-877b601a8/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/holger-prang-709b4413/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/jasmin-batke-352591225/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/jens-klessmann/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/johannes-sautter-7069a82a4/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/judith-fauth-5b5137bb/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/julia-friedrich-29461b242/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/kevin-trebing/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
