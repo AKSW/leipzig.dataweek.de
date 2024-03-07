@@ -127,9 +127,9 @@
 <http://aksw.org/MilanDojchinovski> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/MilanDojchinovski> .
 <http://aksw.org/MilanDojchinovski> <http://xmlns.com/foaf/0.1/name> "Milan Dojchinovski" .
 <http://aksw.org/MilanDojchinovski> <http://xmlns.com/foaf/0.1/title> "Dr." .
-<http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Senior Linked Data Expert"@de .
-<http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Senior Linked Data Expert"@en .
-<http://aksw.org/NatanaelArndt> <http://schema.org/affiliation> <https://www.eccenca.com/> .
+<http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Web Archiv"@de .
+<http://aksw.org/NatanaelArndt> <http://purl.org/dc/terms/description> "Web Archiv"@en .
+<http://aksw.org/NatanaelArndt> <http://schema.org/affiliation> <https://www.dnb.de/> .
 <http://aksw.org/NatanaelArndt> <http://schema.org/memberOf> <http://aksw.org/Group> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -137,7 +137,6 @@
 <http://aksw.org/NatanaelArndt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Natanael Arndt" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/NatanaelArndt.jpg" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/holdsAccount> <https://chaos.social/@white_gecko> .
-<http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/holdsAccount> <https://twitter.com/white_gecko/> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/NatanaelArndt> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/name> "Natanael Arndt" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/title> "Dr." .
@@ -705,6 +704,7 @@
 <https://2024.dataweek.de/CfP> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Event Submission"@en .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <https://leipzig.impacthub.net/> .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_11> <https://tu-chemnitz.de/> .
+<https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_12> <https://www.dnb.de/> .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://kmi-leipzig.de/> .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
 <https://2024.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://connectedurbantwins.de/> .
@@ -1609,8 +1609,8 @@
 <https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://schema.org/startTime> "15:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://purl.org/dc/terms/title> "Deutsche National Bibliothek Webarchiv "@de .
-<https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://purl.org/dc/terms/title> "Deutsche National Bibliothek Webarchiv "@en .
+<https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://purl.org/dc/terms/title> "Das Webarchiv der Deutschen Nationalbibliothek"@de .
+<https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://purl.org/dc/terms/title> "The German National Library Webarchive"@en .
 <https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://schema.org/endTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2024.dataweek.de/lswt2024/#programm-talk-24> <http://schema.org/performer> <http://aksw.org/NatanaelArndt> .
@@ -1856,7 +1856,7 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-20> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-20> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-20> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-20> <http://schema.org/performer> <https://dataweek.de/#ChristophSchubert> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-20> <http://schema.org/performer> <http://aksw.org/ElisabethBreitenstein> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-20> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-20> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-73> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-20> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-74> .
@@ -3340,6 +3340,13 @@
 <https://dataweek.de/#AngelieKraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AngelieKraft> <http://xmlns.com/foaf/0.1/homepage> <https://www.inf.uni-hamburg.de/en/inst/ab/sems/people/angelie-kraft.html> .
 <https://dataweek.de/#AngelieKraft> <http://xmlns.com/foaf/0.1/name> "Angelie Kraft" .
+<https://dataweek.de/#AnitaKlingel> <http://purl.org/dc/terms/description> "PD, Berater der öffentlichen Hand"@de .
+<https://dataweek.de/#AnitaKlingel> <http://purl.org/dc/terms/description> "PD, consultant to the public sector"@en .
+<https://dataweek.de/#AnitaKlingel> <http://schema.org/affiliation> <https://www.pd-g.de/> .
+<https://dataweek.de/#AnitaKlingel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#AnitaKlingel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#AnitaKlingel> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/aniklin/> .
+<https://dataweek.de/#AnitaKlingel> <http://xmlns.com/foaf/0.1/name> "Anita Klingel" .
 <https://dataweek.de/#AnjaBrueckner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AnjaBrueckner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AnjaBrueckner> <http://xmlns.com/foaf/0.1/name> "Anja Brückner" .
@@ -3415,6 +3422,12 @@
 <https://dataweek.de/#BenGardner> <http://xmlns.com/foaf/0.1/name> "Ben Gardner" .
 <https://dataweek.de/#BenGardner> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Ben is R&D lead for Data Mesh and Semantic Infrastructure at AstraZeneca he is responsible for the application of graph technology in support of Information Discovery. He is focused on delivering FAIR Data-centric architecture to create multimodal integrated data sets to enable exploration and reuse of pre-clinical, clinical and Real World Evidence data.\nBen started life as a bench scientist leading drug discovery teams. This was followed by a move into data architecture where he was responsible for the introduction of Enterprise 2.0 tools and development of knowledge management frameworks that enhanced collaboration and communication across multiple communities. Subsequent to this he lead efforts to enhance the Information Discovery capabilities across structured and unstructured information sources at Linklaters by blending AI technologies with relational and semantic data integration solutions. This was followed by a role as Chief Scientific Officer at Wavelength.law where he was responsible for the application of data science to legal process."@en .
 <https://dataweek.de/#BenGardner> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Ben ist F&E-Leiter für Data Mesh und semantische Infrastruktur bei AstraZeneca. Er ist verantwortlich für die Anwendung von Graphentechnologie zur Unterstützung der Informationsgewinnung. Er konzentriert sich auf die Bereitstellung einer datenzentrierten FAIR-Architektur zur Erstellung multimodaler integrierter Datensätze, um die Erforschung und Wiederverwendung von präklinischen, klinischen und Real-World-Evidence-Daten zu ermöglichen.\nBen begann sein Leben als Laborwissenschaftler, der Teams in der Arzneimittelforschung leitete. Danach wechselte er in den Bereich der Datenarchitektur, wo er für die Einführung von Enterprise 2.0-Tools und die Entwicklung von Wissensmanagement-Frameworks verantwortlich war, die die Zusammenarbeit und Kommunikation zwischen verschiedenen Gemeinschaften verbesserten. Im Anschluss daran leitete er die Bemühungen zur Verbesserung der Information-Discovery-Fähigkeiten über strukturierte und unstrukturierte Informationsquellen bei Linklaters, indem er KI-Technologien mit relationalen und semantischen Datenintegrationslösungen kombinierte. Danach war er Chief Scientific Officer bei Wavelength.law, wo er für die Anwendung von Data Science auf juristische Prozesse verantwortlich war."@de .
+<https://dataweek.de/#BiancaSammer> <http://purl.org/dc/terms/description> "byte - Bayerische Agentur für Digitales"@de .
+<https://dataweek.de/#BiancaSammer> <http://schema.org/affiliation> <https://www.byte.bayern/> .
+<https://dataweek.de/#BiancaSammer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#BiancaSammer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#BiancaSammer> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/bianca-sammer-a8323914/> .
+<https://dataweek.de/#BiancaSammer> <http://xmlns.com/foaf/0.1/name> "Bianca Sammer" .
 <https://dataweek.de/#BrigittaZiegenbein> <http://purl.org/dc/terms/description> "Leiterin Stadtplanungsamt"@de .
 <https://dataweek.de/#BrigittaZiegenbein> <http://schema.org/affiliation> <https://www.leipzig.de/bauen-und-wohnen/stadtentwicklung/> .
 <https://dataweek.de/#BrigittaZiegenbein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -3528,6 +3541,13 @@
 <https://dataweek.de/#DanielSchulz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#DanielSchulz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#DanielSchulz> <http://xmlns.com/foaf/0.1/name> "Daniel Schulz" .
+<https://dataweek.de/#DavidHick> <http://purl.org/dc/terms/description> "DKSR"@de .
+<https://dataweek.de/#DavidHick> <http://purl.org/dc/terms/description> "DKSR"@en .
+<https://dataweek.de/#DavidHick> <http://schema.org/affiliation> <https://www.dksr.city/> .
+<https://dataweek.de/#DavidHick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#DavidHick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#DavidHick> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/david-hick-56572619b/> .
+<https://dataweek.de/#DavidHick> <http://xmlns.com/foaf/0.1/name> "David Hick" .
 <https://dataweek.de/#DeAnnaHarner> <http://purl.org/dc/terms/description> "RPE Solutions, LLC"@de .
 <https://dataweek.de/#DeAnnaHarner> <http://purl.org/dc/terms/description> "RPE Solutions, LLC"@en .
 <https://dataweek.de/#DeAnnaHarner> <http://schema.org/affiliation> <https://rpesolutionsllc.com/> .
@@ -3552,6 +3572,12 @@
 <https://dataweek.de/#DirkSchmalzried> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Dirk Schmalzried" .
 <https://dataweek.de/#DirkSchmalzried> <http://xmlns.com/foaf/0.1/name> "Dirk Schmalzried" .
 <https://dataweek.de/#DirkSchmalzried> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
+<https://dataweek.de/#EiliasParajes> <http://purl.org/dc/terms/description> "Plan4Better GmbH, IÖR"@de .
+<https://dataweek.de/#EiliasParajes> <http://purl.org/dc/terms/description> "Plan4Better GmbH, IÖR"@en .
+<https://dataweek.de/#EiliasParajes> <http://schema.org/affiliation> <https://plan4better.de/> .
+<https://dataweek.de/#EiliasParajes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#EiliasParajes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#EiliasParajes> <http://xmlns.com/foaf/0.1/name> "Eilias Parajes" .
 <https://dataweek.de/#ElisaEntschew> <http://purl.org/dc/terms/description> "Expert on AI ethics from the UBA AI Lab"@en .
 <https://dataweek.de/#ElisaEntschew> <http://purl.org/dc/terms/description> "Expertin für KI Ethik vom UBA KI-Lab"@de .
 <https://dataweek.de/#ElisaEntschew> <http://schema.org/affiliation> <https://www.umweltbundesamt.de/> .
@@ -3608,6 +3634,13 @@
 <https://dataweek.de/#EvaHoerster> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/eva-hoerster-26a718190/> .
 <https://dataweek.de/#EvaHoerster> <http://xmlns.com/foaf/0.1/name> "Eva Hoerster" .
 <https://dataweek.de/#EvaHoerster> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#FabianLandua> <http://purl.org/dc/terms/description> "DKSR"@de .
+<https://dataweek.de/#FabianLandua> <http://purl.org/dc/terms/description> "DKSR"@en .
+<https://dataweek.de/#FabianLandua> <http://schema.org/affiliation> <https://www.dksr.city/> .
+<https://dataweek.de/#FabianLandua> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#FabianLandua> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#FabianLandua> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/fabian-landua/> .
+<https://dataweek.de/#FabianLandua> <http://xmlns.com/foaf/0.1/name> "Fabian Landua" .
 <https://dataweek.de/#FalkWittmann> <http://schema.org/affiliation> <https://www.gicon.de/> .
 <https://dataweek.de/#FalkWittmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#FalkWittmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -3748,6 +3781,13 @@
 <https://dataweek.de/#HendrikKondziella> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#HendrikKondziella> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/dr-hendrik-kondziella-22b152123/> .
 <https://dataweek.de/#HendrikKondziella> <http://xmlns.com/foaf/0.1/name> "Hendrik Kondziella" .
+<https://dataweek.de/#HolgerPrang> <http://purl.org/dc/terms/description> "Elie GmbH"@de .
+<https://dataweek.de/#HolgerPrang> <http://purl.org/dc/terms/description> "Elie GmbH"@en .
+<https://dataweek.de/#HolgerPrang> <http://schema.org/affiliation> <https://elie.de/de> .
+<https://dataweek.de/#HolgerPrang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#HolgerPrang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#HolgerPrang> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/holger-prang-709b4413/> .
+<https://dataweek.de/#HolgerPrang> <http://xmlns.com/foaf/0.1/name> "Holger Prang" .
 <https://dataweek.de/#IngoSimonis> <http://purl.org/dc/terms/description> "Chief Technology Innovation Officer"@de .
 <https://dataweek.de/#IngoSimonis> <http://purl.org/dc/terms/description> "Chief Technology Innovation Officer"@en .
 <https://dataweek.de/#IngoSimonis> <http://schema.org/affiliation> <https://www.ogc.org/> .
@@ -3836,6 +3876,13 @@
 <https://dataweek.de/#JennifenChandrabalan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JennifenChandrabalan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JennifenChandrabalan> <http://xmlns.com/foaf/0.1/name> "Jeniffen Chandrabalan" .
+<https://dataweek.de/#JensKlessmann> <http://purl.org/dc/terms/description> "Fraunhofer FOKUS "@de .
+<https://dataweek.de/#JensKlessmann> <http://purl.org/dc/terms/description> "Fraunhofer FOKUS "@en .
+<https://dataweek.de/#JensKlessmann> <http://schema.org/affiliation> <https://www.fokus.fraunhofer.de/dps> .
+<https://dataweek.de/#JensKlessmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#JensKlessmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JensKlessmann> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/jens-klessmann/> .
+<https://dataweek.de/#JensKlessmann> <http://xmlns.com/foaf/0.1/name> "Jens Klessmann" .
 <https://dataweek.de/#JensLehmann> <http://purl.org/dc/terms/description> "Innovation and technology consultant"@en .
 <https://dataweek.de/#JensLehmann> <http://purl.org/dc/terms/description> "Innovations- und Technologieberater"@de .
 <https://dataweek.de/#JensLehmann> <http://schema.org/affiliation> <https://www.agil-leipzig.de/> .
@@ -3860,6 +3907,13 @@
 <https://dataweek.de/#JohannLoempcke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JohannLoempcke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JohannLoempcke> <http://xmlns.com/foaf/0.1/name> "Johann Lömpcke" .
+<https://dataweek.de/#JohannesSautter> <http://purl.org/dc/terms/description> "Fraunhofer Institute for Industrial Engineering IAO"@en .
+<https://dataweek.de/#JohannesSautter> <http://purl.org/dc/terms/description> "Fraunhofer-Institut für Arbeitswirtschaft und Organisation IAO"@de .
+<https://dataweek.de/#JohannesSautter> <http://schema.org/affiliation> <https://www.iao.fraunhofer.de/en.html> .
+<https://dataweek.de/#JohannesSautter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#JohannesSautter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JohannesSautter> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/johannes-sautter-7069a82a4/> .
+<https://dataweek.de/#JohannesSautter> <http://xmlns.com/foaf/0.1/name> "Johannes Sautter" .
 <https://dataweek.de/#JohnGrunewald> <http://purl.org/dc/terms/description> "Direktor des Instituts für Bauklimatik (IBK), Technische Universität Dresden"@de .
 <https://dataweek.de/#JohnGrunewald> <http://purl.org/dc/terms/description> "Direktor des Instituts für Bauklimatik (IBK), Technische Universität Dresden"@en .
 <https://dataweek.de/#JohnGrunewald> <http://schema.org/affiliation> <https://tu-dresden.de/> .
@@ -3988,6 +4042,8 @@
 <https://dataweek.de/#LisaWenige> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#LogoCUT> <http://purl.org/dc/terms/description> "Connected Urban Twins" .
 <https://dataweek.de/#LogoCUT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/CUT_Logo.png" .
+<https://dataweek.de/#LogoDNB> <http://purl.org/dc/terms/description> "Logo der Deutsche Nationalbibliothek" .
+<https://dataweek.de/#LogoDNB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/dnb.png" .
 <https://dataweek.de/#LogoEccenca> <http://purl.org/dc/terms/description> "eccenca GmbH" .
 <https://dataweek.de/#LogoEccenca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/partner/eccenca_w.svg" .
 <https://dataweek.de/#LogoEccenca> <https://dataweek.de/#contrastFlavor> "/resources/images/partner/eccenca_w_bg.svg" .
@@ -4013,9 +4069,21 @@
 <https://dataweek.de/#LucySchmidt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#LucySchmidt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#LucySchmidt> <http://xmlns.com/foaf/0.1/name> "Lucy Schmidt" .
+<https://dataweek.de/#LukasKoch> <http://purl.org/dc/terms/description> "DKSR"@de .
+<https://dataweek.de/#LukasKoch> <http://purl.org/dc/terms/description> "DKSR"@en .
+<https://dataweek.de/#LukasKoch> <http://schema.org/affiliation> <https://www.dksr.city/> .
+<https://dataweek.de/#LukasKoch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#LukasKoch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#LukasKoch> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/lukas-koch-9474b9105/> .
+<https://dataweek.de/#LukasKoch> <http://xmlns.com/foaf/0.1/name> "Lukas Koch" .
 <https://dataweek.de/#LukasSchroll> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#LukasSchroll> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#LukasSchroll> <http://xmlns.com/foaf/0.1/name> "Lukas Schroll" .
+<https://dataweek.de/#MagdalenaScharf> <http://schema.org/affiliation> <https://www.dksr.city/> .
+<https://dataweek.de/#MagdalenaScharf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MagdalenaScharf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MagdalenaScharf> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/magdalena-scharf/> .
+<https://dataweek.de/#MagdalenaScharf> <http://xmlns.com/foaf/0.1/name> "Magdalena Scharf " .
 <https://dataweek.de/#MagnusKnuth> <http://schema.org/affiliation> <https://www.eccenca.com/> .
 <https://dataweek.de/#MagnusKnuth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MagnusKnuth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -4046,6 +4114,13 @@
 <https://dataweek.de/#ManishBhandari> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ManishBhandari> <http://xmlns.com/foaf/0.1/homepage> <https://github.com/ManishBhandariV> .
 <https://dataweek.de/#ManishBhandari> <http://xmlns.com/foaf/0.1/name> "Manish Bhandari" .
+<https://dataweek.de/#MarcelAltendeitering> <http://purl.org/dc/terms/description> "ISST"@de .
+<https://dataweek.de/#MarcelAltendeitering> <http://purl.org/dc/terms/description> "ISST"@en .
+<https://dataweek.de/#MarcelAltendeitering> <http://schema.org/affiliation> <https://www.isst.fraunhofer.de/> .
+<https://dataweek.de/#MarcelAltendeitering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MarcelAltendeitering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MarcelAltendeitering> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/marcel-altendeitering-920211bb/> .
+<https://dataweek.de/#MarcelAltendeitering> <http://xmlns.com/foaf/0.1/name> "Marcel Altendeitering" .
 <https://dataweek.de/#MarcelFroehlich> <http://purl.org/dc/terms/description> "Director Services "@de .
 <https://dataweek.de/#MarcelFroehlich> <http://purl.org/dc/terms/description> "Director Services "@en .
 <https://dataweek.de/#MarcelFroehlich> <http://schema.org/affiliation> <https://www.eccenca.com/> .
@@ -4070,6 +4145,13 @@
 <https://dataweek.de/#MariaEstherVidal> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Maria-Esther Vidal" .
 <https://dataweek.de/#MariaEstherVidal> <http://xmlns.com/foaf/0.1/name> "Maria-Esther Vidal" .
 <https://dataweek.de/#MariaEstherVidal> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
+<https://dataweek.de/#MariusHuppertz> <http://purl.org/dc/terms/description> "ISST"@de .
+<https://dataweek.de/#MariusHuppertz> <http://purl.org/dc/terms/description> "ISST"@en .
+<https://dataweek.de/#MariusHuppertz> <http://schema.org/affiliation> <https://www.isst.fraunhofer.de/> .
+<https://dataweek.de/#MariusHuppertz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MariusHuppertz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MariusHuppertz> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/marius-hupperz-970aa6182/> .
+<https://dataweek.de/#MariusHuppertz> <http://xmlns.com/foaf/0.1/name> "Marius Hupperz " .
 <https://dataweek.de/#MarkDietrich> <http://schema.org/affiliation> <urn:url-encoded-value:EGI> .
 <https://dataweek.de/#MarkDietrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MarkDietrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -4159,6 +4241,13 @@
 <https://dataweek.de/#MatthiasZeller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MatthiasZeller> <http://xmlns.com/foaf/0.1/name> "Matthias Zeller" .
 <https://dataweek.de/#MatthiasZeller> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Matthias Zeller hat Politische Wissenschaften und Verwaltungswissenschaften an der Universität Potsdam und an der Hertie School of Governance in Berlin studiert und war bis 2017 als Büroleiter und Referent im Deutschen Bundestag tätig. Nach seinem Wechsel in die Privatwirtschaft verantwortete er zunächst die Geschäftsentwicklung für verschiedene Start-ups im Softwarebereich und Energiesektor, während er seit 2022 für das französische Unternehmen Metroscope als Senior Business Developer tätig ist. Dort leitet er für das Tochterunternehmen der EDF Group die Markterschließung in Europa und Afrika. Metroscope bietet digitale Lösungen für die Diagnostik von Kraftwerken und Industrieanlagen an und setzt dabei auf die Analyse von Big Data mittels digitaler Zwillinge und künstlicher Intelligenz.“"@de .
+<https://dataweek.de/#MaxSchwerhoff> <http://purl.org/dc/terms/description> "City of Troisdorf"@en .
+<https://dataweek.de/#MaxSchwerhoff> <http://purl.org/dc/terms/description> "Stadt Troisdorf"@de .
+<https://dataweek.de/#MaxSchwerhoff> <http://schema.org/affiliation> <https://www.troisdorf.de/de/> .
+<https://dataweek.de/#MaxSchwerhoff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MaxSchwerhoff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MaxSchwerhoff> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/maxschwerhoff/> .
+<https://dataweek.de/#MaxSchwerhoff> <http://xmlns.com/foaf/0.1/name> "Max Schwerhoff" .
 <https://dataweek.de/#MaximilianBarth> <http://purl.org/dc/terms/description> "Business Development & Strategic Partnerships Manager"@en .
 <https://dataweek.de/#MaximilianBarth> <http://purl.org/dc/terms/description> "Manager für Geschäftsentwicklung und strategische Partnerschaften"@de .
 <https://dataweek.de/#MaximilianBarth> <http://schema.org/affiliation> <https://stackfuel.com/de/> .
@@ -4289,8 +4378,8 @@
 <https://dataweek.de/#NilsHempelmann> <http://xmlns.com/foaf/0.1/title> "Dr. " .
 <https://dataweek.de/#NilsHempelmann> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Dr. Nils Hempelmann (male), is responsible for planning and managing OGC Innovation Program initiatives. Mr. Hempelmann holds a PhD in Geography and provides a combination of an extensive scientific background in climate change data assessment and sustainable development as well as software engineering for scientific data processing and information delivery. Furthermore he gained deep insights of the United Nations policy mechanisms e.g. as a member of the German UNCCD delegation as well as a UNFCCC observer. He contributes to OGC with his almost 20 years of research, scientific software development and climate service consultation experiences from international project contributions in research environments as well as consultation of international cooperation organisations."@en .
 <https://dataweek.de/#NilsHempelmann> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Dr. Nils Hempelmann, ist verantwortlich für die Planung und das Management von OGC-Innovationsprogramm-Initiativen. Herr Hempelmann hat einen Doktortitel in Geographie und verfügt über einen umfassenden wissenschaftlichen Hintergrund in der Bewertung von Klimadaten und nachhaltiger Entwicklung sowie in der Softwareentwicklung für die wissenschaftliche Datenverarbeitung und Informationsbereitstellung. Darüber hinaus hat er tiefe Einblicke in die politischen Mechanismen der Vereinten Nationen gewonnen, z.B. als Mitglied der deutschen UNCCD-Delegation und als UNFCCC-Beobachter. Er bringt seine fast 20-jährige Erfahrung in Forschung, wissenschaftlicher Softwareentwicklung und Klimadienstberatung aus internationalen Projektbeiträgen in Forschungsumgebungen sowie der Beratung von internationalen Kooperationsorganisationen in OGC ein."@de .
-<https://dataweek.de/#NinetteFlorschuetz> <http://purl.org/dc/terms/description> "Strategy Consultant"@de .
-<https://dataweek.de/#NinetteFlorschuetz> <http://purl.org/dc/terms/description> "Strategy Consultant"@en .
+<https://dataweek.de/#NinetteFlorschuetz> <http://purl.org/dc/terms/description> "Representative of the Mittelstand Digital Center Ilmenau"@en .
+<https://dataweek.de/#NinetteFlorschuetz> <http://purl.org/dc/terms/description> "Vertreterin des Mittelstand Digital Zentrums Ilmenau"@de .
 <https://dataweek.de/#NinetteFlorschuetz> <http://schema.org/affiliation> <https://www.mittkom.de/> .
 <https://dataweek.de/#NinetteFlorschuetz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#NinetteFlorschuetz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -4372,11 +4461,23 @@
 <https://dataweek.de/#RaanaSahebNassagh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#RaanaSahebNassagh> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/raana-saheb-nassagh/> .
 <https://dataweek.de/#RaanaSahebNassagh> <http://xmlns.com/foaf/0.1/name> "Raana Saheb Nassagh" .
+<https://dataweek.de/#RamonaVoshage> <http://purl.org/dc/terms/description> "Leibniz-Institut für ökologische Raumentwicklung (IÖR)"@de .
+<https://dataweek.de/#RamonaVoshage> <http://purl.org/dc/terms/description> "Leibniz-Institut für ökologische Raumentwicklung (IÖR)"@en .
+<https://dataweek.de/#RamonaVoshage> <http://schema.org/affiliation> <https://ioer-fdz.de/> .
+<https://dataweek.de/#RamonaVoshage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#RamonaVoshage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#RamonaVoshage> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Ramona Voshage" .
+<https://dataweek.de/#RamonaVoshage> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/dr-ramona-voshage-a199b4269/> .
+<https://dataweek.de/#RamonaVoshage> <http://xmlns.com/foaf/0.1/name> "Ramona Voshage" .
+<https://dataweek.de/#RamonaVoshage> <http://xmlns.com/foaf/0.1/title> "Dr. " .
 <https://dataweek.de/#RaulPalma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#RaulPalma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#RaulPalma> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Raul Palma" .
 <https://dataweek.de/#RaulPalma> <http://xmlns.com/foaf/0.1/name> "Raul Palma" .
 <https://dataweek.de/#RaulPalma> <http://xmlns.com/foaf/0.1/title> "Dr. " .
+<https://dataweek.de/#ReinhardSchinke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#ReinhardSchinke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#ReinhardSchinke> <http://xmlns.com/foaf/0.1/name> "Reinhard Schinke" .
 <https://dataweek.de/#RichardFigura> <http://purl.org/dc/terms/description> "CEO"@de .
 <https://dataweek.de/#RichardFigura> <http://purl.org/dc/terms/description> "CEO"@en .
 <https://dataweek.de/#RichardFigura> <http://schema.org/affiliation> <https://www.ciss.de> .
@@ -4693,6 +4794,13 @@
 <https://dataweek.de/#TilmanHartwig> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Tilman Hartwig" .
 <https://dataweek.de/#TilmanHartwig> <http://xmlns.com/foaf/0.1/name> "Tilman Hartwig" .
 <https://dataweek.de/#TilmanHartwig> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#TimCleffmann> <http://purl.org/dc/terms/description> "DKSR"@de .
+<https://dataweek.de/#TimCleffmann> <http://purl.org/dc/terms/description> "DKSR"@en .
+<https://dataweek.de/#TimCleffmann> <http://schema.org/affiliation> <https://www.dksr.city/> .
+<https://dataweek.de/#TimCleffmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#TimCleffmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#TimCleffmann> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/tim-cleffmann-a456a8122/> .
+<https://dataweek.de/#TimCleffmann> <http://xmlns.com/foaf/0.1/name> "Tim Cleffmann" .
 <https://dataweek.de/#TimoHouben> <http://purl.org/dc/terms/description> "Helmholtz Centre for Environmental Research"@en .
 <https://dataweek.de/#TimoHouben> <http://purl.org/dc/terms/description> "Helmholtz-Zentrum für Umweltforschung"@de .
 <https://dataweek.de/#TimoHouben> <http://schema.org/affiliation> <https://www.ufz.de/index.php?de=33573> .
@@ -4716,6 +4824,13 @@
 <https://dataweek.de/#TobiasKuesterCampioni> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#TobiasKuesterCampioni> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#TobiasKuesterCampioni> <http://xmlns.com/foaf/0.1/name> "Tobias Kuester-Campioni" .
+<https://dataweek.de/#TobiasMiethaner> <http://purl.org/dc/terms/description> "Mobility Data Space"@de .
+<https://dataweek.de/#TobiasMiethaner> <http://purl.org/dc/terms/description> "Mobility Data Space"@en .
+<https://dataweek.de/#TobiasMiethaner> <http://schema.org/affiliation> <https://mobility-dataspace.eu/> .
+<https://dataweek.de/#TobiasMiethaner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#TobiasMiethaner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#TobiasMiethaner> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/tobias-miethaner/?originalSubdomain=de> .
+<https://dataweek.de/#TobiasMiethaner> <http://xmlns.com/foaf/0.1/name> "Tobias Miethaner" .
 <https://dataweek.de/#Tom%20Potutschek> <http://purl.org/dc/terms/description> "COO at Gecko Two GmbH"@en .
 <https://dataweek.de/#Tom%20Potutschek> <http://purl.org/dc/terms/description> "COO bei Gecko Two GmbH"@de .
 <https://dataweek.de/#Tom%20Potutschek> <http://schema.org/affiliation> <https://gecko-two.de/> .
@@ -4967,6 +5082,11 @@
 <https://edih-saxony.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "edih Saxony" .
 <https://edih-saxony.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://edih-saxony.eu/> .
 <https://edih-saxony.eu/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/edih.png" .
+<https://elie.de/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://elie.de/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://elie.de/de> <http://www.w3.org/2000/01/rdf-schema#label> "Elie GmbH"@de .
+<https://elie.de/de> <http://www.w3.org/2000/01/rdf-schema#label> "Elie GmbH"@en .
+<https://elie.de/de> <http://xmlns.com/foaf/0.1/homepage> <https://elie.de/de> .
 <https://eu4dbp.net/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://eu4dbp.net/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://eu4dbp.net/> <http://www.w3.org/2000/01/rdf-schema#label> "EUnet4DBP"@de .
@@ -5006,6 +5126,11 @@
 <https://infai.org/workpage-dr-christian-zinke-wehlmann/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://informatik2017.de/ws29-ledsplay17/> <http://www.w3.org/2000/01/rdf-schema#label> "LEDSPLaY17" .
+<https://ioer-fdz.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://ioer-fdz.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://ioer-fdz.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Leibniz-Institut für ökologische Raumentwicklung (IÖR)"@de .
+<https://ioer-fdz.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Leibniz-Institut für ökologische Raumentwicklung (IÖR)"@en .
+<https://ioer-fdz.de/> <http://xmlns.com/foaf/0.1/homepage> <https://ioer-fdz.de/> .
 <https://iotlab.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://iotlab.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://iotlab.com/> <http://www.w3.org/2000/01/rdf-schema#label> "IoT Lab"@de .
@@ -5028,6 +5153,11 @@
 <https://lswt2019.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2019" .
 <https://lswt2020.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://lswt2020.aksw.org/> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT2020" .
+<https://mobility-dataspace.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://mobility-dataspace.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://mobility-dataspace.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "Mobility Data Space"@de .
+<https://mobility-dataspace.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "Mobility Data Space"@en .
+<https://mobility-dataspace.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://mobility-dataspace.eu/> .
 <https://mundraub.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://mundraub.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://mundraub.org/> <http://www.w3.org/2000/01/rdf-schema#label> "mundraub.org"@de .
@@ -5050,6 +5180,11 @@
 <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig/Amt f\u00FCr Statistik und Wahlen" .
 <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> <http://xmlns.com/foaf/0.1/homepage> <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> .
 <https://opendata.leipzig.de/organization/amt-fuer-statistik-und-wahlen> <http://xmlns.com/foaf/0.1/logo> <https://dataweek.de/#LogoStatistikUndWahlen> .
+<https://plan4better.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://plan4better.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://plan4better.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Plan4Better GmbH"@de .
+<https://plan4better.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Plan4Better GmbH"@en .
+<https://plan4better.de/> <http://xmlns.com/foaf/0.1/homepage> <https://plan4better.de/> .
 <https://program.2024.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://vocab.eccenca.com/di/Dataset> .
 <https://rbleipzig.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://rbleipzig.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
@@ -5184,6 +5319,11 @@
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://www.w3.org/2000/01/rdf-schema#label> "XLab - Burg Giebichenstein Kunsthochschule Halle"@de .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://www.w3.org/2000/01/rdf-schema#label> "XLab - Burg Giebichenstein University of Art Halle"@en .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://xmlns.com/foaf/0.1/homepage> <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> .
+<https://www.byte.bayern/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.byte.bayern/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.byte.bayern/> <http://www.w3.org/2000/01/rdf-schema#label> "byte - Bayerische Agentur für Digitales"@de .
+<https://www.byte.bayern/> <http://www.w3.org/2000/01/rdf-schema#label> "byte - Bayerische Agentur für Digitales"@en .
+<https://www.byte.bayern/> <http://xmlns.com/foaf/0.1/homepage> <https://www.byte.bayern/> .
 <https://www.cbs.mpg.de/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.cbs.mpg.de/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.cbs.mpg.de/de> <http://www.w3.org/2000/01/rdf-schema#label> "Max Planck Institute for Human Cognitive and Brain Sciences"@en .
@@ -5257,17 +5397,24 @@
 <https://www.diw.de/deutsch> <http://www.w3.org/2000/01/rdf-schema#label> "German Institute for Economic Research (DIW Berlin)"@de .
 <https://www.diw.de/deutsch> <http://xmlns.com/foaf/0.1/homepage> <https://www.diw.de/deutsch> .
 <https://www.dksr.city/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.dksr.city/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.dksr.city/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.dksr.city/> <http://www.w3.org/2000/01/rdf-schema#label> "DKSR"@de .
+<https://www.dksr.city/> <http://www.w3.org/2000/01/rdf-schema#label> "DKSR"@en .
 <https://www.dksr.city/> <http://www.w3.org/2000/01/rdf-schema#label> "Daten-Kompetenz f\u00FCr St\u00E4dte & Regionen" .
 <https://www.dksr.city/> <http://xmlns.com/foaf/0.1/homepage> <https://www.dksr.city/> .
 <https://www.dksr.city/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/dksr.png" .
 <https://www.dm-jobs.com/dmTECH/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.dm-jobs.com/dmTECH/> <http://xmlns.com/foaf/0.1/homepage> <https://www.dm-jobs.com/dmTECH/> .
 <https://www.dm-jobs.com/dmTECH/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/dm-tech.jpg" .
-<https://www.dnb.de/DE/Home/home_node.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://www.dnb.de/DE/Home/home_node.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-<https://www.dnb.de/DE/Home/home_node.html> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsche National Bibliothek "@de .
-<https://www.dnb.de/DE/Home/home_node.html> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsche National Bibliothek "@en .
-<https://www.dnb.de/DE/Home/home_node.html> <http://xmlns.com/foaf/0.1/homepage> <https://www.dnb.de/DE/Home/home_node.html> .
+<https://www.dnb.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.dnb.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.dnb.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.dnb.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsche Nationalbibliothek " .
+<https://www.dnb.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsche Nationalbibliothek"@de .
+<https://www.dnb.de/> <http://www.w3.org/2000/01/rdf-schema#label> "German National Library"@en .
+<https://www.dnb.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.dnb.de/> .
+<https://www.dnb.de/> <http://xmlns.com/foaf/0.1/logo> <https://dataweek.de/#LogoDNB> .
 <https://www.eah-jena.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.eah-jena.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.eah-jena.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Ernst-Abbe-Hochschule Jena - University of Applied Sciences"@de .
@@ -5309,6 +5456,11 @@
 <https://www.fokus.fraunhofer.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer Institute for Open Communication Systems (FOKUS)"@en .
 <https://www.fokus.fraunhofer.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer-Institut für Offene Kommunikationssysteme (FOKUS)"@de .
 <https://www.fokus.fraunhofer.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.fokus.fraunhofer.de/> .
+<https://www.fokus.fraunhofer.de/dps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.fokus.fraunhofer.de/dps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.fokus.fraunhofer.de/dps> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer FOKUS "@de .
+<https://www.fokus.fraunhofer.de/dps> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer FOKUS "@en .
+<https://www.fokus.fraunhofer.de/dps> <http://xmlns.com/foaf/0.1/homepage> <https://www.fokus.fraunhofer.de/dps> .
 <https://www.geoe3.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.geoe3.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "GEOE3" .
 <https://www.geoe3.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://www.geoe3.eu/> .
@@ -5357,6 +5509,11 @@
 <https://www.hs-merseburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Hochschule Merseburg"@de .
 <https://www.hs-merseburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Hochschule Merseburg"@en .
 <https://www.hs-merseburg.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.hs-merseburg.de/> .
+<https://www.iao.fraunhofer.de/en.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.iao.fraunhofer.de/en.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.iao.fraunhofer.de/en.html> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer Institute for Industrial Engineering IAO"@en .
+<https://www.iao.fraunhofer.de/en.html> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer-Institut für Arbeitswirtschaft und Organisation IAO"@de .
+<https://www.iao.fraunhofer.de/en.html> <http://xmlns.com/foaf/0.1/homepage> <https://www.iao.fraunhofer.de/en.html> .
 <https://www.idiv.de/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.idiv.de/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.idiv.de/en> <http://www.w3.org/2000/01/rdf-schema#label> "idiv"@de .
@@ -5373,6 +5530,11 @@
 <https://www.infineon.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Infineon Technologies AG"@de .
 <https://www.infineon.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Infineon Technologies AG"@en .
 <https://www.infineon.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.infineon.com/> .
+<https://www.isst.fraunhofer.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.isst.fraunhofer.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.isst.fraunhofer.de/> <http://www.w3.org/2000/01/rdf-schema#label> "ISST"@de .
+<https://www.isst.fraunhofer.de/> <http://www.w3.org/2000/01/rdf-schema#label> "ISST"@en .
+<https://www.isst.fraunhofer.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.isst.fraunhofer.de/> .
 <https://www.ivi.fraunhofer.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.ivi.fraunhofer.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.ivi.fraunhofer.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer-Institut für Verkehrs- und Infrastruktursysteme IVI"@de .
@@ -5471,19 +5633,32 @@
 <https://www.linkedin.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Usergroup> .
 <https://www.linkedin.com/in/alexanderkrause/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/andrea-hensel-4367699a/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/aniklin/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/bianca-sammer-a8323914/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/christian-r%25C3%25B6%25C3%259Fler-67a34594/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/daniel-probst-a355251/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/david-hick-56572619b/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/dr-hendrik-kondziella-22b152123/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/dr-nadine-weissman-2b94ba4b/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/dr-ramona-voshage-a199b4269/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/enrico-macholdt-473499110/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/eva-hoerster-26a718190/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/fabian-landua/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/franziska-seidel-482543210/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/gollam-rabby-28203095/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/heide-h%25C3%25BCttner-877b601a8/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/holger-prang-709b4413/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/jasmin-batke-352591225/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/jens-klessmann/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/johannes-sautter-7069a82a4/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/judith-fauth-5b5137bb/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/julia-friedrich-29461b242/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/kevin-trebing/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/lukas-koch-9474b9105/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/magdalena-scharf/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/marcel-altendeitering-920211bb/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/marius-hupperz-970aa6182/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/maxschwerhoff/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/mehdi-azarafza-1865a91b6/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/melaniepufahl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/mirzamohtashim/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -5504,6 +5679,8 @@
 <https://www.linkedin.com/in/sophia-kuhl-30567b42/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/stefan-hartleib-322544182/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/thomas-grzeschik-68a5631/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/tim-cleffmann-a456a8122/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/tobias-miethaner/?originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/tom-potutschek-45983b148/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/ulrike-hagen-09bb3022a/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.lucidminds.ai/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -5551,6 +5728,11 @@
 <https://www.paderborn.de/> <http://www.w3.org/2000/01/rdf-schema#label> "City of Paderborn"@en .
 <https://www.paderborn.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Paderborn"@de .
 <https://www.paderborn.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.paderborn.de/> .
+<https://www.pd-g.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.pd-g.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.pd-g.de/> <http://www.w3.org/2000/01/rdf-schema#label> "PD, Berater der öffentlichen Hand"@de .
+<https://www.pd-g.de/> <http://www.w3.org/2000/01/rdf-schema#label> "PD, consultant to the public sector"@en .
+<https://www.pd-g.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.pd-g.de/> .
 <https://www.plan-d.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.plan-d.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.plan-d.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Plan D"@de .
@@ -5614,6 +5796,11 @@
 <https://www.tib.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "Technische Informationsbibliothek (TIB)"@en .
 <https://www.tib.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://www.tib.eu/> .
 <https://www.tib.eu/en/research-development/research-groups-and-labs/data-science-digital-libraries/staff/soeren-auer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.troisdorf.de/de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.troisdorf.de/de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.troisdorf.de/de/> <http://www.w3.org/2000/01/rdf-schema#label> "City of Troisdorf"@en .
+<https://www.troisdorf.de/de/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Troisdorf"@de .
+<https://www.troisdorf.de/de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.troisdorf.de/de/> .
 <https://www.tu-chemnitz.de/informatik/dm/professur/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.tu-dortmund.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.tu-dortmund.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
