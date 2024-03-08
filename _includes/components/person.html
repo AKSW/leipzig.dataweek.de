@@ -87,7 +87,7 @@ select ?mastodon ?linkedin ?xing ?twitter {
         {% assign affiliation_alt = str_alt_named | append: " " | append: affiliation_alt %}
         <li>
           {% if depiction %}
-              <a href="{{ affiliation }}">
+              <a href="{{ affiliation_homepage }}">
                 {% include components/img.html alt=affiliation_alt resource=depiction simple=true %}
               </a>
           {% else %}
