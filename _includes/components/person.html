@@ -76,6 +76,10 @@ select ?mastodon ?linkedin ?xing ?twitter {
     <ul class="logos">
       {% for affiliation in affiliations %}
         {% assign depiction = affiliation | rdf_property: "site:small_logo" %}
+        {% assign affiliation_homepage = affiliation | rdf_property: "foaf:homepage" %}
+        {% unless affiliation_homepage %}
+          {% assign affiliation_homepage = affiliation %}
+        {% endunless %}
         {% unless depiction %}
           {% assign depiction = affiliation | rdf_property: "foaf:logo" %}
         {% endunless %}
@@ -83,7 +87,7 @@ select ?mastodon ?linkedin ?xing ?twitter {
         {% assign affiliation_alt = str_alt_named | append: " " | append: affiliation_alt %}
         <li>
           {% if depiction %}
-              <a href="{{ affiliation }}">
+              <a href="{{ affiliation_homepage }}">
                 {% include components/img.html alt=affiliation_alt resource=depiction simple=true %}
               </a>
           {% else %}
