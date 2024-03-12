@@ -2223,10 +2223,11 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-49> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-4> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-4> <http://purl.org/dc/terms/title> "Grußwort der Stadt Leipzig"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-4> <http://purl.org/dc/terms/title> "Grußwort von Bürgermeister Hörning, Beigeordneter für Allgemeine Verwaltung"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-4> <http://purl.org/dc/terms/title> "Welcoming address"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-4> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-4> <http://schema.org/endTime> "09:46:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-4> <http://schema.org/performer> <https://dataweek.de/#UlrichH%C3%B6rning> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-4> <http://schema.org/startTime> "09:38:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-54> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -4814,6 +4815,12 @@
 <https://dataweek.de/#TomRichardVargis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#TomRichardVargis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#TomRichardVargis> <http://xmlns.com/foaf/0.1/name> "Tom Richard Vargis" .
+<https://dataweek.de/#UlrichH%C3%B6rning> <http://purl.org/dc/terms/description> "Bürgermeister, Beigeordneter für Allgemeine Verwaltung"@de .
+<https://dataweek.de/#UlrichH%C3%B6rning> <http://purl.org/dc/terms/description> "Mayor, Deputy for General Administration"@en .
+<https://dataweek.de/#UlrichH%C3%B6rning> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung> .
+<https://dataweek.de/#UlrichH%C3%B6rning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#UlrichH%C3%B6rning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#UlrichH%C3%B6rning> <http://xmlns.com/foaf/0.1/name> "Ulrich Hörning" .
 <https://dataweek.de/#UlrichMaldinger> <http://purl.org/dc/terms/description> "Kunstkraftwerk"@de .
 <https://dataweek.de/#UlrichMaldinger> <http://purl.org/dc/terms/description> "Kunstkraftwerk"@en .
 <https://dataweek.de/#UlrichMaldinger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -5591,6 +5598,11 @@
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://www.w3.org/2000/01/rdf-schema#label> "Road Traffic Authority / Traffic Management - Traffic and Civil Engineering Office"@en .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://www.w3.org/2000/01/rdf-schema#label> "Straßenverkehrsbehörde / Verkehrsmanagement - Verkehrs- und Tiefbauamt"@de .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> .
+<https://www.leipzig.de/buergerservice-und-verwaltung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.leipzig.de/buergerservice-und-verwaltung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.leipzig.de/buergerservice-und-verwaltung> <http://www.w3.org/2000/01/rdf-schema#label> "City of Leipzig/Citizen Services and Administration"@en .
+<https://www.leipzig.de/buergerservice-und-verwaltung> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig/Bürgerservice und Verwaltung"@de .
+<https://www.leipzig.de/buergerservice-und-verwaltung> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung> .
 <https://www.linkedin.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Usergroup> .
 <https://www.linkedin.com/in/alexanderkrause/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/andrea-hensel-4367699a/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
