@@ -1199,6 +1199,8 @@
 <https://2024.dataweek.de/dsm/#programm-session-1> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/dsm/#programm-session-1> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
 <https://2024.dataweek.de/dsm/#programm-session-1> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/dsm/#programm-session-1> <http://schema.org/subEvent> <https://2024.dataweek.de/dsm/#programm-talk-4> .
+<https://2024.dataweek.de/dsm/#programm-session-1> <http://schema.org/subEvent> <https://2024.dataweek.de/dsm/#programm-talk-5> .
 <https://2024.dataweek.de/dsm/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/dsm/#programm-session-2> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/dsm/#programm-session-2> <http://purl.org/dc/terms/description> "In der Session beleuchten wir eure Zusammenarbeits- und Teamkultur, welche Auswirkungen die Kommunikation untereinander hat und wie ihr eurer Teamwork auf das nächste Level bringt."@de .
@@ -1209,6 +1211,8 @@
 <https://2024.dataweek.de/dsm/#programm-session-2> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/dsm/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
 <https://2024.dataweek.de/dsm/#programm-session-2> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/dsm/#programm-session-2> <http://schema.org/subEvent> <https://2024.dataweek.de/dsm/#programm-talk-8> .
+<https://2024.dataweek.de/dsm/#programm-session-2> <http://schema.org/subEvent> <https://2024.dataweek.de/dsm/#programm-talk-9> .
 <https://2024.dataweek.de/dsm/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/dsm/#programm-session-3> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/dsm/#programm-session-3> <http://purl.org/dc/terms/description> "Veränderung ist Arbeit. Jeden Tag. In dieser Session bekommst du ganz konkrete Hinweise und Impulse, welche Weiterentwicklungen jetzt anzustoßen sind und wie du diese Veränderungsprozesse auch langfristig begleitest."@de .
@@ -1216,10 +1220,61 @@
 <https://2024.dataweek.de/dsm/#programm-session-3> <http://purl.org/dc/terms/title> "Arbeitsprozesse"@de .
 <https://2024.dataweek.de/dsm/#programm-session-3> <http://purl.org/dc/terms/title> "Arbeitsprozesse"@en .
 <https://2024.dataweek.de/dsm/#programm-session-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/dsm/#programm-session-3> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/dsm/#programm-session-3> <http://schema.org/endTime> "16:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/dsm/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
 <https://2024.dataweek.de/dsm/#programm-session-3> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/dsm/#programm-session-3> <http://schema.org/subEvent> <https://2024.dataweek.de/dsm/#programm-talk-12> .
+<https://2024.dataweek.de/dsm/#programm-session-3> <http://schema.org/subEvent> <https://2024.dataweek.de/dsm/#programm-talk-13> .
 <https://2024.dataweek.de/dsm/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/dsm/#programm-talk-12> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/dsm/#programm-talk-12> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2024.dataweek.de/dsm/#programm-talk-12> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2024.dataweek.de/dsm/#programm-talk-12> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/dsm/#programm-talk-12> <http://schema.org/endTime> "16:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/dsm/#programm-talk-12> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2024.dataweek.de/dsm/#programm-talk-12> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/dsm/#programm-talk-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/dsm/#programm-talk-13> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/dsm/#programm-talk-13> <http://purl.org/dc/terms/title> "Haben ITler*innen auch Gefühle? Wie wir konkreten Herausforderungen im Arbeitsalltag begegnen können."@de .
+<https://2024.dataweek.de/dsm/#programm-talk-13> <http://purl.org/dc/terms/title> "Haben ITler*innen auch Gefühle? Wie wir konkreten Herausforderungen im Arbeitsalltag begegnen können."@en .
+<https://2024.dataweek.de/dsm/#programm-talk-13> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/dsm/#programm-talk-13> <http://schema.org/endTime> "16:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/dsm/#programm-talk-13> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2024.dataweek.de/dsm/#programm-talk-13> <http://schema.org/performer> <https://dataweek.de/#MelaniePufahl> .
+<https://2024.dataweek.de/dsm/#programm-talk-13> <http://schema.org/startTime> "16:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/dsm/#programm-talk-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/dsm/#programm-talk-4> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/dsm/#programm-talk-4> <http://purl.org/dc/terms/title> "Zwischen Hierarchie und Führung: Was Produktentwicklung mit Kontingenz zu tun hat"@de .
+<https://2024.dataweek.de/dsm/#programm-talk-4> <http://purl.org/dc/terms/title> "Zwischen Hierarchie und Führung: Was Produktentwicklung mit Kontingenz zu tun hat"@en .
+<https://2024.dataweek.de/dsm/#programm-talk-4> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/dsm/#programm-talk-4> <http://schema.org/endTime> "11:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/dsm/#programm-talk-4> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2024.dataweek.de/dsm/#programm-talk-4> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/dsm/#programm-talk-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/dsm/#programm-talk-5> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/dsm/#programm-talk-5> <http://purl.org/dc/terms/title> "GKI - Hype oder Realität. Wie Geschäfstopportunitäten am Beispiel von dm erschlossen werden können"@de .
+<https://2024.dataweek.de/dsm/#programm-talk-5> <http://purl.org/dc/terms/title> "GKI - Hype oder Realität. Wie Geschäfstopportunitäten am Beispiel von dm erschlossen werden können"@en .
+<https://2024.dataweek.de/dsm/#programm-talk-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/dsm/#programm-talk-5> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/dsm/#programm-talk-5> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2024.dataweek.de/dsm/#programm-talk-5> <http://schema.org/startTime> "11:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/dsm/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/dsm/#programm-talk-8> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/dsm/#programm-talk-8> <http://purl.org/dc/terms/title> "Wo Kommunikation sichtbar wird - und wie eine Verbesserung der Kommunikation Agilität erzeugen kann"@de .
+<https://2024.dataweek.de/dsm/#programm-talk-8> <http://purl.org/dc/terms/title> "Wo Kommunikation sichtbar wird - und wie eine Verbesserung der Kommunikation Agilität erzeugen kann"@en .
+<https://2024.dataweek.de/dsm/#programm-talk-8> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/dsm/#programm-talk-8> <http://schema.org/endTime> "14:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/dsm/#programm-talk-8> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2024.dataweek.de/dsm/#programm-talk-8> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/dsm/#programm-talk-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/dsm/#programm-talk-9> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/dsm/#programm-talk-9> <http://purl.org/dc/terms/title> "Drei Kulturen - Wie Business, Tech und Data Teams interagieren (mit Entschuldigung an C.P. Snow)"@de .
+<https://2024.dataweek.de/dsm/#programm-talk-9> <http://purl.org/dc/terms/title> "Three Cultures - How Business, Tech and Data Teams interact (with apologies to C. P. Snow)"@en .
+<https://2024.dataweek.de/dsm/#programm-talk-9> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/dsm/#programm-talk-9> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/dsm/#programm-talk-9> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2024.dataweek.de/dsm/#programm-talk-9> <http://schema.org/startTime> "14:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/dsm/#programm-talk-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/dsm/> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/dsm/> <http://purl.org/dc/terms/description> "At Data Science Mania we will talk about leadership and agility in the Data Science environment, about successful and maybe not so successful projects (and what you can learn from them) and about promising methodological approaches - regardless of programming language and framework.\n\nAll people who are interested in the topics are invited, regardless of their professional background and career level. After all, that\u2019s what Data Science is really about: different people inspiring each other and creating something new.\n\nFor more information, please visit [datasciencemania.de](https://www.datasciencemania.de/)"@en .
 <https://2024.dataweek.de/dsm/> <http://purl.org/dc/terms/description> "Auf der Data Science Mania reden wir \u00FCber Leadership und Agilit\u00E4t im Data Science Umfeld, \u00FCber erfolgreiche und vielleicht auch nicht so erfolgreiche Projekte (und was man daraus lernen kann) und \u00FCber vielversprechende methodische Ans\u00E4tze - unabh\u00E4ngig von der Programmiersprache und vom Framework.\n\nEingeladen sind alle Menschen, die sich f\u00FCr die Themen interessieren, unabh\u00E4ngig vom fachlichen Hintergrund und von der Karrierestufe. Denn darum geht es doch eigentlich in der Data Science: unterschiedliche Menschen, die sich gegenseitig inspirieren und Neues schaffen.\n\nMehr Informationen dazu findest du auf [datasciencemania.de](https://www.datasciencemania.de/)."@de .
@@ -4487,6 +4542,7 @@
 <https://dataweek.de/#MehdiAzarafza> <http://xmlns.com/foaf/0.1/name> "Mehdi Azarafza" .
 <https://dataweek.de/#MelaniePufahl> <http://purl.org/dc/terms/description> "Agile Coach"@de .
 <https://dataweek.de/#MelaniePufahl> <http://purl.org/dc/terms/description> "Agile Coach"@en .
+<https://dataweek.de/#MelaniePufahl> <http://schema.org/affiliation> <https://www.comsystoreply.de/> .
 <https://dataweek.de/#MelaniePufahl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MelaniePufahl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MelaniePufahl> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MelaniePufahl.jpeg" .
