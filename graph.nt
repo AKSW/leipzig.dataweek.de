@@ -2767,6 +2767,7 @@
 <https://2024.dataweek.de/uds/#programm-session-10> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/uds/#programm-session-10> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/uds/#programm-session-10> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2024.dataweek.de/uds/#programm-session-10> <http://schema.org/performer> <https://dataweek.de/#MichaelBirlbauer> .
 <https://2024.dataweek.de/uds/#programm-session-10> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/uds/#programm-session-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/uds/#programm-session-11> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2984,7 +2985,7 @@
 <https://2024.dataweek.de/uds/#programm-talk-24> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/uds/#programm-talk-24> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/uds/#programm-talk-24> <http://schema.org/location> <https://dataweek.de/venue#Room495> .
-<https://2024.dataweek.de/uds/#programm-talk-24> <http://schema.org/performer> <https://dataweek.de/#EiliasParajes> .
+<https://2024.dataweek.de/uds/#programm-talk-24> <http://schema.org/performer> <https://dataweek.de/#EliasParajes> .
 <https://2024.dataweek.de/uds/#programm-talk-24> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/uds/#programm-talk-24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/uds/#programm-talk-25> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3863,12 +3864,12 @@
 <https://dataweek.de/#DirkSchmalzried> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Dirk Schmalzried" .
 <https://dataweek.de/#DirkSchmalzried> <http://xmlns.com/foaf/0.1/name> "Dirk Schmalzried" .
 <https://dataweek.de/#DirkSchmalzried> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
-<https://dataweek.de/#EiliasParajes> <http://purl.org/dc/terms/description> "Plan4Better GmbH, IÖR"@de .
-<https://dataweek.de/#EiliasParajes> <http://purl.org/dc/terms/description> "Plan4Better GmbH, IÖR"@en .
-<https://dataweek.de/#EiliasParajes> <http://schema.org/affiliation> <https://plan4better.de/> .
-<https://dataweek.de/#EiliasParajes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
-<https://dataweek.de/#EiliasParajes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#EiliasParajes> <http://xmlns.com/foaf/0.1/name> "Eilias Parajes" .
+<https://dataweek.de/#EliasParajes> <http://purl.org/dc/terms/description> "Plan4Better GmbH, IÖR"@de .
+<https://dataweek.de/#EliasParajes> <http://purl.org/dc/terms/description> "Plan4Better GmbH, IÖR"@en .
+<https://dataweek.de/#EliasParajes> <http://schema.org/affiliation> <https://plan4better.de/> .
+<https://dataweek.de/#EliasParajes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#EliasParajes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#EliasParajes> <http://xmlns.com/foaf/0.1/name> "Elias Parajes" .
 <https://dataweek.de/#ElisaEntschew> <http://purl.org/dc/terms/description> "Expert on AI ethics from the UBA AI Lab"@en .
 <https://dataweek.de/#ElisaEntschew> <http://purl.org/dc/terms/description> "Expertin für KI Ethik vom UBA KI-Lab"@de .
 <https://dataweek.de/#ElisaEntschew> <http://schema.org/affiliation> <https://www.umweltbundesamt.de/> .
@@ -4591,6 +4592,12 @@
 <https://dataweek.de/#MelaniePufahl> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MelaniePufahl.jpeg" .
 <https://dataweek.de/#MelaniePufahl> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/melaniepufahl/> .
 <https://dataweek.de/#MelaniePufahl> <http://xmlns.com/foaf/0.1/name> "Melanie Pufahl" .
+<https://dataweek.de/#MichaelBirlbauer> <http://purl.org/dc/terms/description> "Mobility Data Space"@de .
+<https://dataweek.de/#MichaelBirlbauer> <http://purl.org/dc/terms/description> "Mobility Data Space"@en .
+<https://dataweek.de/#MichaelBirlbauer> <http://schema.org/affiliation> <https://mobility-dataspace.eu/> .
+<https://dataweek.de/#MichaelBirlbauer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MichaelBirlbauer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MichaelBirlbauer> <http://xmlns.com/foaf/0.1/name> "Michael Birlbauer" .
 <https://dataweek.de/#MiriamCarnot> <http://purl.org/dc/terms/description> "ScaDS.AI"@de .
 <https://dataweek.de/#MiriamCarnot> <http://purl.org/dc/terms/description> "ScaDS.AI"@en .
 <https://dataweek.de/#MiriamCarnot> <http://schema.org/affiliation> <https://scads.ai/> .
