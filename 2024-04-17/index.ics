@@ -350,10 +350,56 @@ DESCRIPTION:The exchange of sensitive\, sometimes restrictive data from va
 LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:MPSC-Gelsenkirchen: An application center for municipal AI solutio
+ ns
+DTSTART;TZID=Europe/Berlin:20240417T113000
+DTEND;TZID=Europe/Berlin:20240417T120000
+DESCRIPTION:The city of Gelsenkirchen is currently inviting tenders for an
+  application center for municipal AI solutions in urban development as par
+ t of the Smart Cities model project funding\, which is to be set up and su
+ stainably operated in Gelsenkirchen. This article presents how the city pl
+ ans to provide the resources of this center for cities and the replication
+  of solutions.
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TwinBy – Digital twins for Bavaria
+DTSTART;TZID=Europe/Berlin:20240417T120000
+DTEND;TZID=Europe/Berlin:20240417T123000
+DESCRIPTION:With the TwinBy project\, the Bavarian State Ministry for Digi
+ tal Affairs is supporting local authorities in setting up individual digit
+ al twins based on specific use cases. TwinBy is intended to lay the founda
+ tion for the standardized availability and networking of data and applicat
+ ions. The Smart District Data Infrastructure (SDDI) of the Technical Unive
+ rsity of Munich is used as a standardized framework for the planning and i
+ ntroduction of digital twins. All use cases are recorded in the SDDI catal
+ og service and will therefore be available to all local authorities in the
+  future as a basis for replication. [https://twinby.bayern/de/startseite]
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Brief presentation of the Research Data Center of the Leibniz Inst
+ itute of Ecological Urban and Regional Development
+DTSTART;TZID=Europe/Berlin:20240417T153000
+DTEND;TZID=Europe/Berlin:20240417T160000
+DESCRIPTION:The Research Data Center of the Leibniz Institute of Ecologica
+ l Urban and Regional Development (IOER) offers cross-scale and cross-depar
+ tmental\, high-resolution object and spatial data\, simulations and tools 
+ for selected topics on land use\, settlements\, buildings and ecosystems. 
+ The focus is on regional developments in Germany\, while selected aspects 
+ are also considered on a European and global scale. The services support s
+ patial decision-making processes and are aimed at stakeholders in research
+ \, politics and administration\, business and civil society at all levels.
+  To begin with\, the IOER-FDZ's current range of services will be presente
+ d\, followed by two tools\, GOAT and FLOOD.Bi.\nFurther information: https
+ ://ioer-fdz.de/
+LOCATION:Room 495
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Tool presentation/workshop A: \nGOAT-Workshop: Making spatial and 
  mobility data usable for integrated and collaborative planning
-DTSTART;TZID=Europe/Berlin:20240417T153000
-DTEND;TZID=Europe/Berlin:20240417T170000
+DTSTART;TZID=Europe/Berlin:20240417T160000
+DTEND;TZID=Europe/Berlin:20240417T163000
 DESCRIPTION:The WebGIS-based open source planning software GOAT was create
  d as part of a collaborative development between science\, planning practi
  ce and start-ups. As a tool\, it can calculate a wealth of sophisticated i
@@ -373,7 +419,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tool presentation/workshop B:\nFlood prevention at a glance: The F
  LOOD.Bi information tool
-DTSTART;TZID=Europe/Berlin:20240417T153000
+DTSTART;TZID=Europe/Berlin:20240417T163000
 DTEND;TZID=Europe/Berlin:20240417T170000
 DESCRIPTION:FLOOD.Bi is a WebGIS tool on the subject of flooding and damag
  e reduction to buildings. It provides a comprehensive overview of property
@@ -414,6 +460,52 @@ DESCRIPTION:The Research Data Center of the Leibniz Institute of Ecologica
 LOCATION:Room 495
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Tool presentation/workshop A: \nGOAT-Workshop: Making spatial and 
+ mobility data usable for integrated and collaborative planning
+DTSTART;TZID=Europe/Berlin:20240417T110000
+DTEND;TZID=Europe/Berlin:20240417T123000
+DESCRIPTION:The WebGIS-based open source planning software GOAT was create
+ d as part of a collaborative development between science\, planning practi
+ ce and start-ups. As a tool\, it can calculate a wealth of sophisticated i
+ ndicators\, particularly for the evaluation and simulation of accessibilit
+ y\, supply quality and travel times to important destinations for daily ne
+ eds. For example\, what is the situation regarding the provision of school
+ s\, supermarkets or green spaces or the quality of public transport in the
+  various cities and regions in Germany? For these and many other questions
+ \, GOAT can be tested collaboratively in the workshop in interaction with 
+ the integrated data in small groups for any area. The results should provi
+ de direct added value for the participants and give an impression of data-
+ based planning.\nFurther information:\nhttps://bmdv.bund.de/SharedDocs/DE/
+ Artikel/DG/mfund-projekte/goat-3-0.html\nhttps://plan4better.de/\nhttps://
+ ioer-fdz.de/en/
+LOCATION:Room 495
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tool presentation/workshop B:\nFlood prevention at a glance: The F
+ LOOD.Bi information tool
+DTSTART;TZID=Europe/Berlin:20240417T110000
+DTEND;TZID=Europe/Berlin:20240417T123000
+DESCRIPTION:FLOOD.Bi is a WebGIS tool on the subject of flooding and damag
+ e reduction to buildings. It provides a comprehensive overview of property
+ -related hazards\, potential damage and risks as well as the effect of pre
+ ventive measures. It is primarily aimed at building owners\, specialist pl
+ anners and engineering offices in order to make an initial assessment of t
+ he affected buildings and to support the selection and implementation of p
+ reventive measures. In conjunction with a concrete structural survey on si
+ te\, engineering planning and professional implementation\, the majority o
+ f flood damage can be effectively reduced or avoided.\nThe tool is based o
+ n the engineering model approach developed by the IOER\, which identifies 
+ potential flood damage on the basis of building types. The special feature
+  of this tool is the linking of the type-based approach with individual in
+ formation on building construction and building services\, so that concret
+ e proposals for damage reduction measures can be developed.\nThe tool can 
+ be accessed via the data portal of the Saxon State Office for the Environm
+ ent\, Agriculture and Geology. It is available throughout Saxony and for t
+ he Czech districts of Karlovy Vary\, Ústí nad Labem and Liberec.\nhttps:
+ //lsnq.de/FLOODBI
+LOCATION:Room 495
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Knowledge transfer and replication – many ideas\, little clarity
 DTSTART;TZID=Europe/Berlin:20240417T110000
 DTEND;TZID=Europe/Berlin:20240417T113000
@@ -426,34 +518,6 @@ DESCRIPTION:The funded smart city measures are intended to generate a broa
  es need? We are therefore interested in exchanging ideas with other cities
   in order to find out what common ideas and solutions already exist for kn
  owledge transfer and the transferability of solutions.
-LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MPSC-Gelsenkirchen: An application center for municipal AI solutio
- ns
-DTSTART;TZID=Europe/Berlin:20240417T113000
-DTEND;TZID=Europe/Berlin:20240417T120000
-DESCRIPTION:The city of Gelsenkirchen is currently inviting tenders for an
-  application center for municipal AI solutions in urban development as par
- t of the Smart Cities model project funding\, which is to be set up and su
- stainably operated in Gelsenkirchen. This article presents how the city pl
- ans to provide the resources of this center for cities and the replication
-  of solutions.
-LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:TwinBy – Digital twins for Bavaria
-DTSTART;TZID=Europe/Berlin:20240417T120000
-DTEND;TZID=Europe/Berlin:20240417T123000
-DESCRIPTION:With the TwinBy project\, the Bavarian State Ministry for Digi
- tal Affairs is supporting local authorities in setting up individual digit
- al twins based on specific use cases. TwinBy is intended to lay the founda
- tion for the standardized availability and networking of data and applicat
- ions. The Smart District Data Infrastructure (SDDI) of the Technical Unive
- rsity of Munich is used as a standardized framework for the planning and i
- ntroduction of digital twins. All use cases are recorded in the SDDI catal
- og service and will therefore be available to all local authorities in the
-  future as a basis for replication. [https://twinby.bayern/de/startseite]
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
