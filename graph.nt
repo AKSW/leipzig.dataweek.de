@@ -3137,9 +3137,9 @@
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/performer> <http://aksw.org/KirillBulert> .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/performer> <http://aksw.org/MichaelMartin> .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/subEvent> <https://2024.dataweek.de/workshops/#programm-talk-4> .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/subEvent> <https://2024.dataweek.de/workshops/#programm-talk-5> .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/subEvent> <https://2024.dataweek.de/workshops/#programm-talk-6> .
+<https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/subEvent> <https://2024.dataweek.de/workshops/#programm-talk-7> .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/workshops/#programm-session-3> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/workshops/#programm-session-3> <http://purl.org/dc/terms/description> "Agile Initiativen kommen oft auf einem ersten Plateau der Verbesserung zum Stillstand und verharren dann in Diskussionen darüber, was methodisch richtig, falsch, erlaubt oder verboten ist. \nAgile Kata verbindet „Lean“ die Wurzel der agilen Bewegung mit dem, was echte Agilität ausmacht. Agile Kata hilft, sich von der Frage der \"richtigen\" agilen Methode zu befreien und sich mit gezielten Verbesserungsexperimenten nach vorne zu bewegen, anstatt eine weitere \"agile\" Blaupause zu kopieren. Daraus kann sich sogar der eigene agile Ansatz entwickeln, der auf die Bedürfnisse und Ziele Ihrer Organisation zugeschnitten ist. \nWenn Sie aktiv am ganzen Workshop teilnehmen besteht die Option, an einem Online-Folgetermin von ca. 2 Stunden - ohne zusätzliche Kosten - verbleibende Inhalte des offiziellen AgileKata.Pro-Curriculums zu behandeln und im Nachgang eine Zertifizierung als Agile Kata Professional (AKP) abzulegen."@de .
@@ -3215,32 +3215,44 @@
 <https://2024.dataweek.de/workshops/#programm-session-9> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
 <https://2024.dataweek.de/workshops/#programm-session-9> <http://schema.org/startTime> "09:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/workshops/#programm-session-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/workshops/#programm-talk-4> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/workshops/#programm-talk-4> <http://purl.org/dc/terms/title> "Recognising the risks of supply chain dependencies in regional economic areas - dashboard for the resilience of Saxony's economy"@en .
-<https://2024.dataweek.de/workshops/#programm-talk-4> <http://purl.org/dc/terms/title> "Risiken von Lieferkettenabhängigkeiten regionaler Wirtschaftsräume erkennen - Dashboard für die Resilienz der sächsischen Wirtschaft"@de .
-<https://2024.dataweek.de/workshops/#programm-talk-4> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2024.dataweek.de/workshops/#programm-talk-4> <http://schema.org/endTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/workshops/#programm-talk-4> <http://schema.org/performer> <https://dataweek.de/#FatihKilic> .
-<https://2024.dataweek.de/workshops/#programm-talk-4> <http://schema.org/performer> <https://dataweek.de/#JuliaLuecke> .
-<https://2024.dataweek.de/workshops/#programm-talk-4> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/workshops/#programm-talk-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/workshops/#programm-talk-2> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/workshops/#programm-talk-2> <http://purl.org/dc/terms/description> "Was sind Urbane Digitale Zwillinge? Und was hat Excel damit zu tun? Mit einem Impulsvortrag und praktischen Beispielen aus dem Projekt Connected Urban Twins und der Geodateninfrastruktur Leipzig wollen wir Antworten darauf finden. Wir legen den Fokus dabei inhaltlich auf soziale Infrastrukturen und erkunden schrittweise wie aus verteilten Fachdaten neue Erkenntnisse gewonnen werden können. In einem interaktiven Teil möchten wir mit Ihnen in den Austausch treten: Welche Daten nutzen und benötigen Sie für Ihre tägliche Arbeit? Welche Erkenntnisse möchten Sie daraus gewinnen? Wie sollte Ihr Digitaler Zwilling aussehen? Primär richtet sich der Workshop an Mitarbeitende der Stadt Leipzig, Interessierte sind willkommen."@de .
+<https://2024.dataweek.de/workshops/#programm-talk-2> <http://purl.org/dc/terms/description> "What are Urban Digital Twins? And what does Excel have to do with them? We want to find answers to these questions with a keynote speech and practical examples from the Connected Urban Twins project and the Leipzig geodata infrastructure. We will focus on social infrastructures and explore step by step how new insights can be gained from distributed specialist data. In an interactive part, we would like to enter into an exchange with you: What data do you use and need for your daily work? What insights would you like to gain from it? What should your digital twin look like? The workshop is primarily aimed at employees of the City of Leipzig, but interested parties are welcome."@en .
+<https://2024.dataweek.de/workshops/#programm-talk-2> <http://purl.org/dc/terms/title> "From Excel to urban digital twins"@en .
+<https://2024.dataweek.de/workshops/#programm-talk-2> <http://purl.org/dc/terms/title> "Von Excel zu Urbanen Digitalen Zwillingen"@de .
+<https://2024.dataweek.de/workshops/#programm-talk-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/workshops/#programm-talk-2> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/workshops/#programm-talk-2> <http://schema.org/location> <https://dataweek.de/venue#Room260> .
+<https://2024.dataweek.de/workshops/#programm-talk-2> <http://schema.org/performer> <https://dataweek.de/#CharlieLiebscher> .
+<https://2024.dataweek.de/workshops/#programm-talk-2> <http://schema.org/performer> <https://dataweek.de/#MathiasBoedecker> .
+<https://2024.dataweek.de/workshops/#programm-talk-2> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/workshops/#programm-talk-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/workshops/#programm-talk-5> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/workshops/#programm-talk-5> <http://purl.org/dc/terms/description> "Die jüngsten globalen Krisen haben die Schwachstellen von Liefernetzen aufgedeckt. Dieser Vortrag konzentriert sich auf die Problematik mangelnder Transparenz in globalen Lieferketten und die Herausforderungen für Sicherheitsbehörden. Anhand von Beispielen aus der Notfallmedizin wird erläutert, wie lokale Lagerbestände optimiert und Lieferabhängigkeiten abgebildet werden können, um Versorgungsrisiken zu minimieren. Es wird eine GPT4-basierte Lösung vorgestellt, die spezifische Informationen aus Fachdatenbanken extrahiert, um die Transparenz zu erhöhen und die Versorgungssicherheit zu verbessern. Der Fokus liegt auf proaktiven Strategien zur Stärkung der Resilienz in Krisenzeiten."@de .
-<https://2024.dataweek.de/workshops/#programm-talk-5> <http://purl.org/dc/terms/description> "Recent global crises have exposed the vulnerabilities of supply networks. This presentation focuses on the problem of a lack of transparency in global supply chains and the challenges for security authorities. Using examples from emergency medicine, it will explain how local inventories can be optimised and supply dependencies mapped in order to minimise supply risks. A GPT4-based solution will be presented that extracts specific information from specialised databases to increase transparency and improve security of supply. The focus is on proactive strategies to strengthen resilience in times of crisis."@en .
-<https://2024.dataweek.de/workshops/#programm-talk-5> <http://purl.org/dc/terms/title> "From global networks to local resilience: understanding supply chain complexity in emergency situations"@en .
-<https://2024.dataweek.de/workshops/#programm-talk-5> <http://purl.org/dc/terms/title> "Von globalen Netzwerken zur lokalen Resilienz: Verständnis der Lieferkettenkomplexität in Notfallsituationen"@de .
-<https://2024.dataweek.de/workshops/#programm-talk-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/workshops/#programm-talk-5> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/workshops/#programm-talk-5> <http://schema.org/performer> <https://dataweek.de/#PaulGeoerg> .
-<https://2024.dataweek.de/workshops/#programm-talk-5> <http://schema.org/startTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/workshops/#programm-talk-5> <http://purl.org/dc/terms/title> "Recognising the risks of supply chain dependencies in regional economic areas - dashboard for the resilience of Saxony's economy"@en .
+<https://2024.dataweek.de/workshops/#programm-talk-5> <http://purl.org/dc/terms/title> "Risiken von Lieferkettenabhängigkeiten regionaler Wirtschaftsräume erkennen - Dashboard für die Resilienz der sächsischen Wirtschaft"@de .
+<https://2024.dataweek.de/workshops/#programm-talk-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2024.dataweek.de/workshops/#programm-talk-5> <http://schema.org/endTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/workshops/#programm-talk-5> <http://schema.org/performer> <https://dataweek.de/#FatihKilic> .
+<https://2024.dataweek.de/workshops/#programm-talk-5> <http://schema.org/performer> <https://dataweek.de/#JuliaLuecke> .
+<https://2024.dataweek.de/workshops/#programm-talk-5> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/workshops/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/workshops/#programm-talk-6> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/workshops/#programm-talk-6> <http://purl.org/dc/terms/title> "Presentation of the PAIRS project"@en .
-<https://2024.dataweek.de/workshops/#programm-talk-6> <http://purl.org/dc/terms/title> "Vorstellung des Projektes PAIRS"@de .
+<https://2024.dataweek.de/workshops/#programm-talk-6> <http://purl.org/dc/terms/description> "Die jüngsten globalen Krisen haben die Schwachstellen von Liefernetzen aufgedeckt. Dieser Vortrag konzentriert sich auf die Problematik mangelnder Transparenz in globalen Lieferketten und die Herausforderungen für Sicherheitsbehörden. Anhand von Beispielen aus der Notfallmedizin wird erläutert, wie lokale Lagerbestände optimiert und Lieferabhängigkeiten abgebildet werden können, um Versorgungsrisiken zu minimieren. Es wird eine GPT4-basierte Lösung vorgestellt, die spezifische Informationen aus Fachdatenbanken extrahiert, um die Transparenz zu erhöhen und die Versorgungssicherheit zu verbessern. Der Fokus liegt auf proaktiven Strategien zur Stärkung der Resilienz in Krisenzeiten."@de .
+<https://2024.dataweek.de/workshops/#programm-talk-6> <http://purl.org/dc/terms/description> "Recent global crises have exposed the vulnerabilities of supply networks. This presentation focuses on the problem of a lack of transparency in global supply chains and the challenges for security authorities. Using examples from emergency medicine, it will explain how local inventories can be optimised and supply dependencies mapped in order to minimise supply risks. A GPT4-based solution will be presented that extracts specific information from specialised databases to increase transparency and improve security of supply. The focus is on proactive strategies to strengthen resilience in times of crisis."@en .
+<https://2024.dataweek.de/workshops/#programm-talk-6> <http://purl.org/dc/terms/title> "From global networks to local resilience: understanding supply chain complexity in emergency situations"@en .
+<https://2024.dataweek.de/workshops/#programm-talk-6> <http://purl.org/dc/terms/title> "Von globalen Netzwerken zur lokalen Resilienz: Verständnis der Lieferkettenkomplexität in Notfallsituationen"@de .
 <https://2024.dataweek.de/workshops/#programm-talk-6> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/workshops/#programm-talk-6> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/workshops/#programm-talk-6> <http://schema.org/startTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/workshops/#programm-talk-6> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/workshops/#programm-talk-6> <http://schema.org/performer> <https://dataweek.de/#PaulGeoerg> .
+<https://2024.dataweek.de/workshops/#programm-talk-6> <http://schema.org/startTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/workshops/#programm-talk-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/workshops/#programm-talk-7> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/workshops/#programm-talk-7> <http://purl.org/dc/terms/title> "Presentation of the PAIRS project"@en .
+<https://2024.dataweek.de/workshops/#programm-talk-7> <http://purl.org/dc/terms/title> "Vorstellung des Projektes PAIRS"@de .
+<https://2024.dataweek.de/workshops/#programm-talk-7> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/workshops/#programm-talk-7> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/workshops/#programm-talk-7> <http://schema.org/startTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/workshops/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/workshops/2024-04-15/> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/workshops/2024-04-15/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2024.dataweek.de/workshops/2024-04-15/> <http://www.w3.org/2000/01/rdf-schema#label> "Monday"@en .
@@ -3313,6 +3325,7 @@
 <https://2024.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2024.dataweek.de/workshops/#programm-session-7> .
 <https://2024.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2024.dataweek.de/workshops/#programm-session-8> .
 <https://2024.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2024.dataweek.de/workshops/#programm-session-9> .
+<https://2024.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2024.dataweek.de/workshops/#programm-talk-2> .
 <https://2024.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2024.dataweek.de/workshops/> .
 <https://2024.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2024.dataweek.de/workshops/2024-04-15/> .
 <https://2024.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2024.dataweek.de/workshops/2024-04-16/> .
@@ -3639,6 +3652,12 @@
 <https://dataweek.de/#CharisChatzikyriakou> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Charis Chatzikyriakou" .
 <https://dataweek.de/#CharisChatzikyriakou> <http://xmlns.com/foaf/0.1/name> "Charis Chatzikyriakou" .
 <https://dataweek.de/#CharisChatzikyriakou> <http://xmlns.com/foaf/0.1/title> "Dr. " .
+<https://dataweek.de/#CharlieLiebscher> <http://purl.org/dc/terms/description> "City of Leipzig/Geodata infrastructure"@en .
+<https://dataweek.de/#CharlieLiebscher> <http://purl.org/dc/terms/description> "Stadt Leipzig/Geodateninfrastruktur"@de .
+<https://dataweek.de/#CharlieLiebscher> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/geodatenservice-624> .
+<https://dataweek.de/#CharlieLiebscher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#CharlieLiebscher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#CharlieLiebscher> <http://xmlns.com/foaf/0.1/name> "Charlie Liebscher" .
 <https://dataweek.de/#ChristianGuethert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ChristianGuethert> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/ChristianGuethert.jpg" .
 <https://dataweek.de/#ChristianR%C3%B6%C3%9Fler> <http://purl.org/dc/terms/description> "Pragmatic Agilist"@de .
