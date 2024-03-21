@@ -3937,6 +3937,9 @@
 <https://dataweek.de/#DeAnnaHarner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#DeAnnaHarner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#DeAnnaHarner> <http://xmlns.com/foaf/0.1/name> "DeAnna Harner" .
+<https://dataweek.de/#DeifiliaTo> <http://purl.org/dc/terms/description> "Karlsruhe Institut für Technologie, Scientific Computing Center"@de .
+<https://dataweek.de/#DeifiliaTo> <http://purl.org/dc/terms/description> "Karlsruhe Institute of Technology, Scientific Computing Center"@en .
+<https://dataweek.de/#DeifiliaTo> <http://schema.org/affiliation> <https://www.scc.kit.edu/index.php> .
 <https://dataweek.de/#DeifiliaTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#DeifiliaTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#DeifiliaTo> <http://xmlns.com/foaf/0.1/name> "Deifilia To" .
@@ -6215,6 +6218,11 @@
 <https://www.sap.com> <http://www.w3.org/2000/01/rdf-schema#label> "SAP SE"@de .
 <https://www.sap.com> <http://www.w3.org/2000/01/rdf-schema#label> "SAP SE"@en .
 <https://www.sap.com> <http://xmlns.com/foaf/0.1/homepage> <https://www.sap.com> .
+<https://www.scc.kit.edu/index.php> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.scc.kit.edu/index.php> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.scc.kit.edu/index.php> <http://www.w3.org/2000/01/rdf-schema#label> "Karlsruhe Institut für Technologie, Scientific Computing Center"@de .
+<https://www.scc.kit.edu/index.php> <http://www.w3.org/2000/01/rdf-schema#label> "Karlsruhe Institute of Technology, Scientific Computing Center"@en .
+<https://www.scc.kit.edu/index.php> <http://xmlns.com/foaf/0.1/homepage> <https://www.scc.kit.edu/index.php> .
 <https://www.scc.kit.edu/personen/11452.php> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.singular-it.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.singular-it.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
