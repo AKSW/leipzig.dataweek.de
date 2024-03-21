@@ -1850,96 +1850,87 @@
 <https://2024.dataweek.de/sponsoring> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoring"@de .
 <https://2024.dataweek.de/sponsoring> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsorship Packages"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/description> "Climate change, species extinction and resource conflicts are pressing issues of our time. While AI systems themselves exacerbate these problems through high resource consumption, they can also help to mitigate these crises if used correctly. We invite the participants of this session to present their work in the field of \"AI & Sustainability\" on posters. All projects that make AI more sustainable or use AI to better understand and protect the environment are welcome.\n\nThe session will start with short oral summaries and then leave enough time to exchange ideas at the posters. Abstracts for the posters can be sent to ki-anwendungslabor (at) uba.de up to and including 04.04. We will inform you on 08.04. about the selection of the posters."@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/description> "Klimawandel, Artensterben und Ressourcenkonflikte sind drängende Fragen unserer Zeit. Während KI-Systeme durch einen hohen Ressourcenverbrauch selbst diese Probleme verschärfen, können sie richtig genutzt auch dazu beitragen diese Krisen abzumildern. Wir laden die Teilnehmer*innen dieser Session ein ihre Arbeiten im Bereich „KI & Nachhaltigkeit\" auf Postern zu präsentieren. Alle Projekte sind herzlich willkommen, die KI nachhaltiger machen oder die KI nutzen, um die Umwelt besser zu verstehen und zu schützen.\n\nDie Session wird mit kurzen mündlichen Zusammenfassungen starten und dann genügend Zeit lassen um an den Postern in Austausch zu kommen. Abstracts für die Poster können bis einschließlich 04.04. an ki-anwendungslabor (at) uba.de geschickt werden. Wir informieren am 08.04. über die Auswahl der Poster."@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/title> "AI Lab at Data Week"@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/title> "KI-Lab bei der Data Week"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/title> "Journey of a data point"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://purl.org/dc/terms/title> "Reise eines Datenpunkts"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/performer> <https://dataweek.de/#LindaDrescher> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-46> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-47> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://purl.org/dc/terms/title> "Journey of a data point"@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://purl.org/dc/terms/title> "Reise eines Datenpunkts"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://purl.org/dc/terms/title> "Digital tools for municipal heat planning"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://purl.org/dc/terms/title> "Digitale Tools für die Kommunale Wärmeplanung"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/performer> <https://dataweek.de/#LindaDrescher> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/performer> <https://dataweek.de/#JuliaSchliessauf> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-46> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-47> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-48> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-50> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-51> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-52> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://purl.org/dc/terms/title> "Digital tools for municipal heat planning"@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://purl.org/dc/terms/title> "Digitale Tools für die Kommunale Wärmeplanung"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://purl.org/dc/terms/description> "Is it possible to solve complex issues in a playful way and in a team? In this workshop, the innovative problem-solving, communication and creative method Lego Serious Play will be introduced and applied. Together we will work on a current and relevant administrative issue and visualize it with Lego bricks. The workshop trains the understanding that every thought, every experience or project can be created in the form of three-dimensional Lego models."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://purl.org/dc/terms/description> "Ist es möglich, komplexe Themen spielerisch und im Team zu lösen? In diesem Workshop wird die innovative Problemlösungs- Kommunikations- und Kreativmethode Lego Serious Play vorgestellt und angewendet. Gemeinsam werden wir an einer aktuellen und verwaltungsrelevanten Fragestellung arbeiten und diese mit Legosteinen visualisieren. Der Workshop schult dabei das Verständnis, dass jeder Gedanke, jedes Erlebnis oder Vorhaben in Form von dreidimensionalen Legomodellen entstehen kann."@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://purl.org/dc/terms/title> "Lego Serious Play (Co-Creation Workshop)"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://purl.org/dc/terms/title> "Lego Serious Play (Co-Creation Workshop)"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/performer> <https://dataweek.de/#JuliaSchliessauf> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/performer> <https://dataweek.de/#AnaisWiedenhoefer> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/performer> <https://dataweek.de/#ChristophSchubert> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/performer> <https://dataweek.de/#HeikeGebhardt> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/performer> <https://dataweek.de/#KristinBolanz> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-50> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-51> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-52> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/description> "Is it possible to solve complex issues in a playful way and in a team? In this workshop, the innovative problem-solving, communication and creative method Lego Serious Play will be introduced and applied. Together we will work on a current and relevant administrative issue and visualize it with Lego bricks. The workshop trains the understanding that every thought, every experience or project can be created in the form of three-dimensional Lego models."@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/description> "Ist es möglich, komplexe Themen spielerisch und im Team zu lösen? In diesem Workshop wird die innovative Problemlösungs- Kommunikations- und Kreativmethode Lego Serious Play vorgestellt und angewendet. Gemeinsam werden wir an einer aktuellen und verwaltungsrelevanten Fragestellung arbeiten und diese mit Legosteinen visualisieren. Der Workshop schult dabei das Verständnis, dass jeder Gedanke, jedes Erlebnis oder Vorhaben in Form von dreidimensionalen Legomodellen entstehen kann."@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/title> "Lego Serious Play (Co-Creation Workshop)"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/title> "Lego Serious Play (Co-Creation Workshop)"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/title> "Green data management"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/title> "Grünes Datenmanagement"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/performer> <https://dataweek.de/#AnaisWiedenhoefer> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/performer> <https://dataweek.de/#ChristophSchubert> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/performer> <https://dataweek.de/#HeikeGebhardt> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/performer> <https://dataweek.de/#KristinBolanz> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/performer> <https://dataweek.de/#LindaDrescher> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-58> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://purl.org/dc/terms/title> "Green data management"@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://purl.org/dc/terms/title> "Grünes Datenmanagement"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-14> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-14> <http://purl.org/dc/terms/title> "Energiedaten für die Kommune"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-14> <http://purl.org/dc/terms/title> "Energy data for the municipality"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/performer> <https://dataweek.de/#JuliaSchliessauf> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-60> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-61> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-62> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://purl.org/dc/terms/title> "Many roads lead to the tool"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://purl.org/dc/terms/title> "Viele Wege führen zum Tool"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://schema.org/performer> <https://dataweek.de/#LindaDrescher> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-56> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-57> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-58> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://schema.org/performer> <http://aksw.org/ElisabethBreitenstein> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-68> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-69> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-70> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-16> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-16> <http://purl.org/dc/terms/title> "Energiedaten für die Kommune"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-16> <http://purl.org/dc/terms/title> "Energy data for the municipality"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-16> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-16> <http://purl.org/dc/terms/title> "Agile Leipzig Meetup on the topic of data-driven agility"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-16> <http://purl.org/dc/terms/title> "Agile Leipzig Meetup zum Thema Datengetriebene Agilität"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-16> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-16> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-16> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-16> <http://schema.org/performer> <https://dataweek.de/#JuliaSchliessauf> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-16> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-16> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-60> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-16> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-61> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-16> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-62> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-16> <http://schema.org/endTime> "19:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-16> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-16> <http://schema.org/startTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-17> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-17> <http://purl.org/dc/terms/title> "Many roads lead to the tool"@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-17> <http://purl.org/dc/terms/title> "Viele Wege führen zum Tool"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/performer> <http://aksw.org/ElisabethBreitenstein> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-68> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-69> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-70> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-18> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-18> <http://purl.org/dc/terms/title> "Agile Leipzig Meetup on the topic of data-driven agility"@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-18> <http://purl.org/dc/terms/title> "Agile Leipzig Meetup zum Thema Datengetriebene Agilität"@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/endTime> "19:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/startTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-1> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-1> <http://purl.org/dc/terms/title> "Eröffnung"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-1> <http://purl.org/dc/terms/title> "Opening "@en .
@@ -2003,8 +1994,8 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/description> "Climate change, species extinction and resource conflicts are pressing issues of our time. While AI systems themselves exacerbate these problems through high resource consumption, they can also help to mitigate these crises if used correctly. For example, AI can be used to better understand (and thus better protect) the environment, use natural resources more efficiently, optimize energy production or improve classical computer models and thus save energy. In this session, 4 speakers from research, administration and society will present how we can make AI more sustainable and how AI and data-driven methods can contribute to environmental and nature conservation."@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/description> "Klimawandel, Artensterben und Ressourcenkonflikte sind drängende Fragen unserer Zeit. Während KI-Systeme durch einen hohen Ressourcenverbrauch selbst diese Probleme verschärfen, können sie richtig genutzt auch dazu beitragen diese Krisen abzumildern. KI kann z.B. genutzt werden um die Umwelt besser zu verstehen (und damit besser zu schützen), natürliche Ressourcen effizienter zu nutzen, Energieerzeugung zu optimieren oder klassische Computermodelle zu verbessern und so Energie zu sparen. In dieser Session präsentieren 4 Speaker aus Forschung, Verwaltung und Gesellschaft wie wir KI nachhaltiger gestalten können und wie KI und datengetriebene Methoden zu Umwelt- und Naturschutz beitragen können."@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/title> "AI Lab at DataWeek"@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/title> "KI-Lab bei der DataWeek"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/title> "Nachhaltige KI und KI für Nachhaltigkeit"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/title> "Sustainable AI and AI for Sustainability"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
@@ -2039,6 +2030,16 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-8> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-41> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-8> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-42> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-9> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-9> <http://purl.org/dc/terms/description> "Climate change, species extinction and resource conflicts are pressing issues of our time. While AI systems themselves exacerbate these problems through high resource consumption, they can also help to mitigate these crises if used correctly. We invite the participants of this session to present their work in the field of \"AI & Sustainability\" on posters. All projects that make AI more sustainable or use AI to better understand and protect the environment are welcome.\n\nThe session will start with short oral summaries and then leave enough time to exchange ideas at the posters. Abstracts for the posters can be sent to ki-anwendungslabor (at) uba.de up to and including 04.04. We will inform you on 08.04. about the selection of the posters."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-9> <http://purl.org/dc/terms/description> "Klimawandel, Artensterben und Ressourcenkonflikte sind drängende Fragen unserer Zeit. Während KI-Systeme durch einen hohen Ressourcenverbrauch selbst diese Probleme verschärfen, können sie richtig genutzt auch dazu beitragen diese Krisen abzumildern. Wir laden die Teilnehmer*innen dieser Session ein ihre Arbeiten im Bereich „KI & Nachhaltigkeit\" auf Postern zu präsentieren. Alle Projekte sind herzlich willkommen, die KI nachhaltiger machen oder die KI nutzen, um die Umwelt besser zu verstehen und zu schützen.\n\nDie Session wird mit kurzen mündlichen Zusammenfassungen starten und dann genügend Zeit lassen um an den Postern in Austausch zu kommen. Abstracts für die Poster können bis einschließlich 04.04. an ki-anwendungslabor (at) uba.de geschickt werden. Wir informieren am 08.04. über die Auswahl der Poster."@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-9> <http://purl.org/dc/terms/title> "Nachhaltige KI und KI für Nachhaltigkeit: Postersession"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-9> <http://purl.org/dc/terms/title> "Sustainable AI and AI for Sustainability and Poster session"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-9> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-9> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-9> <http://schema.org/performer> <https://dataweek.de/#TilmanHartwig> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-9> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> <http://purl.org/dc/terms/description> "Mit dem vordergründigen Ziel, die Auslastung bestehender P+R-Standorte zu erhöhen, wurde das Projekt Park IT - die Erfassung der Parkraumbelegung an ausgewählten P+R Standorten mittels sensorgestützter Messtechnik – umgesetzt. Zu den funktionalen Anforderungen zählten die Erfassung des Belegungszustands, die Auswertung der Nutzung im Zeitverlauf und die Stellplatz-Genaue Lokalisierung. Dabei erfolgt eine Veröffentlichung der aktuellen Auslastungsdaten über die App LeipzigMOVE der Leipziger Verkehrsbetriebe. "@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-10> <http://purl.org/dc/terms/description> "The Park IT project - the recording of parking space occupancy at selected P+R locations using sensor-based measurement technology - was implemented with the primary aim of increasing the utilization of existing P+R locations. The functional requirements included the recording of the occupancy status, the evaluation of usage over time and the precise localization of parking spaces. The current occupancy data is published via the LeipzigMOVE app from Leipziger Verkehrsbetriebe."@en .
@@ -2468,10 +2469,9 @@
 <https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-session-11> .
 <https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-session-12> .
 <https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-session-13> .
+<https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-session-14> .
 <https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-session-15> .
 <https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-session-16> .
-<https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-session-17> .
-<https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-session-18> .
 <https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-session-1> .
 <https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-session-2> .
 <https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-session-3> .
@@ -2480,6 +2480,7 @@
 <https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-session-6> .
 <https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-session-7> .
 <https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-session-8> .
+<https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-session-9> .
 <https://2024.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2024.dataweek.de/stadt-leipzig/#programm-talk-7> .
 <https://2024.dataweek.de/team-generalchair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/JuliaHolze> .
 <https://2024.dataweek.de/team-generalchair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/MichaelMartin> .
@@ -3936,7 +3937,6 @@
 <https://dataweek.de/#DeAnnaHarner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#DeAnnaHarner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#DeAnnaHarner> <http://xmlns.com/foaf/0.1/name> "DeAnna Harner" .
-<https://dataweek.de/#DeifiliaTo> <http://schema.org/affiliation> <https://www.kit.edu> .
 <https://dataweek.de/#DeifiliaTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#DeifiliaTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#DeifiliaTo> <http://xmlns.com/foaf/0.1/name> "Deifilia To" .
