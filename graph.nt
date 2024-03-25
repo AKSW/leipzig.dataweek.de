@@ -3169,6 +3169,7 @@
 <https://2024.dataweek.de/workshops/#programm-session-12> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/workshops/#programm-session-12> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/workshops/#programm-session-12> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
+<https://2024.dataweek.de/workshops/#programm-session-12> <http://schema.org/performer> <https://dataweek.de/#CristineBlanken> .
 <https://2024.dataweek.de/workshops/#programm-session-12> <http://schema.org/performer> <https://dataweek.de/#MattisHartwig> .
 <https://2024.dataweek.de/workshops/#programm-session-12> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/workshops/#programm-session-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -3913,6 +3914,14 @@
 <https://dataweek.de/#ConstanceZenner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ConstanceZenner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ConstanceZenner> <http://xmlns.com/foaf/0.1/name> "Constance Zenner" .
+<https://dataweek.de/#CristineBlanken> <http://purl.org/dc/terms/description> "Bach Archive Leipzig, Research Department"@en .
+<https://dataweek.de/#CristineBlanken> <http://purl.org/dc/terms/description> "Bach-Archiv Leipzig, Forschungsabteilung"@de .
+<https://dataweek.de/#CristineBlanken> <http://schema.org/affiliation> <https://www.bacharchivleipzig.de/de/bach-archiv> .
+<https://dataweek.de/#CristineBlanken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#CristineBlanken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#CristineBlanken> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Christine Blanken" .
+<https://dataweek.de/#CristineBlanken> <http://xmlns.com/foaf/0.1/name> "Christine Blanken" .
+<https://dataweek.de/#CristineBlanken> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#DanielProbst> <http://purl.org/dc/terms/description> "Leadership Coach, Change Facilitator and Innovation Strategy Consultant"@de .
 <https://dataweek.de/#DanielProbst> <http://purl.org/dc/terms/description> "Leadership Coach, Change Facilitator and Innovation Strategy Consultant"@en .
 <https://dataweek.de/#DanielProbst> <http://schema.org/affiliation> <https://www.verwegener-trefflich.de/> .
@@ -5362,6 +5371,13 @@
 <https://dataweek.de/#WibkeKusturica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#WibkeKusturica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#WibkeKusturica> <http://xmlns.com/foaf/0.1/name> "Wibke Kusturica" .
+<https://dataweek.de/#WolframEnsslin> <http://purl.org/dc/terms/description> "Saxon Academy of Sciences and Humanities, academy project \"BACH Research Portal\""@en .
+<https://dataweek.de/#WolframEnsslin> <http://purl.org/dc/terms/description> "Sächsische Akademie der Wissenschaften, Akademienprojekt „Forschungsportal BACH\""@de .
+<https://dataweek.de/#WolframEnsslin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#WolframEnsslin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#WolframEnsslin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Wolfram Enßlin" .
+<https://dataweek.de/#WolframEnsslin> <http://xmlns.com/foaf/0.1/name> "Wolfram Enßlin" .
+<https://dataweek.de/#WolframEnsslin> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#WolframGuenther> <http://purl.org/dc/terms/description> "Staatsminister für Energie, Klimaschutz, Umwelt und Landwirtschaft"@de .
 <https://dataweek.de/#WolframGuenther> <http://purl.org/dc/terms/description> "Staatsminister für Energie, Klimaschutz, Umwelt und Landwirtschaft"@en .
 <https://dataweek.de/#WolframGuenther> <http://schema.org/affiliation> <https://www.smekul.sachsen.de/index.html> .
@@ -5767,6 +5783,11 @@
 <https://www.ba-plauen.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Staatliche Studienakademie Plauen"@de .
 <https://www.ba-plauen.de/> <http://www.w3.org/2000/01/rdf-schema#label> "State Study Academy Plauen"@en .
 <https://www.ba-plauen.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.ba-plauen.de/> .
+<https://www.bacharchivleipzig.de/de/bach-archiv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.bacharchivleipzig.de/de/bach-archiv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.bacharchivleipzig.de/de/bach-archiv> <http://www.w3.org/2000/01/rdf-schema#label> "Bach Archive Leipzig"@en .
+<https://www.bacharchivleipzig.de/de/bach-archiv> <http://www.w3.org/2000/01/rdf-schema#label> "Bach-Archiv Leipzig"@de .
+<https://www.bacharchivleipzig.de/de/bach-archiv> <http://xmlns.com/foaf/0.1/homepage> <https://www.bacharchivleipzig.de/de/bach-archiv> .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/personen/p/simon-maris/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
