@@ -140,6 +140,12 @@
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/NatanaelArndt> .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/name> "Natanael Arndt" .
 <http://aksw.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<http://aksw.org/NathanaelPhilipp> <http://purl.org/dc/terms/description> "Saxon Academy of Sciences and Humanities, academy project \"BACH Research Portal\""@en .
+<http://aksw.org/NathanaelPhilipp> <http://purl.org/dc/terms/description> "Sächsische Akademie der Wissenschaften, Akademienprojekt „Forschungsportal BACH\""@de .
+<http://aksw.org/NathanaelPhilipp> <http://schema.org/affiliation> <https://www.saw-leipzig.de/de> .
+<http://aksw.org/NathanaelPhilipp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://aksw.org/NathanaelPhilipp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/NathanaelPhilipp> <http://xmlns.com/foaf/0.1/name> "Nathanael Philipp" .
 <http://aksw.org/NormanRadtke> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/NormanRadtke> <http://schema.org/memberOf> <http://aksw.org/Groups/AKSW> .
 <http://aksw.org/NormanRadtke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -3169,8 +3175,11 @@
 <https://2024.dataweek.de/workshops/#programm-session-12> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/workshops/#programm-session-12> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/workshops/#programm-session-12> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
+<https://2024.dataweek.de/workshops/#programm-session-12> <http://schema.org/performer> <http://aksw.org/NathanaelPhilipp> .
 <https://2024.dataweek.de/workshops/#programm-session-12> <http://schema.org/performer> <https://dataweek.de/#CristineBlanken> .
+<https://2024.dataweek.de/workshops/#programm-session-12> <http://schema.org/performer> <https://dataweek.de/#DanielKrueger> .
 <https://2024.dataweek.de/workshops/#programm-session-12> <http://schema.org/performer> <https://dataweek.de/#MattisHartwig> .
+<https://2024.dataweek.de/workshops/#programm-session-12> <http://schema.org/performer> <https://dataweek.de/#WolframEnsslin> .
 <https://2024.dataweek.de/workshops/#programm-session-12> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/workshops/#programm-session-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/workshops/#programm-session-13> <http://purl.org/dc/terms/date> "2024-04-17"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3922,6 +3931,12 @@
 <https://dataweek.de/#CristineBlanken> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Christine Blanken" .
 <https://dataweek.de/#CristineBlanken> <http://xmlns.com/foaf/0.1/name> "Christine Blanken" .
 <https://dataweek.de/#CristineBlanken> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#DanielKrueger> <http://purl.org/dc/terms/description> "Amt für Digitalisierung und Organisation, Projektmanager KI & Digitalisierung"@de .
+<https://dataweek.de/#DanielKrueger> <http://purl.org/dc/terms/description> "Office for Digitization and Organization, Project Manager AI & Digitization"@en .
+<https://dataweek.de/#DanielKrueger> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-digitalisierung-und-organisation-10> .
+<https://dataweek.de/#DanielKrueger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#DanielKrueger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#DanielKrueger> <http://xmlns.com/foaf/0.1/name> "Daniel Krüger" .
 <https://dataweek.de/#DanielProbst> <http://purl.org/dc/terms/description> "Leadership Coach, Change Facilitator and Innovation Strategy Consultant"@de .
 <https://dataweek.de/#DanielProbst> <http://purl.org/dc/terms/description> "Leadership Coach, Change Facilitator and Innovation Strategy Consultant"@en .
 <https://dataweek.de/#DanielProbst> <http://schema.org/affiliation> <https://www.verwegener-trefflich.de/> .
@@ -5373,6 +5388,7 @@
 <https://dataweek.de/#WibkeKusturica> <http://xmlns.com/foaf/0.1/name> "Wibke Kusturica" .
 <https://dataweek.de/#WolframEnsslin> <http://purl.org/dc/terms/description> "Saxon Academy of Sciences and Humanities, academy project \"BACH Research Portal\""@en .
 <https://dataweek.de/#WolframEnsslin> <http://purl.org/dc/terms/description> "Sächsische Akademie der Wissenschaften, Akademienprojekt „Forschungsportal BACH\""@de .
+<https://dataweek.de/#WolframEnsslin> <http://schema.org/affiliation> <https://www.saw-leipzig.de/de> .
 <https://dataweek.de/#WolframEnsslin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#WolframEnsslin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#WolframEnsslin> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Wolfram Enßlin" .
@@ -6073,6 +6089,11 @@
 <https://www.leipzig.de/bauen-und-wohnen/stadtentwicklung/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.leipzig.de/bauen-und-wohnen/stadtentwicklung/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig/Stadtplanungsamt"@de .
 <https://www.leipzig.de/bauen-und-wohnen/stadtentwicklung/> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/bauen-und-wohnen/stadtentwicklung/> .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-digitalisierung-und-organisation-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-digitalisierung-und-organisation-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-digitalisierung-und-organisation-10> <http://www.w3.org/2000/01/rdf-schema#label> "Amt für Digitalisierung und Organisation"@de .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-digitalisierung-und-organisation-10> <http://www.w3.org/2000/01/rdf-schema#label> "City of Leipzig/Office for Digitization and Organization"@en .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-digitalisierung-und-organisation-10> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-digitalisierung-und-organisation-10> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-stadtgruen-und-gewaesser-67/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-stadtgruen-und-gewaesser-67/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-stadtgruen-und-gewaesser-67/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig/Amt für Stadtgrün und Gewässer"@de .
@@ -6249,6 +6270,11 @@
 <https://www.sap.com> <http://www.w3.org/2000/01/rdf-schema#label> "SAP SE"@de .
 <https://www.sap.com> <http://www.w3.org/2000/01/rdf-schema#label> "SAP SE"@en .
 <https://www.sap.com> <http://xmlns.com/foaf/0.1/homepage> <https://www.sap.com> .
+<https://www.saw-leipzig.de/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.saw-leipzig.de/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.saw-leipzig.de/de> <http://www.w3.org/2000/01/rdf-schema#label> " Sächsische Akademie der Wissenschaften"@en .
+<https://www.saw-leipzig.de/de> <http://www.w3.org/2000/01/rdf-schema#label> "Sächsische Akademie der Wissenschaften"@de .
+<https://www.saw-leipzig.de/de> <http://xmlns.com/foaf/0.1/homepage> <https://www.saw-leipzig.de/de> .
 <https://www.scc.kit.edu/index.php> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.scc.kit.edu/index.php> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.scc.kit.edu/index.php> <http://www.w3.org/2000/01/rdf-schema#label> "Karlsruhe Institut für Technologie, Scientific Computing Center"@de .
