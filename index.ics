@@ -164,7 +164,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Digital rights - solving global challenges locally
 DTSTART;TZID=Europe/Berlin:20240415T153000
-DTEND;TZID=Europe/Berlin:20240415T170000
+DTEND;TZID=Europe/Berlin:20240415T163000
 DESCRIPTION:Digital rights encompass a range of principles and standards t
  hat aim to protect and promote individual freedoms in the digital world\, 
  such as data protection\, freedom of expression\, access to information an
@@ -255,36 +255,6 @@ DESCRIPTION:Our goal is to better understand how exactly artificial intell
  of AI similar to that of the human brain. Using "virtual imaging"\, we exa
  mine in particular the forms of activation patterns in artificial neural n
  etworks.
-LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Introduction
-DTSTART;TZID=Europe/Berlin:20240415T153000
-DTEND;TZID=Europe/Berlin:20240415T153500
-LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Digital rights as a global agenda
-DTSTART;TZID=Europe/Berlin:20240415T153500
-DTEND;TZID=Europe/Berlin:20240415T155500
-LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Best practices from municipalities
-DTSTART;TZID=Europe/Berlin:20240415T155500
-DTEND;TZID=Europe/Berlin:20240415T161500
-LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Municipal activities from the perspective of civil society
-DTSTART;TZID=Europe/Berlin:20240415T161500
-DTEND;TZID=Europe/Berlin:20240415T163500
-LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Moderated discussion
-DTSTART;TZID=Europe/Berlin:20240415T163500
-DTEND;TZID=Europe/Berlin:20240415T170000
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
@@ -539,7 +509,12 @@ LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Project ResKriVer: Social Media Monitoring for Control Centers and
-  Crisis Teams
+  Crisis Teams. In crisis situations\, control centers and crisis teams oft
+ en receive inadequate information about the situation in the affected area
+ . Social media monitoring enables the discovery of relevant posts\, which 
+ are then analyzed and evaluated alongside their images and comments in ter
+ ms of relevance\, sentiment\, and credibility. This allows for the recogni
+ tion of relevant issues and the initiation of appropriate measures.
 DTSTART;TZID=Europe/Berlin:20240415T114500
 DTEND;TZID=Europe/Berlin:20240415T120000
 LOCATION:Ratsplenarsaal
@@ -623,7 +598,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Opening
 DTSTART;TZID=Europe/Berlin:20240416T090000
-DTEND;TZID=Europe/Berlin:20240416T103000
+DTEND;TZID=Europe/Berlin:20240416T100000
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
@@ -670,6 +645,13 @@ DESCRIPTION:Climate change\, species extinction and resource conflicts are
  ba.de up to and including 04.04. We will inform you on 08.04. about the se
  lection of the posters.
 LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rethinking data: synthesis and digital twins as the key to AI inno
+ vations
+DTSTART;TZID=Europe/Berlin:20240416T100000
+DTEND;TZID=Europe/Berlin:20240416T103000
+LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:When biogas plants think ...
@@ -754,6 +736,19 @@ DESCRIPTION:With the H2 Powerplant\, Wilo has created an energy supply sys
  centralized and regenerative. \nThe energy source: green hydrogen. This is
   generated and stored locally and seasonally and can also be converted bac
  k into energy if required.
+LOCATION:Festsaal 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Enabling PEDs with cenero.one energy management
+DTSTART;TZID=Europe/Berlin:20240416T113000
+DTEND;TZID=Europe/Berlin:20240416T120000
+DESCRIPTION: The presentation will provide a brief overview of the key int
+ erventions at the SPARCS demodistrict\, the Baumwollspinnerei. It will int
+ roduce cenero.one\, an energy management tool with a vital role in transfo
+ rming such sites into Positive Energy Districts. Additionally\, it will ex
+ amine replication practices\, emphasizing successful strategies for scalin
+ g sustainable initiatives and the role of cenero.one in communal heat stor
+ age systems.
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
@@ -1093,7 +1088,7 @@ LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Agile Leipzig Meetup on the topic of data-driven agility
-DTSTART;TZID=Europe/Berlin:20240417T180000
+DTSTART;TZID=Europe/Berlin:20240417T173000
 DTEND;TZID=Europe/Berlin:20240417T190000
 LOCATION:Ratsplenarsaal
 END:VEVENT
@@ -1193,7 +1188,8 @@ DESCRIPTION:The term Smart City\, understood in the sense of an innovative
 LOCATION:Room 377
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Smart City solutions with data from the Mobility Data Space
+SUMMARY:Urban Data Summit: Smart City solutions with data from the Mobilit
+ y Data Space
 DTSTART;TZID=Europe/Berlin:20240417T133000
 DTEND;TZID=Europe/Berlin:20240417T150000
 DESCRIPTION:The smart use of data is the key to innovation in mobility. In
@@ -1214,15 +1210,15 @@ DESCRIPTION:The smart use of data is the key to innovation in mobility. In
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Data\, simulations and tools for sustainable change in neighborhoo
- ds\, cities and regions
+SUMMARY:Urban Data Summit: Data\, simulations and tools for sustainable ch
+ ange in neighborhoods\, cities and regions
 DTSTART;TZID=Europe/Berlin:20240417T153000
 DTEND;TZID=Europe/Berlin:20240417T170000
 LOCATION:Room 495
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:The DKSR open source data platform: municipal co-determination in 
- the development process
+SUMMARY:Urban Data Summit: The DKSR open source data platform: municipal c
+ o-determination in the development process
 DTSTART;TZID=Europe/Berlin:20240417T153000
 DTEND;TZID=Europe/Berlin:20240417T170000
 DESCRIPTION:Based on the DKSR open source data platform\, this workshop ai
@@ -1233,8 +1229,8 @@ DESCRIPTION:Based on the DKSR open source data platform\, this workshop ai
 LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:From sensor to analysis: how the Internet of Things can revolution
- ize modern urban planning
+SUMMARY:Urban Data Summit: From sensor to analysis: how the Internet of Th
+ ings can revolutionize modern urban planning
 DTSTART;TZID=Europe/Berlin:20240417T153000
 DTEND;TZID=Europe/Berlin:20240417T170000
 DESCRIPTION:Increasing digitalization means that data is now being collect
@@ -1244,7 +1240,8 @@ DESCRIPTION:Increasing digitalization means that data is now being collect
 LOCATION:Room 260
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:GeoGPT local: Interactive agents in digital landscapes
+SUMMARY:Urban Data Summit: GeoGPT local: Interactive agents in digital lan
+ dscapes
 DTSTART;TZID=Europe/Berlin:20240417T153000
 DTEND;TZID=Europe/Berlin:20240417T170000
 DESCRIPTION:In this interactive workshop\, participants will explore the p
@@ -1257,9 +1254,9 @@ DESCRIPTION:In this interactive workshop\, participants will explore the p
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Data literacy in municipal administrations: Procedure model and re
- ference framework for strategic action - Presentation of an action guideli
- ne for municipal practice
+SUMMARY:Urban Data Summit: Data literacy in municipal administrations: Pro
+ cedure model and reference framework for strategic action - Presentation o
+ f an action guideline for municipal practice
 DTSTART;TZID=Europe/Berlin:20240417T153000
 DTEND;TZID=Europe/Berlin:20240417T170000
 DESCRIPTION:In German municipalities\, the digitalization of data\, data i
@@ -1284,27 +1281,28 @@ DTEND;TZID=Europe/Berlin:20240417T180000
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Opening
+SUMMARY:Opening Urban Data Summit
 DTSTART;TZID=Europe/Berlin:20240417T093000
-DTEND;TZID=Europe/Berlin:20240417T103000
+DTEND;TZID=Europe/Berlin:20240417T100000
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Data\, simulations and tools for sustainable change in neighborhoo
- ds\, cities and regions
+SUMMARY:Urban Data Summit: Data\, simulations and tools for sustainable ch
+ ange in neighborhoods\, cities and regions
 DTSTART;TZID=Europe/Berlin:20240417T110000
 DTEND;TZID=Europe/Berlin:20240417T123000
 LOCATION:Room 495
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Municipalities for municipalities – How can replication succeed?
+SUMMARY:Urban Data Summit: Municipalities for municipalities – How can r
+ eplication succeed?
 DTSTART;TZID=Europe/Berlin:20240417T110000
 DTEND;TZID=Europe/Berlin:20240417T123000
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Open data in administration: recognizing opportunities\, developin
- g potential
+SUMMARY:Urban Data Summit: Open data in administration: recognizing opport
+ unities\, developing potential
 DTSTART;TZID=Europe/Berlin:20240417T110000
 DTEND;TZID=Europe/Berlin:20240417T123000
 DESCRIPTION:Best practice & interactive workshop on the potential uses of 
@@ -1313,7 +1311,8 @@ DESCRIPTION:Best practice & interactive workshop on the potential uses of
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Trustworthy AI for municipalities – how does it work?
+SUMMARY:Urban Data Summit: Trustworthy AI for municipalities – how does 
+ it work?
 DTSTART;TZID=Europe/Berlin:20240417T110000
 DTEND;TZID=Europe/Berlin:20240417T123000
 DESCRIPTION:Everyone is calling for trustworthy AI applications\, but in p
@@ -1324,8 +1323,8 @@ DESCRIPTION:Everyone is calling for trustworthy AI applications\, but in p
 LOCATION:Room 260
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:The journey from a holistic smart city strategy to a digital every
- day companion for citizens The example of Troisdorf
+SUMMARY:Urban Data Summit: The journey from a holistic smart city strategy
+  to a digital everyday companion for citizens The example of Troisdorf
 DTSTART;TZID=Europe/Berlin:20240417T110000
 DTEND;TZID=Europe/Berlin:20240417T123000
 DESCRIPTION:The workshop on the digital center strategy is about the journ
@@ -1341,7 +1340,8 @@ DESCRIPTION:The workshop on the digital center strategy is about the journ
 LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Data trustee – What are suitable data products?
+SUMMARY:Urban Data Summit: Data trustee – What are suitable data product
+ s?
 DTSTART;TZID=Europe/Berlin:20240417T133000
 DTEND;TZID=Europe/Berlin:20240417T150000
 DESCRIPTION:The workshop will use practical use cases to identify possible
@@ -1353,8 +1353,8 @@ DESCRIPTION:The workshop will use practical use cases to identify possible
 LOCATION:Room 260
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lessons learned from the TwinBy project: What makes a good guide f
- or implementing digital twins?
+SUMMARY:Urban Data Summit: Lessons learned from the TwinBy project: What m
+ akes a good guide for implementing digital twins?
 DTSTART;TZID=Europe/Berlin:20240417T133000
 DTEND;TZID=Europe/Berlin:20240417T150000
 DESCRIPTION:In this workshop\, the DKSR team will present findings from th
@@ -1373,8 +1373,8 @@ DESCRIPTION:In this workshop\, the DKSR team will present findings from th
 LOCATION:Room 495
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Municipal data works: data sharing within a legally secure framewo
- rk
+SUMMARY:Urban Data Summit: Municipal data works: data sharing within a leg
+ ally secure framework
 DTSTART;TZID=Europe/Berlin:20240417T133000
 DTEND;TZID=Europe/Berlin:20240417T150000
 DESCRIPTION:The exchange of sensitive\, sometimes restrictive data from va
@@ -1394,6 +1394,21 @@ DESCRIPTION:The exchange of sensitive\, sometimes restrictive data from va
  f (municipal) data exchange.\n[https://bmdv.bund.de/SharedDocs/DE/Artikel/
  DG/mfund-projekte/kwd.html]
 LOCATION:Room 259
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Knowledge transfer and replication – many ideas\, little clarity
+DTSTART;TZID=Europe/Berlin:20240417T110000
+DTEND;TZID=Europe/Berlin:20240417T113000
+DESCRIPTION:The funded smart city measures are intended to generate a broa
+ d impact throughout Germany in order to advance digitalization topics. Wit
+ hin the CUT project\, Leipzig is trying to find ways of transferring and r
+ eplicating knowledge in order to impart helpful knowledge to other cities 
+ in such a way that they are empowered to build their own urban digital twi
+ ns. After all\, what knowledge is actually relevant and what do other citi
+ es need? We are therefore interested in exchanging ideas with other cities
+  in order to find out what common ideas and solutions already exist for kn
+ owledge transfer and the transferability of solutions.
+LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MPSC-Gelsenkirchen: An application center for municipal AI solutio
@@ -1488,6 +1503,12 @@ DESCRIPTION:FLOOD.Bi is a WebGIS tool on the subject of flooding and damag
 LOCATION:Room 495
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Keynote
+DTSTART;TZID=Europe/Berlin:20240417T100000
+DTEND;TZID=Europe/Berlin:20240417T103000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Brief presentation of the Research Data Center of the Leibniz Inst
  itute of Ecological Urban and Regional Development
 DTSTART;TZID=Europe/Berlin:20240417T110000
@@ -1550,21 +1571,6 @@ DESCRIPTION:FLOOD.Bi is a WebGIS tool on the subject of flooding and damag
  he Czech districts of Karlovy Vary\, Ústí nad Labem and Liberec.\nhttps:
  //lsnq.de/FLOODBI
 LOCATION:Room 495
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Knowledge transfer and replication – many ideas\, little clarity
-DTSTART;TZID=Europe/Berlin:20240417T110000
-DTEND;TZID=Europe/Berlin:20240417T113000
-DESCRIPTION:The funded smart city measures are intended to generate a broa
- d impact throughout Germany in order to advance digitalization topics. Wit
- hin the CUT project\, Leipzig is trying to find ways of transferring and r
- eplicating knowledge in order to impart helpful knowledge to other cities 
- in such a way that they are empowered to build their own urban digital twi
- ns. After all\, what knowledge is actually relevant and what do other citi
- es need? We are therefore interested in exchanging ideas with other cities
-  in order to find out what common ideas and solutions already exist for kn
- owledge transfer and the transferability of solutions.
-LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Introduction Human-centred AI & The Digital Index AI-RDY - is your
