@@ -2127,6 +2127,8 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-21> <http://schema.org/startTime> "15:35:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-26> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-26> <http://purl.org/dc/terms/description> "In a world where it is often claimed that data is the new gold, we face the challenge of harnessing the enormous value of this resource while navigating privacy regulations and confidentiality obligations. Dr Mattis Hartwig introduces us to the complex world of data anonymisation and synthesis. In his keynote speech \"Rethinking data: synthesis and digital twins as the key to AI innovation\", Dr Hartwig will provide in-depth insights into the concepts and methods behind the synthesis of data. He not only sheds light on the technical aspects, but also on the ethical dimensions and presents the opportunities and risks of these technologies. Join us in exploring the role that data synthesis can play in a future-orientated data strategy."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-26> <http://purl.org/dc/terms/description> "In einer Welt, in der oft behauptet wird, dass Daten das neue Gold seien, stehen wir vor der Herausforderung, den enormen Wert dieser Ressource zu nutzen, während wir gleichzeitig Datenschutzbestimmungen und Geheimhaltungsverpflichtungen navigieren. Dr. Mattis Hartwig führt uns ein in die vielschichtige Welt der Datenanonymisierung und -synthese. In seinem Keynote-Vortrag \"Daten-Neudenken: Synthese und Digital Twins als Schlüssel für KI-Innovationen\" gibt Dr. Hartwig tiefgreifende Einblicke in die Konzepte und Methoden, die hinter der Synthese von Daten stecken. Dabei beleuchtet er nicht nur die technischen Aspekte, sondern auch die ethischen Dimensionen und stellt die Chancen sowie Risiken dieser Technologien vor. Erkunden Sie mit uns, welche Rolle Datensynthese in einer zukunftsorientierten Datenstrategie spielen kann."@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-26> <http://purl.org/dc/terms/title> "Daten-Neudenken: Synthese und Digital Twins als Schlüssel für KI-Innovationen"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-26> <http://purl.org/dc/terms/title> "Rethinking data: synthesis and digital twins as the key to AI innovations"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-26> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
@@ -2585,6 +2587,7 @@
 <https://2024.dataweek.de/trainings/#programm-session-16> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2024.dataweek.de/trainings/#programm-session-16> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/trainings/#programm-session-16> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://2024.dataweek.de/trainings/#programm-session-16> <http://schema.org/performer> <https://dataweek.de/#MagnusKnuth> .
 <https://2024.dataweek.de/trainings/#programm-session-16> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/trainings/#programm-session-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/trainings/#programm-session-17> <http://purl.org/dc/terms/date> "2024-04-19"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3306,6 +3309,7 @@
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
+<https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#SimonJohanning> .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/workshops/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/workshops/#programm-session-3> <http://purl.org/dc/terms/date> "2024-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3603,7 +3607,7 @@
 <https://datasciencemania.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/dsm_logo.png" .
 <https://dataweek.de/#AchimReiz> <http://purl.org/dc/terms/description> "Scientific Associate "@de .
 <https://dataweek.de/#AchimReiz> <http://purl.org/dc/terms/description> "Scientific Associate "@en .
-<https://dataweek.de/#AchimReiz> <http://schema.org/affiliation> <https://www.fit.fraunhofer.de/> .
+<https://dataweek.de/#AchimReiz> <http://schema.org/affiliation> <https://neonto.de/> .
 <https://dataweek.de/#AchimReiz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AchimReiz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AchimReiz> <http://xmlns.com/foaf/0.1/name> "Achim Reiz" .
@@ -5165,9 +5169,9 @@
 <https://dataweek.de/#SimonAlbrecht> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/s-albrecht/?originalSubdomain=de> .
 <https://dataweek.de/#SimonAlbrecht> <http://xmlns.com/foaf/0.1/name> "Simon Albrecht" .
 <https://dataweek.de/#SimonAlbrecht> <http://xmlns.com/foaf/0.1/title> "Dr." .
-<https://dataweek.de/#SimonJohanning> <http://purl.org/dc/terms/description> "Research assistant"@en .
-<https://dataweek.de/#SimonJohanning> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
-<https://dataweek.de/#SimonJohanning> <http://schema.org/affiliation> <https://www.uni-leipzig.de/> .
+<https://dataweek.de/#SimonJohanning> <http://purl.org/dc/terms/description> "Dream Machine"@de .
+<https://dataweek.de/#SimonJohanning> <http://purl.org/dc/terms/description> "Dream Machine"@en .
+<https://dataweek.de/#SimonJohanning> <http://schema.org/affiliation> <https://www.dream-machine.de/index.html> .
 <https://dataweek.de/#SimonJohanning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SimonJohanning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#SimonJohanning> <http://xmlns.com/foaf/0.1/homepage> <https://www.wifa.uni-leipzig.de/personenprofil/mitarbeiter/simon-johanning> .
@@ -5697,6 +5701,11 @@
 <https://naturkundemuseum.leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Natural History Museum"@en .
 <https://naturkundemuseum.leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Naturkundemuseum"@de .
 <https://naturkundemuseum.leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://naturkundemuseum.leipzig.de/> .
+<https://neonto.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://neonto.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://neonto.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Neonto"@de .
+<https://neonto.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Neonto"@en .
+<https://neonto.de/> <http://xmlns.com/foaf/0.1/homepage> <https://neonto.de/> .
 <https://noa-invision.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://noa-invision.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Weberpals & Frank GbR - NOA Invision" .
 <https://noa-invision.de/> <http://xmlns.com/foaf/0.1/homepage> <https://noa-invision.de/> .
@@ -5968,6 +5977,11 @@
 <https://www.dnb.de/> <http://www.w3.org/2000/01/rdf-schema#label> "German National Library"@en .
 <https://www.dnb.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.dnb.de/> .
 <https://www.dnb.de/> <http://xmlns.com/foaf/0.1/logo> <https://dataweek.de/#LogoDNB> .
+<https://www.dream-machine.de/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.dream-machine.de/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.dream-machine.de/index.html> <http://www.w3.org/2000/01/rdf-schema#label> "dream machine"@de .
+<https://www.dream-machine.de/index.html> <http://www.w3.org/2000/01/rdf-schema#label> "dream machine"@en .
+<https://www.dream-machine.de/index.html> <http://xmlns.com/foaf/0.1/homepage> <https://www.dream-machine.de/index.html> .
 <https://www.eah-jena.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.eah-jena.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.eah-jena.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Ernst-Abbe-Hochschule Jena - University of Applied Sciences"@de .
