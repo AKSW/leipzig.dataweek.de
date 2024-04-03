@@ -2579,6 +2579,7 @@
 <https://2024.dataweek.de/trainings/#programm-session-14> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/trainings/#programm-session-14> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/trainings/#programm-session-14> <http://schema.org/location> <https://dataweek.de/venue#Room260> .
+<https://2024.dataweek.de/trainings/#programm-session-14> <http://schema.org/performer> <https://dataweek.de/#NicoHoffmann> .
 <https://2024.dataweek.de/trainings/#programm-session-14> <http://schema.org/startTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/trainings/#programm-session-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/trainings/#programm-session-15> <http://purl.org/dc/terms/date> "2024-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2588,6 +2589,7 @@
 <https://2024.dataweek.de/trainings/#programm-session-15> <http://purl.org/dc/terms/title> "AI-assisted Coding: Steigerung von Codequalität und Effizienz (durchgeführt von SAXONY.ai)"@de .
 <https://2024.dataweek.de/trainings/#programm-session-15> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/trainings/#programm-session-15> <http://schema.org/location> <https://dataweek.de/venue#Room260> .
+<https://2024.dataweek.de/trainings/#programm-session-15> <http://schema.org/performer> <https://dataweek.de/#NicoHoffmann> .
 <https://2024.dataweek.de/trainings/#programm-session-15> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/trainings/#programm-session-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/trainings/#programm-session-16> <http://purl.org/dc/terms/date> "2024-04-19"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -4874,6 +4876,10 @@
 <https://dataweek.de/#NestorFernandez> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/NestorFernandez.jpg" .
 <https://dataweek.de/#NestorFernandez> <http://xmlns.com/foaf/0.1/name> "Néstor Fernández" .
 <https://dataweek.de/#NestorFernandez> <http://xmlns.com/foaf/0.1/title> "Dr. " .
+<https://dataweek.de/#NicoHoffmann> <http://schema.org/affiliation> <https://saxony.ai/> .
+<https://dataweek.de/#NicoHoffmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#NicoHoffmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#NicoHoffmann> <http://xmlns.com/foaf/0.1/name> "Nico Hoffmann" .
 <https://dataweek.de/#NicoRabethge> <http://purl.org/dc/terms/description> "Research assistant"@en .
 <https://dataweek.de/#NicoRabethge> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
 <https://dataweek.de/#NicoRabethge> <http://schema.org/affiliation> <https://www.uni-bielefeld.de/> .
@@ -5759,6 +5765,11 @@
 <https://saxfdm.de/> <http://www.w3.org/2000/01/rdf-schema#label> "SaxFDM"@de .
 <https://saxfdm.de/> <http://www.w3.org/2000/01/rdf-schema#label> "SaxFDM"@en .
 <https://saxfdm.de/> <http://xmlns.com/foaf/0.1/homepage> <https://saxfdm.de/> .
+<https://saxony.ai/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://saxony.ai/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://saxony.ai/> <http://www.w3.org/2000/01/rdf-schema#label> "SAXONY.AI"@de .
+<https://saxony.ai/> <http://www.w3.org/2000/01/rdf-schema#label> "SAXONY.AI"@en .
+<https://saxony.ai/> <http://xmlns.com/foaf/0.1/homepage> <https://saxony.ai/> .
 <https://scads.ai/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://scads.ai/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://scads.ai/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
