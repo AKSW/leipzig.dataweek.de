@@ -36,7 +36,13 @@ BEGIN:VEVENT
 SUMMARY:Agile Leipzig Meetup on the topic of data-driven agility
 DTSTART;TZID=Europe/Berlin:20240417T190000
 DTEND;TZID=Europe/Berlin:20240417T200000
-DESCRIPTION: 
+DESCRIPTION: In this Meetup\, we want to take a closer look at 2-3 lesser-
+ known or neglected metrics & diagrams. A hypothetical use case could be a 
+ ticket that appears on your board and the person requesting it actually as
+ ks: "When will this be ready?"\nAnd how cool would it be if you could tell
+  very quickly in every stand-up meeting whether a piece of work is travell
+ ing fast enough and how likely it is that it will be finished as promised?
+  Is that possible? - We'll find out ...
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
@@ -147,8 +153,8 @@ DESCRIPTION:The term Smart City\, understood in the sense of an innovative
 LOCATION:Room 377
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Urban Data Summit: Smart City solutions with data from the Mobilit
- y Data Space
+SUMMARY:Urban Data Summit: Mobility data room: making data effectively usa
+ ble for sustainable mobility
 DTSTART;TZID=Europe/Berlin:20240417T133000
 DTEND;TZID=Europe/Berlin:20240417T150000
 DESCRIPTION:The smart use of data is the key to innovation in mobility. In
@@ -355,6 +361,52 @@ DESCRIPTION:The exchange of sensitive\, sometimes restrictive data from va
 LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Tool presentation/workshop A: \nGOAT-Workshop: Making spatial and 
+ mobility data usable for integrated and collaborative planning
+DTSTART;TZID=Europe/Berlin:20240417T110000
+DTEND;TZID=Europe/Berlin:20240417T123000
+DESCRIPTION:The WebGIS-based open source planning software GOAT was create
+ d as part of a collaborative development between science\, planning practi
+ ce and start-ups. As a tool\, it can calculate a wealth of sophisticated i
+ ndicators\, particularly for the evaluation and simulation of accessibilit
+ y\, supply quality and travel times to important destinations for daily ne
+ eds. For example\, what is the situation regarding the provision of school
+ s\, supermarkets or green spaces or the quality of public transport in the
+  various cities and regions in Germany? For these and many other questions
+ \, GOAT can be tested collaboratively in the workshop in interaction with 
+ the integrated data in small groups for any area. The results should provi
+ de direct added value for the participants and give an impression of data-
+ based planning.\nFurther information:\nhttps://bmdv.bund.de/SharedDocs/DE/
+ Artikel/DG/mfund-projekte/goat-3-0.html\nhttps://plan4better.de/\nhttps://
+ ioer-fdz.de/en/
+LOCATION:Room 495
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tool presentation/workshop B:\nFlood prevention at a glance: The F
+ LOOD.Bi information tool
+DTSTART;TZID=Europe/Berlin:20240417T110000
+DTEND;TZID=Europe/Berlin:20240417T123000
+DESCRIPTION:FLOOD.Bi is a WebGIS tool on the subject of flooding and damag
+ e reduction to buildings. It provides a comprehensive overview of property
+ -related hazards\, potential damage and risks as well as the effect of pre
+ ventive measures. It is primarily aimed at building owners\, specialist pl
+ anners and engineering offices in order to make an initial assessment of t
+ he affected buildings and to support the selection and implementation of p
+ reventive measures. In conjunction with a concrete structural survey on si
+ te\, engineering planning and professional implementation\, the majority o
+ f flood damage can be effectively reduced or avoided.\nThe tool is based o
+ n the engineering model approach developed by the IOER\, which identifies 
+ potential flood damage on the basis of building types. The special feature
+  of this tool is the linking of the type-based approach with individual in
+ formation on building construction and building services\, so that concret
+ e proposals for damage reduction measures can be developed.\nThe tool can 
+ be accessed via the data portal of the Saxon State Office for the Environm
+ ent\, Agriculture and Geology. It is available throughout Saxony and for t
+ he Czech districts of Karlovy Vary\, Ústí nad Labem and Liberec.\nhttps:
+ //lsnq.de/FLOODBI
+LOCATION:Room 495
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Knowledge transfer and replication – many ideas\, little clarity
 DTSTART;TZID=Europe/Berlin:20240417T110000
 DTEND;TZID=Europe/Berlin:20240417T113000
@@ -462,9 +514,44 @@ DESCRIPTION:FLOOD.Bi is a WebGIS tool on the subject of flooding and damag
 LOCATION:Room 495
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Urban Data Summit: Keynote
+SUMMARY:Word of greeting
+DTSTART;TZID=Europe/Berlin:20240417T093000
+DTEND;TZID=Europe/Berlin:20240417T094000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Word of greeting
+DTSTART;TZID=Europe/Berlin:20240417T094000
+DTEND;TZID=Europe/Berlin:20240417T095000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Word of greeting
+DTSTART;TZID=Europe/Berlin:20240417T095000
+DTEND;TZID=Europe/Berlin:20240417T100000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sustainable administration and strong democracy - why do they belo
+ ng together?
 DTSTART;TZID=Europe/Berlin:20240417T100000
 DTEND;TZID=Europe/Berlin:20240417T103000
+DESCRIPTION:As a society\, we are facing major challenges: Adaptations to 
+ the climate crisis\, digitalisation of administration\, green transformati
+ on of the economy or the threats to our open society from right-wing extre
+ mist and anti-democratic forces. Solutions to these challenges must be imp
+ lemented locally. In the cities and municipalities on the ground.\n\nThis 
+ is where it is decided whether trust in democracy is weakened or strengthe
+ ned. \n\nA smart city is more digital\, more innovative\, greener and more
+  resilient.\n\nA smart city puts citizens at the centre.\n\nTo shape the c
+ ity of the future together\, we need an administration of the future. \n\n
+ A city administration that puts the needs of citizens at the centre. \n\nW
+ hy do we urgently need a cultural change in administration? \n\nThe speed 
+ of the transformations that we will have to master together in the coming 
+ years requires a different kind of cooperation in the administration. Redu
+ cing complexity\, dialogue across hierarchical boundaries and fewer offici
+ al channels are important points for advancing cultural change in the admi
+ nistration. \n\nTranslated with DeepL.com (free version)
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
@@ -483,52 +570,6 @@ DESCRIPTION:The Research Data Center of the Leibniz Institute of Ecologica
   To begin with\, the IOER-FDZ's current range of services will be presente
  d\, followed by two tools\, GOAT and FLOOD.Bi.\nFurther information: https
  ://ioer-fdz.de/
-LOCATION:Room 495
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Tool presentation/workshop A: \nGOAT-Workshop: Making spatial and 
- mobility data usable for integrated and collaborative planning
-DTSTART;TZID=Europe/Berlin:20240417T110000
-DTEND;TZID=Europe/Berlin:20240417T123000
-DESCRIPTION:The WebGIS-based open source planning software GOAT was create
- d as part of a collaborative development between science\, planning practi
- ce and start-ups. As a tool\, it can calculate a wealth of sophisticated i
- ndicators\, particularly for the evaluation and simulation of accessibilit
- y\, supply quality and travel times to important destinations for daily ne
- eds. For example\, what is the situation regarding the provision of school
- s\, supermarkets or green spaces or the quality of public transport in the
-  various cities and regions in Germany? For these and many other questions
- \, GOAT can be tested collaboratively in the workshop in interaction with 
- the integrated data in small groups for any area. The results should provi
- de direct added value for the participants and give an impression of data-
- based planning.\nFurther information:\nhttps://bmdv.bund.de/SharedDocs/DE/
- Artikel/DG/mfund-projekte/goat-3-0.html\nhttps://plan4better.de/\nhttps://
- ioer-fdz.de/en/
-LOCATION:Room 495
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Tool presentation/workshop B:\nFlood prevention at a glance: The F
- LOOD.Bi information tool
-DTSTART;TZID=Europe/Berlin:20240417T110000
-DTEND;TZID=Europe/Berlin:20240417T123000
-DESCRIPTION:FLOOD.Bi is a WebGIS tool on the subject of flooding and damag
- e reduction to buildings. It provides a comprehensive overview of property
- -related hazards\, potential damage and risks as well as the effect of pre
- ventive measures. It is primarily aimed at building owners\, specialist pl
- anners and engineering offices in order to make an initial assessment of t
- he affected buildings and to support the selection and implementation of p
- reventive measures. In conjunction with a concrete structural survey on si
- te\, engineering planning and professional implementation\, the majority o
- f flood damage can be effectively reduced or avoided.\nThe tool is based o
- n the engineering model approach developed by the IOER\, which identifies 
- potential flood damage on the basis of building types. The special feature
-  of this tool is the linking of the type-based approach with individual in
- formation on building construction and building services\, so that concret
- e proposals for damage reduction measures can be developed.\nThe tool can 
- be accessed via the data portal of the Saxon State Office for the Environm
- ent\, Agriculture and Geology. It is available throughout Saxony and for t
- he Czech districts of Karlovy Vary\, Ústí nad Labem and Liberec.\nhttps:
- //lsnq.de/FLOODBI
 LOCATION:Room 495
 END:VEVENT
 BEGIN:VEVENT
