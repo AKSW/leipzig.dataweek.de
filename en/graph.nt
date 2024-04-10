@@ -1988,8 +1988,8 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-5> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/description> "Climate change, species extinction and resource conflicts are pressing issues of our time. While AI systems themselves exacerbate these problems through high resource consumption, they can also help to mitigate these crises if used correctly. For example, AI can be used to better understand (and thus better protect) the environment, use natural resources more efficiently, optimize energy production or improve classical computer models and thus save energy. In this session, 4 speakers from research, administration and society will present how we can make AI more sustainable and how AI and data-driven methods can contribute to environmental and nature conservation."@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/description> "Klimawandel, Artensterben und Ressourcenkonflikte sind drängende Fragen unserer Zeit. Während KI-Systeme durch einen hohen Ressourcenverbrauch selbst diese Probleme verschärfen, können sie richtig genutzt auch dazu beitragen diese Krisen abzumildern. KI kann z.B. genutzt werden um die Umwelt besser zu verstehen (und damit besser zu schützen), natürliche Ressourcen effizienter zu nutzen, Energieerzeugung zu optimieren oder klassische Computermodelle zu verbessern und so Energie zu sparen. In dieser Session präsentieren 4 Speaker aus Forschung, Verwaltung und Gesellschaft wie wir KI nachhaltiger gestalten können und wie KI und datengetriebene Methoden zu Umwelt- und Naturschutz beitragen können."@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/description> "Begrüßung"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/description> "Welcoming address"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/title> "Nachhaltige KI und KI für Nachhaltigkeit"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/title> "Sustainable AI and AI for Sustainability"@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-session-6> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
@@ -2153,40 +2153,46 @@
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://purl.org/dc/terms/title> "Wenn Biogasanlagen mitdenken ..."@de .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://purl.org/dc/terms/title> "When biogas plants think ..."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://purl.org/dc/terms/description> "We want to understand the environment better so that we can protect it better. The AI lab is developing data-driven applications for this purpose. As an example of the AI lab's work, I will present how we use satellite data to better map solar cells and wind turbines in order to support the expansion of renewable energies."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://purl.org/dc/terms/description> "Wir wollen die Umwelt besser verstehen, um sie besser schützen zu können. Dazu entwickelt das KI-Labor datengetriebene Anwendungen. Exemplarisch für die Arbeit des KI-Labors stelle ich vor, wie wir Satellitendaten nutzen, um Solarzellen und Windkraftanlagen besser zu kartieren, um so den Ausbau von erneuerbaren Energien zu unterstützen."@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://purl.org/dc/terms/title> "How the AI lab at the Federal Environment Agency creates knowledge with data"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://purl.org/dc/terms/title> "Wie das KI-Labor am Umweltbundesamt mit Daten Wissen schafft"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://schema.org/endTime> "11:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://schema.org/performer> <https://dataweek.de/#MarcoSelig> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://schema.org/performer> <https://dataweek.de/#ViolaRaedle> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://purl.org/dc/terms/title> "Digital edible landscapes"@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://purl.org/dc/terms/title> "Digitale essbare Landschaften"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://purl.org/dc/terms/description> "If biogas plants were to think along with us, they could compensate for the varying renewable energies much more flexibly, absorb the fluctuating energy demand and be operated more economically. The question also arises as to how such models can be shared FAIRLY."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://purl.org/dc/terms/description> "Wenn Biogaslagen mitdenken, könnten sie viel flexibler die variierenden erneuerbaren Energien ausgleichen, den schwankenden Energiebedarf abfangen und ökonomischer betrieben werden. Außerdem stellt sich die Frage, wie entsprechende Modelle FAIR geteilt werden können."@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://purl.org/dc/terms/title> "Wenn Biogasanlagen mitdenken ..."@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://purl.org/dc/terms/title> "When biogas plants think ..."@en .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://schema.org/endTime> "11:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://schema.org/performer> <https://dataweek.de/#KaiGildhorn> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://schema.org/performer> <https://dataweek.de/#MarcoSelig> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://schema.org/startTime> "11:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://purl.org/dc/terms/title> "A comparison of weather forecasting methods: the path from traditional to AI-based models"@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://purl.org/dc/terms/title> "Wettervorhersage-Methoden im Vergleich: Der Weg von traditionellen zu KI-basierten Modellen"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://purl.org/dc/terms/title> "Digital edible landscapes"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://purl.org/dc/terms/title> "Digitale essbare Landschaften"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/endTime> "12:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/performer> <https://dataweek.de/#DeifiliaTo> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/performer> <https://dataweek.de/#KaiGildhorn> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/startTime> "11:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://purl.org/dc/terms/title> "How the AI lab at the Federal Environment Agency creates knowledge with data"@en .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://purl.org/dc/terms/title> "Wie das KI-Labor am Umweltbundesamt mit Daten Wissen schafft"@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://purl.org/dc/terms/description> "Die neuesten KI-Wettervorhersagemodelle, die auf Daten basieren, haben einen Durchbruch erzielt und sind nun auf dem gleichen Stand wie traditionelle numerische Wettervorhersagemethoden. Dies wurde durch die Kombination aus erhöhten Rechenkapazitäten und fortschrittlicheren KI-Architekturen erreicht. Wir konzentrieren uns jetzt auf die nächsten Schritte, um robuste, KI-basierte Wettervorhersagen weiterzuentwickeln."@de .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://purl.org/dc/terms/description> "The latest AI weather forecast models based on data have achieved a breakthrough and are now on par with traditional numerical weather prediction methods. This has been achieved through a combination of increased computing capacity and more advanced AI architectures. We are now focussing on the next steps to further develop robust, AI-based weather forecasts."@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://purl.org/dc/terms/title> "A comparison of weather forecasting methods: the path from traditional to AI-based models"@en .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://purl.org/dc/terms/title> "Wettervorhersage-Methoden im Vergleich: Der Weg von traditionellen zu KI-basierten Modellen"@de .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://schema.org/performer> <https://dataweek.de/#ViolaRaedle> .
-<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://schema.org/performer> <https://dataweek.de/#DeifiliaTo> .
+<https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://schema.org/startTime> "12:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-36> <http://purl.org/dc/terms/date> "2024-04-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2024.dataweek.de/stadt-leipzig/#programm-talk-36> <http://purl.org/dc/terms/description> "Für das Erreichen der Klimaziele ist es unabdingbar, dass sich nachhaltige Technologien auch in Privathaushalten durchsetzen. Welche Technologien sich durchsetzen und welche scheitern, hängt oftmals von vielen Faktoren wie Preis, sozialen Druck, Präferenzen, Wahrnehmungen und sozialen Netzwerken ab. Das Feld der Innovationsdiffusion betrachtet, wie sich Technologien verbreiten. Am Lehrstuhl von Energiemanagement und Nachhaltigkeit untersuchen wir anhand von Modellen, wie sich diese Verbreitungsmuster im städtischen Kontext durchsetzen. Dieser Vortrag gibt einen Einblick in unsere Forschung."@de .
