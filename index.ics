@@ -611,16 +611,7 @@ BEGIN:VEVENT
 SUMMARY:Sustainable AI and AI for Sustainability
 DTSTART;TZID=Europe/Berlin:20240416T110000
 DTEND;TZID=Europe/Berlin:20240416T123000
-DESCRIPTION:Climate change\, species extinction and resource conflicts are
-  pressing issues of our time. While AI systems themselves exacerbate these
-  problems through high resource consumption\, they can also help to mitiga
- te these crises if used correctly. For example\, AI can be used to better 
- understand (and thus better protect) the environment\, use natural resourc
- es more efficiently\, optimize energy production or improve classical comp
- uter models and thus save energy. In this session\, 4 speakers from resear
- ch\, administration and society will present how we can make AI more susta
- inable and how AI and data-driven methods can contribute to environmental 
- and nature conservation.
+DESCRIPTION:Welcoming address
 LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
@@ -690,29 +681,44 @@ DESCRIPTION:In a world where it is often claimed that data is the new gold
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:When biogas plants think ...
+SUMMARY:How the AI lab at the Federal Environment Agency creates knowledge
+  with data
 DTSTART;TZID=Europe/Berlin:20240416T110000
-DTEND;TZID=Europe/Berlin:20240416T123000
+DTEND;TZID=Europe/Berlin:20240416T111500
+DESCRIPTION:We want to understand the environment better so that we can pr
+ otect it better. The AI lab is developing data-driven applications for thi
+ s purpose. As an example of the AI lab's work\, I will present how we use 
+ satellite data to better map solar cells and wind turbines in order to sup
+ port the expansion of renewable energies.
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:When biogas plants think ...
+DTSTART;TZID=Europe/Berlin:20240416T111500
+DTEND;TZID=Europe/Berlin:20240416T114500
+DESCRIPTION:If biogas plants were to think along with us\, they could comp
+ ensate for the varying renewable energies much more flexibly\, absorb the 
+ fluctuating energy demand and be operated more economically. The question 
+ also arises as to how such models can be shared FAIRLY.
 LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Digital edible landscapes
-DTSTART;TZID=Europe/Berlin:20240416T110000
-DTEND;TZID=Europe/Berlin:20240416T123000
+DTSTART;TZID=Europe/Berlin:20240416T114500
+DTEND;TZID=Europe/Berlin:20240416T121500
 LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:A comparison of weather forecasting methods: the path from traditi
  onal to AI-based models
-DTSTART;TZID=Europe/Berlin:20240416T110000
+DTSTART;TZID=Europe/Berlin:20240416T121500
 DTEND;TZID=Europe/Berlin:20240416T123000
-LOCATION:Ratsplenarsaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:How the AI lab at the Federal Environment Agency creates knowledge
-  with data
-DTSTART;TZID=Europe/Berlin:20240416T110000
-DTEND;TZID=Europe/Berlin:20240416T123000
+DESCRIPTION:The latest AI weather forecast models based on data have achie
+ ved a breakthrough and are now on par with traditional numerical weather p
+ rediction methods. This has been achieved through a combination of increas
+ ed computing capacity and more advanced AI architectures. We are now focus
+ sing on the next steps to further develop robust\, AI-based weather foreca
+ sts.
 LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
@@ -764,14 +770,9 @@ DESCRIPTION:CoSI – the Cockpit Urban Infrastructure – is a comprehensi
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H2 Powerplant - energy supply from our own hands
+SUMMARY:Smart solutions for energy-efficient buildings!
 DTSTART;TZID=Europe/Berlin:20240416T110000
 DTEND;TZID=Europe/Berlin:20240416T113000
-DESCRIPTION:With the H2 Powerplant\, Wilo has created an energy supply sys
- tem that offers companies three key advantages: It is self-sufficient\, de
- centralized and regenerative. \nThe energy source: green hydrogen. This is
-  generated and stored locally and seasonally and can also be converted bac
- k into energy if required.
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
@@ -788,9 +789,14 @@ DESCRIPTION: The presentation will provide a brief overview of the key int
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Smart solutions for energy-efficient buildings!
+SUMMARY:H2 Powerplant - energy supply from our own hands
 DTSTART;TZID=Europe/Berlin:20240416T120000
 DTEND;TZID=Europe/Berlin:20240416T123000
+DESCRIPTION:With the H2 Powerplant\, Wilo has created an energy supply sys
+ tem that offers companies three key advantages: It is self-sufficient\, de
+ centralized and regenerative. \nThe energy source: green hydrogen. This is
+  generated and stored locally and seasonally and can also be converted bac
+ k into energy if required.
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
@@ -883,21 +889,10 @@ DESCRIPTION:Preparing and providing environmental data is complex and time
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Designing data spaces and ecosystems
-DTSTART;TZID=Europe/Berlin:20240416T160000
-DTEND;TZID=Europe/Berlin:20240416T163000
-DESCRIPTION:How can data spaces and ecosystems be designed in such a way t
- hat a fair and trust-based data economy can emerge? Practical examples ran
- ging from the use of personal data across different offices (City of Helsi
- nki) to the implementation of requirements under the Supply Chain Due Dili
- gence Act (LKSG) and emissions reporting.
-LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Digital green space management: an efficient basis for a sustainab
  le green-blue infrastructure in Leipzig
-DTSTART;TZID=Europe/Berlin:20240416T163000
-DTEND;TZID=Europe/Berlin:20240416T170000
+DTSTART;TZID=Europe/Berlin:20240416T160000
+DTEND;TZID=Europe/Berlin:20240416T163000
 DESCRIPTION:The Office for Urban Greenery and Water (Amt für Stadtgrün u
  nd Gewässer) is responsible for the maintenance and development of the ur
  ban green-blue infrastructure and thus makes a valuable contribution to an
@@ -913,22 +908,20 @@ DESCRIPTION:The Office for Urban Greenery and Water (Amt für Stadtgrün u
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AI in the municipal energy supply
-DTSTART;TZID=Europe/Berlin:20240416T153000
-DTEND;TZID=Europe/Berlin:20240416T160000
-DESCRIPTION:AI technologies are helping Stadtwerke Leipzig to improve its 
- business processes. In particular\, models based on deep learning are bein
- g used experimentally to improve the efficiency and sustainability of the 
- district heating supply through precise demand forecasts and decision supp
- ort. In addition\, local large language models facilitate knowledge manage
- ment for employees by making complex analyses of unstructured content acce
- ssible.
-LOCATION:Festsaal 
+SUMMARY:Designing data spaces and ecosystems
+DTSTART;TZID=Europe/Berlin:20240416T163000
+DTEND;TZID=Europe/Berlin:20240416T170000
+DESCRIPTION:How can data spaces and ecosystems be designed in such a way t
+ hat a fair and trust-based data economy can emerge? Practical examples ran
+ ging from the use of personal data across different offices (City of Helsi
+ nki) to the implementation of requirements under the Supply Chain Due Dili
+ gence Act (LKSG) and emissions reporting.
+LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Efficient time series prediction with AI / neural networks
-DTSTART;TZID=Europe/Berlin:20240416T160000
-DTEND;TZID=Europe/Berlin:20240416T163000
+DTSTART;TZID=Europe/Berlin:20240416T153000
+DTEND;TZID=Europe/Berlin:20240416T160000
 DESCRIPTION:Time series predictions are a central part of optimizing moder
  n life from electricity consumption to weather forecasts to traffic flow p
  lanning.\nAlthough AI models have led to further advances in time series f
@@ -942,8 +935,8 @@ LOCATION:Festsaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CIVITAS/CORE: A standard for the municipal data infrastructure
-DTSTART;TZID=Europe/Berlin:20240416T163000
-DTEND;TZID=Europe/Berlin:20240416T170000
+DTSTART;TZID=Europe/Berlin:20240416T160000
+DTEND;TZID=Europe/Berlin:20240416T163000
 DESCRIPTION:For some years now\, the systematic handling of digital inform
  ation and the development of associated data infrastructures has played a 
  role in almost all local authorities. However\, despite similar challenges
@@ -962,6 +955,19 @@ DESCRIPTION:For some years now\, the systematic handling of digital inform
  sociated data sets with confidence will value-adding and therefore sustain
  able data infrastructures emerge as the core of digital services of genera
  l interest.
+LOCATION:Festsaal 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI in the municipal energy supply
+DTSTART;TZID=Europe/Berlin:20240416T163000
+DTEND;TZID=Europe/Berlin:20240416T170000
+DESCRIPTION:AI technologies are helping Stadtwerke Leipzig to improve its 
+ business processes. In particular\, models based on deep learning are bein
+ g used experimentally to improve the efficiency and sustainability of the 
+ district heating supply through precise demand forecasts and decision supp
+ ort. In addition\, local large language models facilitate knowledge manage
+ ment for employees by making complex analyses of unstructured content acce
+ ssible.
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
@@ -1129,7 +1135,7 @@ DESCRIPTION: In this Meetup\, we want to take a closer look at 2-3 lesser-
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Urban Sata Summit: Many roads lead to the tool
+SUMMARY:Urban Data Summit: Many roads lead to the tool
 DTSTART;TZID=Europe/Berlin:20240417T133000
 DTEND;TZID=Europe/Berlin:20240417T150000
 LOCATION:Sitzungssaal
@@ -1141,9 +1147,22 @@ DTEND;TZID=Europe/Berlin:20240417T190000
 LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Tendering for a digital twin in Halle (Saale) - What to consider?
+SUMMARY:The Dipas user community - Report on building an open source devel
+ opment community
 DTSTART;TZID=Europe/Berlin:20240417T133000
 DTEND;TZID=Europe/Berlin:20240417T140000
+DESCRIPTION:The geodata-based open source participation system DIPAS has b
+ een available since 2020. Initially developed by Hamburg\, several cities 
+ now use the system. In 2023\, a user community was founded to further deve
+ lop the software cooperatively. The report explains the reasons that led t
+ o this step\, the opportunities offered by such a cooperation platform and
+  briefly describes how the DIPAS-AC works.
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tendering for a digital twin in Halle (Saale) - What to consider?
+DTSTART;TZID=Europe/Berlin:20240417T140000
+DTEND;TZID=Europe/Berlin:20240417T143000
 DESCRIPTION:The city of Halle (Saale) has launched the first major project
   as part of its Smart City initiative. At its November meeting\, the city 
  council voted unanimously in favor of awarding the contract to develop a d
@@ -1151,19 +1170,6 @@ DESCRIPTION:The city of Halle (Saale) has launched the first major project
  (Smart City Halle (Saale) field of action coordinator) will cover the path
   to the award\, the planned implementation and his experiences and recomme
  ndations from the process.
-LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The Dipas user community - Report on building an open source devel
- opment community
-DTSTART;TZID=Europe/Berlin:20240417T140000
-DTEND;TZID=Europe/Berlin:20240417T143000
-DESCRIPTION:The geodata-based open source participation system DIPAS has b
- een available since 2020. Initially developed by Hamburg\, several cities 
- now use the system. In 2023\, a user community was founded to further deve
- lop the software cooperatively. The report explains the reasons that led t
- o this step\, the opportunities offered by such a cooperation platform and
-  briefly describes how the DIPAS-AC works.
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
@@ -1236,8 +1242,8 @@ DESCRIPTION:The term Smart City\, understood in the sense of an innovative
 LOCATION:Room 377
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Urban Data Summit: Mobility data room: making data effectively usa
- ble for sustainable mobility
+SUMMARY:Urban Data Summit: Smart City solutions with data from the Mobilit
+ y Data Space
 DTSTART;TZID=Europe/Berlin:20240417T133000
 DTEND;TZID=Europe/Berlin:20240417T150000
 DESCRIPTION:The smart use of data is the key to innovation in mobility. In
@@ -1505,22 +1511,9 @@ DESCRIPTION:The funded smart city measures are intended to generate a broa
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MPSC-Gelsenkirchen: An application center for municipal AI solutio
- ns
+SUMMARY:TwinBy – Digital twins for Bavaria
 DTSTART;TZID=Europe/Berlin:20240417T113000
 DTEND;TZID=Europe/Berlin:20240417T120000
-DESCRIPTION:The city of Gelsenkirchen is currently inviting tenders for an
-  application center for municipal AI solutions in urban development as par
- t of the Smart Cities model project funding\, which is to be set up and su
- stainably operated in Gelsenkirchen. This article presents how the city pl
- ans to provide the resources of this center for cities and the replication
-  of solutions.
-LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:TwinBy – Digital twins for Bavaria
-DTSTART;TZID=Europe/Berlin:20240417T120000
-DTEND;TZID=Europe/Berlin:20240417T123000
 DESCRIPTION:With the TwinBy project\, the Bavarian State Ministry for Digi
  tal Affairs is supporting local authorities in setting up individual digit
  al twins based on specific use cases. TwinBy is intended to lay the founda
@@ -1530,6 +1523,19 @@ DESCRIPTION:With the TwinBy project\, the Bavarian State Ministry for Digi
  ntroduction of digital twins. All use cases are recorded in the SDDI catal
  og service and will therefore be available to all local authorities in the
   future as a basis for replication. [https://twinby.bayern/de/startseite]
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MPSC-Gelsenkirchen: An application center for municipal AI solutio
+ ns
+DTSTART;TZID=Europe/Berlin:20240417T120000
+DTEND;TZID=Europe/Berlin:20240417T123000
+DESCRIPTION:The city of Gelsenkirchen is currently inviting tenders for an
+  application center for municipal AI solutions in urban development as par
+ t of the Smart Cities model project funding\, which is to be set up and su
+ stainably operated in Gelsenkirchen. This article presents how the city pl
+ ans to provide the resources of this center for cities and the replication
+  of solutions.
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
