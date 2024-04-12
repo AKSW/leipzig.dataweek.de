@@ -5,7 +5,12 @@ const socket = io("wss://chat.2023.dataweek.de/");
 // const ws = new WebSocket('wss://chat.lswt2021.comiles.eu/ws');
 // const ws = new WebSocket('ws://localhost:5000/ws');
 
+let default_room_id = "!irnMvwCKJtUyHjAAwI:matrix.org"
 let room_id = window.location.hash.substring(1)
+
+if (room_id == "") {
+    room_id = default_room_id
+}
 
 socket.on('connect', () => {
   console.log(`connect ${socket.id}`);
@@ -65,18 +70,13 @@ socket.on('streams_update', (streamList) => {
   const stream_selection = document.getElementById('stream_selection');
   stream_selection.innerHTML = '';
   console.log(streamList);
-  for (let stream_id in streamList) {
-    let stream_link = document.createElement('a');
-    stream_link.setAttribute("href", "javascript:zapp('" + stream_id + "')");
-    if (room_id == stream_id) {
-      stream_link.setAttribute("class", "btn");
-    } else {
-      stream_link.setAttribute("class", "btn2");
-    }
-    stream_link.append(streamList[stream_id]);
-    stream_selection.append(stream_link);
-    stream_selection.append(" ");
+
+  if (streamList[room_id] == undefined) {
+    document.getElementById("title").textContent = 'Chat - ' + streamList[default_room_id]
+  } else {
+    document.getElementById("title").textContent = 'Chat - ' + streamList[room_id]
   }
+
 });
 
 function zapp(stream_id) {
