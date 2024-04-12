@@ -64,16 +64,24 @@ function updateVideo(videoUrl) {
 socket.on('streams_update', (streamList) => {
   const stream_selection = document.getElementById('stream_selection');
   stream_selection.innerHTML = '';
+  let streams = {
+    'stream_1_1': "!irnMvwCKJtUyHjAAwI:matrix.org", // Menschen vernetzen - Daten nutzen
+    'stream_1_2': "!EgEHuNVtcBsfkKBzBJ:matrix.org", // Data Science Mania
+    'stream_2_1': "!UPyDoiPIBTThTPDQXF:matrix.org", // Kommunen für Kommunen 1 (Sitzungssaal)
+    'stream_2_2': "!LXXKyxfLmjTtRTzzAc:matrix.org", // Kommunen für Kommunen 2 (Festsaal)
+    'stream_3_1': "!wGwIOvxQCUcVwiKPQk:matrix.org", // Urban Data Summit
+    'stream_4_1': "!pEreTkmeqwWZPtAWpA:matrix.org", // LSWT
+  }
   console.log(streamList);
-  for (let stream_id in streamList) {
+  for (let stream_id in streams) {
     let stream_link = document.createElement('a');
-    stream_link.setAttribute("href", "javascript:zapp('" + stream_id + "')");
-    if (room_id == stream_id) {
+    stream_link.setAttribute("href", `javascript:zapp('${streams[stream_id]}')`);
+    if (room_id == streams[stream_id]) {
       stream_link.setAttribute("class", "btn");
     } else {
       stream_link.setAttribute("class", "btn2");
     }
-    stream_link.append(streamList[stream_id]);
+    stream_link.append(streamList[streams[stream_id]]);
     stream_selection.append(stream_link);
     stream_selection.append(" ");
   }
