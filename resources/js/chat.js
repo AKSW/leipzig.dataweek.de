@@ -60,10 +60,19 @@ socket.on('server_message', (message) => {
 });
 
 function updateVideo(videoUrl) {
-  let currentUrl = document.getElementById('videoframe').getAttribute("src");
-  if (currentUrl != videoUrl) {
-    document.getElementById('videoframe').setAttribute("src", videoUrl);
-  }
+  let wrapper = document.getElementById('videoWrapper');
+  wrapper.innerHTML = `
+  <iframe
+  id="videoframe"
+  src="${videoUrl}"
+  width="560"
+  height="315"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+`
 }
 
 socket.on('streams_update', (streamList) => {
@@ -85,7 +94,6 @@ function zapp(stream_id) {
   const message_box = document.getElementById('message-box');
   message_box.innerHTML = '';
   room_id = stream_id;
-  window.location.hash = "#" + room_id;
   socket.emit('client_zapp', stream_id);
 }
 
