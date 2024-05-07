@@ -2,7 +2,9 @@
 {%- assign show_date = include.show_date -%}
 {%- assign title = talk | rdf_property: "dct:title", site.language -%}
 {%- assign description = talk | rdf_property: "dct:description", site.language -%}
+{%- assign download = talk | rdf_property: "schema:downloadUrl" -%}
 {%- assign speaker = talk | rdf_property: "schema:performer" -%}
+
 <li>
   {% if show_date %}
   {%- assign start = talk | rdf_property: "schema:startTime" | date: "%H:%M" -%}
@@ -11,6 +13,6 @@
   {% endif %}
   {%- unless speaker == Nil -%}{%- capture return_value -%}{%- include components/list_inline_pair.html sub=talk pred="schema:performer" -%}{%- endcapture -%}{%- endunless -%}
   {%- if description -%}<details><summary style="cursor: zoom-in;">{%- endif -%}
-  {% unless speaker == Nil %}{{ return_value | strip }}: {% endunless %}{{ title }}
+      {% unless speaker == Nil %}{{ return_value | strip }}: {% endunless %}{{ title }}{%- if download -%}<a href="{{ download | relative_link }}"> (→pdf)</a>{%- endif -%}
   {%- if description -%}</summary>{{ description | markdownify }}</details>{%- endif -%}
 </li>
