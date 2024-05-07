@@ -13,6 +13,6 @@
   {% endif %}
   {%- unless speaker == Nil -%}{%- capture return_value -%}{%- include components/list_inline_pair.html sub=talk pred="schema:performer" -%}{%- endcapture -%}{%- endunless -%}
   {%- if description -%}<details><summary style="cursor: zoom-in;">{%- endif -%}
-      {% unless speaker == Nil %}{{ return_value | strip }}: {% endunless %}{{ title }}{%- if download -%}<a href="{{ download | relative_link }}"> (→pdf)</a>{%- endif -%}
+      {% unless speaker == Nil %}{{ return_value | strip }}: {% endunless %}{{ title }}{%- if download -%}<a href="{{ download | relative_link }}"><img src="{%- relative_link /resources/images/presentation.svg -%}" alt="pdf slides" width="22px" style="vertical-align:middle"></a>{%- endif -%}
   {%- if description -%}</summary>{{ description | markdownify }}</details>{%- endif -%}
 </li>
