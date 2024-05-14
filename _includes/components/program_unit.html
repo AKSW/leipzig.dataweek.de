@@ -14,6 +14,7 @@
 {%- assign title = "Keynote" -%}
 {%- else -%}
 {%- assign title = session | rdf_property: "dct:title", site.language -%}
+{%- assign download = session | rdf_property: "schema:downloadUrl" -%}
 {%- endif -%}
 
 <section class="timetable-unit {% if track == pause %}timetable-unit-break{% endif %}"  id="{{ start | date: "%H:%M" }}">
@@ -24,7 +25,7 @@
   </header>
   <div>
     <h4>
-      {{ title }}
+      {{ title }}{% if download %} <a href="{{ download | relative_link }}"><img src="{%- relative_link /resources/images/presentation.svg -%}" alt="pdf slides" width="22px" style="vertical-align:middle"></a>{% endif %}
     </h4>
     <p class="meta">
       <time datetime="{{ start }}">{{ start }}</time> - <time datetime="{{ end }}">{{ end }}</time> <span>|</span> {{ location_title }} <span>|</span> {% include components/available_language.html resource=session %}
