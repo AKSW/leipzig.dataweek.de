@@ -5,6 +5,7 @@
 {%- assign affiliation = performer | rdf_property: "schema:affiliation" -%}
 {%- assign depiction = performer | rdf_property: "foaf:depiction" -%}
 {%- assign homepage = affiliation | rdf_property: "foaf:homepage" -%}
+{%- assign download = session | rdf_property: "schema:downloadUrl" -%}
 {%- assign bio = performer | rdf_property: "gnd:biographicalOrHistoricalInformation", site.language -%}
 {%- unless bio -%}
 {%- assign bio = performer | rdf_property: "gnd:biographicalOrHistoricalInformation" -%}
@@ -22,7 +23,7 @@
 
   <div class="session-details">
     <h5 class="xl">
-      {{title}}
+      {{title}} {%- if download -%}<a href="{{ download | relative_link }}"><img src="{%- relative_link /resources/images/presentation.svg -%}" alt="pdf slides" width="22px" style="vertical-align:middle"></a>{%- endif -%}
     </h5>
     <figure class="session-details-user">
       <img class="js-load" data-src="{{ depiction | relativize_url }}" data-sizes="auto" width="1500" height="1500" style="max-width:1500px" alt="Foto von User"><noscript><img src="{{ depiction | relativize_url }}" alt="Foto von User"></noscript>
