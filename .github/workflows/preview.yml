@@ -16,14 +16,14 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
     - name: Check out Site Repository 📄
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Check out Model Repository 🗃️
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         repository: 'AKSW/leipzig.dataweek.de-model'
         path: '.model'
     - name: Check out iCal Repository 📅
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         repository: 'AKSW/ical.dataweek.de'
         ref: 'page-live'
