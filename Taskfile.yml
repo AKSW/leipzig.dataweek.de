@@ -104,7 +104,7 @@ tasks:
       JEKYLL_GID: '{{.JEKYLL_GID | default .ID_GID}}'
       JEKYLL_USER_ARG:
         sh: '[ "$(docker info --format "{{`{{if .Host.Security.Rootless}}true{{end}}`}}")" = "true" ] || echo -u "{{.JEKYLL_UID}}:{{.JEKYLL_GID}}"'
-      JEKYLL_IMAGE: docker.io/aksw/jekyll-rdf:4.2.3
+      JEKYLL_IMAGE: docker.io/aksw/jekyll-rdf:4.2.4
     cmds:
       - |
         docker run --rm \
