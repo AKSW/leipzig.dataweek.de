@@ -1,0 +1,32 @@
+# Build Jekyll Page and publish it to GitHub Pages
+name: Build Jekyll Page (2024)
+
+on:
+  push:
+    branches: [ past/2024 ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: arduino/setup-task@v2
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Check out Site Repository 📄
+      uses: actions/checkout@v4
+    - name: Check out iCal Repository 📅
+      uses: actions/checkout@v4
+      with:
+        repository: 'AKSW/ical.dataweek.de'
+        ref: 'page-live'
+        path: '.ical'
+    - name: Run CI Tasks ⚙️
+      run: task build
+    - name: Deploy 🚀
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
+        publish_branch: page-2024  # default: gh-pages
