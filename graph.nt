@@ -2823,10 +2823,7 @@
 <https://2025.dataweek.de/> <http://schema.org/slogan> "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de .
 <https://2025.dataweek.de/> <http://schema.org/sponsor> <https://2025.dataweek.de/Sponsors> .
 <https://2025.dataweek.de/> <http://schema.org/startDate> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/> <http://schema.org/subEvent> <https://2025.dataweek.de/hackathon/> .
-<https://2025.dataweek.de/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/> .
-<https://2025.dataweek.de/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/> .
-<https://2025.dataweek.de/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/> .
+<https://2025.dataweek.de/> <http://schema.org/subEvent> <https://2025.dataweek.de/warm-up/> .
 <https://2025.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
 <https://2025.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2025" .
@@ -2874,10 +2871,11 @@
 <https://2025.dataweek.de/FooterMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2025.dataweek.de/datenschutz/> .
 <https://2025.dataweek.de/FooterMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2025.dataweek.de/contact/> .
 <https://2025.dataweek.de/FooterMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
-<https://2025.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2025.dataweek.de/cfp> .
-<https://2025.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2025.dataweek.de/sponsoring> .
-<https://2025.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2025.dataweek.de/venue/> .
-<https://2025.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2025.dataweek.de/news> .
+<https://2025.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2025.dataweek.de/warm-up/> .
+<https://2025.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2025.dataweek.de/cfp> .
+<https://2025.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2025.dataweek.de/sponsoring> .
+<https://2025.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2025.dataweek.de/venue/> .
+<https://2025.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2025.dataweek.de/news> .
 <https://2025.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2025.dataweek.de/MainMenu> <http://xmlns.com/foaf/0.1/primaryTopic> <https://2025.dataweek.de/> .
 <https://2025.dataweek.de/News1> <http://purl.org/dc/terms/date> "2025-06-11T07:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
@@ -3067,10 +3065,6 @@
 <https://2025.dataweek.de/tickets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2025.dataweek.de/tickets> <http://www.w3.org/2000/01/rdf-schema#label> "Tickets"@de .
 <https://2025.dataweek.de/tickets> <http://www.w3.org/2000/01/rdf-schema#label> "Tickets"@en .
-<https://2025.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2025.dataweek.de/trainings/> .
-<https://2025.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2025.dataweek.de/workshops/> .
-<https://2025.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2025.dataweek.de/hackathon/> .
-<https://2025.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2025.dataweek.de/lswt2025/> .
 <https://2025.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2025.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2025.dataweek.de/tracks> <http://www.w3.org/2000/01/rdf-schema#label> "Tracks"@de .
@@ -3121,6 +3115,19 @@
 <https://2025.dataweek.de/venue/travel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2025.dataweek.de/venue/travel> <http://www.w3.org/2000/01/rdf-schema#label> "Anreise"@de .
 <https://2025.dataweek.de/venue/travel> <http://www.w3.org/2000/01/rdf-schema#label> "Travel"@en .
+<https://2025.dataweek.de/warm-up/> <http://purl.org/dc/terms/date> "2024-11-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/warm-up/> <http://purl.org/dc/terms/description> "Als Warm-up zur Data Week Leipzig laden wir zu einem inspirierenden Abend ein, der Ihr Denken ver\u00E4ndern und Ihre Motivation neu entfachen wird. Am 29. November 2024 haben Sie die einmalige Gelegenheit, im Neuen Rathaus Leipzig den renommierten SPIEGEL-Bestsellerautor Dr. Peter Kreuz live zu erleben.\n\nIn der besonderen Atmosph\u00E4re des Neuen Rathauses pr\u00E4sentiert Dr. Kreuz sein neuestes Werk \"REBEL MIND - Wie Menschen Ticken, die die Welt bewegen\". Tauchen Sie ein in fesselnde Ausz\u00FCge aus dem Buch, nehmen Sie an interaktiven Diskussionen teil und stellen Sie Ihre Fragen direkt an den Autor. Dieser Abend bietet nicht nur wertvolle Einblicke, sondern auch die Chance, sich mit anderen Expert:Innen und Vordenker:Innen aus der Marketing- und Unternehmenswelt zu vernetzen.\n\n### Details\n- Anmeldung: TBA\n- Einlass: ab 17:30 Uhr\n- Beginn: 18:00 Uhr\n- Ort: Neues Rathaus Leipzig, Festsaal (1. OG), Martin-Luther-Ring 4-6, 04109 Leipzig\n\n### Im Ticketpreis inbegriffen sind:\n- Ein Exemplar von Dr. Peter Kreuz' Buch\n- Ein Begr\u00FC\u00DFungsdrink\n- Fingerfood und Getr\u00E4nke\n\nSichern Sie sich Ihr Ticket und seien Sie Teil dieses unvergesslichen Abends voller Inspiration und wertvoller Begegnungen. Erleben Sie eine erste Leseprobe des Buches hier: [REBEL MIND - Leseprobe](https://foersterkreuz.s3.us-east-2.amazonaws.com/_Rebel_Mind_Leseprobe-sm.pdf)\n\nDr. Peter Kreuz: Ein Vordenker und Anstifter f\u00FCr intelligenten Regelbruch, bekannt f\u00FCr seine mitrei\u00DFenden Vortr\u00E4ge und seine Leidenschaft, Menschen zu ermutigen, ihren eigenen Weg zu gehen und die Welt auf ihre Weise zu gestalten.\n\n![grafik](https://github.com/user-attachments/assets/8bf38235-3d6e-4927-a778-e4aee8395b0f)"@de .
+<https://2025.dataweek.de/warm-up/> <http://purl.org/dc/terms/description> "As a warm-up to Data Week Leipzig, we invite you to an inspiring evening that will change your thinking and reignite your motivation. On November 29, 2024, you have the unique opportunity to experience the renowned SPIEGEL bestselling author Dr. Peter Kreuz live at the Neues Rathaus Leipzig.\n\nIn the special atmosphere of the New Town Hall, Dr. Kreuz will present his latest work \u201CREBEL MIND - Wie Menschen Ticken, die die die Welt bewegen\u201D. Immerse yourself in captivating excerpts from the book, take part in interactive discussions and ask your questions directly to the author. This evening not only offers valuable insights, but also the chance to network with other experts and thought leaders from the marketing and corporate world.\n\n### Details\n- Registration: TBA\n- Admission: from 17:30\n- Start: 18:00\n- Venue: New Leipzig City Hall, Festsaal (1st floor), Martin-Luther-Ring 4-6, 04109 Leipzig\n\n### The ticket price includes:\n- A copy of Dr. Peter Kreuz' book\n- A welcome drink\n- Finger food and drinks\n\nSecure your ticket and be part of this unforgettable evening full of inspiration and valuable encounters. Experience a first sample of the book here: [REBEL MIND - Reading sample](https://foersterkreuz.s3.us-east-2.amazonaws.com/_Rebel_Mind_Leseprobe-sm.pdf)\n\nDr. Peter Kreuz: A thought leader and instigator of intelligent rule-breaking, known for his rousing lectures and his passion for encouraging people to go their own way and shape the world in their own way.\n\n![grafik](https://github.com/user-attachments/assets/8bf38235-3d6e-4927-a778-e4aee8395b0f)\n"@en .
+<https://2025.dataweek.de/warm-up/> <http://schema.org/abstract> "Als Warm-up zur Data Week Leipzig laden wir zu einem inspirierenden Abend ein, der Ihr Denken ver\u00E4ndern und Ihre Motivation neu entfachen wird. Am 29. November 2024 haben Sie die einmalige Gelegenheit, im Neuen Rathaus Leipzig den renommierten SPIEGEL-Bestsellerautor Dr. Peter Kreuz live zu erleben."@de .
+<https://2025.dataweek.de/warm-up/> <http://schema.org/abstract> "As a warm-up to Data Week Leipzig, we invite you to an inspiring evening that will change your thinking and reignite your motivation. On November 29, 2024, you have the unique opportunity to experience the renowned SPIEGEL bestselling author Dr. Peter Kreuz live at the Neues Rathaus Leipzig."@en .
+<https://2025.dataweek.de/warm-up/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/warm-up/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://2025.dataweek.de/warm-up/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Pre-Event"@de .
+<https://2025.dataweek.de/warm-up/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Pre-Event"@en .
+<https://2025.dataweek.de/warm-up/> <https://dataweek.de/#menuHomeLabel> "General"@en .
+<https://2025.dataweek.de/warm-up/> <https://dataweek.de/#menuHomeLabel> "\u00DCbersicht"@de .
+<https://2025.dataweek.de/warm-up/> <https://dataweek.de/#show> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://2025.dataweek.de/warm-up/> <https://dataweek.de/#slug> "warm-up" .
 <https://2025.dataweek.de/workshops/2025-06-10/> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/workshops/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2025.dataweek.de/workshops/2025-06-10/> <http://www.w3.org/2000/01/rdf-schema#label> "Monday"@en .
