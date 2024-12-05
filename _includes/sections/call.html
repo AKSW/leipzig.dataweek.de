@@ -5,7 +5,7 @@
 <div class="box" id="cfp">
     <h3>{{ cfp | rdf_property: "rdfs:label", site.language }}</h3>
 
-    <a href="{{ cfp | rdf_property: "dct:hasFormat" }}" role="button" class="btn">{{ str_download_call }}</a>
+    <a href="{{ cfp | rdf_property: "dct:hasFormat" }}-{{site.language}}.pdf" role="button" class="btn">{{ str_download_call }}</a>
 
     <p>{{ cfp | rdf_property: "dct:description", site.language | markdownify }}</p>
 </div>
