@@ -339,23 +339,31 @@
 <https://2025.dataweek.de/2025-06-10/> <http://schema.org/abstract> "abastract"@de .
 <https://2025.dataweek.de/2025-06-10/> <http://schema.org/abstract> "abstract"@en .
 <https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2025.dataweek.de/2025-06-10/> .
-<https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2025.dataweek.de/2025-06-10/Ratsplenarsaal> .
+<https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2025.dataweek.de/2025-06-10/Festsaal> .
+<https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2025.dataweek.de/2025-06-10/Sitzungssaal> .
 <https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/2000/01/rdf-schema#label> "Monday"@en .
-<https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/2000/01/rdf-schema#label> "Montag"@de .
+<https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/2000/01/rdf-schema#label> "Dienstag"@en .
+<https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/2000/01/rdf-schema#label> "Tuesday"@de .
 <https://2025.dataweek.de/2025-06-10/> <https://dataweek.de/#menuHomeLabel> "all"@en .
 <https://2025.dataweek.de/2025-06-10/> <https://dataweek.de/#menuHomeLabel> "alle"@de .
 <https://2025.dataweek.de/2025-06-10/> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/> .
 <https://2025.dataweek.de/2025-06-10/> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-10\"" .
 <https://2025.dataweek.de/2025-06-10/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Table> .
-<https://2025.dataweek.de/2025-06-10/Ratsplenarsaal> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/2025-06-10/Ratsplenarsaal> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
-<https://2025.dataweek.de/2025-06-10/Ratsplenarsaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2025.dataweek.de/2025-06-10/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Ratsplenarsaal"@de .
-<https://2025.dataweek.de/2025-06-10/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Ratsplenarsaal"@en .
-<https://2025.dataweek.de/2025-06-10/Ratsplenarsaal> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/> .
-<https://2025.dataweek.de/2025-06-10/Ratsplenarsaal> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-10\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
+<https://2025.dataweek.de/2025-06-10/Festsaal> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/2025-06-10/Festsaal> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/2025-06-10/Festsaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2025.dataweek.de/2025-06-10/Festsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Festsaal"@de .
+<https://2025.dataweek.de/2025-06-10/Festsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Festsaal"@en .
+<https://2025.dataweek.de/2025-06-10/Festsaal> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/> .
+<https://2025.dataweek.de/2025-06-10/Festsaal> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-10\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+<https://2025.dataweek.de/2025-06-10/Sitzungssaal> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/2025-06-10/Sitzungssaal> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/2025-06-10/Sitzungssaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2025.dataweek.de/2025-06-10/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Sitzungssaal"@de .
+<https://2025.dataweek.de/2025-06-10/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Sitzungssaal"@en .
+<https://2025.dataweek.de/2025-06-10/Sitzungssaal> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/> .
+<https://2025.dataweek.de/2025-06-10/Sitzungssaal> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-10\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 <https://2025.dataweek.de/> <http://purl.org/dc/terms/date> "10.6.\u201313.6.2025"@de .
 <https://2025.dataweek.de/> <http://purl.org/dc/terms/date> "June 10th to 13th, 2025"@en .
 <https://2025.dataweek.de/> <http://rdfs.org/ns/void#rootResource> <https://2025.dataweek.de/MainMenu> .
@@ -372,6 +380,7 @@
 <https://2025.dataweek.de/> <http://schema.org/sponsor> <https://2025.dataweek.de/Sponsors> .
 <https://2025.dataweek.de/> <http://schema.org/startDate> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/> .
+<https://2025.dataweek.de/> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/> .
 <https://2025.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
 <https://2025.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2025" .
@@ -407,8 +416,8 @@
 <https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://dbpedia.org/> .
 <https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <http://aksw.org/Groups/AKSW> .
 <https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://htwk-leipzig.de/> .
-<https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://datasciencemania.de/> .
-<https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://noa-invision.de/> .
+<https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://noa-invision.de/> .
+<https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://fu-confirm.de/> .
 <https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2025.dataweek.de/Cooperators> <http://www.w3.org/2000/01/rdf-schema#label> "In Zusammenarbeit mit"@de .
 <https://2025.dataweek.de/Cooperators> <http://www.w3.org/2000/01/rdf-schema#label> "In cooperation with"@en .
@@ -3350,6 +3359,14 @@
 <https://extrazwei.de/> <http://www.w3.org/2000/01/rdf-schema#label> "extrazwei"@de .
 <https://extrazwei.de/> <http://www.w3.org/2000/01/rdf-schema#label> "extrazwei"@en .
 <https://extrazwei.de/> <http://xmlns.com/foaf/0.1/homepage> <https://extrazwei.de/> .
+<https://fu-confirm.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://fu-confirm.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://fu-confirm.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://fu-confirm.de/> <http://www.w3.org/2000/01/rdf-schema#label> "F&U confirm"@de .
+<https://fu-confirm.de/> <http://www.w3.org/2000/01/rdf-schema#label> "F&U confirm"@en .
+<https://fu-confirm.de/> <http://xmlns.com/foaf/0.1/homepage> <file:///home/runner/work/leipzig.dataweek.de-model/leipzig.dataweek.de-model/www.fu-confirm.de/> .
+<https://fu-confirm.de/> <http://xmlns.com/foaf/0.1/homepage> <https://fu-confirm.de/> .
+<https://fu-confirm.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/fu-confirm.png" .
 <https://gecko-two.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://gecko-two.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://gecko-two.de/> <http://www.w3.org/2000/01/rdf-schema#label> "GECKO.2"@de .
