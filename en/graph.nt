@@ -2138,6 +2138,12 @@
 <https://dataweek.de/#KheirEddineFarfar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#KheirEddineFarfar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#KheirEddineFarfar> <http://xmlns.com/foaf/0.1/name> "Kheir Eddine Farfar" .
+<https://dataweek.de/#KimSchmidt> <http://purl.org/dc/terms/description> "Data Scientist"@de .
+<https://dataweek.de/#KimSchmidt> <http://purl.org/dc/terms/description> "Data Scientist"@en .
+<https://dataweek.de/#KimSchmidt> <http://schema.org/affiliation> <https://www.dbfz.de/> .
+<https://dataweek.de/#KimSchmidt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#KimSchmidt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#KimSchmidt> <http://xmlns.com/foaf/0.1/name> "Kim Schmidt" .
 <https://dataweek.de/#KimStrupp> <http://purl.org/dc/terms/description> "Projekt Smarte KielRegion"@de .
 <https://dataweek.de/#KimStrupp> <http://purl.org/dc/terms/description> "Smart KielRegion project"@en .
 <https://dataweek.de/#KimStrupp> <http://schema.org/affiliation> <https://www.kielregion.de/> .
@@ -3681,8 +3687,10 @@
 <https://www.datev.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/DATEV.svg" .
 <https://www.dbfz.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.dbfz.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.dbfz.de/> <http://www.w3.org/2000/01/rdf-schema#label> "DBFZ Deutsches Biomasseforschungszentrum"@de .
 <https://www.dbfz.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsches Biomasseforschungszentrum"@de .
 <https://www.dbfz.de/> <http://www.w3.org/2000/01/rdf-schema#label> "German Biomass Research Center"@en .
+<https://www.dbfz.de/> <http://www.w3.org/2000/01/rdf-schema#label> "German Biomass Research Centre "@en .
 <https://www.dbfz.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.dbfz.de/> .
 <https://www.derivo.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.derivo.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
