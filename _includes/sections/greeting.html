@@ -1,7 +1,6 @@
 {% include strings.html %}
 {% assign rootResource = site.rootResource | rdf_get %}
 {% assign cfpResource = "dw25:cfp" | rdf_get %}
-{% assign warmupResource = "dw25:warm-up/" | rdf_get %}
 <aside class="page-hero">
   <div class="page-hero-text">
     <h1>
@@ -9,7 +8,6 @@
     </h1>
     <p>
       <a class="btn2" href="{{ cfpResource.render_path | relativize_url  }}" style="color: white; border-color: white">{{ cfpResource | rdf_property: "rdfs:label", site.language }}</a>
-      <a class="btn2" href="{{ warmupResource.render_path | relativize_url  }}" style="color: white; border-color: white">Pre-Event</a>
     </p>
   </div>
   <figure>
