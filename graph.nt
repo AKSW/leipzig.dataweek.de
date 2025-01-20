@@ -624,9 +624,12 @@
 <https://2025.dataweek.de/> <http://schema.org/slogan> "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de .
 <https://2025.dataweek.de/> <http://schema.org/sponsor> <https://2025.dataweek.de/Sponsors> .
 <https://2025.dataweek.de/> <http://schema.org/startDate> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/> <http://schema.org/subEvent> <https://2025.dataweek.de/hackathon/> .
 <https://2025.dataweek.de/> <http://schema.org/subEvent> <https://2025.dataweek.de/kmi-25/> .
 <https://2025.dataweek.de/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/> .
 <https://2025.dataweek.de/> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/> .
+<https://2025.dataweek.de/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/> .
+<https://2025.dataweek.de/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/> .
 <https://2025.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
 <https://2025.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2025" .
@@ -1047,6 +1050,26 @@
 <https://2025.dataweek.de/hackathon/#programm-session-9> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
 <https://2025.dataweek.de/hackathon/#programm-session-9> <http://schema.org/startTime> "14:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/hackathon/#programm-session-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/hackathon/2025-06-12/> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/hackathon/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2025.dataweek.de/hackathon/2025-06-12/> <http://www.w3.org/2000/01/rdf-schema#label> "Donnerstag"@de .
+<https://2025.dataweek.de/hackathon/2025-06-12/> <http://www.w3.org/2000/01/rdf-schema#label> "Thursday"@en .
+<https://2025.dataweek.de/hackathon/2025-06-12/> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/hackathon/> .
+<https://2025.dataweek.de/hackathon/2025-06-12/> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-12\"" .
+<https://2025.dataweek.de/hackathon/2025-06-12/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Topiclist> .
+<https://2025.dataweek.de/hackathon/2025-06-13/> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/hackathon/2025-06-13/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2025.dataweek.de/hackathon/2025-06-13/> <http://www.w3.org/2000/01/rdf-schema#label> "Freitag"@de .
+<https://2025.dataweek.de/hackathon/2025-06-13/> <http://www.w3.org/2000/01/rdf-schema#label> "Friday"@en .
+<https://2025.dataweek.de/hackathon/2025-06-13/> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/hackathon/> .
+<https://2025.dataweek.de/hackathon/2025-06-13/> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-13\"" .
+<https://2025.dataweek.de/hackathon/2025-06-13/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Topiclist> .
+<https://2025.dataweek.de/hackathon/> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/hackathon/> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/hackathon/> <http://purl.org/dc/terms/description> "Im Rahmen der Data Week Leipzig finden mehrere spannende Hackathons statt. Bringt euren Laptop mit und hackt los. Wir freuen uns auf spannende Ergebnisse!"@de .
+<https://2025.dataweek.de/hackathon/> <http://purl.org/dc/terms/description> "Several exciting hackathons are taking place as part of Data Week Leipzig. Bring your laptop and get hacking. We look forward to exciting results!"@en .
+<https://2025.dataweek.de/hackathon/> <http://schema.org/abstract> "Im Rahmen der Data Week Leipzig finden mehrere spannende Hackathons statt. Bringt euren Laptop mit und hackt los. Wir freuen uns auf spannende Ergebnisse!"@de .
+<https://2025.dataweek.de/hackathon/> <http://schema.org/abstract> "Several exciting hackathons are taking place as part of Data Week Leipzig. Bring your laptop and get hacking. We look forward to exciting results!"@en .
 <https://2025.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-12/10:30> .
 <https://2025.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-12/12:30> .
 <https://2025.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-12/15:00> .
@@ -1061,6 +1084,17 @@
 <https://2025.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2025.dataweek.de/hackathon/#programm-session-7> .
 <https://2025.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2025.dataweek.de/hackathon/#programm-session-8> .
 <https://2025.dataweek.de/hackathon/> <http://schema.org/subEvent> <https://2025.dataweek.de/hackathon/#programm-session-9> .
+<https://2025.dataweek.de/hackathon/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2025.dataweek.de/hackathon/> .
+<https://2025.dataweek.de/hackathon/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2025.dataweek.de/hackathon/2025-06-12/> .
+<https://2025.dataweek.de/hackathon/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2025.dataweek.de/hackathon/2025-06-13/> .
+<https://2025.dataweek.de/hackathon/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/hackathon/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://2025.dataweek.de/hackathon/> <http://www.w3.org/2000/01/rdf-schema#label> "Hackathon & Thin[gk]athon"@de .
+<https://2025.dataweek.de/hackathon/> <http://www.w3.org/2000/01/rdf-schema#label> "Hackathon & Thin[gk]athon"@en .
+<https://2025.dataweek.de/hackathon/> <https://dataweek.de/#menuHomeLabel> "General"@en .
+<https://2025.dataweek.de/hackathon/> <https://dataweek.de/#menuHomeLabel> "\u00DCbersicht"@de .
+<https://2025.dataweek.de/hackathon/> <https://dataweek.de/#show> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://2025.dataweek.de/hackathon/> <https://dataweek.de/#slug> "Hackathon" .
 <https://2025.dataweek.de/hotels/AOCity> <http://schema.org/address> "Brandenburger Strasse 2, 04103 Leipzig" .
 <https://2025.dataweek.de/hotels/AOCity> <http://schema.org/telephone> "+49 (0)30 809475000" .
 <https://2025.dataweek.de/hotels/AOCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Hotel> .
@@ -1175,8 +1209,8 @@
 <https://2025.dataweek.de/lswt2025/program/> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/lswt2025/> .
 <https://2025.dataweek.de/lswt2025/program/> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-12\"" .
 <https://2025.dataweek.de/lswt2025/workshops/> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/lswt2025/workshops/> <http://purl.org/dc/terms/description> "As part of Data Week Leipzig, several workshops will be held on topics including GPT, digitalisation in education, sustainable AI and 3D printing platforms. Here you can find all planned workshops. For more information on the sub-events, see the individual tabs for the different days in the sub-menu above. "@en .
-<https://2025.dataweek.de/lswt2025/workshops/> <http://purl.org/dc/terms/description> "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform statt. Nachfolgend finden Sie hier alle geplanten Workshops. Weitere Infos zu den Sub-Events sind oben im Sub-Men\u00FC unter den einzelnen Reitern f\u00FCr die unterschiedlichen Tage zu finden.\n"@de .
+<https://2025.dataweek.de/lswt2025/workshops/> <http://purl.org/dc/terms/description> "As part of Data Week Leipzig, several workshops will be held on topics including digital twins, REDCap, knowledge graphs and AI challenges in administration, science and industry. Further information on the sub-events can be found above in the sub-menu under the individual tabs for the different days."@en .
+<https://2025.dataweek.de/lswt2025/workshops/> <http://purl.org/dc/terms/description> "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie statt. Weitere Informationen zu den Sub-Events sind oben im Sub-Men\u00FC unter den einzelnen Reitern f\u00FCr die unterschiedlichen Tage zu finden."@de .
 <https://2025.dataweek.de/lswt2025/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2025.dataweek.de/lswt2025/workshops/> <http://www.w3.org/2000/01/rdf-schema#label> "Workshops"@de .
 <https://2025.dataweek.de/lswt2025/workshops/> <http://www.w3.org/2000/01/rdf-schema#label> "Workshops"@en .
@@ -1371,20 +1405,29 @@
 <https://2025.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2025.dataweek.de/tracks> <http://www.w3.org/2000/01/rdf-schema#label> "Tracks"@de .
 <https://2025.dataweek.de/tracks> <http://www.w3.org/2000/01/rdf-schema#label> "Tracks"@en .
-<https://2025.dataweek.de/trainings/2025-06-10/> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/trainings/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2025.dataweek.de/trainings/2025-06-10/> <http://www.w3.org/2000/01/rdf-schema#label> "Monday"@en .
-<https://2025.dataweek.de/trainings/2025-06-10/> <http://www.w3.org/2000/01/rdf-schema#label> "Montag"@de .
-<https://2025.dataweek.de/trainings/2025-06-10/> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/trainings/> .
-<https://2025.dataweek.de/trainings/2025-06-10/> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-10\"" .
-<https://2025.dataweek.de/trainings/2025-06-10/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Topiclist> .
-<https://2025.dataweek.de/trainings/> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/trainings/> <http://purl.org/dc/terms/description> "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets. This page provides an overview of all planned sessions. For more information on the sub-events, see the individual tabs for the different days in the sub-menu above."@en .
-<https://2025.dataweek.de/trainings/> <http://purl.org/dc/terms/description> "W\u00E4hrend der Data Week Leipzig finden mehrere Trainings und Tutorials statt, die einen Einblick in verschiedene Anwendungsf\u00E4lle und Datens\u00E4tze geben. Diese Seite gibt einen \u00DCberblick \u00FCber alle geplanten Sessions. Weitere Infos zu den Sub-Events sind oben im Sub-Men\u00FC unter den einzelnen Reitern f\u00FCr die unterschiedlichen Tage zu finden. "@de .
+<https://2025.dataweek.de/trainings/2025-06-12/> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/trainings/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2025.dataweek.de/trainings/2025-06-12/> <http://www.w3.org/2000/01/rdf-schema#label> "Donnerstag"@de .
+<https://2025.dataweek.de/trainings/2025-06-12/> <http://www.w3.org/2000/01/rdf-schema#label> "Thursday"@en .
+<https://2025.dataweek.de/trainings/2025-06-12/> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/trainings/> .
+<https://2025.dataweek.de/trainings/2025-06-12/> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-12\"" .
+<https://2025.dataweek.de/trainings/2025-06-12/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Topiclist> .
+<https://2025.dataweek.de/trainings/2025-06-13/> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/trainings/2025-06-13/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2025.dataweek.de/trainings/2025-06-13/> <http://www.w3.org/2000/01/rdf-schema#label> "Freitag"@de .
+<https://2025.dataweek.de/trainings/2025-06-13/> <http://www.w3.org/2000/01/rdf-schema#label> "Friday"@en .
+<https://2025.dataweek.de/trainings/2025-06-13/> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/trainings/> .
+<https://2025.dataweek.de/trainings/2025-06-13/> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-13\"" .
+<https://2025.dataweek.de/trainings/2025-06-13/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Topiclist> .
+<https://2025.dataweek.de/trainings/> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/trainings/> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/trainings/> <http://purl.org/dc/terms/description> "During Data Week Leipzig, several training sessions and tutorials will be held to provide an insight into various use cases and data sets. Further information on the sub-events can be found above in the sub-menu under the individual tabs for the different days."@en .
+<https://2025.dataweek.de/trainings/> <http://purl.org/dc/terms/description> "W\u00E4hrend der Data Week Leipzig finden mehrere Trainings und Tutorials statt, die einen Einblick in verschiedene Anwendungsf\u00E4lle und Datens\u00E4tze geben. Weitere Informationen zu den Sub-Events sind oben im Sub-Men\u00FC unter den einzelnen Reitern f\u00FCr die unterschiedlichen Tage zu finden."@de .
 <https://2025.dataweek.de/trainings/> <http://schema.org/abstract> "Im Rahmen der Data Week Leipzig finden mehrere Trainings und Tutorials statt und geben Einblick in verschiedene Use Cases und Datens\u00E4tze."@de .
 <https://2025.dataweek.de/trainings/> <http://schema.org/abstract> "Several trainings and tutorials will take place during Data Week Leipzig and provide insight into different use cases and data sets."@en .
 <https://2025.dataweek.de/trainings/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2025.dataweek.de/trainings/> .
-<https://2025.dataweek.de/trainings/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2025.dataweek.de/trainings/2025-06-10/> .
+<https://2025.dataweek.de/trainings/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2025.dataweek.de/trainings/2025-06-12/> .
+<https://2025.dataweek.de/trainings/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2025.dataweek.de/trainings/2025-06-13/> .
 <https://2025.dataweek.de/trainings/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/trainings/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2025.dataweek.de/trainings/> <http://www.w3.org/2000/01/rdf-schema#label> "Trainings & Tutorials"@de .
@@ -1482,19 +1525,40 @@
 <https://2025.dataweek.de/workshops/#programm-talk-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/2025-06-10/> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/workshops/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2025.dataweek.de/workshops/2025-06-10/> <http://www.w3.org/2000/01/rdf-schema#label> "Monday"@en .
-<https://2025.dataweek.de/workshops/2025-06-10/> <http://www.w3.org/2000/01/rdf-schema#label> "Montag"@de .
+<https://2025.dataweek.de/workshops/2025-06-10/> <http://www.w3.org/2000/01/rdf-schema#label> "Dienstag"@de .
+<https://2025.dataweek.de/workshops/2025-06-10/> <http://www.w3.org/2000/01/rdf-schema#label> "Tuesday"@en .
 <https://2025.dataweek.de/workshops/2025-06-10/> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/workshops/> .
 <https://2025.dataweek.de/workshops/2025-06-10/> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-10\"" .
 <https://2025.dataweek.de/workshops/2025-06-10/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Topiclist> .
+<https://2025.dataweek.de/workshops/2025-06-11/> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/workshops/2025-06-11/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2025.dataweek.de/workshops/2025-06-11/> <http://www.w3.org/2000/01/rdf-schema#label> "Mittwoch"@de .
+<https://2025.dataweek.de/workshops/2025-06-11/> <http://www.w3.org/2000/01/rdf-schema#label> "Wednesday"@en .
+<https://2025.dataweek.de/workshops/2025-06-11/> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/workshops/> .
+<https://2025.dataweek.de/workshops/2025-06-11/> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-11\"" .
+<https://2025.dataweek.de/workshops/2025-06-11/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Topiclist> .
+<https://2025.dataweek.de/workshops/2025-06-12/> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/workshops/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2025.dataweek.de/workshops/2025-06-12/> <http://www.w3.org/2000/01/rdf-schema#label> "Donnerstag"@de .
+<https://2025.dataweek.de/workshops/2025-06-12/> <http://www.w3.org/2000/01/rdf-schema#label> "Thursday"@en .
+<https://2025.dataweek.de/workshops/2025-06-12/> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/workshops/> .
+<https://2025.dataweek.de/workshops/2025-06-12/> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-12\"" .
+<https://2025.dataweek.de/workshops/2025-06-12/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Topiclist> .
+<https://2025.dataweek.de/workshops/2025-06-13/> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/workshops/2025-06-13/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2025.dataweek.de/workshops/2025-06-13/> <http://www.w3.org/2000/01/rdf-schema#label> "Freitag"@de .
+<https://2025.dataweek.de/workshops/2025-06-13/> <http://www.w3.org/2000/01/rdf-schema#label> "Friday"@en .
+<https://2025.dataweek.de/workshops/2025-06-13/> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/workshops/> .
+<https://2025.dataweek.de/workshops/2025-06-13/> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-13\"" .
+<https://2025.dataweek.de/workshops/2025-06-13/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Topiclist> .
 <https://2025.dataweek.de/workshops/> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/workshops/> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/workshops/> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/workshops/> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/workshops/> <http://purl.org/dc/terms/description> "As part of Data Week Leipzig, several workshops will be held on topics including GPT, digitalisation in education, sustainable AI and 3D printing platforms. Here you can find all planned workshops. For more information on the sub-events, see the individual tabs for the different days in the sub-menu above."@en .
-<https://2025.dataweek.de/workshops/> <http://purl.org/dc/terms/description> "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform statt. Nachfolgend finden Sie hier alle geplanten Workshops. Weitere Infos zu den Sub-Events sind oben im Sub-Men\u00FC unter den einzelnen Reitern f\u00FCr die unterschiedlichen Tage zu finden."@de .
-<https://2025.dataweek.de/workshops/> <http://schema.org/abstract> "As part of Data Week Leipzig, several workshops will be held on topics including GPT, digitalization in education, sustainable AI and 3D printing platforms."@en .
-<https://2025.dataweek.de/workshops/> <http://schema.org/abstract> "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen GPT, Digitalisierung in der Bildung, Nachhaltige KI und 3D-Druck-Plattform statt."@de .
+<https://2025.dataweek.de/workshops/> <http://purl.org/dc/terms/description> "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie statt"@de .
+<https://2025.dataweek.de/workshops/> <http://purl.org/dc/terms/description> "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie statt."@en .
+<https://2025.dataweek.de/workshops/> <http://schema.org/abstract> "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie statt"@de .
+<https://2025.dataweek.de/workshops/> <http://schema.org/abstract> "Im Rahmen der Data Week Leipzig finden mehrere Workshops unter anderem zu den Themen digitale Zwillinge, REDCap, Wissensgraphen und KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie statt."@en .
 <https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-10/11:30> .
 <https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-10/14:00> .
 <https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-10/16:00> .
@@ -1518,6 +1582,9 @@
 <https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-talk-8> .
 <https://2025.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2025.dataweek.de/workshops/> .
 <https://2025.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2025.dataweek.de/workshops/2025-06-10/> .
+<https://2025.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2025.dataweek.de/workshops/2025-06-11/> .
+<https://2025.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2025.dataweek.de/workshops/2025-06-12/> .
+<https://2025.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2025.dataweek.de/workshops/2025-06-13/> .
 <https://2025.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2025.dataweek.de/workshops/> <http://www.w3.org/2000/01/rdf-schema#label> "Workshops"@de .
