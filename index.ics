@@ -1,26 +1,5 @@
 BEGIN:VCALENDAR
 BEGIN:VEVENT
-SUMMARY:Lunch break
-DTSTART;TZID=Europe/Berlin:20250610T113000
-DTEND;TZID=Europe/Berlin:20250610T123000
-DESCRIPTION:Posters and Stands
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Coffee break
-DTSTART;TZID=Europe/Berlin:20250610T140000
-DTEND;TZID=Europe/Berlin:20250610T143000
-DESCRIPTION:Posters and Stands
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Coffee break
-DTSTART;TZID=Europe/Berlin:20250610T160000
-DTEND;TZID=Europe/Berlin:20250610T161000
-DESCRIPTION:Posters and Stands
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Admission
 DTSTART;TZID=Europe/Berlin:20250610T091500
 DTEND;TZID=Europe/Berlin:20250610T100000
@@ -79,12 +58,24 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Session 4
 DTSTART;TZID=Europe/Berlin:20250610T143000
-DTEND;TZID=Europe/Berlin:20250610T174000
+DTEND;TZID=Europe/Berlin:20250610T160000
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Session 5
 DTSTART;TZID=Europe/Berlin:20250610T143000
+DTEND;TZID=Europe/Berlin:20250610T160000
+LOCATION:Festsaal 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session 4
+DTSTART;TZID=Europe/Berlin:20250610T161000
+DTEND;TZID=Europe/Berlin:20250610T174000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session 5
+DTSTART;TZID=Europe/Berlin:20250610T161000
 DTEND;TZID=Europe/Berlin:20250610T174000
 LOCATION:Festsaal 
 END:VEVENT
@@ -106,27 +97,6 @@ DESCRIPTION:Using selected AI products and data platforms\, we provide a p
  and data protection-compliant solutions. Participants will have the opport
  unity to discuss their own use cases and try out our products directly.
 LOCATION:Room 270
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Coffee break
-DTSTART;TZID=Europe/Berlin:20250611T103000
-DTEND;TZID=Europe/Berlin:20250611T110000
-DESCRIPTION:Posters and Stands
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lunch break
-DTSTART;TZID=Europe/Berlin:20250611T123000
-DTEND;TZID=Europe/Berlin:20250611T133000
-DESCRIPTION:Posters and Stands
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Coffee break
-DTSTART;TZID=Europe/Berlin:20250611T150000
-DTEND;TZID=Europe/Berlin:20250611T153000
-DESCRIPTION:Posters and Stands
-LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Admission
@@ -168,6 +138,18 @@ LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Session 8
+DTSTART;TZID=Europe/Berlin:20250611T110000
+DTEND;TZID=Europe/Berlin:20250611T123000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session 9
+DTSTART;TZID=Europe/Berlin:20250611T110000
+DTEND;TZID=Europe/Berlin:20250611T123000
+LOCATION:Festsaal 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session 8
 DTSTART;TZID=Europe/Berlin:20250611T133000
 DTEND;TZID=Europe/Berlin:20250611T150000
 LOCATION:Sitzungssaal
@@ -201,39 +183,6 @@ SUMMARY:Session 7
 DTSTART;TZID=Europe/Berlin:20250611T090000
 DTEND;TZID=Europe/Berlin:20250611T103000
 LOCATION:Festsaal 
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Session 8
-DTSTART;TZID=Europe/Berlin:20250611T110000
-DTEND;TZID=Europe/Berlin:20250611T123000
-LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Session 9
-DTSTART;TZID=Europe/Berlin:20250611T110000
-DTEND;TZID=Europe/Berlin:20250611T123000
-LOCATION:Festsaal 
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Coffee break
-DTSTART;TZID=Europe/Berlin:20250612T103000
-DTEND;TZID=Europe/Berlin:20250612T110000
-DESCRIPTION:Posters and Stands
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lunch break
-DTSTART;TZID=Europe/Berlin:20250612T123000
-DTEND;TZID=Europe/Berlin:20250612T133000
-DESCRIPTION:Posters and Stands
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Coffee break
-DTSTART;TZID=Europe/Berlin:20250612T150000
-DTEND;TZID=Europe/Berlin:20250612T153000
-DESCRIPTION:Posters and Stands
-LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Admission
@@ -293,30 +242,6 @@ DTEND;TZID=Europe/Berlin:20250612T220000
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Coffee break
-DTSTART;TZID=Europe/Berlin:20250613T103000
-DTEND;TZID=Europe/Berlin:20250613T110000
-DESCRIPTION:Posters and Stands
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lunch break
-DTSTART;TZID=Europe/Berlin:20250613T123000
-DTEND;TZID=Europe/Berlin:20250613T131500
-DESCRIPTION:Posters and Stands
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Building Knowledge Graphs with eccenca Corporate Memory
-DTSTART;TZID=Europe/Berlin:20250613T090000
-DTEND;TZID=Europe/Berlin:20250613T103000
-DESCRIPTION:Within the session\, all participants will use the brand new e
- ccenca.my service to create their own eccenca Corporate Memory instance\, 
- learn how to build and visualize Knowledge Graphs as well as get further t
- raining material for self-learning on the topic.\n
-LOCATION:Room 259
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Admission
 DTSTART;TZID=Europe/Berlin:20250613T083000
 DTEND;TZID=Europe/Berlin:20250613T090000
@@ -359,6 +284,16 @@ SUMMARY:Youth hacks
 DTSTART;TZID=Europe/Berlin:20250613T144500
 DTEND;TZID=Europe/Berlin:20250613T220000
 LOCATION:Festsaal 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building Knowledge Graphs with eccenca Corporate Memory
+DTSTART;TZID=Europe/Berlin:20250613T090000
+DTEND;TZID=Europe/Berlin:20250613T103000
+DESCRIPTION:Within the session\, all participants will use the brand new e
+ ccenca.my service to create their own eccenca Corporate Memory instance\, 
+ learn how to build and visualize Knowledge Graphs as well as get further t
+ raining material for self-learning on the topic.\n
+LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Skills for digital change in administration
