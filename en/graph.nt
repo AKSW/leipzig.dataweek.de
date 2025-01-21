@@ -775,20 +775,24 @@
 <https://2025.dataweek.de/break/2025-06-11/17:10> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/break/2025-06-11/17:10> <http://purl.org/dc/terms/description> "Built on the foundation of the old Pleißenburg Tower, the tower of the New City Hall is considered the tallest city hall tower in Germany and is one of Leipzig's most important landmarks. With a height of exactly 114.7 meters, it towers over the entire city. As part of Data Week Leipzig, you have the opportunity to visit the town hall tower with us."@en .
 <https://2025.dataweek.de/break/2025-06-11/17:10> <http://purl.org/dc/terms/description> "Der auf dem Fundament des alten Pleißenburgturms errichtete Turm des Neuen Rathauses gilt als höchster Rathausturm Deutschlands und ist eines der wichtigsten Wahrzeichen Leipzigs. Mit einer Höhe von genau 114,7 Metern überragt er die ganze Stadt. Im Rahmen der Data Week Leipzig haben Sie die Möglichkeit den Rathausturm mit uns zu besichtigen."@de .
-<https://2025.dataweek.de/break/2025-06-11/17:10> <http://purl.org/dc/terms/title> "Get together"@de .
-<https://2025.dataweek.de/break/2025-06-11/17:10> <http://purl.org/dc/terms/title> "Get together"@en .
 <https://2025.dataweek.de/break/2025-06-11/17:10> <http://purl.org/dc/terms/title> "Rathausturmführung"@de .
 <https://2025.dataweek.de/break/2025-06-11/17:10> <http://purl.org/dc/terms/title> "Visit city hall tower"@en .
 <https://2025.dataweek.de/break/2025-06-11/17:10> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/break/2025-06-11/17:10> <http://schema.org/endTime> "17:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2025.dataweek.de/break/2025-06-11/17:10> <http://schema.org/endTime> "19:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2025.dataweek.de/break/2025-06-11/17:10> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
 <https://2025.dataweek.de/break/2025-06-11/17:10> <http://schema.org/startTime> "17:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/break/2025-06-11/17:10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2025.dataweek.de/break/2025-06-11/17:10> <http://www.w3.org/2004/02/skos/core#prefLabel> "Get together"@de .
-<https://2025.dataweek.de/break/2025-06-11/17:10> <http://www.w3.org/2004/02/skos/core#prefLabel> "Get together"@en .
 <https://2025.dataweek.de/break/2025-06-11/17:10> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rathausturmführung"@de .
 <https://2025.dataweek.de/break/2025-06-11/17:10> <http://www.w3.org/2004/02/skos/core#prefLabel> "Visit city hall tower"@en .
+<https://2025.dataweek.de/break/2025-06-11/17:40> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#sideevent> .
+<https://2025.dataweek.de/break/2025-06-11/17:40> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/break/2025-06-11/17:40> <http://purl.org/dc/terms/title> "Get together"@de .
+<https://2025.dataweek.de/break/2025-06-11/17:40> <http://purl.org/dc/terms/title> "Get together"@en .
+<https://2025.dataweek.de/break/2025-06-11/17:40> <http://schema.org/endTime> "19:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/break/2025-06-11/17:40> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
+<https://2025.dataweek.de/break/2025-06-11/17:40> <http://schema.org/startTime> "17:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/break/2025-06-11/17:40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/break/2025-06-11/17:40> <http://www.w3.org/2004/02/skos/core#prefLabel> "Get together"@de .
+<https://2025.dataweek.de/break/2025-06-11/17:40> <http://www.w3.org/2004/02/skos/core#prefLabel> "Get together"@en .
 <https://2025.dataweek.de/break/2025-06-12/08:30> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
 <https://2025.dataweek.de/break/2025-06-12/08:30> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/break/2025-06-12/08:30> <http://purl.org/dc/terms/title> "Admission"@en .
@@ -904,6 +908,7 @@
 <https://2025.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-11/12:30> .
 <https://2025.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-11/15:00> .
 <https://2025.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-11/17:10> .
+<https://2025.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-11/17:40> .
 <https://2025.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-12/08:30> .
 <https://2025.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-12/10:30> .
 <https://2025.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-12/12:30> .
@@ -1364,6 +1369,7 @@
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-11/12:30> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-11/15:00> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-11/17:10> .
+<https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-11/17:40> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-session-10> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-session-11> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-session-12> .
@@ -1628,12 +1634,15 @@
 <https://2025.dataweek.de/workshops/#programm-session-5> <http://schema.org/performer> <https://dataweek.de/#JuliaFriedrich> .
 <https://2025.dataweek.de/workshops/#programm-session-5> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/description> "Das Ziel des Workshops ist es, praxisnahe Wege aufzuzeigen, wie Unternehmen im Mitteldeutschen Revier die Herausforderungen des Strukturwandels erfolgreich bewältigen können. Dabei sollen sowohl bereits bestehende Best-Practice-Beispiele als auch bisher noch ungelöste Probleme identifiziert und diskutiert werden. Der Workshop wird praxisorientiert und interaktiv gestaltet, um die Teilnehmenden in die Erarbeitung von Lösungsansätzen einzubinden."@de .
 <https://2025.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/description> "The aim of the workshop is to show practical ways in which companies in the Central German mining area can successfully overcome the challenges of structural change. Both existing examples of best practice and problems that have not yet been solved will be identified and discussed. The workshop will be practice-orientated and interactive in order to involve the participants in the development of solutions."@en .
 <https://2025.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/title> "Fit for change - conditions for successful structural change in the Central German mining area (organized by the KMI project at InfAI)"@en .
 <https://2025.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/title> "Fit für den Wandel – Gelingensbedingungen für den Strukturwandel im Mitteldeutschen Revier (durchgeführt vom Projekt KMI am InfAI)"@de .
 <https://2025.dataweek.de/workshops/#programm-session-6> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/workshops/#programm-session-6> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-6> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
+<https://2025.dataweek.de/workshops/#programm-session-6> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-session-7> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/workshops/#programm-session-7> <http://purl.org/dc/terms/description> "Der Workshop „KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie“ beleuchtet die aktuellen und zukünftigen Herausforderungen und Möglichkeiten der Künstlichen Intelligenz (KI) in verschiedenen Sektoren. Wir werden praktische Anwendungsfälle von RAG-Systemen, erfolgreiche Strategien des Promptings sowie rechtliche Rahmenbedingungen und ethische Überlegungen diskutieren. Der halbtägige Workshop bietet interaktive Diskussionen und praktische Übungen, durchgeführt von Expert:innen der GISA GmbH. Nutzen Sie die Gelegenheit, sich mit Fachleuten zu vernetzen und wertvolle Impulse für die Nutzung von KI in Ihrem Bereich zu erhalten. Seien Sie dabei und gestalten Sie die Zukunft der KI mit! "@de .
@@ -1651,6 +1660,7 @@
 <https://2025.dataweek.de/workshops/#programm-session-8> <http://purl.org/dc/terms/title> "AI challenges in administration, science and industry (organized by GISA GmbH)"@en .
 <https://2025.dataweek.de/workshops/#programm-session-8> <http://purl.org/dc/terms/title> "KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie (durchgeführt von GISA GmbH)"@de .
 <https://2025.dataweek.de/workshops/#programm-session-8> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/workshops/#programm-session-8> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-8> <http://schema.org/location> <https://dataweek.de/venue#Room369> .
 <https://2025.dataweek.de/workshops/#programm-session-8> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
