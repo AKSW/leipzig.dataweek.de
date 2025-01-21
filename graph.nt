@@ -380,7 +380,11 @@
 <https://2025.dataweek.de/2025-06-11/> <http://schema.org/abstract> "The second day of the event will focus on administration and organisation with practical use cases and solution ideas. The main programme will be complemented by the KMI Transfer Day and the Civic Coding Roadshow."@en .
 <https://2025.dataweek.de/2025-06-11/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2025.dataweek.de/2025-06-11/> .
 <https://2025.dataweek.de/2025-06-11/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2025.dataweek.de/2025-06-11/Festsaal> .
-<https://2025.dataweek.de/2025-06-11/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2025.dataweek.de/2025-06-11/Sitzungssaal> .
+<https://2025.dataweek.de/2025-06-11/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2025.dataweek.de/2025-06-11/Room369> .
+<https://2025.dataweek.de/2025-06-11/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2025.dataweek.de/2025-06-11/Room259> .
+<https://2025.dataweek.de/2025-06-11/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2025.dataweek.de/2025-06-11/Room377> .
+<https://2025.dataweek.de/2025-06-11/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2025.dataweek.de/2025-06-11/Room260> .
+<https://2025.dataweek.de/2025-06-11/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://2025.dataweek.de/2025-06-11/Sitzungssaal> .
 <https://2025.dataweek.de/2025-06-11/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2025.dataweek.de/2025-06-11/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2025.dataweek.de/2025-06-11/> <http://www.w3.org/2000/01/rdf-schema#label> "Mittwoch"@de .
@@ -397,6 +401,34 @@
 <https://2025.dataweek.de/2025-06-11/Festsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Festsaal"@en .
 <https://2025.dataweek.de/2025-06-11/Festsaal> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/> .
 <https://2025.dataweek.de/2025-06-11/Festsaal> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+<https://2025.dataweek.de/2025-06-11/Room259> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/2025-06-11/Room259> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
+<https://2025.dataweek.de/2025-06-11/Room259> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2025.dataweek.de/2025-06-11/Room259> <http://www.w3.org/2000/01/rdf-schema#label> "Raum 259"@de .
+<https://2025.dataweek.de/2025-06-11/Room259> <http://www.w3.org/2000/01/rdf-schema#label> "Room 259"@en .
+<https://2025.dataweek.de/2025-06-11/Room259> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/> .
+<https://2025.dataweek.de/2025-06-11/Room259> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Room259>" .
+<https://2025.dataweek.de/2025-06-11/Room260> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/2025-06-11/Room260> <http://schema.org/location> <https://dataweek.de/venue#Room260> .
+<https://2025.dataweek.de/2025-06-11/Room260> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2025.dataweek.de/2025-06-11/Room260> <http://www.w3.org/2000/01/rdf-schema#label> "Raum 260"@de .
+<https://2025.dataweek.de/2025-06-11/Room260> <http://www.w3.org/2000/01/rdf-schema#label> "Room 260"@en .
+<https://2025.dataweek.de/2025-06-11/Room260> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/> .
+<https://2025.dataweek.de/2025-06-11/Room260> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Room260>" .
+<https://2025.dataweek.de/2025-06-11/Room369> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/2025-06-11/Room369> <http://schema.org/location> <https://dataweek.de/venue#Room369> .
+<https://2025.dataweek.de/2025-06-11/Room369> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2025.dataweek.de/2025-06-11/Room369> <http://www.w3.org/2000/01/rdf-schema#label> "Raum 369"@de .
+<https://2025.dataweek.de/2025-06-11/Room369> <http://www.w3.org/2000/01/rdf-schema#label> "Room 369"@en .
+<https://2025.dataweek.de/2025-06-11/Room369> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/> .
+<https://2025.dataweek.de/2025-06-11/Room369> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Room369>" .
+<https://2025.dataweek.de/2025-06-11/Room377> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/2025-06-11/Room377> <http://schema.org/location> <https://dataweek.de/venue#Room377> .
+<https://2025.dataweek.de/2025-06-11/Room377> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2025.dataweek.de/2025-06-11/Room377> <http://www.w3.org/2000/01/rdf-schema#label> "Raum 377"@de .
+<https://2025.dataweek.de/2025-06-11/Room377> <http://www.w3.org/2000/01/rdf-schema#label> "Room 377"@en .
+<https://2025.dataweek.de/2025-06-11/Room377> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/> .
+<https://2025.dataweek.de/2025-06-11/Room377> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-11\" && ?location = <https://dataweek.de/venue#Room377>" .
 <https://2025.dataweek.de/2025-06-11/Sitzungssaal> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/2025-06-11/Sitzungssaal> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2025.dataweek.de/2025-06-11/Sitzungssaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
@@ -1284,21 +1316,27 @@
 <https://2025.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2025.dataweek.de/tracks> <http://www.w3.org/2000/01/rdf-schema#label> "Tracks"@de .
 <https://2025.dataweek.de/tracks> <http://www.w3.org/2000/01/rdf-schema#label> "Tracks"@en .
-<https://2025.dataweek.de/trainings/#programm-session-1> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/trainings/#programm-session-1> <http://purl.org/dc/terms/description> "Im Rahmen der Session werden alle Teilnehmer den brandneuen eccenca.my Service nutzen, um ihre eigene eccenca Corporate Memory Instanz zu erstellen, lernen, wie man Knowledge Graphs aufbaut und visualisiert und erhalten weiteres Trainingsmaterial zum Selbststudium zum Thema."@de .
-<https://2025.dataweek.de/trainings/#programm-session-1> <http://purl.org/dc/terms/description> "Within the session, all participants will use the brand new eccenca.my service to create their own eccenca Corporate Memory instance, learn how to build and visualize Knowledge Graphs as well as get further training material for self-learning on the topic.\n"@en .
-<https://2025.dataweek.de/trainings/#programm-session-1> <http://purl.org/dc/terms/title> "Building Knowledge Graphs with eccenca Corporate Memory"@de .
-<https://2025.dataweek.de/trainings/#programm-session-1> <http://purl.org/dc/terms/title> "Building Knowledge Graphs with eccenca Corporate Memory"@en .
-<https://2025.dataweek.de/trainings/#programm-session-1> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2025.dataweek.de/trainings/#programm-session-1> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2025.dataweek.de/trainings/#programm-session-1> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
-<https://2025.dataweek.de/trainings/#programm-session-1> <http://schema.org/performer> <https://dataweek.de/#MagnusKnuth> .
-<https://2025.dataweek.de/trainings/#programm-session-1> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/trainings/#programm-session-1> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/trainings/#programm-session-1> <http://purl.org/dc/terms/title> "Training (durchgeführt von ScaDS.AI)"@de .
+<https://2025.dataweek.de/trainings/#programm-session-1> <http://purl.org/dc/terms/title> "Training (organized by ScaDS.AI)"@en .
+<https://2025.dataweek.de/trainings/#programm-session-1> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/trainings/#programm-session-1> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/trainings/#programm-session-1> <http://schema.org/location> <https://dataweek.de/venue#Room260> .
+<https://2025.dataweek.de/trainings/#programm-session-1> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/trainings/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/trainings/#programm-session-2> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/trainings/#programm-session-2> <http://purl.org/dc/terms/description> "Im Rahmen der Session werden alle Teilnehmer den brandneuen eccenca.my Service nutzen, um ihre eigene eccenca Corporate Memory Instanz zu erstellen, lernen, wie man Knowledge Graphs aufbaut und visualisiert und erhalten weiteres Trainingsmaterial zum Selbststudium zum Thema."@de .
+<https://2025.dataweek.de/trainings/#programm-session-2> <http://purl.org/dc/terms/description> "Within the session, all participants will use the brand new eccenca.my service to create their own eccenca Corporate Memory instance, learn how to build and visualize Knowledge Graphs as well as get further training material for self-learning on the topic.\n"@en .
+<https://2025.dataweek.de/trainings/#programm-session-2> <http://purl.org/dc/terms/title> "Building Knowledge Graphs with eccenca Corporate Memory"@de .
+<https://2025.dataweek.de/trainings/#programm-session-2> <http://purl.org/dc/terms/title> "Building Knowledge Graphs with eccenca Corporate Memory"@en .
+<https://2025.dataweek.de/trainings/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2025.dataweek.de/trainings/#programm-session-2> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/trainings/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
+<https://2025.dataweek.de/trainings/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#MagnusKnuth> .
+<https://2025.dataweek.de/trainings/#programm-session-2> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/trainings/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/trainings/#programm-talk-11> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/trainings/#programm-talk-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2025.dataweek.de/trainings/#programm-talk-16> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/trainings/#programm-talk-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/trainings/#programm-talk-18> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/trainings/#programm-talk-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/trainings/#programm-talk-2> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1339,8 +1377,8 @@
 <https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-13/10:30> .
 <https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-13/12:30> .
 <https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-session-1> .
+<https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-session-2> .
 <https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-talk-11> .
-<https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-talk-16> .
 <https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-talk-18> .
 <https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-talk-2> .
 <https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-talk-4> .
@@ -1393,6 +1431,57 @@
 <https://2025.dataweek.de/warm-up/> <https://dataweek.de/#menuHomeLabel> "\u00DCbersicht"@de .
 <https://2025.dataweek.de/warm-up/> <https://dataweek.de/#show> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://2025.dataweek.de/warm-up/> <https://dataweek.de/#slug> "warm-up" .
+<https://2025.dataweek.de/workshops/#programm-session-10> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/workshops/#programm-session-10> <http://purl.org/dc/terms/title> "Goblin Meeting"@de .
+<https://2025.dataweek.de/workshops/#programm-session-10> <http://purl.org/dc/terms/title> "Goblin Meeting"@en .
+<https://2025.dataweek.de/workshops/#programm-session-10> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2025.dataweek.de/workshops/#programm-session-10> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-10> <http://schema.org/location> <https://dataweek.de/venue#Room377> .
+<https://2025.dataweek.de/workshops/#programm-session-10> <http://schema.org/performer> <http://aksw.org/MilanDojchinovski> .
+<https://2025.dataweek.de/workshops/#programm-session-10> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/workshops/#programm-session-11> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/workshops/#programm-session-11> <http://purl.org/dc/terms/title> "Goblin Meeting"@de .
+<https://2025.dataweek.de/workshops/#programm-session-11> <http://purl.org/dc/terms/title> "Goblin Meeting"@en .
+<https://2025.dataweek.de/workshops/#programm-session-11> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2025.dataweek.de/workshops/#programm-session-11> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-11> <http://schema.org/location> <https://dataweek.de/venue#Room377> .
+<https://2025.dataweek.de/workshops/#programm-session-11> <http://schema.org/performer> <http://aksw.org/MilanDojchinovski> .
+<https://2025.dataweek.de/workshops/#programm-session-11> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/workshops/#programm-session-12> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/workshops/#programm-session-12> <http://purl.org/dc/terms/title> "Goblin Meeting"@de .
+<https://2025.dataweek.de/workshops/#programm-session-12> <http://purl.org/dc/terms/title> "Goblin Meeting"@en .
+<https://2025.dataweek.de/workshops/#programm-session-12> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2025.dataweek.de/workshops/#programm-session-12> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-12> <http://schema.org/location> <https://dataweek.de/venue#Room377> .
+<https://2025.dataweek.de/workshops/#programm-session-12> <http://schema.org/performer> <http://aksw.org/MilanDojchinovski> .
+<https://2025.dataweek.de/workshops/#programm-session-12> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/workshops/#programm-session-13> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/workshops/#programm-session-13> <http://purl.org/dc/terms/description> "As part of Data Week Leipzig 2025, Kehl University of Applied Sciences is offering an interactive workshop to develop the skills of future administrative staff. The aim is to use identified skills and methods to optimally prepare administrative staff for the challenges of digital change. The focus is on topics such as AI, data management, digital twins and smart cities. Together with participants from administration, science and business, we want to develop practical skills profiles and approaches for teaching digital skills that are crucial for the future of municipal administration."@en .
+<https://2025.dataweek.de/workshops/#programm-session-13> <http://purl.org/dc/terms/description> "Im Rahmen der Data Week Leipzig 2025 bietet die Hochschule Kehl einen interaktiven Workshop zur Kompetenzentwicklung der zukünftigen Verwaltungsmitarbeitenden an. Ziel ist es, mittels identifizierter Kompetenzen und Methodiken Verwaltungsmitarbeitende optimal auf die Herausforderungen des digitalen Wandels vorzubereiten. Im Fokus stehen Themen wie KI, Datenmanagement, digitale Zwillinge und Smart Cities. Gemeinsam mit Teilnehmenden aus Verwaltung, Wissenschaft und Wirtschaft wollen wir praxisnahe Kompetenzprofile und Ansätze zur Vermittlung digitaler Fähigkeiten, die für die Zukunft der kommunalen Verwaltung entscheidend sind, erarbeiten."@de .
+<https://2025.dataweek.de/workshops/#programm-session-13> <http://purl.org/dc/terms/title> "Kompetenzen für den digitalen Wandel in der Verwaltung (durchgeführt von der Hochschule Kehl)"@de .
+<https://2025.dataweek.de/workshops/#programm-session-13> <http://purl.org/dc/terms/title> "Skills for digital change in administration (organized by Hochschule Kehl)"@en .
+<https://2025.dataweek.de/workshops/#programm-session-13> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/workshops/#programm-session-13> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-13> <http://schema.org/location> <https://dataweek.de/venue#Room360> .
+<https://2025.dataweek.de/workshops/#programm-session-13> <http://schema.org/performer> <https://dataweek.de/#HannesKoeninger> .
+<https://2025.dataweek.de/workshops/#programm-session-13> <http://schema.org/performer> <https://dataweek.de/#LisaBrunzel> .
+<https://2025.dataweek.de/workshops/#programm-session-13> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/workshops/#programm-session-14> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/workshops/#programm-session-14> <http://purl.org/dc/terms/description> "As part of Data Week Leipzig 2025, Kehl University of Applied Sciences is offering an interactive workshop to develop the skills of future administrative staff. The aim is to use identified skills and methods to optimally prepare administrative staff for the challenges of digital change. The focus is on topics such as AI, data management, digital twins and smart cities. Together with participants from administration, science and business, we want to develop practical skills profiles and approaches for teaching digital skills that are crucial for the future of municipal administration."@en .
+<https://2025.dataweek.de/workshops/#programm-session-14> <http://purl.org/dc/terms/description> "Im Rahmen der Data Week Leipzig 2025 bietet die Hochschule Kehl einen interaktiven Workshop zur Kompetenzentwicklung der zukünftigen Verwaltungsmitarbeitenden an. Ziel ist es, mittels identifizierter Kompetenzen und Methodiken Verwaltungsmitarbeitende optimal auf die Herausforderungen des digitalen Wandels vorzubereiten. Im Fokus stehen Themen wie KI, Datenmanagement, digitale Zwillinge und Smart Cities. Gemeinsam mit Teilnehmenden aus Verwaltung, Wissenschaft und Wirtschaft wollen wir praxisnahe Kompetenzprofile und Ansätze zur Vermittlung digitaler Fähigkeiten, die für die Zukunft der kommunalen Verwaltung entscheidend sind, erarbeiten."@de .
+<https://2025.dataweek.de/workshops/#programm-session-14> <http://purl.org/dc/terms/title> "Kompetenzen für den digitalen Wandel in der Verwaltung (durchgeführt von der Hochschule Kehl)"@de .
+<https://2025.dataweek.de/workshops/#programm-session-14> <http://purl.org/dc/terms/title> "Skills for digital change in administration (organized by Hochschule Kehl)"@en .
+<https://2025.dataweek.de/workshops/#programm-session-14> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/workshops/#programm-session-14> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-14> <http://schema.org/location> <https://dataweek.de/venue#Room360> .
+<https://2025.dataweek.de/workshops/#programm-session-14> <http://schema.org/performer> <https://dataweek.de/#HannesKoeninger> .
+<https://2025.dataweek.de/workshops/#programm-session-14> <http://schema.org/performer> <https://dataweek.de/#LisaBrunzel> .
+<https://2025.dataweek.de/workshops/#programm-session-14> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-session-1> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/workshops/#programm-session-1> <http://purl.org/dc/terms/description> "Anhand ausgewählter KI-Produkte und Datenplattformen geben wir einen praxisnahen Einblick, wie KI erfolgreich in sicherheitskritische Bereiche implementieren werden kann. Dabei richtet sich unser Angebot an Entscheidungsträger:innen, Forscher:innen und IT-Fachleute aus Verwaltung und Industrie, die sich für sichere und datenschutzkonforme Lösungen interessieren. Die Teilnehmenden bekommen die Möglichkeit, eigene Anwendungsfälle zu diskutieren und unsere Produkte direkt auszuprobieren."@de .
 <https://2025.dataweek.de/workshops/#programm-session-1> <http://purl.org/dc/terms/description> "Using selected AI products and data platforms, we provide a practical insight into how AI can be successfully implemented in security-critical areas. Our programme is aimed at decision-makers, researchers and IT specialists from government and industry who are interested in secure and data protection-compliant solutions. Participants will have the opportunity to discuss their own use cases and try out our products directly."@en .
@@ -1405,44 +1494,95 @@
 <https://2025.dataweek.de/workshops/#programm-session-1> <http://schema.org/performer> <https://dataweek.de/#MarcoSelig> .
 <https://2025.dataweek.de/workshops/#programm-session-1> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2025.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/description> "As part of Data Week Leipzig 2025, Kehl University of Applied Sciences is offering an interactive workshop to develop the skills of future administrative staff. The aim is to use identified skills and methods to optimally prepare administrative staff for the challenges of digital change. The focus is on topics such as AI, data management, digital twins and smart cities. Together with participants from administration, science and business, we want to develop practical skills profiles and approaches for teaching digital skills that are crucial for the future of municipal administration."@en .
-<https://2025.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/description> "Im Rahmen der Data Week Leipzig 2025 bietet die Hochschule Kehl einen interaktiven Workshop zur Kompetenzentwicklung der zukünftigen Verwaltungsmitarbeitenden an. Ziel ist es, mittels identifizierter Kompetenzen und Methodiken Verwaltungsmitarbeitende optimal auf die Herausforderungen des digitalen Wandels vorzubereiten. Im Fokus stehen Themen wie KI, Datenmanagement, digitale Zwillinge und Smart Cities. Gemeinsam mit Teilnehmenden aus Verwaltung, Wissenschaft und Wirtschaft wollen wir praxisnahe Kompetenzprofile und Ansätze zur Vermittlung digitaler Fähigkeiten, die für die Zukunft der kommunalen Verwaltung entscheidend sind, erarbeiten."@de .
-<https://2025.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/title> "Kompetenzen für den digitalen Wandel in der Verwaltung"@de .
-<https://2025.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/title> "Skills for digital change in administration"@en .
+<https://2025.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/description> "Dr Sandra Schumann will give an introductory keynote entitled ‘AI: hype or tool?’, which takes a critical look at the question of whether AI is an overrated trend or actually a useful tool that supports people in their everyday lives and in the world of work. When used correctly, AI can improve a variety of work processes or support automation, but the question of the data basis poses challenges for SMEs in particular. The interactive workshop that immediately follows addresses these barriers, sheds light on the technical aspects of developing AI applications with a focus on the data required for this and offers specific assistance."@en .
+<https://2025.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/description> "Einleitend gibt Frau Dr. Sandra Schumann einen Impulsvortrag mit dem Titel „KI: Hype oder Werkzeug?“, welcher sich kritisch mit der Frage auseinandersetzt, ob KI ein überbewerteter Trend oder tatsächlich ein nützliches Werkzeug ist, das Menschen im Alltag und in der Arbeitswelt unterstützt. Korrekt eingesetzt kann KI eine Vielzahl an Arbeitsabläufen verbessern oder bei der Automatisierung unterstützen, jedoch stellt die Frage nach der Datengrundlage insbesondere KMU vor Herausforderungen. Der direkt anschließende interaktive Workshop adressiert diese Barrieren, beleuchtet technische Aspekte der Entwicklung von KI-Anwendungen mit einem Fokus auf dafür benötigte Daten und bietet konkrete Hilfestellungen."@de .
+<https://2025.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/title> "How does data get into AI? (organized by the KMI project at InfAI)"@en .
+<https://2025.dataweek.de/workshops/#programm-session-2> <http://purl.org/dc/terms/title> "Wie kommen Daten in die KI? (durchgeführt vom Projekt KMI am InfAI)"@de .
 <https://2025.dataweek.de/workshops/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/workshops/#programm-session-2> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2025.dataweek.de/workshops/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Room360> .
-<https://2025.dataweek.de/workshops/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#HannesKoeninger> .
-<https://2025.dataweek.de/workshops/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#LisaBrunzel> .
+<https://2025.dataweek.de/workshops/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
 <https://2025.dataweek.de/workshops/#programm-session-2> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-2> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-talk-9> .
 <https://2025.dataweek.de/workshops/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2025.dataweek.de/workshops/#programm-session-3> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/workshops/#programm-session-3> <http://purl.org/dc/terms/description> "As part of Data Week Leipzig 2025, Kehl University of Applied Sciences is offering an interactive workshop to develop the skills of future administrative staff. The aim is to use identified skills and methods to optimally prepare administrative staff for the challenges of digital change. The focus is on topics such as AI, data management, digital twins and smart cities. Together with participants from administration, science and business, we want to develop practical skills profiles and approaches for teaching digital skills that are crucial for the future of municipal administration."@en .
-<https://2025.dataweek.de/workshops/#programm-session-3> <http://purl.org/dc/terms/description> "Im Rahmen der Data Week Leipzig 2025 bietet die Hochschule Kehl einen interaktiven Workshop zur Kompetenzentwicklung der zukünftigen Verwaltungsmitarbeitenden an. Ziel ist es, mittels identifizierter Kompetenzen und Methodiken Verwaltungsmitarbeitende optimal auf die Herausforderungen des digitalen Wandels vorzubereiten. Im Fokus stehen Themen wie KI, Datenmanagement, digitale Zwillinge und Smart Cities. Gemeinsam mit Teilnehmenden aus Verwaltung, Wissenschaft und Wirtschaft wollen wir praxisnahe Kompetenzprofile und Ansätze zur Vermittlung digitaler Fähigkeiten, die für die Zukunft der kommunalen Verwaltung entscheidend sind, erarbeiten."@de .
-<https://2025.dataweek.de/workshops/#programm-session-3> <http://purl.org/dc/terms/title> "Kompetenzen für den digitalen Wandel in der Verwaltung"@de .
-<https://2025.dataweek.de/workshops/#programm-session-3> <http://purl.org/dc/terms/title> "Skills for digital change in administration"@en .
+<https://2025.dataweek.de/workshops/#programm-session-3> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/workshops/#programm-session-3> <http://purl.org/dc/terms/description> "Im Workshop befassen wir uns mit der Frage, wie Rahmenbedingungen, Strukturen und Prozesse in Organisationen gestaltet werden können bzw. müssen, um mit ständig neuen Herausforderungen umzugehen. Eine innovationsfördernde Kultur ist dabei ein entscheidender Faktor. Wir mit den Teilnehmenden wird darüber diskutiert, was diese Kultur ausmacht und wie eine kontinuierliche innovationsfördernde Arbeitsumgebung und die Anpassungsfähigkeit von Organisationen gefördert werden können."@de .
+<https://2025.dataweek.de/workshops/#programm-session-3> <http://purl.org/dc/terms/description> "In the workshop, we will address the question of how framework conditions, structures and processes in organisations can and must be designed in order to deal with constantly new challenges. A culture that promotes innovation is a decisive factor here. We will discuss with the participants what constitutes this culture and how a continuous innovation-promoting working environment and the adaptability of organisations can be promoted."@en .
+<https://2025.dataweek.de/workshops/#programm-session-3> <http://purl.org/dc/terms/title> "Gestaltung von Transformation – Wie gelingt Organisationsentwicklung? (durchgeführt vom Projekt KMI/ROOTS am InfAI)"@de .
+<https://2025.dataweek.de/workshops/#programm-session-3> <http://purl.org/dc/terms/title> "Shaping transformation - How does organisational development succeed? (organized by the KMI/ROOTS project at InfAI)"@en .
 <https://2025.dataweek.de/workshops/#programm-session-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2025.dataweek.de/workshops/#programm-session-3> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2025.dataweek.de/workshops/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Room360> .
-<https://2025.dataweek.de/workshops/#programm-session-3> <http://schema.org/performer> <https://dataweek.de/#HannesKoeninger> .
-<https://2025.dataweek.de/workshops/#programm-session-3> <http://schema.org/performer> <https://dataweek.de/#LisaBrunzel> .
-<https://2025.dataweek.de/workshops/#programm-session-3> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-3> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Room377> .
+<https://2025.dataweek.de/workshops/#programm-session-3> <http://schema.org/performer> <https://dataweek.de/#JuliaFriedrich> .
+<https://2025.dataweek.de/workshops/#programm-session-3> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2025.dataweek.de/workshops/#programm-talk-10> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/workshops/#programm-talk-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2025.dataweek.de/workshops/#programm-talk-12> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/workshops/#programm-talk-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2025.dataweek.de/workshops/#programm-talk-16> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/workshops/#programm-talk-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2025.dataweek.de/workshops/#programm-talk-18> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/workshops/#programm-talk-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2025.dataweek.de/workshops/#programm-talk-20> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/workshops/#programm-talk-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/workshops/#programm-session-4> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/workshops/#programm-session-4> <http://purl.org/dc/terms/description> "Dieser Workshop zeigt praxisnah, wie KI-Tools den Arbeitsalltag erleichtern können. Die Teilnehmenden erhalten Kontextwissen und Grundlagen zu generativer KI wie ChatGPT und zur Nutzung von weiteren frei zugänglichen KI-Tools. Zudem lernen sie „Prompting“-Techniken kennen, um die Funktionsweise besser zu verstehen. Im anschließenden Praxisteil können Teilnehmende mit den KI-Tools interagieren und Fähigkeiten erwerben, die sich in verschiedenen Bereichen des Arbeitsalltags integrieren lassen."@de .
+<https://2025.dataweek.de/workshops/#programm-session-4> <http://purl.org/dc/terms/description> "This workshop provides a practical demonstration of how AI tools can make everyday work easier. Participants will gain contextual knowledge and the basics of generative AI such as ChatGPT and the use of other freely accessible AI tools. They will also learn about ‘prompting’ techniques to better understand how they work. In the subsequent practical part, participants can interact with the AI tools and acquire skills that can be integrated into various areas of everyday work."@en .
+<https://2025.dataweek.de/workshops/#programm-session-4> <http://purl.org/dc/terms/title> "AI for everyday work - practical tools and sharing experiences (organized by the KMI project at InfAI)"@en .
+<https://2025.dataweek.de/workshops/#programm-session-4> <http://purl.org/dc/terms/title> "KI für den Arbeitsalltag – Praktische Werkzeuge und Erfahrungsaustausch (durchgeführt vom Projekt KMI am InfAI)"@de .
+<https://2025.dataweek.de/workshops/#programm-session-4> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/workshops/#programm-session-4> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-4> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
+<https://2025.dataweek.de/workshops/#programm-session-4> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/workshops/#programm-session-5> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/workshops/#programm-session-5> <http://purl.org/dc/terms/description> "Im ROOTS Teilprojekt werden Methoden und Konzepte entwickelt, die NPO in einer wertorientierten Transformation unterstützen. Ein zentraler Teil der Arbeit ist die Entwicklung einer Partizipationsplattform, die Organisationen und Vereinen digitale Partizipation auch nach innen ermöglichen soll. Im Workshop soll diese Plattform vorgestellt werden und gemeinsam ein digital gestützter und partizipativer Beteiligungsprozess konzipiert werden."@de .
+<https://2025.dataweek.de/workshops/#programm-session-5> <http://purl.org/dc/terms/description> "In the ROOTS sub-project, methods and concepts are being developed to support NPOs in a value-orientated transformation. A central part of the work is the development of a participation platform that will enable organisations and associations to participate digitally, including internally. This platform will be presented in the workshop and a digitally supported and participatory participation process will be designed together."@en .
+<https://2025.dataweek.de/workshops/#programm-session-5> <http://purl.org/dc/terms/title> "(Digital) participation in non-profit organisations - How can participatory approaches contribute to better organisational design? (organized by the KMI/ROOTS project at InfAI)"@en .
+<https://2025.dataweek.de/workshops/#programm-session-5> <http://purl.org/dc/terms/title> "(Digitale) Beteiligung in Non-Profit Organisationen – Wie können partizipative Vorgehensweisen zur besseren Organisationsgestaltung beitragen? (durchgeführt vom Projekt KMI/ROOTS am InfAI)"@de .
+<https://2025.dataweek.de/workshops/#programm-session-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/workshops/#programm-session-5> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-5> <http://schema.org/location> <https://dataweek.de/venue#Room377> .
+<https://2025.dataweek.de/workshops/#programm-session-5> <http://schema.org/performer> <https://dataweek.de/#JuliaFriedrich> .
+<https://2025.dataweek.de/workshops/#programm-session-5> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/description> "Das Ziel des Workshops ist es, praxisnahe Wege aufzuzeigen, wie Unternehmen im Mitteldeutschen Revier die Herausforderungen des Strukturwandels erfolgreich bewältigen können. Dabei sollen sowohl bereits bestehende Best-Practice-Beispiele als auch bisher noch ungelöste Probleme identifiziert und diskutiert werden. Der Workshop wird praxisorientiert und interaktiv gestaltet, um die Teilnehmenden in die Erarbeitung von Lösungsansätzen einzubinden."@de .
+<https://2025.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/description> "The aim of the workshop is to show practical ways in which companies in the Central German mining area can successfully overcome the challenges of structural change. Both existing examples of best practice and problems that have not yet been solved will be identified and discussed. The workshop will be practice-orientated and interactive in order to involve the participants in the development of solutions."@en .
+<https://2025.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/title> "Fit for change - conditions for successful structural change in the Central German mining area (organized by the KMI project at InfAI)"@en .
+<https://2025.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/title> "Fit für den Wandel – Gelingensbedingungen für den Strukturwandel im Mitteldeutschen Revier (durchgeführt vom Projekt KMI am InfAI)"@de .
+<https://2025.dataweek.de/workshops/#programm-session-6> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/workshops/#programm-session-6> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
+<https://2025.dataweek.de/workshops/#programm-session-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/workshops/#programm-session-7> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/workshops/#programm-session-7> <http://purl.org/dc/terms/description> "Der Workshop „KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie“ beleuchtet die aktuellen und zukünftigen Herausforderungen und Möglichkeiten der Künstlichen Intelligenz (KI) in verschiedenen Sektoren. Wir werden praktische Anwendungsfälle von RAG-Systemen, erfolgreiche Strategien des Promptings sowie rechtliche Rahmenbedingungen und ethische Überlegungen diskutieren. Der halbtägige Workshop bietet interaktive Diskussionen und praktische Übungen, durchgeführt von Expert:innen der GISA GmbH. Nutzen Sie die Gelegenheit, sich mit Fachleuten zu vernetzen und wertvolle Impulse für die Nutzung von KI in Ihrem Bereich zu erhalten. Seien Sie dabei und gestalten Sie die Zukunft der KI mit! "@de .
+<https://2025.dataweek.de/workshops/#programm-session-7> <http://purl.org/dc/terms/description> "The workshop ‘AI challenges in administration, science and industry’ will shed light on the current and future challenges and opportunities of artificial intelligence (AI) in various sectors. We will discuss practical use cases of RAG systems, successful strategies of prompting as well as legal frameworks and ethical considerations. The half-day workshop will feature interactive discussions and hands-on exercises led by experts from GISA GmbH. Take the opportunity to network with experts and gain valuable impulses for the use of AI in your field. Join us and help shape the future of AI!"@en .
+<https://2025.dataweek.de/workshops/#programm-session-7> <http://purl.org/dc/terms/title> "AI challenges in administration, science and industry (organized by GISA GmbH)"@en .
+<https://2025.dataweek.de/workshops/#programm-session-7> <http://purl.org/dc/terms/title> "KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie (durchgeführt von GISA GmbH)"@de .
+<https://2025.dataweek.de/workshops/#programm-session-7> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/workshops/#programm-session-7> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-7> <http://schema.org/location> <https://dataweek.de/venue#Room369> .
+<https://2025.dataweek.de/workshops/#programm-session-7> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/workshops/#programm-session-8> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/workshops/#programm-session-8> <http://purl.org/dc/terms/description> "Der Workshop „KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie“ beleuchtet die aktuellen und zukünftigen Herausforderungen und Möglichkeiten der Künstlichen Intelligenz (KI) in verschiedenen Sektoren. Wir werden praktische Anwendungsfälle von RAG-Systemen, erfolgreiche Strategien des Promptings sowie rechtliche Rahmenbedingungen und ethische Überlegungen diskutieren. Der halbtägige Workshop bietet interaktive Diskussionen und praktische Übungen, durchgeführt von Expert:innen der GISA GmbH. Nutzen Sie die Gelegenheit, sich mit Fachleuten zu vernetzen und wertvolle Impulse für die Nutzung von KI in Ihrem Bereich zu erhalten. Seien Sie dabei und gestalten Sie die Zukunft der KI mit! "@de .
+<https://2025.dataweek.de/workshops/#programm-session-8> <http://purl.org/dc/terms/description> "The workshop ‘AI challenges in administration, science and industry’ will shed light on the current and future challenges and opportunities of artificial intelligence (AI) in various sectors. We will discuss practical use cases of RAG systems, successful strategies of prompting as well as legal frameworks and ethical considerations. The half-day workshop will feature interactive discussions and hands-on exercises led by experts from GISA GmbH. Take the opportunity to network with experts and gain valuable impulses for the use of AI in your field. Join us and help shape the future of AI!"@en .
+<https://2025.dataweek.de/workshops/#programm-session-8> <http://purl.org/dc/terms/title> "AI challenges in administration, science and industry (organized by GISA GmbH)"@en .
+<https://2025.dataweek.de/workshops/#programm-session-8> <http://purl.org/dc/terms/title> "KI-Herausforderungen in Verwaltung, Wissenschaft und Industrie (durchgeführt von GISA GmbH)"@de .
+<https://2025.dataweek.de/workshops/#programm-session-8> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/workshops/#programm-session-8> <http://schema.org/location> <https://dataweek.de/venue#Room369> .
+<https://2025.dataweek.de/workshops/#programm-session-8> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/workshops/#programm-session-9> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/workshops/#programm-session-9> <http://purl.org/dc/terms/title> "Goblin Meeting"@de .
+<https://2025.dataweek.de/workshops/#programm-session-9> <http://purl.org/dc/terms/title> "Goblin Meeting"@en .
+<https://2025.dataweek.de/workshops/#programm-session-9> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2025.dataweek.de/workshops/#programm-session-9> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-9> <http://schema.org/location> <https://dataweek.de/venue#Room377> .
+<https://2025.dataweek.de/workshops/#programm-session-9> <http://schema.org/performer> <http://aksw.org/MilanDojchinovski> .
+<https://2025.dataweek.de/workshops/#programm-session-9> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-session-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-talk-2> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/workshops/#programm-talk-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2025.dataweek.de/workshops/#programm-talk-8> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/workshops/#programm-talk-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/workshops/#programm-talk-9> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/workshops/#programm-talk-9> <http://purl.org/dc/terms/title> "AI: hype or tool?"@en .
+<https://2025.dataweek.de/workshops/#programm-talk-9> <http://purl.org/dc/terms/title> "KI: Hype oder Werkzeug?"@de .
+<https://2025.dataweek.de/workshops/#programm-talk-9> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/workshops/#programm-talk-9> <http://schema.org/endTime> "09:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-talk-9> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
+<https://2025.dataweek.de/workshops/#programm-talk-9> <http://schema.org/performer> <https://dataweek.de/#SandraSchumann> .
+<https://2025.dataweek.de/workshops/#programm-talk-9> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-talk-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/2025-06-10/> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/workshops/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2025.dataweek.de/workshops/2025-06-10/> <http://www.w3.org/2000/01/rdf-schema#label> "Dienstag"@de .
@@ -1490,16 +1630,21 @@
 <https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-12/15:00> .
 <https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-13/10:30> .
 <https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-13/12:30> .
+<https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-session-10> .
+<https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-session-11> .
+<https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-session-12> .
+<https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-session-13> .
+<https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-session-14> .
 <https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-session-1> .
 <https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-session-2> .
 <https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-session-3> .
-<https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-talk-10> .
-<https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-talk-12> .
-<https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-talk-16> .
-<https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-talk-18> .
-<https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-talk-20> .
+<https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-session-4> .
+<https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-session-5> .
+<https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-session-6> .
+<https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-session-7> .
+<https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-session-8> .
+<https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-session-9> .
 <https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-talk-2> .
-<https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-talk-8> .
 <https://2025.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2025.dataweek.de/workshops/> .
 <https://2025.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2025.dataweek.de/workshops/2025-06-10/> .
 <https://2025.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2025.dataweek.de/workshops/2025-06-11/> .
