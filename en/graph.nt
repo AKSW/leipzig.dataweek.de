@@ -1681,6 +1681,7 @@
 <https://2025.dataweek.de/workshops/#programm-session-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-talk-24> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/workshops/#programm-talk-24> <http://schema.org/location> <https://dataweek.de/venue#Room369> .
+<https://2025.dataweek.de/workshops/#programm-talk-24> <http://schema.org/performer> <https://dataweek.de/#DanielGerber> .
 <https://2025.dataweek.de/workshops/#programm-talk-24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-talk-2> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/workshops/#programm-talk-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -2239,6 +2240,14 @@
 <https://dataweek.de/#CristineBlanken> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Christine Blanken" .
 <https://dataweek.de/#CristineBlanken> <http://xmlns.com/foaf/0.1/name> "Christine Blanken" .
 <https://dataweek.de/#CristineBlanken> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#DanielGerber> <http://purl.org/dc/terms/description> "Deputy Head of Competence Centre at InfAI"@en .
+<https://dataweek.de/#DanielGerber> <http://purl.org/dc/terms/description> "Stellvertretender Kompetenzzentrumsleiter am InfAI"@de .
+<https://dataweek.de/#DanielGerber> <http://schema.org/affiliation> <https://infai.org/> .
+<https://dataweek.de/#DanielGerber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#DanielGerber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#DanielGerber> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Daniel Gerber" .
+<https://dataweek.de/#DanielGerber> <http://xmlns.com/foaf/0.1/name> "Daniel Gerber" .
+<https://dataweek.de/#DanielGerber> <http://xmlns.com/foaf/0.1/title> "Dr. " .
 <https://dataweek.de/#DanielKrueger> <http://purl.org/dc/terms/description> "Amt für Digitalisierung und Organisation, Projektmanager KI & Digitalisierung"@de .
 <https://dataweek.de/#DanielKrueger> <http://purl.org/dc/terms/description> "Office for Digitization and Organization, Project Manager AI & Digitization"@en .
 <https://dataweek.de/#DanielKrueger> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-digitalisierung-und-organisation-10> .
