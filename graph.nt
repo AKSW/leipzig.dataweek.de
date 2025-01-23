@@ -1740,6 +1740,10 @@
 <https://2025.dataweek.de/workshops/#programm-session-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-talk-2> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/workshops/#programm-talk-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/workshops/#programm-talk-34> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/workshops/#programm-talk-34> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-talk-34> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-talk-34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-talk-9> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/workshops/#programm-talk-9> <http://purl.org/dc/terms/title> "AI: hype or tool?"@en .
 <https://2025.dataweek.de/workshops/#programm-talk-9> <http://purl.org/dc/terms/title> "KI: Hype oder Werkzeug?"@de .
@@ -1816,6 +1820,7 @@
 <https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-session-8> .
 <https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-session-9> .
 <https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-talk-2> .
+<https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-talk-34> .
 <https://2025.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2025.dataweek.de/workshops/> .
 <https://2025.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2025.dataweek.de/workshops/2025-06-10/> .
 <https://2025.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2025.dataweek.de/workshops/2025-06-11/> .
@@ -3037,6 +3042,14 @@
 <https://dataweek.de/#MarcoSelig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MarcoSelig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MarcoSelig> <http://xmlns.com/foaf/0.1/name> "Marco Selig" .
+<https://dataweek.de/#MarcusBinner> <http://purl.org/dc/terms/description> "Account Manager"@en .
+<https://dataweek.de/#MarcusBinner> <http://purl.org/dc/terms/description> "Kundenbetreuer"@de .
+<https://dataweek.de/#MarcusBinner> <http://schema.org/affiliation> <https://www.acp-gruppe.com/> .
+<https://dataweek.de/#MarcusBinner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MarcusBinner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MarcusBinner> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Marcus Binner" .
+<https://dataweek.de/#MarcusBinner> <http://xmlns.com/foaf/0.1/name> "Marcus Binner" .
+<https://dataweek.de/#MarcusBinner> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#MariaEstherVidal> <http://schema.org/affiliation> <https://www.tib.eu/> .
 <https://dataweek.de/#MariaEstherVidal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MariaEstherVidal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -3696,6 +3709,14 @@
 <https://dataweek.de/#StefanHartleib> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#StefanHartleib> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/stefan-hartleib-322544182/> .
 <https://dataweek.de/#StefanHartleib> <http://xmlns.com/foaf/0.1/name> "Stefan Hartleib" .
+<https://dataweek.de/#StefanHennig> <http://purl.org/dc/terms/description> "Head of Product & AI"@en .
+<https://dataweek.de/#StefanHennig> <http://purl.org/dc/terms/description> "Leiter Produkte & KI"@de .
+<https://dataweek.de/#StefanHennig> <http://schema.org/affiliation> <https://www.acp-gruppe.com/> .
+<https://dataweek.de/#StefanHennig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#StefanHennig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#StefanHennig> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Stefan Hennig" .
+<https://dataweek.de/#StefanHennig> <http://xmlns.com/foaf/0.1/name> "Stefan Hennig" .
+<https://dataweek.de/#StefanHennig> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#StefanHoltel> <http://purl.org/dc/terms/description> "Curator of Digital Change"@en .
 <https://dataweek.de/#StefanHoltel> <http://purl.org/dc/terms/description> "Kurator für digitalen Wandel"@de .
 <https://dataweek.de/#StefanHoltel> <http://schema.org/affiliation> <https://www.pwc.de/en.html> .
@@ -4336,6 +4357,11 @@
 <https://www.acod.de/ueber-uns> <http://www.w3.org/2000/01/rdf-schema#label> "ACOD"@de .
 <https://www.acod.de/ueber-uns> <http://www.w3.org/2000/01/rdf-schema#label> "ACOD"@en .
 <https://www.acod.de/ueber-uns> <http://xmlns.com/foaf/0.1/homepage> <https://www.acod.de/ueber-uns> .
+<https://www.acp-gruppe.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.acp-gruppe.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.acp-gruppe.com/> <http://www.w3.org/2000/01/rdf-schema#label> "ACP IT Solutions GmbH"@de .
+<https://www.acp-gruppe.com/> <http://www.w3.org/2000/01/rdf-schema#label> "ACP IT Solutions GmbH"@en .
+<https://www.acp-gruppe.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.acp-gruppe.com/> .
 <https://www.agil-inform.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.agil-inform.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.agil-inform.com/> <http://www.w3.org/2000/01/rdf-schema#label> "agil inform"@de .
