@@ -1626,6 +1626,9 @@
 <https://2025.dataweek.de/workshops/#programm-session-18> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/workshops/#programm-session-18> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-18> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://2025.dataweek.de/workshops/#programm-session-18> <http://schema.org/performer> <https://dataweek.de/#FranziskaBrenner> .
+<https://2025.dataweek.de/workshops/#programm-session-18> <http://schema.org/performer> <https://dataweek.de/#FranziskaKorb-King> .
+<https://2025.dataweek.de/workshops/#programm-session-18> <http://schema.org/performer> <https://dataweek.de/#PaulRenninger> .
 <https://2025.dataweek.de/workshops/#programm-session-18> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-session-19> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1636,6 +1639,9 @@
 <https://2025.dataweek.de/workshops/#programm-session-19> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/workshops/#programm-session-19> <http://schema.org/endTime> "14:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-19> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://2025.dataweek.de/workshops/#programm-session-19> <http://schema.org/performer> <https://dataweek.de/#FranziskaBrenner> .
+<https://2025.dataweek.de/workshops/#programm-session-19> <http://schema.org/performer> <https://dataweek.de/#FranziskaKorb-King> .
+<https://2025.dataweek.de/workshops/#programm-session-19> <http://schema.org/performer> <https://dataweek.de/#PaulRenninger> .
 <https://2025.dataweek.de/workshops/#programm-session-19> <http://schema.org/startTime> "13:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-session-1> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1878,6 +1884,11 @@
 <https://cityscaper.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Cityscaper"@de .
 <https://cityscaper.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Cityscaper"@en .
 <https://cityscaper.de/> <http://xmlns.com/foaf/0.1/homepage> <https://cityscaper.de/> .
+<https://come2data.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://come2data.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://come2data.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Come2Data"@de .
+<https://come2data.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Come2Data"@en .
+<https://come2data.de/> <http://xmlns.com/foaf/0.1/homepage> <https://come2data.de/> .
 <https://commission.europa.eu/index_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://commission.europa.eu/index_en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://commission.europa.eu/index_en> <http://www.w3.org/2000/01/rdf-schema#label> "European Comission"@en .
@@ -2496,6 +2507,18 @@
 <https://dataweek.de/#FranzKummert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#FranzKummert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#FranzKummert> <http://xmlns.com/foaf/0.1/name> "Franz Kummert" .
+<https://dataweek.de/#FranziskaBrenner> <http://purl.org/dc/terms/description> "Research assistant"@en .
+<https://dataweek.de/#FranziskaBrenner> <http://purl.org/dc/terms/description> "Wissenschaftliche Mitarbeiterin"@de .
+<https://dataweek.de/#FranziskaBrenner> <http://schema.org/affiliation> <https://come2data.de/> .
+<https://dataweek.de/#FranziskaBrenner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#FranziskaBrenner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#FranziskaBrenner> <http://xmlns.com/foaf/0.1/name> "Franziska Brenner" .
+<https://dataweek.de/#FranziskaKorb-King> <http://purl.org/dc/terms/description> "Project Manager "@en .
+<https://dataweek.de/#FranziskaKorb-King> <http://purl.org/dc/terms/description> "Projektkoordinator"@de .
+<https://dataweek.de/#FranziskaKorb-King> <http://schema.org/affiliation> <https://come2data.de/> .
+<https://dataweek.de/#FranziskaKorb-King> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#FranziskaKorb-King> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#FranziskaKorb-King> <http://xmlns.com/foaf/0.1/name> "Franziska Korb-King" .
 <https://dataweek.de/#FranziskaLoeffler> <http://purl.org/dc/terms/description> "Stadt Leipzig/Amt für Stadtgrün und Gewässer"@de .
 <https://dataweek.de/#FranziskaLoeffler> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-stadtgruen-und-gewaesser-67/> .
 <https://dataweek.de/#FranziskaLoeffler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -3351,6 +3374,12 @@
 <https://dataweek.de/#PaulGeoerg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#PaulGeoerg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#PaulGeoerg> <http://xmlns.com/foaf/0.1/name> "Paul Geoerg" .
+<https://dataweek.de/#PaulRenninger> <http://purl.org/dc/terms/description> "Research assistant"@en .
+<https://dataweek.de/#PaulRenninger> <http://purl.org/dc/terms/description> "Wissenschaftliche Mitarbeiterin"@de .
+<https://dataweek.de/#PaulRenninger> <http://schema.org/affiliation> <https://come2data.de/> .
+<https://dataweek.de/#PaulRenninger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#PaulRenninger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#PaulRenninger> <http://xmlns.com/foaf/0.1/name> "Paul Renninger" .
 <https://dataweek.de/#PauloRicardoViviurkadoCarmo> <http://purl.org/dc/terms/description> "Master student"@de .
 <https://dataweek.de/#PauloRicardoViviurkadoCarmo> <http://purl.org/dc/terms/description> "Master student"@en .
 <https://dataweek.de/#PauloRicardoViviurkadoCarmo> <http://schema.org/affiliation> <https://htwk-leipzig.de/> .
