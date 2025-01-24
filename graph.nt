@@ -665,6 +665,7 @@
 <https://2025.dataweek.de/Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In Kooperation mit"@de .
 <https://2025.dataweek.de/Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In cooperation with"@en .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
+<https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://civic-coding.de/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
@@ -2023,6 +2024,10 @@
 <https://cityscaper.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Cityscaper"@de .
 <https://cityscaper.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Cityscaper"@en .
 <https://cityscaper.de/> <http://xmlns.com/foaf/0.1/homepage> <https://cityscaper.de/> .
+<https://civic-coding.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://civic-coding.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Civic Coding \u2012 Innovationsnetz KI f\u00FCr das Gemeinwoh" .
+<https://civic-coding.de/> <http://xmlns.com/foaf/0.1/homepage> <https://civic-coding.de/> .
+<https://civic-coding.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/civic-coding.png" .
 <https://come2data.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://come2data.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://come2data.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Come2Data"@de .
