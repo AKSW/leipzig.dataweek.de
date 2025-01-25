@@ -253,6 +253,11 @@
 <http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#label> "Date"@en .
 <http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#label> "Datum"@de .
 <http://www.andreasboth.de/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://www.b4dt.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://www.b4dt.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://www.b4dt.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Büro für den digitalen Tiefbau"@de .
+<http://www.b4dt.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Digital civil engineering office"@en .
+<http://www.b4dt.de/> <http://xmlns.com/foaf/0.1/homepage> <http://www.b4dt.de/> .
 <http://www.halle.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://www.halle.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <http://www.halle.de/> <http://www.w3.org/2000/01/rdf-schema#label> "City of Halle (Saale)"@en .
@@ -1381,6 +1386,7 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://purl.org/dc/terms/title> "Mit Satellitendaten das Stadtgrün im Blick"@de .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://schema.org/location> <https://dataweek.de/venue#Room377> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://schema.org/performer> <https://dataweek.de/#FranziskaLoeffler> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1406,6 +1412,7 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-8> <http://purl.org/dc/terms/title> "Mit Satellitendaten das Stadtgrün im Blick"@de .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-8> <http://schema.org/endTime> "17:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-8> <http://schema.org/location> <https://dataweek.de/venue#Room377> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-8> <http://schema.org/performer> <https://dataweek.de/#FranziskaLoeffler> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-8> <http://schema.org/startTime> "16:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-9> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1606,6 +1613,7 @@
 <https://2025.dataweek.de/workshops/#programm-session-10> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/workshops/#programm-session-10> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-10> <http://schema.org/location> <https://dataweek.de/venue#Room495> .
+<https://2025.dataweek.de/workshops/#programm-session-10> <http://schema.org/performer> <https://dataweek.de/#JessicaBraun> .
 <https://2025.dataweek.de/workshops/#programm-session-10> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-session-11> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1625,6 +1633,7 @@
 <https://2025.dataweek.de/workshops/#programm-session-12> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/workshops/#programm-session-12> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-12> <http://schema.org/location> <https://dataweek.de/venue#Room495> .
+<https://2025.dataweek.de/workshops/#programm-session-12> <http://schema.org/performer> <https://dataweek.de/#JessicaBraun> .
 <https://2025.dataweek.de/workshops/#programm-session-12> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-session-13> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1730,6 +1739,7 @@
 <https://2025.dataweek.de/workshops/#programm-session-21> <http://purl.org/dc/terms/title> "Vom A0-Plan zum digitalen Modell - Warum ist das so schwierig?"@de .
 <https://2025.dataweek.de/workshops/#programm-session-21> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-21> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
+<https://2025.dataweek.de/workshops/#programm-session-21> <http://schema.org/performer> <https://dataweek.de/#AndreasSorgatz-Wenzel> .
 <https://2025.dataweek.de/workshops/#programm-session-21> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-session-22> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1776,6 +1786,7 @@
 <https://2025.dataweek.de/workshops/#programm-session-25> <http://purl.org/dc/terms/title> "Vom A0-Plan zum digitalen Modell - Warum ist das so schwierig?"@de .
 <https://2025.dataweek.de/workshops/#programm-session-25> <http://schema.org/endTime> "14:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-25> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
+<https://2025.dataweek.de/workshops/#programm-session-25> <http://schema.org/performer> <https://dataweek.de/#AndreasSorgatz-Wenzel> .
 <https://2025.dataweek.de/workshops/#programm-session-25> <http://schema.org/startTime> "13:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-session-26> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2222,6 +2233,12 @@
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/homepage> <http://www.andreasboth.de/en> .
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/name> "Andreas Both" .
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
+<https://dataweek.de/#AndreasSorgatz-Wenzel> <http://purl.org/dc/terms/description> "Freelance BIM engineer"@en .
+<https://dataweek.de/#AndreasSorgatz-Wenzel> <http://purl.org/dc/terms/description> "freiberuflicher BIM-Ingenieur"@de .
+<https://dataweek.de/#AndreasSorgatz-Wenzel> <http://schema.org/affiliation> <http://www.b4dt.de/> .
+<https://dataweek.de/#AndreasSorgatz-Wenzel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#AndreasSorgatz-Wenzel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#AndreasSorgatz-Wenzel> <http://xmlns.com/foaf/0.1/name> "Andreas Sorgatz-Wenzel" .
 <https://dataweek.de/#AndreasWilde> <http://schema.org/affiliation> <https://www.eas.iis.fraunhofer.de/> .
 <https://dataweek.de/#AndreasWilde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AndreasWilde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -2679,6 +2696,7 @@
 <https://dataweek.de/#FranziskaKorb-King> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#FranziskaKorb-King> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#FranziskaKorb-King> <http://xmlns.com/foaf/0.1/name> "Franziska Korb-King" .
+<https://dataweek.de/#FranziskaLoeffler> <http://purl.org/dc/terms/description> "City of Leipzig / Office for Urban Green and Water"@en .
 <https://dataweek.de/#FranziskaLoeffler> <http://purl.org/dc/terms/description> "Stadt Leipzig/Amt für Stadtgrün und Gewässer"@de .
 <https://dataweek.de/#FranziskaLoeffler> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-stadtgruen-und-gewaesser-67/> .
 <https://dataweek.de/#FranziskaLoeffler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -2747,6 +2765,7 @@
 <https://dataweek.de/#HeideHuettner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#HeideHuettner> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/heide-h%25C3%25BCttner-877b601a8/> .
 <https://dataweek.de/#HeideHuettner> <http://xmlns.com/foaf/0.1/name> "Heide Hüttner" .
+<https://dataweek.de/#HeikeGebhardt> <http://purl.org/dc/terms/description> "Digital City Department, City of Leipzig"@en .
 <https://dataweek.de/#HeikeGebhardt> <http://purl.org/dc/terms/description> "Referat Digitale Stadt, Stadt Leipzig"@de .
 <https://dataweek.de/#HeikeGebhardt> <http://schema.org/affiliation> <http://www.leipzig.de/> .
 <https://dataweek.de/#HeikeGebhardt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -2900,6 +2919,12 @@
 <https://dataweek.de/#JensScholz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JensScholz> <http://xmlns.com/foaf/0.1/homepage> <https://de.linkedin.com/in/jensscholz> .
 <https://dataweek.de/#JensScholz> <http://xmlns.com/foaf/0.1/name> "Jens Scholz" .
+<https://dataweek.de/#JessicaBraun> <http://purl.org/dc/terms/description> "Project manager in the Digital City department"@en .
+<https://dataweek.de/#JessicaBraun> <http://purl.org/dc/terms/description> "Projektmanagerin im Refereat Digitale Stadt"@de .
+<https://dataweek.de/#JessicaBraun> <http://schema.org/affiliation> <http://www.leipzig.de/> .
+<https://dataweek.de/#JessicaBraun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#JessicaBraun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JessicaBraun> <http://xmlns.com/foaf/0.1/name> "Jessica Braun" .
 <https://dataweek.de/#JoanMaso> <http://purl.org/dc/terms/description> "Joan.Maso@uab.cat"@en .
 <https://dataweek.de/#JoanMaso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JoanMaso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -3239,6 +3264,12 @@
 <https://dataweek.de/#MarleneDamerau> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MarleneDamerau> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MarleneDamerau> <http://xmlns.com/foaf/0.1/name> "Marlene Damerau" .
+<https://dataweek.de/#MartinGuth> <http://purl.org/dc/terms/description> "Smart City/ Smart Region Projektmanager"@de .
+<https://dataweek.de/#MartinGuth> <http://purl.org/dc/terms/description> "Smart City/ Smart Region Projektmanager"@en .
+<https://dataweek.de/#MartinGuth> <http://schema.org/affiliation> <https://www.aconium.eu/> .
+<https://dataweek.de/#MartinGuth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MartinGuth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MartinGuth> <http://xmlns.com/foaf/0.1/name> "Martin Guth" .
 <https://dataweek.de/#MartinHentschel> <http://purl.org/dc/terms/description> "Principal Software Engineer [Snowflake](https://www.snowflake.com/)"@de .
 <https://dataweek.de/#MartinHentschel> <http://purl.org/dc/terms/description> "Principal Software Engineer [Snowflake](https://www.snowflake.com/)"@en .
 <https://dataweek.de/#MartinHentschel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -4512,6 +4543,11 @@
 <https://www.acod.de/ueber-uns> <http://www.w3.org/2000/01/rdf-schema#label> "ACOD"@de .
 <https://www.acod.de/ueber-uns> <http://www.w3.org/2000/01/rdf-schema#label> "ACOD"@en .
 <https://www.acod.de/ueber-uns> <http://xmlns.com/foaf/0.1/homepage> <https://www.acod.de/ueber-uns> .
+<https://www.aconium.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.aconium.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.aconium.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "aconium GmbH"@de .
+<https://www.aconium.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "aconium GmbH"@en .
+<https://www.aconium.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://www.aconium.eu/> .
 <https://www.acp-gruppe.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.acp-gruppe.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.acp-gruppe.com/> <http://www.w3.org/2000/01/rdf-schema#label> "ACP IT Solutions GmbH"@de .
