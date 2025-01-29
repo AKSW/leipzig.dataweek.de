@@ -1521,36 +1521,25 @@
 <https://2025.dataweek.de/trainings/#programm-session-1> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/trainings/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/trainings/#programm-session-2> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/trainings/#programm-session-2> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/trainings/#programm-session-2> <http://purl.org/dc/terms/description> "Im Rahmen der Session werden alle Teilnehmer den brandneuen eccenca.my Service nutzen, um ihre eigene eccenca Corporate Memory Instanz zu erstellen, lernen, wie man Knowledge Graphs aufbaut und visualisiert und erhalten weiteres Trainingsmaterial zum Selbststudium zum Thema."@de .
 <https://2025.dataweek.de/trainings/#programm-session-2> <http://purl.org/dc/terms/description> "Modern AI-driven chat apps such as ChatGPT, Gemini, Claude and others are changing the way we work unavoidably. For many, this means writing texts or programming more efficiently. Some people overestimate the quality of generated text and may not admit that they have not curated AI-generated text properly. About 20 years ago we had to learn how to “google” properly, today we need to learn how to “prompt”. In this lecture, we will give an insight into various challenges that the current AI revolution is imposing on us and a number of opportunities in this context. The lecture gives examples, tips and tricks for dealing with Generative AI and will be followed by a practical part. It is recommended that you bring your own laptop to take part."@en .
 <https://2025.dataweek.de/trainings/#programm-session-2> <http://purl.org/dc/terms/description> "Moderne KI-getriebene Chat-Apps, wie ChatGPT, Gemini, Claude, und andere verändern scheinbar unvermeidbar die Art wie wir arbeiten. Für viele heißt das effizienteres Schreiben von Texten oder auch Programmieren. Manche überschätzen dabei die Qualität von generiertem Text, müssen auch mal beschämt zugeben, KI-generierten Text nicht ordentlich kuratiert zu haben. Mussten wir vor etwa 20 Jahren lernen, wie man richtig \"googelt\", lernen wir heute, wie man richtig \"promptet\". In diesem Vortrag erhalten wir einen Einblick in verschiedene Herausforderungen, die uns die aktuelle KI-Revolution auferlegt und eine Reihe Gelegenheiten, die sich uns damit bieten. Dem praxisnahen Vortrag mit Beispielen, Tips und Tricks für den Umgang mit Generativer KI folgt ein praktischer Teil. Um daran teilzunehmen ist ein eigener Laptop empfohlen."@de .
-<https://2025.dataweek.de/trainings/#programm-session-2> <http://purl.org/dc/terms/description> "Within the session, all participants will use the brand new eccenca.my service to create their own eccenca Corporate Memory instance, learn how to build and visualize Knowledge Graphs as well as get further training material for self-learning on the topic.\n"@en .
-<https://2025.dataweek.de/trainings/#programm-session-2> <http://purl.org/dc/terms/title> "Building Knowledge Graphs with eccenca Corporate Memory"@de .
-<https://2025.dataweek.de/trainings/#programm-session-2> <http://purl.org/dc/terms/title> "Building Knowledge Graphs with eccenca Corporate Memory"@en .
 <https://2025.dataweek.de/trainings/#programm-session-2> <http://purl.org/dc/terms/title> "How generative artificial intelligence is changing work and study(organized by ScaDS.AI)"@en .
 <https://2025.dataweek.de/trainings/#programm-session-2> <http://purl.org/dc/terms/title> "Wie Generative Künstliche Intelligenz Arbeit und Studium verändert (durchgeführt von ScaDS.AI)"@de .
 <https://2025.dataweek.de/trainings/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2025.dataweek.de/trainings/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
-<https://2025.dataweek.de/trainings/#programm-session-2> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/trainings/#programm-session-2> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2025.dataweek.de/trainings/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
 <https://2025.dataweek.de/trainings/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Room260> .
-<https://2025.dataweek.de/trainings/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#MagnusKnuth> .
 <https://2025.dataweek.de/trainings/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#RobertHaase> .
-<https://2025.dataweek.de/trainings/#programm-session-2> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/trainings/#programm-session-2> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/trainings/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/trainings/#programm-session-3> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/trainings/#programm-session-3> <http://purl.org/dc/terms/description> "Learn the basics of modern software development in this hands-on course: from version control with Git and automated testing to workflows for continuous integration and deployment. Discover topics such as reproducible environments and software licensing and apply your knowledge directly in interactive exercises. Perfect for anyone who wants to make their development processes more efficient and professional. Target group: Employees in industry and administration with basic knowledge of Python programming and the desire to work in a more structured and collaborative way and to sustainably increase code quality.\n"@en .
-<https://2025.dataweek.de/trainings/#programm-session-3> <http://purl.org/dc/terms/description> "Lernen Sie in diesem praxisorientierten Kurs die Grundlagen moderner Softwareentwicklung: Von Versionskontrolle mit Git und automatisiertem Testen bis hin zu Workflows für Continuous Integration und Deployment. Entdecken Sie Themen wie reproduzierbare Environments und Software-Lizenzierung und wenden Sie Ihr Wissen direkt in interaktiven Übungen an. Perfekt für alle, die ihre Entwicklungsprozesse effizienter und professioneller gestalten möchten. Zielgruppe: Mitarbeiter:innen in Industrie und Verwaltung mit Grundkenntnissen in Python-Programmierung und dem Wunsch besser strukturiert und kollaborativ zu arbeiten bzw. Code Qualität nachhaltig zu erhöhen.\n"@de .
-<https://2025.dataweek.de/trainings/#programm-session-3> <http://purl.org/dc/terms/title> "DevOps Hands-on Training"@de .
-<https://2025.dataweek.de/trainings/#programm-session-3> <http://purl.org/dc/terms/title> "DevOps Hands-on Training"@en .
-<https://2025.dataweek.de/trainings/#programm-session-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/trainings/#programm-session-3> <http://purl.org/dc/terms/description> "Im Rahmen der Session werden alle Teilnehmer den brandneuen eccenca.my Service nutzen, um ihre eigene eccenca Corporate Memory Instanz zu erstellen, lernen, wie man Knowledge Graphs aufbaut und visualisiert und erhalten weiteres Trainingsmaterial zum Selbststudium zum Thema."@de .
+<https://2025.dataweek.de/trainings/#programm-session-3> <http://purl.org/dc/terms/description> "Within the session, all participants will use the brand new eccenca.my service to create their own eccenca Corporate Memory instance, learn how to build and visualize Knowledge Graphs as well as get further training material for self-learning on the topic.\n"@en .
+<https://2025.dataweek.de/trainings/#programm-session-3> <http://purl.org/dc/terms/title> "Building Knowledge Graphs with eccenca Corporate Memory"@de .
+<https://2025.dataweek.de/trainings/#programm-session-3> <http://purl.org/dc/terms/title> "Building Knowledge Graphs with eccenca Corporate Memory"@en .
+<https://2025.dataweek.de/trainings/#programm-session-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2025.dataweek.de/trainings/#programm-session-3> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2025.dataweek.de/trainings/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Room377> .
-<https://2025.dataweek.de/trainings/#programm-session-3> <http://schema.org/performer> <https://dataweek.de/#MatthiasTaeschner> .
-<https://2025.dataweek.de/trainings/#programm-session-3> <http://schema.org/performer> <https://dataweek.de/#RobertHaase> .
+<https://2025.dataweek.de/trainings/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
+<https://2025.dataweek.de/trainings/#programm-session-3> <http://schema.org/performer> <https://dataweek.de/#MagnusKnuth> .
 <https://2025.dataweek.de/trainings/#programm-session-3> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/trainings/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/trainings/#programm-session-4> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1559,12 +1548,24 @@
 <https://2025.dataweek.de/trainings/#programm-session-4> <http://purl.org/dc/terms/title> "DevOps Hands-on Training"@de .
 <https://2025.dataweek.de/trainings/#programm-session-4> <http://purl.org/dc/terms/title> "DevOps Hands-on Training"@en .
 <https://2025.dataweek.de/trainings/#programm-session-4> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2025.dataweek.de/trainings/#programm-session-4> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/trainings/#programm-session-4> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/trainings/#programm-session-4> <http://schema.org/location> <https://dataweek.de/venue#Room377> .
 <https://2025.dataweek.de/trainings/#programm-session-4> <http://schema.org/performer> <https://dataweek.de/#MatthiasTaeschner> .
 <https://2025.dataweek.de/trainings/#programm-session-4> <http://schema.org/performer> <https://dataweek.de/#RobertHaase> .
-<https://2025.dataweek.de/trainings/#programm-session-4> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/trainings/#programm-session-4> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/trainings/#programm-session-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/trainings/#programm-session-5> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/trainings/#programm-session-5> <http://purl.org/dc/terms/description> "Learn the basics of modern software development in this hands-on course: from version control with Git and automated testing to workflows for continuous integration and deployment. Discover topics such as reproducible environments and software licensing and apply your knowledge directly in interactive exercises. Perfect for anyone who wants to make their development processes more efficient and professional. Target group: Employees in industry and administration with basic knowledge of Python programming and the desire to work in a more structured and collaborative way and to sustainably increase code quality.\n"@en .
+<https://2025.dataweek.de/trainings/#programm-session-5> <http://purl.org/dc/terms/description> "Lernen Sie in diesem praxisorientierten Kurs die Grundlagen moderner Softwareentwicklung: Von Versionskontrolle mit Git und automatisiertem Testen bis hin zu Workflows für Continuous Integration und Deployment. Entdecken Sie Themen wie reproduzierbare Environments und Software-Lizenzierung und wenden Sie Ihr Wissen direkt in interaktiven Übungen an. Perfekt für alle, die ihre Entwicklungsprozesse effizienter und professioneller gestalten möchten. Zielgruppe: Mitarbeiter:innen in Industrie und Verwaltung mit Grundkenntnissen in Python-Programmierung und dem Wunsch besser strukturiert und kollaborativ zu arbeiten bzw. Code Qualität nachhaltig zu erhöhen.\n"@de .
+<https://2025.dataweek.de/trainings/#programm-session-5> <http://purl.org/dc/terms/title> "DevOps Hands-on Training"@de .
+<https://2025.dataweek.de/trainings/#programm-session-5> <http://purl.org/dc/terms/title> "DevOps Hands-on Training"@en .
+<https://2025.dataweek.de/trainings/#programm-session-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/trainings/#programm-session-5> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/trainings/#programm-session-5> <http://schema.org/location> <https://dataweek.de/venue#Room377> .
+<https://2025.dataweek.de/trainings/#programm-session-5> <http://schema.org/performer> <https://dataweek.de/#MatthiasTaeschner> .
+<https://2025.dataweek.de/trainings/#programm-session-5> <http://schema.org/performer> <https://dataweek.de/#RobertHaase> .
+<https://2025.dataweek.de/trainings/#programm-session-5> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/trainings/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/trainings/#programm-talk-11> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/trainings/#programm-talk-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/trainings/#programm-talk-19> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1610,6 +1611,7 @@
 <https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-session-2> .
 <https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-session-3> .
 <https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-session-4> .
+<https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-session-5> .
 <https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-talk-11> .
 <https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-talk-19> .
 <https://2025.dataweek.de/trainings/> <http://schema.org/subEvent> <https://2025.dataweek.de/trainings/#programm-talk-2> .
