@@ -1929,11 +1929,15 @@
 <https://2025.dataweek.de/workshops/#programm-session-5> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/description> "REDCap (projectredcap.org) is a free, easy-to-use data management tool that originated in the field of research and is used by millions of users in over 7500 public institutions. In a hands-on workshop, we want to implement classic administrative tasks completely from form design, (online) data collection to reporting, dashboards and data export in REDCap and show with which extended functions (and over 3000 available additional modules) REDCap goes far beyond other systems."@en .
+<https://2025.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/description> "REDCap (projectredcap.org) ist ein kostenloses, einfach zu benutzendes Tool zur Datenverwaltung, das ursprünglich aus dem Bereich der Forschung kommt und in über 7500 öffentlichen Einrichtungen von Millionen von Nutzer:innen eingesetzt wird. In einem Mitmach-Workshop wollen wir klassische Verwaltungsaufgaben komplett von der Formulargestaltung, (Online-)Datenerhebung über Reporting, Dashboards und Datenexport in REDCap umsetzen und zeigen, mit welchen erweiterten Funktionen (und über 3000 verfügbaren Zusatzmodulen) REDCap weit über andere Systeme hinausgeht."@de .
 <https://2025.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/title> "Automate administrative tasks with REDCap"@en .
 <https://2025.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/title> "Verwaltungsaufgaben automatisieren mit REDCap"@de .
 <https://2025.dataweek.de/workshops/#programm-session-6> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/workshops/#programm-session-6> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-6> <http://schema.org/location> <https://dataweek.de/venue#Room369> .
+<https://2025.dataweek.de/workshops/#programm-session-6> <http://schema.org/performer> <https://dataweek.de/#ChristofMeigen> .
+<https://2025.dataweek.de/workshops/#programm-session-6> <http://schema.org/performer> <https://dataweek.de/#MandyVogel> .
 <https://2025.dataweek.de/workshops/#programm-session-6> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-session-7> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2487,6 +2491,10 @@
 <https://dataweek.de/#ChristianZinkeWehlmann> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#ChristianZinkeWehlmann> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Dr. Christian Zinke-Wehlmann is a sociologist with a doctorate in Computer Science. He serves as the Director of the KMI Competence Center (Artificial, Human, Intelligent). His work and research reside at the fascinating intersections of digital technology, education, work, and services. Employing his multi-disciplinary expertise, he investigates complex sociotechnical problems that occur within these realms. His work aims not only to understand these intersections but also to develop innovative solutions that harness the power of digital technology to enhance education, optimize work processes, and improve service delivery in our increasingly interconnected world. Accordingly, his commitment is geared towards creating intelligent, human-centered solutions powered by artificial intelligence and other emerging digital technologies. "@en .
 <https://dataweek.de/#ChristianZinkeWehlmann> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Dr. Christian Zinke-Wehlmann ist Soziologe und promovierte in Informatik. Er fungiert als Leiter des Kompetenzzentrums KMI (Künstlich Menschlich, Intelligent). Seine Arbeit und Forschung befinden sich an den faszinierenden Schnittstellen von digitaler Technologie, Bildung, Arbeit und Dienstleistungen. Mit seiner multidisziplinären Expertise erforscht er komplexe soziotechnische Probleme, die in diesen Bereichen auftreten. Seine Arbeit zielt nicht nur darauf ab, diese Schnittstellen zu verstehen, sondern auch innovative Lösungen zu entwickeln, die die Kraft der digitalen Technologie nutzen, um die Bildung zu verbessern, Arbeitsprozesse zu optimieren und Dienstleistungen in unserer zunehmend vernetzten Welt zu verbessern. Sein Engagement zielt entsprechend auf die Schaffung intelligenter, menschenzentrierter Lösungen, die durch künstliche Intelligenz und andere aufkommende digitale Technologien angetrieben werden. "@de .
+<https://dataweek.de/#ChristofMeigen> <http://schema.org/affiliation> <https://www.uni-leipzig.de/> .
+<https://dataweek.de/#ChristofMeigen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#ChristofMeigen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#ChristofMeigen> <http://xmlns.com/foaf/0.1/name> "Christof Meigen" .
 <https://dataweek.de/#ChristophFriedrich> <http://purl.org/dc/terms/description> "Group Developer - Leipziger Group"@en .
 <https://dataweek.de/#ChristophFriedrich> <http://purl.org/dc/terms/description> "Konzernentwickler – Leipziger Gruppe"@de .
 <https://dataweek.de/#ChristophFriedrich> <http://schema.org/affiliation> <https://www.l.de/gruppe/> .
@@ -3246,6 +3254,10 @@
 <https://dataweek.de/#MalteSchwanebeck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MalteSchwanebeck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MalteSchwanebeck> <http://xmlns.com/foaf/0.1/name> "Malte Schwanebeck" .
+<https://dataweek.de/#MandyVogel> <http://schema.org/affiliation> <https://www.uni-leipzig.de/> .
+<https://dataweek.de/#MandyVogel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MandyVogel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MandyVogel> <http://xmlns.com/foaf/0.1/name> "Mandy Vogel" .
 <https://dataweek.de/#MandyWoelke> <http://purl.org/dc/terms/description> "Scientific Researcher"@en .
 <https://dataweek.de/#MandyWoelke> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
 <https://dataweek.de/#MandyWoelke> <http://schema.org/affiliation> <https://infai.org/> .
