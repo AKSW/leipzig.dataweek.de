@@ -1937,6 +1937,8 @@
 <https://2025.dataweek.de/workshops/#programm-session-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/workshops/#programm-session-3> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
+<https://2025.dataweek.de/workshops/#programm-session-3> <http://schema.org/performer> <https://dataweek.de/#AlexandrineSchneider> .
+<https://2025.dataweek.de/workshops/#programm-session-3> <http://schema.org/performer> <https://dataweek.de/#DanielKrueger> .
 <https://2025.dataweek.de/workshops/#programm-session-3> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-session-4> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2292,6 +2294,12 @@
 <https://dataweek.de/#AlexanderWillner> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Alexander Willner" .
 <https://dataweek.de/#AlexanderWillner> <http://xmlns.com/foaf/0.1/name> "Alexander Willner" .
 <https://dataweek.de/#AlexanderWillner> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#AlexandrineSchneider> <http://purl.org/dc/terms/description> "Amt für Digitalisierung und Organisation, Projektmanager KI & Digitalisierung"@de .
+<https://dataweek.de/#AlexandrineSchneider> <http://purl.org/dc/terms/description> "Office for Digitization and Organization, Project Manager AI & Digitization"@en .
+<https://dataweek.de/#AlexandrineSchneider> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-digitalisierung-und-organisation-10> .
+<https://dataweek.de/#AlexandrineSchneider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#AlexandrineSchneider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#AlexandrineSchneider> <http://xmlns.com/foaf/0.1/name> "Alexandrine Schneider" .
 <https://dataweek.de/#AljoschaBurdchardt> <http://purl.org/dc/terms/description> "Principal Researcher, Research Fellow und stellvertretender Standort­sprecher des DFKI Berlin"@de .
 <https://dataweek.de/#AljoschaBurdchardt> <http://purl.org/dc/terms/description> "Principal Researcher, Research Fellow, and Deputy Site Director of DFKI Berlin "@en .
 <https://dataweek.de/#AljoschaBurdchardt> <http://schema.org/affiliation> <https://www.dfki.de/> .
@@ -2821,7 +2829,7 @@
 <https://dataweek.de/#FranziskaKorb-King> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#FranziskaKorb-King> <http://xmlns.com/foaf/0.1/name> "Franziska Korb-King" .
 <https://dataweek.de/#FranziskaLoeffler> <http://purl.org/dc/terms/description> "City of Leipzig / Office for Urban Green and Water"@en .
-<https://dataweek.de/#FranziskaLoeffler> <http://purl.org/dc/terms/description> "Stadt Leipzig/Amt für Stadtgrün und Gewässer"@de .
+<https://dataweek.de/#FranziskaLoeffler> <http://purl.org/dc/terms/description> "Stadt Leipzig / Amt für Stadtgrün und Gewässer"@de .
 <https://dataweek.de/#FranziskaLoeffler> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/amt-fuer-stadtgruen-und-gewaesser-67/> .
 <https://dataweek.de/#FranziskaLoeffler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#FranziskaLoeffler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
