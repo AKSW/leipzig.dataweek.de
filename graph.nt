@@ -1389,6 +1389,16 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://purl.org/dc/terms/description> "AI offers great potential for increasing efficiency in the processing of weather data. In this event at the interface of science, art and entertainment, participants will experience the fascinating possibilities of AI-supported compression and decompression using the example of ERA5 world climate data. Be inspired by how art and technology come together to make AI and complex data visible and tangible."@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://purl.org/dc/terms/description> "KI bietet großes Potenzial für Effizienzsteigerung bei der Verarbeitung von Wetterdaten. In dieser Veranstaltung an der Schnittstelle von Wissenschaft, Kunst und Unterhaltung erleben die Teilnehmenden die faszinierenden Möglichkeiten der KI-gestützten Kompression und Dekompression am Beispiel von ERA5-Weltklimadaten. Lassen Sie sich inspirieren, wie Kunst und Technologie zusammenkommen, um KI und komplexe Daten sichtbar und erlebbar zu machen."@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://purl.org/dc/terms/title> "Kunst der Daten: KI-Kompression und -Dekompression der ERA5-Weltklimadaten"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://purl.org/dc/terms/title> "The art of data: AI compression and decompression of ERA5 global climate data"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-1> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-1> <http://purl.org/dc/terms/title> "Eröffnung"@de .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-1> <http://purl.org/dc/terms/title> "Opening "@en .
@@ -1499,6 +1509,7 @@
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-session-16> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-session-17> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-session-18> .
+<https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-session-19> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-session-1> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-session-2> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-session-3> .
