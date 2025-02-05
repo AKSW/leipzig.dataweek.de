@@ -1728,10 +1728,13 @@
 <https://2025.dataweek.de/workshops/#programm-session-12> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-session-13> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/workshops/#programm-session-13> <http://purl.org/dc/terms/description> "Haben Sie sich schon gefragt, wie Sie Ihr Unternehmen zukunftssicher in das digitale Zeitalter führen können? Lernen Sie im Workshop, wie der Data Navigator – ein speziell für kleine und mittlere Unternehmen entwickeltes Tool – Sie auf Ihrem Weg zur digitalen Transformation unterstützt. Durch die Erweiterung des bewährten Business Model Canvas um essenzielle Datendimensionen ermöglicht der Data Navigator eine strukturierte Analyse Ihres Reifegrades bei der Datenintegration und zeigt Potenziale zur effizienten Nutzung von Daten auf. Nutzen Sie diese Gelegenheit, praxisnah zu lernen, wie Sie datengetriebene Geschäftsmodelle erfolgreich implementieren und Ihr Unternehmen optimal für die Zukunft positionieren können."@de .
+<https://2025.dataweek.de/workshops/#programm-session-13> <http://purl.org/dc/terms/description> "Have you ever wondered how you can lead your company into the digital age in a future-proof way? In this workshop, you will learn how the Data Navigator - a tool specially developed for small and medium-sized enterprises - can support you on your path to digital transformation. By adding essential data dimensions to the proven Business Model Canvas, the Data Navigator enables a structured analysis of your level of maturity in data integration and reveals potential for the efficient use of data. Take this opportunity to learn in a practical way how to successfully implement data-driven business models and position your company optimally for the future."@en .
 <https://2025.dataweek.de/workshops/#programm-session-13> <http://purl.org/dc/terms/title> "Data Navigator: A tool to support SMEs in the development of data-driven business models"@en .
 <https://2025.dataweek.de/workshops/#programm-session-13> <http://purl.org/dc/terms/title> "Data Navigator: Ein Tool zur Unterstützung von KMU bei der Entwicklung datengetriebener Geschäftsmodelle"@de .
 <https://2025.dataweek.de/workshops/#programm-session-13> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-13> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
+<https://2025.dataweek.de/workshops/#programm-session-13> <http://schema.org/performer> <https://dataweek.de/#MarcelGraf> .
 <https://2025.dataweek.de/workshops/#programm-session-13> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-session-14> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3374,6 +3377,12 @@
 <https://dataweek.de/#MarcelGraef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MarcelGraef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MarcelGraef> <http://xmlns.com/foaf/0.1/name> "Marcel Graef" .
+<https://dataweek.de/#MarcelGraf> <http://purl.org/dc/terms/description> "Scientific Researcher"@en .
+<https://dataweek.de/#MarcelGraf> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
+<https://dataweek.de/#MarcelGraf> <http://schema.org/affiliation> <https://htwk-leipzig.de/> .
+<https://dataweek.de/#MarcelGraf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MarcelGraf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MarcelGraf> <http://xmlns.com/foaf/0.1/name> "Marcel Graf" .
 <https://dataweek.de/#MarcoSelig> <http://purl.org/dc/terms/description> "Data laboratory at the German Biomass Research Center"@en .
 <https://dataweek.de/#MarcoSelig> <http://purl.org/dc/terms/description> "Datenlabor am Deutschen Biomasseforschungszentrum"@de .
 <https://dataweek.de/#MarcoSelig> <http://schema.org/affiliation> <https://www.dbfz.de/> .
