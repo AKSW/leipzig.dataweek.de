@@ -465,10 +465,11 @@
 <https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2025.dataweek.de/2025-06-12/> .
 <https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2025.dataweek.de/2025-06-12/Festsaal> .
 <https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2025.dataweek.de/2025-06-12/Ratsplenarsaal> .
-<https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2025.dataweek.de/2025-06-12/Room260> .
-<https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2025.dataweek.de/2025-06-12/Room270> .
-<https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2025.dataweek.de/2025-06-12/Room369> .
-<https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://2025.dataweek.de/2025-06-12/Room377> .
+<https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2025.dataweek.de/2025-06-12/Sitzungssaal> .
+<https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2025.dataweek.de/2025-06-12/Room260> .
+<https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2025.dataweek.de/2025-06-12/Room270> .
+<https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://2025.dataweek.de/2025-06-12/Room369> .
+<https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://2025.dataweek.de/2025-06-12/Room377> .
 <https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/2000/01/rdf-schema#label> "Donnerstag"@de .
@@ -520,6 +521,13 @@
 <https://2025.dataweek.de/2025-06-12/Room377> <http://www.w3.org/2000/01/rdf-schema#label> "Room 377"@en .
 <https://2025.dataweek.de/2025-06-12/Room377> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/> .
 <https://2025.dataweek.de/2025-06-12/Room377> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-12\" && ?location = <https://dataweek.de/venue#Room377>" .
+<https://2025.dataweek.de/2025-06-12/Sitzungssaal> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/2025-06-12/Sitzungssaal> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/2025-06-12/Sitzungssaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2025.dataweek.de/2025-06-12/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Sitzungssaal"@de .
+<https://2025.dataweek.de/2025-06-12/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Sitzungssaal"@en .
+<https://2025.dataweek.de/2025-06-12/Sitzungssaal> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/> .
+<https://2025.dataweek.de/2025-06-12/Sitzungssaal> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-12\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
 <https://2025.dataweek.de/2025-06-13/> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/2025-06-13/> <http://purl.org/dc/terms/description> "\nDer Thin[gk]athon, der vom Smart Systems Hub organisiert wird, soll die M\u00F6glichkeit bieten, die M\u00F6glichkeiten von Shared Data im Kontext der Manufacturing X auszuloten. Zum Abschluss pr\u00E4sentieren die Teilnehmenden heute die Challenge-Ergebnisse.\n\nAnschlie\u00DFend kommen Jugendliche f\u00FCr das Event \u201CJugend hackt\u201D am Nachmittag ins Neue Rathaus. Erg\u00E4nzt wird das Programm durch spannende Workshops zu den Themen datenbasierte Zukunft, KI-getriebene Unternehmenskultur, mit LEGO\u00AE zur KI-Strategie, Digitalisierung im Bauwesen sowie Datenmanagement.\n    "@de .
 <https://2025.dataweek.de/2025-06-13/> <http://purl.org/dc/terms/description> "\nThe Thin[gk]athon, organised by the Smart Systems Hub, is intended to provide an opportunity to explore the possibilities of shared data in the context of Manufacturing X. To round off the event, the participants will present the results of the challenge today.\n\nAfterwards, young people will come to the New Town Hall for the \u2018Jugend hackt\u2019 event in the afternoon. The programme will be complemented by exciting workshops on the topics of data-based future, AI-driven corporate culture, AI strategy with LEGO\u00AE, digitalisation in the construction industry and data management.\n    "@en .
@@ -881,6 +889,7 @@
 <https://2025.dataweek.de/break/2025-06-12/10:30> <http://purl.org/dc/terms/description> "Poster und Stände"@de .
 <https://2025.dataweek.de/break/2025-06-12/10:30> <http://purl.org/dc/terms/description> "Posters and Stands"@en .
 <https://2025.dataweek.de/break/2025-06-12/10:30> <http://purl.org/dc/terms/title> "Coffee break"@en .
+<https://2025.dataweek.de/break/2025-06-12/10:30> <http://purl.org/dc/terms/title> "PAUSE - COFFEE BREAK"@en .
 <https://2025.dataweek.de/break/2025-06-12/10:30> <http://purl.org/dc/terms/title> "Pause"@de .
 <https://2025.dataweek.de/break/2025-06-12/10:30> <http://schema.org/endTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/break/2025-06-12/10:30> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
@@ -895,6 +904,7 @@
 <https://2025.dataweek.de/break/2025-06-12/12:30> <http://purl.org/dc/terms/description> "Posters and Stands"@en .
 <https://2025.dataweek.de/break/2025-06-12/12:30> <http://purl.org/dc/terms/title> "Lunch break"@en .
 <https://2025.dataweek.de/break/2025-06-12/12:30> <http://purl.org/dc/terms/title> "Mittagessen"@de .
+<https://2025.dataweek.de/break/2025-06-12/12:30> <http://purl.org/dc/terms/title> "PAUSE - LUNCH BREAK"@en .
 <https://2025.dataweek.de/break/2025-06-12/12:30> <http://schema.org/endTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/break/2025-06-12/12:30> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
 <https://2025.dataweek.de/break/2025-06-12/12:30> <http://schema.org/startTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -907,6 +917,7 @@
 <https://2025.dataweek.de/break/2025-06-12/15:00> <http://purl.org/dc/terms/description> "Poster und Stände"@de .
 <https://2025.dataweek.de/break/2025-06-12/15:00> <http://purl.org/dc/terms/description> "Posters and Stands"@en .
 <https://2025.dataweek.de/break/2025-06-12/15:00> <http://purl.org/dc/terms/title> "Coffee break"@en .
+<https://2025.dataweek.de/break/2025-06-12/15:00> <http://purl.org/dc/terms/title> "PAUSE - COFFEE BREAK"@en .
 <https://2025.dataweek.de/break/2025-06-12/15:00> <http://purl.org/dc/terms/title> "Pause"@de .
 <https://2025.dataweek.de/break/2025-06-12/15:00> <http://schema.org/endTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/break/2025-06-12/15:00> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
@@ -920,7 +931,9 @@
 <https://2025.dataweek.de/break/2025-06-12/17:10> <http://purl.org/dc/terms/description> "Built on the foundation of the old Pleißenburg Tower, the tower of the New City Hall is considered the tallest city hall tower in Germany and is one of Leipzig's most important landmarks. With a height of exactly 114.7 meters, it towers over the entire city. As part of Data Week Leipzig, you have the opportunity to visit the town hall tower with us."@en .
 <https://2025.dataweek.de/break/2025-06-12/17:10> <http://purl.org/dc/terms/description> "Der auf dem Fundament des alten Pleißenburgturms errichtete Turm des Neuen Rathauses gilt als höchster Rathausturm Deutschlands und ist eines der wichtigsten Wahrzeichen Leipzigs. Mit einer Höhe von genau 114,7 Metern überragt er die ganze Stadt. Im Rahmen der Data Week Leipzig haben Sie die Möglichkeit den Rathausturm mit uns zu besichtigen."@de .
 <https://2025.dataweek.de/break/2025-06-12/17:10> <http://purl.org/dc/terms/title> "Rathausturmführung"@de .
+<https://2025.dataweek.de/break/2025-06-12/17:10> <http://purl.org/dc/terms/title> "Rathausturmführung\n"@de .
 <https://2025.dataweek.de/break/2025-06-12/17:10> <http://purl.org/dc/terms/title> "Visit city hall tower"@en .
+<https://2025.dataweek.de/break/2025-06-12/17:10> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/break/2025-06-12/17:10> <http://schema.org/endTime> "17:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/break/2025-06-12/17:10> <http://schema.org/startTime> "17:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/break/2025-06-12/17:10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -928,10 +941,14 @@
 <https://2025.dataweek.de/break/2025-06-12/17:10> <http://www.w3.org/2004/02/skos/core#prefLabel> "Visit city hall tower"@en .
 <https://2025.dataweek.de/break/2025-06-12/18:00> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#sideevent> .
 <https://2025.dataweek.de/break/2025-06-12/18:00> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/break/2025-06-12/18:00> <http://purl.org/dc/terms/description> "eccenca cordially invites you to the social event \"Semantic Biergarten\" at the Café & Restaurant 292 Karangahape Road (Karl-Tauchnitz-Str. 9, 04107 Leipzig)."@en .
 <https://2025.dataweek.de/break/2025-06-12/18:00> <http://purl.org/dc/terms/description> "eccenca cordially invites you to the social event \"Semantic Biergarten\"."@en .
 <https://2025.dataweek.de/break/2025-06-12/18:00> <http://purl.org/dc/terms/description> "eccenca lädt Sie herzlich zum Social Event “Semantic Biergarten“ ein."@de .
+<https://2025.dataweek.de/break/2025-06-12/18:00> <http://purl.org/dc/terms/description> "eccenca lädt Sie herzlich zum gesellschaftlichen Event „Semantic Biergarten“ im Café & Restaurant 292 Karangahape Road (Karl-Tauchnitz-Str. 9, 04107 Leipzig) ein."@de .
 <https://2025.dataweek.de/break/2025-06-12/18:00> <http://purl.org/dc/terms/title> "eccenca Semantic Biergarten"@de .
 <https://2025.dataweek.de/break/2025-06-12/18:00> <http://purl.org/dc/terms/title> "eccenca Semantic Biergarten"@en .
+<https://2025.dataweek.de/break/2025-06-12/18:00> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/break/2025-06-12/18:00> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2025.dataweek.de/break/2025-06-12/18:00> <http://schema.org/endTime> "20:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/break/2025-06-12/18:00> <http://schema.org/startTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/break/2025-06-12/18:00> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -1218,6 +1235,127 @@
 <https://2025.dataweek.de/lswt2025/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/SebastianTramp> .
 <https://2025.dataweek.de/lswt2025/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT Team"@de .
 <https://2025.dataweek.de/lswt2025/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT Team"@en .
+<https://2025.dataweek.de/lswt2025/#programm-session-1> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-session-1> <http://purl.org/dc/terms/description> "Bei der Begrüßung freuen wir uns darauf, alle Teilnehmer:innen herzlich zu begrüßen und einen Überblick über die Sitzungen des Tages zu geben. "@de .
+<https://2025.dataweek.de/lswt2025/#programm-session-1> <http://purl.org/dc/terms/description> "During the welcome, we are excited to extend a warm welcome to all participants and share an overview of the day's sessions with you."@en .
+<https://2025.dataweek.de/lswt2025/#programm-session-1> <http://purl.org/dc/terms/title> "Welcome"@de .
+<https://2025.dataweek.de/lswt2025/#programm-session-1> <http://purl.org/dc/terms/title> "Welcome"@en .
+<https://2025.dataweek.de/lswt2025/#programm-session-1> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2025.dataweek.de/lswt2025/#programm-session-1> <http://schema.org/endTime> "09:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/lswt2025/#programm-session-1> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/lswt2025/#programm-session-1> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/lswt2025/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-session-2> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-session-2> <http://purl.org/dc/terms/title> "Session I"@de .
+<https://2025.dataweek.de/lswt2025/#programm-session-2> <http://purl.org/dc/terms/title> "Session I"@en .
+<https://2025.dataweek.de/lswt2025/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2025.dataweek.de/lswt2025/#programm-session-2> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/lswt2025/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/lswt2025/#programm-session-2> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/lswt2025/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://purl.org/dc/terms/title> "Session II"@de .
+<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://purl.org/dc/terms/title> "Session II"@en .
+<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-session-4> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-session-4> <http://purl.org/dc/terms/title> "Session III"@de .
+<https://2025.dataweek.de/lswt2025/#programm-session-4> <http://purl.org/dc/terms/title> "Session III"@en .
+<https://2025.dataweek.de/lswt2025/#programm-session-4> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2025.dataweek.de/lswt2025/#programm-session-4> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/lswt2025/#programm-session-4> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/lswt2025/#programm-session-4> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/lswt2025/#programm-session-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-session-5> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-session-5> <http://purl.org/dc/terms/description> "As we wrap up the 13th Leipzig Semantic Web Day, eccenca invites you to join us for our social event, \"Semantic Biergarten,\" the Café & Restaurant 292 Karangahape Road (Karl-Tauchnitz-Str. 9, 04107 Leipzig) starting at 18:00h."@en .
+<https://2025.dataweek.de/lswt2025/#programm-session-5> <http://purl.org/dc/terms/description> "Zum Abschluss des 13. Leipzig Semantic Web Tages lädt eccenca ab 18:00 Uhr die Gäste zum \"Semantic Biergarten,\" im Café & Restaurant 292 Karangahape Road (Karl-Tauchnitz-Str. 9, 04107) ein."@de .
+<https://2025.dataweek.de/lswt2025/#programm-session-5> <http://purl.org/dc/terms/title> "eccenca Poster Winner Awards and Closing"@en .
+<https://2025.dataweek.de/lswt2025/#programm-session-5> <http://purl.org/dc/terms/title> "eccenca Poster Winner Awards und Abschluss"@de .
+<https://2025.dataweek.de/lswt2025/#programm-session-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2025.dataweek.de/lswt2025/#programm-session-5> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/lswt2025/#programm-session-5> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/lswt2025/#programm-session-5> <http://schema.org/startTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/lswt2025/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-10> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-10> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-10> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-11> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-11> <http://purl.org/dc/terms/title> "Minutes by Future Knowledge Experts (Students)"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-11> <http://purl.org/dc/terms/title> "Minutes by Future Knowledge Experts (Studierende)"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-14> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-14> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-14> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-15> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-15> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-15> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-16> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-16> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-16> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-17> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-17> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-17> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-18> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-18> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-18> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-19> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-19> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-19> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-22> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-22> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-22> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-23> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-23> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-23> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-24> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-24> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-24> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-25> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-25> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-25> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-3> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-3> <http://purl.org/dc/terms/description> "Cloud-native Softwareprodukte bestehen aus individuell verwalteten, häufig veröffentlichten und flexibel zusammensetzbaren Komponenten, die als „Microservices“ bezeichnet werden. Die Keynote-Präsentation zeigt, wie die technische Dokumentation solcher Produkte automatisiert werden kann. Die Herausforderung bei der Automatisierung besteht darin, dass Inhalte pro Microservice verwaltet werden müssen, während sie aus der Produktnutzerperspektive präsentiert werden, welcher Funktionen und Anwendungsfälle statt einzelner Microservices „sieht“.\nMartin Blumbach (Ericsson) und Marcel Fröhlich (eccenca) stellen die Ericsson-Content-Delivery-Pipeline vor, die auf einer Knowledge-Graph-Plattform – :eccenca: eccenca Corporate Memory – basiert. Produktwissen wird in RDF-Wissensgraphen ausgedrückt, die automatisch aus maschinenlesbaren Informationsfragmenten instanziiert und mit manuell erstellten DITA-Themen ergänzt werden. Für die Veröffentlichung werden DITA-Bookmaps automatisiert zusammengestellt, die sowohl manuell als auch automatisch erstellte DITA-Themen enthalten. Zudem werden Visualisierungen des Wissens für KMUs gezeigt und  ein Ausblick gegeben, wie Wissen beispielsweise für generative KI wiederverwendet werden kann.\n"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-3> <http://purl.org/dc/terms/description> "Cloud-native software products consist of individually lifecycled, frequently released, and flexibly assembled components known as \"microservices\". The Key Note presentation will be an exploration of how technical documentation for such products can be automated. The challenge for automation is that content must be lifecycled per microservice, but presented from the perspective of the product user, who \"sees\" features and use cases instead of microservices.\nMartin Blumbach (Ericsson) together with Marcel Fröhlich (eccenca) will present the Ericsson content delivery pipeline built around a “knowledge graph platform” based on :eccenca: eccenca corporate memory. Knowledge is expressed in RDF knowledge graphs that are automatically instantiated from machine-readable information “fragments” and manually created DITA topics. DITA bookmaps containing manually and automatically created DITA topics are automatically assembled for publication. They also present knowledge visualization for SMEs and give an outlook on how knowledge can be repurposed, for example for generative AI.\n"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-3> <http://purl.org/dc/terms/title> "Using Knowledge Graphs to Document Cloud Native Products"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-3> <http://purl.org/dc/terms/title> "Verwendung von Knowledge Graphs zur Dokumentation von cloud-native Produkten\n"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-3> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-3> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-3> <http://schema.org/performer> <https://dataweek.de/#MarcelFroehlich> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-3> <http://schema.org/performer> <https://dataweek.de/#MartinBlumbach> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-3> <http://schema.org/startTime> "09:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-6> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-6> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-6> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-7> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-7> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-7> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-8> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-8> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-8> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-9> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-9> <http://purl.org/dc/terms/title> "tba"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-9> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/lswt2025/> <http://purl.org/dc/terms/description> "Der Leipziger Semantic Web Tag (LSWT) erm\u00F6glicht seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen, sich zu Themen im Bereich semantischer Technologien auszutauschen. Der **13. Leipziger Semantic Web Tag** (#LSWT2025) wird am **12. Juni 2025** im Rahmen der Data Week Leipzig stattfinden.\nWie auch schon in den Jahren davor werden die neuesten Entwicklungen und Trends in den Bereichen semantische Technologien und Daten pr\u00E4sentiert. **Schwerpunktthemen** in diesem Jahr sind: \n\n- Aktuelle Herausforderungen bei der Anwendung von Large Language Models\n- Semantische Technologien und KI f\u00FCr Industrie und Wissenschaft\n- Emerging Data Products\n- Datenkompetenz und Sicherheit, einschlie\u00DFlich Cybersicherheit im Datenmanagement\n- Wissensgraph-Anwendungsf\u00E4lle und Nachhaltigkeit\n- FAIR-Daten und Datenkataloge\n- Vernetzte Gesellschaft\n\nFalls Sie weitere Fragen haben, k\u00F6nnen Sie sich gern an das Organisationsteam wenden:  [lswt@eccenca.com](mailto:lswt@eccenca.com)."@de .
 <https://2025.dataweek.de/lswt2025/> <http://purl.org/dc/terms/description> "Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology. The **13th Leipzig Semantic Web Day** (#LSWT2025) will once again be held in conjunction with the Data Week Leipzig on **June 12th, 2025**, taking place in the heart of Leipzig.\n\nDuring LSWT2024, we will highlight the latest developments and trends in semantic technologies and data. The focus topics for this year include: \n\n- Current Challenges in the Application of Large Language Models\n- Semantic Technologies and AI for Industry and Science\n- Emerging Data Products\n- Data Competence and Security, including Cybersecurity in Data Management\n- Knowledge Graph Use cases and Sustainability\n- FAIR Data and Data Catalogs\n- Networked Society\n\nIf you have any further questions don\u2019t hesitate to contact the organisation team: [lswt@eccenca.com](mailto:lswt@eccenca.com)."@en .
@@ -1225,6 +1363,34 @@
 <https://2025.dataweek.de/lswt2025/> <http://schema.org/abstract> "Since 2009, the Leipzig Semantic Web Day (LSWT) is an opportunity for scientists, enterprises, and organisations to discuss topics in the field of Semantic Technology."@en .
 <https://2025.dataweek.de/lswt2025/> <http://schema.org/organizer> <https://2025.dataweek.de/lswt2025/#Team> .
 <https://2025.dataweek.de/lswt2025/> <http://schema.org/recordedIn> <https://www.youtube.com/watch?v=HJmDvqTKS8A> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-12/08:30> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-12/10:30> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-12/12:30> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-12/15:00> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-12/17:10> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-12/18:00> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-session-1> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-session-2> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-session-3> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-session-4> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-session-5> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-10> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-11> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-14> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-15> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-16> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-17> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-18> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-19> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-22> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-23> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-24> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-25> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-3> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-6> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-7> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-8> .
+<https://2025.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-9> .
 <https://2025.dataweek.de/lswt2025/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2025.dataweek.de/lswt2025/> <http://www.w3.org/2000/01/rdf-schema#label> "13. Leipziger Semantic Web Tag"@de .
