@@ -640,6 +640,28 @@ DESCRIPTION:During the welcome\, we are excited to extend a warm welcome t
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:LSWT Keynote
+DTSTART;TZID=Europe/Berlin:20250612T091000
+DTEND;TZID=Europe/Berlin:20250612T103000
+DESCRIPTION:Cloud-native software products consist of individually lifecyc
+ led\, frequently released\, and flexibly assembled components known as "mi
+ croservices". The Key Note presentation will be an exploration of how tech
+ nical documentation for such products can be automated. The challenge for 
+ automation is that content must be lifecycled per microservice\, but prese
+ nted from the perspective of the product user\, who "sees" features and us
+ e cases instead of microservices.\nMartin Blumbach (Ericsson) together wit
+ h Marcel Fröhlich (eccenca) will present the Ericsson content delivery pi
+ peline built around a “knowledge graph platform” based on :eccenca: ec
+ cenca corporate memory. Knowledge is expressed in RDF knowledge graphs tha
+ t are automatically instantiated from machine-readable information “frag
+ ments” and manually created DITA topics. DITA bookmaps containing manual
+ ly and automatically created DITA topics are automatically assembled for p
+ ublication. They also present knowledge visualization for SMEs and give an
+  outlook on how knowledge can be repurposed\, for example for generative A
+ I.\n
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Session I
 DTSTART;TZID=Europe/Berlin:20250612T110000
 DTEND;TZID=Europe/Berlin:20250612T123000
@@ -665,50 +687,6 @@ DESCRIPTION:As we wrap up the 13th Leipzig Semantic Web Day\, eccenca invi
  tes you to join us for our social event\, "Semantic Biergarten\," the Caf
  é & Restaurant 292 Karangahape Road (Karl-Tauchnitz-Str. 9\, 04107 Leipzi
  g) starting at 18:00h.
-LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Using Knowledge Graphs to Document Cloud Native Products - Part 1
-DTSTART;TZID=Europe/Berlin:20250612T091000
-DTEND;TZID=Europe/Berlin:20250612T095000
-DESCRIPTION:Cloud-native software products consist of individually lifecyc
- led\, frequently released\, and flexibly assembled components known as "mi
- croservices". The Key Note presentation will be an exploration of how tech
- nical documentation for such products can be automated. The challenge for 
- automation is that content must be lifecycled per microservice\, but prese
- nted from the perspective of the product user\, who "sees" features and us
- e cases instead of microservices.\nMartin Blumbach (Ericsson) together wit
- h Marcel Fröhlich (eccenca) will present the Ericsson content delivery pi
- peline built around a “knowledge graph platform” based on :eccenca: ec
- cenca corporate memory. Knowledge is expressed in RDF knowledge graphs tha
- t are automatically instantiated from machine-readable information “frag
- ments” and manually created DITA topics. DITA bookmaps containing manual
- ly and automatically created DITA topics are automatically assembled for p
- ublication. They also present knowledge visualization for SMEs and give an
-  outlook on how knowledge can be repurposed\, for example for generative A
- I.\n
-LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Using Knowledge Graphs to Document Cloud Native Products - Part 2
-DTSTART;TZID=Europe/Berlin:20250612T095000
-DTEND;TZID=Europe/Berlin:20250612T103000
-DESCRIPTION:Cloud-native software products consist of individually lifecyc
- led\, frequently released\, and flexibly assembled components known as "mi
- croservices". The Key Note presentation will be an exploration of how tech
- nical documentation for such products can be automated. The challenge for 
- automation is that content must be lifecycled per microservice\, but prese
- nted from the perspective of the product user\, who "sees" features and us
- e cases instead of microservices.\nMartin Blumbach (Ericsson) together wit
- h Marcel Fröhlich (eccenca) will present the Ericsson content delivery pi
- peline built around a “knowledge graph platform” based on :eccenca: ec
- cenca corporate memory. Knowledge is expressed in RDF knowledge graphs tha
- t are automatically instantiated from machine-readable information “frag
- ments” and manually created DITA topics. DITA bookmaps containing manual
- ly and automatically created DITA topics are automatically assembled for p
- ublication. They also present knowledge visualization for SMEs and give an
-  outlook on how knowledge can be repurposed\, for example for generative A
- I.\n
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
