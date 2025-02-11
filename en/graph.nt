@@ -841,6 +841,16 @@
 <https://2025.dataweek.de/break/2025-06-11/15:00> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/break/2025-06-11/15:00> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coffee break"@en .
 <https://2025.dataweek.de/break/2025-06-11/15:00> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pause"@de .
+<https://2025.dataweek.de/break/2025-06-11/15:30> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#sideevent> .
+<https://2025.dataweek.de/break/2025-06-11/15:30> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/break/2025-06-11/15:30> <http://purl.org/dc/terms/description> "AI offers great potential for increasing efficiency in the processing of weather data. In this event at the interface of science, art and entertainment, participants will experience the fascinating possibilities of AI-supported compression and decompression using the example of ERA5 world climate data. Be inspired by how art and technology come together to make AI and complex data visible and tangible. (Start from 16:00)"@en .
+<https://2025.dataweek.de/break/2025-06-11/15:30> <http://purl.org/dc/terms/description> "KI bietet großes Potenzial für Effizienzsteigerung bei der Verarbeitung von Wetterdaten. In dieser Veranstaltung an der Schnittstelle von Wissenschaft, Kunst und Unterhaltung erleben die Teilnehmenden die faszinierenden Möglichkeiten der KI-gestützten Kompression und Dekompression am Beispiel von ERA5-Weltklimadaten. Lassen Sie sich inspirieren, wie Kunst und Technologie zusammenkommen, um KI und komplexe Daten sichtbar und erlebbar zu machen. (Beginn ab 16:00 Uhr)"@de .
+<https://2025.dataweek.de/break/2025-06-11/15:30> <http://purl.org/dc/terms/title> "Kunst der Daten: KI-Kompression und -Dekompression der ERA5-Weltklimadaten (Beginn: 16:00 Uhr)"@de .
+<https://2025.dataweek.de/break/2025-06-11/15:30> <http://purl.org/dc/terms/title> "The art of data: AI compression and decompression of ERA5 global climate data (starts at 4pm)"@en .
+<https://2025.dataweek.de/break/2025-06-11/15:30> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/break/2025-06-11/15:30> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/break/2025-06-11/15:30> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/break/2025-06-11/15:30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/break/2025-06-11/17:00> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#sideevent> .
 <https://2025.dataweek.de/break/2025-06-11/17:00> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/break/2025-06-11/17:00> <http://purl.org/dc/terms/title> "Get together"@de .
@@ -1599,8 +1609,8 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://purl.org/dc/terms/description> "AI offers great potential for increasing efficiency in the processing of weather data. In this event at the interface of science, art and entertainment, participants will experience the fascinating possibilities of AI-supported compression and decompression using the example of ERA5 world climate data. Be inspired by how art and technology come together to make AI and complex data visible and tangible. (Start from 16:00)"@en .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://purl.org/dc/terms/description> "KI bietet großes Potenzial für Effizienzsteigerung bei der Verarbeitung von Wetterdaten. In dieser Veranstaltung an der Schnittstelle von Wissenschaft, Kunst und Unterhaltung erleben die Teilnehmenden die faszinierenden Möglichkeiten der KI-gestützten Kompression und Dekompression am Beispiel von ERA5-Weltklimadaten. Lassen Sie sich inspirieren, wie Kunst und Technologie zusammenkommen, um KI und komplexe Daten sichtbar und erlebbar zu machen. (Beginn ab 16:00 Uhr)"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://purl.org/dc/terms/title> "Kunst der Daten: KI-Kompression und -Dekompression der ERA5-Weltklimadaten"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://purl.org/dc/terms/title> "The art of data: AI compression and decompression of ERA5 global climate data"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://purl.org/dc/terms/title> "Kunst der Daten: KI-Kompression und -Dekompression der ERA5-Weltklimadaten (Beginn: 16:00 Uhr)"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://purl.org/dc/terms/title> "The art of data: AI compression and decompression of ERA5 global climate data (starts at 4pm)"@en .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
@@ -1717,6 +1727,7 @@
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-11/10:30> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-11/12:30> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-11/15:00> .
+<https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-11/15:30> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-11/17:00> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-11/17:10> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-11/17:45> .
@@ -2281,6 +2292,8 @@
 <https://2025.dataweek.de/workshops/#programm-session-8> <http://purl.org/dc/terms/title> "The AI revolution in public administration: seizing opportunities, ensuring compliance - from automated process relief to digital co-workers"@en .
 <https://2025.dataweek.de/workshops/#programm-session-8> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-8> <http://schema.org/location> <https://dataweek.de/venue#Room260> .
+<https://2025.dataweek.de/workshops/#programm-session-8> <http://schema.org/performer> <https://dataweek.de/#AndreasBachmann> .
+<https://2025.dataweek.de/workshops/#programm-session-8> <http://schema.org/performer> <https://dataweek.de/#SebastianDaume> .
 <https://2025.dataweek.de/workshops/#programm-session-8> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-session-9> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2309,6 +2322,7 @@
 <https://2025.dataweek.de/workshops/#programm-talk-37> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/workshops/#programm-talk-37> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-talk-37> <http://schema.org/location> <https://dataweek.de/venue#Room260> .
+<https://2025.dataweek.de/workshops/#programm-talk-37> <http://schema.org/performer> <https://dataweek.de/#SebastianWolf> .
 <https://2025.dataweek.de/workshops/#programm-talk-37> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-talk-37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/2025-06-10/> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2640,6 +2654,12 @@
 <https://dataweek.de/#AndreaHensel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AndreaHensel> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/andrea-hensel-4367699a/> .
 <https://dataweek.de/#AndreaHensel> <http://xmlns.com/foaf/0.1/name> "Andrea Hensel" .
+<https://dataweek.de/#AndreasBachmann> <http://purl.org/dc/terms/description> "Specialist for compliance and governance in the context of digital transformations, especially in the public sector"@en .
+<https://dataweek.de/#AndreasBachmann> <http://purl.org/dc/terms/description> "Spezialist für Compliance und Governance im Kontext digitaler Transformationen, insbesondere im öffentlichen Sektor"@de .
+<https://dataweek.de/#AndreasBachmann> <http://schema.org/affiliation> <urn:url-encoded-value:www.yneo.ai> .
+<https://dataweek.de/#AndreasBachmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#AndreasBachmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#AndreasBachmann> <http://xmlns.com/foaf/0.1/name> "Andreas Bachmann" .
 <https://dataweek.de/#AndreasBoth> <http://schema.org/affiliation> <https://htwk-leipzig.de/> .
 <https://dataweek.de/#AndreasBoth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AndreasBoth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -4237,6 +4257,12 @@
 <https://dataweek.de/#SebastianBrandt> <http://xmlns.com/foaf/0.1/title> "Dr.-Ing." .
 <https://dataweek.de/#SebastianBrandt> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Sebastian Brandt is Senior Key Expert for knowledge-graphs and data management at Siemens Technology, the global research and development centre of Siemens. Apart from research, Sebastian is helping Siemens businesses get most out of their data across the entire product life-cycle. This involves the creation and maintenance of industrial knowledge-graphs and their deployment in real-world production scenarios.\n\nPrior to Siemens, Sebastian has worked extensively on ontology-based knowledge representation systems for the life-sciences in the Bio-Health Informatics Group at the University of Manchester. His research on subsets of OWL with efficient inference problems has opened the door to the OWL-EL facet in the ontology standard OWL 2."@en .
 <https://dataweek.de/#SebastianBrandt> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Sebastian Brandt ist Senior Key Expert für Wissensgraphen und Datenmanagement bei Siemens Technology, dem globalen Forschungs- und Entwicklungszentrum von Siemens. Neben seiner Tätigkeit in der Forschung unterstützt Sebastian Brandt Siemens-Unternehmen dabei, das Beste aus ihren Daten über den gesamten Produktlebenszyklus hinweg herauszuholen. Dies beinhaltet die Erstellung und Pflege von industriellen Wissensgraphen und deren Einsatz in realen Produktionsszenarien.\n\nVor seiner Tätigkeit bei Siemens hat Sebastian in der Bio-Health Informatics Group an der University of Manchester intensiv an ontologiebasierten Wissensrepräsentationssystemen für die Biowissenschaften gearbeitet. Seine Forschung zu Teilmengen von OWL mit effizienten Inferenzproblemen hat die Tür zur OWL-EL-Facette im Ontologie-Standard OWL 2 geöffnet."@de .
+<https://dataweek.de/#SebastianDaume> <http://purl.org/dc/terms/description> "Expert in cognitive AI and process automation with experience in the implementation of AI solutions in public administration"@en .
+<https://dataweek.de/#SebastianDaume> <http://purl.org/dc/terms/description> "Experte für kognitive KI und Prozessautomatisierung mit Erfahrungen in der Implementierung von KI-Lösungen in der öffentlichen Verwaltung"@de .
+<https://dataweek.de/#SebastianDaume> <http://schema.org/affiliation> <urn:url-encoded-value:www.yneo.ai> .
+<https://dataweek.de/#SebastianDaume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#SebastianDaume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#SebastianDaume> <http://xmlns.com/foaf/0.1/name> "Sebastian Daume" .
 <https://dataweek.de/#SebastianGemkow> <http://purl.org/dc/terms/description> "Saxon State Minister for Science"@en .
 <https://dataweek.de/#SebastianGemkow> <http://purl.org/dc/terms/description> "Sächsischer Staatsminister für Wissenschaft"@de .
 <https://dataweek.de/#SebastianGemkow> <http://schema.org/affiliation> <https://www.smwk.sachsen.de/> .
@@ -4272,6 +4298,14 @@
 <https://dataweek.de/#SebastianLehmann> <http://xmlns.com/foaf/0.1/homepage> <https://www.xing.com/profile/Sebastian_Lehmann100> .
 <https://dataweek.de/#SebastianLehmann> <http://xmlns.com/foaf/0.1/name> "Sebastian Lehmann" .
 <https://dataweek.de/#SebastianLehmann> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#SebastianWolf> <http://purl.org/dc/terms/description> "Strategie- und Innovationscoach"@de .
+<https://dataweek.de/#SebastianWolf> <http://purl.org/dc/terms/description> "Strategy and innovation coach"@en .
+<https://dataweek.de/#SebastianWolf> <http://schema.org/affiliation> <urn:url-encoded-value:www.yneo.ai> .
+<https://dataweek.de/#SebastianWolf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#SebastianWolf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#SebastianWolf> <http://xmlns.com/foaf/0.1/name> "Sebastian Wolf" .
+<https://dataweek.de/#SebastianWolf> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Sebastian Wolf is a strategy and innovation coach. With over 15 years of experience in digitalization, he supports organizations in developing creative solutions and implementing innovative approaches."@en .
+<https://dataweek.de/#SebastianWolf> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Sebastian Wolf ist Strategie- und Innovationscoach. Mit über 15 Jahren Erfahrung in der Digitalisierung unterstützt er Organisationen dabei, kreative Lösungen zu entwickeln und innovative Ansätze zu implementieren."@de .
 <https://dataweek.de/#SelinaMudrack> <http://schema.org/affiliation> <https://sriw.de/> .
 <https://dataweek.de/#SelinaMudrack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SelinaMudrack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -4395,6 +4429,12 @@
 <https://dataweek.de/#SusanneKloepping> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Susanne Klöpping" .
 <https://dataweek.de/#SusanneKloepping> <http://xmlns.com/foaf/0.1/name> "Susanne Klöpping" .
 <https://dataweek.de/#SusanneKloepping> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#SvenSaage> <http://schema.org/affiliation> <urn:url-encoded-value:www.yneo.ai> .
+<https://dataweek.de/#SvenSaage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#SvenSaage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#SvenSaage> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sven Saage" .
+<https://dataweek.de/#SvenSaage> <http://xmlns.com/foaf/0.1/name> "Sven Saage" .
+<https://dataweek.de/#SvenSaage> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#TeresaAchtenberg> <http://purl.org/dc/terms/description> "Research associate"@en .
 <https://dataweek.de/#TeresaAchtenberg> <http://purl.org/dc/terms/description> "Wissenschaftliche Mitarbeiterin"@de .
 <https://dataweek.de/#TeresaAchtenberg> <http://schema.org/affiliation> <https://www.hdbw-hochschule.de/> .
@@ -5769,3 +5809,8 @@
 <urn:url-encoded-value:www.kge.uni-kiel.de> <http://www.w3.org/2000/01/rdf-schema#label> "Christian-Albrechts-Universität zu Kiel"@de .
 <urn:url-encoded-value:www.kge.uni-kiel.de> <http://www.w3.org/2000/01/rdf-schema#label> "Christian-Albrechts-Universität zu Kiel"@en .
 <urn:url-encoded-value:www.kge.uni-kiel.de> <http://xmlns.com/foaf/0.1/homepage> <urn:url-encoded-value:www.kge.uni-kiel.de> .
+<urn:url-encoded-value:www.yneo.ai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<urn:url-encoded-value:www.yneo.ai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<urn:url-encoded-value:www.yneo.ai> <http://www.w3.org/2000/01/rdf-schema#label> "YNEO.ai UG"@de .
+<urn:url-encoded-value:www.yneo.ai> <http://www.w3.org/2000/01/rdf-schema#label> "YNEO.ai UG"@en .
+<urn:url-encoded-value:www.yneo.ai> <http://xmlns.com/foaf/0.1/homepage> <urn:url-encoded-value:www.yneo.ai> .
