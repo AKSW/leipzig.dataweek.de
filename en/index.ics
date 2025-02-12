@@ -299,7 +299,7 @@ LOCATION:Festsaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The art of data: AI compression and decompression of ERA5 global c
- limate data
+ limate data (starts at 4pm)
 DTSTART;TZID=Europe/Berlin:20250611T153000
 DTEND;TZID=Europe/Berlin:20250611T170000
 DESCRIPTION:AI offers great potential for increasing efficiency in the pro
@@ -339,6 +339,21 @@ DESCRIPTION:Data visualizations make it possible to present complex data i
  l help participants to successfully implement their (data) visualizations 
  and dashboards and improve their skills in this area.
 LOCATION:Room 260
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(Digital) participation in non-profit organisations - How can part
+ icipatory approaches contribute to better organisational design? (organize
+ d by the KMI/ROOTS project at InfAI)
+DTSTART;TZID=Europe/Berlin:20250611T110000
+DTEND;TZID=Europe/Berlin:20250611T123000
+DESCRIPTION:In the ROOTS sub-project\, methods and concepts are being deve
+ loped to support NPOs in a value-orientated transformation. A central part
+  of the work is the development of a participation platform that will enab
+ le organisations and associations to participate digitally\, including int
+ ernally. This platform will be presented in the workshop and a digitally s
+ upported and participatory participation process will be designed together
+ .
+LOCATION:Room 377
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Automate administrative tasks with REDCap
@@ -465,6 +480,27 @@ DESCRIPTION:REDCap (projectredcap.org) is a free\, easy-to-use data manage
 LOCATION:Room 369
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The AI revolution in public administration: seizing opportunities\
+ , ensuring compliance - from automated process relief to digital co-worker
+ s
+DTSTART;TZID=Europe/Berlin:20250611T090000
+DTEND;TZID=Europe/Berlin:20250611T103000
+DESCRIPTION:In this presentation\, Andreas and Sebastian will guide partic
+ ipants through the opportunities and challenges of the AI revolution in pu
+ blic administration. Andreas will show how governance concerns can be over
+ come and how AI can be put on a legally compliant footing. He addresses sp
+ ecific issues relating to data protection\, GDPR compliance and dealing wi
+ th various AI platforms. Sebastian also focuses on cognitive AI and its po
+ tential to make administrative processes more efficient. Using practical e
+ xamples\, such as automated document processing or AI-supported chatbots\,
+  he will illustrate how AI can help to reduce the workload of employees. B
+ oth speakers emphasize the importance of employee training and the creatio
+ n of safe learning environments to promote AI skills within public authori
+ ties. The aim is to provide participants with a clear guide to implementin
+ g AI in public administration - practical\, future-oriented and compliant.
+LOCATION:Room 260
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:AI for everyday work - practical tools and sharing experiences (or
  ganized by the KMI project at InfAI)
 DTSTART;TZID=Europe/Berlin:20250611T110000
@@ -476,22 +512,7 @@ DESCRIPTION:This workshop provides a practical demonstration of how AI too
  niques to better understand how they work. In the subsequent practical par
  t\, participants can interact with the AI tools and acquire skills that ca
  n be integrated into various areas of everyday work.
-LOCATION:Room 259
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(Digital) participation in non-profit organisations - How can part
- icipatory approaches contribute to better organisational design? (organize
- d by the KMI/ROOTS project at InfAI)
-DTSTART;TZID=Europe/Berlin:20250611T110000
-DTEND;TZID=Europe/Berlin:20250611T123000
-DESCRIPTION:In the ROOTS sub-project\, methods and concepts are being deve
- loped to support NPOs in a value-orientated transformation. A central part
-  of the work is the development of a participation platform that will enab
- le organisations and associations to participate digitally\, including int
- ernally. This platform will be presented in the workshop and a digitally s
- upported and participatory participation process will be designed together
- .
-LOCATION:Room 377
+LOCATION:Room 260
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI: hype or tool?
@@ -509,7 +530,15 @@ BEGIN:VEVENT
 SUMMARY:Coffee break
 DTSTART;TZID=Europe/Berlin:20250612T103000
 DTEND;TZID=Europe/Berlin:20250612T110000
-DESCRIPTION:Posters and Stands
+DESCRIPTION:Martin Blumbach (www.ericsson.com/de) together with Marcel Fr
+ öhlich (www.eccenca.com) will present the Ericsson content delivery pipel
+ ine built around a “knowledge graph platform” based on eccenca corpora
+ te memory. Knowledge is expressed in RDF knowledge graphs that are automat
+ ically instantiated from machine-readable information “fragments” and 
+ manually created DITA topics. DITA bookmaps containing manually and automa
+ tically created DITA topics are automatically assembled for publication. T
+ hey also present knowledge visualization for SMEs and give an outlook on h
+ ow knowledge can be repurposed\, for example for generative AI.
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
@@ -630,6 +659,55 @@ DESCRIPTION:Get ready to push the boundaries of industrial automation! Wit
  e/event/global-thin-gk-athon-manufacturing-x-hands-on-implementation-of-cr
  oss-company-use-cases
 LOCATION:Festsaal 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Welcome
+DTSTART;TZID=Europe/Berlin:20250612T090000
+DTEND;TZID=Europe/Berlin:20250612T091000
+DESCRIPTION:During the welcome\, we are excited to extend a warm welcome t
+ o all participants and share an overview of the day's sessions with you.
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Using Knowledge Graphs to Document Cloud Native Products
+DTSTART;TZID=Europe/Berlin:20250612T091000
+DTEND;TZID=Europe/Berlin:20250612T103000
+DESCRIPTION:Cloud-native software products consist of individually lifecyc
+ led\, frequently released\, and flexibly assembled components known as "mi
+ croservices". The Keynote presentation will be an exploration of how techn
+ ical documentation for such products can be automated. The challenge for a
+ utomation is that content must be lifecycled per microservice\, but presen
+ ted from the perspective of the product user\, who "sees" features and use
+  cases instead of microservices.
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session I
+DTSTART;TZID=Europe/Berlin:20250612T110000
+DTEND;TZID=Europe/Berlin:20250612T123000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session II
+DTSTART;TZID=Europe/Berlin:20250612T133000
+DTEND;TZID=Europe/Berlin:20250612T150000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Session III
+DTSTART;TZID=Europe/Berlin:20250612T153000
+DTEND;TZID=Europe/Berlin:20250612T163000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:eccenca Poster Winner Awards and Closing
+DTSTART;TZID=Europe/Berlin:20250612T163000
+DTEND;TZID=Europe/Berlin:20250612T170000
+DESCRIPTION:As we wrap up the 13th Leipzig Semantic Web Day\, eccenca invi
+ tes you to join us for our social event\, "Semantic Biergarten\," the Caf
+ é & Restaurant 292 Karangahape Road (Karl-Tauchnitz-Str. 9\, 04107 Leipzi
+ g) starting at 18:00h.
+LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AIAMOroadshow
@@ -776,6 +854,12 @@ DESCRIPTION:The modernisation of public registers is one of the greatest c
 LOCATION:Room 369
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:AI strategy with LEGO®: innovations you can touch
+DTSTART;TZID=Europe/Berlin:20250612T133000
+DTEND;TZID=Europe/Berlin:20250612T150000
+LOCATION:Room 260
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Admission
 DTSTART;TZID=Europe/Berlin:20250613T083000
 DTEND;TZID=Europe/Berlin:20250613T090000
@@ -856,7 +940,7 @@ DESCRIPTION:Get ready to push the boundaries of industrial automation! Wit
  t possible solutions? More information: https://www.smart-systems-hub.de/d
  e/event/global-thin-gk-athon-manufacturing-x-hands-on-implementation-of-cr
  oss-company-use-cases
-LOCATION:Festsaal 
+LOCATION:Room 270
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Youth hacks 
