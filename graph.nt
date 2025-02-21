@@ -478,6 +478,7 @@
 <https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2025.dataweek.de/2025-06-12/Room270> .
 <https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://2025.dataweek.de/2025-06-12/Room369> .
 <https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://2025.dataweek.de/2025-06-12/Room377> .
+<https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://2025.dataweek.de/2025-06-12/Room495> .
 <https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2025.dataweek.de/2025-06-12/> <http://www.w3.org/2000/01/rdf-schema#label> "Donnerstag"@de .
@@ -529,6 +530,13 @@
 <https://2025.dataweek.de/2025-06-12/Room377> <http://www.w3.org/2000/01/rdf-schema#label> "Room 377"@en .
 <https://2025.dataweek.de/2025-06-12/Room377> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/> .
 <https://2025.dataweek.de/2025-06-12/Room377> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-12\" && ?location = <https://dataweek.de/venue#Room377>" .
+<https://2025.dataweek.de/2025-06-12/Room495> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/2025-06-12/Room495> <http://schema.org/location> <https://dataweek.de/venue#Room495> .
+<https://2025.dataweek.de/2025-06-12/Room495> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2025.dataweek.de/2025-06-12/Room495> <http://www.w3.org/2000/01/rdf-schema#label> "Raum 495"@de .
+<https://2025.dataweek.de/2025-06-12/Room495> <http://www.w3.org/2000/01/rdf-schema#label> "Room 495"@en .
+<https://2025.dataweek.de/2025-06-12/Room495> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/> .
+<https://2025.dataweek.de/2025-06-12/Room495> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-12\" && ?location = <https://dataweek.de/venue#Room495>" .
 <https://2025.dataweek.de/2025-06-12/Sitzungssaal> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/2025-06-12/Sitzungssaal> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2025.dataweek.de/2025-06-12/Sitzungssaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
