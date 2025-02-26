@@ -253,12 +253,6 @@ DESCRIPTION:Posters and Stands
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Get together
-DTSTART;TZID=Europe/Berlin:20250611T170000
-DTEND;TZID=Europe/Berlin:20250611T191000
-LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:ScaDS.AI Meetup x Data Week Leipzig 2025 - Putting AI into practic
  e\, but how?
 DTSTART;TZID=Europe/Berlin:20250611T193000
@@ -326,12 +320,6 @@ BEGIN:VEVENT
 SUMMARY:Session 14
 DTSTART;TZID=Europe/Berlin:20250611T153000
 DTEND;TZID=Europe/Berlin:20250611T170000
-LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Session 15
-DTSTART;TZID=Europe/Berlin:20250611T153000
-DTEND;TZID=Europe/Berlin:20250611T170000
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
@@ -346,6 +334,18 @@ DESCRIPTION:AI offers great potential for increasing efficiency in the pro
  5 world climate data. Be inspired by how art and technology come together 
  to make AI and complex data visible and tangible. (Start from 16:00)
 LOCATION:Room 259
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:INNOVATION FORUM (organized by Cluster IT Mitteldeutschland e. V.)
+DTSTART;TZID=Europe/Berlin:20250611T153000
+DTEND;TZID=Europe/Berlin:20250611T170000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:INNOVATION FORUM (organized by Cluster IT Mitteldeutschland e. V.)
+DTSTART;TZID=Europe/Berlin:20250611T170000
+DTEND;TZID=Europe/Berlin:20250611T183000
+LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ScaDS.AI Meetup x Data Week Leipzig 2025 - Putting AI into practic
@@ -390,7 +390,7 @@ DESCRIPTION:In the ROOTS sub-project\, methods and concepts are being deve
  le organisations and associations to participate digitally\, including int
  ernally. This platform will be presented in the workshop and a digitally s
  upported and participatory participation process will be designed together
- .
+ . Registration required at roots@leipzig.de.
 LOCATION:Room 377
 END:VEVENT
 BEGIN:VEVENT
@@ -522,7 +522,7 @@ DESCRIPTION:In the workshop\, we will address the question of how framewor
  omotes innovation is a decisive factor here. We will discuss with the part
  icipants what constitutes this culture and how a continuous innovation-pro
  moting working environment and the adaptability of organisations can be pr
- omoted.
+ omoted. Registration required at roots@leipzig.de.
 LOCATION:Room 377
 END:VEVENT
 BEGIN:VEVENT
@@ -649,7 +649,9 @@ DESCRIPTION:Get ready to push the boundaries of industrial automation! Wit
  ontext of Manufacturing-X. What can it be used for and how can we implemen
  t possible solutions? More information: https://www.smart-systems-hub.de/d
  e/event/global-thin-gk-athon-manufacturing-x-hands-on-implementation-of-cr
- oss-company-use-cases
+ oss-company-use-cases A separate registration for the division of the grou
+ ps is necessary: https://www.eventbrite.de/e/global-thingkathon-manufactur
+ ing-x-tickets-1215183228749?aff=oddtdtcreator
 LOCATION:Room 270
 END:VEVENT
 BEGIN:VEVENT
@@ -670,7 +672,9 @@ DESCRIPTION:Get ready to push the boundaries of industrial automation! Wit
  ontext of Manufacturing-X. What can it be used for and how can we implemen
  t possible solutions? More information: https://www.smart-systems-hub.de/d
  e/event/global-thin-gk-athon-manufacturing-x-hands-on-implementation-of-cr
- oss-company-use-cases
+ oss-company-use-cases A separate registration for the division of the grou
+ ps is necessary: https://www.eventbrite.de/e/global-thingkathon-manufactur
+ ing-x-tickets-1215183228749?aff=oddtdtcreator
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
@@ -691,7 +695,9 @@ DESCRIPTION:Get ready to push the boundaries of industrial automation! Wit
  ontext of Manufacturing-X. What can it be used for and how can we implemen
  t possible solutions? More information: https://www.smart-systems-hub.de/d
  e/event/global-thin-gk-athon-manufacturing-x-hands-on-implementation-of-cr
- oss-company-use-cases
+ oss-company-use-cases A separate registration for the division of the grou
+ ps is necessary: https://www.eventbrite.de/e/global-thingkathon-manufactur
+ ing-x-tickets-1215183228749?aff=oddtdtcreator
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
@@ -712,7 +718,9 @@ DESCRIPTION:Get ready to push the boundaries of industrial automation! Wit
  ontext of Manufacturing-X. What can it be used for and how can we implemen
  t possible solutions? More information: https://www.smart-systems-hub.de/d
  e/event/global-thin-gk-athon-manufacturing-x-hands-on-implementation-of-cr
- oss-company-use-cases
+ oss-company-use-cases A separate registration for the division of the grou
+ ps is necessary: https://www.eventbrite.de/e/global-thingkathon-manufactur
+ ing-x-tickets-1215183228749?aff=oddtdtcreator
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
@@ -733,7 +741,9 @@ DESCRIPTION:Get ready to push the boundaries of industrial automation! Wit
  ontext of Manufacturing-X. What can it be used for and how can we implemen
  t possible solutions? More information: https://www.smart-systems-hub.de/d
  e/event/global-thin-gk-athon-manufacturing-x-hands-on-implementation-of-cr
- oss-company-use-cases
+ oss-company-use-cases A separate registration for the division of the grou
+ ps is necessary: https://www.eventbrite.de/e/global-thingkathon-manufactur
+ ing-x-tickets-1215183228749?aff=oddtdtcreator
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
@@ -779,34 +789,86 @@ BEGIN:VEVENT
 SUMMARY:eccenca Poster Winner Awards and Closing
 DTSTART;TZID=Europe/Berlin:20250612T163000
 DTEND;TZID=Europe/Berlin:20250612T170000
-DESCRIPTION:As we wrap up the 13th Leipzig Semantic Web Day\, eccenca invi
- tes you to join us for our social event\, "Semantic Biergarten\," the Caf
- é & Restaurant 292 Karangahape Road (Karl-Tauchnitz-Str. 9\, 04107 Leipzi
- g) starting at 18:00h.
+DESCRIPTION:As we wrap up the 13th Leipzig Semantic Web Day (LSWT)\, eccen
+ ca invites you to join us for our social event\, "eccenca Semantic Beer Ga
+ rden\," the Café & Restaurant 292 Karangahape Road (Karl-Tauchnitz-Str. 9
+ \, 04107 Leipzig) starting at 18:00h.
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AIAMOroadshow
+SUMMARY:AIAMO - More quality of life through AI-controlled mobility.
 DTSTART;TZID=Europe/Berlin:20250612T110000
 DTEND;TZID=Europe/Berlin:20250612T123000
+DESCRIPTION:One of the biggest challenges currently facing society is ensu
+ ring reliable mobility services while at the same time prioritizing climat
+ e protection. AIAMO - Artificial Intelligence and Mobility creates scalabl
+ e and reusable AI-supported solutions for sustainable mobility\, digital I
+ TS infrastructure and intelligent applications for the first time\, so tha
+ t a demand-oriented design of mobility services is created. The AIAMOroads
+ how brings together experts\, decision-makers and interested parties from 
+ the fields of mobility\, transport and artificial intelligence to discuss 
+ the possibilities of AI in the mobility sector. Get to know the AIAMO proj
+ ect and find out which specific regional measures have already led to posi
+ tive developments in the Leipzig pilot region. Furthermore\, we cordially 
+ invite you to discuss with us what added value AIAMO can offer for your re
+ gion and how you too can become part of the project.
 LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AIAMOroadshow
+SUMMARY:AIAMO - More quality of life through AI-controlled mobility.
 DTSTART;TZID=Europe/Berlin:20250612T133000
 DTEND;TZID=Europe/Berlin:20250612T150000
+DESCRIPTION:One of the biggest challenges currently facing society is ensu
+ ring reliable mobility services while at the same time prioritizing climat
+ e protection. AIAMO - Artificial Intelligence and Mobility creates scalabl
+ e and reusable AI-supported solutions for sustainable mobility\, digital I
+ TS infrastructure and intelligent applications for the first time\, so tha
+ t a demand-oriented design of mobility services is created. The AIAMOroads
+ how brings together experts\, decision-makers and interested parties from 
+ the fields of mobility\, transport and artificial intelligence to discuss 
+ the possibilities of AI in the mobility sector. Get to know the AIAMO proj
+ ect and find out which specific regional measures have already led to posi
+ tive developments in the Leipzig pilot region. Furthermore\, we cordially 
+ invite you to discuss with us what added value AIAMO can offer for your re
+ gion and how you too can become part of the project.
 LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AIAMOroadshow
+SUMMARY:AIAMO - More quality of life through AI-controlled mobility.
 DTSTART;TZID=Europe/Berlin:20250612T153000
 DTEND;TZID=Europe/Berlin:20250612T170000
+DESCRIPTION:One of the biggest challenges currently facing society is ensu
+ ring reliable mobility services while at the same time prioritizing climat
+ e protection. AIAMO - Artificial Intelligence and Mobility creates scalabl
+ e and reusable AI-supported solutions for sustainable mobility\, digital I
+ TS infrastructure and intelligent applications for the first time\, so tha
+ t a demand-oriented design of mobility services is created. The AIAMOroads
+ how brings together experts\, decision-makers and interested parties from 
+ the fields of mobility\, transport and artificial intelligence to discuss 
+ the possibilities of AI in the mobility sector. Get to know the AIAMO proj
+ ect and find out which specific regional measures have already led to posi
+ tive developments in the Leipzig pilot region. Furthermore\, we cordially 
+ invite you to discuss with us what added value AIAMO can offer for your re
+ gion and how you too can become part of the project.
 LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AIAMOroadshow
+SUMMARY:AIAMO - More quality of life through AI-controlled mobility.
 DTSTART;TZID=Europe/Berlin:20250612T170000
 DTEND;TZID=Europe/Berlin:20250612T180000
+DESCRIPTION:One of the biggest challenges currently facing society is ensu
+ ring reliable mobility services while at the same time prioritizing climat
+ e protection. AIAMO - Artificial Intelligence and Mobility creates scalabl
+ e and reusable AI-supported solutions for sustainable mobility\, digital I
+ TS infrastructure and intelligent applications for the first time\, so tha
+ t a demand-oriented design of mobility services is created. The AIAMOroads
+ how brings together experts\, decision-makers and interested parties from 
+ the fields of mobility\, transport and artificial intelligence to discuss 
+ the possibilities of AI in the mobility sector. Get to know the AIAMO proj
+ ect and find out which specific regional measures have already led to posi
+ tive developments in the Leipzig pilot region. Furthermore\, we cordially 
+ invite you to discuss with us what added value AIAMO can offer for your re
+ gion and how you too can become part of the project.
 LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
@@ -839,7 +901,8 @@ DESCRIPTION:How can we successfully involve children and young people in d
  lore the potential that digital methods and processes can offer. We will s
  hare best practice examples with other local authorities. We will summaris
  e which participation formats and structures already exist and collect ide
- as for their (digital) further development.
+ as for their (digital) further development. Registration required at roots
+ @leipzig.de.
 LOCATION:Room 495
 END:VEVENT
 BEGIN:VEVENT
@@ -860,7 +923,8 @@ DESCRIPTION:How can we successfully involve children and young people in d
  lore the potential that digital methods and processes can offer. We will s
  hare best practice examples with other local authorities. We will summaris
  e which participation formats and structures already exist and collect ide
- as for their (digital) further development.
+ as for their (digital) further development. Registration required at roots
+ @leipzig.de.
 LOCATION:Room 495
 END:VEVENT
 BEGIN:VEVENT
@@ -985,7 +1049,9 @@ DESCRIPTION:Get ready to push the boundaries of industrial automation! Wit
  ontext of Manufacturing-X. What can it be used for and how can we implemen
  t possible solutions? More information: https://www.smart-systems-hub.de/d
  e/event/global-thin-gk-athon-manufacturing-x-hands-on-implementation-of-cr
- oss-company-use-cases
+ oss-company-use-cases A separate registration for the division of the grou
+ ps is necessary: https://www.eventbrite.de/e/global-thingkathon-manufactur
+ ing-x-tickets-1215183228749?aff=oddtdtcreator
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
@@ -1006,7 +1072,9 @@ DESCRIPTION:Get ready to push the boundaries of industrial automation! Wit
  ontext of Manufacturing-X. What can it be used for and how can we implemen
  t possible solutions? More information: https://www.smart-systems-hub.de/d
  e/event/global-thin-gk-athon-manufacturing-x-hands-on-implementation-of-cr
- oss-company-use-cases
+ oss-company-use-cases A separate registration for the division of the grou
+ ps is necessary: https://www.eventbrite.de/e/global-thingkathon-manufactur
+ ing-x-tickets-1215183228749?aff=oddtdtcreator
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
@@ -1027,7 +1095,9 @@ DESCRIPTION:Get ready to push the boundaries of industrial automation! Wit
  ontext of Manufacturing-X. What can it be used for and how can we implemen
  t possible solutions? More information: https://www.smart-systems-hub.de/d
  e/event/global-thin-gk-athon-manufacturing-x-hands-on-implementation-of-cr
- oss-company-use-cases
+ oss-company-use-cases A separate registration for the division of the grou
+ ps is necessary: https://www.eventbrite.de/e/global-thingkathon-manufactur
+ ing-x-tickets-1215183228749?aff=oddtdtcreator
 LOCATION:Room 270
 END:VEVENT
 BEGIN:VEVENT
