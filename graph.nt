@@ -662,6 +662,7 @@
 <https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_13> <https://www.umweltbundesamt.de/> .
 <https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_14> <https://smart-systems-hub.de/> .
 <https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_15> <https://aiamo.de/> .
+<https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_16> <https://it-mitteldeutschland.de/> .
 <https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://kmi-leipzig.de/> .
 <https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
 <https://2025.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://connectedurbantwins.de/> .
@@ -739,6 +740,7 @@
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://civic-coding.de/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://www.init.de/> .
+<https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://aconium.eu/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
@@ -2587,11 +2589,14 @@
 <https://2025.dataweek.de/workshops/> <https://dataweek.de/#menuHomeLabel> "\u00DCbersicht"@de .
 <https://2025.dataweek.de/workshops/> <https://dataweek.de/#show> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://2025.dataweek.de/workshops/> <https://dataweek.de/#slug> "Workshops" .
+<https://aconium.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://aconium.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://aconium.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://aconium.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "aconium GmbH" .
 <https://aconium.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "aconium GmbH"@de .
 <https://aconium.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "aconium GmbH"@en .
 <https://aconium.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://aconium.eu/> .
+<https://aconium.eu/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/aconium.svg" .
 <https://adesso-lakes.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://adesso-lakes.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://adesso-lakes.com/> <http://www.w3.org/2000/01/rdf-schema#label> "adesso Lakes GmbH"@de .
@@ -5171,6 +5176,10 @@
 <https://iotlab.com/> <http://www.w3.org/2000/01/rdf-schema#label> "IoT Lab"@de .
 <https://iotlab.com/> <http://www.w3.org/2000/01/rdf-schema#label> "IoT Lab"@en .
 <https://iotlab.com/> <http://xmlns.com/foaf/0.1/homepage> <https://iotlab.com/> .
+<https://it-mitteldeutschland.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://it-mitteldeutschland.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Cluster IT Mitteldeutschland e. V. " .
+<https://it-mitteldeutschland.de/> <http://xmlns.com/foaf/0.1/homepage> <https://it-mitteldeutschland.de/> .
+<https://it-mitteldeutschland.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/cluster-it-m.png" .
 <https://joinmastodon.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#Usergroup> .
 <https://kmi-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://kmi-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "K\u00FCnstlich Menschlisch Intelligent Kompetenzzentrum" .
