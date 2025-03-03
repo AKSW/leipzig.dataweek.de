@@ -2392,6 +2392,8 @@
 <https://2025.dataweek.de/workshops/#programm-session-4> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/workshops/#programm-session-4> <http://schema.org/endTime> "17:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-4> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
+<https://2025.dataweek.de/workshops/#programm-session-4> <http://schema.org/performer> <https://dataweek.de/#ChristophUlrich> .
+<https://2025.dataweek.de/workshops/#programm-session-4> <http://schema.org/performer> <https://dataweek.de/#MartinGuth> .
 <https://2025.dataweek.de/workshops/#programm-session-4> <http://schema.org/startTime> "16:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-session-5> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3055,6 +3057,12 @@
 <https://dataweek.de/#ChristophSchubert> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Christoph Schubert" .
 <https://dataweek.de/#ChristophSchubert> <http://xmlns.com/foaf/0.1/name> "Christoph Schubert" .
 <https://dataweek.de/#ChristophSchubert> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#ChristophUlrich> <http://purl.org/dc/terms/description> "Team Lead Data & Analysis"@de .
+<https://dataweek.de/#ChristophUlrich> <http://purl.org/dc/terms/description> "Team Lead Data & Analysis"@en .
+<https://dataweek.de/#ChristophUlrich> <http://schema.org/affiliation> <https://aconium.eu/> .
+<https://dataweek.de/#ChristophUlrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#ChristophUlrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#ChristophUlrich> <http://xmlns.com/foaf/0.1/name> "Christoph Ulrich" .
 <https://dataweek.de/#ClaraRuthardt> <http://purl.org/dc/terms/description> "Project Manager\nDigitalisierung und Gemeinwohl"@de .
 <https://dataweek.de/#ClaraRuthardt> <http://schema.org/affiliation> <urn:url-encoded-value:www.bertelsmann-stiftung.de> .
 <https://dataweek.de/#ClaraRuthardt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
