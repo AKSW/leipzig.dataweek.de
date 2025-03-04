@@ -1,9 +1,13 @@
 ---
 rdf_prefix_path: _data/prefixes.sparql
 ---
-<!--{% include components/img.html alt=contact_alt src="/lswt2024/Logo_1024.png" %}-->
-<p></p>
+{%- if site.language == 'en' -%}
+  {% include components/img.html alt=contact_alt src="/lswt2025/Logo_en.svg" %}
+{%- else -%}
+  {% include components/img.html alt=contact_alt src="/lswt2025/Logo.svg" %}
+{%- endif -%}
 
+<p></p>
 {% comment %}
 <p>
   <a href="https://www.youtube-nocookie.com/embed/n8Kb2P8ilwg"><svg role="img" focusable="false" aria-hidden="true" height="28" width="42"><use xlink:href="{% relative_link /resources/images/socialmedia.svg %}#youtube"></use></svg>{{str_recording}}</a>
