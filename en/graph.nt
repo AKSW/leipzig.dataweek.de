@@ -1753,6 +1753,7 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://schema.org/performer> <https://dataweek.de/#JianPeng> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://schema.org/startTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1811,6 +1812,7 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-15> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-15> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-15> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-15> <http://schema.org/performer> <https://dataweek.de/#StefanieThiele> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-15> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-16> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1818,6 +1820,7 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-16> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-16> <http://schema.org/endTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-16> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-16> <http://schema.org/performer> <https://dataweek.de/#MichaelFischer> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-16> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-17> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3631,6 +3634,15 @@
 <https://dataweek.de/#JessicaBraun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JessicaBraun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JessicaBraun> <http://xmlns.com/foaf/0.1/name> "Jessica Braun" .
+<https://dataweek.de/#JianPeng> <http://purl.org/dc/terms/description> "Head of Department of Remote Sensing (RS)"@de .
+<https://dataweek.de/#JianPeng> <http://purl.org/dc/terms/description> "Head of Department of Remote Sensing (RS)"@en .
+<https://dataweek.de/#JianPeng> <http://schema.org/affiliation> <https://www.ufz.de> .
+<https://dataweek.de/#JianPeng> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#JianPeng> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JianPeng> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Jian Peng" .
+<https://dataweek.de/#JianPeng> <http://xmlns.com/foaf/0.1/homepage> <https://www.ufz.de/index.php?en=47410> .
+<https://dataweek.de/#JianPeng> <http://xmlns.com/foaf/0.1/name> "Jian Peng" .
+<https://dataweek.de/#JianPeng> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <https://dataweek.de/#JoanMaso> <http://purl.org/dc/terms/description> "Joan.Maso@uab.cat"@en .
 <https://dataweek.de/#JoanMaso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JoanMaso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -4164,7 +4176,13 @@
 <https://dataweek.de/#MichaelBirlbauer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MichaelBirlbauer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MichaelBirlbauer> <http://xmlns.com/foaf/0.1/name> "Michael Birlbauer" .
-<https://dataweek.de/#MiguelD.Mahecha> <http://purl.org/dc/terms/description> "Leipzig University"@en .
+<https://dataweek.de/#MichaelFischer> <http://purl.org/dc/terms/description> "Head of Department Urban Data Analytics"@de .
+<https://dataweek.de/#MichaelFischer> <http://purl.org/dc/terms/description> "Head of Department Urban Data Analytics"@en .
+<https://dataweek.de/#MichaelFischer> <http://schema.org/affiliation> <https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-stadtentwicklung-und-wohnen/aemter-und-landesbetrieb/landesbetrieb-geoinformation-und-vermessung> .
+<https://dataweek.de/#MichaelFischer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MichaelFischer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MichaelFischer> <http://xmlns.com/foaf/0.1/name> "Michael Fischer" .
+<https://dataweek.de/#MiguelD.Mahecha> <http://purl.org/dc/terms/description> "#"@en .
 <https://dataweek.de/#MiguelD.Mahecha> <http://purl.org/dc/terms/description> "Universität Leipzig"@de .
 <https://dataweek.de/#MiguelD.Mahecha> <http://schema.org/affiliation> <https://www.physes.uni-leipzig.de/en/ief> .
 <https://dataweek.de/#MiguelD.Mahecha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -4725,6 +4743,12 @@
 <https://dataweek.de/#StefanHoltel> <http://xmlns.com/foaf/0.1/name> "Stefan Holtel" .
 <https://dataweek.de/#StefanHoltel> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Among other things, he worked for 11 years in research and development at Vodafone and holds several international patents. He regularly presents, publishes and lectures on how companies can manage digital transformation. He currently works at PricewaterhouseCoopers' DigiLab as a thought leader on interdisciplinary issues in Artificial Intelligence."@en .
 <https://dataweek.de/#StefanHoltel> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Er arbeitete u.a. 11 Jahre in der Forschung und Entwicklung von Vodafone und hält mehrere internationale Patente. Regelmäßig präsentiert, publiziert und doziert er zur Frage, wie Unternehmen die digitale Transformation bewältigen können. Derzeit arbeitet er im DigiLab von PricewaterhouseCoopers als Vordenker zu interdisziplinären Fragen der Künstlichen Intelligenz."@de .
+<https://dataweek.de/#StefanieThiele> <http://purl.org/dc/terms/description> "Data Governance Manager"@de .
+<https://dataweek.de/#StefanieThiele> <http://purl.org/dc/terms/description> "Data Governance Manager"@en .
+<https://dataweek.de/#StefanieThiele> <http://schema.org/affiliation> <https://stadt.muenchen.de/infos/portrait-geodatenservice.html> .
+<https://dataweek.de/#StefanieThiele> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#StefanieThiele> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#StefanieThiele> <http://xmlns.com/foaf/0.1/name> "Stefanie Thiele" .
 <https://dataweek.de/#StephanKlinger> <http://schema.org/affiliation> <https://www.umweltbundesamt.de/> .
 <https://dataweek.de/#StephanKlinger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#StephanKlinger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -5638,6 +5662,11 @@
 <https://www.hamburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "City of Hamburg"@en .
 <https://www.hamburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Hamburg"@de .
 <https://www.hamburg.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.hamburg.de/> .
+<https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-stadtentwicklung-und-wohnen/aemter-und-landesbetrieb/landesbetrieb-geoinformation-und-vermessung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-stadtentwicklung-und-wohnen/aemter-und-landesbetrieb/landesbetrieb-geoinformation-und-vermessung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-stadtentwicklung-und-wohnen/aemter-und-landesbetrieb/landesbetrieb-geoinformation-und-vermessung> <http://www.w3.org/2000/01/rdf-schema#label> "Geoinformation and Surveying Agency (LGV)"@en .
+<https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-stadtentwicklung-und-wohnen/aemter-und-landesbetrieb/landesbetrieb-geoinformation-und-vermessung> <http://www.w3.org/2000/01/rdf-schema#label> "Landesbetrieb Geoinformation und Vermessung (LGV)"@de .
+<https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-stadtentwicklung-und-wohnen/aemter-und-landesbetrieb/landesbetrieb-geoinformation-und-vermessung> <http://xmlns.com/foaf/0.1/homepage> <https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-stadtentwicklung-und-wohnen/aemter-und-landesbetrieb/landesbetrieb-geoinformation-und-vermessung> .
 <https://www.hcu-hamburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.hcu-hamburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.hcu-hamburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "HafenCity Universität Hamburg"@de .
@@ -6041,9 +6070,12 @@
 <https://www.ubindr.nl/> <http://www.w3.org/2000/01/rdf-schema#label> "Ubindr"@en .
 <https://www.ubindr.nl/> <http://xmlns.com/foaf/0.1/homepage> <https://www.ubindr.nl/> .
 <https://www.ubindr.nl/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/ubindr.png" .
-<https://www.ufz.de/index.php?de=33573> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-<https://www.ufz.de/index.php?de=33573> <http://www.w3.org/2000/01/rdf-schema#label> "Helmholtz Centre for Environmental Research GmbH - UFZ "@en .
-<https://www.ufz.de/index.php?de=33573> <http://www.w3.org/2000/01/rdf-schema#label> "Helmholtz-Zentrum für Umweltforschung GmbH - UFZ"@de .
+<https://www.ufz.de/index.php?en=47410> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.ufz.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.ufz.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.ufz.de> <http://www.w3.org/2000/01/rdf-schema#label> "Helmholtz Centre for Environmental Research GmbH - UFZ "@en .
+<https://www.ufz.de> <http://www.w3.org/2000/01/rdf-schema#label> "Helmholtz-Zentrum für Umweltforschung GmbH - UFZ"@de .
+<https://www.ufz.de> <http://xmlns.com/foaf/0.1/homepage> <https://www.ufz.de> .
 <https://www.umweltbundesamt.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.umweltbundesamt.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.umweltbundesamt.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
