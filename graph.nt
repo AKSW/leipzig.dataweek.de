@@ -1592,6 +1592,7 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/endTime> "17:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/performer> <https://dataweek.de/#ChristophSchubert> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/performer> <https://dataweek.de/#EnohTabak> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-11> <http://schema.org/startTime> "16:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3243,6 +3244,12 @@
 <https://dataweek.de/#ElizabethOrta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ElizabethOrta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ElizabethOrta> <http://xmlns.com/foaf/0.1/name> "Elizabeth Orta" .
+<https://dataweek.de/#EnohTabak> <http://purl.org/dc/terms/description> "Advisor - International Smart Cities Network"@de .
+<https://dataweek.de/#EnohTabak> <http://purl.org/dc/terms/description> "Advisor - International Smart Cities Network"@en .
+<https://dataweek.de/#EnohTabak> <http://schema.org/affiliation> <https://www.giz.de> .
+<https://dataweek.de/#EnohTabak> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#EnohTabak> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#EnohTabak> <http://xmlns.com/foaf/0.1/name> "Enoh Tabak" .
 <https://dataweek.de/#EnricoMacholdt> <http://purl.org/dc/terms/description> "Data Scientist & Engineer"@de .
 <https://dataweek.de/#EnricoMacholdt> <http://purl.org/dc/terms/description> "Data Scientist & Engineer"@en .
 <https://dataweek.de/#EnricoMacholdt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -5328,6 +5335,11 @@
 <https://stackfuel.com/de/> <http://www.w3.org/2000/01/rdf-schema#label> "StackFuel"@en .
 <https://stackfuel.com/de/> <http://xmlns.com/foaf/0.1/homepage> <https://stackfuel.com/de/> .
 <https://stackfuel.com/de/ueber-uns/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://stadt.muenchen.de/infos/portrait-geodatenservice.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://stadt.muenchen.de/infos/portrait-geodatenservice.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://stadt.muenchen.de/infos/portrait-geodatenservice.html> <http://www.w3.org/2000/01/rdf-schema#label> "GeodatenService München"@de .
+<https://stadt.muenchen.de/infos/portrait-geodatenservice.html> <http://www.w3.org/2000/01/rdf-schema#label> "Munich GeodataService"@en .
+<https://stadt.muenchen.de/infos/portrait-geodatenservice.html> <http://xmlns.com/foaf/0.1/homepage> <https://stadt.muenchen.de/infos/portrait-geodatenservice.html> .
 <https://stadt.muenchen.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://stadt.muenchen.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://stadt.muenchen.de> <http://www.w3.org/2000/01/rdf-schema#label> "City of Munich"@en .
@@ -5607,6 +5619,11 @@
 <https://www.gicon.de/> <http://www.w3.org/2000/01/rdf-schema#label> "GICON Gruppe"@de .
 <https://www.gicon.de/> <http://www.w3.org/2000/01/rdf-schema#label> "GICON"@en .
 <https://www.gicon.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.gicon.de/> .
+<https://www.giz.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.giz.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.giz.de> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH"@de .
+<https://www.giz.de> <http://www.w3.org/2000/01/rdf-schema#label> "Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH"@en .
+<https://www.giz.de> <http://xmlns.com/foaf/0.1/homepage> <https://www.giz.de> .
 <https://www.gkd-el.de/de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.gkd-el.de/de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.gkd-el.de/de/> <http://www.w3.org/2000/01/rdf-schema#label> "Gelsenkirchener Kommunale Datenzentrale Emscher-Lippe"@de .
