@@ -648,7 +648,6 @@
 <https://2025.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#impression2406> .
 <https://2025.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#impression2407> .
 <https://2025.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#impression2408> .
-<https://2025.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#impression2409> .
 <https://2025.dataweek.de/> <https://dataweek.de/#cooperator> <https://2025.dataweek.de/Cooperators> .
 <https://2025.dataweek.de/> <https://dataweek.de/#coorganizer> <https://2025.dataweek.de/Coorganizers> .
 <https://2025.dataweek.de/> <https://dataweek.de/#news> <https://2025.dataweek.de/News1> .
@@ -756,6 +755,7 @@
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://civic-coding.de/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://www.init.de/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://aconium.eu/> .
+<https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://graphwise.ai/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
@@ -5045,10 +5045,6 @@
 <https://dataweek.de/#impression2408> <http://purl.org/dc/terms/description> "Image of a talk in front of the audience at Sitzungssaal"@en .
 <https://dataweek.de/#impression2408> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
 <https://dataweek.de/#impression2408> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/impression2408.jpg" .
-<https://dataweek.de/#impression2409> <http://purl.org/dc/terms/description> "Der Stand von Toolbox Datenkompetenz"@de .
-<https://dataweek.de/#impression2409> <http://purl.org/dc/terms/description> "Stand of Toolbox Datenkompetenz"@en .
-<https://dataweek.de/#impression2409> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
-<https://dataweek.de/#impression2409> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/impression2409.jpg" .
 <https://dataweek.de/> <http://www.w3.org/2002/07/owl#sameAs> <https://2025.dataweek.de/> .
 <https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://dataweek.de/#JanaBendigs> .
 <https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/JuliaHolze> .
@@ -5207,6 +5203,10 @@
 <https://gecko-two.de/> <http://xmlns.com/foaf/0.1/homepage> <https://gecko-two.de/> .
 <https://github.com/ManishBhandariV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://godigital-kongress.de/erik-wende/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://graphwise.ai/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://graphwise.ai/> <http://www.w3.org/2000/01/rdf-schema#label> "Graphwise" .
+<https://graphwise.ai/> <http://xmlns.com/foaf/0.1/homepage> <https://graphwise.ai/> .
+<https://graphwise.ai/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/graphwise.png" .
 <https://htwk-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://htwk-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://htwk-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
