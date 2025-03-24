@@ -2214,7 +2214,7 @@
 <https://2025.dataweek.de/workshops/#programm-session-19> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/workshops/#programm-session-19> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-19> <http://schema.org/location> <https://dataweek.de/venue#Room377> .
-<https://2025.dataweek.de/workshops/#programm-session-19> <http://schema.org/performer> <https://dataweek.de/#JonasDuehring> .
+<https://2025.dataweek.de/workshops/#programm-session-19> <http://schema.org/performer> <https://dataweek.de/#NiklasGuenther> .
 <https://2025.dataweek.de/workshops/#programm-session-19> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-session-1> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2236,6 +2236,9 @@
 <https://2025.dataweek.de/workshops/#programm-session-20> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/workshops/#programm-session-20> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-20> <http://schema.org/location> <https://dataweek.de/venue#Room377> .
+<https://2025.dataweek.de/workshops/#programm-session-20> <http://schema.org/performer> <https://dataweek.de/#DarijusValiucko> .
+<https://2025.dataweek.de/workshops/#programm-session-20> <http://schema.org/performer> <https://dataweek.de/#DilaraSir> .
+<https://2025.dataweek.de/workshops/#programm-session-20> <http://schema.org/performer> <https://dataweek.de/#JohannaVaranasi> .
 <https://2025.dataweek.de/workshops/#programm-session-20> <http://schema.org/performer> <https://dataweek.de/#MartinGuth> .
 <https://2025.dataweek.de/workshops/#programm-session-20> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -2666,6 +2669,11 @@
 <https://adorsys.com/> <http://www.w3.org/2000/01/rdf-schema#label> "adorsys GmbH & Co. KG"@de .
 <https://adorsys.com/> <http://www.w3.org/2000/01/rdf-schema#label> "adorsys GmbH & Co. KG"@en .
 <https://adorsys.com/> <http://xmlns.com/foaf/0.1/homepage> <https://adorsys.com/> .
+<https://ai-ui.ai/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://ai-ui.ai/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://ai-ui.ai/> <http://www.w3.org/2000/01/rdf-schema#label> "AI-UI GmbH"@de .
+<https://ai-ui.ai/> <http://www.w3.org/2000/01/rdf-schema#label> "AI-UI GmbH"@en .
+<https://ai-ui.ai/> <http://xmlns.com/foaf/0.1/homepage> <https://ai-ui.ai/> .
 <https://aiamo.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://aiamo.de/> <http://www.w3.org/2000/01/rdf-schema#label> "AIAMO" .
 <https://aiamo.de/> <http://xmlns.com/foaf/0.1/homepage> <https://aiamo.de/> .
@@ -3713,6 +3721,12 @@
 <https://dataweek.de/#JohannLoempcke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JohannLoempcke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JohannLoempcke> <http://xmlns.com/foaf/0.1/name> "Johann Lömpcke" .
+<https://dataweek.de/#JohannaVaranasi> <http://purl.org/dc/terms/description> "Project Manager "@en .
+<https://dataweek.de/#JohannaVaranasi> <http://purl.org/dc/terms/description> "Projektkoordinator"@de .
+<https://dataweek.de/#JohannaVaranasi> <http://schema.org/affiliation> <https://aconium.eu/> .
+<https://dataweek.de/#JohannaVaranasi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#JohannaVaranasi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JohannaVaranasi> <http://xmlns.com/foaf/0.1/name> "Johanna Varanasi" .
 <https://dataweek.de/#JohannesSautter> <http://purl.org/dc/terms/description> "Fraunhofer Institute for Industrial Engineering IAO"@en .
 <https://dataweek.de/#JohannesSautter> <http://purl.org/dc/terms/description> "Fraunhofer-Institut für Arbeitswirtschaft und Organisation IAO"@de .
 <https://dataweek.de/#JohannesSautter> <http://schema.org/affiliation> <https://www.iao.fraunhofer.de/en.html> .
@@ -4119,6 +4133,12 @@
 <https://dataweek.de/#MartinMeissner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MartinMeissner> <http://xmlns.com/foaf/0.1/homepage> <https://kurzelinks.de/lc2n> .
 <https://dataweek.de/#MartinMeissner> <http://xmlns.com/foaf/0.1/name> "Martin Meißner" .
+<https://dataweek.de/#MartinSchiele> <http://schema.org/affiliation> <https://ai-ui.ai/> .
+<https://dataweek.de/#MartinSchiele> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MartinSchiele> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MartinSchiele> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Martin Schiele" .
+<https://dataweek.de/#MartinSchiele> <http://xmlns.com/foaf/0.1/name> "Martin Schiele" .
+<https://dataweek.de/#MartinSchiele> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#MateusLendzinski> <http://purl.org/dc/terms/description> "City of Hamburg"@en .
 <https://dataweek.de/#MateusLendzinski> <http://purl.org/dc/terms/description> "Stadt Hamburg"@de .
 <https://dataweek.de/#MateusLendzinski> <http://schema.org/affiliation> <https://www.hamburg.de/> .
@@ -4131,6 +4151,12 @@
 <https://dataweek.de/#MathiasBoedecker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MathiasBoedecker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MathiasBoedecker> <http://xmlns.com/foaf/0.1/name> "Mathias Boedecker" .
+<https://dataweek.de/#MathiasJanutsch> <http://purl.org/dc/terms/description> "Head of Sales & Business Development"@de .
+<https://dataweek.de/#MathiasJanutsch> <http://purl.org/dc/terms/description> "Head of Sales & Business Development"@en .
+<https://dataweek.de/#MathiasJanutsch> <http://schema.org/affiliation> <https://leipzig.impacthub.net/> .
+<https://dataweek.de/#MathiasJanutsch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MathiasJanutsch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MathiasJanutsch> <http://xmlns.com/foaf/0.1/name> "Mathias Janutsch" .
 <https://dataweek.de/#MatthiasJurisch> <http://purl.org/dc/terms/description> "Manager Information Management Unit"@de .
 <https://dataweek.de/#MatthiasJurisch> <http://purl.org/dc/terms/description> "Manager Information Management Unit"@en .
 <https://dataweek.de/#MatthiasJurisch> <http://schema.org/affiliation> <https://brox.de/> .
@@ -4352,6 +4378,12 @@
 <https://dataweek.de/#NievesSande> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#NievesSande> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/NievesSande.jpg" .
 <https://dataweek.de/#NievesSande> <http://xmlns.com/foaf/0.1/name> "Nieves Sande" .
+<https://dataweek.de/#NiklasGuenther> <http://purl.org/dc/terms/description> "Project Manager "@en .
+<https://dataweek.de/#NiklasGuenther> <http://purl.org/dc/terms/description> "Projektkoordinator"@de .
+<https://dataweek.de/#NiklasGuenther> <http://schema.org/affiliation> <https://aconium.eu/> .
+<https://dataweek.de/#NiklasGuenther> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#NiklasGuenther> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#NiklasGuenther> <http://xmlns.com/foaf/0.1/name> "Niklas Günther" .
 <https://dataweek.de/#NikolayKrustev> <http://purl.org/dc/terms/description> "Sales Director"@de .
 <https://dataweek.de/#NikolayKrustev> <http://purl.org/dc/terms/description> "Sales Director"@en .
 <https://dataweek.de/#NikolayKrustev> <http://schema.org/affiliation> <https://www.ontotext.com/> .
@@ -4567,6 +4599,13 @@
 <https://dataweek.de/#RonnyMaikLeder> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Ronny Maik Leder" .
 <https://dataweek.de/#RonnyMaikLeder> <http://xmlns.com/foaf/0.1/name> "Ronny Maik Leder" .
 <https://dataweek.de/#RonnyMaikLeder> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#RonnyNoske> <http://purl.org/dc/terms/description> "CEO "@de .
+<https://dataweek.de/#RonnyNoske> <http://purl.org/dc/terms/description> "CEO "@en .
+<https://dataweek.de/#RonnyNoske> <http://schema.org/affiliation> <https://www.linkedin.com/in/ronny-noske-inklusion/> .
+<https://dataweek.de/#RonnyNoske> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#RonnyNoske> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#RonnyNoske> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/ronny-noske-inklusion/> .
+<https://dataweek.de/#RonnyNoske> <http://xmlns.com/foaf/0.1/name> "Ronny Noske" .
 <https://dataweek.de/#RuslanHrushchak> <http://purl.org/dc/terms/description> "Geschäftsführer "@de .
 <https://dataweek.de/#RuslanHrushchak> <http://purl.org/dc/terms/description> "Managing director"@en .
 <https://dataweek.de/#RuslanHrushchak> <http://schema.org/affiliation> <https://appplant.de/de/home/> .
@@ -5311,6 +5350,10 @@
 <https://lecos.de/> <http://xmlns.com/foaf/0.1/homepage> <https://lecos.de> .
 <https://lecos.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/lecos.png" .
 <https://leipzig.impacthub.net/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://leipzig.impacthub.net/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://leipzig.impacthub.net/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://leipzig.impacthub.net/> <http://www.w3.org/2000/01/rdf-schema#label> "Impact Hub Leipzig"@de .
+<https://leipzig.impacthub.net/> <http://www.w3.org/2000/01/rdf-schema#label> "Impact Hub Leipzig"@en .
 <https://leipzig.impacthub.net/> <http://xmlns.com/foaf/0.1/homepage> <https://leipzig.impacthub.net/> .
 <https://leipzig.impacthub.net/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/impact-hub.png" .
 <https://lswt2019.aksw.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -5947,6 +5990,11 @@
 <https://www.linkedin.com/in/oguzhan-yayla/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/raana-saheb-nassagh/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/robert-wagner-3156181b3/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/ronny-noske-inklusion/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/ronny-noske-inklusion/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.linkedin.com/in/ronny-noske-inklusion/> <http://www.w3.org/2000/01/rdf-schema#label> "Ronny Noske Human Resources"@en .
+<https://www.linkedin.com/in/ronny-noske-inklusion/> <http://www.w3.org/2000/01/rdf-schema#label> "Ronny Noske Personaldienstleistungen"@de .
+<https://www.linkedin.com/in/ronny-noske-inklusion/> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/ronny-noske-inklusion/> .
 <https://www.linkedin.com/in/ruslan-hrushchak/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/s-albrecht/?originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/sarah-stemmler/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
