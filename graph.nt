@@ -30,8 +30,9 @@
 <http://aksw.org/DenisStreitmatter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/DenisStreitmatter> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/DenisStreitmatter> .
 <http://aksw.org/DenisStreitmatter> <http://xmlns.com/foaf/0.1/name> "Denis Streitmatter" .
-<http://aksw.org/EdgardMarx> <http://purl.org/dc/terms/description> "HTWK Leipzig/eccenca GmbH"@de .
-<http://aksw.org/EdgardMarx> <http://purl.org/dc/terms/description> "HTWK Leipzig/eccenca GmbH"@en .
+<http://aksw.org/EdgardMarx> <http://purl.org/dc/terms/description> "eccenca GmbH"@de .
+<http://aksw.org/EdgardMarx> <http://purl.org/dc/terms/description> "eccenca GmbH"@en .
+<http://aksw.org/EdgardMarx> <http://schema.org/affiliation> <https://www.eccenca.com/> .
 <http://aksw.org/EdgardMarx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/EdgardMarx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://aksw.org/EdgardMarx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -1314,24 +1315,30 @@
 <https://2025.dataweek.de/lswt2025/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2025.dataweek.de/lswt2025/#programm-session-3> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://purl.org/dc/terms/description> "In this session, we'll explore Semantic Technologies as part of the broader landscape of Artificial Intelligence, diving into fascinating topics like ChatGPT and other exciting advancements."@de .
+<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://purl.org/dc/terms/description> "In this session, we'll explore Semantic Technologies as part of the broader landscape of Artificial Intelligence, diving into fascinating topics like ChatGPT and other exciting advancements."@en .
+<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://purl.org/dc/terms/title> "Session I Knowledge Graphs and Large Language Models"@de .
 <https://2025.dataweek.de/lswt2025/#programm-session-3> <http://purl.org/dc/terms/title> "Session I Knowledge Graphs and Large Language Models"@en .
-<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://purl.org/dc/terms/title> "Session I"@de .
 <https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-session-4> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/lswt2025/#programm-session-4> <http://purl.org/dc/terms/title> "Session II"@de .
-<https://2025.dataweek.de/lswt2025/#programm-session-4> <http://purl.org/dc/terms/title> "Session II"@en .
+<https://2025.dataweek.de/lswt2025/#programm-session-4> <http://purl.org/dc/terms/description> "In this session, we'll explore real-world applications and use cases using Knowledge Graphs as our foundation."@de .
+<https://2025.dataweek.de/lswt2025/#programm-session-4> <http://purl.org/dc/terms/description> "In this session, we'll explore real-world applications and use cases using Knowledge Graphs as our foundation."@en .
+<https://2025.dataweek.de/lswt2025/#programm-session-4> <http://purl.org/dc/terms/title> "Session II Knowledge Graph Use Cases in Industry and Administration"@de .
+<https://2025.dataweek.de/lswt2025/#programm-session-4> <http://purl.org/dc/terms/title> "Session II Knowledge Graph Use Cases in Industry and Administration"@en .
 <https://2025.dataweek.de/lswt2025/#programm-session-4> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2025.dataweek.de/lswt2025/#programm-session-4> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-4> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2025.dataweek.de/lswt2025/#programm-session-4> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-session-5> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/lswt2025/#programm-session-5> <http://purl.org/dc/terms/title> "Session III"@de .
-<https://2025.dataweek.de/lswt2025/#programm-session-5> <http://purl.org/dc/terms/title> "Session III"@en .
+<https://2025.dataweek.de/lswt2025/#programm-session-5> <http://purl.org/dc/terms/description> "This session will dive into the exciting world of building, modeling, and visualizing Knowledge Graphs."@de .
+<https://2025.dataweek.de/lswt2025/#programm-session-5> <http://purl.org/dc/terms/description> "This session will dive into the exciting world of building, modeling, and visualizing Knowledge Graphs."@en .
+<https://2025.dataweek.de/lswt2025/#programm-session-5> <http://purl.org/dc/terms/title> "Session III Ontology Engineering and Semantic Technologies"@de .
+<https://2025.dataweek.de/lswt2025/#programm-session-5> <http://purl.org/dc/terms/title> "Session III Ontology Engineering and Semantic Technologies"@en .
 <https://2025.dataweek.de/lswt2025/#programm-session-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2025.dataweek.de/lswt2025/#programm-session-5> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-5> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
@@ -2819,6 +2826,12 @@
 <https://dataweek.de/#AlexaSteinbrueck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AlexaSteinbrueck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AlexaSteinbrueck> <http://xmlns.com/foaf/0.1/name> "Alexa Steinbrück" .
+<https://dataweek.de/#AlexanderBigerl> <http://purl.org/dc/terms/description> "CEO & CO-Founder"@de .
+<https://dataweek.de/#AlexanderBigerl> <http://purl.org/dc/terms/description> "CEO & CO-Founder"@en .
+<https://dataweek.de/#AlexanderBigerl> <http://schema.org/affiliation> <https://tentris.io/> .
+<https://dataweek.de/#AlexanderBigerl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#AlexanderBigerl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#AlexanderBigerl> <http://xmlns.com/foaf/0.1/name> "Alexander Bigerl" .
 <https://dataweek.de/#AlexanderFriedenberger> <http://schema.org/affiliation> <https://stackfuel.com/de/> .
 <https://dataweek.de/#AlexanderFriedenberger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AlexanderFriedenberger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -3204,6 +3217,12 @@
 <https://dataweek.de/#CristineBlanken> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Christine Blanken" .
 <https://dataweek.de/#CristineBlanken> <http://xmlns.com/foaf/0.1/name> "Christine Blanken" .
 <https://dataweek.de/#CristineBlanken> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#DanielBrenn> <http://purl.org/dc/terms/description> "Managing Consultant"@de .
+<https://dataweek.de/#DanielBrenn> <http://purl.org/dc/terms/description> "Managing Consultant"@en .
+<https://dataweek.de/#DanielBrenn> <http://schema.org/affiliation> <https://www.init.de/> .
+<https://dataweek.de/#DanielBrenn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#DanielBrenn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#DanielBrenn> <http://xmlns.com/foaf/0.1/name> "Daniel Brenn" .
 <https://dataweek.de/#DanielGerber> <http://purl.org/dc/terms/description> "Deputy Head of Competence Centre at InfAI"@en .
 <https://dataweek.de/#DanielGerber> <http://purl.org/dc/terms/description> "Stellvertretender Kompetenzzentrumsleiter am InfAI"@de .
 <https://dataweek.de/#DanielGerber> <http://schema.org/affiliation> <https://infai.org/> .
@@ -3492,7 +3511,7 @@
 <https://dataweek.de/#GeroBoehmer> <http://xmlns.com/foaf/0.1/name> "Gero Böhmer" .
 <https://dataweek.de/#GollamRabby> <http://purl.org/dc/terms/description> "Doktorand"@de .
 <https://dataweek.de/#GollamRabby> <http://purl.org/dc/terms/description> "PhD Student"@en .
-<https://dataweek.de/#GollamRabby> <http://schema.org/affiliation> <https://www.vse.cz/english/> .
+<https://dataweek.de/#GollamRabby> <http://schema.org/affiliation> <https://www.tib.eu/> .
 <https://dataweek.de/#GollamRabby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#GollamRabby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#GollamRabby> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/gollam-rabby-28203095/> .
@@ -4879,6 +4898,12 @@
 <https://dataweek.de/#TeresaAchtenberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#TeresaAchtenberg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#TeresaAchtenberg> <http://xmlns.com/foaf/0.1/name> "Teresa Achtenberg" .
+<https://dataweek.de/#ThierryPlatrier> <http://purl.org/dc/terms/description> "Senior Project and Program Manager"@de .
+<https://dataweek.de/#ThierryPlatrier> <http://purl.org/dc/terms/description> "Senior Project and Program Manager"@en .
+<https://dataweek.de/#ThierryPlatrier> <http://schema.org/affiliation> <https://www.airbus.com/> .
+<https://dataweek.de/#ThierryPlatrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#ThierryPlatrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#ThierryPlatrier> <http://xmlns.com/foaf/0.1/name> "Thierry Platrier" .
 <https://dataweek.de/#ThomasBurghardt> <http://schema.org/affiliation> <https://scads.ai/> .
 <https://dataweek.de/#ThomasBurghardt> <http://schema.org/affiliation> <https://www.uni-leipzig.de/> .
 <https://dataweek.de/#ThomasBurghardt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -5537,6 +5562,11 @@
 <https://www.agil-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "AGIL Leipzig GmbH"@de .
 <https://www.agil-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "AGIL Leipzig GmbH"@en .
 <https://www.agil-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.agil-leipzig.de/> .
+<https://www.airbus.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.airbus.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.airbus.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Airbus"@de .
+<https://www.airbus.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Airbus"@en .
+<https://www.airbus.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.airbus.com/> .
 <https://www.akkodis.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.akkodis.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.akkodis.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Akkodis Germany DCE GmbH"@de .
