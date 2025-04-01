@@ -1,5 +1,6 @@
-<http://aksw.org/AndreValdestilhas> <http://purl.org/dc/terms/description> "BAM"@de .
-<http://aksw.org/AndreValdestilhas> <http://purl.org/dc/terms/description> "BAM"@en .
+<http://aksw.org/AndreValdestilhas> <http://purl.org/dc/terms/description> "Researcher / Postdoc, User-Centric Data Science (UCDS)"@de .
+<http://aksw.org/AndreValdestilhas> <http://purl.org/dc/terms/description> "Researcher / Postdoc, User-Centric Data Science (UCDS)"@en .
+<http://aksw.org/AndreValdestilhas> <http://schema.org/affiliation> <https://ucds.cs.vu.nl/> .
 <http://aksw.org/AndreValdestilhas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/AndreValdestilhas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://aksw.org/AndreValdestilhas> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. André Valdestilhas" .
@@ -84,6 +85,8 @@
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/KurtJunghanns.jpg" .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/homepage> <https://aksw.org/KurtJunghanns> .
 <http://aksw.org/KurtJunghanns> <http://xmlns.com/foaf/0.1/name> "Kurt Junghanns" .
+<http://aksw.org/LarsPeterMeyer> <http://purl.org/dc/terms/description> "Scientific Researcher and Projekt Leader"@en .
+<http://aksw.org/LarsPeterMeyer> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter und Projektleiter"@de .
 <http://aksw.org/LarsPeterMeyer> <http://schema.org/affiliation> <https://infai.org/> .
 <http://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -1355,68 +1358,80 @@
 <https://2025.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/startTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-10> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/lswt2025/#programm-talk-10> <http://purl.org/dc/terms/title> "tba"@de .
-<https://2025.dataweek.de/lswt2025/#programm-talk-10> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-10> <http://purl.org/dc/terms/title> "Minutes by Future Knowledge Experts (Students)"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-10> <http://purl.org/dc/terms/title> "Minutes by Future Knowledge Experts (Studierende)"@de .
 <https://2025.dataweek.de/lswt2025/#programm-talk-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-11> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/lswt2025/#programm-talk-11> <http://purl.org/dc/terms/title> "Minutes by Future Knowledge Experts (Students)"@en .
-<https://2025.dataweek.de/lswt2025/#programm-talk-11> <http://purl.org/dc/terms/title> "Minutes by Future Knowledge Experts (Studierende)"@de .
 <https://2025.dataweek.de/lswt2025/#programm-talk-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-14> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/lswt2025/#programm-talk-14> <http://purl.org/dc/terms/title> "tba"@de .
-<https://2025.dataweek.de/lswt2025/#programm-talk-14> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-14> <http://purl.org/dc/terms/title> "tbc"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-14> <http://purl.org/dc/terms/title> "tbc"@en .
 <https://2025.dataweek.de/lswt2025/#programm-talk-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-15> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/lswt2025/#programm-talk-15> <http://purl.org/dc/terms/title> "tba"@de .
-<https://2025.dataweek.de/lswt2025/#programm-talk-15> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-15> <http://purl.org/dc/terms/title> "Reg_Check"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-15> <http://purl.org/dc/terms/title> "Reg_Check"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-15> <http://schema.org/performer> <https://dataweek.de/#DanielBrenn> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-16> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/lswt2025/#programm-talk-16> <http://purl.org/dc/terms/title> "tba"@de .
-<https://2025.dataweek.de/lswt2025/#programm-talk-16> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-16> <http://purl.org/dc/terms/title> "tbc"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-16> <http://purl.org/dc/terms/title> "tbc"@en .
 <https://2025.dataweek.de/lswt2025/#programm-talk-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-17> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/lswt2025/#programm-talk-17> <http://purl.org/dc/terms/title> "tba"@de .
-<https://2025.dataweek.de/lswt2025/#programm-talk-17> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-17> <http://purl.org/dc/terms/title> "Live Fusion and Seamless Integration: Unlocking the Best-of Wikipedia, Wikidata, and Beyond with DBpedia Enterprise"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-17> <http://purl.org/dc/terms/title> "Live Fusion and Seamless Integration: Unlocking the Best-of Wikipedia, Wikidata, and Beyond with DBpedia Enterprise"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-17> <http://schema.org/performer> <http://aksw.org/SebastianHellmann> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-18> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/lswt2025/#programm-talk-18> <http://purl.org/dc/terms/title> "tba"@de .
-<https://2025.dataweek.de/lswt2025/#programm-talk-18> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-18> <http://purl.org/dc/terms/title> "Achieving Interoperability in Energy Data Ecosystems: A Semantic Approach to Integration and Standardization"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-18> <http://purl.org/dc/terms/title> "Achieving Interoperability in Energy Data Ecosystems: A Semantic Approach to Integration and Standardization"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-18> <http://schema.org/performer> <https://dataweek.de/#AnnaLenaPeh> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-19> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/lswt2025/#programm-talk-19> <http://purl.org/dc/terms/title> "tba"@de .
-<https://2025.dataweek.de/lswt2025/#programm-talk-19> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-19> <http://purl.org/dc/terms/title> "Leveraging Knowledge Graphs and GenAI to Transform Enterprise Data into Actionable Insights"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-19> <http://purl.org/dc/terms/title> "Leveraging Knowledge Graphs and GenAI to Transform Enterprise Data into Actionable Insights"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-19> <http://schema.org/performer> <https://dataweek.de/#AndreasPawlik> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-22> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/lswt2025/#programm-talk-22> <http://purl.org/dc/terms/title> "tba"@de .
-<https://2025.dataweek.de/lswt2025/#programm-talk-22> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-22> <http://purl.org/dc/terms/title> "Project KupferDigital2 - enhancing efficiency and sustainability of the copper life cycle with semantic technology"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-22> <http://purl.org/dc/terms/title> "Project KupferDigital2 - enhancing efficiency and sustainability of the copper life cycle with semantic technology"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-22> <http://schema.org/performer> <http://aksw.org/KurtJunghanns> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-22> <http://schema.org/performer> <http://aksw.org/LarsPeterMeyer> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-23> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/lswt2025/#programm-talk-23> <http://purl.org/dc/terms/title> "tba"@de .
-<https://2025.dataweek.de/lswt2025/#programm-talk-23> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-23> <http://purl.org/dc/terms/title> "Knowledge Graphs and FAIR principles applied to Social Sciences and Humanities on SSHOC-NL project"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-23> <http://purl.org/dc/terms/title> "Knowledge Graphs and FAIR principles applied to Social Sciences and Humanities on SSHOC-NL project"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-23> <http://schema.org/performer> <http://aksw.org/AndreValdestilhas> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-24> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/lswt2025/#programm-talk-24> <http://purl.org/dc/terms/title> "tba"@de .
-<https://2025.dataweek.de/lswt2025/#programm-talk-24> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-24> <http://purl.org/dc/terms/title> "Wissensgraphen in der NFDI "@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-24> <http://purl.org/dc/terms/title> "Wissensgraphen in der NFDI "@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-24> <http://schema.org/performer> <https://dataweek.de/#DanielMietchen> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-25> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/lswt2025/#programm-talk-25> <http://purl.org/dc/terms/title> "tba"@de .
-<https://2025.dataweek.de/lswt2025/#programm-talk-25> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-25> <http://purl.org/dc/terms/title> "GraphQL Views on Top of SPARQL"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-25> <http://purl.org/dc/terms/title> "GraphQL Views on Top of SPARQL"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-25> <http://schema.org/performer> <http://aksw.org/ClausStadler> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-6> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/lswt2025/#programm-talk-6> <http://purl.org/dc/terms/title> "tba"@de .
-<https://2025.dataweek.de/lswt2025/#programm-talk-6> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-6> <http://purl.org/dc/terms/title> "Neuro-Symbolic AI for Scholarly Research: Enhancing Discovery, Reasoning, and Assistance with LLMs and Knowledge Graphs"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-6> <http://purl.org/dc/terms/title> "Neuro-Symbolic AI for Scholarly Research: Enhancing Discovery, Reasoning, and Assistance with LLMs and Knowledge Graphs"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-6> <http://schema.org/performer> <https://dataweek.de/#GollamRabby> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-7> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/lswt2025/#programm-talk-7> <http://purl.org/dc/terms/title> "tba"@de .
-<https://2025.dataweek.de/lswt2025/#programm-talk-7> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-7> <http://purl.org/dc/terms/title> "Tentris Suite"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-7> <http://purl.org/dc/terms/title> "Tentris Suite"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-7> <http://schema.org/performer> <https://dataweek.de/#AlexanderBigerl> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-8> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/lswt2025/#programm-talk-8> <http://purl.org/dc/terms/title> "tba"@de .
-<https://2025.dataweek.de/lswt2025/#programm-talk-8> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-8> <http://purl.org/dc/terms/title> "Leveraging Agentic Data Flows with Large Language Models"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-8> <http://purl.org/dc/terms/title> "Leveraging Agentic Data Flows with Large Language Models"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-8> <http://schema.org/performer> <http://aksw.org/EdgardMarx> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-9> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/lswt2025/#programm-talk-9> <http://purl.org/dc/terms/title> "tba"@de .
-<https://2025.dataweek.de/lswt2025/#programm-talk-9> <http://purl.org/dc/terms/title> "tba"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-9> <http://purl.org/dc/terms/title> "Current results on LLMs Knowledge Graph Capabilities"@de .
+<https://2025.dataweek.de/lswt2025/#programm-talk-9> <http://purl.org/dc/terms/title> "Current results on LLMs Knowledge Graph Capabilities"@en .
+<https://2025.dataweek.de/lswt2025/#programm-talk-9> <http://schema.org/performer> <http://aksw.org/JohannesFrey> .
+<https://2025.dataweek.de/lswt2025/#programm-talk-9> <http://schema.org/performer> <http://aksw.org/LarsPeterMeyer> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/lswt2025/> <http://purl.org/dc/terms/description> "Der Leipziger Semantic Web Tag (LSWT) erm\u00F6glicht seit 2009 WissenschaftlerInnen, Unternehmen und Organisationen, sich zu Themen im Bereich semantischer Technologien auszutauschen. Der 13. Leipziger Semantic Web Tag (#LSWT2025) wird am 12. Juni 2025 im Rahmen der Data Week Leipzig stattfinden. Wie auch schon in den Jahren davor werden die neuesten Entwicklungen und Trends in den Bereichen semantische Technologien und Daten pr\u00E4sentiert. Schwerpunktthemen in diesem Jahr sind:\n\n- Aktuelle Herausforderungen bei der Anwendung von Large Language Models\n- Semantische Technologien und KI f\u00FCr Industrie und Wissenschaft\n- Emerging Data Products\n- Datenkompetenz und Sicherheit, einschlie\u00DFlich Cybersicherheit im Datenmanagement\n- Wissensgraph-Anwendungsf\u00E4lle und Nachhaltigkeit\n- FAIR-Daten und Datenkataloge\n- Vernetzte Gesellschaft\n\nBitte beachten Sie, dass der LWST ausschlie\u00DFlich auf Englisch abgehalten wird.\n\nFalls Sie weitere Fragen haben, k\u00F6nnen Sie sich gern an das Organisationsteam wenden: [lswt@eccenca.com](mailto:lswt@eccenca.com)."@de .
@@ -2928,6 +2943,12 @@
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/homepage> <http://www.andreasboth.de/en> .
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/name> "Andreas Both" .
 <https://dataweek.de/#AndreasBoth> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
+<https://dataweek.de/#AndreasPawlik> <http://purl.org/dc/terms/description> "Head of Semantic Services"@de .
+<https://dataweek.de/#AndreasPawlik> <http://purl.org/dc/terms/description> "Head of Semantic Services"@en .
+<https://dataweek.de/#AndreasPawlik> <http://schema.org/affiliation> <https://www.zeiss.de/corporate/home.html> .
+<https://dataweek.de/#AndreasPawlik> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#AndreasPawlik> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#AndreasPawlik> <http://xmlns.com/foaf/0.1/name> "Andreas Pawlik" .
 <https://dataweek.de/#AndreasSorgatz-Wenzel> <http://purl.org/dc/terms/description> "Freelance BIM engineer"@en .
 <https://dataweek.de/#AndreasSorgatz-Wenzel> <http://purl.org/dc/terms/description> "freiberuflicher BIM-Ingenieur"@de .
 <https://dataweek.de/#AndreasSorgatz-Wenzel> <http://schema.org/affiliation> <http://www.b4dt.de/> .
@@ -2957,6 +2978,14 @@
 <https://dataweek.de/#AnjaBrueckner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AnjaBrueckner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AnjaBrueckner> <http://xmlns.com/foaf/0.1/name> "Anja Brückner" .
+<https://dataweek.de/#AnnaLenaPeh> <http://purl.org/dc/terms/description> "Wissenschaftliche Leitung Energieinformatik"@de .
+<https://dataweek.de/#AnnaLenaPeh> <http://purl.org/dc/terms/description> "Wissenschaftliche Leitung Energieinformatik"@en .
+<https://dataweek.de/#AnnaLenaPeh> <http://schema.org/affiliation> <urn:url-encoded-value:www.iosb-ast.fraunhofer.de> .
+<https://dataweek.de/#AnnaLenaPeh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#AnnaLenaPeh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#AnnaLenaPeh> <http://www.w3.org/2004/02/skos/core#prefLabel> "M.Sc. Anna-Lena Peh" .
+<https://dataweek.de/#AnnaLenaPeh> <http://xmlns.com/foaf/0.1/name> "Anna-Lena Peh" .
+<https://dataweek.de/#AnnaLenaPeh> <http://xmlns.com/foaf/0.1/title> "M.Sc." .
 <https://dataweek.de/#AnneMollen> <http://purl.org/dc/terms/description> "Senior Policy & Advocacy Manager"@de .
 <https://dataweek.de/#AnneMollen> <http://purl.org/dc/terms/description> "Senior Policy & Advocacy Manager"@en .
 <https://dataweek.de/#AnneMollen> <http://schema.org/affiliation> <https://algorithmwatch.org> .
@@ -3237,6 +3266,9 @@
 <https://dataweek.de/#DanielKrueger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#DanielKrueger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#DanielKrueger> <http://xmlns.com/foaf/0.1/name> "Daniel Krüger" .
+<https://dataweek.de/#DanielMietchen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#DanielMietchen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#DanielMietchen> <http://xmlns.com/foaf/0.1/name> "Daniel Mietchen" .
 <https://dataweek.de/#DanielProbst> <http://purl.org/dc/terms/description> "Leadership Coach, Change Facilitator and Innovation Strategy Consultant"@de .
 <https://dataweek.de/#DanielProbst> <http://purl.org/dc/terms/description> "Leadership Coach, Change Facilitator and Innovation Strategy Consultant"@en .
 <https://dataweek.de/#DanielProbst> <http://schema.org/affiliation> <https://www.verwegener-trefflich.de/> .
@@ -5532,6 +5564,11 @@
 <https://twitter.com/mxkindermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://twitter.com/white_gecko/> <http://rdfs.org/sioc/ns#member_of> <https://twitter.com/> .
 <https://twitter.com/white_gecko/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/sioc/ns#UserAccount> .
+<https://ucds.cs.vu.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://ucds.cs.vu.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://ucds.cs.vu.nl/> <http://www.w3.org/2000/01/rdf-schema#label> "User-Centric Data Science (UCDS) - Vrije Universiteit Amsterdam"@de .
+<https://ucds.cs.vu.nl/> <http://www.w3.org/2000/01/rdf-schema#label> "User-Centric Data Science (UCDS) - Vrije Universiteit Amsterdam"@en .
+<https://ucds.cs.vu.nl/> <http://xmlns.com/foaf/0.1/homepage> <https://ucds.cs.vu.nl/> .
 <https://wilo.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://wilo.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://wilo.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Wilo SE"@de .
@@ -6309,6 +6346,11 @@
 <https://www.zbw.eu/de/> <http://www.w3.org/2000/01/rdf-schema#label> "Leibniz-Informationszentrum Wirtschaft"@de .
 <https://www.zbw.eu/de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.zbw.eu/de/> .
 <https://www.zbw.eu/de/forschung/science-2-0/fidan-limani> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.zeiss.de/corporate/home.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.zeiss.de/corporate/home.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.zeiss.de/corporate/home.html> <http://www.w3.org/2000/01/rdf-schema#label> "Carl ZEISS AG"@de .
+<https://www.zeiss.de/corporate/home.html> <http://www.w3.org/2000/01/rdf-schema#label> "Carl ZEISS AG"@en .
+<https://www.zeiss.de/corporate/home.html> <http://xmlns.com/foaf/0.1/homepage> <https://www.zeiss.de/corporate/home.html> .
 <https://www.zentrum-ilmenau.digital/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.zentrum-ilmenau.digital/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.zentrum-ilmenau.digital/> <http://www.w3.org/2000/01/rdf-schema#label> "Mittelstand-Digital Zentrum Ilmenau"@de .
@@ -6335,6 +6377,11 @@
 <urn:url-encoded-value:www.ericsson.com%2Fde> <http://www.w3.org/2000/01/rdf-schema#label> "Ericsson"@de .
 <urn:url-encoded-value:www.ericsson.com%2Fde> <http://www.w3.org/2000/01/rdf-schema#label> "Ericsson"@en .
 <urn:url-encoded-value:www.ericsson.com%2Fde> <http://xmlns.com/foaf/0.1/homepage> <urn:url-encoded-value:www.ericsson.com%2Fde> .
+<urn:url-encoded-value:www.iosb-ast.fraunhofer.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<urn:url-encoded-value:www.iosb-ast.fraunhofer.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<urn:url-encoded-value:www.iosb-ast.fraunhofer.de> <http://www.w3.org/2000/01/rdf-schema#label> "Institutsteil Angewandte Systemtechnik (AST) des Fraunhofer IOSB"@de .
+<urn:url-encoded-value:www.iosb-ast.fraunhofer.de> <http://www.w3.org/2000/01/rdf-schema#label> "Institutsteil Angewandte Systemtechnik (AST) des Fraunhofer IOSB"@en .
+<urn:url-encoded-value:www.iosb-ast.fraunhofer.de> <http://xmlns.com/foaf/0.1/homepage> <urn:url-encoded-value:www.iosb-ast.fraunhofer.de> .
 <urn:url-encoded-value:www.kge.uni-kiel.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <urn:url-encoded-value:www.kge.uni-kiel.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <urn:url-encoded-value:www.kge.uni-kiel.de> <http://www.w3.org/2000/01/rdf-schema#label> "Christian-Albrechts-Universität zu Kiel"@de .
