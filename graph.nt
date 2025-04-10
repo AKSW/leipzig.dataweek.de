@@ -252,6 +252,11 @@
 <http://lexvo.org/id/iso639-3/eng> <http://www.w3.org/2000/01/rdf-schema#label> "English"@en .
 <http://lexvo.org/id/iso639-3/eng> <http://www.w3.org/2004/02/skos/core#altLabel> "en" .
 <http://lexvo.org/id/iso639-3/eng> <http://www.w3.org/2004/02/skos/core#prefLabel> "English" .
+<http://pichlerconsult.at/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://pichlerconsult.at/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://pichlerconsult.at/> <http://www.w3.org/2000/01/rdf-schema#label> "pichlerConsult e.U."@de .
+<http://pichlerconsult.at/> <http://www.w3.org/2000/01/rdf-schema#label> "pichlerConsult e.U."@en .
+<http://pichlerconsult.at/> <http://xmlns.com/foaf/0.1/homepage> <http://pichlerconsult.at/> .
 <http://schema.org/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Ort"@de .
 <http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "Place"@en .
@@ -3662,6 +3667,14 @@
 <https://dataweek.de/#FranziskaTheurich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#FranziskaTheurich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#FranziskaTheurich> <http://xmlns.com/foaf/0.1/name> "Franziska Theurich" .
+<https://dataweek.de/#FriedrichPichler> <http://purl.org/dc/terms/description> "Geschäftsführer"@de .
+<https://dataweek.de/#FriedrichPichler> <http://purl.org/dc/terms/description> "Managing Director"@en .
+<https://dataweek.de/#FriedrichPichler> <http://schema.org/affiliation> <http://pichlerconsult.at/> .
+<https://dataweek.de/#FriedrichPichler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#FriedrichPichler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#FriedrichPichler> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dipl-Ing. Friedrich Pichler" .
+<https://dataweek.de/#FriedrichPichler> <http://xmlns.com/foaf/0.1/name> "Friedrich Pichler" .
+<https://dataweek.de/#FriedrichPichler> <http://xmlns.com/foaf/0.1/title> "Dipl-Ing." .
 <https://dataweek.de/#GeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@de .
 <https://dataweek.de/#GeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@en .
 <https://dataweek.de/#GeorgGeiger> <http://purl.org/dc/terms/description> "SAFe Product Owner for SW Entitlement Management and DevOps Delivery Orchestration at Nokia"@de .
@@ -4711,6 +4724,14 @@
 <https://dataweek.de/#RaanaSahebNassagh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#RaanaSahebNassagh> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/raana-saheb-nassagh/> .
 <https://dataweek.de/#RaanaSahebNassagh> <http://xmlns.com/foaf/0.1/name> "Raana Saheb Nassagh" .
+<https://dataweek.de/#RainerRosegger> <http://purl.org/dc/terms/description> "Geschäftsführer"@de .
+<https://dataweek.de/#RainerRosegger> <http://purl.org/dc/terms/description> "Managing Director"@en .
+<https://dataweek.de/#RainerRosegger> <http://schema.org/affiliation> <https://www.scan.co.at/> .
+<https://dataweek.de/#RainerRosegger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#RainerRosegger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#RainerRosegger> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mag. Rainer Rosegger" .
+<https://dataweek.de/#RainerRosegger> <http://xmlns.com/foaf/0.1/name> "Rainer Rosegger" .
+<https://dataweek.de/#RainerRosegger> <http://xmlns.com/foaf/0.1/title> "Mag." .
 <https://dataweek.de/#RamonaVoshage> <http://purl.org/dc/terms/description> "Leibniz-Institut für ökologische Raumentwicklung (IÖR)"@de .
 <https://dataweek.de/#RamonaVoshage> <http://purl.org/dc/terms/description> "Leibniz-Institut für ökologische Raumentwicklung (IÖR)"@en .
 <https://dataweek.de/#RamonaVoshage> <http://schema.org/affiliation> <https://ioer-fdz.de/> .
@@ -5189,6 +5210,12 @@
 <https://dataweek.de/#Tom%20Potutschek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#Tom%20Potutschek> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/tom-potutschek-45983b148/> .
 <https://dataweek.de/#Tom%20Potutschek> <http://xmlns.com/foaf/0.1/name> "Tom Potutschek" .
+<https://dataweek.de/#TomFuerstner> <http://purl.org/dc/terms/description> "Co-Founder"@de .
+<https://dataweek.de/#TomFuerstner> <http://purl.org/dc/terms/description> "Co-Founder"@en .
+<https://dataweek.de/#TomFuerstner> <http://schema.org/affiliation> <https://www.riddleandcode.com/> .
+<https://dataweek.de/#TomFuerstner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#TomFuerstner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#TomFuerstner> <http://xmlns.com/foaf/0.1/name> "Tom Fürstner" .
 <https://dataweek.de/#TomRichardVargis> <http://purl.org/dc/terms/description> "Technische Universität Dresden, Germany"@de .
 <https://dataweek.de/#TomRichardVargis> <http://purl.org/dc/terms/description> "Technische Universität Dresden, Germany"@en .
 <https://dataweek.de/#TomRichardVargis> <http://schema.org/affiliation> <https://tu-dresden.de/> .
@@ -6322,6 +6349,11 @@
 <https://www.pwc.de/en.html> <http://www.w3.org/2000/01/rdf-schema#label> "PricewaterhouseCoopers GmbH"@de .
 <https://www.pwc.de/en.html> <http://www.w3.org/2000/01/rdf-schema#label> "PricewaterhouseCoopers GmbH"@en .
 <https://www.pwc.de/en.html> <http://xmlns.com/foaf/0.1/homepage> <https://www.pwc.de/en.html> .
+<https://www.riddleandcode.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.riddleandcode.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.riddleandcode.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Riddle&Code"@de .
+<https://www.riddleandcode.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Riddle&Code"@en .
+<https://www.riddleandcode.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.riddleandcode.com/> .
 <https://www.sap.com/germany/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.sap.com> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.sap.com> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
@@ -6333,6 +6365,11 @@
 <https://www.saw-leipzig.de/de> <http://www.w3.org/2000/01/rdf-schema#label> " Sächsische Akademie der Wissenschaften"@en .
 <https://www.saw-leipzig.de/de> <http://www.w3.org/2000/01/rdf-schema#label> "Sächsische Akademie der Wissenschaften"@de .
 <https://www.saw-leipzig.de/de> <http://xmlns.com/foaf/0.1/homepage> <https://www.saw-leipzig.de/de> .
+<https://www.scan.co.at/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.scan.co.at/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.scan.co.at/> <http://www.w3.org/2000/01/rdf-schema#label> "agentur scan"@de .
+<https://www.scan.co.at/> <http://www.w3.org/2000/01/rdf-schema#label> "agentur scan"@en .
+<https://www.scan.co.at/> <http://xmlns.com/foaf/0.1/homepage> <https://www.scan.co.at/> .
 <https://www.scc.kit.edu/index.php> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.scc.kit.edu/index.php> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.scc.kit.edu/index.php> <http://www.w3.org/2000/01/rdf-schema#label> "Karlsruhe Institut für Technologie, Scientific Computing Center"@de .
