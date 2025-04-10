@@ -1945,6 +1945,7 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-45> <http://purl.org/dc/terms/title> "MaibornWolff: KI in der Praxis – Einblicke aus dem Unternehmensalltag"@de .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/endTime> "18:35:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/performer> <https://dataweek.de/#AlexanderHofmann> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/startTime> "18:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-46> <http://purl.org/dc/terms/date> "2025-06-15"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1954,6 +1955,7 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-46> <http://purl.org/dc/terms/title> "Graphdatenbanken für KI-Anwendungen – Use Cases mit Neo4j"@de .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/endTime> "18:55:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/performer> <https://dataweek.de/#KevinGomez> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/startTime> "18:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-4> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3975,6 +3977,13 @@
 <https://dataweek.de/#KenWenzel> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Ken Wenzel" .
 <https://dataweek.de/#KenWenzel> <http://xmlns.com/foaf/0.1/name> "Ken Wenzel" .
 <https://dataweek.de/#KenWenzel> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#KevinGomez> <http://purl.org/dc/terms/description> "Sales Engineer"@de .
+<https://dataweek.de/#KevinGomez> <http://purl.org/dc/terms/description> "Sales Engineer"@en .
+<https://dataweek.de/#KevinGomez> <http://schema.org/affiliation> <https://neo4j.com/> .
+<https://dataweek.de/#KevinGomez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#KevinGomez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#KevinGomez> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/kevin-gomez-a36ab2152/?originalSubdomain=de> .
+<https://dataweek.de/#KevinGomez> <http://xmlns.com/foaf/0.1/name> "Kevin Gomez" .
 <https://dataweek.de/#KevinTrebing> <http://purl.org/dc/terms/description> "Senior Data Scientist"@de .
 <https://dataweek.de/#KevinTrebing> <http://purl.org/dc/terms/description> "Senior Data Scientist"@en .
 <https://dataweek.de/#KevinTrebing> <http://schema.org/affiliation> <https://www.plan-d.com/> .
@@ -6135,6 +6144,7 @@
 <https://www.linkedin.com/in/johannes-sautter-7069a82a4/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/judith-fauth-5b5137bb/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/julia-friedrich-29461b242/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.linkedin.com/in/kevin-gomez-a36ab2152/?originalSubdomain=de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/kevin-trebing/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/lukas-koch-9474b9105/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.linkedin.com/in/magdalena-scharf/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
