@@ -2081,17 +2081,15 @@
 <https://2025.dataweek.de/team-generalchair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/MichaelMartin> .
 <https://2025.dataweek.de/team-generalchair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@de .
 <https://2025.dataweek.de/team-generalchair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@en .
-<https://2025.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <http://aksw.org/KurtJunghanns> .
-<https://2025.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_11> <http://aksw.org/NormanRadtke> .
-<https://2025.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_12> <http://aksw.org/SebastianTramp> .
 <https://2025.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/JuliaHolze> .
 <https://2025.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#NievesSande> .
 <https://2025.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://dataweek.de/#MirkoMuehlpfort> .
 <https://2025.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://dataweek.de/#KatrinMehler> .
-<https://2025.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://dataweek.de/#JanaBendigs> .
-<https://2025.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <http://aksw.org/MichaelMartin> .
-<https://2025.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://dataweek.de/#SebastianBoehm> .
-<https://2025.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <http://aksw.org/NatanaelArndt> .
+<https://2025.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://aksw.org/MichaelMartin> .
+<https://2025.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://dataweek.de/#SebastianBoehm> .
+<https://2025.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <http://aksw.org/NormanRadtke> .
+<https://2025.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <http://aksw.org/SebastianTramp> .
+<https://2025.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://dataweek.de/#LucySonnet> .
 <https://2025.dataweek.de/team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam"@de .
 <https://2025.dataweek.de/team> <http://www.w3.org/2000/01/rdf-schema#label> "Organization Team"@en .
 <https://2025.dataweek.de/tickets> <http://purl.org/dc/terms/description> "Tagestickets k\u00F6nnen hier erworben werden: [https://www.conftool.net/dataweek2025/](https://www.conftool.net/dataweek2025/).\n\nSie m\u00FCssen ein Ticket kaufen, um an der Data Week Leipzig teilnehmen zu k\u00F6nnen. Studierende k\u00F6nnen ihre Studienbescheinigung im Ticketshop hochladen und erhalten nach Pr\u00FCfung ein verg\u00FCnstigtes Ticket. Wir stellen ein begrenztes Kontigent bereit.\n\nWir freuen uns auf Ihre Teilnahme!"@de .
@@ -4165,6 +4163,10 @@
 <https://dataweek.de/#LucySchmidt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#LucySchmidt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#LucySchmidt> <http://xmlns.com/foaf/0.1/name> "Lucy Schmidt" .
+<https://dataweek.de/#LucySonnet> <http://schema.org/affiliation> <https://scads.ai/> .
+<https://dataweek.de/#LucySonnet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#LucySonnet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#LucySonnet> <http://xmlns.com/foaf/0.1/name> "Lucy Sonnet" .
 <https://dataweek.de/#LukasKoch-Ruchay> <http://purl.org/dc/terms/description> "DKSR"@de .
 <https://dataweek.de/#LukasKoch-Ruchay> <http://purl.org/dc/terms/description> "DKSR"@en .
 <https://dataweek.de/#LukasKoch-Ruchay> <http://schema.org/affiliation> <https://www.dksr.city/> .
