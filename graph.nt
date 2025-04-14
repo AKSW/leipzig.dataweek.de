@@ -1847,7 +1847,10 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://schema.org/performer> <https://dataweek.de/#AlmudenaGarcia-Garcia> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://schema.org/performer> <https://dataweek.de/#DanielDoktor> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://schema.org/performer> <https://dataweek.de/#JianPeng> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://schema.org/performer> <https://dataweek.de/#MaximilianLange> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://schema.org/startTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-6> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3034,6 +3037,13 @@
 <https://dataweek.de/#AljoschaBurdchardt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Aljoscha Burchardt" .
 <https://dataweek.de/#AljoschaBurdchardt> <http://xmlns.com/foaf/0.1/name> "Aljoscha Burchardt" .
 <https://dataweek.de/#AljoschaBurdchardt> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#AlmudenaGarcia-Garcia> <http://purl.org/dc/terms/description> "Academic Staff"@de .
+<https://dataweek.de/#AlmudenaGarcia-Garcia> <http://purl.org/dc/terms/description> "Academic Staff"@en .
+<https://dataweek.de/#AlmudenaGarcia-Garcia> <http://schema.org/affiliation> <https://www.ufz.de> .
+<https://dataweek.de/#AlmudenaGarcia-Garcia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#AlmudenaGarcia-Garcia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#AlmudenaGarcia-Garcia> <http://xmlns.com/foaf/0.1/homepage> <https://www.ufz.de/index.php?en=47777> .
+<https://dataweek.de/#AlmudenaGarcia-Garcia> <http://xmlns.com/foaf/0.1/name> "Almudena García-García" .
 <https://dataweek.de/#AlpoTurunen> <http://schema.org/affiliation> <https://www.maanmittauslaitos.fi/en> .
 <https://dataweek.de/#AlpoTurunen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AlpoTurunen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -3394,6 +3404,15 @@
 <https://dataweek.de/#DanielBrenn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#DanielBrenn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#DanielBrenn> <http://xmlns.com/foaf/0.1/name> "Daniel Brenn" .
+<https://dataweek.de/#DanielDoktor> <http://purl.org/dc/terms/description> "Head of working group"@de .
+<https://dataweek.de/#DanielDoktor> <http://purl.org/dc/terms/description> "Head of working group"@en .
+<https://dataweek.de/#DanielDoktor> <http://schema.org/affiliation> <https://www.ufz.de> .
+<https://dataweek.de/#DanielDoktor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#DanielDoktor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#DanielDoktor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.  Daniel Doktor" .
+<https://dataweek.de/#DanielDoktor> <http://xmlns.com/foaf/0.1/homepage> <https://www.ufz.de/index.php?en=37589> .
+<https://dataweek.de/#DanielDoktor> <http://xmlns.com/foaf/0.1/name> "Daniel Doktor" .
+<https://dataweek.de/#DanielDoktor> <http://xmlns.com/foaf/0.1/title> "Dr. " .
 <https://dataweek.de/#DanielGerber> <http://purl.org/dc/terms/description> "Deputy Head of Competence Centre at InfAI"@en .
 <https://dataweek.de/#DanielGerber> <http://purl.org/dc/terms/description> "Stellvertretender Kompetenzzentrumsleiter am InfAI"@de .
 <https://dataweek.de/#DanielGerber> <http://schema.org/affiliation> <https://infai.org/> .
@@ -4445,6 +4464,15 @@
 <https://dataweek.de/#MaximilianBarth> <http://xmlns.com/foaf/0.1/name> "Maximilian Barth" .
 <https://dataweek.de/#MaximilianBarth> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Maximilian Barth is responsible for strategic partnerships and business development at Stackfuel, as well as network manager for the BMBF funding project \"Toolbox Datenkompetenz\". After studying International Business at Maastricht University, with a focus on strategy and finance, he started his career as Business Development Manager at a digital health start-up in Berlin. At the beginning of 2022, Maximilian Barth started at Stackfuel, with the idea that a comprehensive and effective handling of data is essential for the future."@en .
 <https://dataweek.de/#MaximilianBarth> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Maximilian Barth ist zuständig für die Bereiche strategische Partnerschaften und Business Development bei Stackfuel, sowie als Netzwerkmanager für das Förderprojekt des BMBF „Toolbox Datenkompetenz“ tätig. Nach dem International Business Studium an der Maastricht University, mit den Schwerpunkten Strategie und Finanzen, startete er seine Karriere als Business Development Manager bei einem Digital Health Start-up in Berlin. Anfang 2022 startete Maximilian Barth bei Stackfuel, mit der Überzeugung das ein flächendeckender und effektiver Umgang mit Daten für die Zukunft essenziell ist"@de .
+<https://dataweek.de/#MaximilianLange> <http://purl.org/dc/terms/description> "Scientific Researcher"@en .
+<https://dataweek.de/#MaximilianLange> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
+<https://dataweek.de/#MaximilianLange> <http://schema.org/affiliation> <https://www.ufz.de> .
+<https://dataweek.de/#MaximilianLange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MaximilianLange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MaximilianLange> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Maximilian Lange" .
+<https://dataweek.de/#MaximilianLange> <http://xmlns.com/foaf/0.1/homepage> <https://www.ufz.de/index.php?de=37615> .
+<https://dataweek.de/#MaximilianLange> <http://xmlns.com/foaf/0.1/name> "Maximilian Lange" .
+<https://dataweek.de/#MaximilianLange> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#MaximilianPensel> <http://purl.org/dc/terms/description> "Data Scientist"@de .
 <https://dataweek.de/#MaximilianPensel> <http://purl.org/dc/terms/description> "Data Scientist"@en .
 <https://dataweek.de/#MaximilianPensel> <http://schema.org/affiliation> <https://www.alexanderthamm.com/> .
@@ -6462,7 +6490,10 @@
 <https://www.ubindr.nl/> <http://www.w3.org/2000/01/rdf-schema#label> "Ubindr"@en .
 <https://www.ubindr.nl/> <http://xmlns.com/foaf/0.1/homepage> <https://www.ubindr.nl/> .
 <https://www.ubindr.nl/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/ubindr.png" .
+<https://www.ufz.de/index.php?de=37615> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.ufz.de/index.php?en=37589> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.ufz.de/index.php?en=47410> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.ufz.de/index.php?en=47777> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.ufz.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.ufz.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.ufz.de> <http://www.w3.org/2000/01/rdf-schema#label> "Helmholtz Centre for Environmental Research GmbH - UFZ "@en .
