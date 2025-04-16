@@ -2708,6 +2708,17 @@
 <https://2025.dataweek.de/workshops/#programm-talk-11> <http://schema.org/performer> <https://dataweek.de/#SandraSchumann> .
 <https://2025.dataweek.de/workshops/#programm-talk-11> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-talk-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/workshops/#programm-talk-31> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/workshops/#programm-talk-31> <http://purl.org/dc/terms/description> "In dieser Session werden digitale Tools vorgestellt, die die Interaktion zwischen Bürgerinnen und Bürgern und der Verwaltung fördern. Diese Werkzeuge haben zum Ziel, die Akzeptanz von Verwaltungsprozessen zu steigern und das Verständnis für komplexe Themen zu erleichtern. Es wird u. a. besprochen: Wie kann Künstliche Intelligenz beim Verständnis behördlicher Bescheide unterstützen? Wie kann die Stadt Leipzig mit Bürger/-innen zur Energiewende in den Dialog treten? Wie können digitale Tools und Technologien die Bürgerkommunikation verbessern?"@de .
+<https://2025.dataweek.de/workshops/#programm-talk-31> <http://purl.org/dc/terms/description> "This session will present digital tools that promote interaction between citizens and the administration. These tools aim to increase the acceptance of administrative processes and make it easier to understand complex issues. Among other things, the following will be discussed: How can artificial intelligence support the understanding of official decisions? How can the city of Leipzig enter into dialog with citizens on the energy transition? How can digital tools and technologies improve citizen communication?"@en .
+<https://2025.dataweek.de/workshops/#programm-talk-31> <http://purl.org/dc/terms/title> "Strengthening understanding: Digital tools for citizen communication"@en .
+<https://2025.dataweek.de/workshops/#programm-talk-31> <http://purl.org/dc/terms/title> "Verständnis stärken: Digitale Tools für Bürgerkommunikation"@de .
+<https://2025.dataweek.de/workshops/#programm-talk-31> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/workshops/#programm-talk-31> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-talk-31> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2025.dataweek.de/workshops/#programm-talk-31> <http://schema.org/performer> <https://dataweek.de/#SashaBecker> .
+<https://2025.dataweek.de/workshops/#programm-talk-31> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/workshops/#programm-talk-31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/2025-06-10/> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/workshops/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2025.dataweek.de/workshops/2025-06-10/> <http://www.w3.org/2000/01/rdf-schema#label> "Dienstag"@de .
@@ -2792,6 +2803,7 @@
 <https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-session-7> .
 <https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-session-8> .
 <https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-session-9> .
+<https://2025.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2025.dataweek.de/workshops/#programm-talk-31> .
 <https://2025.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2025.dataweek.de/workshops/> .
 <https://2025.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2025.dataweek.de/workshops/2025-06-10/> .
 <https://2025.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2025.dataweek.de/workshops/2025-06-11/> .
@@ -4291,6 +4303,7 @@
 <https://dataweek.de/#MarcusBinner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MarcusBinner> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Marcus Binner" .
 <https://dataweek.de/#MarcusBinner> <http://xmlns.com/foaf/0.1/name> "Marcus Binner" .
+<https://dataweek.de/#MarcusBinner> <http://xmlns.com/foaf/0.1/name> "Marcus Wollschläger" .
 <https://dataweek.de/#MarcusBinner> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#MariaEstherVidal> <http://schema.org/affiliation> <https://www.tib.eu/> .
 <https://dataweek.de/#MariaEstherVidal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -4507,7 +4520,6 @@
 <https://dataweek.de/#MichaelFischer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MichaelFischer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MichaelFischer> <http://xmlns.com/foaf/0.1/name> "Michael Fischer" .
-<https://dataweek.de/#MiguelD.Mahecha> <http://purl.org/dc/terms/description> "#"@en .
 <https://dataweek.de/#MiguelD.Mahecha> <http://purl.org/dc/terms/description> "Universität Leipzig"@de .
 <https://dataweek.de/#MiguelD.Mahecha> <http://schema.org/affiliation> <https://www.physes.uni-leipzig.de/en/ief> .
 <https://dataweek.de/#MiguelD.Mahecha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -4518,6 +4530,10 @@
 <https://dataweek.de/#MiguelD.Mahecha> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <https://dataweek.de/#MiguelD.Mahecha> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Miguel Mahecha is Professor of Environmental Data Science and Remote Sensing at the University of Leipzig and the Remote Sensing Centre for Earth System Research. His main scientific interest is understanding ecosystem responses to climate extremes and human-environment relationships during climate extremes. He also works on understanding macro-ecological dynamics and ecosystem functioning. His research is based on data-driven methods and high-dimensional Earth observations. In recent years, he has co-developed the concept of the Earth System Data Cube, which combines empirical methods with theoretical understanding to understand complex interactions in the Earth system. Miguel Mahecha is a member of the German Centre for Integrative Biodiversity Research (iDiv) and PI in the Centre for Scalable Data Analytics and Artificial Intelligence. He is a Fellow of the European Laboratory for Learning and Intelligent Systems."@en .
 <https://dataweek.de/#MiguelD.Mahecha> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Miguel Mahecha ist Professor für Umweltdatenwissenschaften und Fernerkundung an der Universität Leipzig und am Fernerkundungszentrum für Erdsystemforschung. Sein wissenschaftliches Hauptinteresse gilt dem Verständnis der Reaktionen von Ökosystemen auf Klimaextreme und den Beziehungen zwischen Mensch und Umwelt während Klimaextremen. Außerdem beschäftigt er sich mit dem Verständnis der makroökologischen Dynamik und der Funktionsweise von Ökosystemen. Seine Forschung basiert auf datengesteuerten Methoden und hochdimensionalen Erdbeobachtungen. In den letzten Jahren hat er das Konzept des Earth System Data Cube mitentwickelt, das empirische Methoden mit theoretischem Verständnis verbindet, um komplexe Wechselwirkungen im Erdsystem zu verstehen. Miguel Mahecha ist Mitglied des Deutschen Zentrums für integrative Biodiversitätsforschung (iDiv) und PI im Zentrum für skalierbare Datenanalyse und künstliche Intelligenz. Er ist Fellow des European Laboratory for Learning and Intelligent Systems."@de .
+<https://dataweek.de/#MikeReichmuth> <http://schema.org/affiliation> <https://www.leipzig.de/bauen-und-wohnen/stadtentwicklung/> .
+<https://dataweek.de/#MikeReichmuth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MikeReichmuth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MikeReichmuth> <http://xmlns.com/foaf/0.1/name> "Mike Reichmuth" .
 <https://dataweek.de/#MilouJansen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MilouJansen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MilouJansen> <http://xmlns.com/foaf/0.1/name> "Milou Jansen" .
@@ -5150,6 +5166,10 @@
 <https://dataweek.de/#ThomasBurghardt> <http://xmlns.com/foaf/0.1/name> "Dr. Thomas Burghardt" .
 <https://dataweek.de/#ThomasBurghardt> <http://xmlns.com/foaf/0.1/name> "Thomas Burghardt" .
 <https://dataweek.de/#ThomasBurghardt> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#ThomasGroessel> <http://schema.org/affiliation> <https://appsfactory.de/> .
+<https://dataweek.de/#ThomasGroessel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#ThomasGroessel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#ThomasGroessel> <http://xmlns.com/foaf/0.1/name> "Thomas Grössel" .
 <https://dataweek.de/#ThomasGrzeschik> <http://purl.org/dc/terms/description> "Traffic Management at City of Leipzig, Office of Transportation and Public Works Dpt. Road /Traffic Management"@en .
 <https://dataweek.de/#ThomasGrzeschik> <http://purl.org/dc/terms/description> "Verkehrsmanagement bei Stadt Leipzig, Verkehrs- und Tiefbauamt\nAbt. Straßenverkehrsbehörde/Verkehrsmanagement"@de .
 <https://dataweek.de/#ThomasGrzeschik> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> .
@@ -5839,6 +5859,11 @@
 <https://www.alexanderthamm.com/> <http://xmlns.com/foaf/0.1/homepage> <https://alexanderthamm.com/> .
 <https://www.alexanderthamm.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.alexanderthamm.com/> .
 <https://www.alexanderthamm.com/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/at.png" .
+<https://www.appsfactory.de/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.appsfactory.de/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.appsfactory.de/en> <http://www.w3.org/2000/01/rdf-schema#label> "Appsfactory GmbH"@de .
+<https://www.appsfactory.de/en> <http://www.w3.org/2000/01/rdf-schema#label> "Appsfactory GmbH"@en .
+<https://www.appsfactory.de/en> <http://xmlns.com/foaf/0.1/homepage> <https://www.appsfactory.de/en> .
 <https://www.astrazeneca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.astrazeneca.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.astrazeneca.com/> <http://www.w3.org/2000/01/rdf-schema#label> "AstraZeneca"@de .
@@ -6165,7 +6190,11 @@
 <https://www.l.de/verkehrsbetriebe/> <http://www.w3.org/2000/01/rdf-schema#label> "Leipziger Verkehrsbetriebe"@de .
 <https://www.l.de/verkehrsbetriebe/> <http://xmlns.com/foaf/0.1/homepage> <https://www.l.de/verkehrsbetriebe/> .
 <https://www.lecos.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://www.lecos.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.lecos.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.lecos.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Lecos GmbH" .
+<https://www.lecos.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Lecos GmbH"@de .
+<https://www.lecos.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Lecos GmbH"@en .
 <https://www.lecos.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.lecos.de/> .
 <https://www.lecos.de/> <http://xmlns.com/foaf/0.1/logo> <https://dataweek.de/#LogoLecos> .
 <https://www.leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
