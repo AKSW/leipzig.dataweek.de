@@ -81,8 +81,8 @@ DESCRIPTION:The City of Leipzig promotes innovative business models and su
  pports founders on their path to self-employment. On June 10\, 2025\, star
  t-up consultant Philipp Knorr will be available at Leipzig's New City Hall
   to answer questions and provide information on all aspects of starting a 
- business. Registration will soon be possible via the city's appointment bo
- oking tool. 
+ business. Registration at dataweek@infai.org is required in advance. A spo
+ ntaneous consultation appointment cannot be guaranteed.
 LOCATION:Room 360
 END:VEVENT
 BEGIN:VEVENT
@@ -114,8 +114,8 @@ DESCRIPTION:The City of Leipzig promotes innovative business models and su
  pports founders on their path to self-employment. On June 10\, 2025\, star
  t-up consultant Philipp Knorr will be available at Leipzig's New City Hall
   to answer questions and provide information on all aspects of starting a 
- business. Registration will soon be possible via the city's appointment bo
- oking tool. 
+ business. Registration at dataweek@infai.org is required in advance. A spo
+ ntaneous consultation appointment cannot be guaranteed.
 LOCATION:Room 360
 END:VEVENT
 BEGIN:VEVENT
@@ -157,8 +157,8 @@ DESCRIPTION:The City of Leipzig promotes innovative business models and su
  pports founders on their path to self-employment. On June 10\, 2025\, star
  t-up consultant Philipp Knorr will be available at Leipzig's New City Hall
   to answer questions and provide information on all aspects of starting a 
- business. Registration will soon be possible via the city's appointment bo
- oking tool. 
+ business. Registration at dataweek@infai.org is required in advance. A spo
+ ntaneous consultation appointment cannot be guaranteed.
 LOCATION:Room 360
 END:VEVENT
 BEGIN:VEVENT
@@ -216,24 +216,29 @@ DTEND;TZID=Europe/Berlin:20250610T160000
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Opening by the organization team
+DTSTART;TZID=Europe/Berlin:20250610T100000
+DTEND;TZID=Europe/Berlin:20250610T102000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Greetings from the City of Leipzig
+DTSTART;TZID=Europe/Berlin:20250610T102000
+DTEND;TZID=Europe/Berlin:20250610T104000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Greetings from the University of Leipzig
+DTSTART;TZID=Europe/Berlin:20250610T104000
+DTEND;TZID=Europe/Berlin:20250610T110000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Opening keynote for Data Week 2025 - Live translation available in
   English. 
 DTSTART;TZID=Europe/Berlin:20250610T110000
 DTEND;TZID=Europe/Berlin:20250610T113000
 LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Urban Analytics\, Urban Models & Urban AI - The landscape of data-
- driven approaches in urban and regional development (organized by DKSR)
-DTSTART;TZID=Europe/Berlin:20250610T123000
-DTEND;TZID=Europe/Berlin:20250610T140000
-DESCRIPTION:In this workshop\, we will explore the question of what urban 
- data science can (or cannot) achieve in urban development.\n\nParticipants
-  will be given an overview of the sub-areas of urban data science and thei
- r possible applications in areas such as sustainable mobility or resilient
-  cities. The workshop is primarily aimed at municipal representatives and 
- anyone who works with urban data or is interested in it. 
-LOCATION:Room 270
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:From Fear to Future: Designing a data protection-compliant AI infr
@@ -246,7 +251,7 @@ DESCRIPTION:Artificial intelligence has long been part of our everyday liv
  ur interactive workshop\, we compare cloud and on-premise models\, highlig
  ht best practices and show what is important when it comes to data protect
  ion and compliance with legal regulations.
-LOCATION:Room 495
+LOCATION:Room 270
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI for critical infrastructure: open source solutions for administ
@@ -545,20 +550,6 @@ DESCRIPTION:Data visualizations make it possible to present complex data i
 LOCATION:Room 260
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AI for everyday work - practical tools and sharing experiences (or
- ganized by the KMI project at InfAI)
-DTSTART;TZID=Europe/Berlin:20250611T110000
-DTEND;TZID=Europe/Berlin:20250611T123000
-DESCRIPTION:This workshop provides a practical demonstration of how AI too
- ls can make everyday work easier. Participants will gain contextual knowle
- dge and the basics of generative AI such as ChatGPT and the use of other f
- reely accessible AI tools. They will also learn about ‘prompting’ tech
- niques to better understand how they work. In the subsequent practical par
- t\, participants can interact with the AI tools and acquire skills that ca
- n be integrated into various areas of everyday work.
-LOCATION:Room 259
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(Digital) participation in non-profit organisations - How can part
  icipatory approaches contribute to better organisational design? (organize
  d by the KMI/ROOTS project at InfAI)
@@ -815,6 +806,20 @@ DESCRIPTION:Discover the City of Munich's innovative housing market observ
  y. The functionalities of the dashboard will be presented and exciting ins
  ights into developments on the Munich housing market will be provided.
 LOCATION:Room 270
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI for everyday work - practical tools and sharing experiences (or
+ ganized by the KMI project at InfAI)
+DTSTART;TZID=Europe/Berlin:20250611T110000
+DTEND;TZID=Europe/Berlin:20250611T123000
+DESCRIPTION:This workshop provides a practical demonstration of how AI too
+ ls can make everyday work easier. Participants will gain contextual knowle
+ dge and the basics of generative AI such as ChatGPT and the use of other f
+ reely accessible AI tools. They will also learn about ‘prompting’ tech
+ niques to better understand how they work. In the subsequent practical par
+ t\, participants can interact with the AI tools and acquire skills that ca
+ n be integrated into various areas of everyday work.
+LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AI: hype or tool?
