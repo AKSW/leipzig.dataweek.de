@@ -269,6 +269,11 @@
 <http://www.b4dt.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Büro für den digitalen Tiefbau"@de .
 <http://www.b4dt.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Digital civil engineering office"@en .
 <http://www.b4dt.de/> <http://xmlns.com/foaf/0.1/homepage> <http://www.b4dt.de/> .
+<http://www.citylab-berlin.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://www.citylab-berlin.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://www.citylab-berlin.org/> <http://www.w3.org/2000/01/rdf-schema#label> "CityLAB"@de .
+<http://www.citylab-berlin.org/> <http://www.w3.org/2000/01/rdf-schema#label> "CityLAB"@en .
+<http://www.citylab-berlin.org/> <http://xmlns.com/foaf/0.1/homepage> <http://www.citylab-berlin.org/> .
 <http://www.halle.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://www.halle.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <http://www.halle.de/> <http://www.w3.org/2000/01/rdf-schema#label> "City of Halle (Saale)"@en .
@@ -279,6 +284,11 @@
 <http://www.leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "City of Leipzig"@en .
 <http://www.leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig"@de .
 <http://www.leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <http://www.leipzig.de/> .
+<http://www.technologiestiftung-berlin.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://www.technologiestiftung-berlin.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://www.technologiestiftung-berlin.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technologiestiftung Berlin​"@de .
+<http://www.technologiestiftung-berlin.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technologiestiftung Berlin​"@en .
+<http://www.technologiestiftung-berlin.de/> <http://xmlns.com/foaf/0.1/homepage> <http://www.technologiestiftung-berlin.de/> .
 <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty> .
 <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <http://www.w3.org/2000/01/rdf-schema#label> "10." .
 <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty> .
@@ -4282,6 +4292,11 @@
 <https://dataweek.de/#MaikGuenther> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Maik Günther" .
 <https://dataweek.de/#MaikGuenther> <http://xmlns.com/foaf/0.1/name> "Maik Günther" .
 <https://dataweek.de/#MaikGuenther> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#MalteBarth> <http://purl.org/dc/terms/description> "Data Scientist ​"@de .
+<https://dataweek.de/#MalteBarth> <http://purl.org/dc/terms/description> "Data Scientist ​"@en .
+<https://dataweek.de/#MalteBarth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MalteBarth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MalteBarth> <http://xmlns.com/foaf/0.1/name> "Malte Barth" .
 <https://dataweek.de/#MalteSchwanebeck> <http://purl.org/dc/terms/description> "Geodatenmanagement"@de .
 <https://dataweek.de/#MalteSchwanebeck> <http://purl.org/dc/terms/description> "Geodatenmanagement"@en .
 <https://dataweek.de/#MalteSchwanebeck> <http://schema.org/affiliation> <urn:url-encoded-value:www.kge.uni-kiel.de> .
