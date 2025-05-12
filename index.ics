@@ -535,6 +535,57 @@ DESCRIPTION:For electricity to flow reliably from the socket\, the power g
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Introduction & Welcome
+DTSTART;TZID=Europe/Berlin:20250611T173000
+DTEND;TZID=Europe/Berlin:20250611T175500
+DESCRIPTION:Opening of the evening with a brief introduction to the agenda
+ \, introduction of the speakers and presentation of the ScaDS.AI AI Compet
+ ence Center
+LOCATION:Room 270
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Live Fusion and Seamless Integration - DBpedia Enterprise in actio
+ n
+DTSTART;TZID=Europe/Berlin:20250611T180000
+DTEND;TZID=Europe/Berlin:20250611T181500
+DESCRIPTION:In this presentation\, you will learn how DBpedia Enterprise l
+ inks heterogeneous data sources such as Wikipedia\, Wikidata and Linked Op
+ en Data - in real time and with stable\, searchable knowledge graphs. The 
+ technology not only enables effective data integration for companies\, lib
+ raries and research institutions\, but also presents a sustainable busines
+ s model in the open data environment. Learn from concrete application exam
+ ples how DBpedia can be used as a knowledge backbone and what role it play
+ s in the “Web of Data”.
+LOCATION:Room 270
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI in practice: AI use cases that make life easier.
+DTSTART;TZID=Europe/Berlin:20250611T182000
+DTEND;TZID=Europe/Berlin:20250611T183500
+DESCRIPTION:How do we as a technology company manage to successfully imple
+ ment AI projects? In which use cases does generative AI really bring an ad
+ vantage? What AI blockades do we experience in our daily work and how do w
+ e solve them? The fact is: the AI potential is huge and affects all indust
+ ries. The presentation will show interesting examples from sectors such as
+  tourism\, insurance and robotics. MaibornWolff\, an established IT servic
+ e provider with a focus on sustainable digitalization and AI\, will report
+  on its own practical experience.
+LOCATION:Room 270
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Graph databases for AI applications - use cases with Neo4j
+DTSTART;TZID=Europe/Berlin:20250611T184000
+DTEND;TZID=Europe/Berlin:20250611T185500
+DESCRIPTION:Graph databases are essential for many AI applications that fo
+ cus on relationships between data. Neo4j\, one of the leading providers in
+  this field\, will present how companies can use graph technology to analy
+ ze complex relationships\, identify patterns and make informed decisions. 
+ The presentation will provide practical insights into fields of applicatio
+ n such as fraud detection\, recommendation systems and knowledge managemen
+ t.
+LOCATION:Room 270
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Your own dashboard in 6 steps (organized by ]init[ AG für digital
  e Kommunikation)
 DTSTART;TZID=Europe/Berlin:20250611T153000
@@ -759,22 +810,10 @@ DESCRIPTION:In this presentation\, Andreas and Sebastian will guide partic
 LOCATION:Room 260
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Munich at a glance: Interactive housing market observation (organi
- zed by the Department of Urban Planning and Building Regulations\, City of
-  Munich)
+SUMMARY:Innovative urban development: housing market monitoring and intell
+ igent digital twins
 DTSTART;TZID=Europe/Berlin:20250611T110000
 DTEND;TZID=Europe/Berlin:20250611T123000
-DESCRIPTION:Discover the City of Munich's innovative housing market observ
- ation\, which regularly provides all players in the housing market with a 
- neutral basis for planning. The modernized reports and brochures are acces
- sible via an interactive dashboard that visualizes specialist data in a cl
- ear and user-friendly way. As part of the Connected Urban Twins (CUT) proj
- ect\, the digital future of cities such as Munich is being promoted in ord
- er to shape urbanization intelligently. The visualization is done with the
-  open source software Grafana\, which enables the replication of the tool 
- for use by other municipalities with minimal costs and maximum transparenc
- y. The functionalities of the dashboard will be presented and exciting ins
- ights into developments on the Munich housing market will be provided.
 LOCATION:Room 270
 END:VEVENT
 BEGIN:VEVENT
@@ -796,6 +835,37 @@ SUMMARY:AI: hype or tool?
 DTSTART;TZID=Europe/Berlin:20250611T090000
 DTEND;TZID=Europe/Berlin:20250611T092000
 LOCATION:Room 259
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Munich at a glance: Interactive housing market observation (organi
+ zed by the Department of Urban Planning and Building Regulations\, City of
+  Munich)
+DTSTART;TZID=Europe/Berlin:20250611T110000
+DTEND;TZID=Europe/Berlin:20250611T113000
+DESCRIPTION:Discover the City of Munich's innovative housing market observ
+ ation\, which regularly provides all players in the housing market with a 
+ neutral basis for planning. The modernized reports and brochures are acces
+ sible via an interactive dashboard that visualizes specialist data in a cl
+ ear and user-friendly way. As part of the Connected Urban Twins (CUT) proj
+ ect\, the digital future of cities such as Munich is being promoted in ord
+ er to shape urbanization intelligently. The visualization is done with the
+  open source software Grafana\, which enables the replication of the tool 
+ for use by other municipalities with minimal costs and maximum transparenc
+ y. The functionalities of the dashboard will be presented and exciting ins
+ ights into developments on the Munich housing market will be provided.
+LOCATION:Room 270
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leipzig Digital twins and AI: a look into the future
+DTSTART;TZID=Europe/Berlin:20250611T113000
+DTEND;TZID=Europe/Berlin:20250611T123000
+DESCRIPTION:Feasibility study on an AI-integrated Urban Data Platform (UDP
+ )\, an AI-supported Digital Twin Factory and the development of cooperativ
+ e digital twins for collaboration between municipalities. Based on the res
+ ults of the Connected Urban Twins (CUT) project\, we are working on a mode
+ l of how a UDP and digital twins could develop through the use of AI. No f
+ inished results will be presented\, but there will be room for discussion.
+LOCATION:Room 270
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Admission
@@ -950,7 +1020,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Using Knowledge Graphs to Document Cloud Native Products
 DTSTART;TZID=Europe/Berlin:20250612T091000
-DTEND;TZID=Europe/Berlin:20250612T103000
+DTEND;TZID=Europe/Berlin:20250612T100000
 DESCRIPTION:Cloud-native software products consist of individually lifecyc
  led\, frequently released\, and flexibly assembled components known as "mi
  croservices".\n\nThe Keynote presentation will be an exploration of how te
@@ -1076,15 +1146,6 @@ DESCRIPTION:One of the biggest challenges currently facing society is ensu
  invite you to discuss with us what added value AIAMO can offer for your re
  gion and how you too can become part of the project.
 LOCATION:Ratsplenarsaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Introduction & Welcome
-DTSTART;TZID=Europe/Berlin:20250612T173000
-DTEND;TZID=Europe/Berlin:20250612T175500
-DESCRIPTION:Opening of the evening with a brief introduction to the agenda
- \, introduction of the speakers and presentation of the ScaDS.AI AI Compet
- ence Center
-LOCATION:Room 270
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:How generative artificial intelligence is changing work and study(
@@ -1332,21 +1393,6 @@ DESCRIPTION:Together we assemble\, program and design autonomous soil mois
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Live Fusion and Seamless Integration - DBpedia Enterprise in actio
- n
-DTSTART;TZID=Europe/Berlin:20250613T180000
-DTEND;TZID=Europe/Berlin:20250613T181500
-DESCRIPTION:In this presentation\, you will learn how DBpedia Enterprise l
- inks heterogeneous data sources such as Wikipedia\, Wikidata and Linked Op
- en Data - in real time and with stable\, searchable knowledge graphs. The 
- technology not only enables effective data integration for companies\, lib
- raries and research institutions\, but also presents a sustainable busines
- s model in the open data environment. Learn from concrete application exam
- ples how DBpedia can be used as a knowledge backbone and what role it play
- s in the “Web of Data”.
-LOCATION:Room 270
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Building Knowledge Graphs with eccenca Corporate Memory (organized
   y eccenca)
 DTSTART;TZID=Europe/Berlin:20250613T090000
@@ -1551,32 +1597,5 @@ DESCRIPTION:Transform your organization with AI! Benefit from the proven a
   companies and agile teams who want to establish AI as an integral part of
   their strategy. Take the first step into your AI future!
 LOCATION:Room 260
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MaibornWolff: AI in practice - insights from everyday business lif
- e
-DTSTART;TZID=Europe/Berlin:20250614T182000
-DTEND;TZID=Europe/Berlin:20250614T183500
-DESCRIPTION:How does a technology company manage to successfully implement
-  AI projects? MaibornWolff\, an established IT service provider with a foc
- us on sustainable digitalization and AI\, reports on its own practical exp
- erience. The presentation shows the challenges that arise when implementin
- g AI solutions in real customer projects - and how to overcome them. It wi
- ll also look at the role of interdisciplinary teams\, agile development an
- d customer relationships based on partnership.
-LOCATION:Room 270
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Graph databases for AI applications - use cases with Neo4j
-DTSTART;TZID=Europe/Berlin:20250615T184000
-DTEND;TZID=Europe/Berlin:20250615T185500
-DESCRIPTION:Graph databases are essential for many AI applications that fo
- cus on relationships between data. Neo4j\, one of the leading providers in
-  this field\, will present how companies can use graph technology to analy
- ze complex relationships\, identify patterns and make informed decisions. 
- The presentation will provide practical insights into fields of applicatio
- n such as fraud detection\, recommendation systems and knowledge managemen
- t.
-LOCATION:Room 270
 END:VEVENT
 END:VCALENDAR
