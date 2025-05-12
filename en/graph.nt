@@ -2672,6 +2672,8 @@
 <https://2025.dataweek.de/workshops/#programm-session-4> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/workshops/#programm-session-4> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-4> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
+<https://2025.dataweek.de/workshops/#programm-session-4> <http://schema.org/performer> <https://dataweek.de/#AnjaLuettmann> .
+<https://2025.dataweek.de/workshops/#programm-session-4> <http://schema.org/performer> <https://dataweek.de/#MalteBarth> .
 <https://2025.dataweek.de/workshops/#programm-session-4> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-session-5> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3190,6 +3192,12 @@
 <https://dataweek.de/#AnjaBrueckner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AnjaBrueckner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AnjaBrueckner> <http://xmlns.com/foaf/0.1/name> "Anja Brückner" .
+<https://dataweek.de/#AnjaLuettmann> <http://purl.org/dc/terms/description> "Public service Coach"@de .
+<https://dataweek.de/#AnjaLuettmann> <http://purl.org/dc/terms/description> "Public service Coach"@en .
+<https://dataweek.de/#AnjaLuettmann> <http://schema.org/affiliation> <http://www.technologiestiftung-berlin.de/> .
+<https://dataweek.de/#AnjaLuettmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#AnjaLuettmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#AnjaLuettmann> <http://xmlns.com/foaf/0.1/name> "Anja Luettmann" .
 <https://dataweek.de/#AnnaLenaPeh> <http://purl.org/dc/terms/description> "Wissenschaftliche Leitung Energieinformatik"@de .
 <https://dataweek.de/#AnnaLenaPeh> <http://purl.org/dc/terms/description> "Wissenschaftliche Leitung Energieinformatik"@en .
 <https://dataweek.de/#AnnaLenaPeh> <http://schema.org/affiliation> <urn:url-encoded-value:www.iosb-ast.fraunhofer.de> .
@@ -4294,6 +4302,7 @@
 <https://dataweek.de/#MaikGuenther> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#MalteBarth> <http://purl.org/dc/terms/description> "Data Scientist ​"@de .
 <https://dataweek.de/#MalteBarth> <http://purl.org/dc/terms/description> "Data Scientist ​"@en .
+<https://dataweek.de/#MalteBarth> <http://schema.org/affiliation> <http://www.citylab-berlin.org/> .
 <https://dataweek.de/#MalteBarth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MalteBarth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MalteBarth> <http://xmlns.com/foaf/0.1/name> "Malte Barth" .
