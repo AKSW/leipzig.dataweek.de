@@ -1715,11 +1715,16 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/title> "Session "@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/title> "Session - Live translation available in English. "@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/description> "In dieser Session werfen wir einen Blick auf die Zukunft digitaler Identitäten und deren Bedeutung für die Verwaltung, Wirtschaft und Gesellschaft. Im Fokus steht die European Digital Identity Wallet (EUDI-Wallet) und deren Umsetzung in Deutschland. EUDI-Wallets sind digitale Brieftaschen, mit der sich Bürgerinnen und Bürger künftig sicher digital ausweisen und Nachweise (z. B. Führerschein, Sozialpass) speichern und verwalten können. Wir diskutieren das Potenzial verifizierbarer Nachweise innerhalb eines Ökosystems digitaler Identitäten und Anwendungen im kommunalen Kontext."@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/description> "In this session, we will take a look at the future of digital identities and their significance for administration, business and society. The focus will be on the European Digital Identity Wallet (EUDI wallet) and its implementation in Germany. EUDI wallets are digital wallets with which citizens will be able to securely identify themselves digitally in the future and store and manage proof of identity (e.g. driving license, social passport). We discuss the potential of verifiable proof of identity within an ecosystem of digital identities and applications in a municipal context."@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/title> "Digital identity and EUDI wallet decrypted"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/title> "Digitale Identität und EUDI-Wallet entschlüsselt"@de .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/performer> <https://dataweek.de/#ClemensSchleupner> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/performer> <https://dataweek.de/#JuergenAnke> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/performer> <https://dataweek.de/#SashaBecker> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -4088,6 +4093,12 @@
 <https://dataweek.de/#JudithFauth> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/judith-fauth-5b5137bb/> .
 <https://dataweek.de/#JudithFauth> <http://xmlns.com/foaf/0.1/name> "Judith Fauth" .
 <https://dataweek.de/#JudithFauth> <http://xmlns.com/foaf/0.1/title> "Dr. " .
+<https://dataweek.de/#JuergenAnke> <http://schema.org/affiliation> <https://www.htw-dresden.de/> .
+<https://dataweek.de/#JuergenAnke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#JuergenAnke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JuergenAnke> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Jürgen Anke" .
+<https://dataweek.de/#JuergenAnke> <http://xmlns.com/foaf/0.1/name> "Jürgen Anke" .
+<https://dataweek.de/#JuergenAnke> <http://xmlns.com/foaf/0.1/title> "Prof." .
 <https://dataweek.de/#JuergenBretfeld> <http://purl.org/dc/terms/description> "Managing Director"@de .
 <https://dataweek.de/#JuergenBretfeld> <http://purl.org/dc/terms/description> "Managing Director"@en .
 <https://dataweek.de/#JuergenBretfeld> <http://schema.org/affiliation> <urn:url-encoded-value:www.advaneo.de> .
