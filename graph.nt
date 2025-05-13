@@ -1340,6 +1340,7 @@
 <https://2025.dataweek.de/lswt2025/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2025.dataweek.de/lswt2025/#programm-session-2> <http://schema.org/endTime> "10:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/lswt2025/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#MarcelFroehlich> .
 <https://2025.dataweek.de/lswt2025/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#MartinBlumbach> .
 <https://2025.dataweek.de/lswt2025/#programm-session-2> <http://schema.org/startTime> "09:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -1353,6 +1354,7 @@
 <https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/performer> <https://dataweek.de/#AndreasPawlik> .
+<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/performer> <https://dataweek.de/#KaiKuemmel> .
 <https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/startTime> "10:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
@@ -4131,6 +4133,12 @@
 <https://dataweek.de/#KaiGildhorn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#KaiGildhorn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#KaiGildhorn> <http://xmlns.com/foaf/0.1/name> "Kai Gildhorn" .
+<https://dataweek.de/#KaiKuemmel> <http://purl.org/dc/terms/description> "Lead Data Product Portfolio Manager"@en .
+<https://dataweek.de/#KaiKuemmel> <http://purl.org/dc/terms/description> "Leiter des Portfolios für Datenprodukte"@de .
+<https://dataweek.de/#KaiKuemmel> <http://schema.org/affiliation> <https://www.zeiss.de/corporate/home.html> .
+<https://dataweek.de/#KaiKuemmel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#KaiKuemmel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#KaiKuemmel> <http://xmlns.com/foaf/0.1/name> "Kai Kuemmel" .
 <https://dataweek.de/#KanaliTogawa> <http://schema.org/affiliation> <https://make-work-flow.org/> .
 <https://dataweek.de/#KanaliTogawa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#KanaliTogawa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -4440,7 +4448,7 @@
 <https://dataweek.de/#MartinBlumbach&MarcelFroehlich> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/BlumbachFroehlich.jpg" .
 <https://dataweek.de/#MartinBlumbach> <http://purl.org/dc/terms/description> "Lead Architect for Automating Technical Documentation of Cloud-Native Software Products at Ericsson "@en .
 <https://dataweek.de/#MartinBlumbach> <http://purl.org/dc/terms/description> "Leitender Architekt für die Automatisierung der technischen Dokumentation von Cloud-nativen Softwareprodukten bei Ericsson "@de .
-<https://dataweek.de/#MartinBlumbach> <http://schema.org/affiliation> <urn:url-encoded-value:www.ericsson.com%2Fde> .
+<https://dataweek.de/#MartinBlumbach> <http://schema.org/affiliation> <https://www.ericsson.com/en> .
 <https://dataweek.de/#MartinBlumbach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MartinBlumbach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MartinBlumbach> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MartinBlumbach.jpg" .
@@ -6162,6 +6170,11 @@
 <https://www.eccenca.com/> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH"@en .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.eccenca.com/> .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/logo> <https://dataweek.de/#LogoEccenca> .
+<https://www.ericsson.com/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.ericsson.com/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.ericsson.com/en> <http://www.w3.org/2000/01/rdf-schema#label> "Ericsson"@de .
+<https://www.ericsson.com/en> <http://www.w3.org/2000/01/rdf-schema#label> "Ericsson"@en .
+<https://www.ericsson.com/en> <http://xmlns.com/foaf/0.1/homepage> <https://www.ericsson.com/en> .
 <https://www.etas.com/ww/de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.etas.com/ww/de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.etas.com/ww/de/> <http://www.w3.org/2000/01/rdf-schema#label> "ETAS"@de .
@@ -6824,11 +6837,6 @@
 <urn:url-encoded-value:www.bertelsmann-stiftung.de> <http://www.w3.org/2000/01/rdf-schema#label> "Bertelsmann Stiftung"@de .
 <urn:url-encoded-value:www.bertelsmann-stiftung.de> <http://www.w3.org/2000/01/rdf-schema#label> "Bertelsmann Stiftung"@en .
 <urn:url-encoded-value:www.bertelsmann-stiftung.de> <http://xmlns.com/foaf/0.1/homepage> <urn:url-encoded-value:www.bertelsmann-stiftung.de> .
-<urn:url-encoded-value:www.ericsson.com%2Fde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<urn:url-encoded-value:www.ericsson.com%2Fde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-<urn:url-encoded-value:www.ericsson.com%2Fde> <http://www.w3.org/2000/01/rdf-schema#label> "Ericsson"@de .
-<urn:url-encoded-value:www.ericsson.com%2Fde> <http://www.w3.org/2000/01/rdf-schema#label> "Ericsson"@en .
-<urn:url-encoded-value:www.ericsson.com%2Fde> <http://xmlns.com/foaf/0.1/homepage> <urn:url-encoded-value:www.ericsson.com%2Fde> .
 <urn:url-encoded-value:www.fem-online.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <urn:url-encoded-value:www.fem-online.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <urn:url-encoded-value:www.fem-online.de> <http://www.w3.org/2000/01/rdf-schema#label> "fem Forschungsinstitut"@de .
