@@ -2094,7 +2094,7 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://schema.org/endTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://schema.org/performer> <https://dataweek.de/#RenateMittelhuber> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://schema.org/startTime> "10:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-8> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2622,9 +2622,9 @@
 <https://2025.dataweek.de/workshops/#programm-session-31> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/workshops/#programm-session-31> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-31> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
-<https://2025.dataweek.de/workshops/#programm-session-31> <http://schema.org/performer> <https://dataweek.de/#FranziskaBrenner> .
 <https://2025.dataweek.de/workshops/#programm-session-31> <http://schema.org/performer> <https://dataweek.de/#FranziskaKorb-King> .
-<https://2025.dataweek.de/workshops/#programm-session-31> <http://schema.org/performer> <https://dataweek.de/#PaulRenninger> .
+<https://2025.dataweek.de/workshops/#programm-session-31> <http://schema.org/performer> <https://dataweek.de/#LinaHoeck> .
+<https://2025.dataweek.de/workshops/#programm-session-31> <http://schema.org/performer> <https://dataweek.de/#PiaVoigt> .
 <https://2025.dataweek.de/workshops/#programm-session-31> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-session-32> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -4250,6 +4250,12 @@
 <https://dataweek.de/#LennartCarstensBehrens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#LennartCarstensBehrens> <http://xmlns.com/foaf/0.1/name> "Lennart Carstens-Behrens" .
 <https://dataweek.de/#LennartCarstensBehrens> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Studiert Informatik im Bachelor-Studiengang an der Hochschule für Technik, Wirtschaft und Kultur Leipzig und ist Preisträger beim InformatiCup2022 der Gesellschaft für Informatik e.V.."@en .
+<https://dataweek.de/#LinaHoeck> <http://purl.org/dc/terms/description> "Research assistant"@en .
+<https://dataweek.de/#LinaHoeck> <http://purl.org/dc/terms/description> "Wissenschaftliche Mitarbeiterin"@de .
+<https://dataweek.de/#LinaHoeck> <http://schema.org/affiliation> <https://come2data.de/> .
+<https://dataweek.de/#LinaHoeck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#LinaHoeck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#LinaHoeck> <http://xmlns.com/foaf/0.1/name> "Lina Höck" .
 <https://dataweek.de/#LindaDrescher> <http://purl.org/dc/terms/description> "Kommunikationswissenschaftlerin"@en .
 <https://dataweek.de/#LindaDrescher> <http://purl.org/dc/terms/description> "Moderatorin | Redakteurin | Casterin | Sprecherin"@de .
 <https://dataweek.de/#LindaDrescher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -4955,10 +4961,15 @@
 <https://dataweek.de/#ReinhardSchinke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ReinhardSchinke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ReinhardSchinke> <http://xmlns.com/foaf/0.1/name> "Reinhard Schinke" .
+<https://dataweek.de/#RenateMittelhuber> <http://purl.org/dc/terms/description> "Head of Division"@en .
+<https://dataweek.de/#RenateMittelhuber> <http://purl.org/dc/terms/description> "Referatsleiterin"@de .
+<https://dataweek.de/#RenateMittelhuber> <http://schema.org/affiliation> <https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/staedtebau/smart-cities/smart-cities-node.html> .
 <https://dataweek.de/#RenateMittelhuber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#RenateMittelhuber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#RenateMittelhuber> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/RenateMittelhuber.jpg" .
 <https://dataweek.de/#RenateMittelhuber> <http://xmlns.com/foaf/0.1/name> "Renate Mittelhuber" .
+<https://dataweek.de/#RenateMittelhuber> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Renate Mitterhuber has been Head of the Smart Cities and Regions Division at the Federal Ministry of Housing, Urban Development and Building since December 2021. Prior to that, she was head of the “Federal Portal; Portal Network; Business and Coordination Office 115” unit at the Federal Ministry of the Interior. The focus was on developing the digital infrastructure to implement the Online Access Act (OZG). \nFrom June 2017 to October 2019, Renate Mitterhuber was head of the IT Planning Council's office. From 1991 to 2017, she worked in the Free and Hanseatic City of Hamburg, initially in staff positions in the education and finance departments and since 2001 in the area of digitalization. She was responsible for Hamburg's e-government and IT strategy and was involved in setting up the Hamburg Open Data Portal and the Transparency Portal, among other things. "@en .
+<https://dataweek.de/#RenateMittelhuber> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Renate Mitterhuber leitet seit Dezember 2021 das Referat Smarte Städte und Regi-onen im Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen. Davor war sie Leiterin des Referats „Bundesportal; Portalverbund; Geschäfts- und Koordi-nierungsstelle 115“ im Bundesministerium des Innern. Schwerpunkt war der Aufbau der digitalen Infrastruktur zur Umsetzung des Onlinezugangsgesetzes (OZG). \nVon Juni 2017 bis Oktober 2019 war Renate Mitterhuber Leiterin der Geschäftsstelle des IT-Planungsrats. Von 1991 bis 2017 war sie in der Freien und Hansestadt Ham-burg tätig, zunächst in Stabsstellen im Bildungs- und im Finanzressort und seit 2001 im Bereich Digitalisierung. Sie war verantwortlich für die Hamburger E-Government- und IT-Strategie sowie u.a. am Aufbau des Hamburger Open Data Portals und des Transparenzportals beteiligt. "@de .
 <https://dataweek.de/#RichardFigura> <http://purl.org/dc/terms/description> "CEO"@de .
 <https://dataweek.de/#RichardFigura> <http://purl.org/dc/terms/description> "CEO"@en .
 <https://dataweek.de/#RichardFigura> <http://schema.org/affiliation> <https://www.ciss.de> .
@@ -6067,6 +6078,11 @@
 <https://www.bismit.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Netzwerkbüro | Bildung im Strukturwandel in Mitteldeutschland – BiSMit"@de .
 <https://www.bismit.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Netzwerkbüro | Bildung im Strukturwandel in Mitteldeutschland – BiSMit"@en .
 <https://www.bismit.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.bismit.de/> .
+<https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/staedtebau/smart-cities/smart-cities-node.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/staedtebau/smart-cities/smart-cities-node.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/staedtebau/smart-cities/smart-cities-node.html> <http://www.w3.org/2000/01/rdf-schema#label> "Referat Smarte Städte und Regionen im Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen"@de .
+<https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/staedtebau/smart-cities/smart-cities-node.html> <http://www.w3.org/2000/01/rdf-schema#label> "Smart Cities and Regions Division at the Federal Ministry of Housing, Urban Development and Building"@en .
+<https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/staedtebau/smart-cities/smart-cities-node.html> <http://xmlns.com/foaf/0.1/homepage> <https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/staedtebau/smart-cities/smart-cities-node.html> .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/personen/p/simon-maris/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
