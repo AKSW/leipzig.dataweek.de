@@ -789,6 +789,7 @@
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://bellmatec.de/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://lecos.de/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://www.linkedin.com/in/ronny-noske-462a18153/?originalSubdomain=de> .
+<https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://formfollowsyou.com/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsors"@en .
@@ -1340,6 +1341,7 @@
 <https://2025.dataweek.de/lswt2025/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2025.dataweek.de/lswt2025/#programm-session-2> <http://schema.org/endTime> "10:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/lswt2025/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#MarcelFroehlich> .
 <https://2025.dataweek.de/lswt2025/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#MartinBlumbach> .
 <https://2025.dataweek.de/lswt2025/#programm-session-2> <http://schema.org/startTime> "09:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -1353,6 +1355,7 @@
 <https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/performer> <https://dataweek.de/#AndreasPawlik> .
+<https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/performer> <https://dataweek.de/#KaiKuemmel> .
 <https://2025.dataweek.de/lswt2025/#programm-session-3> <http://schema.org/startTime> "10:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
@@ -1687,9 +1690,9 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-18> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-19> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-20> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-21> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-11> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-11> <http://purl.org/dc/terms/description> "In der Schulung erfahren sie wie sie Daten von Satelliten nutzen können, um den Bestand von Stadtgrün zu bewerten und die Entwicklung zu analysieren.Im Projekt UrbanGreenEye wurden mittels Senitel2 Datensätze Indikatoren zur Grünausstattung, Versiegelung und Oberflächentemperatur mittels KI Auswertungen erstellt. Die fertigen Indikatoren stehen allen Kommunen, aber auch interessierten Bürgerinnen und Bürgern auf der Homepage als interaktive Karte zur Verfügung. Auch die Nutzung von wms Dienst ist möglich. Die Teilnehmer des Workshops erfahren praxisnah wie die Informationen zum Beschirmungsgrad, Grünvolumen und Versiegelung interpretiert und Rasterdaten im GIS verwendet werden können. An Beispielen soll die Analysen zur Verschneidung, Defizit und Veränderungsanalysen gezeigt werden. Auch wollen wir einen kleinen Einblick in die KI Modelle geben, um die Datengrundlagen besser zu verstehen. Für die Teilnahme an dem Workshop sind GIS Vorkenntnisse von Vorteil, eigene GIS Anwendungen auf dem Rechner erleichtern die Nachverfolgung von Analysen."@de .
@@ -1713,11 +1716,16 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/title> "Session "@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/title> "Session - Live translation available in English. "@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/description> "In dieser Session werfen wir einen Blick auf die Zukunft digitaler Identitäten und deren Bedeutung für die Verwaltung, Wirtschaft und Gesellschaft. Im Fokus steht die European Digital Identity Wallet (EUDI-Wallet) und deren Umsetzung in Deutschland. EUDI-Wallets sind digitale Brieftaschen, mit der sich Bürgerinnen und Bürger künftig sicher digital ausweisen und Nachweise (z. B. Führerschein, Sozialpass) speichern und verwalten können. Wir diskutieren das Potenzial verifizierbarer Nachweise innerhalb eines Ökosystems digitaler Identitäten und Anwendungen im kommunalen Kontext."@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/description> "In this session, we will take a look at the future of digital identities and their significance for administration, business and society. The focus will be on the European Digital Identity Wallet (EUDI wallet) and its implementation in Germany. EUDI wallets are digital wallets with which citizens will be able to securely identify themselves digitally in the future and store and manage proof of identity (e.g. driving license, social passport). We discuss the potential of verifiable proof of identity within an ecosystem of digital identities and applications in a municipal context."@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/title> "Digital identity and EUDI wallet decrypted"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://purl.org/dc/terms/title> "Digitale Identität und EUDI-Wallet entschlüsselt"@de .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/performer> <https://dataweek.de/#ClemensSchleupner> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/performer> <https://dataweek.de/#JuergenAnke> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/performer> <https://dataweek.de/#SashaBecker> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1759,10 +1767,10 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-36> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-37> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-38> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-40> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://purl.org/dc/terms/description> "In dieser Session werden digitale Tools vorgestellt, die die Interaktion zwischen Bürgerinnen und Bürgern und der Verwaltung fördern. Diese Werkzeuge haben zum Ziel, die Akzeptanz von Verwaltungsprozessen zu steigern und das Verständnis für komplexe Themen zu erleichtern. Es wird u. a. besprochen: Wie kann Künstliche Intelligenz beim Verständnis behördlicher Bescheide unterstützen? Wie kann die Stadt Leipzig mit Bürger/-innen zur Energiewende in den Dialog treten? Wie können digitale Tools und Technologien die Bürgerkommunikation verbessern?"@de .
@@ -1773,7 +1781,7 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/performer> <https://dataweek.de/#MarcusWollschlaeger> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/performer> <https://dataweek.de/#MikeReichmuth> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/performer> <https://dataweek.de/#MaximilianUeberham> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/performer> <https://dataweek.de/#SashaBecker> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/performer> <https://dataweek.de/#ThomasGroessel> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -1831,14 +1839,14 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-22> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-22> <http://schema.org/performer> <https://dataweek.de/#OliverWelz> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-22> <http://schema.org/startTime> "17:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-22> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-49> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-22> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-50> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-22> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-51> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-22> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-52> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-22> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-53> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-2> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-2> <http://purl.org/dc/terms/title> "Eröffnung"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-2> <http://purl.org/dc/terms/title> "Opening "@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-2> <http://purl.org/dc/terms/title> "Opening - Live translation available in English. "@en .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-2> <http://schema.org/endTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
@@ -1930,162 +1938,175 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-9> <http://schema.org/performer> <https://dataweek.de/#EnohTabak> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-9> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-18> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-18> <http://purl.org/dc/terms/title> "TBA"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-18> <http://purl.org/dc/terms/title> "TBA"@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-18> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-18> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-18> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-18> <http://schema.org/performer> <https://dataweek.de/#StefanieThiele> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-18> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-19> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-19> <http://purl.org/dc/terms/title> "TBA"@de .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-19> <http://purl.org/dc/terms/title> "TBA"@en .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-19> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-19> <http://schema.org/endTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-19> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-19> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-19> <http://schema.org/performer> <https://dataweek.de/#MichaelFischer> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-19> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-19> <http://schema.org/performer> <https://dataweek.de/#StefanieThiele> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-19> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-20> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-20> <http://purl.org/dc/terms/title> "TBA"@de .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-20> <http://purl.org/dc/terms/title> "TBA"@en .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-20> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-20> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-20> <http://schema.org/endTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-20> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-20> <http://schema.org/performer> <https://dataweek.de/#CharlieLiebscher> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-20> <http://schema.org/performer> <https://dataweek.de/#MathiasBoedecker> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-20> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-20> <http://schema.org/performer> <https://dataweek.de/#MichaelFischer> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-20> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-23> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-23> <http://purl.org/dc/terms/title> "Session 7"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-23> <http://purl.org/dc/terms/title> "Session 7"@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-23> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-23> <http://schema.org/endTime> "17:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-23> <http://schema.org/startTime> "16:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-36> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-36> <http://purl.org/dc/terms/description> "Energie treibt Maschinen an. Aber eigentlich treibt Energie alles auf unserer Welt an, so auch die Menschen in Stanz im Mürztal. Sie haben ihre Energiezukunft vor 10 Jahren selbst in die Hand genommen und sind vom Energietropf der großen Welt mit schlauer Technik, Kommunikation und mutigen Bürger:innen etwas unabhängiger und selbstbestimmter geworden. Was das alles mit einem Soziologen, Token Engineering und einer wachen Dorfgemeinschaft zu tun hat, berichtet ihnen Friedrich Pichler der ehemalige Bürgermeister von Stanz im Mürztal, einer kleinen Landgemeinde in der Steiermark/Österreich."@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-36> <http://purl.org/dc/terms/description> "Energy drives machines. But energy actually drives everything in our world, including the people of Stanz im Mürztal. They took their energy future into their own hands 10 years ago and have become a little more independent and self-determined from the energy drip of the big world with clever technology, communication and courageous citizens. Friedrich Pichler, the former mayor of Stanz im Mürztal, a small rural community in Styria/Austria, tells you what all this has to do with a sociologist, token engineering and an alert village community."@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-36> <http://purl.org/dc/terms/title> "Die Stanz das energieresiliente Dorf steht fest – selbst in stürmischen Zeiten"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-36> <http://purl.org/dc/terms/title> "Stanz the energy-resilient village stands firm - even in stormy times"@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-36> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-36> <http://schema.org/endTime> "13:50:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-36> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-36> <http://schema.org/performer> <https://dataweek.de/#FriedrichPichler> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-36> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-21> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-21> <http://purl.org/dc/terms/title> "TBA"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-21> <http://purl.org/dc/terms/title> "TBA"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-21> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-21> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-21> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-21> <http://schema.org/performer> <https://dataweek.de/#CharlieLiebscher> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-21> <http://schema.org/performer> <https://dataweek.de/#MathiasBoedecker> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-21> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-24> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-24> <http://purl.org/dc/terms/title> "Session 7"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-24> <http://purl.org/dc/terms/title> "Session 7"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-24> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-24> <http://schema.org/endTime> "17:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-24> <http://schema.org/startTime> "16:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-37> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-37> <http://purl.org/dc/terms/description> "How does social innovation succeed in dealing with technological change? Using the Stanzertal energy community as an example, Rainer Rosegger shows how participation, acceptance and regional value creation work in rural contexts - and what urban districts can learn from this. Can blockchain also create solidarity?"@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-37> <http://purl.org/dc/terms/description> "Wie gelingt soziale Innovation im Umgang mit technologischem Wandel? Am Beispiel der Energiegemeinschaft Stanzertal zeigt Rainer Rosegger, wie Beteiligung, Akzeptanz und regionale Wertschöpfung in ländlichen Kontexten funktionieren – und was urbane Quartiere daraus lernen können. Kann Blockchain auch Solidarität?"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-37> <http://purl.org/dc/terms/title> "Learning from the village means learning to share: energy, community, future"@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-37> <http://purl.org/dc/terms/title> "Vom Dorf lernen heißt teilen lernen: Energie, Gemeinschaft, Zukunft"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-37> <http://purl.org/dc/terms/description> "Energie treibt Maschinen an. Aber eigentlich treibt Energie alles auf unserer Welt an, so auch die Menschen in Stanz im Mürztal. Sie haben ihre Energiezukunft vor 10 Jahren selbst in die Hand genommen und sind vom Energietropf der großen Welt mit schlauer Technik, Kommunikation und mutigen Bürger:innen etwas unabhängiger und selbstbestimmter geworden. Was das alles mit einem Soziologen, Token Engineering und einer wachen Dorfgemeinschaft zu tun hat, berichtet ihnen Friedrich Pichler der ehemalige Bürgermeister von Stanz im Mürztal, einer kleinen Landgemeinde in der Steiermark/Österreich."@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-37> <http://purl.org/dc/terms/description> "Energy drives machines. But energy actually drives everything in our world, including the people of Stanz im Mürztal. They took their energy future into their own hands 10 years ago and have become a little more independent and self-determined from the energy drip of the big world with clever technology, communication and courageous citizens. Friedrich Pichler, the former mayor of Stanz im Mürztal, a small rural community in Styria/Austria, tells you what all this has to do with a sociologist, token engineering and an alert village community."@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-37> <http://purl.org/dc/terms/title> "Die Stanz das energieresiliente Dorf steht fest – selbst in stürmischen Zeiten"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-37> <http://purl.org/dc/terms/title> "Stanz the energy-resilient village stands firm - even in stormy times"@en .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-37> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-37> <http://schema.org/endTime> "14:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-37> <http://schema.org/endTime> "13:50:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-37> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-37> <http://schema.org/performer> <https://dataweek.de/#RainerRosegger> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-37> <http://schema.org/startTime> "13:50:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-37> <http://schema.org/performer> <https://dataweek.de/#FriedrichPichler> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-37> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-38> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-38> <http://purl.org/dc/terms/description> "Was passiert, wenn Energie mehr ist als nur eine Kilowattstunde? In erneuerbaren Energiegemeinschaften wird überschüssige Energie plötzlich zum sozialen und ökonomischen Gut. Die Tokenisierung macht sie teilbar, handelbar – und nachvollziehbar. Wie digitale Werkzeuge wie Blockchain helfen, lokale Überschüsse sichtbar zu machen und neue Formen von Teilhabe zu ermöglichen, zeigt dieses Beispiel einer dezentralen Energiewende von unten"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-38> <http://purl.org/dc/terms/description> "What happens when energy is more than just a kilowatt hour? In renewable energy communities, surplus energy suddenly becomes a social and economic good. Tokenization makes it shareable, tradable - and traceable. This example of a decentralized energy transition from below shows how digital tools such as blockchain help to make local surpluses visible and enable new forms of participation"@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-38> <http://purl.org/dc/terms/title> "Electricity becomes a community: tokenization as a new operating system for energy sharing"@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-38> <http://purl.org/dc/terms/title> "Strom wird Gemeinschaft: Tokenisierung als neues Betriebssystem der Energieteilung"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-38> <http://purl.org/dc/terms/description> "How does social innovation succeed in dealing with technological change? Using the Stanzertal energy community as an example, Rainer Rosegger shows how participation, acceptance and regional value creation work in rural contexts - and what urban districts can learn from this. Can blockchain also create solidarity?"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-38> <http://purl.org/dc/terms/description> "Wie gelingt soziale Innovation im Umgang mit technologischem Wandel? Am Beispiel der Energiegemeinschaft Stanzertal zeigt Rainer Rosegger, wie Beteiligung, Akzeptanz und regionale Wertschöpfung in ländlichen Kontexten funktionieren – und was urbane Quartiere daraus lernen können. Kann Blockchain auch Solidarität?"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-38> <http://purl.org/dc/terms/title> "Learning from the village means learning to share: energy, community, future"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-38> <http://purl.org/dc/terms/title> "Vom Dorf lernen heißt teilen lernen: Energie, Gemeinschaft, Zukunft"@de .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-38> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-38> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-38> <http://schema.org/endTime> "14:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-38> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-38> <http://schema.org/performer> <https://dataweek.de/#TomFuerstner> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-38> <http://schema.org/startTime> "14:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-38> <http://schema.org/performer> <https://dataweek.de/#RainerRosegger> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-38> <http://schema.org/startTime> "13:50:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://purl.org/dc/terms/description> "Damit aus der Steckdose verlässlich Strom fließt, muss das Stromnetz jederzeit im Gleichgewicht sein: Es darf nie mehr Strom verbraucht als erzeugt werden – und umgekehrt. Doch gerade bei Wind- und Solarstrom ist das schwer vorherzusagen. Netzbetreiber müssen die auftretenden Schwankungen ausgleichen – das kostet Geld und verursacht CO₂-Emissionen. Bei Optimax Energy entwickeln wir Modelle, die solche Ungleichgewichte frühzeitig erkennen und verringern. Die besondere Schwierigkeit: Wir sagen nicht den Stromverbrauch oder die Produktion selbst voraus, sondern die Fehler, die anderen bei ihren Prognosen unterlaufen."@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://purl.org/dc/terms/description> "For electricity to flow reliably from the socket, the power grid must be in balance at all times: more electricity must never be consumed than generated - and vice versa. However, this is difficult to predict, especially with wind and solar power. Grid operators have to compensate for the fluctuations that occur - this costs money and causes CO₂ emissions. At Optimax Energy, we develop models that detect and reduce such imbalances at an early stage. The particular difficulty is that we do not predict electricity consumption or production itself, but rather the errors that others make in their forecasts."@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://purl.org/dc/terms/title> "Between dark doldrums and light breezes: stabilizing our electricity grid with forecasting models"@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://purl.org/dc/terms/title> "Zwischen Dunkelflaute und Hellbrise: Mit Vorhersagemodellen unser Stromnetz stabilisieren"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://purl.org/dc/terms/description> "Was passiert, wenn Energie mehr ist als nur eine Kilowattstunde? In erneuerbaren Energiegemeinschaften wird überschüssige Energie plötzlich zum sozialen und ökonomischen Gut. Die Tokenisierung macht sie teilbar, handelbar – und nachvollziehbar. Wie digitale Werkzeuge wie Blockchain helfen, lokale Überschüsse sichtbar zu machen und neue Formen von Teilhabe zu ermöglichen, zeigt dieses Beispiel einer dezentralen Energiewende von unten"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://purl.org/dc/terms/description> "What happens when energy is more than just a kilowatt hour? In renewable energy communities, surplus energy suddenly becomes a social and economic good. Tokenization makes it shareable, tradable - and traceable. This example of a decentralized energy transition from below shows how digital tools such as blockchain help to make local surpluses visible and enable new forms of participation"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://purl.org/dc/terms/title> "Electricity becomes a community: tokenization as a new operating system for energy sharing"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://purl.org/dc/terms/title> "Strom wird Gemeinschaft: Tokenisierung als neues Betriebssystem der Energieteilung"@de .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/performer> <https://dataweek.de/#FlorianSpeer> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/performer> <https://dataweek.de/#TomFuerstner> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/startTime> "14:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-49> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-49> <http://purl.org/dc/terms/description> "Eröffnung des Abends mit einer kurzen Einführung in die Agenda, Vorstellung der Referenten sowie Vorstellung des ScaDS.AI KI-Kompetenzzentrums"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-49> <http://purl.org/dc/terms/description> "Opening of the evening with a brief introduction to the agenda, introduction of the speakers and presentation of the ScaDS.AI AI Competence Center"@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-49> <http://purl.org/dc/terms/title> "Einführung & Begrüßung"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-49> <http://purl.org/dc/terms/title> "Introduction & Welcome"@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-49> <http://schema.org/endTime> "17:55:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-49> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-49> <http://schema.org/performer> <https://dataweek.de/#OliverWelz> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-49> <http://schema.org/startTime> "17:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-40> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-40> <http://purl.org/dc/terms/description> "Damit aus der Steckdose verlässlich Strom fließt, muss das Stromnetz jederzeit im Gleichgewicht sein: Es darf nie mehr Strom verbraucht als erzeugt werden – und umgekehrt. Doch gerade bei Wind- und Solarstrom ist das schwer vorherzusagen. Netzbetreiber müssen die auftretenden Schwankungen ausgleichen – das kostet Geld und verursacht CO₂-Emissionen. Bei Optimax Energy entwickeln wir Modelle, die solche Ungleichgewichte frühzeitig erkennen und verringern. Die besondere Schwierigkeit: Wir sagen nicht den Stromverbrauch oder die Produktion selbst voraus, sondern die Fehler, die anderen bei ihren Prognosen unterlaufen."@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-40> <http://purl.org/dc/terms/description> "For electricity to flow reliably from the socket, the power grid must be in balance at all times: more electricity must never be consumed than generated - and vice versa. However, this is difficult to predict, especially with wind and solar power. Grid operators have to compensate for the fluctuations that occur - this costs money and causes CO₂ emissions. At Optimax Energy, we develop models that detect and reduce such imbalances at an early stage. The particular difficulty is that we do not predict electricity consumption or production itself, but rather the errors that others make in their forecasts."@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-40> <http://purl.org/dc/terms/title> "Between dark doldrums and light breezes: stabilizing our electricity grid with forecasting models"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-40> <http://purl.org/dc/terms/title> "Zwischen Dunkelflaute und Hellbrise: Mit Vorhersagemodellen unser Stromnetz stabilisieren"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-40> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-40> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-40> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-40> <http://schema.org/performer> <https://dataweek.de/#FlorianSpeer> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-40> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-4> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-4> <http://purl.org/dc/terms/title> "Eröffnung durch das Organisationsteam"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-4> <http://purl.org/dc/terms/title> "Opening by the organization team"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-4> <http://purl.org/dc/terms/title> "Opening by the organization team - Live translation available in English. "@en .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-4> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-4> <http://schema.org/endTime> "10:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-4> <http://schema.org/endTime> "10:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-4> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-4> <http://schema.org/performer> <http://aksw.org/MichaelMartin> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-4> <http://schema.org/performer> <https://dataweek.de/#IngolfRoemer> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-4> <http://schema.org/startTime> "10:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-50> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-50> <http://purl.org/dc/terms/description> "In diesem Vortrag erfahren Sie, wie DBpedia Enterprise heterogene Datenquellen wie Wikipedia, Wikidata und Linked Open Data miteinander verknüpf – in Echtzeit und mit stabilen, durchsuchbaren Wissensgraphen. Die Technologie ermöglicht nicht nur eine effektive Datenintegration für Unternehmen, Bibliotheken und Forschungseinrichtungen, sondern stellt auch ein nachhaltiges Geschäftsmodell im Open-Data-Umfeld vor. Lernen Sie anhand konkreter Anwendungsbeispiele, wie DBpedia als Wissensrückgrat eingesetzt werden kann und welche Rolle es im „Web of Data“ spielt."@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-50> <http://purl.org/dc/terms/description> "In this presentation, you will learn how DBpedia Enterprise links heterogeneous data sources such as Wikipedia, Wikidata and Linked Open Data - in real time and with stable, searchable knowledge graphs. The technology not only enables effective data integration for companies, libraries and research institutions, but also presents a sustainable business model in the open data environment. Learn from concrete application examples how DBpedia can be used as a knowledge backbone and what role it plays in the “Web of Data”."@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-50> <http://purl.org/dc/terms/title> "Live Fusion and Seamless Integration - DBpedia Enterprise in action"@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-50> <http://purl.org/dc/terms/title> "Live Fusion and Seamless Integraton – DBpedia Enterprise in Aktion"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-50> <http://schema.org/endTime> "18:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-50> <http://purl.org/dc/terms/description> "Eröffnung des Abends mit einer kurzen Einführung in die Agenda, Vorstellung der Referenten sowie Vorstellung des ScaDS.AI KI-Kompetenzzentrums"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-50> <http://purl.org/dc/terms/description> "Opening of the evening with a brief introduction to the agenda, introduction of the speakers and presentation of the ScaDS.AI AI Competence Center"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-50> <http://purl.org/dc/terms/title> "Einführung & Begrüßung"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-50> <http://purl.org/dc/terms/title> "Introduction & Welcome"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-50> <http://schema.org/endTime> "17:55:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-50> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-50> <http://schema.org/performer> <http://aksw.org/SebastianHellmann> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-50> <http://schema.org/startTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-50> <http://schema.org/performer> <https://dataweek.de/#OliverWelz> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-50> <http://schema.org/startTime> "17:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-51> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-51> <http://purl.org/dc/terms/description> "How do we as a technology company manage to successfully implement AI projects? In which use cases does generative AI really bring an advantage? What AI blockades do we experience in our daily work and how do we solve them? The fact is: the AI potential is huge and affects all industries. The presentation will show interesting examples from sectors such as tourism, insurance and robotics. MaibornWolff, an established IT service provider with a focus on sustainable digitalization and AI, will report on its own practical experience."@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-51> <http://purl.org/dc/terms/description> "Wie gelingt es uns als Technologieunternehmen, KI-Projekte erfolgreich in die Anwendung zu bringen? In welchen Anwendungsfällen bringt generative KI wirklich einen Vorteil? Welche KI Blockaden erleben\n wir in der täglichen Arbeit und wie lösen wir sie? Fakt ist: Das KI-Potenzial ist riesig und betrifft alle Branchen. Der Vortrag zeigt interessante Beispiele aus Branchen, wie z.B. Touristik, Versicherungen, Robotik. MaibornWolff, ein etablierter IT-Dienstleister\n mit Fokus auf nachhaltige Digitalisierung und AI, berichtet aus der eigenen Praxis."@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-51> <http://purl.org/dc/terms/title> "AI in practice: AI use cases that make life easier."@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-51> <http://purl.org/dc/terms/title> "KI in der Praxis: KI-Anwendungsfälle, die das Leben leichter machen."@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-51> <http://schema.org/endTime> "18:35:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-51> <http://purl.org/dc/terms/description> "In diesem Vortrag erfahren Sie, wie DBpedia Enterprise heterogene Datenquellen wie Wikipedia, Wikidata und Linked Open Data miteinander verknüpf – in Echtzeit und mit stabilen, durchsuchbaren Wissensgraphen. Die Technologie ermöglicht nicht nur eine effektive Datenintegration für Unternehmen, Bibliotheken und Forschungseinrichtungen, sondern stellt auch ein nachhaltiges Geschäftsmodell im Open-Data-Umfeld vor. Lernen Sie anhand konkreter Anwendungsbeispiele, wie DBpedia als Wissensrückgrat eingesetzt werden kann und welche Rolle es im „Web of Data“ spielt."@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-51> <http://purl.org/dc/terms/description> "In this presentation, you will learn how DBpedia Enterprise links heterogeneous data sources such as Wikipedia, Wikidata and Linked Open Data - in real time and with stable, searchable knowledge graphs. The technology not only enables effective data integration for companies, libraries and research institutions, but also presents a sustainable business model in the open data environment. Learn from concrete application examples how DBpedia can be used as a knowledge backbone and what role it plays in the “Web of Data”."@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-51> <http://purl.org/dc/terms/title> "Live Fusion and Seamless Integration - DBpedia Enterprise in action"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-51> <http://purl.org/dc/terms/title> "Live Fusion and Seamless Integraton – DBpedia Enterprise in Aktion"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-51> <http://schema.org/endTime> "18:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-51> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-51> <http://schema.org/performer> <https://dataweek.de/#AlexanderHofmann> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-51> <http://schema.org/startTime> "18:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-51> <http://schema.org/performer> <http://aksw.org/SebastianHellmann> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-51> <http://schema.org/startTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-52> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-52> <http://purl.org/dc/terms/description> "Graph databases are essential for many AI applications that focus on relationships between data. Neo4j, one of the leading providers in this field, will present how companies can use graph technology to analyze complex relationships, identify patterns and make informed decisions. The presentation will provide practical insights into fields of application such as fraud detection, recommendation systems and knowledge management."@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-52> <http://purl.org/dc/terms/description> "Graphdatenbanken sind essenziell für viele KI-Anwendungen, bei denen Beziehungen zwischen Daten im Mittelpunkt stehen. Neo4j, einer der führenden Anbieter auf diesem Gebiet, stellt vor, wie Unternehmen mithilfe von Graphtechnologie komplexe Zusammenhänge analysieren, Muster erkennen und fundierte Entscheidungen treffen können. Der Vortrag gibt praxisnahe Einblicke in Anwendungsfelder wie Betrugserkennung, Empfehlungssysteme oder Wissensmanagement."@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-52> <http://purl.org/dc/terms/title> "Graph databases for AI applications - use cases with Neo4j"@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-52> <http://purl.org/dc/terms/title> "Graphdatenbanken für KI-Anwendungen – Use Cases mit Neo4j"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-52> <http://schema.org/endTime> "18:55:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-52> <http://purl.org/dc/terms/description> "How do we as a technology company manage to successfully implement AI projects? In which use cases does generative AI really bring an advantage? What AI blockades do we experience in our daily work and how do we solve them? The fact is: the AI potential is huge and affects all industries. The presentation will show interesting examples from sectors such as tourism, insurance and robotics. MaibornWolff, an established IT service provider with a focus on sustainable digitalization and AI, will report on its own practical experience."@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-52> <http://purl.org/dc/terms/description> "Wie gelingt es uns als Technologieunternehmen, KI-Projekte erfolgreich in die Anwendung zu bringen? In welchen Anwendungsfällen bringt generative KI wirklich einen Vorteil? Welche KI Blockaden erleben\n wir in der täglichen Arbeit und wie lösen wir sie? Fakt ist: Das KI-Potenzial ist riesig und betrifft alle Branchen. Der Vortrag zeigt interessante Beispiele aus Branchen, wie z.B. Touristik, Versicherungen, Robotik. MaibornWolff, ein etablierter IT-Dienstleister\n mit Fokus auf nachhaltige Digitalisierung und AI, berichtet aus der eigenen Praxis."@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-52> <http://purl.org/dc/terms/title> "AI in practice: AI use cases that make life easier."@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-52> <http://purl.org/dc/terms/title> "KI in der Praxis: KI-Anwendungsfälle, die das Leben leichter machen."@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-52> <http://schema.org/endTime> "18:35:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-52> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-52> <http://schema.org/performer> <https://dataweek.de/#KevinGomez> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-52> <http://schema.org/startTime> "18:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-52> <http://schema.org/performer> <https://dataweek.de/#AlexanderHofmann> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-52> <http://schema.org/startTime> "18:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-53> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-53> <http://purl.org/dc/terms/description> "Graph databases are essential for many AI applications that focus on relationships between data. Neo4j, one of the leading providers in this field, will present how companies can use graph technology to analyze complex relationships, identify patterns and make informed decisions. The presentation will provide practical insights into fields of application such as fraud detection, recommendation systems and knowledge management."@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-53> <http://purl.org/dc/terms/description> "Graphdatenbanken sind essenziell für viele KI-Anwendungen, bei denen Beziehungen zwischen Daten im Mittelpunkt stehen. Neo4j, einer der führenden Anbieter auf diesem Gebiet, stellt vor, wie Unternehmen mithilfe von Graphtechnologie komplexe Zusammenhänge analysieren, Muster erkennen und fundierte Entscheidungen treffen können. Der Vortrag gibt praxisnahe Einblicke in Anwendungsfelder wie Betrugserkennung, Empfehlungssysteme oder Wissensmanagement."@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-53> <http://purl.org/dc/terms/title> "Graph databases for AI applications - use cases with Neo4j"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-53> <http://purl.org/dc/terms/title> "Graphdatenbanken für KI-Anwendungen – Use Cases mit Neo4j"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-53> <http://schema.org/endTime> "18:55:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-53> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-53> <http://schema.org/performer> <https://dataweek.de/#KevinGomez> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-53> <http://schema.org/startTime> "18:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-5> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-5> <http://purl.org/dc/terms/title> "Greetings from the City of Leipzig"@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-5> <http://purl.org/dc/terms/title> "Grußwort der Stadt Leipzig"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-5> <http://purl.org/dc/terms/title> "Greetings from the University of Leipzig - Live translation available in English. "@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-5> <http://purl.org/dc/terms/title> "Grußwort der Universität Leipzig"@de .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-5> <http://schema.org/endTime> "10:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-5> <http://schema.org/endTime> "10:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-5> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-5> <http://schema.org/startTime> "10:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-5> <http://schema.org/performer> <https://dataweek.de/#EvaIn%C3%A9sObergfell> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-5> <http://schema.org/startTime> "10:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-6> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-6> <http://purl.org/dc/terms/title> "Greetings from the University of Leipzig"@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-6> <http://purl.org/dc/terms/title> "Grußwort der Universität Leipzig"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-6> <http://purl.org/dc/terms/title> "Greetings from the City of Leipzig - Live translation available in English. "@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-6> <http://purl.org/dc/terms/title> "Grußwort der Stadt Leipzig"@de .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-6> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-6> <http://schema.org/endTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-6> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-6> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-6> <http://schema.org/performer> <https://dataweek.de/#EvaIn%C3%A9sObergfell> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-6> <http://schema.org/startTime> "10:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-6> <http://schema.org/performer> <https://dataweek.de/#BeateGinzel> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-6> <http://schema.org/startTime> "10:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://purl.org/dc/terms/title> "Eröffnungskeynote zur Data Week 2025"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://purl.org/dc/terms/title> "Opening keynote for Data Week 2025 - Live translation available in English. "@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://purl.org/dc/terms/description> "As part of Dataweek Leipzig, we cordially invite you to the keynote speech by the Federal Ministry of Housing, Urban Development and Building. The opening speech by Renate Mitterhuber will highlight the key role of the digital city in the practical implementation of urban development that is oriented towards the common good, productive and liveable. The focus will be on a current and practical insight into the federal government's program for smart urban and regional development."@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://purl.org/dc/terms/description> "Im Rahmen der Dataweek Leipzig laden wir Sie herzlich zur Keynote des Bundesministeriums für Wohnen, Stadtentwicklung und Bauwesen ein. Die Eröffnungsrede von Renate Mitterhuber wird die Schlüsselrolle der Digitalen Stadt bei der praktischen Umsetzung einer gemeinwohlorientierten, produktiven und lebenswerten Stadtentwicklung beleuchten. Den Fokus bildet ein aktueller und praxisnaher Einblick in das Programm des Bundes für smarte Stadt- und Regionalentwicklung. "@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://purl.org/dc/terms/title> "Lebenswerte Städte und Regionen gestalten: Die Smart City als kommunale Aufgabedee"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://purl.org/dc/terms/title> "Shaping liveable cities and regions: The smart city as a municipal task - Live translation available in English. "@en .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://schema.org/endTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://schema.org/endTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://schema.org/performer> <https://dataweek.de/#MiguelD.Mahecha> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://schema.org/performer> <https://dataweek.de/#RenateMittelhuber> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://schema.org/startTime> "10:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-8> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-8> <http://purl.org/dc/terms/title> "Keynote zur Data Week 2025"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-8> <http://purl.org/dc/terms/title> "Opening keynote for Data Week 2025 - Live translation available in English. "@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-8> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-8> <http://schema.org/endTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-8> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-8> <http://schema.org/performer> <https://dataweek.de/#MiguelD.Mahecha> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-8> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-10/09:15> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-10/11:30> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/break/2025-06-10/14:00> .
@@ -2121,8 +2142,9 @@
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-session-7> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-session-8> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-session-9> .
-<https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-23> .
+<https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-24> .
 <https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> .
+<https://2025.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-8> .
 <https://2025.dataweek.de/symposium/> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/symposium/> <http://purl.org/dc/terms/description> "\n### Fachtag f\u00FCr Menschen aus Kultur und Digitalisierung\n\n**Zeit und Ort:** 11.06.2025 von 10:00 \u2013 18:00 Uhr in Leipzig, im Foyer des Schauspiel Leipzig (Bosestra\u00DFe 1, 04109 Leipzig)\n\n**Zur Anmeldung:** [https://formulare.leipzig.de/frontend-server/form/provide/3435/](https://formulare.leipzig.de/frontend-server/form/provide/3435/)\n\nIm Stadtgeschichtlichen Museum lebt Trude Richter als digitaler Avatar, das Schauspiel Leipzig hat sein erstes St\u00FCck mit einem Hamster und einer VR-Brillen aufgef\u00FChrt, an Silvester hat das Gewandhausorchester Beethovens 9. im Second-Screen gestreamt. Digitalisierung findet auf der B\u00FChne statt. Aber nur dort? Wir setzen die Kultur auf die Agenda der Data Week. Gemeinsam laden das Referat Strategische Kulturpolitik und das Referat Digitale am 11.06.2025 nach Leipzig ein. Einen Tag lang blicken/klicken wir auf die Hinterb\u00FChne, ins Backend und in die Schaltzentrale von Kultureinrichtungen. Wir richten uns mit der Einladung an Kolleg:innen mitteldeutscher Kultureinrichtungen. Arbeitsplatz egal: Von der B\u00FChne bis zum Museums, von der Bibliothek und bis zum Festivals, vom gef\u00F6rderten Kunstprojekt bis zum Traditionshaus. Das Interesse an dem Austausch \u00FCber Kultur und Digitalisierung steht im Vordergrund.\n\n**Programm**\n\nDie Teilnahme an dem Fachtag ist kostenlos. Eine [Anmeldung](https://formulare.leipzig.de/frontend-server/form/provide/3435/) zum Fachtag ist Voraussetzung f\u00FCr die Teilnahme.\n\nAnkommen (Ab 9:30 Uhr)\n\nVormittags (10:00 \u2013 12:00 Uhr)\n- Probleme versteigern: Alles eine Frage des richtigen Ansatzes? Wir versteigern von Teilnehmer:innen eigereichte Probleme an Expert:innen. Ausgedruckte Dienstpl\u00E4ne, Daten, die in Silos verschwinden oder fehlende Programmierer, die sich f\u00FCr Kunst und Kultur begeistern. In kurzen Slots k\u00F6nnen die Teilnehmerinnen Probleme aus der Themenwelt Digitalisierung und Kultur zur Versteigerung anbieten.\n\nNachmittags (13:00 \u2013 17:00 Uhr)\n- Panels und Austauschformate zu den Themen Kulturdaten und digitale Arbeitsformen. Die eingeladenen Expert:innen nehmen sich den eingereichten Problemen an und entwerfen gemeinsam mit den Teilnehmer:innen L\u00F6sungsideen.\n  - Panel 1. Kulturdaten: Standards, Qualit\u00E4t und Nachnutzung\n  - Panel 2. Neue Wege: Von Ko-Kreation bis KI\n  - Panel 3. Veranstaltungen im Blick: Kalender und Kommunikationsstrategien\n\nAbschluss: (17:00 \u2013 18:00 Uhr)\n\n**Kontakt**\n\nJakob Freese, Koordinator eCulture Stadt Leipzig, Stadt Leipzig, Referat Strategische Kulturpolitik, Tel.: 0341/123- 4213, E-Mail [jakob.freese@leipzig.de](mailto:jakob.freese@leipzig.de)\n"@de .
 <https://2025.dataweek.de/symposium/> <http://purl.org/dc/terms/description> "\n### Symposium for people from culture and digitalisation\n\n**Time and place:**\n11 June 2025 from 10:00 - 18:00\nIn Leipzig, at lobby of Schauspiel Leipzig (Bosestra\u00DFe 1, 04109 Leipzig)\n\n**To the registration:** [https://formulare.leipzig.de/frontend-server/form/provide/3435/](https://formulare.leipzig.de/frontend-server/form/provide/3435/)\n\nTrude Richter lives as a digital avatar in the City History Museum, Schauspiel Leipzig has performed its first play with a hamster and VR glasses, and on New Year's Eve the Gewandhaus Orchestra streamed Beethoven's 9th on second screen. Digitalisation is taking place on stage. But only there?\nWe are putting culture on the Data Week agenda. The Strategic Cultural Policy Department and the Digital Department are jointly inviting you to Leipzig on 11 June 2025.\nFor one day, we will take a look at the backstage, the backend and the control centre of cultural institutions.\nThis invitation is aimed at colleagues from cultural institutions in Central Germany. No matter where they work: from the stage to the museum, from the library to the festival, from the subsidised art project to the traditional house. The focus is on the interest in exchanging ideas about culture and digitalisation.\n\n**Program**\n\nParticipation in the symposium is free of charge. [Registration](https://formulare.leipzig.de/frontend-server/form/provide/3435/) for the symposium is a prerequisite for participation.\n\nArrival (from 9:30 am)\n\nMorning (10:00 - 12:00)\n- Auctioning problems: Is it all a question of the right approach? We auction off problems submitted by participants to experts. Printed rosters, data that disappears in silos or missing programmers who are passionate about art and culture. The invited experts take on the submitted problems and develop solutions together with the participants.\n\nIn the afternoon (13:00 - 17:00)\n- Panels and exchange formats on the topics of cultural data and digital forms of work. The invited experts will address the problems submitted and develop ideas for solutions together with the participants.\n  - Panel 1: Cultural data: standards, quality and re-use\n  - Panel 2 New paths: From co-creation to AI\n  - Panel 3: Events at a glance: Calendar and communication strategies\n\nConclusion: (17:00 - 18:00)\n- Artistic impulse\n\n**Contact**\n\nJakob Freese, Coordinator eCulture City of Leipzig, City of Leipzig, Department of Strategic Cultural Policy, Phone: 0341/123- 4213, E-mail: [jakob.freese@leipzig.de](mailto:jakob.freese@leipzig.de)\n"@en .
@@ -2600,9 +2622,9 @@
 <https://2025.dataweek.de/workshops/#programm-session-31> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/workshops/#programm-session-31> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-31> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
-<https://2025.dataweek.de/workshops/#programm-session-31> <http://schema.org/performer> <https://dataweek.de/#FranziskaBrenner> .
 <https://2025.dataweek.de/workshops/#programm-session-31> <http://schema.org/performer> <https://dataweek.de/#FranziskaKorb-King> .
-<https://2025.dataweek.de/workshops/#programm-session-31> <http://schema.org/performer> <https://dataweek.de/#PaulRenninger> .
+<https://2025.dataweek.de/workshops/#programm-session-31> <http://schema.org/performer> <https://dataweek.de/#LinaHoeck> .
+<https://2025.dataweek.de/workshops/#programm-session-31> <http://schema.org/performer> <https://dataweek.de/#PiaVoigt> .
 <https://2025.dataweek.de/workshops/#programm-session-31> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/workshops/#programm-session-32> <http://purl.org/dc/terms/date> "2025-06-13"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3446,6 +3468,10 @@
 <https://dataweek.de/#ClaudiusWehner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ClaudiusWehner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ClaudiusWehner> <http://xmlns.com/foaf/0.1/name> "Claudius Wehner" .
+<https://dataweek.de/#ClemensSchleupner> <http://schema.org/affiliation> <https://www.sprind.org/> .
+<https://dataweek.de/#ClemensSchleupner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#ClemensSchleupner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#ClemensSchleupner> <http://xmlns.com/foaf/0.1/name> "Clemens Schleupner" .
 <https://dataweek.de/#ClemensSchuelke> <http://purl.org/dc/terms/description> "Bürgermeister und Beigeordneter für Wirtschaft, Arbeit und Digitales"@de .
 <https://dataweek.de/#ClemensSchuelke> <http://purl.org/dc/terms/description> "Mayor and Councillor for Economic Affairs, Labour and Digital Affairs"@en .
 <https://dataweek.de/#ClemensSchuelke> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/dezernat-wirtschaft-arbeit-und-digitales-028> .
@@ -4082,6 +4108,12 @@
 <https://dataweek.de/#JudithFauth> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/judith-fauth-5b5137bb/> .
 <https://dataweek.de/#JudithFauth> <http://xmlns.com/foaf/0.1/name> "Judith Fauth" .
 <https://dataweek.de/#JudithFauth> <http://xmlns.com/foaf/0.1/title> "Dr. " .
+<https://dataweek.de/#JuergenAnke> <http://schema.org/affiliation> <https://www.htw-dresden.de/> .
+<https://dataweek.de/#JuergenAnke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#JuergenAnke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JuergenAnke> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Jürgen Anke" .
+<https://dataweek.de/#JuergenAnke> <http://xmlns.com/foaf/0.1/name> "Jürgen Anke" .
+<https://dataweek.de/#JuergenAnke> <http://xmlns.com/foaf/0.1/title> "Prof." .
 <https://dataweek.de/#JuergenBretfeld> <http://purl.org/dc/terms/description> "Managing Director"@de .
 <https://dataweek.de/#JuergenBretfeld> <http://purl.org/dc/terms/description> "Managing Director"@en .
 <https://dataweek.de/#JuergenBretfeld> <http://schema.org/affiliation> <urn:url-encoded-value:www.advaneo.de> .
@@ -4131,6 +4163,12 @@
 <https://dataweek.de/#KaiGildhorn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#KaiGildhorn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#KaiGildhorn> <http://xmlns.com/foaf/0.1/name> "Kai Gildhorn" .
+<https://dataweek.de/#KaiKuemmel> <http://purl.org/dc/terms/description> "Lead Data Product Portfolio Manager"@en .
+<https://dataweek.de/#KaiKuemmel> <http://purl.org/dc/terms/description> "Leiter des Portfolios für Datenprodukte"@de .
+<https://dataweek.de/#KaiKuemmel> <http://schema.org/affiliation> <https://www.zeiss.de/corporate/home.html> .
+<https://dataweek.de/#KaiKuemmel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#KaiKuemmel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#KaiKuemmel> <http://xmlns.com/foaf/0.1/name> "Kai Kuemmel" .
 <https://dataweek.de/#KanaliTogawa> <http://schema.org/affiliation> <https://make-work-flow.org/> .
 <https://dataweek.de/#KanaliTogawa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#KanaliTogawa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -4212,6 +4250,12 @@
 <https://dataweek.de/#LennartCarstensBehrens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#LennartCarstensBehrens> <http://xmlns.com/foaf/0.1/name> "Lennart Carstens-Behrens" .
 <https://dataweek.de/#LennartCarstensBehrens> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Studiert Informatik im Bachelor-Studiengang an der Hochschule für Technik, Wirtschaft und Kultur Leipzig und ist Preisträger beim InformatiCup2022 der Gesellschaft für Informatik e.V.."@en .
+<https://dataweek.de/#LinaHoeck> <http://purl.org/dc/terms/description> "Research assistant"@en .
+<https://dataweek.de/#LinaHoeck> <http://purl.org/dc/terms/description> "Wissenschaftliche Mitarbeiterin"@de .
+<https://dataweek.de/#LinaHoeck> <http://schema.org/affiliation> <https://come2data.de/> .
+<https://dataweek.de/#LinaHoeck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#LinaHoeck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#LinaHoeck> <http://xmlns.com/foaf/0.1/name> "Lina Höck" .
 <https://dataweek.de/#LindaDrescher> <http://purl.org/dc/terms/description> "Kommunikationswissenschaftlerin"@en .
 <https://dataweek.de/#LindaDrescher> <http://purl.org/dc/terms/description> "Moderatorin | Redakteurin | Casterin | Sprecherin"@de .
 <https://dataweek.de/#LindaDrescher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -4302,7 +4346,7 @@
 <https://dataweek.de/#MaikGuenther> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#MalteBarth> <http://purl.org/dc/terms/description> "Data Scientist ​"@de .
 <https://dataweek.de/#MalteBarth> <http://purl.org/dc/terms/description> "Data Scientist ​"@en .
-<https://dataweek.de/#MalteBarth> <http://schema.org/affiliation> <http://www.citylab-berlin.org/> .
+<https://dataweek.de/#MalteBarth> <http://schema.org/affiliation> <http://www.technologiestiftung-berlin.de/> .
 <https://dataweek.de/#MalteBarth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MalteBarth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MalteBarth> <http://xmlns.com/foaf/0.1/name> "Malte Barth" .
@@ -4440,7 +4484,7 @@
 <https://dataweek.de/#MartinBlumbach&MarcelFroehlich> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/BlumbachFroehlich.jpg" .
 <https://dataweek.de/#MartinBlumbach> <http://purl.org/dc/terms/description> "Lead Architect for Automating Technical Documentation of Cloud-Native Software Products at Ericsson "@en .
 <https://dataweek.de/#MartinBlumbach> <http://purl.org/dc/terms/description> "Leitender Architekt für die Automatisierung der technischen Dokumentation von Cloud-nativen Softwareprodukten bei Ericsson "@de .
-<https://dataweek.de/#MartinBlumbach> <http://schema.org/affiliation> <urn:url-encoded-value:www.ericsson.com%2Fde> .
+<https://dataweek.de/#MartinBlumbach> <http://schema.org/affiliation> <https://www.ericsson.com/en> .
 <https://dataweek.de/#MartinBlumbach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MartinBlumbach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MartinBlumbach> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MartinBlumbach.jpg" .
@@ -4589,6 +4633,12 @@
 <https://dataweek.de/#MaximilianPensel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MaximilianPensel> <http://xmlns.com/foaf/0.1/homepage> <https://de.linkedin.com/in/maximilian-pensel-052890204> .
 <https://dataweek.de/#MaximilianPensel> <http://xmlns.com/foaf/0.1/name> "Maximilian Pensel " .
+<https://dataweek.de/#MaximilianUeberham> <http://purl.org/dc/terms/description> "Klimaschutzmanager"@de .
+<https://dataweek.de/#MaximilianUeberham> <http://purl.org/dc/terms/description> "Klimaschutzmanager"@en .
+<https://dataweek.de/#MaximilianUeberham> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> .
+<https://dataweek.de/#MaximilianUeberham> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MaximilianUeberham> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MaximilianUeberham> <http://xmlns.com/foaf/0.1/name> "Maximilian Ueberham" .
 <https://dataweek.de/#MehdiAzarafza> <http://purl.org/dc/terms/description> "Scientific Researcher"@en .
 <https://dataweek.de/#MehdiAzarafza> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
 <https://dataweek.de/#MehdiAzarafza> <http://schema.org/affiliation> <https://infai.org/> .
@@ -4911,6 +4961,15 @@
 <https://dataweek.de/#ReinhardSchinke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ReinhardSchinke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ReinhardSchinke> <http://xmlns.com/foaf/0.1/name> "Reinhard Schinke" .
+<https://dataweek.de/#RenateMittelhuber> <http://purl.org/dc/terms/description> "Head of Division"@en .
+<https://dataweek.de/#RenateMittelhuber> <http://purl.org/dc/terms/description> "Referatsleiterin"@de .
+<https://dataweek.de/#RenateMittelhuber> <http://schema.org/affiliation> <https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/staedtebau/smart-cities/smart-cities-node.html> .
+<https://dataweek.de/#RenateMittelhuber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#RenateMittelhuber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#RenateMittelhuber> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/RenateMittelhuber.jpg" .
+<https://dataweek.de/#RenateMittelhuber> <http://xmlns.com/foaf/0.1/name> "Renate Mittelhuber" .
+<https://dataweek.de/#RenateMittelhuber> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Renate Mitterhuber has been Head of the Smart Cities and Regions Division at the Federal Ministry of Housing, Urban Development and Building since December 2021. Prior to that, she was head of the “Federal Portal; Portal Network; Business and Coordination Office 115” unit at the Federal Ministry of the Interior. The focus was on developing the digital infrastructure to implement the Online Access Act (OZG). \nFrom June 2017 to October 2019, Renate Mitterhuber was head of the IT Planning Council's office. From 1991 to 2017, she worked in the Free and Hanseatic City of Hamburg, initially in staff positions in the education and finance departments and since 2001 in the area of digitalization. She was responsible for Hamburg's e-government and IT strategy and was involved in setting up the Hamburg Open Data Portal and the Transparency Portal, among other things. "@en .
+<https://dataweek.de/#RenateMittelhuber> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Renate Mitterhuber leitet seit Dezember 2021 das Referat Smarte Städte und Regi-onen im Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen. Davor war sie Leiterin des Referats „Bundesportal; Portalverbund; Geschäfts- und Koordi-nierungsstelle 115“ im Bundesministerium des Innern. Schwerpunkt war der Aufbau der digitalen Infrastruktur zur Umsetzung des Onlinezugangsgesetzes (OZG). \nVon Juni 2017 bis Oktober 2019 war Renate Mitterhuber Leiterin der Geschäftsstelle des IT-Planungsrats. Von 1991 bis 2017 war sie in der Freien und Hansestadt Ham-burg tätig, zunächst in Stabsstellen im Bildungs- und im Finanzressort und seit 2001 im Bereich Digitalisierung. Sie war verantwortlich für die Hamburger E-Government- und IT-Strategie sowie u.a. am Aufbau des Hamburger Open Data Portals und des Transparenzportals beteiligt. "@de .
 <https://dataweek.de/#RichardFigura> <http://purl.org/dc/terms/description> "CEO"@de .
 <https://dataweek.de/#RichardFigura> <http://purl.org/dc/terms/description> "CEO"@en .
 <https://dataweek.de/#RichardFigura> <http://schema.org/affiliation> <https://www.ciss.de> .
@@ -5687,6 +5746,10 @@
 <https://extrazwei.de/> <http://www.w3.org/2000/01/rdf-schema#label> "extrazwei"@de .
 <https://extrazwei.de/> <http://www.w3.org/2000/01/rdf-schema#label> "extrazwei"@en .
 <https://extrazwei.de/> <http://xmlns.com/foaf/0.1/homepage> <https://extrazwei.de/> .
+<https://formfollowsyou.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://formfollowsyou.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Form Follows You GmbH" .
+<https://formfollowsyou.com/> <http://xmlns.com/foaf/0.1/homepage> <https://formfollowsyou.com/> .
+<https://formfollowsyou.com/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/form_follows_you.png" .
 <https://fu-confirm.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://fu-confirm.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://fu-confirm.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
@@ -6015,6 +6078,11 @@
 <https://www.bismit.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Netzwerkbüro | Bildung im Strukturwandel in Mitteldeutschland – BiSMit"@de .
 <https://www.bismit.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Netzwerkbüro | Bildung im Strukturwandel in Mitteldeutschland – BiSMit"@en .
 <https://www.bismit.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.bismit.de/> .
+<https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/staedtebau/smart-cities/smart-cities-node.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/staedtebau/smart-cities/smart-cities-node.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/staedtebau/smart-cities/smart-cities-node.html> <http://www.w3.org/2000/01/rdf-schema#label> "Referat Smarte Städte und Regionen im Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen"@de .
+<https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/staedtebau/smart-cities/smart-cities-node.html> <http://www.w3.org/2000/01/rdf-schema#label> "Smart Cities and Regions Division at the Federal Ministry of Housing, Urban Development and Building"@en .
+<https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/staedtebau/smart-cities/smart-cities-node.html> <http://xmlns.com/foaf/0.1/homepage> <https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/staedtebau/smart-cities/smart-cities-node.html> .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/personen/p/simon-maris/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
@@ -6162,6 +6230,11 @@
 <https://www.eccenca.com/> <http://www.w3.org/2000/01/rdf-schema#label> "eccenca GmbH"@en .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.eccenca.com/> .
 <https://www.eccenca.com/> <http://xmlns.com/foaf/0.1/logo> <https://dataweek.de/#LogoEccenca> .
+<https://www.ericsson.com/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.ericsson.com/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.ericsson.com/en> <http://www.w3.org/2000/01/rdf-schema#label> "Ericsson"@de .
+<https://www.ericsson.com/en> <http://www.w3.org/2000/01/rdf-schema#label> "Ericsson"@en .
+<https://www.ericsson.com/en> <http://xmlns.com/foaf/0.1/homepage> <https://www.ericsson.com/en> .
 <https://www.etas.com/ww/de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.etas.com/ww/de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.etas.com/ww/de/> <http://www.w3.org/2000/01/rdf-schema#label> "ETAS"@de .
@@ -6264,6 +6337,11 @@
 <https://www.hs-merseburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Hochschule Merseburg"@de .
 <https://www.hs-merseburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Hochschule Merseburg"@en .
 <https://www.hs-merseburg.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.hs-merseburg.de/> .
+<https://www.htw-dresden.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.htw-dresden.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.htw-dresden.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Hochschule für Technik und Wirtschaft Dresden"@de .
+<https://www.htw-dresden.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Hochschule für Technik und Wirtschaft Dresden"@en .
+<https://www.htw-dresden.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.htw-dresden.de/> .
 <https://www.iao.fraunhofer.de/en.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.iao.fraunhofer.de/en.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.iao.fraunhofer.de/en.html> <http://www.w3.org/2000/01/rdf-schema#label> "Fraunhofer Institute for Industrial Engineering IAO"@en .
@@ -6647,6 +6725,11 @@
 <https://www.sonah.tech/de> <http://www.w3.org/2000/01/rdf-schema#label> "SONAH"@de .
 <https://www.sonah.tech/de> <http://www.w3.org/2000/01/rdf-schema#label> "SONAH"@en .
 <https://www.sonah.tech/de> <http://xmlns.com/foaf/0.1/homepage> <https://www.sonah.tech/de> .
+<https://www.sprind.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.sprind.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.sprind.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Bundesagentur für Sprunginnovationen (SPRIN-D)"@de .
+<https://www.sprind.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Agency for Breakthrough Innovation"@en .
+<https://www.sprind.org/> <http://xmlns.com/foaf/0.1/homepage> <https://www.sprind.org/> .
 <https://www.stmd.bayern.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.stmd.bayern.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.stmd.bayern.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Bayerischen Staatsministerium für Digitales"@de .
@@ -6824,11 +6907,6 @@
 <urn:url-encoded-value:www.bertelsmann-stiftung.de> <http://www.w3.org/2000/01/rdf-schema#label> "Bertelsmann Stiftung"@de .
 <urn:url-encoded-value:www.bertelsmann-stiftung.de> <http://www.w3.org/2000/01/rdf-schema#label> "Bertelsmann Stiftung"@en .
 <urn:url-encoded-value:www.bertelsmann-stiftung.de> <http://xmlns.com/foaf/0.1/homepage> <urn:url-encoded-value:www.bertelsmann-stiftung.de> .
-<urn:url-encoded-value:www.ericsson.com%2Fde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<urn:url-encoded-value:www.ericsson.com%2Fde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-<urn:url-encoded-value:www.ericsson.com%2Fde> <http://www.w3.org/2000/01/rdf-schema#label> "Ericsson"@de .
-<urn:url-encoded-value:www.ericsson.com%2Fde> <http://www.w3.org/2000/01/rdf-schema#label> "Ericsson"@en .
-<urn:url-encoded-value:www.ericsson.com%2Fde> <http://xmlns.com/foaf/0.1/homepage> <urn:url-encoded-value:www.ericsson.com%2Fde> .
 <urn:url-encoded-value:www.fem-online.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <urn:url-encoded-value:www.fem-online.de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <urn:url-encoded-value:www.fem-online.de> <http://www.w3.org/2000/01/rdf-schema#label> "fem Forschungsinstitut"@de .
