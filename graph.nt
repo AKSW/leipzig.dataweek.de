@@ -789,6 +789,7 @@
 <https://2025.dataweek.de/Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2025.dataweek.de/Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In Kooperation mit"@de .
 <https://2025.dataweek.de/Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In cooperation with"@en .
+<https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> <https://www.maibornwolff.de/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://civic-coding.de/> .
 <https://2025.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://www.init.de/> .
@@ -2149,7 +2150,7 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://schema.org/endTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://schema.org/performer> <https://dataweek.de/#RenateMittelhuber> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://schema.org/performer> <https://dataweek.de/#RenateMitterhuber> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
@@ -2494,6 +2495,7 @@
 <https://2025.dataweek.de/workshops/#programm-session-18> <http://purl.org/dc/terms/title> "AI Thinking Workshop: KI-Anwendungsfälle für Ihr Arbeitsumfeld identifizieren (druchgeführt von der MaibornWolff GmbH)"@de .
 <https://2025.dataweek.de/workshops/#programm-session-18> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-18> <http://schema.org/location> <https://dataweek.de/venue#Room369> .
+<https://2025.dataweek.de/workshops/#programm-session-18> <http://schema.org/performer> <https://dataweek.de/#EmilySearle-Whitebitt> .
 <https://2025.dataweek.de/workshops/#programm-session-18> <http://schema.org/performer> <https://dataweek.de/#VerenaBitto> .
 <https://2025.dataweek.de/workshops/#programm-session-18> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -3682,6 +3684,12 @@
 <https://dataweek.de/#ElizabethOrta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ElizabethOrta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ElizabethOrta> <http://xmlns.com/foaf/0.1/name> "Elizabeth Orta" .
+<https://dataweek.de/#EmilySearle-Whitebitt> <http://purl.org/dc/terms/description> "Lead Data Consultant"@de .
+<https://dataweek.de/#EmilySearle-Whitebitt> <http://purl.org/dc/terms/description> "Lead Data Consultant"@en .
+<https://dataweek.de/#EmilySearle-Whitebitt> <http://schema.org/affiliation> <https://www.maibornwolff.de/> .
+<https://dataweek.de/#EmilySearle-Whitebitt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#EmilySearle-Whitebitt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#EmilySearle-Whitebitt> <http://xmlns.com/foaf/0.1/name> "Emily Searle-White" .
 <https://dataweek.de/#EnohTabak> <http://purl.org/dc/terms/description> "Advisor - International Smart Cities Network"@de .
 <https://dataweek.de/#EnohTabak> <http://purl.org/dc/terms/description> "Advisor - International Smart Cities Network"@en .
 <https://dataweek.de/#EnohTabak> <http://schema.org/affiliation> <https://www.giz.de> .
@@ -5078,15 +5086,15 @@
 <https://dataweek.de/#ReinhardSchinke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ReinhardSchinke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ReinhardSchinke> <http://xmlns.com/foaf/0.1/name> "Reinhard Schinke" .
-<https://dataweek.de/#RenateMittelhuber> <http://purl.org/dc/terms/description> "Head of Division"@en .
-<https://dataweek.de/#RenateMittelhuber> <http://purl.org/dc/terms/description> "Referatsleiterin"@de .
-<https://dataweek.de/#RenateMittelhuber> <http://schema.org/affiliation> <https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/staedtebau/smart-cities/smart-cities-node.html> .
-<https://dataweek.de/#RenateMittelhuber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
-<https://dataweek.de/#RenateMittelhuber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#RenateMittelhuber> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/RenateMittelhuber.jpg" .
-<https://dataweek.de/#RenateMittelhuber> <http://xmlns.com/foaf/0.1/name> "Renate Mittelhuber" .
-<https://dataweek.de/#RenateMittelhuber> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Renate Mitterhuber leitet seit Dezember 2021 das Referat Smarte Städte und Regionen im Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen. Davor war sie Leiterin des Referats „Bundesportal; Portalverbund; Geschäfts- und Koordinierungsstelle 115“ im Bundesministerium des Innern. Schwerpunkt war der Aufbau der digitalen Infrastruktur zur Umsetzung des Onlinezugangsgesetzes (OZG). \nVon Juni 2017 bis Oktober 2019 war Renate Mitterhuber Leiterin der Geschäftsstelle des IT-Planungsrats. Von 1991 bis 2017 war sie in der Freien und Hansestadt Hamburg tätig, zunächst in Stabsstellen im Bildungs- und im Finanzressort und seit 2001 im Bereich Digitalisierung. Sie war verantwortlich für die Hamburger E-Government- und IT-Strategie sowie u.a. am Aufbau des Hamburger Open Data Portals und des Transparenzportals beteiligt. "@de .
-<https://dataweek.de/#RenateMittelhuber> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Renate Mitterhuber leitet seit Dezember 2021 das Referat Smarte Städte und Regionen im Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen. Davor war sie Leiterin des Referats „Bundesportal; Portalverbund; Geschäfts- und Koordinierungsstelle 115“ im Bundesministerium des Innern. Schwerpunkt war der Aufbau der digitalen Infrastruktur zur Umsetzung des Onlinezugangsgesetzes (OZG). \nVon Juni 2017 bis Oktober 2019 war Renate Mitterhuber Leiterin der Geschäftsstelle des IT-Planungsrats. Von 1991 bis 2017 war sie in der Freien und Hansestadt Hamburg tätig, zunächst in Stabsstellen im Bildungs- und im Finanzressort und seit 2001 im Bereich Digitalisierung. Sie war verantwortlich für die Hamburger E-Government- und IT-Strategie sowie u.a. am Aufbau des Hamburger Open Data Portals und des Transparenzportals beteiligt. "@en .
+<https://dataweek.de/#RenateMitterhuber> <http://purl.org/dc/terms/description> "Head of Division"@en .
+<https://dataweek.de/#RenateMitterhuber> <http://purl.org/dc/terms/description> "Referatsleiterin"@de .
+<https://dataweek.de/#RenateMitterhuber> <http://schema.org/affiliation> <https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/staedtebau/smart-cities/smart-cities-node.html> .
+<https://dataweek.de/#RenateMitterhuber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#RenateMitterhuber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#RenateMitterhuber> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/RenateMitterhuber.jpg" .
+<https://dataweek.de/#RenateMitterhuber> <http://xmlns.com/foaf/0.1/name> "Renate Mitterhuber" .
+<https://dataweek.de/#RenateMitterhuber> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Renate Mitterhuber leitet seit Dezember 2021 das Referat Smarte Städte und Regionen im Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen. Davor war sie Leiterin des Referats „Bundesportal; Portalverbund; Geschäfts- und Koordinierungsstelle 115“ im Bundesministerium des Innern. Schwerpunkt war der Aufbau der digitalen Infrastruktur zur Umsetzung des Onlinezugangsgesetzes (OZG). \nVon Juni 2017 bis Oktober 2019 war Renate Mitterhuber Leiterin der Geschäftsstelle des IT-Planungsrats. Von 1991 bis 2017 war sie in der Freien und Hansestadt Hamburg tätig, zunächst in Stabsstellen im Bildungs- und im Finanzressort und seit 2001 im Bereich Digitalisierung. Sie war verantwortlich für die Hamburger E-Government- und IT-Strategie sowie u.a. am Aufbau des Hamburger Open Data Portals und des Transparenzportals beteiligt. "@de .
+<https://dataweek.de/#RenateMitterhuber> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Renate Mitterhuber leitet seit Dezember 2021 das Referat Smarte Städte und Regionen im Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen. Davor war sie Leiterin des Referats „Bundesportal; Portalverbund; Geschäfts- und Koordinierungsstelle 115“ im Bundesministerium des Innern. Schwerpunkt war der Aufbau der digitalen Infrastruktur zur Umsetzung des Onlinezugangsgesetzes (OZG). \nVon Juni 2017 bis Oktober 2019 war Renate Mitterhuber Leiterin der Geschäftsstelle des IT-Planungsrats. Von 1991 bis 2017 war sie in der Freien und Hansestadt Hamburg tätig, zunächst in Stabsstellen im Bildungs- und im Finanzressort und seit 2001 im Bereich Digitalisierung. Sie war verantwortlich für die Hamburger E-Government- und IT-Strategie sowie u.a. am Aufbau des Hamburger Open Data Portals und des Transparenzportals beteiligt. "@en .
 <https://dataweek.de/#RichardFigura> <http://purl.org/dc/terms/description> "CEO"@de .
 <https://dataweek.de/#RichardFigura> <http://purl.org/dc/terms/description> "CEO"@en .
 <https://dataweek.de/#RichardFigura> <http://schema.org/affiliation> <https://www.ciss.de> .
@@ -6752,13 +6760,16 @@
 <https://www.macromedia-fachhochschule.de/de/> <http://www.w3.org/2000/01/rdf-schema#label> "Hochschule Macromedia"@de .
 <https://www.macromedia-fachhochschule.de/de/> <http://www.w3.org/2000/01/rdf-schema#label> "Hochschule Macromedia"@en .
 <https://www.macromedia-fachhochschule.de/de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.macromedia-fachhochschule.de/de/> .
+<https://www.maibornwolff.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.maibornwolff.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.maibornwolff.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.maibornwolff.de/> <http://www.w3.org/2000/01/rdf-schema#label> "MaibornWolff GmbH" .
 <https://www.maibornwolff.de/> <http://www.w3.org/2000/01/rdf-schema#label> "MaibornWolff GmbH"@de .
 <https://www.maibornwolff.de/> <http://www.w3.org/2000/01/rdf-schema#label> "MaibornWolff GmbH"@en .
 <https://www.maibornwolff.de/> <http://www.w3.org/2000/01/rdf-schema#label> "MaibornWolff Gmbh"@de .
 <https://www.maibornwolff.de/> <http://www.w3.org/2000/01/rdf-schema#label> "MaibornWolff Gmbh"@en .
 <https://www.maibornwolff.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.maibornwolff.de/> .
+<https://www.maibornwolff.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/maibornwolff.png" .
 <https://www.metaplan.com/de/consulting/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.metaplan.com/de/consulting/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.metaplan.com/de/consulting/> <http://www.w3.org/2000/01/rdf-schema#label> "Metaplan"@de .
