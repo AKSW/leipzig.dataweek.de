@@ -1758,6 +1758,10 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/performer> <https://dataweek.de/#BeateGinzel> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/performer> <https://dataweek.de/#ChristianMatschke> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/performer> <https://dataweek.de/#FraukeJanssen> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/performer> <https://dataweek.de/#SvenKrueger> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-15> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3441,6 +3445,12 @@
 <https://dataweek.de/#ChristianKretke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ChristianKretke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ChristianKretke> <http://xmlns.com/foaf/0.1/name> "Christian Kretke" .
+<https://dataweek.de/#ChristianMatschke> <http://purl.org/dc/terms/description> "Moderator"@de .
+<https://dataweek.de/#ChristianMatschke> <http://purl.org/dc/terms/description> "Moderator"@en .
+<https://dataweek.de/#ChristianMatschke> <http://schema.org/affiliation> <https://www.matschke.com/> .
+<https://dataweek.de/#ChristianMatschke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#ChristianMatschke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#ChristianMatschke> <http://xmlns.com/foaf/0.1/name> "Christian Matschke" .
 <https://dataweek.de/#ChristianR%C3%B6%C3%9Fler> <http://purl.org/dc/terms/description> "Pragmatic Agilist"@de .
 <https://dataweek.de/#ChristianR%C3%B6%C3%9Fler> <http://purl.org/dc/terms/description> "Pragmatic Agilist"@en .
 <https://dataweek.de/#ChristianR%C3%B6%C3%9Fler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -3885,6 +3895,10 @@
 <https://dataweek.de/#FranziskaTheurich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#FranziskaTheurich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#FranziskaTheurich> <http://xmlns.com/foaf/0.1/name> "Franziska Theurich" .
+<https://dataweek.de/#FraukeJanssen> <http://schema.org/affiliation> <https://www.pd-g.de/> .
+<https://dataweek.de/#FraukeJanssen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#FraukeJanssen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#FraukeJanssen> <http://xmlns.com/foaf/0.1/name> "Frauke Janßen" .
 <https://dataweek.de/#FriedrichPichler> <http://purl.org/dc/terms/description> "Geschäftsführer"@de .
 <https://dataweek.de/#FriedrichPichler> <http://purl.org/dc/terms/description> "Managing Director"@en .
 <https://dataweek.de/#FriedrichPichler> <http://schema.org/affiliation> <http://pichlerconsult.at/> .
@@ -5441,6 +5455,12 @@
 <https://dataweek.de/#SusanneKloepping> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Susanne Klöpping" .
 <https://dataweek.de/#SusanneKloepping> <http://xmlns.com/foaf/0.1/name> "Susanne Klöpping" .
 <https://dataweek.de/#SusanneKloepping> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#SvenKrueger> <http://purl.org/dc/terms/description> "Digitalisierungsbeauftragter "@de .
+<https://dataweek.de/#SvenKrueger> <http://purl.org/dc/terms/description> "Digitization representative"@en .
+<https://dataweek.de/#SvenKrueger> <http://schema.org/affiliation> <https://www.hannover.de/> .
+<https://dataweek.de/#SvenKrueger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#SvenKrueger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#SvenKrueger> <http://xmlns.com/foaf/0.1/name> "Sven Krüger" .
 <https://dataweek.de/#SvenSaage> <http://schema.org/affiliation> <urn:url-encoded-value:www.yneo.ai> .
 <https://dataweek.de/#SvenSaage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#SvenSaage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -6471,6 +6491,11 @@
 <https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-stadtentwicklung-und-wohnen/aemter-und-landesbetrieb/landesbetrieb-geoinformation-und-vermessung> <http://www.w3.org/2000/01/rdf-schema#label> "Geoinformation and Surveying Agency (LGV)"@en .
 <https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-stadtentwicklung-und-wohnen/aemter-und-landesbetrieb/landesbetrieb-geoinformation-und-vermessung> <http://www.w3.org/2000/01/rdf-schema#label> "Landesbetrieb Geoinformation und Vermessung (LGV)"@de .
 <https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-stadtentwicklung-und-wohnen/aemter-und-landesbetrieb/landesbetrieb-geoinformation-und-vermessung> <http://xmlns.com/foaf/0.1/homepage> <https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-stadtentwicklung-und-wohnen/aemter-und-landesbetrieb/landesbetrieb-geoinformation-und-vermessung> .
+<https://www.hannover.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.hannover.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.hannover.de/> <http://www.w3.org/2000/01/rdf-schema#label> "City Hannover"@en .
+<https://www.hannover.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Hannover"@de .
+<https://www.hannover.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.hannover.de/> .
 <https://www.hcu-hamburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.hcu-hamburg.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.hcu-hamburg.de/> <http://www.w3.org/2000/01/rdf-schema#label> "HafenCity Universität Hamburg"@de .
@@ -6770,6 +6795,11 @@
 <https://www.maibornwolff.de/> <http://www.w3.org/2000/01/rdf-schema#label> "MaibornWolff Gmbh"@en .
 <https://www.maibornwolff.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.maibornwolff.de/> .
 <https://www.maibornwolff.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/maibornwolff.png" .
+<https://www.matschke.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.matschke.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.matschke.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Strategic corporate communications"@en .
+<https://www.matschke.com/> <http://www.w3.org/2000/01/rdf-schema#label> "Strategische Unternehmenskommunikation"@de .
+<https://www.matschke.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.matschke.com/> .
 <https://www.metaplan.com/de/consulting/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.metaplan.com/de/consulting/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.metaplan.com/de/consulting/> <http://www.w3.org/2000/01/rdf-schema#label> "Metaplan"@de .
