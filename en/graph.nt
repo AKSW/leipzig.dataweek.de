@@ -160,6 +160,12 @@
 <http://aksw.org/NormanRadtke> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/NormanRadtke.jpg" .
 <http://aksw.org/NormanRadtke> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/NormanRadtke> .
 <http://aksw.org/NormanRadtke> <http://xmlns.com/foaf/0.1/name> "Norman Radtke" .
+<http://aksw.org/NourRamzy> <http://schema.org/affiliation> <https://www.eccenca.com/> .
+<http://aksw.org/NourRamzy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://aksw.org/NourRamzy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://aksw.org/NourRamzy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Nour Ramzy" .
+<http://aksw.org/NourRamzy> <http://xmlns.com/foaf/0.1/name> "Nour Ramzy" .
+<http://aksw.org/NourRamzy> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <http://aksw.org/RebekkaGersbach> <http://purl.org/dc/terms/description> "Research associate"@en .
 <http://aksw.org/RebekkaGersbach> <http://purl.org/dc/terms/description> "Wissenschaftliche Mitarbeiterin"@de .
 <http://aksw.org/RebekkaGersbach> <http://schema.org/affiliation> <https://infai.org/> .
@@ -1354,6 +1360,7 @@
 <https://2025.dataweek.de/lswt2025/#programm-session-1> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2025.dataweek.de/lswt2025/#programm-session-1> <http://schema.org/endTime> "09:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-1> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/lswt2025/#programm-session-1> <http://schema.org/performer> <http://aksw.org/SebastianTramp> .
 <https://2025.dataweek.de/lswt2025/#programm-session-1> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-session-2> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1389,6 +1396,7 @@
 <https://2025.dataweek.de/lswt2025/#programm-session-4> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2025.dataweek.de/lswt2025/#programm-session-4> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-4> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/lswt2025/#programm-session-4> <http://schema.org/performer> <http://aksw.org/KirillBulert> .
 <https://2025.dataweek.de/lswt2025/#programm-session-4> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-4> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-10> .
 <https://2025.dataweek.de/lswt2025/#programm-session-4> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-7> .
@@ -1411,6 +1419,7 @@
 <https://2025.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2025.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/performer> <http://aksw.org/NourRamzy> .
 <https://2025.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-15> .
 <https://2025.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-16> .
@@ -1426,6 +1435,7 @@
 <https://2025.dataweek.de/lswt2025/#programm-session-7> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2025.dataweek.de/lswt2025/#programm-session-7> <http://schema.org/endTime> "16:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-7> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/lswt2025/#programm-session-7> <http://schema.org/performer> <https://dataweek.de/#MagnusKnuth> .
 <https://2025.dataweek.de/lswt2025/#programm-session-7> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-7> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-22> .
 <https://2025.dataweek.de/lswt2025/#programm-session-7> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-23> .
@@ -1439,6 +1449,7 @@
 <https://2025.dataweek.de/lswt2025/#programm-session-8> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2025.dataweek.de/lswt2025/#programm-session-8> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-8> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/lswt2025/#programm-session-8> <http://schema.org/performer> <http://aksw.org/SebastianTramp> .
 <https://2025.dataweek.de/lswt2025/#programm-session-8> <http://schema.org/startTime> "16:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/lswt2025/#programm-talk-10> <http://purl.org/dc/terms/date> "2025-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
