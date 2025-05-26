@@ -160,12 +160,6 @@
 <http://aksw.org/NormanRadtke> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/NormanRadtke.jpg" .
 <http://aksw.org/NormanRadtke> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/NormanRadtke> .
 <http://aksw.org/NormanRadtke> <http://xmlns.com/foaf/0.1/name> "Norman Radtke" .
-<http://aksw.org/NourRamzy> <http://schema.org/affiliation> <https://www.eccenca.com/> .
-<http://aksw.org/NourRamzy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
-<http://aksw.org/NourRamzy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<http://aksw.org/NourRamzy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Nour Ramzy" .
-<http://aksw.org/NourRamzy> <http://xmlns.com/foaf/0.1/name> "Nour Ramzy" .
-<http://aksw.org/NourRamzy> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <http://aksw.org/RebekkaGersbach> <http://purl.org/dc/terms/description> "Research associate"@en .
 <http://aksw.org/RebekkaGersbach> <http://purl.org/dc/terms/description> "Wissenschaftliche Mitarbeiterin"@de .
 <http://aksw.org/RebekkaGersbach> <http://schema.org/affiliation> <https://infai.org/> .
@@ -1419,7 +1413,7 @@
 <https://2025.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2025.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2025.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/performer> <http://aksw.org/NourRamzy> .
+<https://2025.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/performer> <https://dataweek.de/#NourRamzy> .
 <https://2025.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-15> .
 <https://2025.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/subEvent> <https://2025.dataweek.de/lswt2025/#programm-talk-16> .
@@ -4946,6 +4940,12 @@
 <https://dataweek.de/#NoraMittelstaedt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#NoraMittelstaedt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#NoraMittelstaedt> <http://xmlns.com/foaf/0.1/name> "Nora Mittelstädt" .
+<https://dataweek.de/#NourRamzy> <http://schema.org/affiliation> <https://www.eccenca.com/> .
+<https://dataweek.de/#NourRamzy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#NourRamzy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#NourRamzy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Nour Ramzy" .
+<https://dataweek.de/#NourRamzy> <http://xmlns.com/foaf/0.1/name> "Nour Ramzy" .
+<https://dataweek.de/#NourRamzy> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#OguzhanYayla> <http://purl.org/dc/terms/description> "Co-founder at Lucidminds AI"@de .
 <https://dataweek.de/#OguzhanYayla> <http://purl.org/dc/terms/description> "Co-founder at Lucidminds AI"@en .
 <https://dataweek.de/#OguzhanYayla> <http://schema.org/affiliation> <https://www.lucidminds.ai/> .
@@ -5094,8 +5094,8 @@
 <https://dataweek.de/#RenateMitterhuber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#RenateMitterhuber> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/RenateMitterhuber.jpg" .
 <https://dataweek.de/#RenateMitterhuber> <http://xmlns.com/foaf/0.1/name> "Renate Mitterhuber" .
+<https://dataweek.de/#RenateMitterhuber> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Renate Mitterhuber has been Head of the Smart Cities and Regions Division at the Federal Ministry of Housing, Urban Development and Building since December 2021. Prior to this, she was head of the “Federal Portal; Portal Network; Business and Coordination Office 115” unit at the Federal Ministry of the Interior. The focus was on developing the digital infrastructure to implement the Online Access Act (OZG). \nFrom June 2017 to October 2019, Renate Mitterhuber was head of the IT Planning Council's office. From 1991 to 2017, she worked in the Free and Hanseatic City of Hamburg, initially in staff positions in the education and finance departments and since 2001 in the area of digitalization. She was responsible for Hamburg's e-government and IT strategy and was involved in setting up the Hamburg Open Data Portal and the Transparency Portal, among other things.  "@en .
 <https://dataweek.de/#RenateMitterhuber> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Renate Mitterhuber leitet seit Dezember 2021 das Referat Smarte Städte und Regionen im Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen. Davor war sie Leiterin des Referats „Bundesportal; Portalverbund; Geschäfts- und Koordinierungsstelle 115“ im Bundesministerium des Innern. Schwerpunkt war der Aufbau der digitalen Infrastruktur zur Umsetzung des Onlinezugangsgesetzes (OZG). \nVon Juni 2017 bis Oktober 2019 war Renate Mitterhuber Leiterin der Geschäftsstelle des IT-Planungsrats. Von 1991 bis 2017 war sie in der Freien und Hansestadt Hamburg tätig, zunächst in Stabsstellen im Bildungs- und im Finanzressort und seit 2001 im Bereich Digitalisierung. Sie war verantwortlich für die Hamburger E-Government- und IT-Strategie sowie u.a. am Aufbau des Hamburger Open Data Portals und des Transparenzportals beteiligt. "@de .
-<https://dataweek.de/#RenateMitterhuber> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Renate Mitterhuber leitet seit Dezember 2021 das Referat Smarte Städte und Regionen im Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen. Davor war sie Leiterin des Referats „Bundesportal; Portalverbund; Geschäfts- und Koordinierungsstelle 115“ im Bundesministerium des Innern. Schwerpunkt war der Aufbau der digitalen Infrastruktur zur Umsetzung des Onlinezugangsgesetzes (OZG). \nVon Juni 2017 bis Oktober 2019 war Renate Mitterhuber Leiterin der Geschäftsstelle des IT-Planungsrats. Von 1991 bis 2017 war sie in der Freien und Hansestadt Hamburg tätig, zunächst in Stabsstellen im Bildungs- und im Finanzressort und seit 2001 im Bereich Digitalisierung. Sie war verantwortlich für die Hamburger E-Government- und IT-Strategie sowie u.a. am Aufbau des Hamburger Open Data Portals und des Transparenzportals beteiligt. "@en .
 <https://dataweek.de/#RichardFigura> <http://purl.org/dc/terms/description> "CEO"@de .
 <https://dataweek.de/#RichardFigura> <http://purl.org/dc/terms/description> "CEO"@en .
 <https://dataweek.de/#RichardFigura> <http://schema.org/affiliation> <https://www.ciss.de> .
