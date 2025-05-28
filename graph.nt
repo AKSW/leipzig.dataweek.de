@@ -367,11 +367,12 @@
 <https://2025.dataweek.de/2025-06-10/> <http://schema.org/abstract> "The kick-off event of Data Week Leipzig focuses on the digital city of tomorrow and is thematically dedicated to the aspects of AI, digital twins and urban analytics."@en .
 <https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2025.dataweek.de/2025-06-10/> .
 <https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2025.dataweek.de/2025-06-10/Festsaal> .
-<https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2025.dataweek.de/2025-06-10/Room270> .
-<https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2025.dataweek.de/2025-06-10/Room360> .
-<https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2025.dataweek.de/2025-06-10/Room377> .
-<https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2025.dataweek.de/2025-06-10/Room495> .
-<https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://2025.dataweek.de/2025-06-10/Sitzungssaal> .
+<https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2025.dataweek.de/2025-06-10/Ratsplenarsaal> .
+<https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2025.dataweek.de/2025-06-10/Room270> .
+<https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2025.dataweek.de/2025-06-10/Room360> .
+<https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2025.dataweek.de/2025-06-10/Room377> .
+<https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://2025.dataweek.de/2025-06-10/Room495> .
+<https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://2025.dataweek.de/2025-06-10/Sitzungssaal> .
 <https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2025.dataweek.de/2025-06-10/> <http://www.w3.org/2000/01/rdf-schema#label> "Dienstag"@de .
@@ -388,6 +389,13 @@
 <https://2025.dataweek.de/2025-06-10/Festsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Festsaal"@en .
 <https://2025.dataweek.de/2025-06-10/Festsaal> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/> .
 <https://2025.dataweek.de/2025-06-10/Festsaal> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-10\" && ?location = <https://dataweek.de/venue#Festsaal>" .
+<https://2025.dataweek.de/2025-06-10/Ratsplenarsaal> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/2025-06-10/Ratsplenarsaal> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://2025.dataweek.de/2025-06-10/Ratsplenarsaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2025.dataweek.de/2025-06-10/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Ratsplenarsaal"@de .
+<https://2025.dataweek.de/2025-06-10/Ratsplenarsaal> <http://www.w3.org/2000/01/rdf-schema#label> "Ratsplenarsaal"@en .
+<https://2025.dataweek.de/2025-06-10/Ratsplenarsaal> <https://dataweek.de/#resourceUri> <https://2025.dataweek.de/> .
+<https://2025.dataweek.de/2025-06-10/Ratsplenarsaal> <https://dataweek.de/#viewFilter> "str(?date) = \"2025-06-10\" && ?location = <https://dataweek.de/venue#Ratsplenarsaal>" .
 <https://2025.dataweek.de/2025-06-10/Room270> <http://purl.org/dc/terms/date> "2025-06-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/2025-06-10/Room270> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
 <https://2025.dataweek.de/2025-06-10/Room270> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
