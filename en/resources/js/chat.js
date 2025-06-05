@@ -1,11 +1,11 @@
 'use strict';
 
 // const socket = io("wss://chat.lswt2021.comiles.eu/ws");
-const socket = io("wss://chat.2023.dataweek.de/");
+const socket = io("wss://chat.2024.dataweek.de/");
 // const ws = new WebSocket('wss://chat.lswt2021.comiles.eu/ws');
 // const ws = new WebSocket('ws://localhost:5000/ws');
 
-let default_room_id = "!irnMvwCKJtUyHjAAwI:matrix.org"
+let default_room_id = "!slhYXYesrqRvWAMjJX:matrix.org"
 let room_id = window.location.hash.substring(1)
 
 if (room_id == "") {
