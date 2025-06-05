@@ -1780,15 +1780,15 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://purl.org/dc/terms/description> "In der Session wird demonstriert, wie digitale Zwillinge die Wärmewende vorantreiben. Es werden praxisnahe Anwendungen der Wärmewende sowie erfolgreiche Kooperationen zwischen Städten Leipzig und Mühlhause und ihren Stadtwerken vorgestellt, die auf eine nachhaltige Energieversorgung der Zukunft abzielen. Außerdem wird ein vorstellt, wie die Energieverluste von Solarthermiekraftwerken mithilfe der PAINT-Datenbank und KI-gestützten Verfahren erfolgreich optimiert werden können."@de .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://purl.org/dc/terms/description> "The session will demonstrate how digital twins are driving forward the heating transition. Practical applications of the heat transition and successful collaborations between the cities of Leipzig and Mühlhause and their municipal utilities will be presented, which aim to achieve a sustainable energy supply for the future. It will also show how the energy losses of solar thermal power plants can be successfully optimized using the PAINT database and AI-supported processes."@en .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://purl.org/dc/terms/title> "1000° am Sammelpunkt: Wärmewende optimieren mit Solarthermie"@de .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://purl.org/dc/terms/title> "1000° at the collection point: Optimizing the heat transition with solar thermal energy"@en .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://purl.org/dc/terms/title> "Mit der Smart City zur Wärmewende – Kommunale Wärmeplanung in Mühlhausen/Thüringen"@de .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://purl.org/dc/terms/title> "With the Smart City to the heating transition - municipal heating planning in Mühlhausen/Thuringia"@en .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/performer> <https://dataweek.de/#ChristophReimann> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/performer> <https://dataweek.de/#DanielStrecker> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/performer> <https://dataweek.de/#ErikJellinek> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/performer> <https://dataweek.de/#HartwigKahlhoefer> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/performer> <https://dataweek.de/#HenningWeiss> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/performer> <https://dataweek.de/#KalebPhipps> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -2062,7 +2062,7 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-42> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-42> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-42> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-talk-42> <http://schema.org/performer> <https://dataweek.de/#TomFuerstner> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-42> <http://schema.org/performer> <https://dataweek.de/#JuergenEckel> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-42> <http://schema.org/startTime> "14:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-43> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3587,6 +3587,10 @@
 <https://dataweek.de/#DanielSchulz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#DanielSchulz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#DanielSchulz> <http://xmlns.com/foaf/0.1/name> "Daniel Schulz" .
+<https://dataweek.de/#DanielStrecker> <http://schema.org/affiliation> <https://www.stadtwerke-muehlhausen.de/> .
+<https://dataweek.de/#DanielStrecker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#DanielStrecker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#DanielStrecker> <http://xmlns.com/foaf/0.1/name> "Daniel Strecker" .
 <https://dataweek.de/#DarijusValiucko> <http://purl.org/dc/terms/description> "Project Manager"@en .
 <https://dataweek.de/#DarijusValiucko> <http://purl.org/dc/terms/description> "Projektkoordinator"@de .
 <https://dataweek.de/#DarijusValiucko> <http://schema.org/affiliation> <https://aconium.eu/> .
@@ -4214,6 +4218,12 @@
 <https://dataweek.de/#JuergenBretfeld> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JuergenBretfeld> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JuergenBretfeld> <http://xmlns.com/foaf/0.1/name> "Jürgen Bretfeld" .
+<https://dataweek.de/#JuergenEckel> <http://purl.org/dc/terms/description> "Protocol Architect"@de .
+<https://dataweek.de/#JuergenEckel> <http://purl.org/dc/terms/description> "Protocol Architect"@en .
+<https://dataweek.de/#JuergenEckel> <http://schema.org/affiliation> <https://rddl.io/> .
+<https://dataweek.de/#JuergenEckel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#JuergenEckel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JuergenEckel> <http://xmlns.com/foaf/0.1/name> "Jürgen Eckel" .
 <https://dataweek.de/#JuliaFriedrich> <http://purl.org/dc/terms/description> "Researcher"@en .
 <https://dataweek.de/#JuliaFriedrich> <http://purl.org/dc/terms/description> "Wissenschaftliche Mitarbeiterin"@de .
 <https://dataweek.de/#JuliaFriedrich> <http://schema.org/affiliation> <https://infai.org/> .
@@ -6040,6 +6050,11 @@
 <https://rbleipzig.com/> <http://www.w3.org/2000/01/rdf-schema#label> "RB Leipzig"@de .
 <https://rbleipzig.com/> <http://www.w3.org/2000/01/rdf-schema#label> "RB Leipzig"@en .
 <https://rbleipzig.com/> <http://xmlns.com/foaf/0.1/homepage> <https://rbleipzig.com/> .
+<https://rddl.io/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://rddl.io/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://rddl.io/> <http://www.w3.org/2000/01/rdf-schema#label> "RDDL Foundation"@de .
+<https://rddl.io/> <http://www.w3.org/2000/01/rdf-schema#label> "RDDL Foundation"@en .
+<https://rddl.io/> <http://xmlns.com/foaf/0.1/homepage> <https://rddl.io/> .
 <https://rpesolutionsllc.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://rpesolutionsllc.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://rpesolutionsllc.com/> <http://www.w3.org/2000/01/rdf-schema#label> "RPE Solutions, LLC"@de .
