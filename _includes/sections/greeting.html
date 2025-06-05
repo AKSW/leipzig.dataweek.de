@@ -1,12 +1,14 @@
 {% include strings.html %}
 {% assign rootResource = site.rootResource | rdf_get %}
 {% assign cfpResource = "dw25:cfp" | rdf_get %}
+{% assign liveResource = "dw25:live" | rdf_get %}
 <aside class="page-hero">
   <div class="page-hero-text">
     <h1>
       {{str_greeting}}<br/>
     </h1>
     <p>
+      <a class="btn2 ripple" href="{{ liveResource.render_path | relativize_url }}" style="background-color: #3da6dc; color: white; border-color: white">Live</a>
       <a class="btn2" href="{{ cfpResource.render_path | relativize_url  }}" style="color: white; border-color: white">{{ cfpResource | rdf_property: "rdfs:label", site.language }}</a>
       <a class="btn2" href="https://www.conftool.net/dataweek2025/" style="color: white; border-color: white">{{str_get_a_ticket}}</a>
     </p>
