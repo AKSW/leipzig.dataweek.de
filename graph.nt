@@ -1732,6 +1732,7 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/endTime> "17:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/performer> <https://dataweek.de/#AnaGeorgieva> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/performer> <https://dataweek.de/#ChristophSchubert> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/performer> <https://dataweek.de/#SebastianBoehm> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/startTime> "16:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -3167,6 +3168,10 @@
 <https://dataweek.de/#AmitKirschenbaum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AmitKirschenbaum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AmitKirschenbaum> <http://xmlns.com/foaf/0.1/name> "Amit Kirschenbaum" .
+<https://dataweek.de/#AnaGeorgieva> <http://schema.org/affiliation> <https://eurocities.eu/> .
+<https://dataweek.de/#AnaGeorgieva> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#AnaGeorgieva> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#AnaGeorgieva> <http://xmlns.com/foaf/0.1/name> "Ana Georgieva" .
 <https://dataweek.de/#AnaisWiedenhoefer> <http://purl.org/dc/terms/description> "Referat für Stadtplanung und Bauordnung, Landeshauptstadt München"@de .
 <https://dataweek.de/#AnaisWiedenhoefer> <http://schema.org/affiliation> <https://stadt.muenchen.de> .
 <https://dataweek.de/#AnaisWiedenhoefer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -5903,6 +5908,11 @@
 <https://eu4dbp.net/> <http://www.w3.org/2000/01/rdf-schema#label> "EUnet4DBP"@de .
 <https://eu4dbp.net/> <http://www.w3.org/2000/01/rdf-schema#label> "EUnet4DBP"@en .
 <https://eu4dbp.net/> <http://xmlns.com/foaf/0.1/homepage> <https://eu4dbp.net/> .
+<https://eurocities.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://eurocities.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://eurocities.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Forum EUROCITIES"@de .
+<https://eurocities.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Forum EUROCITIES"@en .
+<https://eurocities.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://eurocities.eu/> .
 <https://extrazwei.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://extrazwei.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://extrazwei.de/> <http://www.w3.org/2000/01/rdf-schema#label> "extrazwei"@de .
