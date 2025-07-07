@@ -1795,11 +1795,11 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/performer> <https://dataweek.de/#ClaraRuthardt> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/performer> <https://dataweek.de/#FrankBasten> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/performer> <https://dataweek.de/#PeterVieregge> .
-<https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/performer> <https://dataweek.de/#SimonRazniewski> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-43> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-44> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-45> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://schema.org/subEvent> <https://2025.dataweek.de/stadt-leipzig/#programm-talk-46> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-session-19> <http://purl.org/dc/terms/description> "How can a village become an energy self-sufficient system? What role will blockchain, tokenization and fault prediction play in the electricity grid of the future? Friedrich Pichler shows how Stanz im Mürztal has built resilience with technology and community. Rainer Rosegger explains how participation, acceptance and regional value creation work in rural contexts - and what urban districts can learn from this. Tom Fürstner demonstrates how tokenization makes renewable energy tradable. And Florian Speer provides insights into AI-supported models that detect forecasting errors before they occur - for a stable, low-CO₂ electricity grid."@en .
@@ -2057,10 +2057,33 @@
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/downloadUrl> <https://2024.dataweek.de/resources/files/slides/2025-06-11_sitz_04.pdf> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/performer> <https://dataweek.de/#SebastianBoehm> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/startTime> "12:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-43> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-43> <http://schema.org/downloadUrl> <https://2024.dataweek.de/resources/files/slides/2025-06-11_sitz_05.pdf> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-43> <http://schema.org/endTime> "13:50:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-43> <http://schema.org/performer> <https://dataweek.de/#SimonRazniewski> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-43> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-44> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-44> <http://schema.org/endTime> "14:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-44> <http://schema.org/performer> <https://dataweek.de/#ClaraRuthardt> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-44> <http://schema.org/startTime> "13:50:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-45> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/performer> <https://dataweek.de/#FrankBasten> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/startTime> "14:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-46> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/downloadUrl> <https://2024.dataweek.de/resources/files/slides/2025-06-11_sitz_06.pdf> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/performer> <https://dataweek.de/#PeterVieregge> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2025.dataweek.de/stadt-leipzig/#programm-talk-46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/date> "2025-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/description> "Energie treibt Maschinen an. Aber eigentlich treibt Energie alles auf unserer Welt an, so auch die Menschen in Stanz im Mürztal. Sie haben ihre Energiezukunft vor 10 Jahren selbst in die Hand genommen und sind vom Energietropf der großen Welt mit schlauer Technik, Kommunikation und mutigen Bürger:innen etwas unabhängiger und selbstbestimmter geworden. Was das alles mit einem Soziologen, Token Engineering und einer wachen Dorfgemeinschaft zu tun hat, berichtet ihnen Friedrich Pichler der ehemalige Bürgermeister von Stanz im Mürztal, einer kleinen Landgemeinde in der Steiermark/Österreich."@de .
 <https://2025.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/description> "Energy drives machines. But energy actually drives everything in our world, including the people of Stanz im Mürztal. They took their energy future into their own hands 10 years ago and have become a little more independent and self-determined from the energy drip of the big world with clever technology, communication and courageous citizens. Friedrich Pichler, the former mayor of Stanz im Mürztal, a small rural community in Styria/Austria, tells you what all this has to do with a sociologist, token engineering and an alert village community."@en .
@@ -2278,6 +2301,7 @@
 <https://2025.dataweek.de/trainings/#programm-session-1> <http://purl.org/dc/terms/title> "In 6 Schritten zum eigenen Dashboard (durchgeführt von ]init[ AG für digitale Kommunikation)"@de .
 <https://2025.dataweek.de/trainings/#programm-session-1> <http://purl.org/dc/terms/title> "Your own dashboard in 6 steps (organized by ]init[ AG für digitale Kommunikation)"@en .
 <https://2025.dataweek.de/trainings/#programm-session-1> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/trainings/#programm-session-1> <http://schema.org/downloadUrl> <https://2024.dataweek.de/resources/files/slides/2025-06-11_r260_01.pdf> .
 <https://2025.dataweek.de/trainings/#programm-session-1> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/trainings/#programm-session-1> <http://schema.org/location> <https://dataweek.de/venue#Room260> .
 <https://2025.dataweek.de/trainings/#programm-session-1> <http://schema.org/performer> <https://dataweek.de/#ChristianKretke> .
@@ -2429,6 +2453,7 @@
 <https://2025.dataweek.de/workshops/#programm-session-10> <http://purl.org/dc/terms/title> "AI for everyday work - practical tools and sharing experiences (organized by the KMI project at InfAI)"@en .
 <https://2025.dataweek.de/workshops/#programm-session-10> <http://purl.org/dc/terms/title> "KI für den Arbeitsalltag – Praktische Werkzeuge und Erfahrungsaustausch (durchgeführt vom Projekt KMI am InfAI)"@de .
 <https://2025.dataweek.de/workshops/#programm-session-10> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/workshops/#programm-session-10> <http://schema.org/downloadUrl> <https://2024.dataweek.de/resources/files/slides/2025-06-11_r259_03.pdf> .
 <https://2025.dataweek.de/workshops/#programm-session-10> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-10> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
 <https://2025.dataweek.de/workshops/#programm-session-10> <http://schema.org/performer> <https://dataweek.de/#ChristinaMamtoumidou> .
@@ -2487,6 +2512,7 @@
 <https://2025.dataweek.de/workshops/#programm-session-15> <http://purl.org/dc/terms/title> "Competitiveness in the digital transformation (organized by the KMI project at InfAI)"@en .
 <https://2025.dataweek.de/workshops/#programm-session-15> <http://purl.org/dc/terms/title> "Wettbewerbsfähigkeit im digitalen Wandel (durchgeführt vom Projekt KMI am InfAI)"@de .
 <https://2025.dataweek.de/workshops/#programm-session-15> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/workshops/#programm-session-15> <http://schema.org/downloadUrl> <https://2024.dataweek.de/resources/files/slides/2025-06-11_r259_04.pdf> .
 <https://2025.dataweek.de/workshops/#programm-session-15> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-15> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
 <https://2025.dataweek.de/workshops/#programm-session-15> <http://schema.org/performer> <https://dataweek.de/#FranziskaHein-Pensel> .
@@ -2757,6 +2783,7 @@
 <https://2025.dataweek.de/workshops/#programm-session-5> <http://purl.org/dc/terms/title> "How does data get into AI? (organized by the KMI project at InfAI)"@en .
 <https://2025.dataweek.de/workshops/#programm-session-5> <http://purl.org/dc/terms/title> "Wie kommen Daten in die KI? (durchgeführt vom Projekt KMI am InfAI)"@de .
 <https://2025.dataweek.de/workshops/#programm-session-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/workshops/#programm-session-5> <http://schema.org/downloadUrl> <https://2024.dataweek.de/resources/files/slides/2025-06-11_r259_02.pdf> .
 <https://2025.dataweek.de/workshops/#programm-session-5> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-session-5> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
 <https://2025.dataweek.de/workshops/#programm-session-5> <http://schema.org/performer> <https://dataweek.de/#JoergSchliesser> .
@@ -2813,6 +2840,7 @@
 <https://2025.dataweek.de/workshops/#programm-talk-11> <http://purl.org/dc/terms/title> "AI: hype or tool?"@en .
 <https://2025.dataweek.de/workshops/#programm-talk-11> <http://purl.org/dc/terms/title> "KI: Hype oder Werkzeug?"@de .
 <https://2025.dataweek.de/workshops/#programm-talk-11> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2025.dataweek.de/workshops/#programm-talk-11> <http://schema.org/downloadUrl> <https://2024.dataweek.de/resources/files/slides/2025-06-11_r259_01.pdf> .
 <https://2025.dataweek.de/workshops/#programm-talk-11> <http://schema.org/endTime> "09:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2025.dataweek.de/workshops/#programm-talk-11> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
 <https://2025.dataweek.de/workshops/#programm-talk-11> <http://schema.org/performer> <https://dataweek.de/#SandraSchumann> .
