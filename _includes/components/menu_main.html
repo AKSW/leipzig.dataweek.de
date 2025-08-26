@@ -37,7 +37,7 @@ select distinct ?entry {
   {% assign current_super_resource = selected_res.first.entry %}
 {% endif %}
 
-{% assign events_iri = "dw24:tracks" | rdf_get %}
+{% assign events_iri = "dw26:tracks" | rdf_get %}
 {% assign events = events_iri | rdf_container %}
 
 {% capture events_submenu %}
