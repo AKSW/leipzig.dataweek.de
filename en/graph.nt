@@ -827,29 +827,6 @@
 <https://2026.dataweek.de/live> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2026.dataweek.de/live> <http://www.w3.org/2000/01/rdf-schema#label> "Live"@de .
 <https://2026.dataweek.de/live> <http://www.w3.org/2000/01/rdf-schema#label> "Live"@en .
-<https://2026.dataweek.de/lswt2025/#programm-session-4> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-10> .
-<https://2026.dataweek.de/lswt2025/#programm-session-4> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-7> .
-<https://2026.dataweek.de/lswt2025/#programm-session-4> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-8> .
-<https://2026.dataweek.de/lswt2025/#programm-session-4> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-9> .
-<https://2026.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-15> .
-<https://2026.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-16> .
-<https://2026.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-17> .
-<https://2026.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-18> .
-<https://2026.dataweek.de/lswt2025/#programm-session-6> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-19> .
-<https://2026.dataweek.de/lswt2025/#programm-session-7> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-22> .
-<https://2026.dataweek.de/lswt2025/#programm-session-7> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-23> .
-<https://2026.dataweek.de/lswt2025/#programm-session-7> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-24> .
-<https://2026.dataweek.de/lswt2025/#programm-session-7> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-25> .
-<https://2026.dataweek.de/lswt2025/#programm-session-7> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-26> .
-<https://2026.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-04/08:30> .
-<https://2026.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-session-1> .
-<https://2026.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-session-2> .
-<https://2026.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-session-3> .
-<https://2026.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-session-4> .
-<https://2026.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-session-5> .
-<https://2026.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-session-6> .
-<https://2026.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-session-7> .
-<https://2026.dataweek.de/lswt2025/> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-session-8> .
 <https://2026.dataweek.de/lswt2026/#programm-session-1> <http://purl.org/dc/terms/date> "2026-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/lswt2026/#programm-session-1> <http://purl.org/dc/terms/description> "We are excited to extend a warm welcome to all participants and share an overview of the day's sessions with you."@en .
 <https://2026.dataweek.de/lswt2026/#programm-session-1> <http://purl.org/dc/terms/description> "Wir freuen uns darauf, alle Teilnehmer:innen herzlich zu begrüßen und einen Überblick über die Sessions des Tages zu geben. "@de .
@@ -896,6 +873,10 @@
 <https://2026.dataweek.de/lswt2026/#programm-session-4> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2026.dataweek.de/lswt2026/#programm-session-4> <http://schema.org/performer> <http://aksw.org/KirillBulert> .
 <https://2026.dataweek.de/lswt2026/#programm-session-4> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/lswt2026/#programm-session-4> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-10> .
+<https://2026.dataweek.de/lswt2026/#programm-session-4> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-7> .
+<https://2026.dataweek.de/lswt2026/#programm-session-4> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-8> .
+<https://2026.dataweek.de/lswt2026/#programm-session-4> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-9> .
 <https://2026.dataweek.de/lswt2026/#programm-session-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/lswt2026/#programm-session-5> <http://purl.org/dc/terms/description> "In dieser Session stellen Professoren der Hochschule Merseburg, der Technischen Hochschule Brandenburg, der HTWK Leipzig und der Leuphana Universität Lüneburg ihre Institutionen vor und präsentieren die innovativen Arbeiten ihrer Studierenden. Im Laufe des Tages können die Teilnehmenden der LSWT die Poster-Ausstellung der Studierenden besuchen und für ihr Lieblingsprojekt abstimmen. Das beste Poster wird mit dem Semantic Web Poster Award ausgezeichnet, der freundlicherweise von eccenca gesponsert wird. Die Vorträge werden auf Englisch gehalten.\n\n"@de .
 <https://2026.dataweek.de/lswt2026/#programm-session-5> <http://purl.org/dc/terms/description> "In this session, professors from Hochschule Merseburg, Technische Hochschule Brandenburg, HTWK Leipzig, and Leuphana Universität Lüneburg will introduce their institutions and highlight the innovative work done by their students. Throughout the day, LSWT participants can explore the student poster exhibition and vote for their favorite project. The winning poster will receive the Semantic Web Poster Award, generously sponsored by eccenca. The presentations will be held in English."@en .
@@ -917,6 +898,11 @@
 <https://2026.dataweek.de/lswt2026/#programm-session-6> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2026.dataweek.de/lswt2026/#programm-session-6> <http://schema.org/performer> <https://dataweek.de/#NourRamzy> .
 <https://2026.dataweek.de/lswt2026/#programm-session-6> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/lswt2026/#programm-session-6> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-15> .
+<https://2026.dataweek.de/lswt2026/#programm-session-6> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-16> .
+<https://2026.dataweek.de/lswt2026/#programm-session-6> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-17> .
+<https://2026.dataweek.de/lswt2026/#programm-session-6> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-18> .
+<https://2026.dataweek.de/lswt2026/#programm-session-6> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-19> .
 <https://2026.dataweek.de/lswt2026/#programm-session-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/lswt2026/#programm-session-7> <http://purl.org/dc/terms/description> "In dieser Session werden wir in die spannende Welt der Erstellung, Modellierung und Visualisierung von Knowledge Graphs erkunden. Die Vorträge werden auf Englisch gehalten."@de .
 <https://2026.dataweek.de/lswt2026/#programm-session-7> <http://purl.org/dc/terms/description> "This session will dive into the exciting world of building, modeling, and visualizing Knowledge Graphs. The presentations will be held in English."@en .
@@ -927,6 +913,11 @@
 <https://2026.dataweek.de/lswt2026/#programm-session-7> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2026.dataweek.de/lswt2026/#programm-session-7> <http://schema.org/performer> <https://dataweek.de/#MagnusKnuth> .
 <https://2026.dataweek.de/lswt2026/#programm-session-7> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/lswt2026/#programm-session-7> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-22> .
+<https://2026.dataweek.de/lswt2026/#programm-session-7> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-23> .
+<https://2026.dataweek.de/lswt2026/#programm-session-7> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-24> .
+<https://2026.dataweek.de/lswt2026/#programm-session-7> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-25> .
+<https://2026.dataweek.de/lswt2026/#programm-session-7> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-26> .
 <https://2026.dataweek.de/lswt2026/#programm-session-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/lswt2026/#programm-session-8> <http://purl.org/dc/terms/title> "eccenca Poster Winner Awards and Closing"@en .
 <https://2026.dataweek.de/lswt2026/#programm-session-8> <http://purl.org/dc/terms/title> "eccenca Poster Winner Awards und Abschluss"@de .
@@ -1037,6 +1028,15 @@
 <https://2026.dataweek.de/lswt2026/#programm-talk-9> <http://schema.org/performer> <http://aksw.org/EdgardMarx> .
 <https://2026.dataweek.de/lswt2026/#programm-talk-9> <http://schema.org/startTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/lswt2026/#programm-talk-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/lswt2026/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-04/08:30> .
+<https://2026.dataweek.de/lswt2026/> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-session-1> .
+<https://2026.dataweek.de/lswt2026/> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-session-2> .
+<https://2026.dataweek.de/lswt2026/> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-session-3> .
+<https://2026.dataweek.de/lswt2026/> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-session-4> .
+<https://2026.dataweek.de/lswt2026/> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-session-5> .
+<https://2026.dataweek.de/lswt2026/> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-session-6> .
+<https://2026.dataweek.de/lswt2026/> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-session-7> .
+<https://2026.dataweek.de/lswt2026/> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-session-8> .
 <https://2026.dataweek.de/news> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2026.dataweek.de/news> <http://www.w3.org/2000/01/rdf-schema#label> "Neuigkeiten"@de .
 <https://2026.dataweek.de/news> <http://www.w3.org/2000/01/rdf-schema#label> "News"@en .
