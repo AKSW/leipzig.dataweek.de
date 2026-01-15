@@ -68,7 +68,6 @@
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/JuliaHolze.jpg" .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/JuliaHolze> .
 <http://aksw.org/JuliaHolze> <http://xmlns.com/foaf/0.1/name> "Julia Holze" .
-<http://aksw.org/JuliaHolze> <https://dataweek.de/#role> <https://dataweek.de/#ViceGeneralChair> .
 <http://aksw.org/JuliaKauper> <http://schema.org/affiliation> <https://www.ba-plauen.de/> .
 <http://aksw.org/JuliaKauper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <http://aksw.org/JuliaKauper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -119,7 +118,6 @@
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/homepage> <https://www.tu-chemnitz.de/informatik/dm/professur/> .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/name> "Michael  Martin" .
 <http://aksw.org/MichaelMartin> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
-<http://aksw.org/MichaelMartin> <https://dataweek.de/#role> <https://dataweek.de/#GeneralChair> .
 <http://aksw.org/MilanDojchinovski> <http://purl.org/dc/terms/description> "Research Associate / Assistant Professor"@en .
 <http://aksw.org/MilanDojchinovski> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter / Assistenzprofessor"@de .
 <http://aksw.org/MilanDojchinovski> <http://schema.org/affiliation> <https://infai.org/> .
@@ -409,7 +407,7 @@
 <https://2026.dataweek.de/CfP> <http://www.w3.org/2000/01/rdf-schema#label> "Aufruf zur Einreichung von Veranstaltungen"@de .
 <https://2026.dataweek.de/CfP> <http://www.w3.org/2000/01/rdf-schema#label> "Call for Event Submission"@en .
 <https://2026.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://kmi-leipzig.de/> .
-<https://2026.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
+<https://2026.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> .
 <https://2026.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://connectedurbantwins.de/> .
 <https://2026.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/Groups/AKSW> .
 <https://2026.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://htwk-leipzig.de/> .
@@ -822,6 +820,7 @@
 <https://2026.dataweek.de/lswt2026/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/MichaelMartin> .
 <https://2026.dataweek.de/lswt2026/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://dataweek.de/#NievesSande> .
 <https://2026.dataweek.de/lswt2026/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/SebastianTramp> .
+<https://2026.dataweek.de/lswt2026/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://dataweek.de/#SophiaKiefl> .
 <https://2026.dataweek.de/lswt2026/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT Team"@de .
 <https://2026.dataweek.de/lswt2026/#Team> <http://www.w3.org/2000/01/rdf-schema#label> "LSWT Team"@en .
 <https://2026.dataweek.de/lswt2026/#programm-session-1> <http://purl.org/dc/terms/date> "2026-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1063,18 +1062,14 @@
 <https://2026.dataweek.de/sponsoring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2026.dataweek.de/sponsoring> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoring"@de .
 <https://2026.dataweek.de/sponsoring> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsorship Packages"@en .
-<https://2026.dataweek.de/team-generalchair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/JuliaHolze> .
-<https://2026.dataweek.de/team-generalchair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/MichaelMartin> .
 <https://2026.dataweek.de/team-generalchair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@de .
 <https://2026.dataweek.de/team-generalchair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@en .
 <https://2026.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/JuliaHolze> .
 <https://2026.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://dataweek.de/#NievesSande> .
 <https://2026.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://dataweek.de/#MirkoMuehlpfort> .
-<https://2026.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://dataweek.de/#KatrinMehler> .
-<https://2026.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://aksw.org/MichaelMartin> .
-<https://2026.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <http://aksw.org/NormanRadtke> .
-<https://2026.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <http://aksw.org/SebastianTramp> .
-<https://2026.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://dataweek.de/#LucySonnet> .
+<https://2026.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/NormanRadtke> .
+<https://2026.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://aksw.org/SebastianTramp> .
+<https://2026.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://dataweek.de/#LucySonnet> .
 <https://2026.dataweek.de/team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam"@de .
 <https://2026.dataweek.de/team> <http://www.w3.org/2000/01/rdf-schema#label> "Organization Team"@en .
 <https://2026.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
@@ -2496,7 +2491,6 @@
 <https://dataweek.de/#KatharinaHeider> <http://xmlns.com/foaf/0.1/title> "Dr. " .
 <https://dataweek.de/#KatrinMehler> <http://purl.org/dc/terms/description> "City of Leipzig/Digital City Department, CUT Project "@en .
 <https://dataweek.de/#KatrinMehler> <http://purl.org/dc/terms/description> "Stadt Leipzig/Referat Digitale Stadt, CUT Projekt"@de .
-<https://dataweek.de/#KatrinMehler> <http://schema.org/affiliation> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
 <https://dataweek.de/#KatrinMehler> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> .
 <https://dataweek.de/#KatrinMehler> <http://schema.org/memberOf> <https://connectedurbantwins.de/> .
 <https://dataweek.de/#KatrinMehler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -3025,9 +3019,7 @@
 <https://dataweek.de/#MiriamWelz> <http://xmlns.com/foaf/0.1/name> "Miriam Welz" .
 <https://dataweek.de/#MirkoMuehlpfort> <http://purl.org/dc/terms/description> "Team leader at City of Leipzig/Digital City Department, CUT Project "@en .
 <https://dataweek.de/#MirkoMuehlpfort> <http://purl.org/dc/terms/description> "Teamleiter bei Stadt Leipzig/Referat Digitale Stadt, CUT Projekt"@de .
-<https://dataweek.de/#MirkoMuehlpfort> <http://schema.org/affiliation> <https://digitalcampus.leipzig.de/referat-digitale-stadt/> .
 <https://dataweek.de/#MirkoMuehlpfort> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> .
-<https://dataweek.de/#MirkoMuehlpfort> <http://schema.org/memberOf> <https://connectedurbantwins.de/> .
 <https://dataweek.de/#MirkoMuehlpfort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MirkoMuehlpfort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MirkoMuehlpfort> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/MirkoMuehlpfort.jpg" .
@@ -3580,6 +3572,11 @@
 <https://dataweek.de/#SonjaSchimmler> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Sonja Schimmler" .
 <https://dataweek.de/#SonjaSchimmler> <http://xmlns.com/foaf/0.1/name> "Sonja Schimmler" .
 <https://dataweek.de/#SonjaSchimmler> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#SophiaKiefl> <http://schema.org/affiliation> <https://www.eccenca.com/> .
+<https://dataweek.de/#SophiaKiefl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#SophiaKiefl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#SophiaKiefl> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/SophiaKiefl.jpg" .
+<https://dataweek.de/#SophiaKiefl> <http://xmlns.com/foaf/0.1/name> "Sophia Kiefl" .
 <https://dataweek.de/#SophiaKuhl> <http://purl.org/dc/terms/description> "Geschäftsführerin HHL DIGITAL SPACE"@de .
 <https://dataweek.de/#SophiaKuhl> <http://purl.org/dc/terms/description> "Managing Director HHL DIGITAL SPACE"@en .
 <https://dataweek.de/#SophiaKuhl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -4049,10 +4046,6 @@
 <https://digifors.de/> <http://www.w3.org/2000/01/rdf-schema#label> "DigiFors GmbH"@de .
 <https://digifors.de/> <http://www.w3.org/2000/01/rdf-schema#label> "DigiFors GmbH"@en .
 <https://digifors.de/> <http://xmlns.com/foaf/0.1/homepage> <https://digifors.de/> .
-<https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://www.w3.org/2000/01/rdf-schema#label> "Referat Digitale Stadt" .
-<https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://xmlns.com/foaf/0.1/homepage> <https://digitalcampus.leipzig.de/> .
-<https://digitalcampus.leipzig.de/referat-digitale-stadt/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/Referat_Digitale_Stadt.png" .
 <https://edih-saxony.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://edih-saxony.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "edih Saxony" .
 <https://edih-saxony.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://edih-saxony.eu/> .
@@ -4832,11 +4825,15 @@
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/geodatenservice-624> <http://www.w3.org/2000/01/rdf-schema#label> "Geodata infrastructure, City of Leipzig"@en .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/geodatenservice-624> <http://www.w3.org/2000/01/rdf-schema#label> "Geodateninfrastruktur, Stadt Leipzig"@de .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/geodatenservice-624> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/geodatenservice-624> .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> <http://www.w3.org/2000/01/rdf-schema#label> "Digital City Department, City of Leipzig"@en .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> <http://www.w3.org/2000/01/rdf-schema#label> "Referat Digitale Stadt" .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> <http://www.w3.org/2000/01/rdf-schema#label> "Referat Digitale Stadt, Stadt Leipzig"@de .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> <http://xmlns.com/foaf/0.1/homepage> <https://digitalcampus.leipzig.de/> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/Referat_Digitale_Stadt.png" .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-nachhaltige-entwicklung-und-klimaschutz-38#contact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-nachhaltige-entwicklung-und-klimaschutz-38#contact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-nachhaltige-entwicklung-und-klimaschutz-38#contact> <http://www.w3.org/2000/01/rdf-schema#label> "Department of Sustainable Development and Climate Protection, City of Leipzig"@en .

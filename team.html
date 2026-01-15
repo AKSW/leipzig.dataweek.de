@@ -29,23 +29,6 @@ order by ?person_name
 {% assign persons = rootResource | sparql_query: persons_query %}
 <div class="content-header">
   <h1>
-    {{ str_general_chair }}
-  </h1>
-</div>
-<div class="contact-list">
-  <ul>
-    {% for person in persons %}
-      {% assign role = person.person | rdf_property: "dw:role" %}
-      {% if role %}
-        <li>
-          {% include components/person.html organizer=person.person %}
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-</div>
-<div class="content-header">
-  <h1>
     {{ str_dw_team }}
   </h1>
 </div>
