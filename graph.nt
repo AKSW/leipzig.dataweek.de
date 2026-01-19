@@ -386,6 +386,7 @@
 <https://2026.dataweek.de/> <http://schema.org/slogan> "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de .
 <https://2026.dataweek.de/> <http://schema.org/sponsor> <https://2026.dataweek.de/Sponsors> .
 <https://2026.dataweek.de/> <http://schema.org/startDate> "2025-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/> <http://schema.org/subEvent> <https://2026.dataweek.de/kmi-26/> .
 <https://2026.dataweek.de/> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/> .
 <https://2026.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
 <https://2026.dataweek.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -414,6 +415,7 @@
 <https://2026.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://leipzig.impacthub.net/> .
 <https://2026.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://tu-chemnitz.de/> .
 <https://2026.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> <https://www.uni-leipzig.de/> .
+<https://2026.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> <https://www.leipzig.ihk.de/> .
 <https://2026.dataweek.de/Cooperators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2026.dataweek.de/Cooperators> <http://www.w3.org/2000/01/rdf-schema#label> "In Zusammenarbeit mit"@de .
 <https://2026.dataweek.de/Cooperators> <http://www.w3.org/2000/01/rdf-schema#label> "In cooperation with"@en .
@@ -807,6 +809,17 @@
 <https://2026.dataweek.de/hotels/Travel24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Hotel> .
 <https://2026.dataweek.de/hotels/Travel24> <http://www.w3.org/2000/01/rdf-schema#label> "Travel24 Hotel" .
 <https://2026.dataweek.de/hotels/Travel24> <https://2026.dataweek.de/recommended> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://2026.dataweek.de/kmi-26/> <http://purl.org/dc/terms/date> "2026-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/kmi-26/> <http://purl.org/dc/terms/description> "\nAs part of its application-oriented research work, the competence centre \u201CK\u00FCnstlich Menschlich Intelligent\u201D (KMI/artificial human intelligent) supports companies in shaping the digital transformation as part of its application-oriented research work. The focus is on generating social, ecological and economic benefits through the use of innovative, digital technologies.\n\nThe KMI Transfer Day offers companies, associations and non-profit organizations involved in digital transformation and the introduction of AI a point of contact for gaining access to scientifically sound findings and results for the sustainable and humane design of work.\n\nThe work of the competence centre KMI is characterized by a broad interdisciplinary spectrum. Scientists from the KMI project research and develop solutions for the digital design of sustainable and resilient working and learning spaces in a constant and close exchange with practice partners."@en .
+<https://2026.dataweek.de/kmi-26/> <http://purl.org/dc/terms/description> "\nDas Kompetenzzentrum K\u00FCnstlich Menschlich Intelligent (KMI) unterst\u00FCtzt Unternehmen im Rahmen seiner anwendungsorientierten Forschungsarbeit bei der Gestaltung des digitalen Wandels. Dabei steht das Erzeugen von sozialem, \u00F6kologischem und \u00F6konomischem Nutzen durch den Einsatz innovativer, digitaler Technologien im Fokus.\n\nDer KMI-Transfertag bietet Unternehmen, Vereinen oder Non-Profit Organisationen, die sich mit digitaler Transformation und KI-Einf\u00FChrung befassen, eine Anlaufstelle, um Zugang zu wissenschaftlich fundierten Erkenntnissen und Ergebnissen f\u00FCr die nachhaltige und menschengerechte Gestaltung von Arbeit zu erhalten.\n\nDie Arbeit des KMI zeichnet sich durch eine gro\u00DFe interdisziplin\u00E4re Bandbreite aus. Wissenschaftler:innen aus dem KMI-Projekt erforschen und entwickeln dabei im stetigen und engen Austausch mit den Praxispartnern L\u00F6sungen zur digitalen Gestaltung nachhaltiger und resilienter Arbeits- und Lernr\u00E4ume."@de .
+<https://2026.dataweek.de/kmi-26/> <http://schema.org/abstract> "Das Kompetenzzentrum KMI (K\u00FCnstlich \u2013 Menschlich \u2013 Intelligent) stellt Erkenntnisse, die im Rahmen der Projekte KMI und KMI/ROOTS entstanden sind vor."@de .
+<https://2026.dataweek.de/kmi-26/> <http://schema.org/abstract> "The KMI (K\u00FCnstlich - Menschlich - Intelligent) competence center presents findings that have emerged from the KMI and KMI/ROOTS projects."@en .
+<https://2026.dataweek.de/kmi-26/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/kmi-26/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://2026.dataweek.de/kmi-26/> <http://www.w3.org/2000/01/rdf-schema#label> "KMI transfer day"@en .
+<https://2026.dataweek.de/kmi-26/> <http://www.w3.org/2000/01/rdf-schema#label> "KMI-Transfertag"@de .
+<https://2026.dataweek.de/kmi-26/> <https://dataweek.de/#show> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://2026.dataweek.de/kmi-26/> <https://dataweek.de/#slug> "KMI" .
 <https://2026.dataweek.de/live> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2026.dataweek.de/live> <http://www.w3.org/2000/01/rdf-schema#label> "Live"@de .
 <https://2026.dataweek.de/live> <http://www.w3.org/2000/01/rdf-schema#label> "Live"@en .
