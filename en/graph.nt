@@ -835,6 +835,7 @@
 <https://2026.dataweek.de/break/2026-06-02/17:15> <http://purl.org/dc/terms/description> "Der auf dem Fundament des alten Pleißenburgturms errichtete Turm des Neuen Rathauses gilt als höchster Rathausturm Deutschlands und ist eines der wichtigsten Wahrzeichen Leipzigs. Mit einer Höhe von genau 114,7 Metern überragt er die ganze Stadt. Im Rahmen der Data Week Leipzig haben Sie die Möglichkeit den Rathausturm mit uns zu besichtigen."@de .
 <https://2026.dataweek.de/break/2026-06-02/17:15> <http://purl.org/dc/terms/title> "Rathausturmführung"@de .
 <https://2026.dataweek.de/break/2026-06-02/17:15> <http://purl.org/dc/terms/title> "Visit city hall tower"@en .
+<https://2026.dataweek.de/break/2026-06-02/17:15> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/break/2026-06-02/17:15> <http://schema.org/endTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/break/2026-06-02/17:15> <http://schema.org/startTime> "17:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/break/2026-06-02/17:15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -1609,21 +1610,13 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-29> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-29> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-33> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-33> <http://purl.org/dc/terms/description> "Built on the foundation of the old Pleißenburg Tower, the tower of the New City Hall is considered the tallest city hall tower in Germany and is one of Leipzig's most important landmarks. With a height of exactly 114.7 meters, it towers over the entire city. As part of Data Week Leipzig, you have the opportunity to visit the town hall tower with us."@en .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-33> <http://purl.org/dc/terms/description> "Der auf dem Fundament des alten Pleißenburgturms errichtete Turm des Neuen Rathauses gilt als höchster Rathausturm Deutschlands und ist eines der wichtigsten Wahrzeichen Leipzigs. Mit einer Höhe von genau 114,7 Metern überragt er die ganze Stadt. Im Rahmen der Data Week Leipzig haben Sie die Möglichkeit den Rathausturm mit uns zu besichtigen."@de .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-33> <http://purl.org/dc/terms/title> "Rathausturmführung"@de .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-33> <http://purl.org/dc/terms/title> "Visit city hall tower"@en .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/endTime> "18:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-33> <http://schema.org/startTime> "17:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-01/09:15> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-01/11:30> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-01/14:00> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-01/16:00> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-01/16:10> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-01/16:15> .
+<https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-02/17:15> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-03/10:30> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-03/12:30> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-03/15:00> .
@@ -1666,7 +1659,6 @@
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-20> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-25> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-29> .
-<https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-33> .
 <https://2026.dataweek.de/team-generalchair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@de .
 <https://2026.dataweek.de/team-generalchair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@en .
 <https://2026.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://aksw.org/JuliaHolze> .
