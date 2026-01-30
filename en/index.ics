@@ -1,17 +1,5 @@
 BEGIN:VCALENDAR
 BEGIN:VEVENT
-SUMMARY:Leipzig\, how are you? - A walk through sensor technology and user
- -generated data
-DTSTART;TZID=Europe/Berlin:20250610T161000
-DTEND;TZID=Europe/Berlin:20250610T174000
-DESCRIPTION:Built on the foundation of the old Pleißenburg Tower\, the to
- wer of the New City Hall is considered the tallest city hall tower in Germ
- any and is one of Leipzig's most important landmarks. With a height of exa
- ctly 114.7 meters\, it towers over the entire city. As part of Data Week L
- eipzig\, you have the opportunity to visit the town hall tower with us.
-LOCATION:Smart City Lab
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Admission
 DTSTART;TZID=Europe/Berlin:20260601T091500
 DTEND;TZID=Europe/Berlin:20260601T100000
@@ -50,7 +38,7 @@ DESCRIPTION:Sensors are increasingly appearing in Leipzig's cityscape and
  re\, you will discover where and how sensors and data donations are used i
  n the city and how they are already making our city smarter today (start: 
  New City Hall\, destination: Smart City Lab\, approx. 3\,5km)
-LOCATION:Wandelhalle
+LOCATION:Smart City Lab
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Opening - Live translation available in English. 
@@ -168,6 +156,22 @@ DESCRIPTION:Test the DoorCE Toolbox for the entire open data lifecycle: In
   be discussed: What strategies and governance structures are necessary? Ho
  w can cultural change towards open administration be achieved? https://www
  .interreg-central.eu/projects/doorce/
+LOCATION:Ratsplenarsaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:From governance to guardrails: Testing and monitoring as the found
+ ation of trustworthy AI (conducted by EWERK)
+DTSTART;TZID=Europe/Berlin:20260601T143000
+DTEND;TZID=Europe/Berlin:20260601T160000
+DESCRIPTION:How can we not only demand trust and reliability in the use of
+  artificial intelligence\, but also put it into practice? In this session\
+ , we bridge the gap between governance principles and the specific challen
+ ges of everyday AI operations. The focus is on testing/evaluation and cont
+ inuous monitoring. These aspects are more than just technical details. Rat
+ her\, they form the basis for responsible and stable AI systems with real 
+ added value for your company. We take a practical look at how current meth
+ ods and approaches can help to better understand the behavior of AI applic
+ ations and identify challenges at an early stage.  
 LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
@@ -491,6 +495,13 @@ DTEND;TZID=Europe/Berlin:20260603T170000
 LOCATION:Room 369
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:KMI Transfer Day - ROOTS Session (organized by the KMI/ROOTS proje
+ ct at InfAI)
+DTSTART;TZID=Europe/Berlin:20260603T110000
+DTEND;TZID=Europe/Berlin:20260603T123000
+LOCATION:Room 260
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:KMI Transfer Day (organized by the KMI project at InfAI)
 DTSTART;TZID=Europe/Berlin:20260603T110000
 DTEND;TZID=Europe/Berlin:20260603T123000
@@ -538,13 +549,6 @@ SUMMARY:KMI Transfer Day - ROOTS Session (organized by the KMI/ROOTS proje
  ct at InfAI)
 DTSTART;TZID=Europe/Berlin:20260603T090000
 DTEND;TZID=Europe/Berlin:20260603T103000
-LOCATION:Room 260
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:KMI Transfer Day - ROOTS Session (organized by the KMI/ROOTS proje
- ct at InfAI)
-DTSTART;TZID=Europe/Berlin:20260603T110000
-DTEND;TZID=Europe/Berlin:20260603T123000
 LOCATION:Room 260
 END:VEVENT
 BEGIN:VEVENT
@@ -649,9 +653,14 @@ DESCRIPTION:Generative AI has arrived in companies\, but the path from ini
 LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AI Compass 2026 (conducted by EWERK)
+SUMMARY:Expedition AI – Orientation in the system\, beyond hype and myth
+ s - part 1 (conducted by EWERK)
 DTSTART;TZID=Europe/Berlin:20260604T090000
 DTEND;TZID=Europe/Berlin:20260604T103000
+DESCRIPTION:This session takes participants on an expedition through the w
+ orld of artificial intelligence: from its origins and how modern AI system
+ s work to current social and environmental issues. The aim is not only to 
+ use AI\, but to understand it thoroughly and apply it consciously.
 LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
@@ -660,20 +669,24 @@ SUMMARY:Open-source dashboards for climate resilience and international da
  RACE (conducted by aconium GmbH)
 DTSTART;TZID=Europe/Berlin:20260604T090000
 DTEND;TZID=Europe/Berlin:20260604T103000
-DESCRIPTION:In the EU project GRACE (Growing Climate Resilience in Remote 
- Rural Areas through Community Empowerment)\, European partners are working
-  to strengthen the climate resilience of rural regions with the help of fr
- eely accessible data and digital technologies. In this workshop\, particip
- ants will create their own open\, interactive dashboard and learn step by 
- step how to make meaningful use of publicly available map and specialist d
- ata. This includes geodata from OpenStreetMap (OSM) – a global\, collabo
- ratively maintained free map platform – as well as supplementary factual
-  information such as climate or population data. We will demonstrate in a 
- practical way how freely available data can be turned into understandable 
- visualizations and why the conscious use of data is more important than th
- e tool used. Using Apache Superset\, participants will gain insights into 
+DESCRIPTION:How can climate data be processed in such a way that it really
+  has an impact? In the EU project GRACE (Growing Climate Resilience in Rem
+ ote Rural Areas through Community Empowerment)\, European partners are wor
+ king to strengthen the climate resilience of rural regions with the help o
+ f freely accessible data and digital technologies. In this workshop\, part
+ icipants will create their own open\, interactive dashboard and learn step
+  by step how to make meaningful use of publicly available maps and special
+ ist data. This includes geodata from OpenStreetMap (OSM) – a global\, co
+ llaboratively maintained free map platform – as well as supplementary fa
+ ctual information such as climate or population data. We will demonstrate 
+ in a practical way how freely available data can be turned into understand
+ able visualizations and why the conscious use of data is more important th
+ an the tool used. Using Apache Superset\, participants gain insights into 
  open-source visualization\, international data use\, and the role of dashb
- oards in climate-resilient\, data-driven decision-making processes.
+ oards in climate-resilient\, data-driven decision-making processes. \nPart
+ icipants are strongly encouraged to bring their own computers to the works
+ hop. The necessary data sets will be provided in advance by the organizers
+ .
 LOCATION:Room 260
 END:VEVENT
 BEGIN:VEVENT
@@ -695,9 +708,18 @@ DESCRIPTION:Generative AI has arrived in companies\, but the path from ini
 LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AI Compass 2026 (conducted by EWERK)
+SUMMARY:Practical guide to the EU AI Act – Assessing risks\, understandi
+ ng obligations\, making decisions – Part 2 (conducted by EWERK)
 DTSTART;TZID=Europe/Berlin:20260604T110000
 DTEND;TZID=Europe/Berlin:20260604T123000
+DESCRIPTION:The EU AI Act imposes new regulatory requirements on companies
+ —and thus presents them with considerable challenges. In this interactiv
+ e session\, various practical scenarios will be used to show how the legal
+  framework can be applied to sample companies and how classification accor
+ ding to the risk categories of the EU AI Act is carried out.\nLearn about 
+ the applicable obligations\, the relevant deadlines\, and the business imp
+ lications you can expect. We offer insights into how companies can make in
+ formed and responsible decisions when using AI.
 LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
