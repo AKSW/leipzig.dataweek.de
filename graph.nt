@@ -1781,6 +1781,7 @@
 <https://2026.dataweek.de/workshops/#programm-session-13> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-session-13> <http://schema.org/location> <https://dataweek.de/venue#Room259> .
 <https://2026.dataweek.de/workshops/#programm-session-13> <http://schema.org/performer> <https://dataweek.de/#AnjaBrueckner> .
+<https://2026.dataweek.de/workshops/#programm-session-13> <http://schema.org/performer> <https://dataweek.de/#GabrieleBuruck> .
 <https://2026.dataweek.de/workshops/#programm-session-13> <http://schema.org/performer> <https://dataweek.de/#JoergSchliesser> .
 <https://2026.dataweek.de/workshops/#programm-session-13> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-session-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -1811,6 +1812,7 @@
 <https://2026.dataweek.de/workshops/#programm-session-16> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/workshops/#programm-session-16> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-session-16> <http://schema.org/location> <https://dataweek.de/venue#Room260> .
+<https://2026.dataweek.de/workshops/#programm-session-16> <http://schema.org/performer> <https://dataweek.de/#MarkusFischer> .
 <https://2026.dataweek.de/workshops/#programm-session-16> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-session-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/workshops/#programm-session-17> <http://purl.org/dc/terms/date> "2026-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3030,6 +3032,14 @@
 <https://dataweek.de/#FriedrichZahn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#FriedrichZahn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#FriedrichZahn> <http://xmlns.com/foaf/0.1/name> "Friedrich Zahn" .
+<https://dataweek.de/#GabrieleBuruck> <http://purl.org/dc/terms/description> "Professor of Health Promotion and Prevention"@en .
+<https://dataweek.de/#GabrieleBuruck> <http://purl.org/dc/terms/description> "Professorin für Gesundheitsförderung und Prävention"@de .
+<https://dataweek.de/#GabrieleBuruck> <http://schema.org/affiliation> <https://www.whz.de/> .
+<https://dataweek.de/#GabrieleBuruck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#GabrieleBuruck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#GabrieleBuruck> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Dr. Gabriele Buruck" .
+<https://dataweek.de/#GabrieleBuruck> <http://xmlns.com/foaf/0.1/name> "Gabriele Buruck" .
+<https://dataweek.de/#GabrieleBuruck> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
 <https://dataweek.de/#GeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@de .
 <https://dataweek.de/#GeneralChair> <http://www.w3.org/2000/01/rdf-schema#label> "General Chair"@en .
 <https://dataweek.de/#GeorgGeiger> <http://purl.org/dc/terms/description> "SAFe Product Owner for SW Entitlement Management and DevOps Delivery Orchestration at Nokia"@de .
@@ -3724,6 +3734,12 @@
 <https://dataweek.de/#MarkDietrich> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Mark Dietrich" .
 <https://dataweek.de/#MarkDietrich> <http://xmlns.com/foaf/0.1/name> "Mark Dietrich" .
 <https://dataweek.de/#MarkDietrich> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#MarkusFischer> <http://purl.org/dc/terms/description> "Senior Consultant"@de .
+<https://dataweek.de/#MarkusFischer> <http://purl.org/dc/terms/description> "Senior Consultant"@en .
+<https://dataweek.de/#MarkusFischer> <http://schema.org/affiliation> <https://syncwork.de/> .
+<https://dataweek.de/#MarkusFischer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MarkusFischer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MarkusFischer> <http://xmlns.com/foaf/0.1/name> "Markus Fischer" .
 <https://dataweek.de/#MarkusGoetz> <http://purl.org/dc/terms/description> "Karlsruher Institut für Technologie (KIT), Scientific Computing Center (SCC)"@de .
 <https://dataweek.de/#MarkusGoetz> <http://purl.org/dc/terms/description> "Karlsruher Institut für Technologie (KIT), Scientific Computing Center (SCC)"@en .
 <https://dataweek.de/#MarkusGoetz> <http://schema.org/affiliation> <https://www.kit.edu> .
@@ -5281,6 +5297,11 @@
 <https://startseite.jena.de/de> <http://www.w3.org/2000/01/rdf-schema#label> "City of Jena"@en .
 <https://startseite.jena.de/de> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Jena"@de .
 <https://startseite.jena.de/de> <http://xmlns.com/foaf/0.1/homepage> <https://startseite.jena.de/de> .
+<https://syncwork.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://syncwork.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://syncwork.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Syncwork AG"@de .
+<https://syncwork.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Syncwork AG"@en .
+<https://syncwork.de/> <http://xmlns.com/foaf/0.1/homepage> <https://syncwork.de/> .
 <https://tech-leaders.academy/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://tech-leaders.academy/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://tech-leaders.academy/> <http://www.w3.org/2000/01/rdf-schema#label> "Tech Leaders Academy"@de .
@@ -5580,11 +5601,6 @@
 <https://www.ewerk.com/startseite> <http://www.w3.org/2000/01/rdf-schema#label> "EWERK"@de .
 <https://www.ewerk.com/startseite> <http://www.w3.org/2000/01/rdf-schema#label> "EWERK"@en .
 <https://www.ewerk.com/startseite> <http://xmlns.com/foaf/0.1/homepage> <https://www.ewerk.com/startseite> .
-<https://www.fh-zwickau.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://www.fh-zwickau.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-<https://www.fh-zwickau.de/> <http://www.w3.org/2000/01/rdf-schema#label> "West Saxon University of Applied Sciences Zwickau"@en .
-<https://www.fh-zwickau.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Westsächsische Hochschule Zwickau"@de .
-<https://www.fh-zwickau.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.fh-zwickau.de/> .
 <https://www.fit.fraunhofer.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.fit.fraunhofer.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.fit.fraunhofer.de/> <http://www.w3.org/2000/01/rdf-schema#label> "\nFraunhofer-Institut für Angewandte Informationstechnik FIT"@de .
@@ -6223,6 +6239,11 @@
 <https://www.vse.cz/english/> <http://www.w3.org/2000/01/rdf-schema#label> "Prague University of Economics"@en .
 <https://www.vse.cz/english/> <http://www.w3.org/2000/01/rdf-schema#label> "Universität für Wirtschaft Prag"@de .
 <https://www.vse.cz/english/> <http://xmlns.com/foaf/0.1/homepage> <https://www.vse.cz/english/> .
+<https://www.whz.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.whz.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.whz.de/> <http://www.w3.org/2000/01/rdf-schema#label> "West Saxon University of Applied Sciences Zwickau"@en .
+<https://www.whz.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Westsächsische Hochschule Zwickau"@de .
+<https://www.whz.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.whz.de/> .
 <https://www.wichita.edu/academics/engineering/aerospace/atridutta/index.php> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.wichita.edu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.wichita.edu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
