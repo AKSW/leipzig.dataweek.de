@@ -2048,6 +2048,42 @@
 <https://2026.dataweek.de/workshops/#programm-session-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/workshops/#programm-talk-11> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/workshops/#programm-talk-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/workshops/2026-06-01/> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/workshops/2026-06-01/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2026.dataweek.de/workshops/2026-06-01/> <http://www.w3.org/2000/01/rdf-schema#label> "Monday"@en .
+<https://2026.dataweek.de/workshops/2026-06-01/> <http://www.w3.org/2000/01/rdf-schema#label> "Montag"@de .
+<https://2026.dataweek.de/workshops/2026-06-01/> <https://dataweek.de/#resourceUri> <https://2026.dataweek.de/workshops/> .
+<https://2026.dataweek.de/workshops/2026-06-01/> <https://dataweek.de/#viewFilter> "str(?date) = \"2026-06-01\"" .
+<https://2026.dataweek.de/workshops/2026-06-01/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Topiclist> .
+<https://2026.dataweek.de/workshops/2026-06-02/> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/workshops/2026-06-02/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2026.dataweek.de/workshops/2026-06-02/> <http://www.w3.org/2000/01/rdf-schema#label> "Dienstag"@de .
+<https://2026.dataweek.de/workshops/2026-06-02/> <http://www.w3.org/2000/01/rdf-schema#label> "Tuesday"@en .
+<https://2026.dataweek.de/workshops/2026-06-02/> <https://dataweek.de/#resourceUri> <https://2026.dataweek.de/workshops/> .
+<https://2026.dataweek.de/workshops/2026-06-02/> <https://dataweek.de/#viewFilter> "str(?date) = \"2026-06-02\"" .
+<https://2026.dataweek.de/workshops/2026-06-02/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Topiclist> .
+<https://2026.dataweek.de/workshops/2026-06-03/> <http://purl.org/dc/terms/date> "2026-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/workshops/2026-06-03/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2026.dataweek.de/workshops/2026-06-03/> <http://www.w3.org/2000/01/rdf-schema#label> "Mittwoch"@de .
+<https://2026.dataweek.de/workshops/2026-06-03/> <http://www.w3.org/2000/01/rdf-schema#label> "Wednesday"@en .
+<https://2026.dataweek.de/workshops/2026-06-03/> <https://dataweek.de/#resourceUri> <https://2026.dataweek.de/workshops/> .
+<https://2026.dataweek.de/workshops/2026-06-03/> <https://dataweek.de/#viewFilter> "str(?date) = \"2026-06-03\"" .
+<https://2026.dataweek.de/workshops/2026-06-03/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Topiclist> .
+<https://2026.dataweek.de/workshops/2026-06-04/> <http://purl.org/dc/terms/date> "2026-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/workshops/2026-06-04/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2026.dataweek.de/workshops/2026-06-04/> <http://www.w3.org/2000/01/rdf-schema#label> "Donnerstag"@de .
+<https://2026.dataweek.de/workshops/2026-06-04/> <http://www.w3.org/2000/01/rdf-schema#label> "Thursday"@en .
+<https://2026.dataweek.de/workshops/2026-06-04/> <https://dataweek.de/#resourceUri> <https://2026.dataweek.de/workshops/> .
+<https://2026.dataweek.de/workshops/2026-06-04/> <https://dataweek.de/#viewFilter> "str(?date) = \"2026-06-04\"" .
+<https://2026.dataweek.de/workshops/2026-06-04/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Topiclist> .
+<https://2026.dataweek.de/workshops/> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/workshops/> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/workshops/> <http://purl.org/dc/terms/date> "2026-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/workshops/> <http://purl.org/dc/terms/date> "2026-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/workshops/> <http://purl.org/dc/terms/description> "Data Week Leipzig will feature numerous workshops on AI applications in education, mobility, health, and climate; participatory digital tools; the transition from legacy systems to smart dashboards; generative AI and organizational change; and regulatory guidance and responsible AI use in administration, science, and business."@en .
+<https://2026.dataweek.de/workshops/> <http://purl.org/dc/terms/description> "Im Rahmen der Data Week Leipzig finden zahlreiche Workshops zu KI-Anwendungen in Bildung, Mobilit\u00E4t, Gesundheit und Klima, zu partizipativen digitalen Werkzeugen, zum \u00DCbergang von Legacy-Systemen zu smarten Dashboards, zu generativer KI und organisationalem Wandel sowie zu regulatorischer Orientierung und verantwortungsvollem KI-Einsatz in Verwaltung, Wissenschaft und Wirtschaft statt."@de .
+<https://2026.dataweek.de/workshops/> <http://schema.org/abstract> "Data Week Leipzig will feature numerous workshops on AI applications in education, mobility, health, and climate; participatory digital tools; the transition from legacy systems to smart dashboards; generative AI and organizational change; and regulatory guidance and responsible AI use in administration, science, and business."@en .
+<https://2026.dataweek.de/workshops/> <http://schema.org/abstract> "Im Rahmen der Data Week Leipzig finden zahlreiche Workshops zu KI-Anwendungen in Bildung, Mobilit\u00E4t, Gesundheit und Klima, zu partizipativen digitalen Werkzeugen, zum \u00DCbergang von Legacy-Systemen zu smarten Dashboards, zu generativer KI und organisationalem Wandel sowie zu regulatorischer Orientierung und verantwortungsvollem KI-Einsatz in Verwaltung, Wissenschaft und Wirtschaft statt."@de .
 <https://2026.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-01/11:30> .
 <https://2026.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-01/14:00> .
 <https://2026.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-01/16:00> .
@@ -2086,6 +2122,19 @@
 <https://2026.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2026.dataweek.de/workshops/#programm-session-8> .
 <https://2026.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2026.dataweek.de/workshops/#programm-session-9> .
 <https://2026.dataweek.de/workshops/> <http://schema.org/subEvent> <https://2026.dataweek.de/workshops/#programm-talk-11> .
+<https://2026.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2026.dataweek.de/workshops/> .
+<https://2026.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2026.dataweek.de/workshops/2026-06-01/> .
+<https://2026.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2026.dataweek.de/workshops/2026-06-02/> .
+<https://2026.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2026.dataweek.de/workshops/2026-06-03/> .
+<https://2026.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2026.dataweek.de/workshops/2026-06-04/> .
+<https://2026.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/workshops/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://2026.dataweek.de/workshops/> <http://www.w3.org/2000/01/rdf-schema#label> "Workshops"@de .
+<https://2026.dataweek.de/workshops/> <http://www.w3.org/2000/01/rdf-schema#label> "Workshops"@en .
+<https://2026.dataweek.de/workshops/> <https://dataweek.de/#menuHomeLabel> "General"@en .
+<https://2026.dataweek.de/workshops/> <https://dataweek.de/#menuHomeLabel> "\u00DCbersicht"@de .
+<https://2026.dataweek.de/workshops/> <https://dataweek.de/#show> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://2026.dataweek.de/workshops/> <https://dataweek.de/#slug> "Workshops" .
 <https://aconium.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://aconium.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://aconium.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
