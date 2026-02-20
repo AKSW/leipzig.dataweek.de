@@ -3,8 +3,8 @@
 {% assign address = hotel | rdf_property: "schema:address" %}
 {% assign telephone = hotel | rdf_property: "schema:telephone" %}
 {% assign email = hotel | rdf_property: "schema:email" %}
-{% assign reducedRate = hotel | rdf_property: "dw24:reducedRate" %}
-{% assign recommended = hotel | rdf_property: "dw24:recommended" %}
+{% assign reducedRate = hotel | rdf_property: "dw26:reducedRate" %}
+{% assign recommended = hotel | rdf_property: "dw26:recommended" %}
 
 <tr>
   <th scope="row">{{ name }}</th>
