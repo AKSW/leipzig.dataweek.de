@@ -9,7 +9,7 @@ SELECT DISTINCT ?hotel WHERE {
   ?hotel a schema:Hotel ;
     rdfs:label ?label ;
     schema:address ?address ;
-  	dw25:recommended true .
+  	dw26:recommended true .
 }
 ORDER BY ?label
 {% endcapture %}
@@ -19,7 +19,7 @@ SELECT DISTINCT ?hotel WHERE {
   ?hotel a schema:Hotel ;
     rdfs:label ?label ;
     schema:address ?address ;
-    dw25:lowPrice true .
+    dw26:lowPrice true .
 }
 {% endcapture %}
 {% assign lowPriceHotels = rootResource | sparql_query: lowPriceHotelsQuery %}
