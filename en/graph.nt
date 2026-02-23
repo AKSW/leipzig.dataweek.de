@@ -633,6 +633,7 @@
 <https://2026.dataweek.de/> <http://schema.org/slogan> "Netzwerk- und Austauschplattform zu KI und Daten in Leipzig"@de .
 <https://2026.dataweek.de/> <http://schema.org/sponsor> <https://2026.dataweek.de/Sponsors> .
 <https://2026.dataweek.de/> <http://schema.org/startDate> "2025-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/> <http://schema.org/subEvent> <https://2026.dataweek.de/community/> .
 <https://2026.dataweek.de/> <http://schema.org/subEvent> <https://2026.dataweek.de/kmi-26/> .
 <https://2026.dataweek.de/> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/> .
 <https://2026.dataweek.de/> <http://schema.org/subEvent> <https://2026.dataweek.de/npo/> .
@@ -1044,6 +1045,19 @@
 <https://2026.dataweek.de/cfp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2026.dataweek.de/cfp> <http://www.w3.org/2000/01/rdf-schema#label> "Ausschreibung"@de .
 <https://2026.dataweek.de/cfp> <http://www.w3.org/2000/01/rdf-schema#label> "CfP"@en .
+<https://2026.dataweek.de/community/> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/community/> <http://purl.org/dc/terms/description> "\nIn der Klimainnovativ-Community treffen Unternehmen aus den unterschiedlichsten Branchen auf Wissenschaft und Verwaltung. Sie verbindet ein gemeinsames Ziel: Leipzigs Weg zur Klimaneutralit\u00E4t und als Smart City aktiv mitzugestalten.\n\nEntstanden im Rahmen der [\u201EEU-Mission 100 klimaneutrale und smarte St\u00E4dte\u201C,](https://www.leipzig.de/leipzig-strategie/energie-und-klima/leipzig-teil-von-100-klimaneutrale-und-smarte-staedte) bietet die Community eine lebendige Plattform zur Resilienzst\u00E4rkung und die Entwicklung zukunftsf\u00E4higer Gesch\u00E4ftsmodelle. Hier werden Ideen zu Projekten, Einzelk\u00E4mpfer zu starken Netzwerken und Visionen zu konkreten L\u00F6sungen.\n\nNeben fachlichem Input und Neuigkeiten aus der Verwaltung erwartet Sie vor allem der Austausch mit anderen engagierten Unternehmen. Das Treffen bietet Gelegenheit, sich zu vernetzen und Inspiration f\u00FCr die n\u00E4chsten Schritte auf dem Weg zur Klimaneutralit\u00E4t zu gewinnen.\n\nDas Netzwerk steht neben den bisher engagierten Unternehmen auch weiteren Organisationen offen, die Ma\u00DFnahmen zur Klimaneutralit\u00E4t umsetzen m\u00F6chten.\n\nMelden Sie sich unter [klima-innovativ@leipzig.de](mailto:klima-innovativ@leipzig.de) f\u00FCr einen kostenfreien Zugang zum Netzwerk.\n    "@de .
+<https://2026.dataweek.de/community/> <http://purl.org/dc/terms/description> "\nThe Klimainnovativ community brings together companies from a wide range of industries with representatives from science and administration. They are united by a common goal: to actively shape Leipzig's path to climate neutrality and its development as a smart city.\n\nCreated as part of the [EU Mission 100 Climate Neutral and Smart Cities,] (https://www.leipzig.de/leipzig-strategie/energie-und-klima/leipzig-teil-von-100-klimaneutrale-und-smarte-staedte), the community offers a lively platform for strengthening resilience and developing sustainable business models. Here, ideas become projects, lone warriors become strong networks, and visions become concrete solutions.\n\nIn addition to technical input and news from the administration, you can look forward to exchanging ideas with other committed companies. The meeting offers an opportunity to network and gain inspiration for the next steps on the road to climate neutrality.\n\nIn addition to the companies already involved, the network is also open to other organizations that want to implement measures for climate neutrality.\n\nRegister at [klima-innovativ@leipzig.de](mailto:klima-innovativ@leipzig.de) for free access to the network.\n"@en .
+<https://2026.dataweek.de/community/> <http://schema.org/abstract> "In der Klimainnovativ-Community treffen Unternehmen aus den unterschiedlichsten Branchen auf Wissenschaft und Verwaltung."@de .
+<https://2026.dataweek.de/community/> <http://schema.org/abstract> "The Climate Innovation Community brings together companies from a wide range of industries with representatives from science and government."@en .
+<https://2026.dataweek.de/community/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/community/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://2026.dataweek.de/community/> <http://www.w3.org/2000/01/rdf-schema#label> "Climate Innovation Network Meeting"@en .
+<https://2026.dataweek.de/community/> <http://www.w3.org/2000/01/rdf-schema#label> "Klimainnovativ-Netzwerktreffen"@de .
+<https://2026.dataweek.de/community/> <https://dataweek.de/#menuHomeLabel> "General"@en .
+<https://2026.dataweek.de/community/> <https://dataweek.de/#menuHomeLabel> "\u00DCbersicht"@de .
+<https://2026.dataweek.de/community/> <https://dataweek.de/#show> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://2026.dataweek.de/community/> <https://dataweek.de/#slug> "Community" .
 <https://2026.dataweek.de/contact/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2026.dataweek.de/contact/> <http://www.w3.org/2000/01/rdf-schema#label> "Contact"@en .
 <https://2026.dataweek.de/contact/> <http://www.w3.org/2000/01/rdf-schema#label> "Kontakt"@de .
