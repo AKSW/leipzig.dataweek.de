@@ -126,10 +126,17 @@ DESCRIPTION:As part of Leipzig Data Week\, the DIPAS user community is get
 LOCATION:Room 270
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY: Live translation available in English. 
+SUMMARY:Data for autonomous mobility in cities and smart traffic control -
+  Live translation available in English.
 DTSTART;TZID=Europe/Berlin:20260602T153000
 DTEND;TZID=Europe/Berlin:20260602T170000
 LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Digital design of Leipzig's urban space – diGuRaL (not public)
+DTSTART;TZID=Europe/Berlin:20260602T153000
+DTEND;TZID=Europe/Berlin:20260602T170000
+LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Opening - Live translation available in English. 
@@ -149,6 +156,56 @@ DTSTART;TZID=Europe/Berlin:20260602T103000
 DTEND;TZID=Europe/Berlin:20260602T110000
 DESCRIPTION:Posters and Stands
 LOCATION:Wandelhalle
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Open Data - Data Catalog Management in RDF
+DTSTART;TZID=Europe/Berlin:20260602T110000
+DTEND;TZID=Europe/Berlin:20260602T113000
+DESCRIPTION:In their joint presentation\, Eric Engels and Norman Radtke hi
+ ghlight special features in the reuse of data catalogs from existing open 
+ data portals (e.g. filtering for Hessian content)\, the expanded presentat
+ ion of content\, the generation of statistical evaluations of data catalog
+ s\, and the preparation of their own data catalogs (e.g.\, a partial data 
+ catalog for each municipality). The focus of this work is strongly on data
+  homogenization and standardization\, for example\, to enable alignment at
+  the file level. The proposed solutions are implemented both within the CK
+ AN extension developed in Hesse itself and on the data of the knowledge gr
+ aph (RDF\, DCAT)\, using SPARQL update queries.
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Automated interfaces of the Open Data Portal: Experiences from Lei
+ pzig
+DTSTART;TZID=Europe/Berlin:20260602T113000
+DTEND;TZID=Europe/Berlin:20260602T120000
+DESCRIPTION:The city of Leipzig operates an open data portal that interact
+ s with other data catalogs: the Leipzig geodata catalog and the Saxony ope
+ n data portal. The presentation shows the practical implementation of the 
+ interfaces between these platforms and highlights the technical\, organiza
+ tional\, and semantic challenges. It will present the automated transfer o
+ f geodata from the geodata catalog to the City of Leipzig's open data port
+ al\, as well as the harvesting process of the Saxony state portal\, which 
+ regularly imports Leipzig data sets. Concrete examples will be used to ill
+ ustrate how metadata standards were harmonized and how the technical imple
+ mentation of the interfaces was realized. The article offers insights into
+  the improvements achieved\, key findings\, and perspectives for the furth
+ er development of a networked data infrastructure.
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Urban Data Management Bonn – A change project with many dimensio
+ ns
+DTSTART;TZID=Europe/Berlin:20260602T120000
+DTEND;TZID=Europe/Berlin:20260602T123000
+DESCRIPTION:Since 2020\, the federal city of Bonn has been actively pursui
+ ng a strategic approach to urban data. The presentation describes the late
+ st active developments in the areas of technical development of an urban d
+ ata platform based on the open source project Civitas Core\, the introduct
+ ion of a data strategy and governance\, and activities to increase data li
+ teracy in the administration and urban society. The aim of these activitie
+ s is to achieve comprehensive data excellence in the handling of urban dat
+ a.
+LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lunch break
