@@ -47,9 +47,14 @@ DTEND;TZID=Europe/Berlin:20260601T110000
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Session 1
+SUMMARY:Panel discussion: RE:Form “For a guild state” - Live translati
+ on available in English. 
 DTSTART;TZID=Europe/Berlin:20260601T123000
 DTEND;TZID=Europe/Berlin:20260601T140000
+DESCRIPTION:Re:Form is a new “alliance for the state of tomorrow” that
+  brings together pioneers in digitalization and administration from the fe
+ deral\, state\, and local levels.  The approaches for a new understanding 
+ of the state will be presented in Leipzig during Dataweek.
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
@@ -67,9 +72,31 @@ DESCRIPTION:The Leipzig Chamber of Industry and Commerce offers a wide ran
 LOCATION:Room 260
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Session 2
+SUMMARY:Interoperable ecosystem for urban data tools - Live translation av
+ ailable in English. 
+DTSTART;TZID=Europe/Berlin:20260601T123000
+DTEND;TZID=Europe/Berlin:20260601T140000
+LOCATION:Room 270
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Digital data lifecycles: management\, archiving\, and AI-supported
+  indexing - Live translation available in English. 
 DTSTART;TZID=Europe/Berlin:20260601T143000
 DTEND;TZID=Europe/Berlin:20260601T160000
+DESCRIPTION:The session highlights the digital lifecycle of public informa
+ tion\, from its creation and legally compliant storage to long-term archiv
+ ing and reuse as open data. Using the practical example of the city admini
+ stration of Leipzig\, the current implementation status\, technical and le
+ gal framework conditions\, and strategic development goals of digital admi
+ nistration will be presented. In addition\, researchers will present new f
+ reely available data sets for the automatic recognition of handwritten Ger
+ man texts (published via Zenodo) and show how modern AI models contribute 
+ to the indexing of analog information in industrial and administrative con
+ texts. The overarching European framework is provided by the EOSC EDEN pro
+ ject\, which strengthens strategies for long-term digital archiving and da
+ ta availability. The session combines governance\, technology\, and practi
+ ce and invites interdisciplinary discussion on future infrastructures and 
+ usage perspectives.
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
@@ -105,6 +132,91 @@ DESCRIPTION:The Leipzig Chamber of Industry and Commerce offers a wide ran
  , and legal compliance. Together\, we will take a look at your plans and d
  iscuss your individual concerns.
 LOCATION:Room 260
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI-ready data – the foundation for real AI success
+DTSTART;TZID=Europe/Berlin:20260601T133000
+DTEND;TZID=Europe/Berlin:20260601T140000
+DESCRIPTION:AI-ready data forms the indispensable basis for successful AI 
+ initiatives\, as unclear data quality and a lack of transparency are among
+  the most common reasons for project failure. A structured 360° view of t
+ he data landscape reveals existing data treasures\, enables realistic use 
+ case evaluations\, and provides clarity about potential and gaps. The FAIR
+  criteria serve as a framework for sustainable and high-performance data q
+ uality. By focusing on data maturity measures\, which range from data inve
+ ntory and maturity assessment to the derivation of concrete measures\, the
+  path to a robust database is systematically outlined. Supplemented by pra
+ ctical experience and lessons learned\, we show how companies can optimize
+  their data landscape in a targeted manner and thus ensure the future viab
+ ility of data-driven AI projects.
+LOCATION:Room 270
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tomorrow's archiving – the data lifecycle in public administrati
+ on
+DTSTART;TZID=Europe/Berlin:20260601T143000
+DTEND;TZID=Europe/Berlin:20260601T150000
+DESCRIPTION:Public administration files and information go through a compl
+ ex life cycle that is regulated by law from data creation to deletion or a
+ rchiving and has been practiced for many years. But how do the legal requi
+ rements that form the basis of the digital life cycle translate to digital
+  administration? In this context\, the goal of electronic archiving is alw
+ ays to generate open data. During the event\, which will feature a fluid t
+ ransition between lectures and workshops\, the current status and developm
+ ent goals will be clearly illustrated using the example of Leipzig's city 
+ administration. The presentation will also explicitly address limiting fac
+ tors such as legal requirements\, capacities\, interface developments\, an
+ d expectations. The event will conclude with an interdisciplinary and open
+ -ended discussion about prospects\, expectations\, and visions for the fut
+ ure.
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Modern OCR methods for handwriting and labels in the German-speaki
+ ng context
+DTSTART;TZID=Europe/Berlin:20260601T150000
+DTEND;TZID=Europe/Berlin:20260601T153000
+DESCRIPTION:Handwritten texts are not only found in historical archives\, 
+ but also in modern industrial everyday life—for example\, on labels\, fo
+ rms\, or protocols. However\, their automatic recognition poses particular
+  challenges for data science\, especially in German-speaking countries\, w
+ here freely available\, diverse handwriting datasets are rare. In this pre
+ sentation\, we introduce two new\, publicly accessible datasets created fr
+ om 852 handwritten German pages. Both datasets have been published on Zeno
+ do and are freely available to researchers in linguistics\, computer scien
+ ce\, and related disciplines.\nThe presentation shows how OCR models can b
+ e successfully transferred to real-world applications. The contribution co
+ mbines open data\, modern AI methods\, and concrete industrial use cases
+ —and shows how handwriting recognition can advance both research and pra
+ ctice today.
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:EU Projekt EOSC EDEN
+DTSTART;TZID=Europe/Berlin:20260601T153000
+DTEND;TZID=Europe/Berlin:20260601T160000
+DESCRIPTION:TBA
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rethinking digital sovereignty: Solid for interoperable & decentra
+ lized data ecosystems!
+DTSTART;TZID=Europe/Berlin:20260601T123000
+DTEND;TZID=Europe/Berlin:20260601T130000
+LOCATION:Room 270
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Digital Twin Leipzig – From buzzword to digital tool
+DTSTART;TZID=Europe/Berlin:20260601T130000
+DTEND;TZID=Europe/Berlin:20260601T133000
+DESCRIPTION:The “Connected Urban Twins” funding project laid the found
+ ation for the Leipzig Digital Twin in 2021. With the project now complete\
+ , it is time for a brief summary. In this presentation\, GeodatenService L
+ eipzig shows how the buzzword “digital twin” has given rise to concret
+ e digital tools. We provide insights into the underlying technology and th
+ e associated processes\, demonstrate the practical relevance using selecte
+ d use cases\, and take a look at the next steps.
+LOCATION:Room 270
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Workshop on the Urban Stack: Sense – the small senses of the cit
@@ -212,6 +324,20 @@ DESCRIPTION:Posters and Stands
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:From idea to market: Your path to implementation – compact consu
+ lting at Data Week Leipzig (conducted by the Leipzig Chamber of Industry a
+ nd Commerce (IHK))
+DTSTART;TZID=Europe/Berlin:20260602T090000
+DTEND;TZID=Europe/Berlin:20260602T103000
+DESCRIPTION:The Leipzig Chamber of Industry and Commerce offers a wide ran
+ ge of support services and initial consultations on economic issues. As pa
+ rt of Data Week\, we invite you to join us for discussions on topics such 
+ as start-ups\, financing\, training and further education\, IP protection\
+ , and legal compliance. Together\, we will take a look at your plans and d
+ iscuss your individual concerns.
+LOCATION:Room 495
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:DIPAS Community Strategy Meeting\n(internal only)
 DTSTART;TZID=Europe/Berlin:20260602T110000
 DTEND;TZID=Europe/Berlin:20260602T123000
@@ -221,7 +347,8 @@ DESCRIPTION:As part of Leipzig Data Week\, the DIPAS user community is get
 LOCATION:Room 270
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Session 1
+SUMMARY:Technical implementation of open data across borders - Live transl
+ ation available in English.
 DTSTART;TZID=Europe/Berlin:20260602T110000
 DTEND;TZID=Europe/Berlin:20260602T123000
 LOCATION:Sitzungssaal
@@ -241,7 +368,7 @@ DESCRIPTION:The Leipzig Chamber of Industry and Commerce offers a wide ran
 LOCATION:Room 495
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Session 4
+SUMMARY:Copernicus Network
 DTSTART;TZID=Europe/Berlin:20260602T110000
 DTEND;TZID=Europe/Berlin:20260602T123000
 LOCATION:Ratsplenarsaal
@@ -296,30 +423,23 @@ DESCRIPTION:As part of Leipzig Data Week\, the DIPAS user community is get
 LOCATION:Room 270
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Session 3
+SUMMARY:Data for autonomous mobility in cities and smart traffic control -
+  Live translation available in English.
 DTSTART;TZID=Europe/Berlin:20260602T153000
 DTEND;TZID=Europe/Berlin:20260602T170000
 LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Digital design of Leipzig's urban space – diGuRaL (not public)
+DTSTART;TZID=Europe/Berlin:20260602T153000
+DTEND;TZID=Europe/Berlin:20260602T170000
+LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Opening - Live translation available in English. 
 DTSTART;TZID=Europe/Berlin:20260602T090000
 DTEND;TZID=Europe/Berlin:20260602T103000
 LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:From idea to market: Your path to implementation – compact consu
- lting at Data Week Leipzig (conducted by the Leipzig Chamber of Industry a
- nd Commerce (IHK))
-DTSTART;TZID=Europe/Berlin:20260602T090000
-DTEND;TZID=Europe/Berlin:20260602T103000
-DESCRIPTION:The Leipzig Chamber of Industry and Commerce offers a wide ran
- ge of support services and initial consultations on economic issues. As pa
- rt of Data Week\, we invite you to join us for discussions on topics such 
- as start-ups\, financing\, training and further education\, IP protection\
- , and legal compliance. Together\, we will take a look at your plans and d
- iscuss your individual concerns.
-LOCATION:Room 495
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Admission
@@ -333,6 +453,56 @@ DTSTART;TZID=Europe/Berlin:20260602T103000
 DTEND;TZID=Europe/Berlin:20260602T110000
 DESCRIPTION:Posters and Stands
 LOCATION:Wandelhalle
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Open Data - Data Catalog Management in RDF
+DTSTART;TZID=Europe/Berlin:20260602T110000
+DTEND;TZID=Europe/Berlin:20260602T113000
+DESCRIPTION:In their joint presentation\, Eric Engels and Norman Radtke hi
+ ghlight special features in the reuse of data catalogs from existing open 
+ data portals (e.g. filtering for Hessian content)\, the expanded presentat
+ ion of content\, the generation of statistical evaluations of data catalog
+ s\, and the preparation of their own data catalogs (e.g.\, a partial data 
+ catalog for each municipality). The focus of this work is strongly on data
+  homogenization and standardization\, for example\, to enable alignment at
+  the file level. The proposed solutions are implemented both within the CK
+ AN extension developed in Hesse itself and on the data of the knowledge gr
+ aph (RDF\, DCAT)\, using SPARQL update queries.
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Automated interfaces of the Open Data Portal: Experiences from Lei
+ pzig
+DTSTART;TZID=Europe/Berlin:20260602T113000
+DTEND;TZID=Europe/Berlin:20260602T120000
+DESCRIPTION:The city of Leipzig operates an open data portal that interact
+ s with other data catalogs: the Leipzig geodata catalog and the Saxony ope
+ n data portal. The presentation shows the practical implementation of the 
+ interfaces between these platforms and highlights the technical\, organiza
+ tional\, and semantic challenges. It will present the automated transfer o
+ f geodata from the geodata catalog to the City of Leipzig's open data port
+ al\, as well as the harvesting process of the Saxony state portal\, which 
+ regularly imports Leipzig data sets. Concrete examples will be used to ill
+ ustrate how metadata standards were harmonized and how the technical imple
+ mentation of the interfaces was realized. The article offers insights into
+  the improvements achieved\, key findings\, and perspectives for the furth
+ er development of a networked data infrastructure.
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Urban Data Management Bonn – A change project with many dimensio
+ ns
+DTSTART;TZID=Europe/Berlin:20260602T120000
+DTEND;TZID=Europe/Berlin:20260602T123000
+DESCRIPTION:Since 2020\, the federal city of Bonn has been actively pursui
+ ng a strategic approach to urban data. The presentation describes the late
+ st active developments in the areas of technical development of an urban d
+ ata platform based on the open source project Civitas Core\, the introduct
+ ion of a data strategy and governance\, and activities to increase data li
+ teracy in the administration and urban society. The aim of these activitie
+ s is to achieve comprehensive data excellence in the handling of urban dat
+ a.
+LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lunch break
@@ -738,9 +908,24 @@ DESCRIPTION:Spatially distributed work is now an integral part of working
 LOCATION:Room 369
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Klimainnovativ
+SUMMARY:Panel: Technically complicated and uncertain in terms of data prot
+ ection law\, but unbeatably effective. Why civil society needs to have mor
+ e confidence in AI. (Track: Between engagement and algorithms)
 DTSTART;TZID=Europe/Berlin:20260604T090000
 DTEND;TZID=Europe/Berlin:20260604T103000
+DESCRIPTION:Artificial intelligence (AI) is no longer a topic for the futu
+ re\; it is already changing how we live\, work\, and engage with society. 
+ But while companies and public authorities are increasingly using AI techn
+ ologies\, civil society often lags behind. Is it too complex\, too uncerta
+ in\, too many unanswered questions? Or is it a missed opportunity for grea
+ ter public welfare\, participation\, and innovation?\nAI offers enormous p
+ otential for civil society action\, from the automation of processes to da
+ ta-based campaigns and new forms of participation. At the same time\, pres
+ sing questions arise: How can data protection and ethics be guaranteed? Wh
+ ere are the limits and risks? And how can AI be designed in such a way tha
+ t it truly serves the common good?\nIn this discussion\, we want to highli
+ ght specific examples\, challenges\, and solutions and discuss together ho
+ w civil society can use AI responsibly and courageously.
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
@@ -759,12 +944,6 @@ DESCRIPTION:Spatially distributed work is now an integral part of working
 LOCATION:Room 369
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Klimainnovativ
-DTSTART;TZID=Europe/Berlin:20260604T110000
-DTEND;TZID=Europe/Berlin:20260604T123000
-LOCATION:Festsaal 
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Being there without being there: Working with telepresence robots 
  (separate registration required\; conducted by Chemnitz University of Tech
  nology)
@@ -780,12 +959,6 @@ DESCRIPTION:Spatially distributed work is now an integral part of working
 LOCATION:Room 369
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Klimainnovativ
-DTSTART;TZID=Europe/Berlin:20260604T133000
-DTEND;TZID=Europe/Berlin:20260604T150000
-LOCATION:Festsaal 
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Being there without being there: Working with telepresence robots 
  (separate registration required\; conducted by Chemnitz University of Tech
  nology)
@@ -799,12 +972,6 @@ DESCRIPTION:Spatially distributed work is now an integral part of working
  es with us. Together\, we will discuss the potential for different areas o
  f work.
 LOCATION:Room 369
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Klimainnovativ
-DTSTART;TZID=Europe/Berlin:20260604T153000
-DTEND;TZID=Europe/Berlin:20260604T170000
-LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Generative AI in practice: strategies\, tools\, and success factor
@@ -895,6 +1062,19 @@ DESCRIPTION:The EU AI Act imposes new regulatory requirements on companies
 LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Strengthening cybersecurity in associations (Track: Between commit
+ ment and algorithm)
+DTSTART;TZID=Europe/Berlin:20260604T110000
+DTEND;TZID=Europe/Berlin:20260604T123000
+LOCATION:Room 260
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AI and inclusion (Track: Between engagement and algorithms)
+DTSTART;TZID=Europe/Berlin:20260604T110000
+DTEND;TZID=Europe/Berlin:20260604T123000
+LOCATION:Festsaal 
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Together instead of alone: How companies motivate their employees 
  and guide them into the future of AI with strong leadership (conducted by 
  Digital Impact Labs Leipzig GmbH)
@@ -912,6 +1092,38 @@ DESCRIPTION:The introduction of AI is above all a process of change for pe
 LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:AI in participation processes (Track: Between engagement and algor
+ ithm)
+DTSTART;TZID=Europe/Berlin:20260604T133000
+DTEND;TZID=Europe/Berlin:20260604T150000
+DESCRIPTION:In this workshop\, you will learn how artificial intelligence 
+ (AI) is already changing citizen participation today and what opportunitie
+ s the future could hold. We will provide real insights into the Go Vocal p
+ latform and demonstrate live how local authorities are already leveraging 
+ the benefits of AI. There will also be plenty of time and space for open d
+ iscussion and questions. (Jelena Gregorius\, Go Vocal)
+LOCATION:Festsaal 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Using organizational knowledge in a participatory and digital way 
+ with an organizational wiki - Part 1 (Track: Between engagement and algori
+ thm)
+DTSTART;TZID=Europe/Berlin:20260604T133000
+DTEND;TZID=Europe/Berlin:20260604T150000
+DESCRIPTION:Using organizational knowledge with an organizational wiki: Th
+ is workshop focuses on the use of an organizational wiki for recording\, r
+ evising\, and making work-related knowledge available across an organizati
+ on that is oriented toward the common good. KINDERVEREINIGUNG Leipzig shar
+ es its experience and knowledge regarding the introduction and use of a wi
+ ki in internal work processes. Technical\, organizational\, and human aspe
+ cts are taken into account. Challenges and possible solutions for successf
+ ully dealing with them are presented.\n\nIn the second part\, participants
+  have the opportunity to develop a wiki concept for their own organization
+  in an interactive and methodically guided manner and to reflect on their 
+ designs with the other participants.
+LOCATION:Room 260
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Together instead of alone: How companies motivate their employees 
  and guide them into the future of AI with strong leadership (conducted by 
  Digital Impact Labs Leipzig GmbH)
@@ -927,6 +1139,13 @@ DESCRIPTION:The introduction of AI is above all a process of change for pe
  I in everyday work in the long term. The workshop is primarily aimed at ma
  nagers and HR professionals.
 LOCATION:Room 259
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Responsible AI in civil society (Track: Between engagement and alg
+ orithm)
+DTSTART;TZID=Europe/Berlin:20260604T153000
+DTEND;TZID=Europe/Berlin:20260604T170000
+LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Admission
