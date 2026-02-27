@@ -117,6 +117,18 @@ BEGIN:VEVENT
 SUMMARY:Climate Innovation Community Network Meeting
 DTSTART;TZID=Europe/Berlin:20260601T161000
 DTEND;TZID=Europe/Berlin:20260601T174000
+DESCRIPTION:The Klimainnovativ community brings together companies from a 
+ wide range of industries with representatives from science and administrat
+ ion. They are united by a common goal: to actively shape Leipzig's path to
+  climate neutrality and smart city status.\n\nCreated as part of the EU Mi
+ ssion 100 Climate Neutral and Smart Cities\, the community offers a vibran
+ t platform for strengthening resilience and developing sustainable busines
+ s models. Here\, ideas become projects\, lone warriors become strong netwo
+ rks\, and visions become concrete solutions.\n\nIn addition to technical i
+ nput and news from the administration\, you can expect to exchange ideas w
+ ith other committed companies. The meeting offers an opportunity to networ
+ k and gain inspiration for the next steps on the path to climate neutralit
+ y.
 LOCATION:Festsaal 
 END:VEVENT
 BEGIN:VEVENT
@@ -386,7 +398,7 @@ DTEND;TZID=Europe/Berlin:20260602T150000
 LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Session 2
+SUMMARY:Corporate Digital Responsibility
 DTSTART;TZID=Europe/Berlin:20260602T133000
 DTEND;TZID=Europe/Berlin:20260602T150000
 LOCATION:Sitzungssaal
@@ -477,22 +489,9 @@ DESCRIPTION:In their joint presentation\, Eric Engels and Norman Radtke hi
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Automated interfaces of the Open Data Portal: Experiences from Lei
- pzig
+SUMMARY:TBA
 DTSTART;TZID=Europe/Berlin:20260602T113000
 DTEND;TZID=Europe/Berlin:20260602T120000
-DESCRIPTION:The city of Leipzig operates an open data portal that interact
- s with other data catalogs: the Leipzig geodata catalog and the Saxony ope
- n data portal. The presentation shows the practical implementation of the 
- interfaces between these platforms and highlights the technical\, organiza
- tional\, and semantic challenges. It will present the automated transfer o
- f geodata from the geodata catalog to the City of Leipzig's open data port
- al\, as well as the harvesting process of the Saxony state portal\, which 
- regularly imports Leipzig data sets. Concrete examples will be used to ill
- ustrate how metadata standards were harmonized and how the technical imple
- mentation of the interfaces was realized. The article offers insights into
-  the improvements achieved\, key findings\, and perspectives for the furth
- er development of a networked data infrastructure.
 LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
@@ -525,6 +524,23 @@ DESCRIPTION:Posters and Stands
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Autonomous shuttles: Data basis for intelligent on-demand mobility
+DTSTART;TZID=Europe/Berlin:20260602T153000
+DTEND;TZID=Europe/Berlin:20260602T160000
+DESCRIPTION:Autonomous shuttles are key technologies for the mobility of t
+ he future. But what data do they need to offer on-demand services efficien
+ tly and safely? Based on many years of involvement in the ABSOLUT II proje
+ ct\, this presentation provides practical insights into the data requireme
+ nts and architectures of autonomous shuttle infrastructures.
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIAMO
+DTSTART;TZID=Europe/Berlin:20260602T160000
+DTEND;TZID=Europe/Berlin:20260602T163000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Building RDF Knowledge Graphs with eccenca Corporate Memory (condu
  cted by eccenca GmbH)
 DTSTART;TZID=Europe/Berlin:20260602T110000
@@ -539,6 +555,18 @@ DESCRIPTION:Hands-on training: The journey of creating your own knowledge
 LOCATION:Room 377
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:DIPAS – Digital participation online and on site
+DTSTART;TZID=Europe/Berlin:20260602T133000
+DTEND;TZID=Europe/Berlin:20260602T150000
+DESCRIPTION:Hands-on: Creation of your own DIPAS participation procedures 
+ via the Drupal backend. The focus is on the technical design of participat
+ ion procedures and their implementation in DIPAS\, as well as the creation
+  of your own DIPAS_story (geodata storytelling).\n\n- Introduction to DIPA
+ S by the speakers\n- Design and implementation of a participation process 
+ (project admin)\n- Creation of a DIPAS_story
+LOCATION:Room 270
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Young people and AI – What they know and how they use it (conduc
  ted by Leipzig City Libraries)
 DTSTART;TZID=Europe/Berlin:20260602T153000
@@ -550,6 +578,13 @@ DESCRIPTION:In this workshop\, we take a look at how AI is used by young p
  discuss how the exchange with young people has opened up new perspectives 
  for us and what challenges and opportunities arise when dealing with AI.
 LOCATION:Room 259
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:From satellite images to administrative decisions: Effective use o
+ f geospatial and remote sensing data in local government
+DTSTART;TZID=Europe/Berlin:20260602T110000
+DTEND;TZID=Europe/Berlin:20260602T123000
+LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Workshop on AIAMO – Artificial Intelligence And Mobility in Leip
@@ -584,18 +619,6 @@ DESCRIPTION:Modern AI-driven chat apps such as ChatGPT\, Gemini\, Claude a
  e AI and will be followed by a practical part. It is recommended that you 
  bring your own laptop to take part.
 LOCATION:Room 377
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DIPAS – Digital participation online and on site
-DTSTART;TZID=Europe/Berlin:20260602T133000
-DTEND;TZID=Europe/Berlin:20260602T150000
-DESCRIPTION:Hands-on: Creation of your own DIPAS participation procedures 
- via the Drupal backend. The focus is on the technical design of participat
- ion procedures and their implementation in DIPAS\, as well as the creation
-  of your own DIPAS_story (geodata storytelling).\n\n- Introduction to DIPA
- S by the speakers\n- Design and implementation of a participation process 
- (project admin)\n- Creation of a DIPAS_story
-LOCATION:Room 270
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Admission
