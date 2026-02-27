@@ -1803,6 +1803,7 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/performer> <https://dataweek.de/#MaxMooij> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/startTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-8> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -4370,6 +4371,12 @@
 <https://dataweek.de/#MattisHartwig> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#MattisHartwig> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Dr. Mattis Hartwig gründete während seines Studiums im Bereich Wirtschaftsinformatik die Softwareentwicklungsfirma singularIT GmbH. Als Geschäftsführer von singularIT leitet er ein Team von über 50 Mitarbeiter:innen verteilt auf die zwei Standorte Lübeck und Leipzig. Die singularIT bietet Individualsoftwareentwicklung in den Bereichen Web, Cloud, Mobile und Data Science an und konnte bereits zahlreiche Projekte für den öffentlichen Sektor erfolgreich umsetzen. Dr. Mattis Hartwig schrieb seine Dissertation an der Universität Lübeck im Bereich Künstliche Intelligenz. Parallel zu seiner Tätigkeit als Geschäftsführer ist er weiterhin forschend am Deutschen Forschungszentrum für Künstliche Intelligenz tätig, wobei Datensynthese eins der Fokusthemen darstellt."@de .
 <https://dataweek.de/#MattisHartwig> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Mattis Hartwig founded the software development company singularIT GmbH during his studies in business informatics. As Managing Director of singularIT, he leads a team of over 50 employees spread across two locations in Lübeck and Leipzig. singularIT offers customised software development in the areas of web, cloud, mobile and data science and has already successfully implemented numerous projects for the public sector. Dr Mattis Hartwig wrote his dissertation at the University of Lübeck in the field of artificial intelligence. In parallel to his work as Managing Director, he continues to conduct research at the German Research Centre for Artificial Intelligence, where data synthesis is one of the focus topics."@en .
+<https://dataweek.de/#MaxMooij> <http://purl.org/dc/terms/description> "International sales manager"@de .
+<https://dataweek.de/#MaxMooij> <http://purl.org/dc/terms/description> "International sales manager"@en .
+<https://dataweek.de/#MaxMooij> <http://schema.org/affiliation> <https://mobilitylabel.com/> .
+<https://dataweek.de/#MaxMooij> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MaxMooij> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MaxMooij> <http://xmlns.com/foaf/0.1/name> "Max Mooij" .
 <https://dataweek.de/#MaxSchulte> <http://schema.org/affiliation> <https://www.init.de/> .
 <https://dataweek.de/#MaxSchulte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MaxSchulte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -5703,6 +5710,11 @@
 <https://mobility-dataspace.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "Mobility Data Space"@de .
 <https://mobility-dataspace.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "Mobility Data Space"@en .
 <https://mobility-dataspace.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://mobility-dataspace.eu/> .
+<https://mobilitylabel.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://mobilitylabel.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://mobilitylabel.com/> <http://www.w3.org/2000/01/rdf-schema#label> "MobilityLabel BV"@de .
+<https://mobilitylabel.com/> <http://www.w3.org/2000/01/rdf-schema#label> "MobilityLabel BV"@en .
+<https://mobilitylabel.com/> <http://xmlns.com/foaf/0.1/homepage> <https://mobilitylabel.com/> .
 <https://mundraub.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://mundraub.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://mundraub.org/> <http://www.w3.org/2000/01/rdf-schema#label> "mundraub.org"@de .
