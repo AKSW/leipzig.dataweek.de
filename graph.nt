@@ -1435,11 +1435,12 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-15> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-16> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-16> <http://purl.org/dc/terms/title> "Session 2"@de .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-16> <http://purl.org/dc/terms/title> "Session 2"@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-16> <http://purl.org/dc/terms/title> "Corporate Digital Responsibility"@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-16> <http://purl.org/dc/terms/title> "Digitale Verantwortung von Unternehmen"@de .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-16> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-16> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-16> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-16> <http://schema.org/performer> <https://dataweek.de/#BeateGinzel> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-16> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-17> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1490,6 +1491,9 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-20> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-20> <http://schema.org/performer> <https://dataweek.de/#LindaGernitz> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-20> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-20> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-20> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-44> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-20> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-21> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-21> <http://purl.org/dc/terms/title> "Digital design of Leipzig's urban space – diGuRaL (not public)"@en .
@@ -1779,6 +1783,30 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/startTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://purl.org/dc/terms/description> "Autonome Shuttles sind Schlüsseltechnologien für die Mobilität der Zukunft. Doch welche Daten benötigen sie, um On-Demand-Dienste effizient und sicher anzubieten? Aufgebaut auf der langjährigen Mitwirkung im Projekt ABSOLUT II vermittelt der Vortrag praxisnahe Einblicke in die Datenanforderungen und Architekturen von autonomen Shuttle-Infrastrukturen."@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://purl.org/dc/terms/description> "Autonomous shuttles are key technologies for the mobility of the future. But what data do they need to offer on-demand services efficiently and safely? Based on many years of involvement in the ABSOLUT II project, this presentation provides practical insights into the data requirements and architectures of autonomous shuttle infrastructures."@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://purl.org/dc/terms/title> "Autonome Shuttles: Datenbasis für intelligente On-Demand-Mobilität"@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://purl.org/dc/terms/title> "Autonomous shuttles: Data basis for intelligent on-demand mobility"@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://schema.org/performer> <https://dataweek.de/#RuslanHrushchak> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-44> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-44> <http://purl.org/dc/terms/title> "AIAMO"@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-44> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-44> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-44> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-44> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/startTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-8> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-8> <http://purl.org/dc/terms/title> "Rethinking digital sovereignty: Solid for interoperable & decentralized data ecosystems!"@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-8> <http://purl.org/dc/terms/title> "TBA"@de .
