@@ -345,12 +345,6 @@
 <https://2025.dataweek.de/program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2025.dataweek.de/program> <http://www.w3.org/2000/01/rdf-schema#label> "Program"@en .
 <https://2025.dataweek.de/program> <http://www.w3.org/2000/01/rdf-schema#label> "Programm"@de .
-<https://2025.dataweek.de/tickets> <http://purl.org/dc/terms/description> "Tagestickets k\u00F6nnen hier erworben werden: [https://www.conftool.net/dataweek2025/](https://www.conftool.net/dataweek2025/).\n\nSie m\u00FCssen ein Ticket kaufen, um an der Data Week Leipzig teilnehmen zu k\u00F6nnen. Studierende k\u00F6nnen ihre Studienbescheinigung im Ticketshop hochladen und erhalten nach Pr\u00FCfung ein verg\u00FCnstigtes Ticket. Wir stellen ein begrenztes Kontigent bereit.\n\nWir freuen uns auf Ihre Teilnahme!"@de .
-<https://2025.dataweek.de/tickets> <http://purl.org/dc/terms/description> "Tickets can be purchased here: [https://www.conftool.net/dataweek2025/](https://www.conftool.net/dataweek2025/).\n\nYou must purchase a ticket to take part in Data Week Leipzig. Students can upload their certificate of study in the ticket shop and will receive a discounted ticket after verification. We provide a limited number of tickets.\n\nWe look forward to your participation!"@en .
-<https://2025.dataweek.de/tickets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
-<https://2025.dataweek.de/tickets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://2025.dataweek.de/tickets> <http://www.w3.org/2000/01/rdf-schema#label> "Tickets"@de .
-<https://2025.dataweek.de/tickets> <http://www.w3.org/2000/01/rdf-schema#label> "Tickets"@en .
 <https://2026.dataweek.de/2026-06-01/> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/2026-06-01/> <http://purl.org/dc/terms/description> "\nDer Auftakt der Data Week Leipzig widmet sich der digitalen Stadt von morgen mit niedrigschwelligen Open-Data-L\u00F6sungen, zukunftsf\u00E4higer Datenarchivierung, verantwortungsvoller KI-Governance und dem Netzwerken rund um klimainnovative Ans\u00E4tze.\n"@de .
 <https://2026.dataweek.de/2026-06-01/> <http://purl.org/dc/terms/description> "\nThe kick-off of Data Week Leipzig is dedicated to the digital city of tomorrow with low-threshold open data solutions, sustainable data archiving, responsible AI governance, and networking around climate-innovative approaches.\n    "@en .
@@ -687,10 +681,11 @@
 <https://2026.dataweek.de/FooterMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2026.dataweek.de/cfp> .
 <https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2026.dataweek.de/program> .
-<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2026.dataweek.de/sponsoring> .
-<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2026.dataweek.de/tracks> .
-<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2026.dataweek.de/venue/> .
-<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2026.dataweek.de/news> .
+<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2026.dataweek.de/tickets> .
+<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2026.dataweek.de/sponsoring> .
+<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2026.dataweek.de/tracks> .
+<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2026.dataweek.de/venue/> .
+<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://2026.dataweek.de/news> .
 <https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2026.dataweek.de/MainMenu> <http://xmlns.com/foaf/0.1/primaryTopic> <https://2026.dataweek.de/> .
 <https://2026.dataweek.de/News1> <http://purl.org/dc/terms/date> "2025-08-25T07:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
@@ -1886,6 +1881,12 @@
 <https://2026.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://dataweek.de/#LucySonnet> .
 <https://2026.dataweek.de/team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam"@de .
 <https://2026.dataweek.de/team> <http://www.w3.org/2000/01/rdf-schema#label> "Organization Team"@en .
+<https://2026.dataweek.de/tickets> <http://purl.org/dc/terms/description> "Tages- und Wochentickets k\u00F6nnen hier erworben werden: TBA\n\nSie m\u00FCssen ein Ticket kaufen, um an der Data Week Leipzig teilnehmen zu k\u00F6nnen. Studierende k\u00F6nnen ihre Studienbescheinigung im Ticketshop hochladen und erhalten nach Pr\u00FCfung ein verg\u00FCnstigtes Ticket. Wir stellen ein begrenztes Kontigent bereit.\n\nWir freuen uns auf Ihre Teilnahme!"@de .
+<https://2026.dataweek.de/tickets> <http://purl.org/dc/terms/description> "Tickets can be purchased here: TBA\n\nYou must purchase a ticket to take part in Data Week Leipzig. Students can upload their certificate of study in the ticket shop and will receive a discounted ticket after verification. We provide a limited number of tickets.\n\nWe look forward to your participation!"@en .
+<https://2026.dataweek.de/tickets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
+<https://2026.dataweek.de/tickets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://2026.dataweek.de/tickets> <http://www.w3.org/2000/01/rdf-schema#label> "Tickets"@de .
+<https://2026.dataweek.de/tickets> <http://www.w3.org/2000/01/rdf-schema#label> "Tickets"@en .
 <https://2026.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2026.dataweek.de/tracks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://2026.dataweek.de/tracks> <http://www.w3.org/2000/01/rdf-schema#label> "Tracks"@de .
