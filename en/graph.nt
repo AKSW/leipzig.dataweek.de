@@ -337,14 +337,6 @@
 <https://2025.dataweek.de/lswt2026/workshops/> <https://dataweek.de/#menuResource> <https://2026.dataweek.de/lswt2026/> .
 <https://2025.dataweek.de/lswt2026/workshops/> <https://dataweek.de/#resourceUri> <https://2026.dataweek.de/lswt2026/> .
 <https://2025.dataweek.de/lswt2026/workshops/> <https://dataweek.de/#viewFilter> "str(?date) = \"2026-06-03\" && ?location = <https://dataweek.de/venue#Room259> " .
-<https://2025.dataweek.de/program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2026.dataweek.de/2026-06-01/> .
-<https://2025.dataweek.de/program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2026.dataweek.de/2026-06-02/> .
-<https://2025.dataweek.de/program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2026.dataweek.de/2026-06-03/> .
-<https://2025.dataweek.de/program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2026.dataweek.de/2026-06-04/> .
-<https://2025.dataweek.de/program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2026.dataweek.de/2026-06-05/> .
-<https://2025.dataweek.de/program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
-<https://2025.dataweek.de/program> <http://www.w3.org/2000/01/rdf-schema#label> "Program"@en .
-<https://2025.dataweek.de/program> <http://www.w3.org/2000/01/rdf-schema#label> "Programm"@de .
 <https://2026.dataweek.de/2026-06-01/> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/2026-06-01/> <http://purl.org/dc/terms/description> "\nDer Auftakt der Data Week Leipzig widmet sich der digitalen Stadt von morgen mit niedrigschwelligen Open-Data-L\u00F6sungen, zukunftsf\u00E4higer Datenarchivierung, verantwortungsvoller KI-Governance und dem Netzwerken rund um klimainnovative Ans\u00E4tze.\n"@de .
 <https://2026.dataweek.de/2026-06-01/> <http://purl.org/dc/terms/description> "\nThe kick-off of Data Week Leipzig is dedicated to the digital city of tomorrow with low-threshold open data solutions, sustainable data archiving, responsible AI governance, and networking around climate-innovative approaches.\n    "@en .
@@ -595,7 +587,12 @@
 <https://2026.dataweek.de/2026-06-05/> <http://schema.org/abstract> "Der Freitag bildet mit dem Offenen Lab Tag den Abschluss der Data Week Leipzig und \u00F6ffnet den Blick \u00FCber das Konferenzprogramm hinaus, indem offene Labs in ganz Leipzig zum Entdecken, Mitmachen und Vernetzen einladen."@de .
 <https://2026.dataweek.de/2026-06-05/> <http://schema.org/abstract> "Friday marks the end of Data Week Leipzig with Open Lab Day, offering a glimpse beyond the conference program as open labs throughout Leipzig invite visitors to explore, participate, and network."@en .
 <https://2026.dataweek.de/2026-06-05/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2026.dataweek.de/2026-06-05/> .
-<https://2026.dataweek.de/2026-06-05/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2026.dataweek.de/2026-06-05/Sitzungssaal> .
+<https://2026.dataweek.de/2026-06-05/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2026.dataweek.de/2026-06-05/SmartCityLab> .
+<https://2026.dataweek.de/2026-06-05/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2026.dataweek.de/2026-06-05/SecurityLab> .
+<https://2026.dataweek.de/2026-06-05/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2026.dataweek.de/2026-06-05/KMI> .
+<https://2026.dataweek.de/2026-06-05/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2026.dataweek.de/2026-06-05/R42> .
+<https://2026.dataweek.de/2026-06-05/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2026.dataweek.de/2026-06-05/LogisticsLivingLab> .
+<https://2026.dataweek.de/2026-06-05/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://2026.dataweek.de/2026-06-05/LivingLab> .
 <https://2026.dataweek.de/2026-06-05/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2026.dataweek.de/2026-06-05/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2026.dataweek.de/2026-06-05/> <http://www.w3.org/2000/01/rdf-schema#label> "Freitag"@de .
@@ -605,13 +602,48 @@
 <https://2026.dataweek.de/2026-06-05/> <https://dataweek.de/#resourceUri> <https://2026.dataweek.de/> .
 <https://2026.dataweek.de/2026-06-05/> <https://dataweek.de/#viewFilter> "str(?date) = \"2026-06-05\"" .
 <https://2026.dataweek.de/2026-06-05/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Table> .
-<https://2026.dataweek.de/2026-06-05/Sitzungssaal> <http://purl.org/dc/terms/date> "2026-06-05"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/2026-06-05/Sitzungssaal> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2026.dataweek.de/2026-06-05/Sitzungssaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
-<https://2026.dataweek.de/2026-06-05/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Sitzungssaal"@de .
-<https://2026.dataweek.de/2026-06-05/Sitzungssaal> <http://www.w3.org/2000/01/rdf-schema#label> "Sitzungssaal"@en .
-<https://2026.dataweek.de/2026-06-05/Sitzungssaal> <https://dataweek.de/#resourceUri> <https://2026.dataweek.de/> .
-<https://2026.dataweek.de/2026-06-05/Sitzungssaal> <https://dataweek.de/#viewFilter> "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#Sitzungssaal>" .
+<https://2026.dataweek.de/2026-06-05/KMI> <http://purl.org/dc/terms/date> "2026-06-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/2026-06-05/KMI> <http://schema.org/location> <https://dataweek.de/venue#KMI> .
+<https://2026.dataweek.de/2026-06-05/KMI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2026.dataweek.de/2026-06-05/KMI> <http://www.w3.org/2000/01/rdf-schema#label> "KMI Demo-Raum"@de .
+<https://2026.dataweek.de/2026-06-05/KMI> <http://www.w3.org/2000/01/rdf-schema#label> "KMI Demo-Raum"@en .
+<https://2026.dataweek.de/2026-06-05/KMI> <https://dataweek.de/#resourceUri> <https://2026.dataweek.de/> .
+<https://2026.dataweek.de/2026-06-05/KMI> <https://dataweek.de/#viewFilter> "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#KMI>" .
+<https://2026.dataweek.de/2026-06-05/LivingLab> <http://purl.org/dc/terms/date> "2026-06-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/2026-06-05/LivingLab> <http://schema.org/location> <https://dataweek.de/venue#LivingLab> .
+<https://2026.dataweek.de/2026-06-05/LivingLab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2026.dataweek.de/2026-06-05/LivingLab> <http://www.w3.org/2000/01/rdf-schema#label> "LivingLab"@de .
+<https://2026.dataweek.de/2026-06-05/LivingLab> <http://www.w3.org/2000/01/rdf-schema#label> "LivingLab"@en .
+<https://2026.dataweek.de/2026-06-05/LivingLab> <https://dataweek.de/#resourceUri> <https://2026.dataweek.de/> .
+<https://2026.dataweek.de/2026-06-05/LivingLab> <https://dataweek.de/#viewFilter> "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#LivingLab>" .
+<https://2026.dataweek.de/2026-06-05/LogisticsLivingLab> <http://purl.org/dc/terms/date> "2026-06-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/2026-06-05/LogisticsLivingLab> <http://schema.org/location> <https://dataweek.de/venue#LogisticsLivingLab> .
+<https://2026.dataweek.de/2026-06-05/LogisticsLivingLab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2026.dataweek.de/2026-06-05/LogisticsLivingLab> <http://www.w3.org/2000/01/rdf-schema#label> "Logistics Living Lab"@de .
+<https://2026.dataweek.de/2026-06-05/LogisticsLivingLab> <http://www.w3.org/2000/01/rdf-schema#label> "Logistics Living Lab"@en .
+<https://2026.dataweek.de/2026-06-05/LogisticsLivingLab> <https://dataweek.de/#resourceUri> <https://2026.dataweek.de/> .
+<https://2026.dataweek.de/2026-06-05/LogisticsLivingLab> <https://dataweek.de/#viewFilter> "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#LogisticsLivingLab>" .
+<https://2026.dataweek.de/2026-06-05/R42> <http://purl.org/dc/terms/date> "2026-06-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/2026-06-05/R42> <http://schema.org/location> <https://dataweek.de/venue#R42> .
+<https://2026.dataweek.de/2026-06-05/R42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2026.dataweek.de/2026-06-05/R42> <http://www.w3.org/2000/01/rdf-schema#label> "R42"@de .
+<https://2026.dataweek.de/2026-06-05/R42> <http://www.w3.org/2000/01/rdf-schema#label> "R42"@en .
+<https://2026.dataweek.de/2026-06-05/R42> <https://dataweek.de/#resourceUri> <https://2026.dataweek.de/> .
+<https://2026.dataweek.de/2026-06-05/R42> <https://dataweek.de/#viewFilter> "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#R42>" .
+<https://2026.dataweek.de/2026-06-05/SecurityLab> <http://purl.org/dc/terms/date> "2026-06-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/2026-06-05/SecurityLab> <http://schema.org/location> <https://dataweek.de/venue#SecurityLab> .
+<https://2026.dataweek.de/2026-06-05/SecurityLab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2026.dataweek.de/2026-06-05/SecurityLab> <http://www.w3.org/2000/01/rdf-schema#label> "Security Lab"@de .
+<https://2026.dataweek.de/2026-06-05/SecurityLab> <http://www.w3.org/2000/01/rdf-schema#label> "Security Lab"@en .
+<https://2026.dataweek.de/2026-06-05/SecurityLab> <https://dataweek.de/#resourceUri> <https://2026.dataweek.de/> .
+<https://2026.dataweek.de/2026-06-05/SecurityLab> <https://dataweek.de/#viewFilter> "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#SecurityLab>" .
+<https://2026.dataweek.de/2026-06-05/SmartCityLab> <http://purl.org/dc/terms/date> "2026-06-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/2026-06-05/SmartCityLab> <http://schema.org/location> <https://dataweek.de/venue#SmartCityLab> .
+<https://2026.dataweek.de/2026-06-05/SmartCityLab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2026.dataweek.de/2026-06-05/SmartCityLab> <http://www.w3.org/2000/01/rdf-schema#label> "Smart City Lab"@de .
+<https://2026.dataweek.de/2026-06-05/SmartCityLab> <http://www.w3.org/2000/01/rdf-schema#label> "Smart City Lab"@en .
+<https://2026.dataweek.de/2026-06-05/SmartCityLab> <https://dataweek.de/#resourceUri> <https://2026.dataweek.de/> .
+<https://2026.dataweek.de/2026-06-05/SmartCityLab> <https://dataweek.de/#viewFilter> "str(?date) = \"2026-06-05\" && ?location = <https://dataweek.de/venue#SmartCityLab>" .
 <https://2026.dataweek.de/> <http://purl.org/dc/terms/date> "1.6.\u20135.6.2026"@de .
 <https://2026.dataweek.de/> <http://purl.org/dc/terms/date> "June 1st to 5th, 2026"@en .
 <https://2026.dataweek.de/> <http://rdfs.org/ns/void#rootResource> <https://2026.dataweek.de/MainMenu> .
@@ -629,6 +661,7 @@
 <https://2026.dataweek.de/> <http://schema.org/startDate> "2025-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/> <http://schema.org/subEvent> <https://2026.dataweek.de/community/> .
 <https://2026.dataweek.de/> <http://schema.org/subEvent> <https://2026.dataweek.de/kmi-26/> .
+<https://2026.dataweek.de/> <http://schema.org/subEvent> <https://2026.dataweek.de/lab/> .
 <https://2026.dataweek.de/> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/> .
 <https://2026.dataweek.de/> <http://schema.org/subEvent> <https://2026.dataweek.de/npo/> .
 <https://2026.dataweek.de/> <http://schema.org/subEvent> <https://2026.dataweek.de/robot/> .
@@ -722,6 +755,7 @@
 <https://2026.dataweek.de/Partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2026.dataweek.de/Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In Kooperation mit"@de .
 <https://2026.dataweek.de/Partner> <http://www.w3.org/2000/01/rdf-schema#label> "In cooperation with"@en .
+<https://2026.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://graphwise.ai/> .
 <https://2026.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://www.eccenca.com/> .
 <https://2026.dataweek.de/Sponsors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
 <https://2026.dataweek.de/Sponsors> <http://www.w3.org/2000/01/rdf-schema#label> "Sponsoren"@de .
@@ -985,40 +1019,6 @@
 <https://2026.dataweek.de/break/2026-06-04/15:00> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/break/2026-06-04/15:00> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coffee break"@en .
 <https://2026.dataweek.de/break/2026-06-04/15:00> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pause"@de .
-<https://2026.dataweek.de/break/2026-06-05/08:30> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
-<https://2026.dataweek.de/break/2026-06-05/08:30> <http://purl.org/dc/terms/date> "2026-06-05"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/break/2026-06-05/08:30> <http://purl.org/dc/terms/title> "Admission"@en .
-<https://2026.dataweek.de/break/2026-06-05/08:30> <http://purl.org/dc/terms/title> "Einlass"@de .
-<https://2026.dataweek.de/break/2026-06-05/08:30> <http://schema.org/endTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/break/2026-06-05/08:30> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
-<https://2026.dataweek.de/break/2026-06-05/08:30> <http://schema.org/startTime> "08:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/break/2026-06-05/08:30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2026.dataweek.de/break/2026-06-05/08:30> <http://www.w3.org/2004/02/skos/core#prefLabel> "Admission"@en .
-<https://2026.dataweek.de/break/2026-06-05/08:30> <http://www.w3.org/2004/02/skos/core#prefLabel> "Einlass"@de .
-<https://2026.dataweek.de/break/2026-06-05/10:30> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
-<https://2026.dataweek.de/break/2026-06-05/10:30> <http://purl.org/dc/terms/date> "2026-06-05"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/break/2026-06-05/10:30> <http://purl.org/dc/terms/description> "Poster und Stände"@de .
-<https://2026.dataweek.de/break/2026-06-05/10:30> <http://purl.org/dc/terms/description> "Posters and Stands"@en .
-<https://2026.dataweek.de/break/2026-06-05/10:30> <http://purl.org/dc/terms/title> "Coffee break"@en .
-<https://2026.dataweek.de/break/2026-06-05/10:30> <http://purl.org/dc/terms/title> "Pause"@de .
-<https://2026.dataweek.de/break/2026-06-05/10:30> <http://schema.org/endTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/break/2026-06-05/10:30> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
-<https://2026.dataweek.de/break/2026-06-05/10:30> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/break/2026-06-05/10:30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2026.dataweek.de/break/2026-06-05/10:30> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coffee break"@en .
-<https://2026.dataweek.de/break/2026-06-05/10:30> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pause"@de .
-<https://2026.dataweek.de/break/2026-06-05/12:30> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
-<https://2026.dataweek.de/break/2026-06-05/12:30> <http://purl.org/dc/terms/date> "2026-06-05"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/break/2026-06-05/12:30> <http://purl.org/dc/terms/description> "Poster und Stände"@de .
-<https://2026.dataweek.de/break/2026-06-05/12:30> <http://purl.org/dc/terms/description> "Posters and Stands"@en .
-<https://2026.dataweek.de/break/2026-06-05/12:30> <http://purl.org/dc/terms/title> "Lunch break"@en .
-<https://2026.dataweek.de/break/2026-06-05/12:30> <http://purl.org/dc/terms/title> "Mittagessen"@de .
-<https://2026.dataweek.de/break/2026-06-05/12:30> <http://schema.org/endTime> "13:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/break/2026-06-05/12:30> <http://schema.org/location> <https://dataweek.de/venue#Wandelhalle> .
-<https://2026.dataweek.de/break/2026-06-05/12:30> <http://schema.org/startTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/break/2026-06-05/12:30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2026.dataweek.de/break/2026-06-05/12:30> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lunch break"@en .
-<https://2026.dataweek.de/break/2026-06-05/12:30> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mittagessen"@de .
 <https://2026.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-01/09:15> .
 <https://2026.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-01/11:30> .
 <https://2026.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-01/14:00> .
@@ -1040,9 +1040,6 @@
 <https://2026.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-04/10:30> .
 <https://2026.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-04/12:30> .
 <https://2026.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-04/15:00> .
-<https://2026.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-05/08:30> .
-<https://2026.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-05/10:30> .
-<https://2026.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-05/12:30> .
 <https://2026.dataweek.de/breaks/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/breaks/> <https://dataweek.de/#show> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://2026.dataweek.de/cfp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
@@ -1173,6 +1170,108 @@
 <https://2026.dataweek.de/kmi-26/> <http://www.w3.org/2000/01/rdf-schema#label> "KMI-Transfertag"@de .
 <https://2026.dataweek.de/kmi-26/> <https://dataweek.de/#show> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://2026.dataweek.de/kmi-26/> <https://dataweek.de/#slug> "KMI" .
+<https://2026.dataweek.de/lab/#programm-session-1> <http://purl.org/dc/terms/date> "2026-06-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/lab/#programm-session-1> <http://purl.org/dc/terms/description> "Das Smart City Lab befindet sich in der Magazingasse 3 in Leipzig. "@de .
+<https://2026.dataweek.de/lab/#programm-session-1> <http://purl.org/dc/terms/title> "Führung im Smart City Lab"@de .
+<https://2026.dataweek.de/lab/#programm-session-1> <http://purl.org/dc/terms/title> "Guided tour of the Smart City Lab"@en .
+<https://2026.dataweek.de/lab/#programm-session-1> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2026.dataweek.de/lab/#programm-session-1> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/lab/#programm-session-1> <http://schema.org/location> <https://dataweek.de/venue#SmartCityLab> .
+<https://2026.dataweek.de/lab/#programm-session-1> <http://schema.org/startTime> "10:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/lab/#programm-session-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/lab/#programm-session-2> <http://purl.org/dc/terms/date> "2026-06-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/lab/#programm-session-2> <http://purl.org/dc/terms/description> "Die KMI-Demonstratoren können am InfAI im 3.OG am Goerdelerring 9 in Leipzig besichtigt und ausprobiert werden. "@de .
+<https://2026.dataweek.de/lab/#programm-session-2> <http://purl.org/dc/terms/title> "KMI demonstrators"@en .
+<https://2026.dataweek.de/lab/#programm-session-2> <http://purl.org/dc/terms/title> "KMI-Demonstratoren"@de .
+<https://2026.dataweek.de/lab/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2026.dataweek.de/lab/#programm-session-2> <http://schema.org/endTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/lab/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#KMI> .
+<https://2026.dataweek.de/lab/#programm-session-2> <http://schema.org/startTime> "10:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/lab/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/lab/#programm-session-3> <http://purl.org/dc/terms/date> "2026-06-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/lab/#programm-session-3> <http://purl.org/dc/terms/description> "Das Lab befindet sich im Löhrs Carrè (Humboldtstr. 25) in Leipzig."@de .
+<https://2026.dataweek.de/lab/#programm-session-3> <http://purl.org/dc/terms/title> "ScaDS.AI opens its doors"@en .
+<https://2026.dataweek.de/lab/#programm-session-3> <http://purl.org/dc/terms/title> "ScaDS.AI öffnet seine Türen"@de .
+<https://2026.dataweek.de/lab/#programm-session-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2026.dataweek.de/lab/#programm-session-3> <http://schema.org/endTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/lab/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#LivingLab> .
+<https://2026.dataweek.de/lab/#programm-session-3> <http://schema.org/startTime> "10:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/lab/#programm-session-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/lab/#programm-session-4> <http://purl.org/dc/terms/date> "2026-06-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/lab/#programm-session-4> <http://purl.org/dc/terms/description> "Das R42 verbindet Gaming, Gastronomie, Events, Contentproduktion und Arbeiten. (Adresse: Ritterst. 42, 04109 Leipzig)"@de .
+<https://2026.dataweek.de/lab/#programm-session-4> <http://purl.org/dc/terms/title> "Besichtigung vom R42"@de .
+<https://2026.dataweek.de/lab/#programm-session-4> <http://purl.org/dc/terms/title> "Tour of the R42"@en .
+<https://2026.dataweek.de/lab/#programm-session-4> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2026.dataweek.de/lab/#programm-session-4> <http://schema.org/endTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/lab/#programm-session-4> <http://schema.org/location> <https://dataweek.de/venue#R42> .
+<https://2026.dataweek.de/lab/#programm-session-4> <http://schema.org/startTime> "10:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/lab/#programm-session-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/lab/#programm-session-5> <http://purl.org/dc/terms/date> "2026-06-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/lab/#programm-session-5> <http://purl.org/dc/terms/description> "Das Lab befindet sich im 3.OG am Goerdelerring 9 in Leipzig. "@de .
+<https://2026.dataweek.de/lab/#programm-session-5> <http://purl.org/dc/terms/title> "Führung im Security Lab"@de .
+<https://2026.dataweek.de/lab/#programm-session-5> <http://purl.org/dc/terms/title> "Guided tour of the Security Lab"@en .
+<https://2026.dataweek.de/lab/#programm-session-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2026.dataweek.de/lab/#programm-session-5> <http://schema.org/endTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/lab/#programm-session-5> <http://schema.org/location> <https://dataweek.de/venue#SecurityLab> .
+<https://2026.dataweek.de/lab/#programm-session-5> <http://schema.org/startTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/lab/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/lab/#programm-session-6> <http://purl.org/dc/terms/date> "2026-06-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/lab/#programm-session-6> <http://purl.org/dc/terms/description> "Das Lab befindet sich im Löhrs Carrè (Humboldtstr. 25) in Leipzig."@de .
+<https://2026.dataweek.de/lab/#programm-session-6> <http://purl.org/dc/terms/title> "ScaDS.AI opens its doors"@en .
+<https://2026.dataweek.de/lab/#programm-session-6> <http://purl.org/dc/terms/title> "ScaDS.AI öffnet seine Türen"@de .
+<https://2026.dataweek.de/lab/#programm-session-6> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2026.dataweek.de/lab/#programm-session-6> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/lab/#programm-session-6> <http://schema.org/location> <https://dataweek.de/venue#LivingLab> .
+<https://2026.dataweek.de/lab/#programm-session-6> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/lab/#programm-session-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/lab/#programm-session-7> <http://purl.org/dc/terms/date> "2026-06-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/lab/#programm-session-7> <http://purl.org/dc/terms/description> "Das Lab befindet sich in der Grimmaische Straße 2-4 in Leipzig (Mädlerpassage - Aufgang B, 2. Etage). "@de .
+<https://2026.dataweek.de/lab/#programm-session-7> <http://purl.org/dc/terms/title> "Führung im Logistics Living Lab - Universität Leipzig"@de .
+<https://2026.dataweek.de/lab/#programm-session-7> <http://purl.org/dc/terms/title> "Guided tour of the Logistics Living Lab – Leipzig University"@en .
+<https://2026.dataweek.de/lab/#programm-session-7> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2026.dataweek.de/lab/#programm-session-7> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/lab/#programm-session-7> <http://schema.org/location> <https://dataweek.de/venue#LogisticsLivingLab> .
+<https://2026.dataweek.de/lab/#programm-session-7> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/lab/#programm-session-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/lab/#programm-session-8> <http://purl.org/dc/terms/date> "2026-06-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/lab/#programm-session-8> <http://purl.org/dc/terms/description> "Die KMI-Demonstratoren können am InfAI im 3.OG am Goerdelerring 9 in Leipzig besichtigt und ausprobiert werden. "@de .
+<https://2026.dataweek.de/lab/#programm-session-8> <http://purl.org/dc/terms/title> "KMI demonstrators"@en .
+<https://2026.dataweek.de/lab/#programm-session-8> <http://purl.org/dc/terms/title> "KMI-Demonstratoren"@de .
+<https://2026.dataweek.de/lab/#programm-session-8> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2026.dataweek.de/lab/#programm-session-8> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/lab/#programm-session-8> <http://schema.org/location> <https://dataweek.de/venue#KMI> .
+<https://2026.dataweek.de/lab/#programm-session-8> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/lab/#programm-session-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/lab/2026-06-05/> <http://purl.org/dc/terms/date> "2026-06-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/lab/2026-06-05/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2026.dataweek.de/lab/2026-06-05/> <http://www.w3.org/2000/01/rdf-schema#label> "Freitag"@de .
+<https://2026.dataweek.de/lab/2026-06-05/> <http://www.w3.org/2000/01/rdf-schema#label> "Friday"@en .
+<https://2026.dataweek.de/lab/2026-06-05/> <https://dataweek.de/#resourceUri> <https://2026.dataweek.de/lab/> .
+<https://2026.dataweek.de/lab/2026-06-05/> <https://dataweek.de/#viewFilter> "str(?date) = \"2026-06-05\"" .
+<https://2026.dataweek.de/lab/2026-06-05/> <https://dataweek.de/#viewMode> <https://dataweek.de/#Topiclist> .
+<https://2026.dataweek.de/lab/> <http://purl.org/dc/terms/date> "2026-06-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/lab/> <http://purl.org/dc/terms/description> "Der Freitag bildet mit dem Offenen Lab-Tag den Abschluss der Data Week Leipzig und \u00F6ffnet den Blick \u00FCber das Konferenzprogramm hinaus, indem offene Labs in ganz Leipzig zum Entdecken, Mitmachen und Vernetzen einladen. Die Labs k\u00F6nnen besucht werden, wenn das Ticket \u201ELab-Tag\u201C im [Ticketshop](https://www.conftool.net/dataweek2026/) erworben wurde. Wir freuen uns auf euren Besuch und den Austausch mit unseren Expert:innen vor Ort. Kommt vorbei! "@de .
+<https://2026.dataweek.de/lab/> <http://purl.org/dc/terms/description> "Friday marks the end of Data Week Leipzig with Open Lab Day, offering a glimpse beyond the conference program as open labs throughout Leipzig invite visitors to discover, participate, and network. The labs can be visited if the \u201CLab-Tag\u201D ticket has been purchased in the [ticket shop](https://www.conftool.net/dataweek2026/). We look forward to seeing you there and chatting with our experts. Come on by!"@en .
+<https://2026.dataweek.de/lab/> <http://schema.org/abstract> "Der Freitag bildet mit dem Offenen Lab-Tag den Abschluss der Data Week Leipzig und \u00F6ffnet den Blick \u00FCber das Konferenzprogramm hinaus."@de .
+<https://2026.dataweek.de/lab/> <http://schema.org/abstract> "Friday marks the end of Data Week Leipzig with Open Lab Day, offering a glimpse beyond the conference program."@en .
+<https://2026.dataweek.de/lab/> <http://schema.org/subEvent> <https://2026.dataweek.de/lab/#programm-session-1> .
+<https://2026.dataweek.de/lab/> <http://schema.org/subEvent> <https://2026.dataweek.de/lab/#programm-session-2> .
+<https://2026.dataweek.de/lab/> <http://schema.org/subEvent> <https://2026.dataweek.de/lab/#programm-session-3> .
+<https://2026.dataweek.de/lab/> <http://schema.org/subEvent> <https://2026.dataweek.de/lab/#programm-session-4> .
+<https://2026.dataweek.de/lab/> <http://schema.org/subEvent> <https://2026.dataweek.de/lab/#programm-session-5> .
+<https://2026.dataweek.de/lab/> <http://schema.org/subEvent> <https://2026.dataweek.de/lab/#programm-session-6> .
+<https://2026.dataweek.de/lab/> <http://schema.org/subEvent> <https://2026.dataweek.de/lab/#programm-session-7> .
+<https://2026.dataweek.de/lab/> <http://schema.org/subEvent> <https://2026.dataweek.de/lab/#programm-session-8> .
+<https://2026.dataweek.de/lab/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2026.dataweek.de/lab/> .
+<https://2026.dataweek.de/lab/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2026.dataweek.de/lab/2026-06-05/> .
+<https://2026.dataweek.de/lab/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/lab/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://2026.dataweek.de/lab/> <http://www.w3.org/2000/01/rdf-schema#label> "Offener Lab-Tag"@de .
+<https://2026.dataweek.de/lab/> <http://www.w3.org/2000/01/rdf-schema#label> "Open Doors - Lab Day"@en .
+<https://2026.dataweek.de/lab/> <https://dataweek.de/#menuHomeLabel> "General"@en .
+<https://2026.dataweek.de/lab/> <https://dataweek.de/#menuHomeLabel> "\u00DCbersicht"@de .
+<https://2026.dataweek.de/lab/> <https://dataweek.de/#show> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://2026.dataweek.de/lab/> <https://dataweek.de/#slug> "Lab" .
 <https://2026.dataweek.de/live> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2026.dataweek.de/live> <http://www.w3.org/2000/01/rdf-schema#label> "Live"@de .
 <https://2026.dataweek.de/live> <http://www.w3.org/2000/01/rdf-schema#label> "Live"@en .
@@ -1789,11 +1888,12 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-42> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://purl.org/dc/terms/title> "AIAMO"@de .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://purl.org/dc/terms/title> "AIAMO"@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://purl.org/dc/terms/title> "AIAMO – Artificial Intelligence And MObility"@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://purl.org/dc/terms/title> "AIAMO – Artificial Intelligence And MObility"@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://schema.org/endTime> "16:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://schema.org/performer> <https://dataweek.de/#ThomasTrabert> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-44> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -5251,7 +5351,9 @@
 <https://dataweek.de/#ThomasTrabert> <http://schema.org/affiliation> <https://www.ufz.de> .
 <https://dataweek.de/#ThomasTrabert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ThomasTrabert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#ThomasTrabert> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Thomas Trabert" .
 <https://dataweek.de/#ThomasTrabert> <http://xmlns.com/foaf/0.1/name> "Thomas Trabert" .
+<https://dataweek.de/#ThomasTrabert> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#ThorstenLiebig> <http://purl.org/dc/terms/description> "CEO"@de .
 <https://dataweek.de/#ThorstenLiebig> <http://purl.org/dc/terms/description> "CEO"@en .
 <https://dataweek.de/#ThorstenLiebig> <http://schema.org/affiliation> <https://www.derivo.de/> .
@@ -5475,11 +5577,30 @@
 <https://dataweek.de/venue#Festsaal> <http://purl.org/dc/terms/title> "Festsaal "@de .
 <https://dataweek.de/venue#Festsaal> <http://purl.org/dc/terms/title> "Festsaal "@en .
 <https://dataweek.de/venue#Festsaal> <https://dataweek.de/#order> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://dataweek.de/venue#KMI> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik (InfAI)<br/>\n2.OG<br/>\nGoerdelerring 9<br/>\n04109 Leipzig<br/>"@de .
+<https://dataweek.de/venue#KMI> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik (InfAI)<br/>\n2.OG<br/>\nGoerdelerring 9<br/>\n04109 Leipzig<br/>"@en .
+<https://dataweek.de/venue#KMI> <http://purl.org/dc/terms/title> "KMI Demo-Raum" .
+<https://dataweek.de/venue#KMI> <http://purl.org/dc/terms/title> "KMI Demo-Raum"@de .
+<https://dataweek.de/venue#KMI> <http://purl.org/dc/terms/title> "KMI Demo-Raum"@en .
+<https://dataweek.de/venue#KMI> <https://dataweek.de/#order> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/description> "ScaDS.AI  Büro Leipzig<br/>\nLöhrs Carré<br/>\nHumboldtstraße 25,<br/>\n3. Obergeschoss<br/>\n04105 Leipzig"@de .
 <https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/description> "ScaDS.AI Leipzig Office<br/>\nLöhrs Carré<br/>\nHumboldtstraße 25<br/>\n3rd floor<br/>\n04105 Leipzig"@en .
 <https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/title> "Living Lab" .
 <https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/title> "Living Lab"@de .
 <https://dataweek.de/venue#LivingLab> <http://purl.org/dc/terms/title> "Living Lab"@en .
+<https://dataweek.de/venue#LivingLab> <https://dataweek.de/#order> "19"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://dataweek.de/venue#LogisticsLivingLab> <http://purl.org/dc/terms/description> "Logistics Living Lab - Universität Leipzig<br/>\nGrimmaische Straße 2-4<br/>\nMädlerpassage - Aufgang B<br/>\n2. Etage<br/> \n04109 Leipzig<br/>"@de .
+<https://dataweek.de/venue#LogisticsLivingLab> <http://purl.org/dc/terms/description> "Logistics Living Lab - Universität Leipzig<br/>\nGrimmaische Straße 2-4<br/>\nMädlerpassage - Aufgang B<br/>\n2. Etage<br/> \n04109 Leipzig<br/>"@en .
+<https://dataweek.de/venue#LogisticsLivingLab> <http://purl.org/dc/terms/title> "Logistics Living Lab" .
+<https://dataweek.de/venue#LogisticsLivingLab> <http://purl.org/dc/terms/title> "Logistics Living Lab"@de .
+<https://dataweek.de/venue#LogisticsLivingLab> <http://purl.org/dc/terms/title> "Logistics Living Lab"@en .
+<https://dataweek.de/venue#LogisticsLivingLab> <https://dataweek.de/#order> "18"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://dataweek.de/venue#R42> <http://purl.org/dc/terms/description> "R42<br/>\nRitterstraße 42<br/>\n04109 Leipzig<br/>"@de .
+<https://dataweek.de/venue#R42> <http://purl.org/dc/terms/description> "R42<br/>\nRitterstraße 42<br/>\n04109 Leipzig<br/>"@en .
+<https://dataweek.de/venue#R42> <http://purl.org/dc/terms/title> "R42" .
+<https://dataweek.de/venue#R42> <http://purl.org/dc/terms/title> "R42"@de .
+<https://dataweek.de/venue#R42> <http://purl.org/dc/terms/title> "R42"@en .
+<https://dataweek.de/venue#R42> <https://dataweek.de/#order> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://dataweek.de/venue#Ratsplenarsaal> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@de .
 <https://dataweek.de/venue#Ratsplenarsaal> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@en .
 <https://dataweek.de/venue#Ratsplenarsaal> <http://purl.org/dc/terms/title> "Ratsplenarsaal" .
@@ -5534,6 +5655,12 @@
 <https://dataweek.de/venue#Room495> <http://purl.org/dc/terms/title> "Room 495" .
 <https://dataweek.de/venue#Room495> <http://purl.org/dc/terms/title> "Room 495"@en .
 <https://dataweek.de/venue#Room495> <https://dataweek.de/#order> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://dataweek.de/venue#SecurityLab> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik (InfAI)<br/>\n3.OG<br/>\nGoerdelerring 9<br/>\n04109 Leipzig<br/>"@de .
+<https://dataweek.de/venue#SecurityLab> <http://purl.org/dc/terms/description> "Institut für Angewandte Informatik (InfAI)<br/>\n3.OG<br/>\nGoerdelerring 9<br/>\n04109 Leipzig<br/>"@en .
+<https://dataweek.de/venue#SecurityLab> <http://purl.org/dc/terms/title> "Security Lab" .
+<https://dataweek.de/venue#SecurityLab> <http://purl.org/dc/terms/title> "Security Lab"@de .
+<https://dataweek.de/venue#SecurityLab> <http://purl.org/dc/terms/title> "Security Lab"@en .
+<https://dataweek.de/venue#SecurityLab> <https://dataweek.de/#order> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://dataweek.de/venue#Sitzungssaal> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@de .
 <https://dataweek.de/venue#Sitzungssaal> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@en .
 <https://dataweek.de/venue#Sitzungssaal> <http://purl.org/dc/terms/title> "Sitzungssaal" .
@@ -5545,16 +5672,19 @@
 <https://dataweek.de/venue#SmartCityLab> <http://purl.org/dc/terms/title> "Smart City Lab" .
 <https://dataweek.de/venue#SmartCityLab> <http://purl.org/dc/terms/title> "Smart City Lab"@de .
 <https://dataweek.de/venue#SmartCityLab> <http://purl.org/dc/terms/title> "Smart City Lab"@en .
+<https://dataweek.de/venue#SmartCityLab> <https://dataweek.de/#order> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://dataweek.de/venue#UntereWandelhalle> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\nErdgeschoss<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@en .
 <https://dataweek.de/venue#UntereWandelhalle> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\nGround Floor<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@de .
 <https://dataweek.de/venue#UntereWandelhalle> <http://purl.org/dc/terms/title> "Untere Wandelhalle" .
 <https://dataweek.de/venue#UntereWandelhalle> <http://purl.org/dc/terms/title> "Untere Wandelhalle"@de .
 <https://dataweek.de/venue#UntereWandelhalle> <http://purl.org/dc/terms/title> "Untere Wandelhalle"@en .
+<https://dataweek.de/venue#UntereWandelhalle> <https://dataweek.de/#order> "14"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://dataweek.de/venue#Wandelhalle> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@de .
 <https://dataweek.de/venue#Wandelhalle> <http://purl.org/dc/terms/description> "Neues Rathaus<br/>\n1.OG<br/>\nMartin-Luther-Ring 4 - 6<br/>\n04109 Leipzig<br/>"@en .
 <https://dataweek.de/venue#Wandelhalle> <http://purl.org/dc/terms/title> "Wandelhalle" .
 <https://dataweek.de/venue#Wandelhalle> <http://purl.org/dc/terms/title> "Wandelhalle"@de .
 <https://dataweek.de/venue#Wandelhalle> <http://purl.org/dc/terms/title> "Wandelhalle"@en .
+<https://dataweek.de/venue#Wandelhalle> <https://dataweek.de/#order> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://datenkompetenz-online.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://datenkompetenz-online.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://datenkompetenz-online.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Datenkompetenz-Online"@de .
