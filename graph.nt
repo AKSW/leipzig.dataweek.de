@@ -293,6 +293,16 @@
 <http://www.leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "City of Leipzig"@en .
 <http://www.leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Leipzig"@de .
 <http://www.leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <http://www.leipzig.de/> .
+<http://www.nexusinstitut.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://www.nexusinstitut.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://www.nexusinstitut.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Institut für Kooperationsmanagement und interdisziplinäre Forschung GmbH"@de .
+<http://www.nexusinstitut.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Institut für Kooperationsmanagement und interdisziplinäre Forschung GmbH"@en .
+<http://www.nexusinstitut.de/> <http://xmlns.com/foaf/0.1/homepage> <http://www.nexusinstitut.de/> .
+<http://www.rifs-potsdam.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<http://www.rifs-potsdam.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://www.rifs-potsdam.de/> <http://www.w3.org/2000/01/rdf-schema#label> "RIFS Forschungsinstitut für Nachhaltigkeit am GFZ"@de .
+<http://www.rifs-potsdam.de/> <http://www.w3.org/2000/01/rdf-schema#label> "RIFS Research Institute for Sustainability at GFZ"@en .
+<http://www.rifs-potsdam.de/> <http://xmlns.com/foaf/0.1/homepage> <http://www.rifs-potsdam.de/> .
 <http://www.technologiestiftung-berlin.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <http://www.technologiestiftung-berlin.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <http://www.technologiestiftung-berlin.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Technologiestiftung Berlin​"@de .
@@ -1523,7 +1533,9 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/performer> <https://dataweek.de/#CamillaWanckel> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/performer> <https://dataweek.de/#MirkoMuehlpfort> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/performer> <https://dataweek.de/#PhilippOffermann> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-15> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3082,6 +3094,14 @@
 <https://dataweek.de/#C%C3%A9dricCrettaz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#C%C3%A9dricCrettaz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#C%C3%A9dricCrettaz> <http://xmlns.com/foaf/0.1/name> "Cédric Crettaz" .
+<https://dataweek.de/#CamillaWanckel> <http://purl.org/dc/terms/description> "Research Associate"@en .
+<https://dataweek.de/#CamillaWanckel> <http://purl.org/dc/terms/description> "Wissenschaftliche Mitarbeiterin"@de .
+<https://dataweek.de/#CamillaWanckel> <http://schema.org/affiliation> <http://www.rifs-potsdam.de/> .
+<https://dataweek.de/#CamillaWanckel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#CamillaWanckel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#CamillaWanckel> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Camilla Wanckel" .
+<https://dataweek.de/#CamillaWanckel> <http://xmlns.com/foaf/0.1/name> "Camilla Wanckel" .
+<https://dataweek.de/#CamillaWanckel> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#CarmenDunkler> <http://schema.org/affiliation> <https://www.dm-jobs.com/dmTECH/> .
 <https://dataweek.de/#CarmenDunkler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#CarmenDunkler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -4896,6 +4916,12 @@
 <https://dataweek.de/#PhilippLentzen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#PhilippLentzen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#PhilippLentzen> <http://xmlns.com/foaf/0.1/name> "Philipp Lentzen" .
+<https://dataweek.de/#PhilippOffermann> <http://purl.org/dc/terms/description> "Research associate"@en .
+<https://dataweek.de/#PhilippOffermann> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
+<https://dataweek.de/#PhilippOffermann> <http://schema.org/affiliation> <http://www.nexusinstitut.de/> .
+<https://dataweek.de/#PhilippOffermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#PhilippOffermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#PhilippOffermann> <http://xmlns.com/foaf/0.1/name> "Philipp Offermann" .
 <https://dataweek.de/#PhilippUlrich> <http://schema.org/affiliation> <https://www.infineon.com/> .
 <https://dataweek.de/#PhilippUlrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#PhilippUlrich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
