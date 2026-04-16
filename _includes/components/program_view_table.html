@@ -17,6 +17,7 @@ WHERE {
   ?session schema:location ?location ;
     dct:date ?date .
   ?location dw:order ?order .
+  FILTER NOT EXISTS { ?session <http://ns.ontowiki.net/SysOnt/Site/track> ?track . }
   filter ({{ view.filter }})
 } ORDER BY ?order
 {% endcapture %}
