@@ -1315,6 +1315,8 @@
 <https://2026.dataweek.de/lswt2026/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2026.dataweek.de/lswt2026/#programm-session-2> <http://schema.org/endTime> "10:15:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/lswt2026/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2026.dataweek.de/lswt2026/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#MarcelFroehlich> .
+<https://2026.dataweek.de/lswt2026/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#NourRamzy> .
 <https://2026.dataweek.de/lswt2026/#programm-session-2> <http://schema.org/startTime> "09:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/lswt2026/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/lswt2026/#programm-session-3> <http://purl.org/dc/terms/date> "2026-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -4900,6 +4902,8 @@
 <https://dataweek.de/#NourRamzy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr.-Ing. Nour Ramzy" .
 <https://dataweek.de/#NourRamzy> <http://xmlns.com/foaf/0.1/name> "Nour Ramzy" .
 <https://dataweek.de/#NourRamzy> <http://xmlns.com/foaf/0.1/title> "Dr.-Ing." .
+<https://dataweek.de/#NourRamzy> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Nour Ramzy is a Senior Knowledge Engineer at eccenca GmbH with several years of experience in the semiconductor domain, applying semantic technologies to model, integrate, and harmonize complex industrial data. During her PhD, she designed and implemented a synthetic semantic data generator for supply chain and manufacturing data, enabling the creation of realistic, interoperable datasets for testing and validation solution development. She also gained exposure to various manufacturing standards and industry consortia, further strengthening her expertise in semantic interoperability and data integration.\nCurrently, she works as a consultant and Linked Data Expert collaborating with diverse customers across multiple domains to translate complex business challenges into scalable, production-ready solutions by leveraging semantic technologies and knowledge-driven approaches."@en .
+<https://dataweek.de/#NourRamzy> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Nour Ramzy ist Senior Knowledge Engineer bei eccenca GmbH und verfügt über mehrere Jahre Erfahrung im Halbleiterbereich, in dem sie semantische Technologien zur Modellierung, Integration und Harmonisierung komplexer industrieller Daten einsetzt. Während ihrer Promotion entwickelte und implementierte sie einen synthetischen semantischen Datengenerator für Lieferketten- und Fertigungsdaten, der die Erstellung realistischer, interoperabler Datensätze für Tests und die Validierung von Lösungen ermöglicht. Darüber hinaus sammelte sie Erfahrungen mit verschiedenen Fertigungsstandards und Industriekonsortien und vertiefte so ihre Expertise in semantischer Interoperabilität und Datenintegration."@de .
 <https://dataweek.de/#OguzhanYayla> <http://purl.org/dc/terms/description> "Co-founder at Lucidminds AI"@de .
 <https://dataweek.de/#OguzhanYayla> <http://purl.org/dc/terms/description> "Co-founder at Lucidminds AI"@en .
 <https://dataweek.de/#OguzhanYayla> <http://schema.org/affiliation> <https://www.lucidminds.ai/> .
@@ -4907,6 +4911,7 @@
 <https://dataweek.de/#OguzhanYayla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#OguzhanYayla> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/oguzhan-yayla/> .
 <https://dataweek.de/#OguzhanYayla> <http://xmlns.com/foaf/0.1/name> "Oguzhan Yayla" .
+<https://dataweek.de/#OguzhanYayla> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Aktuell arbeitet sie als Beraterin und Linked-Data-Expertin und kooperiert mit unterschiedlichen Kunden aus verschiedenen Branchen, um komplexe geschäftliche Herausforderungen in skalierbare, produktionsreife Lösungen zu übersetzen – unter Einsatz semantischer Technologien und wissensbasierter Ansätze."@de .
 <https://dataweek.de/#OliverGraef> <http://purl.org/dc/terms/description> "Group Manager Corporate Analysis and Rating"@en .
 <https://dataweek.de/#OliverGraef> <http://purl.org/dc/terms/description> "Gruppenleiter Unternehmensanalyse und Rating"@de .
 <https://dataweek.de/#OliverGraef> <http://schema.org/affiliation> <https://www.datev.de/> .
@@ -7151,6 +7156,11 @@
 <https://www.uni-rostock.de/> <http://www.w3.org/2000/01/rdf-schema#label> "University of Rostock"@de .
 <https://www.uni-rostock.de/> <http://www.w3.org/2000/01/rdf-schema#label> "University of Rostock"@en .
 <https://www.uni-rostock.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.uni-rostock.de/> .
+<https://www.verbund.com/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.verbund.com/de> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.verbund.com/de> <http://www.w3.org/2000/01/rdf-schema#label> "Verbund"@de .
+<https://www.verbund.com/de> <http://www.w3.org/2000/01/rdf-schema#label> "Verbund"@en .
+<https://www.verbund.com/de> <http://xmlns.com/foaf/0.1/homepage> <https://www.verbund.com/de> .
 <https://www.verwegener-trefflich.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.verwegener-trefflich.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Verwegener & Trefflich - Unternehmensberater für Innovationsstrategien​"@de .
 <https://www.verwegener-trefflich.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Verwegener & Trefflich - Unternehmensberater für Innovationsstrategien​"@en .
