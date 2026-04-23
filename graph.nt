@@ -2606,7 +2606,9 @@
 <https://2026.dataweek.de/workshops/#programm-session-6> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/workshops/#programm-session-6> <http://schema.org/endTime> "17:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-session-6> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2026.dataweek.de/workshops/#programm-session-6> <http://schema.org/performer> <https://dataweek.de/#MalteKania> .
 <https://2026.dataweek.de/workshops/#programm-session-6> <http://schema.org/performer> <https://dataweek.de/#PaulGeoerg> .
+<https://2026.dataweek.de/workshops/#programm-session-6> <http://schema.org/performer> <https://dataweek.de/#TomAssmann> .
 <https://2026.dataweek.de/workshops/#programm-session-6> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-session-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/workshops/#programm-session-7> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -4445,6 +4447,10 @@
 <https://dataweek.de/#MalteBarth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#MalteBarth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#MalteBarth> <http://xmlns.com/foaf/0.1/name> "Malte Barth" .
+<https://dataweek.de/#MalteKania> <http://schema.org/affiliation> <https://www.hs-anhalt.de/> .
+<https://dataweek.de/#MalteKania> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MalteKania> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MalteKania> <http://xmlns.com/foaf/0.1/name> "Malte Kania" .
 <https://dataweek.de/#MalteSchwanebeck> <http://purl.org/dc/terms/description> "Geodatenmanagement"@de .
 <https://dataweek.de/#MalteSchwanebeck> <http://purl.org/dc/terms/description> "Geodatenmanagement"@en .
 <https://dataweek.de/#MalteSchwanebeck> <http://schema.org/affiliation> <urn:url-encoded-value:www.kge.uni-kiel.de> .
@@ -5673,6 +5679,12 @@
 <https://dataweek.de/#TobiasMiethaner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#TobiasMiethaner> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/tobias-miethaner/?originalSubdomain=de> .
 <https://dataweek.de/#TobiasMiethaner> <http://xmlns.com/foaf/0.1/name> "Tobias Miethaner" .
+<https://dataweek.de/#TomAssmann> <http://schema.org/affiliation> <https://www.hs-anhalt.de/> .
+<https://dataweek.de/#TomAssmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#TomAssmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#TomAssmann> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Tom Assmann" .
+<https://dataweek.de/#TomAssmann> <http://xmlns.com/foaf/0.1/name> "Tom Assmann" .
+<https://dataweek.de/#TomAssmann> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://dataweek.de/#TomFuerstner> <http://purl.org/dc/terms/description> "Co-Founder"@de .
 <https://dataweek.de/#TomFuerstner> <http://purl.org/dc/terms/description> "Co-Founder"@en .
 <https://dataweek.de/#TomFuerstner> <http://schema.org/affiliation> <https://www.riddleandcode.com/> .
