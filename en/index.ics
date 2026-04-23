@@ -134,12 +134,6 @@ DESCRIPTION:The Leipzig Chamber of Industry and Commerce offers a wide ran
 LOCATION:Room 260
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Municipal Disaster Management & Smart City: A New Approach
-DTSTART;TZID=Europe/Berlin:20260601T160000
-DTEND;TZID=Europe/Berlin:20260601T173000
-LOCATION:Ratsplenarsaal
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Rethinking digital sovereignty: Solid for interoperable & decentra
  lized data ecosystems!
 DTSTART;TZID=Europe/Berlin:20260601T123000
@@ -356,6 +350,28 @@ DESCRIPTION:Which passes should be included in a city wallet first? In thi
 LOCATION:Room 259
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:No Power – No Data?! - So how do crisis-related goods get from A
+  to B?
+DTSTART;TZID=Europe/Berlin:20260601T160000
+DTEND;TZID=Europe/Berlin:20260601T173000
+DESCRIPTION:Workshop: What happens when critical infrastructure fails—el
+ ectricity\, the internet\, mobile networks? This workshop will explore thi
+ s very question in a practical\, hands-on way. Following a brief\, interac
+ tive introduction to participants’ own digital dependencies\, attendees 
+ will receive concise insights into realistic crisis scenarios\, cascading 
+ effects of infrastructure failures\, and existing initiatives related to c
+ argo bike logistics and crisis communication. Building on this\, participa
+ nts will collaboratively identify key vulnerabilities—particularly in th
+ e area of communication—and prioritize them.\n\nIn the second part\, con
+ crete solutions will be developed: How can physical mobility (e.g.\, bicyc
+ les)\, decentralized data infrastructures\, and analog fallback systems be
+  meaningfully combined? Which approaches are robust\, scalable\, and promo
+ te data autonomy? The workshop is aimed at anyone involved in crisis resil
+ ience\, communication\, urban logistics\, or sustainable infrastructure wh
+ o wishes to collaborate on developing new\, resilient solutions.
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Admission
 DTSTART;TZID=Europe/Berlin:20260602T083000
 DTEND;TZID=Europe/Berlin:20260602T093000
@@ -381,12 +397,6 @@ DTSTART;TZID=Europe/Berlin:20260602T150000
 DTEND;TZID=Europe/Berlin:20260602T153000
 DESCRIPTION:Posters and Stands
 LOCATION:Wandelhalle
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Opening - Live translation available in English. 
-DTSTART;TZID=Europe/Berlin:20260602T093000
-DTEND;TZID=Europe/Berlin:20260602T103000
-LOCATION:Sitzungssaal
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:From idea to market: Your path to implementation – compact consu
@@ -520,6 +530,12 @@ DTEND;TZID=Europe/Berlin:20260602T170000
 LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Opening - Live translation available in English. 
+DTSTART;TZID=Europe/Berlin:20260602T093000
+DTEND;TZID=Europe/Berlin:20260602T103000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Data handling in the Open Data Portal Hesse
 DTSTART;TZID=Europe/Berlin:20260602T110000
 DTEND;TZID=Europe/Berlin:20260602T113000
@@ -604,6 +620,18 @@ DESCRIPTION:Hands-on training: The journey of creating your own knowledge
 LOCATION:Room 377
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:DIPAS – Digital participation online and on site
+DTSTART;TZID=Europe/Berlin:20260602T133000
+DTEND;TZID=Europe/Berlin:20260602T150000
+DESCRIPTION:Hands-on: Creation of your own DIPAS participation procedures 
+ via the Drupal backend. The focus is on the technical design of participat
+ ion procedures and their implementation in DIPAS\, as well as the creation
+  of your own DIPAS_story (geodata storytelling).\n\n- Introduction to DIPA
+ S by the speakers\n- Design and implementation of a participation process 
+ (project admin)\n- Creation of a DIPAS_story
+LOCATION:Room 270
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Young people and AI – What they know and how they use it (conduc
  ted by Leipzig City Libraries)
 DTSTART;TZID=Europe/Berlin:20260602T153000
@@ -653,18 +681,6 @@ DESCRIPTION:Modern AI-driven chat apps such as ChatGPT\, Gemini\, Claude a
  e AI and will be followed by a practical part. It is recommended that you 
  bring your own laptop to take part.
 LOCATION:Room 377
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DIPAS – Digital participation online and on site
-DTSTART;TZID=Europe/Berlin:20260602T133000
-DTEND;TZID=Europe/Berlin:20260602T150000
-DESCRIPTION:Hands-on: Creation of your own DIPAS participation procedures 
- via the Drupal backend. The focus is on the technical design of participat
- ion procedures and their implementation in DIPAS\, as well as the creation
-  of your own DIPAS_story (geodata storytelling).\n\n- Introduction to DIPA
- S by the speakers\n- Design and implementation of a participation process 
- (project admin)\n- Creation of a DIPAS_story
-LOCATION:Room 270
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Admission
@@ -948,11 +964,11 @@ DESCRIPTION:Employee participation is a key success factor for successful
  n part of the workshop\, participants use a participation canvas to work o
  ut how participation can be designed in their own organization. The follow
  ing key questions are addressed:\n\n- Which participation formats are suit
- able for our organizational structure?\n- How can employees be involved an
- d where are the limits of their influence?\n- What prerequisites and resou
- rces are necessary to implement participation?\n\nNon-profit organizations
-  have the opportunity to participate in the workshop free of charge (limit
- ed availability). Registration is required at roots@leipzig.de. 
+ able for our organizational structure?\n\n- How can employees be involved 
+ and where are the limits of their influence?\n\n- What prerequisites and r
+ esources are necessary to implement participation?\n\n\nNon-profit organiz
+ ations have the opportunity to participate in the workshop free of charge 
+ (limited availability). Registration is required at roots@leipzig.de. 
 LOCATION:Room 260
 END:VEVENT
 BEGIN:VEVENT
@@ -1054,7 +1070,7 @@ DESCRIPTION:This workshop offers an introduction to AI-supported\, agent-b
  pact sample project is used to illustrate the process of creating a workfl
  ow and to present the basic building blocks of such systems and the combin
  ation of components.
-LOCATION:Ratsplenarsaal
+LOCATION:Room 260
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Digital patients meet AI agents – experience the future of healt
@@ -1273,12 +1289,23 @@ SUMMARY:Strengthening cybersecurity in associations (Track: Between commit
  rmation Security (BSI))
 DTSTART;TZID=Europe/Berlin:20260604T110000
 DTEND;TZID=Europe/Berlin:20260604T123000
-DESCRIPTION:Digital solutions—from accessible websites and assistance ap
- ps to hybrid mediation formats—open up new opportunities for cultural pa
- rticipation for people with disabilities.\nThe aim of the workshop is to b
- ring together cultural institutions with innovative start-ups that develop
-  digital solutions for inclusive cultural offerings. The two workshops bui
- ld on each other thematically and should therefore be booked together.
+DESCRIPTION:Clubs\, too\, are increasingly exposed to risks in their daily
+  digital lives: even minor lapses in attention—such as a wrong click or 
+ the accidental sharing of sensitive data—can lead to security incidents 
+ and data loss.\nThis is where the Cybersecurity Dialogue comes in: we show
+  how it is possible to work safely and confidently on and with the interne
+ t\, even in hectic moments\, without in-depth IT knowledge. The workshop i
+ s aimed specifically at members and leaders of clubs and civil society org
+ anizations.\n\nSpecific topics include:\n\n- What risks are clubs particul
+ arly exposed to?\n\n- Where are the key levers for defense?\n\n- How can a
+  security culture be fostered within the club using the “White Card”?\
+ n\n\nSpecial focus will be placed on challenges such as secure passwords\,
+  phishing\, and fraud attempts\, among others. Together\, we will develop 
+ ideas during the workshop for a secure digital everyday life within the cl
+ ub.\nThe workshop will be led by members of the “White Card” working g
+ roup from the Dialogue for Cybersecurity. The members of the working group
+  are committed to motivating society toward greater cybersecurity and reco
+ gnizing exemplary behavior.
 LOCATION:Room 260
 END:VEVENT
 BEGIN:VEVENT
@@ -1466,6 +1493,13 @@ BEGIN:VEVENT
 SUMMARY:Tour of the Living Lab - ScaDS.AI Leipzig
 DTSTART;TZID=Europe/Berlin:20260605T100000
 DTEND;TZID=Europe/Berlin:20260605T110000
+DESCRIPTION:The ScaDS.AI Leipzig Living Lab serves as an exhibition and ev
+ ent space\, a teaching and education center\, and a laboratory all in one.
+  It provides a venue for presenting and evaluating the center’s research
+ \, as well as for engaging with the public. Through interactive demonstrat
+ ors\, AI and data science topics are brought to life here\, allowing visit
+ ors to experience them firsthand. The lab is located in Löhrs Carrè (Hum
+ boldtstr. 25) in Leipzig.
 LOCATION:Living Lab
 END:VEVENT
 BEGIN:VEVENT
@@ -1496,6 +1530,13 @@ BEGIN:VEVENT
 SUMMARY:Tour of the Living Lab - ScaDS.AI Leipzig
 DTSTART;TZID=Europe/Berlin:20260605T110000
 DTEND;TZID=Europe/Berlin:20260605T120000
+DESCRIPTION:The ScaDS.AI Leipzig Living Lab serves as an exhibition and ev
+ ent space\, a teaching and education center\, and a laboratory all in one.
+  It provides a venue for presenting and evaluating the center’s research
+ \, as well as for engaging with the public. Through interactive demonstrat
+ ors\, AI and data science topics are brought to life here\, allowing visit
+ ors to experience them firsthand. The lab is located in Löhrs Carrè (Hum
+ boldtstr. 25) in Leipzig.
 LOCATION:Living Lab
 END:VEVENT
 BEGIN:VEVENT

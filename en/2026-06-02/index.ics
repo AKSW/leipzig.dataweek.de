@@ -27,12 +27,6 @@ DESCRIPTION:Posters and Stands
 LOCATION:Wandelhalle
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Opening - Live translation available in English. 
-DTSTART;TZID=Europe/Berlin:20260602T093000
-DTEND;TZID=Europe/Berlin:20260602T103000
-LOCATION:Sitzungssaal
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:From idea to market: Your path to implementation – compact consu
  lting at Data Week Leipzig (conducted by the Leipzig Chamber of Industry a
  nd Commerce (IHK))
@@ -164,6 +158,12 @@ DTEND;TZID=Europe/Berlin:20260602T170000
 LOCATION:Ratsplenarsaal
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Opening - Live translation available in English. 
+DTSTART;TZID=Europe/Berlin:20260602T093000
+DTEND;TZID=Europe/Berlin:20260602T103000
+LOCATION:Sitzungssaal
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Data handling in the Open Data Portal Hesse
 DTSTART;TZID=Europe/Berlin:20260602T110000
 DTEND;TZID=Europe/Berlin:20260602T113000
@@ -248,6 +248,18 @@ DESCRIPTION:Hands-on training: The journey of creating your own knowledge
 LOCATION:Room 377
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:DIPAS – Digital participation online and on site
+DTSTART;TZID=Europe/Berlin:20260602T133000
+DTEND;TZID=Europe/Berlin:20260602T150000
+DESCRIPTION:Hands-on: Creation of your own DIPAS participation procedures 
+ via the Drupal backend. The focus is on the technical design of participat
+ ion procedures and their implementation in DIPAS\, as well as the creation
+  of your own DIPAS_story (geodata storytelling).\n\n- Introduction to DIPA
+ S by the speakers\n- Design and implementation of a participation process 
+ (project admin)\n- Creation of a DIPAS_story
+LOCATION:Room 270
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Young people and AI – What they know and how they use it (conduc
  ted by Leipzig City Libraries)
 DTSTART;TZID=Europe/Berlin:20260602T153000
@@ -297,17 +309,5 @@ DESCRIPTION:Modern AI-driven chat apps such as ChatGPT\, Gemini\, Claude a
  e AI and will be followed by a practical part. It is recommended that you 
  bring your own laptop to take part.
 LOCATION:Room 377
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DIPAS – Digital participation online and on site
-DTSTART;TZID=Europe/Berlin:20260602T133000
-DTEND;TZID=Europe/Berlin:20260602T150000
-DESCRIPTION:Hands-on: Creation of your own DIPAS participation procedures 
- via the Drupal backend. The focus is on the technical design of participat
- ion procedures and their implementation in DIPAS\, as well as the creation
-  of your own DIPAS_story (geodata storytelling).\n\n- Introduction to DIPA
- S by the speakers\n- Design and implementation of a participation process 
- (project admin)\n- Creation of a DIPAS_story
-LOCATION:Room 270
 END:VEVENT
 END:VCALENDAR
