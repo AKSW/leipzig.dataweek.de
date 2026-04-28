@@ -2376,7 +2376,9 @@
 <https://2026.dataweek.de/workshops/#programm-session-19> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/workshops/#programm-session-19> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-session-19> <http://schema.org/location> <https://dataweek.de/venue#Room260> .
+<https://2026.dataweek.de/workshops/#programm-session-19> <http://schema.org/performer> <https://dataweek.de/#FabianL%C3%BCders> .
 <https://2026.dataweek.de/workshops/#programm-session-19> <http://schema.org/performer> <https://dataweek.de/#MarkusFischer> .
+<https://2026.dataweek.de/workshops/#programm-session-19> <http://schema.org/performer> <https://dataweek.de/#OliverStock> .
 <https://2026.dataweek.de/workshops/#programm-session-19> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-session-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/workshops/#programm-session-1> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3670,6 +3672,10 @@
 <https://dataweek.de/#FabianDiendorfer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#FabianDiendorfer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#FabianDiendorfer> <http://xmlns.com/foaf/0.1/name> "Fabian Diendorfer" .
+<https://dataweek.de/#FabianL%C3%BCders> <http://schema.org/affiliation> <https://syncwork.de/> .
+<https://dataweek.de/#FabianL%C3%BCders> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#FabianL%C3%BCders> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#FabianL%C3%BCders> <http://xmlns.com/foaf/0.1/name> "Fabian Lüders" .
 <https://dataweek.de/#FabianLandua> <http://purl.org/dc/terms/description> "DKSR"@de .
 <https://dataweek.de/#FabianLandua> <http://purl.org/dc/terms/description> "DKSR"@en .
 <https://dataweek.de/#FabianLandua> <http://schema.org/affiliation> <https://www.dksr.city/> .
@@ -5029,6 +5035,10 @@
 <https://dataweek.de/#OliverKarras> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Oliver Karras" .
 <https://dataweek.de/#OliverKarras> <http://xmlns.com/foaf/0.1/name> "Oliver Karras" .
 <https://dataweek.de/#OliverKarras> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://dataweek.de/#OliverStock> <http://schema.org/affiliation> <https://syncwork.de/> .
+<https://dataweek.de/#OliverStock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#OliverStock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#OliverStock> <http://xmlns.com/foaf/0.1/name> "Oliver Stock" .
 <https://dataweek.de/#OliverWelz> <http://purl.org/dc/terms/description> "Employees Service & Living Lab"@en .
 <https://dataweek.de/#OliverWelz> <http://purl.org/dc/terms/description> "Mitarbeiter Service & Living Lab"@de .
 <https://dataweek.de/#OliverWelz> <http://schema.org/affiliation> <https://scads.ai/> .
