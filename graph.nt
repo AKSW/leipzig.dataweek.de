@@ -2692,6 +2692,7 @@
 <https://2026.dataweek.de/workshops/#programm-talk-14> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/workshops/#programm-talk-14> <http://schema.org/endTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-talk-14> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://2026.dataweek.de/workshops/#programm-talk-14> <http://schema.org/performer> <https://dataweek.de/#ChristianSteffens> .
 <https://2026.dataweek.de/workshops/#programm-talk-14> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-talk-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/workshops/#programm-talk-15> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2700,6 +2701,7 @@
 <https://2026.dataweek.de/workshops/#programm-talk-15> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/workshops/#programm-talk-15> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-talk-15> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://2026.dataweek.de/workshops/#programm-talk-15> <http://schema.org/performer> <https://dataweek.de/#JuliusKnopp> .
 <https://2026.dataweek.de/workshops/#programm-talk-15> <http://schema.org/startTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-talk-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/workshops/#programm-talk-16> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2708,6 +2710,8 @@
 <https://2026.dataweek.de/workshops/#programm-talk-16> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/workshops/#programm-talk-16> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-talk-16> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://2026.dataweek.de/workshops/#programm-talk-16> <http://schema.org/performer> <https://dataweek.de/#StefanHeiland> .
+<https://2026.dataweek.de/workshops/#programm-talk-16> <http://schema.org/performer> <https://dataweek.de/#ViktoriaEngnath> .
 <https://2026.dataweek.de/workshops/#programm-talk-16> <http://schema.org/startTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-talk-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/workshops/2026-06-01/> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3357,6 +3361,10 @@
 <https://dataweek.de/#ChristianSchlecht> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ChristianSchlecht> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ChristianSchlecht> <http://xmlns.com/foaf/0.1/name> "Christian Schlecht" .
+<https://dataweek.de/#ChristianSteffens> <http://schema.org/affiliation> <https://www.eura-ag.com/> .
+<https://dataweek.de/#ChristianSteffens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#ChristianSteffens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#ChristianSteffens> <http://xmlns.com/foaf/0.1/name> "Christian Steffens" .
 <https://dataweek.de/#ChristianZinke> <http://schema.org/memberOf> <https://kmi-leipzig.de/> .
 <https://dataweek.de/#ChristianZinke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ChristianZinke> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/ChristianZinke.jpg" .
@@ -4328,6 +4336,10 @@
 <https://dataweek.de/#JuliaWerra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JuliaWerra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JuliaWerra> <http://xmlns.com/foaf/0.1/name> "Julia Werra" .
+<https://dataweek.de/#JuliusKnopp> <http://schema.org/affiliation> <https://www.ufz.de> .
+<https://dataweek.de/#JuliusKnopp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#JuliusKnopp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#JuliusKnopp> <http://xmlns.com/foaf/0.1/name> "Julius Knopp" .
 <https://dataweek.de/#JuttaSundermann> <http://schema.org/affiliation> <https://www.aktion-agrar.de/> .
 <https://dataweek.de/#JuttaSundermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JuttaSundermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -5601,6 +5613,10 @@
 <https://dataweek.de/#StefanHartleib> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#StefanHartleib> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/stefan-hartleib-322544182/> .
 <https://dataweek.de/#StefanHartleib> <http://xmlns.com/foaf/0.1/name> "Stefan Hartleib" .
+<https://dataweek.de/#StefanHeiland> <http://schema.org/affiliation> <http://www.leipzig.de/> .
+<https://dataweek.de/#StefanHeiland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#StefanHeiland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#StefanHeiland> <http://xmlns.com/foaf/0.1/name> "Stefan Heiland" .
 <https://dataweek.de/#StefanHennig> <http://purl.org/dc/terms/description> "Head of Product & AI"@en .
 <https://dataweek.de/#StefanHennig> <http://purl.org/dc/terms/description> "Leiter Produkte & KI"@de .
 <https://dataweek.de/#StefanHennig> <http://schema.org/affiliation> <https://www.acp-gruppe.com/> .
@@ -6727,6 +6743,11 @@
 <https://www.etas.com/ww/de/> <http://www.w3.org/2000/01/rdf-schema#label> "ETAS"@de .
 <https://www.etas.com/ww/de/> <http://www.w3.org/2000/01/rdf-schema#label> "ETAS"@en .
 <https://www.etas.com/ww/de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.etas.com/ww/de/> .
+<https://www.eura-ag.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.eura-ag.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.eura-ag.com/> <http://www.w3.org/2000/01/rdf-schema#label> "EurA AG"@de .
+<https://www.eura-ag.com/> <http://www.w3.org/2000/01/rdf-schema#label> "EurA AG"@en .
+<https://www.eura-ag.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.eura-ag.com/> .
 <https://www.europa.eu/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://www.europa.eu/> <http://www.w3.org/2000/01/rdf-schema#label> "Co-funded by the European Union" .
 <https://www.europa.eu/> <http://xmlns.com/foaf/0.1/homepage> <https://europa.eu/> .
