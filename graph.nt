@@ -1354,6 +1354,7 @@
 <https://2026.dataweek.de/lswt2026/#programm-session-5> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2026.dataweek.de/lswt2026/#programm-session-5> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/lswt2026/#programm-session-5> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2026.dataweek.de/lswt2026/#programm-session-5> <http://schema.org/performer> <https://dataweek.de/#MagnusKnuth> .
 <https://2026.dataweek.de/lswt2026/#programm-session-5> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/lswt2026/#programm-session-5> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-10> .
 <https://2026.dataweek.de/lswt2026/#programm-session-5> <http://schema.org/subEvent> <https://2026.dataweek.de/lswt2026/#programm-talk-11> .
@@ -1495,12 +1496,12 @@
 <https://2026.dataweek.de/lswt2026/#programm-talk-23> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/lswt2026/#programm-talk-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/lswt2026/#programm-talk-24> <http://purl.org/dc/terms/date> "2026-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/lswt2026/#programm-talk-24> <http://purl.org/dc/terms/title> "Forschungsprojekt: KupferDigital2"@de .
-<https://2026.dataweek.de/lswt2026/#programm-talk-24> <http://purl.org/dc/terms/title> "Research project: KupferDigital2"@en .
+<https://2026.dataweek.de/lswt2026/#programm-talk-24> <http://purl.org/dc/terms/title> "The PMDco3-based application ontology for semantic representation of the casting process"@de .
+<https://2026.dataweek.de/lswt2026/#programm-talk-24> <http://purl.org/dc/terms/title> "The PMDco3-based application ontology for semantic representation of the casting process"@en .
 <https://2026.dataweek.de/lswt2026/#programm-talk-24> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2026.dataweek.de/lswt2026/#programm-talk-24> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/lswt2026/#programm-talk-24> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2026.dataweek.de/lswt2026/#programm-talk-24> <http://schema.org/performer> <https://dataweek.de/#MiriamEisenbart> .
+<https://2026.dataweek.de/lswt2026/#programm-talk-24> <http://schema.org/performer> <https://aksw.org/KonstantinGubaev> .
 <https://2026.dataweek.de/lswt2026/#programm-talk-24> <http://schema.org/startTime> "15:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/lswt2026/#programm-talk-24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/lswt2026/#programm-talk-25> <http://purl.org/dc/terms/date> "2026-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2058,8 +2059,8 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-44> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://purl.org/dc/terms/title> "AIAMO – Artificial Intelligence And MObility"@de .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://purl.org/dc/terms/title> "AIAMO – Artificial Intelligence And MObility"@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://purl.org/dc/terms/title> "Environmentally Sensitive Mobility Management with AIAMO – Artificial Intelligence and Mobility: A Practical Look at the Leipzig Pilot Region"@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://purl.org/dc/terms/title> "Umweltsensitives Mobilitätsmanagement mit AIAMO – Artificial Intelligence And Mobility - Praxiseinblick in die Pilotregion Leipzig"@de .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/endTime> "16:25:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
@@ -2850,6 +2851,14 @@
 <https://aksw.org/KonradHoeffner> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Konrad Höffner" .
 <https://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/name> "Konrad Höffner" .
 <https://aksw.org/KonradHoeffner> <http://xmlns.com/foaf/0.1/title> "Dr." .
+<https://aksw.org/KonstantinGubaev> <http://purl.org/dc/terms/description> "Research Associate, Digitalization and AI"@en .
+<https://aksw.org/KonstantinGubaev> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter, Digitalisierung und KI"@de .
+<https://aksw.org/KonstantinGubaev> <http://schema.org/affiliation> <urn:url-encoded-value:www.fem-online.de> .
+<https://aksw.org/KonstantinGubaev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://aksw.org/KonstantinGubaev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://aksw.org/KonstantinGubaev> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Konstantin Gubaev" .
+<https://aksw.org/KonstantinGubaev> <http://xmlns.com/foaf/0.1/name> "Konstantin Gubaev" .
+<https://aksw.org/KonstantinGubaev> <http://xmlns.com/foaf/0.1/title> "Dr." .
 <https://aksw.org/KurtJunghanns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://aksw.org/LarsPeterMeyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://algorithmwatch.org> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
