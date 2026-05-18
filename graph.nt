@@ -1863,14 +1863,16 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-29> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://purl.org/dc/terms/description> "Re:Form is a new “alliance for the state of tomorrow” that brings together pioneers in digitalization and administration from the federal, state, and local levels.  The approaches for a new understanding of the state will be presented in Leipzig during Dataweek."@en .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://purl.org/dc/terms/description> "Re:Form ist eine neue „Allianz für den Staat von morgen” und bringt Digitalisierung- bzw. Verwaltungspionier:innen aus Bund, Ländern und Kommunen zusammen.  Die Ansätze für ein neues Staatsverständnis werden im Rahmen der Dataweek nach Leipzig getragen."@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://purl.org/dc/terms/description> "How can a modern state succeed in not only administering but also actively shaping society? In this panel discussion at Data Week Leipzig, representatives from government, civil society, and digital policy will discuss the future of the state’s capacity to act in an age of crises, complexity, and artificial intelligence. The focus will be on the opportunities and limitations of AI in public administration, the tensions between efficiency and the rule of law, and the question of how government action can once again inspire greater trust and effectiveness."@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://purl.org/dc/terms/description> "Wie gelingt ein moderner Staat, der nicht nur verwaltet, sondern aktiv gestaltet? In diesem Panel der Data Week Leipzig diskutieren Vertreter/-innen aus Verwaltung, Zivilgesellschaft und Digitalpolitik über die Zukunft staatlicher Handlungsfähigkeit im Zeitalter von Krisen, Komplexität und Künstlicher Intelligenz. Im Fokus stehen die Chancen und Grenzen von KI in der Verwaltung, die Spannungen zwischen Effizienz und Rechtsstaatlichkeit sowie die Frage, wie Staatshandeln wieder mehr Vertrauen und Wirksamkeit entfalten kann. "@de .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://purl.org/dc/terms/title> "Panel Discussion: The Guild State - Live translation available in English. "@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://purl.org/dc/terms/title> "Podium: Zunftsstaat"@de .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#BeateGinzel> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#GeraldSwarat> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://schema.org/performer> <https://dataweek.de/#TiajiSio> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://schema.org/startTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-10> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -5845,6 +5847,10 @@
 <https://dataweek.de/#ThorstenReitz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ThorstenReitz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ThorstenReitz> <http://xmlns.com/foaf/0.1/name> "Thorsten Reitz" .
+<https://dataweek.de/#TiajiSio> <http://schema.org/affiliation> <https://reform-staat.org/> .
+<https://dataweek.de/#TiajiSio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#TiajiSio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#TiajiSio> <http://xmlns.com/foaf/0.1/name> "Tiaji Sio" .
 <https://dataweek.de/#TilmanHartwig> <http://purl.org/dc/terms/description> "Chief Data Scientist, KI-Lab"@de .
 <https://dataweek.de/#TilmanHartwig> <http://purl.org/dc/terms/description> "Chief Data Scientist, KI-Lab"@en .
 <https://dataweek.de/#TilmanHartwig> <http://schema.org/affiliation> <https://www.umweltbundesamt.de/> .
@@ -6414,6 +6420,11 @@
 <https://rddl.io/> <http://www.w3.org/2000/01/rdf-schema#label> "RDDL Foundation"@de .
 <https://rddl.io/> <http://www.w3.org/2000/01/rdf-schema#label> "RDDL Foundation"@en .
 <https://rddl.io/> <http://xmlns.com/foaf/0.1/homepage> <https://rddl.io/> .
+<https://reform-staat.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://reform-staat.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://reform-staat.org/> <http://www.w3.org/2000/01/rdf-schema#label> "ProjectTogether"@de .
+<https://reform-staat.org/> <http://www.w3.org/2000/01/rdf-schema#label> "ProjectTogether"@en .
+<https://reform-staat.org/> <http://xmlns.com/foaf/0.1/homepage> <https://reform-staat.org/> .
 <https://rpesolutionsllc.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://rpesolutionsllc.com/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://rpesolutionsllc.com/> <http://www.w3.org/2000/01/rdf-schema#label> "RPE Solutions, LLC"@de .
