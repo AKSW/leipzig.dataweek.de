@@ -900,6 +900,18 @@
 <https://2026.dataweek.de/break/2026-06-02/17:15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/break/2026-06-02/17:15> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rathausturmführung"@de .
 <https://2026.dataweek.de/break/2026-06-02/17:15> <http://www.w3.org/2004/02/skos/core#prefLabel> "Visit city hall tower"@en .
+<https://2026.dataweek.de/break/2026-06-02/19:00> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#sideevent> .
+<https://2026.dataweek.de/break/2026-06-02/19:00> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/break/2026-06-02/19:00> <http://purl.org/dc/terms/description> "BubbleBridge reloaded is, above all, a networking event. Its goal is to deliberately bring together people from different “bubbles”—from the data and AI communities, industry, entrepreneurship, the IT sector, and the broader ecosystem—and to create spaces for interaction, exchange, and new connections. As a connecting event between Data Week Leipzig and the MACHN Festival, BubbleBridge takes up the format’s core idea: bringing perspectives that would otherwise exist side by side into dialogue with one another. Register here: https://it-mitteldeutschland.de/bubblebridge/"@en .
+<https://2026.dataweek.de/break/2026-06-02/19:00> <http://purl.org/dc/terms/description> "BubbleBridge reloaded ist vor allem eines: ein Vernetzungsformat. Ziel ist es, Menschen aus unterschiedlichen „Bubbles“ bewusst zusammenzubringen – aus Daten‑ und KI‑Community, Industrie, Unternehmertum, IT‑Wirtschaft und Ökosystem – und Räume für Begegnung, Austausch und neue Verbindungen zu schaffen. Als verbindender Abend zwischen Data Week Leipzig und MACHN Festival greift BubbleBridge die Grundidee des Formats auf: Perspektiven, die sonst nebeneinander existieren, miteinander ins Gespräch zu bringen. Anmeldung unter: https://it-mitteldeutschland.de/bubblebridge/"@de .
+<https://2026.dataweek.de/break/2026-06-02/19:00> <http://purl.org/dc/terms/title> "BubbleBridge"@de .
+<https://2026.dataweek.de/break/2026-06-02/19:00> <http://purl.org/dc/terms/title> "BubbleBridge"@en .
+<https://2026.dataweek.de/break/2026-06-02/19:00> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2026.dataweek.de/break/2026-06-02/19:00> <http://schema.org/endTime> "20:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/break/2026-06-02/19:00> <http://schema.org/startTime> "19:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/break/2026-06-02/19:00> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/break/2026-06-02/19:00> <http://www.w3.org/2004/02/skos/core#prefLabel> "BubbleBridge"@de .
+<https://2026.dataweek.de/break/2026-06-02/19:00> <http://www.w3.org/2004/02/skos/core#prefLabel> "BubbleBridge"@en .
 <https://2026.dataweek.de/break/2026-06-03/08:30> <http://ns.ontowiki.net/SysOnt/Site/track> <https://dataweek.de/#pause> .
 <https://2026.dataweek.de/break/2026-06-03/08:30> <http://purl.org/dc/terms/date> "2026-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/break/2026-06-03/08:30> <http://purl.org/dc/terms/title> "Admission"@en .
@@ -1031,6 +1043,7 @@
 <https://2026.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-02/12:30> .
 <https://2026.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-02/15:00> .
 <https://2026.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-02/17:15> .
+<https://2026.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-02/19:00> .
 <https://2026.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-03/08:30> .
 <https://2026.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-03/10:30> .
 <https://2026.dataweek.de/breaks/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-03/12:30> .
@@ -1463,7 +1476,7 @@
 <https://2026.dataweek.de/lswt2026/#programm-talk-17> <http://schema.org/endTime> "14:05:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/lswt2026/#programm-talk-17> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2026.dataweek.de/lswt2026/#programm-talk-17> <http://schema.org/performer> <https://dataweek.de/#HerbertWein> .
-<https://2026.dataweek.de/lswt2026/#programm-talk-17> <http://schema.org/performer> <https://dataweek.de/#StephanSommerer> .
+<https://2026.dataweek.de/lswt2026/#programm-talk-17> <http://schema.org/performer> <https://dataweek.de/#StefanSommerer> .
 <https://2026.dataweek.de/lswt2026/#programm-talk-17> <http://schema.org/startTime> "13:50:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/lswt2026/#programm-talk-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/lswt2026/#programm-talk-18> <http://purl.org/dc/terms/date> "2026-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1683,17 +1696,19 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-13> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://purl.org/dc/terms/description> "Urban Digital Twins (UDTs) are an established tool in urban and spatial planning, used to create data-driven representations of complex urban systems, visualize interactions, and make decision-making processes more informed and efficient. However, when developing and designing a specific digital twin, many considerations must be taken into account, such as data sources, modeling, reuse, and interoperability. Using two examples from Speyer and Leipzig, we will identify current problems and challenges, but also present practical solutions. Above all, however, these inputs are intended to serve as a basis for in-depth discussions of individual topics. This initiative is part of the current funding program of the Federal Ministry of Research, Technology, and Space (BMFTR) aimed at accelerating planning for climate adaptation. https://www.fona.de/de/massnahmen/foerdermassnahmen/planungsbeschleunigung-fuer-die-klimaanpassung.php"@en .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://purl.org/dc/terms/description> "Urbane Digitale Zwillinge (UDZ) sind ein etabliertes Element der Stadt- und Raumplanung, um komplexe städtische Systeme datenbasiert abzubilden, Wechselwirkungen sichtbar zu machen und Entscheidungsprozesse fundierter sowie effizienter zu gestalten. Doch im Aufbau und der Gestaltung eines spezifischen Zwillings müssen viele Abwägungen getroffen werden, etwa zu Datenquellen, Modellierung, Nachnutzung, Interoperabilität. Anhand von zwei Beispielen aus Speyer und Leipzig werden wir aktuelle Probleme und Herausforderungen benennen, aber auch praxistaugliche Lösungen vorstellen. Vor allem verstehen sich die Inputs aber als Grundlage für ausgiebige Diskussionen einzelner Themen. Die Rahmung erfolgt im Kontext der aktuellen Fördermaßnahme des Bundesministeriums für Forschung, Technologie und Raumfahrt (BMFTR) zur Planungsbeschleunigung für die Klimaanpassung. https://www.fona.de/de/massnahmen/foerdermassnahmen/planungsbeschleunigung-fuer-die-klimaanpassung.php"@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://purl.org/dc/terms/description> "Urban Digital Twins (UDTs) are an established tool in urban and spatial planning, used to create data-driven representations of complex urban systems, highlight interactions, and make decision-making processes more informed and efficient. However, building and designing a specific digital twin requires careful consideration of many factors, such as data sources, modeling, reuse, and interoperability. Drawing on current research and two concrete practical examples, the panel will discuss the entire lifecycle of a digital twin: How can a city begin to implement data-driven climate adaptation or climate protection? How does the city of Leipzig transition from its energy twin to remote sensing data? And how does the city of Speyer conduct its evidence-based urban planning using its 3D city model? Above all, however, the presentations are intended to serve as a foundation for in-depth discussions of specific topics with experts from research and urban planning. The discussion will take place within the context of the current funding initiative by the Federal Ministry of Research, Technology, and Space (BMFTR) to accelerate planning for climate adaptation. https://www.fona.de/de/massnahmen/foerdermassnahmen/planungsbeschleunigung-fuer-die-klimaanpassung.php"@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://purl.org/dc/terms/description> "Urbane Digitale Zwillinge (UDZ) sind ein etabliertes Element der Stadt- und Raumplanung, um komplexe städtische Systeme datenbasiert abzubilden, Wechselwirkungen sichtbar zu machen und Entscheidungsprozesse fundierter sowie effizienter zu gestalten. Doch im Aufbau und der Gestaltung eines spezifischen Zwillings müssen viele Abwägungen getroffen werden, etwa zu Datenquellen, Modellierung, Nachnutzung, Interoperabilität. Anhand von aktuellen Forschungen und zwei konkreten Praxisbeispielen wird das Panel einen ganzen Lebenszyklus des Digitalen Zwillings durchsprechen: Wie kann eine Stadt anfangen, datengetriebene Klimaanpassung oder Klimaschutz zu betreiben? Wie kommt die Stadt Leipzig von ihrem Energiezwilling zu Fernerkundungsdaten? Und wie betreibt die Stadt Speyer ihre evidenzbasierte Stadtplanung auf Basis ihres 3D-Stadtmodells? Vor allem verstehen sich die Inputs aber als Grundlage für ausgiebige Diskussionen einzelner Themen mit den Expert:innen aus Forschung und Stadtplanung. Die Rahmung erfolgt im Kontext der aktuellen Fördermaßnahme des Bundesministeriums für Forschung, Technologie und Raumfahrt (BMFTR) zur Planungsbeschleunigung für die Klimaanpassung. https://www.fona.de/de/massnahmen/foerdermassnahmen/planungsbeschleunigung-fuer-die-klimaanpassung.php"@de .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://purl.org/dc/terms/title> "Between Data Models and Urban Reality: Urban Digital Twins as Tools for a Smart Climate Strategy"@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://purl.org/dc/terms/title> "Zwischen Datenmodell und Stadtrealität: Urbane Digitale Zwillinge als Instrumente einer Smart-Klima-Strategie"@de .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/performer> <https://dataweek.de/#CamillaWanckel> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/performer> <https://dataweek.de/#MirkoMuehlpfort> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/performer> <https://dataweek.de/#PhilippOffermann> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-39> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-40> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-41> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-15> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-15> <http://purl.org/dc/terms/title> "Corporate Digital Responsibility"@en .
@@ -1746,10 +1761,10 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/performer> <https://dataweek.de/#LindaGernitz> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-46> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-47> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-48> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-49> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-50> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-19> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-51> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-1> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-1> <http://purl.org/dc/terms/title> "Eröffnung"@de .
@@ -1772,7 +1787,7 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-20> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-21> <http://purl.org/dc/terms/date> "2026-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-21> <http://purl.org/dc/terms/description> "Räumlich verteiltes Arbeiten ist heute fester Bestandteil des Arbeitslebens, bringt jedoch auch neue Herausforderungen mit sich. Im Rahmen der Data Week laden wir Sie ein, eine neue Form der Remote-Arbeit kennenzulernen: Erleben Sie mit Telepräsenzrobotern, wie es ist, „vor Ort zu sein, ohne vor Ort zu sein“. Nehmen Sie an einer kurzen Studie teil oder verfolgen Sie die Anwendung per Video und teilen Sie Ihre Erfahrungen mit uns. Gemeinsam diskutieren wir die Potenziale für verschiedene Arbeitsbereiche."@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-21> <http://purl.org/dc/terms/description> "Räumlich verteiltes Arbeiten ist heute fester Bestandteil des Arbeitslebens, bringt jedoch auch neue Herausforderungen mit sich. Im Rahmen der Data Week laden wir Sie ein, eine neue Form der Remote-Arbeit kennenzulernen: Erleben Sie mit Telepräsenzrobotern, wie es ist, „vor Ort zu sein, ohne vor Ort zu sein“. Nehmen Sie an einer kurzen Studie teil oder verfolgen Sie die Anwendung per Video und teilen Sie Ihre Erfahrungen mit uns. Gemeinsam diskutieren wir die Potenziale für verschiedene Arbeitsbereiche. Anmeldung unter: https://www.conftool.net/dataweek2026/"@de .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-21> <http://purl.org/dc/terms/description> "Spatially distributed work is now an integral part of working life, but it also brings new challenges. As part of Data Week, we invite you to discover a new form of remote working: experience what it's like to “be there without being there” with telepresence robots. Take part in a short study or watch the application on video and share your experiences with us. Together, we will discuss the potential for different areas of work."@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-21> <http://purl.org/dc/terms/title> "Being there without being there: Working with telepresence robots (separate registration required; conducted by Chemnitz University of Technology)"@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-21> <http://purl.org/dc/terms/title> "Vor Ort sein – ohne vor Ort zu sein: Arbeiten mit Telepräsenzrobotern (separate Anmeldung erforderlich; durchgeführt von der TU Chemnitz)"@de .
@@ -1782,7 +1797,7 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-21> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-22> <http://purl.org/dc/terms/date> "2026-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-22> <http://purl.org/dc/terms/description> "Räumlich verteiltes Arbeiten ist heute fester Bestandteil des Arbeitslebens, bringt jedoch auch neue Herausforderungen mit sich. Im Rahmen der Data Week laden wir Sie ein, eine neue Form der Remote-Arbeit kennenzulernen: Erleben Sie mit Telepräsenzrobotern, wie es ist, „vor Ort zu sein, ohne vor Ort zu sein“. Nehmen Sie an einer kurzen Studie teil oder verfolgen Sie die Anwendung per Video und teilen Sie Ihre Erfahrungen mit uns. Gemeinsam diskutieren wir die Potenziale für verschiedene Arbeitsbereiche."@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-22> <http://purl.org/dc/terms/description> "Räumlich verteiltes Arbeiten ist heute fester Bestandteil des Arbeitslebens, bringt jedoch auch neue Herausforderungen mit sich. Im Rahmen der Data Week laden wir Sie ein, eine neue Form der Remote-Arbeit kennenzulernen: Erleben Sie mit Telepräsenzrobotern, wie es ist, „vor Ort zu sein, ohne vor Ort zu sein“. Nehmen Sie an einer kurzen Studie teil oder verfolgen Sie die Anwendung per Video und teilen Sie Ihre Erfahrungen mit uns. Gemeinsam diskutieren wir die Potenziale für verschiedene Arbeitsbereiche. Anmeldung unter: https://www.conftool.net/dataweek2026/"@de .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-22> <http://purl.org/dc/terms/description> "Spatially distributed work is now an integral part of working life, but it also brings new challenges. As part of Data Week, we invite you to discover a new form of remote working: experience what it's like to “be there without being there” with telepresence robots. Take part in a short study or watch the application on video and share your experiences with us. Together, we will discuss the potential for different areas of work."@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-22> <http://purl.org/dc/terms/title> "Being there without being there: Working with telepresence robots (separate registration required; conducted by Chemnitz University of Technology)"@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-22> <http://purl.org/dc/terms/title> "Vor Ort sein – ohne vor Ort zu sein: Arbeiten mit Telepräsenzrobotern (separate Anmeldung erforderlich; durchgeführt von der TU Chemnitz)"@de .
@@ -1792,7 +1807,7 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-22> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-23> <http://purl.org/dc/terms/date> "2026-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-23> <http://purl.org/dc/terms/description> "Räumlich verteiltes Arbeiten ist heute fester Bestandteil des Arbeitslebens, bringt jedoch auch neue Herausforderungen mit sich. Im Rahmen der Data Week laden wir Sie ein, eine neue Form der Remote-Arbeit kennenzulernen: Erleben Sie mit Telepräsenzrobotern, wie es ist, „vor Ort zu sein, ohne vor Ort zu sein“. Nehmen Sie an einer kurzen Studie teil oder verfolgen Sie die Anwendung per Video und teilen Sie Ihre Erfahrungen mit uns. Gemeinsam diskutieren wir die Potenziale für verschiedene Arbeitsbereiche."@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-23> <http://purl.org/dc/terms/description> "Räumlich verteiltes Arbeiten ist heute fester Bestandteil des Arbeitslebens, bringt jedoch auch neue Herausforderungen mit sich. Im Rahmen der Data Week laden wir Sie ein, eine neue Form der Remote-Arbeit kennenzulernen: Erleben Sie mit Telepräsenzrobotern, wie es ist, „vor Ort zu sein, ohne vor Ort zu sein“. Nehmen Sie an einer kurzen Studie teil oder verfolgen Sie die Anwendung per Video und teilen Sie Ihre Erfahrungen mit uns. Gemeinsam diskutieren wir die Potenziale für verschiedene Arbeitsbereiche. Anmeldung unter: https://www.conftool.net/dataweek2026/"@de .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-23> <http://purl.org/dc/terms/description> "Spatially distributed work is now an integral part of working life, but it also brings new challenges. As part of Data Week, we invite you to discover a new form of remote working: experience what it's like to “be there without being there” with telepresence robots. Take part in a short study or watch the application on video and share your experiences with us. Together, we will discuss the potential for different areas of work."@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-23> <http://purl.org/dc/terms/title> "Being there without being there: Working with telepresence robots (separate registration required; conducted by Chemnitz University of Technology)"@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-23> <http://purl.org/dc/terms/title> "Vor Ort sein – ohne vor Ort zu sein: Arbeiten mit Telepräsenzrobotern (separate Anmeldung erforderlich; durchgeführt von der TU Chemnitz)"@de .
@@ -1802,7 +1817,7 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-23> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-24> <http://purl.org/dc/terms/date> "2026-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-24> <http://purl.org/dc/terms/description> "Räumlich verteiltes Arbeiten ist heute fester Bestandteil des Arbeitslebens, bringt jedoch auch neue Herausforderungen mit sich. Im Rahmen der Data Week laden wir Sie ein, eine neue Form der Remote-Arbeit kennenzulernen: Erleben Sie mit Telepräsenzrobotern, wie es ist, „vor Ort zu sein, ohne vor Ort zu sein“. Nehmen Sie an einer kurzen Studie teil oder verfolgen Sie die Anwendung per Video und teilen Sie Ihre Erfahrungen mit uns. Gemeinsam diskutieren wir die Potenziale für verschiedene Arbeitsbereiche."@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-24> <http://purl.org/dc/terms/description> "Räumlich verteiltes Arbeiten ist heute fester Bestandteil des Arbeitslebens, bringt jedoch auch neue Herausforderungen mit sich. Im Rahmen der Data Week laden wir Sie ein, eine neue Form der Remote-Arbeit kennenzulernen: Erleben Sie mit Telepräsenzrobotern, wie es ist, „vor Ort zu sein, ohne vor Ort zu sein“. Nehmen Sie an einer kurzen Studie teil oder verfolgen Sie die Anwendung per Video und teilen Sie Ihre Erfahrungen mit uns. Gemeinsam diskutieren wir die Potenziale für verschiedene Arbeitsbereiche. Anmeldung unter: https://www.conftool.net/dataweek2026/"@de .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-24> <http://purl.org/dc/terms/description> "Spatially distributed work is now an integral part of working life, but it also brings new challenges. As part of Data Week, we invite you to discover a new form of remote working: experience what it's like to “be there without being there” with telepresence robots. Take part in a short study or watch the application on video and share your experiences with us. Together, we will discuss the potential for different areas of work."@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-24> <http://purl.org/dc/terms/title> "Being there without being there: Working with telepresence robots (separate registration required; conducted by Chemnitz University of Technology)"@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-24> <http://purl.org/dc/terms/title> "Vor Ort sein – ohne vor Ort zu sein: Arbeiten mit Telepräsenzrobotern (separate Anmeldung erforderlich; durchgeführt von der TU Chemnitz)"@de .
@@ -1811,56 +1826,56 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-24> <http://schema.org/location> <https://dataweek.de/venue#Room369> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-24> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-25> <http://purl.org/dc/terms/date> "2026-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-25> <http://purl.org/dc/terms/description> "Räumlich verteiltes Arbeiten ist heute fester Bestandteil des Arbeitslebens, bringt jedoch auch neue Herausforderungen mit sich. Im Rahmen der Data Week laden wir Sie ein, eine neue Form der Remote-Arbeit kennenzulernen: Erleben Sie mit Telepräsenzrobotern, wie es ist, „vor Ort zu sein, ohne vor Ort zu sein“. Nehmen Sie an einer kurzen Studie teil oder verfolgen Sie die Anwendung per Video und teilen Sie Ihre Erfahrungen mit uns. Gemeinsam diskutieren wir die Potenziale für verschiedene Arbeitsbereiche."@de .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-25> <http://purl.org/dc/terms/description> "Spatially distributed work is now an integral part of working life, but it also brings new challenges. As part of Data Week, we invite you to discover a new form of remote working: experience what it's like to “be there without being there” with telepresence robots. Take part in a short study or watch the application on video and share your experiences with us. Together, we will discuss the potential for different areas of work."@en .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-25> <http://purl.org/dc/terms/title> "Being there without being there: Working with telepresence robots (separate registration required; conducted by Chemnitz University of Technology)"@en .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-25> <http://purl.org/dc/terms/title> "Vor Ort sein – ohne vor Ort zu sein: Arbeiten mit Telepräsenzrobotern (separate Anmeldung erforderlich; durchgeführt von der TU Chemnitz)"@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-25> <http://purl.org/dc/terms/date> "2026-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-25> <http://purl.org/dc/terms/description> "As part of the ongoing development of the Digital City, a closed-door workshop will be held with Mayor Jung and the chairs of the expert commission, Prof. Dr. Lenk and Prof. Dr. Wende. The goal is to develop key guidelines and priority areas of action for a joint position paper. The workshop brings together diverse perspectives and practical experience from government, academia, and business, refines strategic priorities, and establishes a coordinated foundation for the further development of digital urban development within the framework of Leipzig’s Digital Agenda."@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-25> <http://purl.org/dc/terms/description> "Im Rahmen der Weiterentwicklung der Digitalen Stadt wird ein nicht öffentlicher Workshop mit dem Oberbürgermeister Herrn Jung sowie den Vorsitzenden der Expertenkommission Herrn Prof. Dr. Lenk und Herrn Prof. Dr. Wende durchgeführt. Ziel ist es, zentrale Leitlinien und prioritäre Handlungsfelder für ein gemeinsames Positionspapier zu erarbeiten. Der Workshop bündelt unterschiedliche Perspektiven und Praxis aus Verwaltung, Wissenschaft und Wirtschaft, schärft strategische Schwerpunkte und schafft eine abgestimmte Grundlage für die weitere Ausgestaltung der digitalen Stadtentwicklung im Rahmen der Leipziger Digitalen Agenda. Anmeldung unter: https://www.conftool.net/dataweek2026/"@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-25> <http://purl.org/dc/terms/title> "Development of key points for a position paper on digitalization and AI (participation by invitation only)"@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-25> <http://purl.org/dc/terms/title> "Erarbeitung von Eckpunkten für ein Positionspapier Digitalisierung & KI (Teilnahme auf Einladung)"@de .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-25> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-25> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-25> <http://schema.org/location> <https://dataweek.de/venue#Room369> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-25> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-25> <http://schema.org/endTime> "19:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-25> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-25> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-26> <http://purl.org/dc/terms/date> "2026-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-26> <http://purl.org/dc/terms/description> "Artificial intelligence (AI) is no longer a topic for the future; it is already changing how we live, work, and engage with society. But while companies and public authorities are increasingly using AI technologies, civil society often lags behind. Is it too complex, too uncertain, too many unanswered questions? Or is it a missed opportunity for greater public welfare, participation, and innovation?\nAI offers enormous potential for civil society action, from the automation of processes to data-based campaigns and new forms of participation. At the same time, pressing questions arise: How can data protection and ethics be guaranteed? Where are the limits and risks? And how can AI be designed in such a way that it truly serves the common good?\nIn this discussion, we want to highlight specific examples, challenges, and solutions and discuss together how civil society can use AI responsibly and courageously."@en .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-26> <http://purl.org/dc/terms/description> "Künstliche Intelligenz (KI) ist längst kein Zukunftsthema mehr, sie verändert bereits heute, wie wir leben, arbeiten und uns engagieren. Doch während Unternehmen und Behörden KI-Technologien zunehmend nutzen, bleibt die Zivilgesellschaft oft zurück. Zu komplex, zu unsicher, zu viele offene Fragen? Oder eine verpasste Chance für mehr Gemeinwohl, Teilhabe und Innovation?\nKI bietet enorme Potenziale für zivilgesellschaftliches Handeln, von der Automatisierung von Prozessen über datenbasierte Kampagnen bis hin zu neuen Formen der Partizipation. Gleichzeitig stellen sich drängende Fragen: Wie lassen sich Datenschutz und Ethik gewährleisten? Wo liegen die Grenzen und Risiken? Und wie kann KI so gestaltet werden, dass sie wirklich dem Gemeinwohl dient?\nIn dieser Diskussion wollen wir konkrete Beispiele, Herausforderungen und Lösungsansätze beleuchten und gemeinsam erörtern, wie Zivilgesellschaft KI verantwortungsvoll und mutig nutzen kann."@de .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-26> <http://purl.org/dc/terms/title> "Panel: Technically complicated and uncertain in terms of data protection law, but unbeatably effective. Why civil society needs to have more confidence in AI. (Track: Between engagement and algorithms)"@en .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-26> <http://purl.org/dc/terms/title> "Panel: Technisch kompliziert und datenschutzrechtlich ungewiss aber unschlagbar effektiv. Warum sich Zivilgesellschaft mehr KI trauen muss. (Track: Zwischen Engagement und Algorithmus)"@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-26> <http://purl.org/dc/terms/description> "Räumlich verteiltes Arbeiten ist heute fester Bestandteil des Arbeitslebens, bringt jedoch auch neue Herausforderungen mit sich. Im Rahmen der Data Week laden wir Sie ein, eine neue Form der Remote-Arbeit kennenzulernen: Erleben Sie mit Telepräsenzrobotern, wie es ist, „vor Ort zu sein, ohne vor Ort zu sein“. Nehmen Sie an einer kurzen Studie teil oder verfolgen Sie die Anwendung per Video und teilen Sie Ihre Erfahrungen mit uns. Gemeinsam diskutieren wir die Potenziale für verschiedene Arbeitsbereiche. Anmeldung unter: https://www.conftool.net/dataweek2026/"@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-26> <http://purl.org/dc/terms/description> "Spatially distributed work is now an integral part of working life, but it also brings new challenges. As part of Data Week, we invite you to discover a new form of remote working: experience what it's like to “be there without being there” with telepresence robots. Take part in a short study or watch the application on video and share your experiences with us. Together, we will discuss the potential for different areas of work."@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-26> <http://purl.org/dc/terms/title> "Being there without being there: Working with telepresence robots (separate registration required; conducted by Chemnitz University of Technology)"@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-26> <http://purl.org/dc/terms/title> "Vor Ort sein – ohne vor Ort zu sein: Arbeiten mit Telepräsenzrobotern (separate Anmeldung erforderlich; durchgeführt von der TU Chemnitz)"@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-26> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-26> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-26> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-26> <http://schema.org/performer> <https://dataweek.de/#ChristophSchubert> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-26> <http://schema.org/performer> <https://dataweek.de/#JessicaBraun> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-26> <http://schema.org/location> <https://dataweek.de/venue#Room369> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-26> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-27> <http://purl.org/dc/terms/date> "2026-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-27> <http://purl.org/dc/terms/description> "Räumlich verteiltes Arbeiten ist heute fester Bestandteil des Arbeitslebens, bringt jedoch auch neue Herausforderungen mit sich. Im Rahmen der Data Week laden wir Sie ein, eine neue Form der Remote-Arbeit kennenzulernen: Erleben Sie mit Telepräsenzrobotern, wie es ist, „vor Ort zu sein, ohne vor Ort zu sein“. Nehmen Sie an einer kurzen Studie teil oder verfolgen Sie die Anwendung per Video und teilen Sie Ihre Erfahrungen mit uns. Gemeinsam diskutieren wir die Potenziale für verschiedene Arbeitsbereiche."@de .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-27> <http://purl.org/dc/terms/description> "Spatially distributed work is now an integral part of working life, but it also brings new challenges. As part of Data Week, we invite you to discover a new form of remote working: experience what it's like to “be there without being there” with telepresence robots. Take part in a short study or watch the application on video and share your experiences with us. Together, we will discuss the potential for different areas of work."@en .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-27> <http://purl.org/dc/terms/title> "Being there without being there: Working with telepresence robots (separate registration required; conducted by Chemnitz University of Technology)"@en .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-27> <http://purl.org/dc/terms/title> "Vor Ort sein – ohne vor Ort zu sein: Arbeiten mit Telepräsenzrobotern (separate Anmeldung erforderlich; durchgeführt von der TU Chemnitz)"@de .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-27> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-27> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-27> <http://schema.org/location> <https://dataweek.de/venue#Room369> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-27> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-27> <http://purl.org/dc/terms/description> "Artificial intelligence (AI) is no longer a topic for the future; it is already changing how we live, work, and engage with society. But while companies and public authorities are increasingly using AI technologies, civil society often lags behind. Is it too complex, too uncertain, too many unanswered questions? Or is it a missed opportunity for greater public welfare, participation, and innovation?\nAI offers enormous potential for civil society action, from the automation of processes to data-based campaigns and new forms of participation. At the same time, pressing questions arise: How can data protection and ethics be guaranteed? Where are the limits and risks? And how can AI be designed in such a way that it truly serves the common good?\nIn this discussion, we want to highlight specific examples, challenges, and solutions and discuss together how civil society can use AI responsibly and courageously."@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-27> <http://purl.org/dc/terms/description> "Künstliche Intelligenz (KI) ist längst kein Zukunftsthema mehr, sie verändert bereits heute, wie wir leben, arbeiten und uns engagieren. Doch während Unternehmen und Behörden KI-Technologien zunehmend nutzen, bleibt die Zivilgesellschaft oft zurück. Zu komplex, zu unsicher, zu viele offene Fragen? Oder eine verpasste Chance für mehr Gemeinwohl, Teilhabe und Innovation?\nKI bietet enorme Potenziale für zivilgesellschaftliches Handeln, von der Automatisierung von Prozessen über datenbasierte Kampagnen bis hin zu neuen Formen der Partizipation. Gleichzeitig stellen sich drängende Fragen: Wie lassen sich Datenschutz und Ethik gewährleisten? Wo liegen die Grenzen und Risiken? Und wie kann KI so gestaltet werden, dass sie wirklich dem Gemeinwohl dient?\nIn dieser Diskussion wollen wir konkrete Beispiele, Herausforderungen und Lösungsansätze beleuchten und gemeinsam erörtern, wie Zivilgesellschaft KI verantwortungsvoll und mutig nutzen kann."@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-27> <http://purl.org/dc/terms/title> "Panel: Technically complicated and uncertain in terms of data protection law, but unbeatably effective. Why civil society needs to have more confidence in AI. (Track: Between engagement and algorithms)"@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-27> <http://purl.org/dc/terms/title> "Panel: Technisch kompliziert und datenschutzrechtlich ungewiss aber unschlagbar effektiv. Warum sich Zivilgesellschaft mehr KI trauen muss. (Track: Zwischen Engagement und Algorithmus)"@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-27> <http://schema.org/endTime> "10:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-27> <http://schema.org/location> <https://dataweek.de/venue#Festsaal> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-27> <http://schema.org/performer> <https://dataweek.de/#ChristophSchubert> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-27> <http://schema.org/performer> <https://dataweek.de/#JessicaBraun> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-27> <http://schema.org/startTime> "09:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-28> <http://purl.org/dc/terms/date> "2026-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-28> <http://purl.org/dc/terms/description> "Räumlich verteiltes Arbeiten ist heute fester Bestandteil des Arbeitslebens, bringt jedoch auch neue Herausforderungen mit sich. Im Rahmen der Data Week laden wir Sie ein, eine neue Form der Remote-Arbeit kennenzulernen: Erleben Sie mit Telepräsenzrobotern, wie es ist, „vor Ort zu sein, ohne vor Ort zu sein“. Nehmen Sie an einer kurzen Studie teil oder verfolgen Sie die Anwendung per Video und teilen Sie Ihre Erfahrungen mit uns. Gemeinsam diskutieren wir die Potenziale für verschiedene Arbeitsbereiche."@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-28> <http://purl.org/dc/terms/description> "Räumlich verteiltes Arbeiten ist heute fester Bestandteil des Arbeitslebens, bringt jedoch auch neue Herausforderungen mit sich. Im Rahmen der Data Week laden wir Sie ein, eine neue Form der Remote-Arbeit kennenzulernen: Erleben Sie mit Telepräsenzrobotern, wie es ist, „vor Ort zu sein, ohne vor Ort zu sein“. Nehmen Sie an einer kurzen Studie teil oder verfolgen Sie die Anwendung per Video und teilen Sie Ihre Erfahrungen mit uns. Gemeinsam diskutieren wir die Potenziale für verschiedene Arbeitsbereiche. Anmeldung unter: https://www.conftool.net/dataweek2026/"@de .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-28> <http://purl.org/dc/terms/description> "Spatially distributed work is now an integral part of working life, but it also brings new challenges. As part of Data Week, we invite you to discover a new form of remote working: experience what it's like to “be there without being there” with telepresence robots. Take part in a short study or watch the application on video and share your experiences with us. Together, we will discuss the potential for different areas of work."@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-28> <http://purl.org/dc/terms/title> "Being there without being there: Working with telepresence robots (separate registration required; conducted by Chemnitz University of Technology)"@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-28> <http://purl.org/dc/terms/title> "Vor Ort sein – ohne vor Ort zu sein: Arbeiten mit Telepräsenzrobotern (separate Anmeldung erforderlich; durchgeführt von der TU Chemnitz)"@de .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-28> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-28> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-28> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-28> <http://schema.org/location> <https://dataweek.de/venue#Room369> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-28> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-28> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-29> <http://purl.org/dc/terms/date> "2026-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-29> <http://purl.org/dc/terms/description> "Räumlich verteiltes Arbeiten ist heute fester Bestandteil des Arbeitslebens, bringt jedoch auch neue Herausforderungen mit sich. Im Rahmen der Data Week laden wir Sie ein, eine neue Form der Remote-Arbeit kennenzulernen: Erleben Sie mit Telepräsenzrobotern, wie es ist, „vor Ort zu sein, ohne vor Ort zu sein“. Nehmen Sie an einer kurzen Studie teil oder verfolgen Sie die Anwendung per Video und teilen Sie Ihre Erfahrungen mit uns. Gemeinsam diskutieren wir die Potenziale für verschiedene Arbeitsbereiche."@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-29> <http://purl.org/dc/terms/description> "Räumlich verteiltes Arbeiten ist heute fester Bestandteil des Arbeitslebens, bringt jedoch auch neue Herausforderungen mit sich. Im Rahmen der Data Week laden wir Sie ein, eine neue Form der Remote-Arbeit kennenzulernen: Erleben Sie mit Telepräsenzrobotern, wie es ist, „vor Ort zu sein, ohne vor Ort zu sein“. Nehmen Sie an einer kurzen Studie teil oder verfolgen Sie die Anwendung per Video und teilen Sie Ihre Erfahrungen mit uns. Gemeinsam diskutieren wir die Potenziale für verschiedene Arbeitsbereiche. Anmeldung unter: https://www.conftool.net/dataweek2026/"@de .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-29> <http://purl.org/dc/terms/description> "Spatially distributed work is now an integral part of working life, but it also brings new challenges. As part of Data Week, we invite you to discover a new form of remote working: experience what it's like to “be there without being there” with telepresence robots. Take part in a short study or watch the application on video and share your experiences with us. Together, we will discuss the potential for different areas of work."@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-29> <http://purl.org/dc/terms/title> "Being there without being there: Working with telepresence robots (separate registration required; conducted by Chemnitz University of Technology)"@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-29> <http://purl.org/dc/terms/title> "Vor Ort sein – ohne vor Ort zu sein: Arbeiten mit Telepräsenzrobotern (separate Anmeldung erforderlich; durchgeführt von der TU Chemnitz)"@de .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-29> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-29> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-29> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-29> <http://schema.org/location> <https://dataweek.de/venue#Room369> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-session-29> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-29> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://purl.org/dc/terms/description> "How can a modern state succeed in not only administering but also actively shaping society? In this panel discussion at Data Week Leipzig, representatives from government, civil society, and digital policy will discuss the future of the state’s capacity to act in an age of crises, complexity, and artificial intelligence. The focus will be on the opportunities and limitations of AI in public administration, the tensions between efficiency and the rule of law, and the question of how government action can once again inspire greater trust and effectiveness."@en .
@@ -1876,6 +1891,16 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://schema.org/startTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-10> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-30> <http://purl.org/dc/terms/date> "2026-06-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-30> <http://purl.org/dc/terms/description> "Räumlich verteiltes Arbeiten ist heute fester Bestandteil des Arbeitslebens, bringt jedoch auch neue Herausforderungen mit sich. Im Rahmen der Data Week laden wir Sie ein, eine neue Form der Remote-Arbeit kennenzulernen: Erleben Sie mit Telepräsenzrobotern, wie es ist, „vor Ort zu sein, ohne vor Ort zu sein“. Nehmen Sie an einer kurzen Studie teil oder verfolgen Sie die Anwendung per Video und teilen Sie Ihre Erfahrungen mit uns. Gemeinsam diskutieren wir die Potenziale für verschiedene Arbeitsbereiche. Anmeldung unter: https://www.conftool.net/dataweek2026/"@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-30> <http://purl.org/dc/terms/description> "Spatially distributed work is now an integral part of working life, but it also brings new challenges. As part of Data Week, we invite you to discover a new form of remote working: experience what it's like to “be there without being there” with telepresence robots. Take part in a short study or watch the application on video and share your experiences with us. Together, we will discuss the potential for different areas of work."@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-30> <http://purl.org/dc/terms/title> "Being there without being there: Working with telepresence robots (separate registration required; conducted by Chemnitz University of Technology)"@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-30> <http://purl.org/dc/terms/title> "Vor Ort sein – ohne vor Ort zu sein: Arbeiten mit Telepräsenzrobotern (separate Anmeldung erforderlich; durchgeführt von der TU Chemnitz)"@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-30> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-30> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-30> <http://schema.org/location> <https://dataweek.de/venue#Room369> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-30> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-3> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-3> <http://purl.org/dc/terms/description> "Die Industrie- und Handelskammer zu Leipzig bietet vielfältige Unterstützungsangebote und Erstberatungen zu wirtschaftlichen Fragestellungen. Im Rahmen der Data Week laden wir Sie ein, mit uns zu den Themen Gründung, Finanzierung, Aus- und Weiterbildung sowie IP-Schutz und rechtliche Konformität ins Gespräch zu kommen. Gemeinsam werfen wir einen Blick auf Ihre Vorhaben und besprechen Ihre individuellen Anliegen."@de .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-3> <http://purl.org/dc/terms/description> "The Leipzig Chamber of Industry and Commerce offers a wide range of support services and initial consultations on economic issues. As part of Data Week, we invite you to join us for discussions on topics such as start-ups, financing, training and further education, IP protection, and legal compliance. Together, we will take a look at your plans and discuss your individual concerns."@en .
@@ -1894,6 +1919,7 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-4> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-4> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-4> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-session-4> <http://schema.org/performer> <https://dataweek.de/#LindaGernitz> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-4> <http://schema.org/startTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-4> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-13> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-4> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-talk-14> .
@@ -2060,6 +2086,15 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-35> <http://schema.org/performer> <https://dataweek.de/#GuidoBlome> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-35> <http://schema.org/startTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-39> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-39> <http://purl.org/dc/terms/description> "Smart Climate City Analysis for the City of Leipzig - Categorization and Prioritization of Foundational and Key Measures"@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-39> <http://purl.org/dc/terms/description> "Smart-Klima-City-Analyse für die Stadt Leipzig - Kategorisierung und Priorisierung von Grundlagen- und Schlüsselmaßnahmen"@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/performer> <https://dataweek.de/#FabioBotta> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-39> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-3> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-3> <http://purl.org/dc/terms/title> "Eröffnung durch Moderatorin"@de .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-3> <http://purl.org/dc/terms/title> "Opening - Live translation available in English. "@en .
@@ -2069,47 +2104,45 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-3> <http://schema.org/performer> <https://dataweek.de/#LindaGernitz> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-3> <http://schema.org/startTime> "10:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://purl.org/dc/terms/description> "Autonome Shuttles sind Schlüsseltechnologien für die Mobilität der Zukunft. Doch welche Daten benötigen sie, um On-Demand-Dienste effizient und sicher anzubieten? Aufgebaut auf der langjährigen Mitwirkung im Projekt ABSOLUT II vermittelt der Vortrag praxisnahe Einblicke in die Datenanforderungen und Architekturen von autonomen Shuttle-Infrastrukturen."@de .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://purl.org/dc/terms/description> "Autonomous shuttles are key technologies for the mobility of the future. But what data do they need to offer on-demand services efficiently and safely? Based on many years of involvement in the ABSOLUT II project, this presentation provides practical insights into the data requirements and architectures of autonomous shuttle infrastructures."@en .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://purl.org/dc/terms/title> "Autonome Shuttles: Datenbasis für intelligente On-Demand-Mobilität"@de .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://purl.org/dc/terms/title> "Autonomous shuttles: Data basis for intelligent on-demand mobility"@en .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/endTime> "15:55:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/performer> <https://dataweek.de/#RuslanHrushchak> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-46> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-46> <http://purl.org/dc/terms/title> "Environmentally Sensitive Mobility Management with AIAMO – Artificial Intelligence and Mobility: A Practical Look at the Leipzig Pilot Region"@en .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-46> <http://purl.org/dc/terms/title> "Umweltsensitives Mobilitätsmanagement mit AIAMO – Artificial Intelligence And Mobility - Praxiseinblick in die Pilotregion Leipzig"@de .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/endTime> "16:25:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/performer> <https://dataweek.de/#ThomasTrabert> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/startTime> "15:55:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-47> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-47> <http://purl.org/dc/terms/title> "Den Arbeitsweg durch relevante Daten beeinflussen - Welche Rollen die Stadt und der Arbeitgeber spielen können."@de .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-47> <http://purl.org/dc/terms/title> "Influencing Commuting Patterns Through Relevant Data: The Roles That Cities and Employers Can Play"@en .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-47> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-47> <http://schema.org/endTime> "16:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-47> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-47> <http://schema.org/performer> <https://dataweek.de/#MaxMooij> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-47> <http://schema.org/startTime> "16:25:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-40> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-40> <http://purl.org/dc/terms/description> "Accelerating Planning with Digital Twins: From Energy Twins to Climate Twins (CoKLIP)"@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-40> <http://purl.org/dc/terms/description> "Planungsbeschleunigung durch Digitale Zwillinge: Vom Energiezwilling zur Klimazwilling (CoKLIP)"@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-40> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-40> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-40> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-40> <http://schema.org/performer> <https://dataweek.de/#JuliaSchliessauf> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-40> <http://schema.org/performer> <https://dataweek.de/#JuliusKnopp> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-40> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-41> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-41> <http://purl.org/dc/terms/description> "From 3D City Models to Evidence-Based Planning: How the Speyer Digital Twin Translates Research into Municipal Practice"@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-41> <http://purl.org/dc/terms/description> "Vom 3D-Stadtmodell zur evidenzbasierten Planung: Wie der Digitale Zwilling Speyer Forschung in kommunale Praxis übersetzt"@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-41> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-41> <http://schema.org/endTime> "15:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-41> <http://schema.org/location> <https://dataweek.de/venue#Ratsplenarsaal> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-41> <http://schema.org/performer> <https://dataweek.de/#Bj%C3%B6rnFreitag> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-41> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/description> "Das moderne dynamische Verkehrsmanagement ist zunehmend datengetrieben und smart. Durch \nneue Erfassungsmethoden des Verkehrs und KI-basierte Datenauswertung und Tools eröffnen sich \nneue Möglichkeiten zur Steuerung und Lenkung der städtischen Verkehre. Gleichzeitig werden \nhochwertige dynamische Daten über offene Schnittstellen für Anwender und Entwickler \nbereitgestellt, um Mehrwerte durch Multiplikation zu schaffen. \nIm Rahmen des Vortrages werden neue Anwendungen und Datengrundlagen des \nVerkehrsmanagements der Stadt Leipzig vorgestellt und anhand von praktischen Beispielen und \nVisualisierungen erklärt. Dazu gehört unter anderem eine smarte Grüne Welle-App, die KI-basierte \nBerechnung von Schaltzeitprognosen an den Ampeln, aber auch Lösungen zur Erkennung von \naktuellen und vergangenen, atypischen Verkehrszuständen im städtischen Straßennetz sowie neue, \nintelligente Lösungen zur Bevorrechtigung des ÖV. Skizziert werden auch aktuelle \nNutzungsmöglichkeiten von reichweitenstarken Routing-Plattformen wie Google Maps für das \nVerkehrsmanagement."@de .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/description> "Modern dynamic traffic management is increasingly data-driven and smart. New methods of traffic data collection, along with AI-based data analysis and tools, are opening up new possibilities for controlling and managing urban traffic. At the same time, high-quality dynamic data is made available to users and developers via open interfaces to create added value through collaboration. During the presentation, new applications and data foundations of traffic management in the city of Leipzig will be introduced and explained using practical examples and visualizations. These include, among other things, a smart green wave app, AI-based calculation of signal timing forecasts at traffic lights, as well as solutions for detecting current and past atypical traffic conditions in the urban road network and new, intelligent solutions for giving priority to public transportation. Current applications of high-reach routing platforms such as Google Maps for traffic management will also be outlined."@en .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/title> "Data-Driven and AI-Based Traffic Management in Leipzig"@en .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/title> "Datengetriebenes und KI-basiertes Verkehrsmanagement in Leipzig"@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/description> "Autonome Shuttles sind Schlüsseltechnologien für die Mobilität der Zukunft. Doch welche Daten benötigen sie, um On-Demand-Dienste effizient und sicher anzubieten? Aufgebaut auf der langjährigen Mitwirkung im Projekt ABSOLUT II vermittelt der Vortrag praxisnahe Einblicke in die Datenanforderungen und Architekturen von autonomen Shuttle-Infrastrukturen."@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/description> "Autonomous shuttles are key technologies for the mobility of the future. But what data do they need to offer on-demand services efficiently and safely? Based on many years of involvement in the ABSOLUT II project, this presentation provides practical insights into the data requirements and architectures of autonomous shuttle infrastructures."@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/title> "Autonome Shuttles: Datenbasis für intelligente On-Demand-Mobilität"@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-48> <http://purl.org/dc/terms/title> "Autonomous shuttles: Data basis for intelligent on-demand mobility"@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-48> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-48> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-48> <http://schema.org/endTime> "15:55:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-48> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-48> <http://schema.org/performer> <https://dataweek.de/#EikeSchulz> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-48> <http://schema.org/performer> <https://dataweek.de/#ThomasGrzeschik> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-48> <http://schema.org/startTime> "16:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-48> <http://schema.org/performer> <https://dataweek.de/#RuslanHrushchak> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-48> <http://schema.org/startTime> "15:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-49> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-49> <http://purl.org/dc/terms/title> "Environmentally Sensitive Mobility Management with AIAMO – Artificial Intelligence and Mobility: A Practical Look at the Leipzig Pilot Region"@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-49> <http://purl.org/dc/terms/title> "Umweltsensitives Mobilitätsmanagement mit AIAMO – Artificial Intelligence And Mobility - Praxiseinblick in die Pilotregion Leipzig"@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-49> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-49> <http://schema.org/endTime> "16:25:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-49> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-49> <http://schema.org/performer> <https://dataweek.de/#ThomasTrabert> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-49> <http://schema.org/startTime> "15:55:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-4> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-4> <http://purl.org/dc/terms/title> "Greetings from InfAI - Live translation available in English. "@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-4> <http://purl.org/dc/terms/title> "Grußwort vom InfAI"@de .
@@ -2120,6 +2153,27 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-4> <http://schema.org/performer> <https://dataweek.de/#IngolfRoemer> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-4> <http://schema.org/startTime> "10:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-50> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-50> <http://purl.org/dc/terms/title> "Den Arbeitsweg durch relevante Daten beeinflussen - Welche Rollen die Stadt und der Arbeitgeber spielen können."@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-50> <http://purl.org/dc/terms/title> "Influencing Commuting Patterns Through Relevant Data: The Roles That Cities and Employers Can Play"@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-50> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-50> <http://schema.org/endTime> "16:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-50> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-50> <http://schema.org/performer> <https://dataweek.de/#MaxMooij> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-50> <http://schema.org/startTime> "16:25:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-51> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-51> <http://purl.org/dc/terms/description> "Das moderne dynamische Verkehrsmanagement ist zunehmend datengetrieben und smart. Durch \nneue Erfassungsmethoden des Verkehrs und KI-basierte Datenauswertung und Tools eröffnen sich \nneue Möglichkeiten zur Steuerung und Lenkung der städtischen Verkehre. Gleichzeitig werden \nhochwertige dynamische Daten über offene Schnittstellen für Anwender und Entwickler \nbereitgestellt, um Mehrwerte durch Multiplikation zu schaffen. \nIm Rahmen des Vortrages werden neue Anwendungen und Datengrundlagen des \nVerkehrsmanagements der Stadt Leipzig vorgestellt und anhand von praktischen Beispielen und \nVisualisierungen erklärt. Dazu gehört unter anderem eine smarte Grüne Welle-App, die KI-basierte \nBerechnung von Schaltzeitprognosen an den Ampeln, aber auch Lösungen zur Erkennung von \naktuellen und vergangenen, atypischen Verkehrszuständen im städtischen Straßennetz sowie neue, \nintelligente Lösungen zur Bevorrechtigung des ÖV. Skizziert werden auch aktuelle \nNutzungsmöglichkeiten von reichweitenstarken Routing-Plattformen wie Google Maps für das \nVerkehrsmanagement."@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-51> <http://purl.org/dc/terms/description> "Modern dynamic traffic management is increasingly data-driven and smart. New methods of traffic data collection, along with AI-based data analysis and tools, are opening up new possibilities for controlling and managing urban traffic. At the same time, high-quality dynamic data is made available to users and developers via open interfaces to create added value through collaboration. During the presentation, new applications and data foundations of traffic management in the city of Leipzig will be introduced and explained using practical examples and visualizations. These include, among other things, a smart green wave app, AI-based calculation of signal timing forecasts at traffic lights, as well as solutions for detecting current and past atypical traffic conditions in the urban road network and new, intelligent solutions for giving priority to public transportation. Current applications of high-reach routing platforms such as Google Maps for traffic management will also be outlined."@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-51> <http://purl.org/dc/terms/title> "Data-Driven and AI-Based Traffic Management in Leipzig"@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-51> <http://purl.org/dc/terms/title> "Datengetriebenes und KI-basiertes Verkehrsmanagement in Leipzig"@de .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-51> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-51> <http://schema.org/endTime> "17:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-51> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-51> <http://schema.org/performer> <https://dataweek.de/#EikeSchulz> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-51> <http://schema.org/performer> <https://dataweek.de/#ThomasGrzeschik> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-51> <http://schema.org/startTime> "16:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-5> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-5> <http://purl.org/dc/terms/title> "Greetings from the City of Leipzig - Live translation available in English. "@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-5> <http://purl.org/dc/terms/title> "Grußwort der Stadt Leipzig"@de .
@@ -2160,6 +2214,7 @@
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-02/12:30> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-02/15:00> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-02/17:15> .
+<https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-02/19:00> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-03/10:30> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-03/12:30> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/break/2026-06-03/15:00> .
@@ -2188,6 +2243,7 @@
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-session-28> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-session-29> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-session-2> .
+<https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-session-30> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-session-3> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-session-4> .
 <https://2026.dataweek.de/stadt-leipzig/> <http://schema.org/subEvent> <https://2026.dataweek.de/stadt-leipzig/#programm-session-5> .
@@ -2204,6 +2260,7 @@
 <https://2026.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <http://aksw.org/NormanRadtke> .
 <https://2026.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <http://aksw.org/SebastianTramp> .
 <https://2026.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://dataweek.de/#LucySonnet> .
+<https://2026.dataweek.de/team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://dataweek.de/#TimonDischmann> .
 <https://2026.dataweek.de/team> <http://www.w3.org/2000/01/rdf-schema#label> "Organisationsteam"@de .
 <https://2026.dataweek.de/team> <http://www.w3.org/2000/01/rdf-schema#label> "Organization Team"@en .
 <https://2026.dataweek.de/tickets> <http://purl.org/dc/terms/description> "Tages- und Wochentickets k\u00F6nnen hier erworben werden: [https://www.conftool.net/dataweek2026/](https://www.conftool.net/dataweek2026/)\n\nSie m\u00FCssen ein Ticket kaufen, um an der Data Week Leipzig teilnehmen zu k\u00F6nnen. Studierende k\u00F6nnen ihre Studienbescheinigung im Ticketshop hochladen und erhalten nach Pr\u00FCfung ein verg\u00FCnstigtes Ticket. Wir stellen ein begrenztes Kontigent bereit.\n\nWir freuen uns auf Ihre Teilnahme!"@de .
@@ -2696,7 +2753,6 @@
 <https://2026.dataweek.de/workshops/#programm-session-8> <http://schema.org/subEvent> <https://2026.dataweek.de/workshops/#programm-talk-18> .
 <https://2026.dataweek.de/workshops/#programm-session-8> <http://schema.org/subEvent> <https://2026.dataweek.de/workshops/#programm-talk-19> .
 <https://2026.dataweek.de/workshops/#programm-session-8> <http://schema.org/subEvent> <https://2026.dataweek.de/workshops/#programm-talk-20> .
-<https://2026.dataweek.de/workshops/#programm-session-8> <http://schema.org/subEvent> <https://2026.dataweek.de/workshops/#programm-talk-21> .
 <https://2026.dataweek.de/workshops/#programm-session-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/workshops/#programm-session-9> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/workshops/#programm-session-9> <http://purl.org/dc/terms/description> "Modern AI-driven chat apps such as ChatGPT, Gemini, Claude and others are changing the way we work unavoidably. For many, this means writing texts or programming more efficiently. Some people overestimate the quality of generated text and may not admit that they have not curated AI-generated text properly. About 20 years ago we had to learn how to “google” properly, today we need to learn how to “prompt”. In this lecture, we will give an insight into various challenges that the current AI revolution is imposing on us and a number of opportunities in this context. The lecture gives examples, tips and tricks for dealing with Generative AI and will be followed by a practical part. It is recommended that you bring your own laptop to take part."@en .
@@ -2749,32 +2805,24 @@
 <https://2026.dataweek.de/workshops/#programm-talk-18> <http://schema.org/startTime> "11:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-talk-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/workshops/#programm-talk-19> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/workshops/#programm-talk-19> <http://purl.org/dc/terms/title> "Einsatz von KI bei der Steuerung von Verkehrsflüssen"@de .
-<https://2026.dataweek.de/workshops/#programm-talk-19> <http://purl.org/dc/terms/title> "The Use of AI in Traffic Flow Management"@en .
+<https://2026.dataweek.de/workshops/#programm-talk-19> <http://purl.org/dc/terms/title> "Data for autonomous mobility in cities and smart traffic management"@en .
+<https://2026.dataweek.de/workshops/#programm-talk-19> <http://purl.org/dc/terms/title> "Daten für autonome Mobilität in Städten und smarte Verkehrssteuerung"@de .
 <https://2026.dataweek.de/workshops/#programm-talk-19> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2026.dataweek.de/workshops/#programm-talk-19> <http://schema.org/endTime> "11:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/workshops/#programm-talk-19> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-talk-19> <http://schema.org/location> <https://dataweek.de/venue#Room369> .
+<https://2026.dataweek.de/workshops/#programm-talk-19> <http://schema.org/performer> <https://dataweek.de/#AndreasSchmid> .
 <https://2026.dataweek.de/workshops/#programm-talk-19> <http://schema.org/performer> <https://dataweek.de/#ThomasGrzeschik> .
 <https://2026.dataweek.de/workshops/#programm-talk-19> <http://schema.org/startTime> "11:20:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-talk-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/workshops/#programm-talk-20> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/workshops/#programm-talk-20> <http://purl.org/dc/terms/title> "Data for autonomous mobility in cities and smart traffic management"@en .
-<https://2026.dataweek.de/workshops/#programm-talk-20> <http://purl.org/dc/terms/title> "Daten für autonome Mobilität in Städten und smarte Verkehrssteuerung"@de .
+<https://2026.dataweek.de/workshops/#programm-talk-20> <http://purl.org/dc/terms/title> "Die Mobilitätswende durch Incentivierung unterstützen: Wie Anreize das Verkehrsverhalten beeinflussen können"@de .
+<https://2026.dataweek.de/workshops/#programm-talk-20> <http://purl.org/dc/terms/title> "Supporting the mobility transition through incentives: How incentives can influence transportation behavior"@en .
 <https://2026.dataweek.de/workshops/#programm-talk-20> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2026.dataweek.de/workshops/#programm-talk-20> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/workshops/#programm-talk-20> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-talk-20> <http://schema.org/location> <https://dataweek.de/venue#Room369> .
-<https://2026.dataweek.de/workshops/#programm-talk-20> <http://schema.org/performer> <https://dataweek.de/#AndreasSchmid> .
-<https://2026.dataweek.de/workshops/#programm-talk-20> <http://schema.org/startTime> "11:40:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/workshops/#programm-talk-20> <http://schema.org/performer> <https://dataweek.de/#StefanieWetzel> .
+<https://2026.dataweek.de/workshops/#programm-talk-20> <http://schema.org/startTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-talk-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
-<https://2026.dataweek.de/workshops/#programm-talk-21> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/workshops/#programm-talk-21> <http://purl.org/dc/terms/title> "Die Mobilitätswende durch Incentivierung unterstützen: Wie Anreize das Verkehrsverhalten beeinflussen können"@de .
-<https://2026.dataweek.de/workshops/#programm-talk-21> <http://purl.org/dc/terms/title> "Supporting the mobility transition through incentives: How incentives can influence transportation behavior"@en .
-<https://2026.dataweek.de/workshops/#programm-talk-21> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2026.dataweek.de/workshops/#programm-talk-21> <http://schema.org/endTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/workshops/#programm-talk-21> <http://schema.org/location> <https://dataweek.de/venue#Room369> .
-<https://2026.dataweek.de/workshops/#programm-talk-21> <http://schema.org/performer> <https://dataweek.de/#StefanieWetzel> .
-<https://2026.dataweek.de/workshops/#programm-talk-21> <http://schema.org/startTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/workshops/#programm-talk-21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/workshops/2026-06-01/> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/workshops/2026-06-01/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2026.dataweek.de/workshops/2026-06-01/> <http://www.w3.org/2000/01/rdf-schema#label> "Monday"@en .
@@ -3353,6 +3401,12 @@
 <https://dataweek.de/#BiancaSammer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#BiancaSammer> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/bianca-sammer-a8323914/> .
 <https://dataweek.de/#BiancaSammer> <http://xmlns.com/foaf/0.1/name> "Bianca Sammer" .
+<https://dataweek.de/#Bj%C3%B6rnFreitag> <http://purl.org/dc/terms/description> "Stabsstelle Strategische Stadtentwicklung und Zukunftsfragen"@de .
+<https://dataweek.de/#Bj%C3%B6rnFreitag> <http://purl.org/dc/terms/description> "Strategic Urban Development and Future Issues Unit"@en .
+<https://dataweek.de/#Bj%C3%B6rnFreitag> <http://schema.org/affiliation> <https://www.speyer.de/> .
+<https://dataweek.de/#Bj%C3%B6rnFreitag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#Bj%C3%B6rnFreitag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#Bj%C3%B6rnFreitag> <http://xmlns.com/foaf/0.1/name> "Björn Freitag" .
 <https://dataweek.de/#BrigittaZiegenbein> <http://purl.org/dc/terms/description> "Leiterin Stadtplanungsamt"@de .
 <https://dataweek.de/#BrigittaZiegenbein> <http://schema.org/affiliation> <https://www.leipzig.de/bauen-und-wohnen/stadtentwicklung/> .
 <https://dataweek.de/#BrigittaZiegenbein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -3364,8 +3418,8 @@
 <https://dataweek.de/#C%C3%A9dricCrettaz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#C%C3%A9dricCrettaz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#C%C3%A9dricCrettaz> <http://xmlns.com/foaf/0.1/name> "Cédric Crettaz" .
-<https://dataweek.de/#CamillaWanckel> <http://purl.org/dc/terms/description> "Research Associate"@en .
-<https://dataweek.de/#CamillaWanckel> <http://purl.org/dc/terms/description> "Wissenschaftliche Mitarbeiterin"@de .
+<https://dataweek.de/#CamillaWanckel> <http://purl.org/dc/terms/description> "BMFTR Accompanying Research Project – Planning Twins for Climate Adaptation"@en .
+<https://dataweek.de/#CamillaWanckel> <http://purl.org/dc/terms/description> "Wissenschaftliche Begleitforschung BMFTR – Planungszwillinge für Klimaanpassung"@de .
 <https://dataweek.de/#CamillaWanckel> <http://schema.org/affiliation> <http://www.rifs-potsdam.de/> .
 <https://dataweek.de/#CamillaWanckel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#CamillaWanckel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -3707,6 +3761,8 @@
 <https://dataweek.de/#EdgarSchero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#EdgarSchero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#EdgarSchero> <http://xmlns.com/foaf/0.1/name> "Edgar Schero" .
+<https://dataweek.de/#EikeSchulz> <http://purl.org/dc/terms/description> "Traffic and Data Management - Office of Mobility and Civil Engineering"@en .
+<https://dataweek.de/#EikeSchulz> <http://purl.org/dc/terms/description> "Verkehrs- und Datenmanagement - Mobilitäts- und Tiefbauamt"@de .
 <https://dataweek.de/#EikeSchulz> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> .
 <https://dataweek.de/#EikeSchulz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#EikeSchulz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -3825,6 +3881,12 @@
 <https://dataweek.de/#FabianLandua> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#FabianLandua> <http://xmlns.com/foaf/0.1/homepage> <https://www.linkedin.com/in/fabian-landua/> .
 <https://dataweek.de/#FabianLandua> <http://xmlns.com/foaf/0.1/name> "Fabian Landua" .
+<https://dataweek.de/#FabioBotta> <http://purl.org/dc/terms/description> "Research Associate"@en .
+<https://dataweek.de/#FabioBotta> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
+<https://dataweek.de/#FabioBotta> <http://schema.org/affiliation> <https://kowid.de/> .
+<https://dataweek.de/#FabioBotta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#FabioBotta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#FabioBotta> <http://xmlns.com/foaf/0.1/name> "Fabio Botta" .
 <https://dataweek.de/#FalkEngelmann> <http://schema.org/affiliation> <https://www.yantsu.de/> .
 <https://dataweek.de/#FalkEngelmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#FalkEngelmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -3845,8 +3907,8 @@
 <https://dataweek.de/#FawadKhan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#FawadKhan> <http://xmlns.com/foaf/0.1/name> "Fawad Khan" .
 <https://dataweek.de/#FawadKhan> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "In his career, he has worked on both research and commercial software applications using cutting edge technology and software skills. Currently, he is working on solutions that enable the collaborative creation of ontologies, taking into account different proficiency levels when working on ontologies."@en .
+<https://dataweek.de/#FelixBrei> <http://purl.org/dc/terms/description> "Research Associate"@en .
 <https://dataweek.de/#FelixBrei> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
-<https://dataweek.de/#FelixBrei> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@en .
 <https://dataweek.de/#FelixBrei> <http://schema.org/affiliation> <https://infai.org/> .
 <https://dataweek.de/#FelixBrei> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#FelixBrei> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -4411,6 +4473,8 @@
 <https://dataweek.de/#JuliaWerra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JuliaWerra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#JuliaWerra> <http://xmlns.com/foaf/0.1/name> "Julia Werra" .
+<https://dataweek.de/#JuliusKnopp> <http://purl.org/dc/terms/description> "Research Assistant"@en .
+<https://dataweek.de/#JuliusKnopp> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
 <https://dataweek.de/#JuliusKnopp> <http://schema.org/affiliation> <https://www.ufz.de> .
 <https://dataweek.de/#JuliusKnopp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#JuliusKnopp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -5278,8 +5342,8 @@
 <https://dataweek.de/#PhilippLentzen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#PhilippLentzen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#PhilippLentzen> <http://xmlns.com/foaf/0.1/name> "Philipp Lentzen" .
-<https://dataweek.de/#PhilippOffermann> <http://purl.org/dc/terms/description> "Research associate"@en .
-<https://dataweek.de/#PhilippOffermann> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
+<https://dataweek.de/#PhilippOffermann> <http://purl.org/dc/terms/description> "BMFTR Accompanying Research Project – Planning Twins for Climate Adaptation"@en .
+<https://dataweek.de/#PhilippOffermann> <http://purl.org/dc/terms/description> "Wissenschaftliche Begleitforschung BMFTR – Planungszwillinge für Klimaanpassung"@de .
 <https://dataweek.de/#PhilippOffermann> <http://schema.org/affiliation> <http://www.nexusinstitut.de/> .
 <https://dataweek.de/#PhilippOffermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#PhilippOffermann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -5712,6 +5776,12 @@
 <https://dataweek.de/#StefanHoltel> <http://xmlns.com/foaf/0.1/name> "Stefan Holtel" .
 <https://dataweek.de/#StefanHoltel> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Among other things, he worked for 11 years in research and development at Vodafone and holds several international patents. He regularly presents, publishes and lectures on how companies can manage digital transformation. He currently works at PricewaterhouseCoopers' DigiLab as a thought leader on interdisciplinary issues in Artificial Intelligence."@en .
 <https://dataweek.de/#StefanHoltel> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Er arbeitete u.a. 11 Jahre in der Forschung und Entwicklung von Vodafone und hält mehrere internationale Patente. Regelmäßig präsentiert, publiziert und doziert er zur Frage, wie Unternehmen die digitale Transformation bewältigen können. Derzeit arbeitet er im DigiLab von PricewaterhouseCoopers als Vordenker zu interdisziplinären Fragen der Künstlichen Intelligenz."@de .
+<https://dataweek.de/#StefanSommerer> <http://purl.org/dc/terms/description> "Engineer and Project Manager for SCADS Systems"@en .
+<https://dataweek.de/#StefanSommerer> <http://purl.org/dc/terms/description> "Engineer und Projektmanager für SCADS-Systeme"@de .
+<https://dataweek.de/#StefanSommerer> <http://schema.org/affiliation> <https://www.verbund.com/de> .
+<https://dataweek.de/#StefanSommerer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#StefanSommerer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#StefanSommerer> <http://xmlns.com/foaf/0.1/name> "Stefan Sommerer" .
 <https://dataweek.de/#StefanieThiele> <http://purl.org/dc/terms/description> "Data Governance Manager"@de .
 <https://dataweek.de/#StefanieThiele> <http://purl.org/dc/terms/description> "Data Governance Manager"@en .
 <https://dataweek.de/#StefanieThiele> <http://schema.org/affiliation> <https://stadt.muenchen.de/infos/portrait-geodatenservice.html> .
@@ -5728,12 +5798,6 @@
 <https://dataweek.de/#StephanKlinger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#StephanKlinger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#StephanKlinger> <http://xmlns.com/foaf/0.1/name> "Stephan Klingner" .
-<https://dataweek.de/#StephanSommerer> <http://purl.org/dc/terms/description> "Engineer and Project Manager for SCADS Systems"@en .
-<https://dataweek.de/#StephanSommerer> <http://purl.org/dc/terms/description> "Engineer und Projektmanager für SCADS-Systeme"@de .
-<https://dataweek.de/#StephanSommerer> <http://schema.org/affiliation> <https://www.verbund.com/de> .
-<https://dataweek.de/#StephanSommerer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
-<https://dataweek.de/#StephanSommerer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://dataweek.de/#StephanSommerer> <http://xmlns.com/foaf/0.1/name> "Stephan Sommerer" .
 <https://dataweek.de/#StevenLehmann> <http://purl.org/dc/terms/description> "Scientific Researcher"@en .
 <https://dataweek.de/#StevenLehmann> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
 <https://dataweek.de/#StevenLehmann> <http://schema.org/affiliation> <https://infai.org/> .
@@ -5795,8 +5859,8 @@
 <https://dataweek.de/#ThomasGroessel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ThomasGroessel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ThomasGroessel> <http://xmlns.com/foaf/0.1/name> "Thomas Grössel" .
-<https://dataweek.de/#ThomasGrzeschik> <http://purl.org/dc/terms/description> "Traffic Management at City of Leipzig, Office of Transportation and Public Works Dpt. Road /Traffic Management"@en .
-<https://dataweek.de/#ThomasGrzeschik> <http://purl.org/dc/terms/description> "Verkehrsmanagement bei Stadt Leipzig, Verkehrs- und Tiefbauamt\nAbt. Straßenverkehrsbehörde/Verkehrsmanagement"@de .
+<https://dataweek.de/#ThomasGrzeschik> <http://purl.org/dc/terms/description> "Traffic and Data Management - Office of Mobility and Civil Engineering"@en .
+<https://dataweek.de/#ThomasGrzeschik> <http://purl.org/dc/terms/description> "Verkehrs- und Datenmanagement - Mobilitäts- und Tiefbauamt"@de .
 <https://dataweek.de/#ThomasGrzeschik> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> .
 <https://dataweek.de/#ThomasGrzeschik> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ThomasGrzeschik> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -5876,6 +5940,10 @@
 <https://dataweek.de/#TimoHouben> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#TimoHouben> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#TimoHouben> <http://xmlns.com/foaf/0.1/name> "Timo Houben" .
+<https://dataweek.de/#TimonDischmann> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-digitale-stadt-82> .
+<https://dataweek.de/#TimonDischmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#TimonDischmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#TimonDischmann> <http://xmlns.com/foaf/0.1/name> "Timon Dischmann" .
 <https://dataweek.de/#TobiasEspig> <http://schema.org/affiliation> <https://www.agil-leipzig.de/> .
 <https://dataweek.de/#TobiasEspig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#TobiasEspig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -6325,6 +6393,11 @@
 <https://kmi-leipzig.de/> <http://www.w3.org/2000/01/rdf-schema#label> "K\u00FCnstlich Menschlisch Intelligent Kompetenzzentrum" .
 <https://kmi-leipzig.de/> <http://xmlns.com/foaf/0.1/homepage> <https://kmi-leipzig.de/> .
 <https://kmi-leipzig.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/kmi.svg" .
+<https://kowid.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://kowid.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://kowid.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Centre of Excellence for the Public Sector, Infrastructure and Public Services"@en .
+<https://kowid.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Kompetenzzentrum Öffentliche Wirtschaft, Infrastruktur und Daseinsvorsorge e.V."@de .
+<https://kowid.de/> <http://xmlns.com/foaf/0.1/homepage> <https://kowid.de/> .
 <https://kurzelinks.de/lc2n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://kv-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://kv-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
@@ -7402,6 +7475,11 @@
 <https://www.sonah.tech/de> <http://www.w3.org/2000/01/rdf-schema#label> "SONAH"@de .
 <https://www.sonah.tech/de> <http://www.w3.org/2000/01/rdf-schema#label> "SONAH"@en .
 <https://www.sonah.tech/de> <http://xmlns.com/foaf/0.1/homepage> <https://www.sonah.tech/de> .
+<https://www.speyer.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.speyer.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.speyer.de/> <http://www.w3.org/2000/01/rdf-schema#label> "City of Speyer"@en .
+<https://www.speyer.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Speyer"@de .
+<https://www.speyer.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.speyer.de/> .
 <https://www.sprind.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.sprind.org/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.sprind.org/> <http://www.w3.org/2000/01/rdf-schema#label> "Bundesagentur für Sprunginnovationen (SPRIN-D)"@de .
@@ -7555,6 +7633,11 @@
 <https://www.wiesbaden.de/vv/oe/07/141010100000449261.php> <http://www.w3.org/2000/01/rdf-schema#label> "City of Wiesbaden"@en .
 <https://www.wiesbaden.de/vv/oe/07/141010100000449261.php> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt Wiesbaden"@de .
 <https://www.wiesbaden.de/vv/oe/07/141010100000449261.php> <http://xmlns.com/foaf/0.1/homepage> <https://www.wiesbaden.de/vv/oe/07/141010100000449261.php> .
+<https://www.wifa.uni-leipzig.de/institut-fuer-oeffentliche-finanzen-und-public-management/kompetenzzentrum-fuer-kommunale-infrastruktur-sachsen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.wifa.uni-leipzig.de/institut-fuer-oeffentliche-finanzen-und-public-management/kompetenzzentrum-fuer-kommunale-infrastruktur-sachsen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.wifa.uni-leipzig.de/institut-fuer-oeffentliche-finanzen-und-public-management/kompetenzzentrum-fuer-kommunale-infrastruktur-sachsen> <http://www.w3.org/2000/01/rdf-schema#label> "Kompetenzzentrum für kommunale Infrastruktur Sachsen (KOMKIS)"@de .
+<https://www.wifa.uni-leipzig.de/institut-fuer-oeffentliche-finanzen-und-public-management/kompetenzzentrum-fuer-kommunale-infrastruktur-sachsen> <http://www.w3.org/2000/01/rdf-schema#label> "Saxony Centre of Excellence for Municipal Infrastructure (KOMKIS)"@en .
+<https://www.wifa.uni-leipzig.de/institut-fuer-oeffentliche-finanzen-und-public-management/kompetenzzentrum-fuer-kommunale-infrastruktur-sachsen> <http://xmlns.com/foaf/0.1/homepage> <https://www.wifa.uni-leipzig.de/institut-fuer-oeffentliche-finanzen-und-public-management/kompetenzzentrum-fuer-kommunale-infrastruktur-sachsen> .
 <https://www.wifa.uni-leipzig.de/personenprofil/mitarbeiter/simon-johanning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.wsl-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.wsl-leipzig.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
