@@ -2123,6 +2123,7 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-44> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-44> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-44> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-44> <http://schema.org/performer> <https://dataweek.de/#AlexanderBrink> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-44> <http://schema.org/startTime> "13:50:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2131,6 +2132,7 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/endTime> "14:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/performer> <https://dataweek.de/#LeonhardHenke> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://schema.org/startTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-46> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -2139,6 +2141,7 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/endTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/performer> <https://dataweek.de/#MaximilianFoerster> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-46> <http://schema.org/startTime> "14:10:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-47> <http://purl.org/dc/terms/date> "2026-06-02"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3041,6 +3044,11 @@
 <https://commission.europa.eu/index_en> <http://www.w3.org/2000/01/rdf-schema#label> "European Comission"@en .
 <https://commission.europa.eu/index_en> <http://www.w3.org/2000/01/rdf-schema#label> "Europäische Kommission"@de .
 <https://commission.europa.eu/index_en> <http://xmlns.com/foaf/0.1/homepage> <https://commission.europa.eu/index_en> .
+<https://concern.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://concern.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://concern.de/> <http://www.w3.org/2000/01/rdf-schema#label> "CONCERN"@de .
+<https://concern.de/> <http://www.w3.org/2000/01/rdf-schema#label> "CONCERN"@en .
+<https://concern.de/> <http://xmlns.com/foaf/0.1/homepage> <https://concern.de/> .
 <https://connectedurbantwins.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
 <https://connectedurbantwins.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Connected Urban Twins" .
 <https://connectedurbantwins.de/> <http://xmlns.com/foaf/0.1/homepage> <https://connectedurbantwins.de/> .
@@ -3131,6 +3139,12 @@
 <https://dataweek.de/#AlexanderBigerl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AlexanderBigerl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#AlexanderBigerl> <http://xmlns.com/foaf/0.1/name> "Alexander Bigerl" .
+<https://dataweek.de/#AlexanderBrink> <http://schema.org/affiliation> <https://www.uni-bayreuth.de/> .
+<https://dataweek.de/#AlexanderBrink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#AlexanderBrink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#AlexanderBrink> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prof. Alexander Brink" .
+<https://dataweek.de/#AlexanderBrink> <http://xmlns.com/foaf/0.1/name> "Alexander Brink" .
+<https://dataweek.de/#AlexanderBrink> <http://xmlns.com/foaf/0.1/title> "Prof." .
 <https://dataweek.de/#AlexanderFriedenberger> <http://schema.org/affiliation> <https://stackfuel.com/de/> .
 <https://dataweek.de/#AlexanderFriedenberger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#AlexanderFriedenberger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -4607,6 +4621,10 @@
 <https://dataweek.de/#LennartCarstensBehrens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#LennartCarstensBehrens> <http://xmlns.com/foaf/0.1/name> "Lennart Carstens-Behrens" .
 <https://dataweek.de/#LennartCarstensBehrens> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Studiert Informatik im Bachelor-Studiengang an der Hochschule für Technik, Wirtschaft und Kultur Leipzig und ist Preisträger beim InformatiCup2022 der Gesellschaft für Informatik e.V.."@en .
+<https://dataweek.de/#LeonhardHenke> <http://schema.org/affiliation> <https://concern.de/> .
+<https://dataweek.de/#LeonhardHenke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#LeonhardHenke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#LeonhardHenke> <http://xmlns.com/foaf/0.1/name> "Leonhard Henke" .
 <https://dataweek.de/#LinaHoeck> <http://purl.org/dc/terms/description> "Research assistant"@en .
 <https://dataweek.de/#LinaHoeck> <http://purl.org/dc/terms/description> "Wissenschaftliche Mitarbeiterin"@de .
 <https://dataweek.de/#LinaHoeck> <http://schema.org/affiliation> <https://come2data.de/> .
@@ -5013,6 +5031,10 @@
 <https://dataweek.de/#MaximilianBarth> <http://xmlns.com/foaf/0.1/name> "Maximilian Barth" .
 <https://dataweek.de/#MaximilianBarth> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Maximilian Barth is responsible for strategic partnerships and business development at Stackfuel, as well as network manager for the BMBF funding project \"Toolbox Datenkompetenz\". After studying International Business at Maastricht University, with a focus on strategy and finance, he started his career as Business Development Manager at a digital health start-up in Berlin. At the beginning of 2022, Maximilian Barth started at Stackfuel, with the idea that a comprehensive and effective handling of data is essential for the future."@en .
 <https://dataweek.de/#MaximilianBarth> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Maximilian Barth ist zuständig für die Bereiche strategische Partnerschaften und Business Development bei Stackfuel, sowie als Netzwerkmanager für das Förderprojekt des BMBF „Toolbox Datenkompetenz“ tätig. Nach dem International Business Studium an der Maastricht University, mit den Schwerpunkten Strategie und Finanzen, startete er seine Karriere als Business Development Manager bei einem Digital Health Start-up in Berlin. Anfang 2022 startete Maximilian Barth bei Stackfuel, mit der Überzeugung das ein flächendeckender und effektiver Umgang mit Daten für die Zukunft essenziell ist"@de .
+<https://dataweek.de/#MaximilianFoerster> <http://schema.org/affiliation> <https://www.aok.de/pk/plus/> .
+<https://dataweek.de/#MaximilianFoerster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://dataweek.de/#MaximilianFoerster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#MaximilianFoerster> <http://xmlns.com/foaf/0.1/name> "Maximilian Förster " .
 <https://dataweek.de/#MaximilianLange> <http://purl.org/dc/terms/description> "Scientific Researcher"@en .
 <https://dataweek.de/#MaximilianLange> <http://purl.org/dc/terms/description> "Wissenschaftlicher Mitarbeiter"@de .
 <https://dataweek.de/#MaximilianLange> <http://schema.org/affiliation> <https://www.ufz.de> .
@@ -6714,6 +6736,11 @@
 <https://www.alexanderthamm.com/> <http://xmlns.com/foaf/0.1/homepage> <https://alexanderthamm.com/> .
 <https://www.alexanderthamm.com/> <http://xmlns.com/foaf/0.1/homepage> <https://www.alexanderthamm.com/> .
 <https://www.alexanderthamm.com/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/at.png" .
+<https://www.aok.de/pk/plus/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.aok.de/pk/plus/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.aok.de/pk/plus/> <http://www.w3.org/2000/01/rdf-schema#label> "AOK Plus"@de .
+<https://www.aok.de/pk/plus/> <http://www.w3.org/2000/01/rdf-schema#label> "AOK Plus"@en .
+<https://www.aok.de/pk/plus/> <http://xmlns.com/foaf/0.1/homepage> <https://www.aok.de/pk/plus/> .
 <https://www.appsfactory.de/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.appsfactory.de/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.appsfactory.de/en> <http://www.w3.org/2000/01/rdf-schema#label> "Appsfactory GmbH"@de .
@@ -7581,6 +7608,11 @@
 <https://www.umweltbundesamt.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.umweltbundesamt.de/> .
 <https://www.umweltbundesamt.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.umweltbundesamt.de/themen/digitalisierung/anwendungslabor-fuer-kuenstliche-intelligenz-big#das-ki-lab-am-uba-fur-das-umweltressort> .
 <https://www.umweltbundesamt.de/> <http://xmlns.com/foaf/0.1/logo> "/resources/images/partner/umweltbundesamt.png" .
+<https://www.uni-bayreuth.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://www.uni-bayreuth.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://www.uni-bayreuth.de/> <http://www.w3.org/2000/01/rdf-schema#label> "University of Bayreuth"@en .
+<https://www.uni-bayreuth.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Universität Bayreuth"@de .
+<https://www.uni-bayreuth.de/> <http://xmlns.com/foaf/0.1/homepage> <https://www.uni-bayreuth.de/> .
 <https://www.uni-bielefeld.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.uni-bielefeld.de/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <https://www.uni-bielefeld.de/> <http://www.w3.org/2000/01/rdf-schema#label> "University Bielefeld"@en .
