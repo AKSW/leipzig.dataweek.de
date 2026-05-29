@@ -368,6 +368,7 @@
 <https://2026.dataweek.de/2026-06-01/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2026.dataweek.de/2026-06-01/Room259> .
 <https://2026.dataweek.de/2026-06-01/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2026.dataweek.de/2026-06-01/Room260> .
 <https://2026.dataweek.de/2026-06-01/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2026.dataweek.de/2026-06-01/Room270> .
+<https://2026.dataweek.de/2026-06-01/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://2026.dataweek.de/2026-06-01/Room369> .
 <https://2026.dataweek.de/2026-06-01/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2026.dataweek.de/2026-06-01/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
 <https://2026.dataweek.de/2026-06-01/> <http://www.w3.org/2000/01/rdf-schema#label> "Monday"@en .
@@ -405,6 +406,13 @@
 <https://2026.dataweek.de/2026-06-01/Room270> <http://www.w3.org/2000/01/rdf-schema#label> "Room 270"@en .
 <https://2026.dataweek.de/2026-06-01/Room270> <https://dataweek.de/#resourceUri> <https://2026.dataweek.de/> .
 <https://2026.dataweek.de/2026-06-01/Room270> <https://dataweek.de/#viewFilter> "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Room270>" .
+<https://2026.dataweek.de/2026-06-01/Room369> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/2026-06-01/Room369> <http://schema.org/location> <https://dataweek.de/venue#Room369> .
+<https://2026.dataweek.de/2026-06-01/Room369> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
+<https://2026.dataweek.de/2026-06-01/Room369> <http://www.w3.org/2000/01/rdf-schema#label> "Raum 369"@de .
+<https://2026.dataweek.de/2026-06-01/Room369> <http://www.w3.org/2000/01/rdf-schema#label> "Room 369"@en .
+<https://2026.dataweek.de/2026-06-01/Room369> <https://dataweek.de/#resourceUri> <https://2026.dataweek.de/> .
+<https://2026.dataweek.de/2026-06-01/Room369> <https://dataweek.de/#viewFilter> "str(?date) = \"2026-06-01\" && ?location = <https://dataweek.de/venue#Room369>" .
 <https://2026.dataweek.de/2026-06-01/Sitzungssaal> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/2026-06-01/Sitzungssaal> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2026.dataweek.de/2026-06-01/Sitzungssaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#ProgramView> .
@@ -727,12 +735,13 @@
 <https://2026.dataweek.de/FooterMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2026.dataweek.de/datenschutz/> .
 <https://2026.dataweek.de/FooterMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2026.dataweek.de/contact/> .
 <https://2026.dataweek.de/FooterMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
-<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2026.dataweek.de/program> .
-<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2026.dataweek.de/tickets> .
-<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2026.dataweek.de/sponsoring> .
-<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2026.dataweek.de/tracks> .
-<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2026.dataweek.de/venue/> .
-<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2026.dataweek.de/news> .
+<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://2026.dataweek.de/live> .
+<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <https://2026.dataweek.de/program> .
+<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <https://2026.dataweek.de/tickets> .
+<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> <https://2026.dataweek.de/sponsoring> .
+<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> <https://2026.dataweek.de/tracks> .
+<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> <https://2026.dataweek.de/venue/> .
+<https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> <https://2026.dataweek.de/news> .
 <https://2026.dataweek.de/MainMenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ns.ontowiki.net/SysOnt/Site/Navigation> .
 <https://2026.dataweek.de/MainMenu> <http://xmlns.com/foaf/0.1/primaryTopic> <https://2026.dataweek.de/> .
 <https://2026.dataweek.de/News1> <http://purl.org/dc/terms/date> "2025-08-25T07:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
@@ -1956,22 +1965,25 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-session-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-10> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-10> <http://purl.org/dc/terms/title> "Rethinking State Modernization: From an Administrative State to a Shaping State"@en .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-10> <http://purl.org/dc/terms/title> "Staatsmodernisierung neu denken: Vom verwaltenden zum gestaltenden Staat"@de .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-10> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-10> <http://schema.org/endTime> "12:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-10> <http://schema.org/endTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-10> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-10> <http://schema.org/performer> <https://dataweek.de/#TiajiSio> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-10> <http://schema.org/startTime> "12:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-11> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-11> <http://purl.org/dc/terms/description> "Anyone who, when discussing AI today, talks only of innovation, progress, productivity, and a “lean government” is overlooking the core issues surrounding power, inequality, and the erosion of the rule of law. Are we facing a state that replaces accountability with probability and arguments with algorithms? Have we truly understood enough about the power and profit interests of those whose technologies we intend to use as the supposed solution to our problems?"@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-11> <http://purl.org/dc/terms/description> "Wer heute im Zusammenhang mit KI nur über Innovation, Fortschritt, Produktivität und \"schlanker Staat\" redet, vergisst die Kernfragen rund um Macht, Ungleichheit und dem Ende des Rechtsstaats. Droht ein Staat, der Rechenschaft durch Wahrscheinlichkeit ersetzt und Argumente durch Algorithmen? Haben wir wirklich genug über die Macht- und Profitinteressen derjenigen verstanden, deren Technologien wir zur vermeintlichen Lösung unserer Probleme heranziehen wollen?"@de .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-11> <http://purl.org/dc/terms/title> "make bureaucracy great again - Was verbirgt sich am Ende des Regenbogens von KI-Staatsmodernisierung?"@de .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-11> <http://purl.org/dc/terms/title> "make bureaucracy great again - What lies at the end of the rainbow of AI-driven government modernization? (Live translation available in English.)"@en .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-11> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-11> <http://schema.org/endTime> "12:50:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-11> <http://schema.org/endTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-11> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-11> <http://schema.org/performer> <https://dataweek.de/#GeraldSwarat> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-11> <http://schema.org/startTime> "12:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-11> <http://schema.org/startTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://dataweek.de/#Keynote> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-12> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -1979,7 +1991,7 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-12> <http://schema.org/endTime> "14:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-12> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-12> <http://schema.org/performer> <https://dataweek.de/#MirkoMuehlpfort> .
-<https://2026.dataweek.de/stadt-leipzig/#programm-talk-12> <http://schema.org/startTime> "12:50:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-12> <http://schema.org/startTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-15> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-15> <http://purl.org/dc/terms/title> "Digitale Souveränität neu denken: Solid für interoperable & dezentrale Datenökosysteme!"@de .
@@ -1998,6 +2010,7 @@
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-16> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-16> <http://schema.org/endTime> "13:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-16> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
+<https://2026.dataweek.de/stadt-leipzig/#programm-talk-16> <http://schema.org/performer> <https://dataweek.de/#CharlieLiebscher> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-16> <http://schema.org/performer> <https://dataweek.de/#MathiasBoedecker> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-16> <http://schema.org/startTime> "13:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/stadt-leipzig/#programm-talk-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -2702,7 +2715,7 @@
 <https://2026.dataweek.de/workshops/#programm-session-3> <http://purl.org/dc/terms/title> "Von Governance zu Guardrails: Testing und Monitoring als Fundament vertrauenswürdiger KI (durchgeführt von EWERK)"@de .
 <https://2026.dataweek.de/workshops/#programm-session-3> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
 <https://2026.dataweek.de/workshops/#programm-session-3> <http://schema.org/endTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/workshops/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Room270> .
+<https://2026.dataweek.de/workshops/#programm-session-3> <http://schema.org/location> <https://dataweek.de/venue#Room369> .
 <https://2026.dataweek.de/workshops/#programm-session-3> <http://schema.org/performer> <https://dataweek.de/#DaveBoden> .
 <https://2026.dataweek.de/workshops/#programm-session-3> <http://schema.org/performer> <https://dataweek.de/#FrederikLoew> .
 <https://2026.dataweek.de/workshops/#programm-session-3> <http://schema.org/startTime> "14:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
@@ -2730,8 +2743,8 @@
 <https://2026.dataweek.de/workshops/#programm-session-5> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-session-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/date> "2026-06-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/description> "Workshop: Was passiert, wenn zentrale Infrastrukturen ausfallen – Strom, Internet, Mobilfunk? In diesem Workshop wird genau diese Frage praxisnah untersucht. Nach einem kurzen, interaktiven Einstieg zu den eigenen digitalen Abhängigkeiten erhalten die Teilnehmenden kompakte Inputs zu realistischen Krisenszenarien, Kaskadeneffekten bei Infrastrukturausfällen und bestehenden Initiativen rund um Lastenradlogistik und Krisenkommunikation. Darauf aufbauend identifizieren die Teilnehmenden gemeinsam zentrale Verwundbarkeiten – insbesondere im Bereich Kommunikation – und priorisieren diese.\n\nIm zweiten Teil werden konkrete Lösungsansätze entwickelt: Wie lassen sich physische Mobilität (z. B. Fahrräder), dezentrale Dateninfrastrukturen und analoge Rückfallebenen sinnvoll kombinieren? Welche Ansätze sind robust, skalierbar und fördern Datenautonomie? Der Workshop richtet sich an alle, die sich mit Krisenresilienz, Kommunikation, urbaner Logistik oder zukunftsfähiger Infrastruktur beschäftigen und gemeinsam neue, belastbare Lösungen entwickeln möchten."@de .
-<https://2026.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/description> "Workshop: What happens when critical infrastructure fails—electricity, the internet, mobile networks? This workshop will explore this very question in a practical, hands-on way. Following a brief, interactive introduction to participants’ own digital dependencies, attendees will receive concise insights into realistic crisis scenarios, cascading effects of infrastructure failures, and existing initiatives related to cargo bike logistics and crisis communication. Building on this, participants will collaboratively identify key vulnerabilities—particularly in the area of communication—and prioritize them.\n\nIn the second part, concrete solutions will be developed: How can physical mobility (e.g., bicycles), decentralized data infrastructures, and analog fallback systems be meaningfully combined? Which approaches are robust, scalable, and promote data autonomy? The workshop is aimed at anyone involved in crisis resilience, communication, urban logistics, or sustainable infrastructure who wishes to collaborate on developing new, resilient solutions."@en .
+<https://2026.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/description> "Workshop: Was passiert, wenn zentrale Infrastrukturen ausfallen – Strom, Internet, Mobilfunk? In diesem Workshop wird genau diese Frage praxisnah untersucht. Nach einem kurzen, interaktiven Einstieg zu den eigenen digitalen Abhängigkeiten erhalten die Teilnehmenden kompakte Inputs zu realistischen Krisenszenarien, Kaskadeneffekten bei Infrastrukturausfällen und bestehenden Initiativen rund um Lastenradlogistik und Krisenkommunikation. Darauf aufbauend identifizieren die Teilnehmenden gemeinsam zentrale Verwundbarkeiten – insbesondere im Bereich Kommunikation – und priorisieren diese.\n\nIm zweiten Teil werden konkrete Lösungsansätze entwickelt: Wie lassen sich physische Mobilität (z. B. Fahrräder), dezentrale Dateninfrastrukturen (z. B. stabiles Notfall-WLAN/Notfallboxen) und analoge Rückfallebenen sinnvoll kombinieren? Welche Ansätze sind robust, skalierbar und fördern Datenautonomie? Der Workshop richtet sich an alle, die sich mit Krisenresilienz, Kommunikation, urbaner Logistik oder zukunftsfähiger Infrastruktur beschäftigen und gemeinsam neue, belastbare Lösungen entwickeln möchten."@de .
+<https://2026.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/description> "Workshop: What happens when critical infrastructure fails—electricity, the internet, mobile networks? This workshop will explore this very question in a practical, hands-on way. Following a brief, interactive introduction to participants’ own digital dependencies, attendees will receive concise insights into realistic crisis scenarios, cascading effects of infrastructure failures, and existing initiatives related to cargo bike logistics and crisis communication. Building on this, participants will collaboratively identify key vulnerabilities—particularly in the area of communication—and prioritize them.\n\nIn the second part, concrete solutions will be developed: How can physical mobility (e.g., bicycles), decentralized data infrastructures (e.g., stable emergency Wi-Fi/emergency boxes), and analog fallback systems be effectively combined? Which approaches are robust, scalable, and promote data autonomy? The workshop is aimed at anyone involved in crisis resilience, communication, urban logistics, or sustainable infrastructure who would like to collaborate on developing new, resilient solutions."@en .
 <https://2026.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/title> "Kein Strom – Keine Daten?! - Und wie kommen dann krisenrelevante Güter von A nach B?"@de .
 <https://2026.dataweek.de/workshops/#programm-session-6> <http://purl.org/dc/terms/title> "No Power – No Data?! - So how do crisis-related goods get from A to B?"@en .
 <https://2026.dataweek.de/workshops/#programm-session-6> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/deu> .
@@ -2739,6 +2752,7 @@
 <https://2026.dataweek.de/workshops/#programm-session-6> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
 <https://2026.dataweek.de/workshops/#programm-session-6> <http://schema.org/performer> <https://dataweek.de/#MalteKania> .
 <https://2026.dataweek.de/workshops/#programm-session-6> <http://schema.org/performer> <https://dataweek.de/#PaulGeoerg> .
+<https://2026.dataweek.de/workshops/#programm-session-6> <http://schema.org/performer> <https://dataweek.de/#TimonDischmann> .
 <https://2026.dataweek.de/workshops/#programm-session-6> <http://schema.org/performer> <https://dataweek.de/#TomAssmann> .
 <https://2026.dataweek.de/workshops/#programm-session-6> <http://schema.org/startTime> "16:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/workshops/#programm-session-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
@@ -5974,7 +5988,10 @@
 <https://dataweek.de/#TiajiSio> <http://schema.org/affiliation> <https://reform-staat.org/> .
 <https://dataweek.de/#TiajiSio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#TiajiSio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://dataweek.de/#TiajiSio> <http://xmlns.com/foaf/0.1/depiction> "/resources/images/people/TiajiSio.jpg" .
 <https://dataweek.de/#TiajiSio> <http://xmlns.com/foaf/0.1/name> "Tiaji Sio" .
+<https://dataweek.de/#TiajiSio> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Tiaji Sio arbeitet an der Schnittstelle von Staatsmodernisierung, demokratischer Erneuerung und kollektiver Handlungsfähigkeit. Als Mission Lead von Re:Form bei ProjectTogether bringt sie Akteur:innen aus Verwaltung, Zivilgesellschaft und Philanthropie zusammen, um den deutschen Staat leistungsfähiger, kollaborativer und zukunftsorientierter zu gestalten. Im Mittelpunkt ihrer Arbeit steht die Umsetzung politischer Zielsetzungen durch den Aufbau sektorübergreifender Allianzen, die Förderung von Experimentier- und Lernräumen sowie die Stärkung staatlicher Umsetzungskapazitäten auf Bundes-, Landes- und kommunaler Ebene. Zuvor war sie im Bereich Public Diplomacy und institutioneller Transformation tätig. Sie ist Mitgründerin von DIVERSITRY sowie der Initiative Diplomats of Color. Für ihr gesellschaftliches und institutionelles Engagement wurde sie unter anderem als Forbes 30 Under 30 Finalistin, Capital Top 40 Under 40 sowie von Business Insider als Changemaker ausgezeichnet."@de .
+<https://dataweek.de/#TiajiSio> <https://d-nb.info/standards/elementset/gnd#biographicalOrHistoricalInformation> "Tiaji Sio works at the intersection of state modernization, democratic renewal, and collective agency. As Mission Lead for Re:Form at ProjectTogether, she brings together stakeholders from government, civil society, and the philanthropic sector to make the German state more efficient, collaborative, and forward-looking. Her work focuses on implementing policy objectives by building cross-sector alliances, fostering spaces for experimentation and learning, and strengthening state implementation capacities at the federal, state, and local levels. Previously, she worked in the fields of public diplomacy and institutional transformation. She is a co-founder of DIVERSITRY and the Diplomats of Color initiative. For her social and institutional engagement, she has been recognized as a Forbes 30 Under 30 finalist, a Capital Top 40 Under 40, and a Changemaker by Business Insider, among other honors"@en .
 <https://dataweek.de/#TilmanHartwig> <http://purl.org/dc/terms/description> "Chief Data Scientist, KI-Lab"@de .
 <https://dataweek.de/#TilmanHartwig> <http://purl.org/dc/terms/description> "Chief Data Scientist, KI-Lab"@en .
 <https://dataweek.de/#TilmanHartwig> <http://schema.org/affiliation> <https://www.umweltbundesamt.de/> .
