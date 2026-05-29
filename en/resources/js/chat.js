@@ -123,11 +123,21 @@ socket.on('streams_update', (streamList) => {
   stream_selection.innerHTML = '';
   console.log(streamList);
 
-  const configuredStreams = liveConfig.rooms || {};
-  const streamNames = Object.assign({}, configuredStreams, streamList || {});
-  document.getElementById("title").textContent = 'Chat - ' + (streamNames[room_id] || streamNames[default_room_id] || room_id);
+  document.getElementById("title").textContent = 'Chat - ' + getStreamName(room_id, streamList);
 
 });
+
+function getStreamName(streamId, streamList) {
+  const configuredStreams = liveConfig.rooms || {};
+  const streamName = streamList && streamList[streamId];
+  const configuredName = configuredStreams[streamId];
+
+  if (streamName && streamName != 'Empty Room') {
+    return streamName;
+  }
+
+  return configuredName || streamName || streamId;
+}
 
 function zapp(stream_id) {
   // clear messages
