@@ -98,7 +98,7 @@ div.width-group input[type=checkbox]:checked ~ label ~ .container {
 
   <div class="container">
 
-    <h1>DataWeek 2025 Live Stream</h1>
+    <h1>{{ site.title }} Live Stream</h1>
 
     <div id="videoWrapper" class="videoWrapper">
       <!--
@@ -149,5 +149,15 @@ div.width-group input[type=checkbox]:checked ~ label ~ .container {
     </section>
   </div>
 </div>
-<script src="/resources/js/socket.io.min.js"></script>
-<script src="/resources/js/chat.js"></script>
+<script>
+  window.dataweekLive = {
+    defaultRoomId: {{ site.stream_1_1 | jsonify }},
+    rooms: {
+      {{ site.stream_1_1 | jsonify }}: "Keynote, Zukunftsstaat & Archivierung",
+      {{ site.stream_2_1 | jsonify }}: "Open Data, Digitalisierung & Mobilität",
+      {{ site.stream_3_1 | jsonify }}: "LSWT2026"
+    }
+  };
+</script>
+<script src="{{ "/resources/js/socket.io.min.js" | relativize_url }}"></script>
+<script src="{{ "/resources/js/chat.js" | relativize_url }}"></script>

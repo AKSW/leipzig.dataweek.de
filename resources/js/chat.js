@@ -5,11 +5,12 @@ const socket = io("wss://chat.2024.dataweek.de/");
 // const ws = new WebSocket('wss://chat.lswt2021.comiles.eu/ws');
 // const ws = new WebSocket('ws://localhost:5000/ws');
 
-let default_room_id = "!slhYXYesrqRvWAMjJX:matrix.org"
-let room_id = window.location.hash.substring(1)
+const liveConfig = window.dataweekLive || {};
+let default_room_id = liveConfig.defaultRoomId || Object.keys(liveConfig.rooms || {})[0] || "!slhYXYesrqRvWAMjJX:matrix.org";
+let room_id = window.location.hash.substring(1);
 
 if (room_id == "") {
-    room_id = default_room_id
+    room_id = default_room_id;
 }
 
 socket.on('connect', () => {
@@ -31,13 +32,18 @@ socket.on('server_message', (message) => {
   console.log(message);
   let e = document.createElement('p');
   if (message.type == 'message') {
+    const topicUrl = getTopicUrl(message.body);
+    if (topicUrl) {
+      updateVideo(topicUrl);
+    }
+
     let sp_nick = document.createElement('span');
     let sp_time = document.createElement('span');
     let sp_message = document.createElement('span');
-    sp_nick.innerHTML = message.nickname;
-    sp_time.innerHTML = message.time;
+    sp_nick.textContent = message.nickname;
+    sp_time.textContent = message.time;
     sp_time.setAttribute("class", "date");
-    sp_message.innerHTML = message.body;
+    sp_message.textContent = message.body;
     e.append(sp_time);
     e.append(" ");
     e.append(sp_nick);
@@ -47,8 +53,8 @@ socket.on('server_message', (message) => {
   if (message.type == 'topic') {
     let sp_nick = document.createElement('span');
     let sp_message = document.createElement('span');
-    sp_nick.innerHTML = "topic";
-    sp_message.innerHTML = message.body;
+    sp_nick.textContent = "topic";
+    sp_message.textContent = message.body;
     e.append(sp_nick);
     e.append(": ");
     e.append(sp_message);
@@ -59,20 +65,57 @@ socket.on('server_message', (message) => {
   document.getElementById('message-box').prepend(e);
 });
 
+function getTopicUrl(messageBody) {
+  const match = String(messageBody || '').match(/^\s*topic:\s*(\S+)/i);
+  return match ? match[1] : '';
+}
+
 function updateVideo(videoUrl) {
+  const embedUrl = getYouTubeEmbedUrl(videoUrl);
+  if (!embedUrl) {
+    console.warn("Ignoring non-YouTube topic URL", videoUrl);
+    return;
+  }
+
   let wrapper = document.getElementById('videoWrapper');
-  wrapper.innerHTML = `
-  <iframe
-  id="videoframe"
-  src="${videoUrl}"
-  width="560"
-  height="315"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
-`
+  wrapper.innerHTML = '';
+
+  let iframe = document.createElement('iframe');
+  iframe.id = 'videoframe';
+  iframe.src = embedUrl;
+  iframe.width = '560';
+  iframe.height = '315';
+  iframe.title = 'YouTube video player';
+  iframe.frameBorder = '0';
+  iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+  iframe.allowFullscreen = true;
+  wrapper.append(iframe);
+}
+
+function getYouTubeEmbedUrl(videoUrl) {
+  try {
+    const url = new URL(videoUrl.trim());
+    const host = url.hostname.replace(/^www\./, '');
+    let videoId = '';
+
+    if (host == 'youtu.be') {
+      videoId = url.pathname.split('/').filter(Boolean)[0] || '';
+    } else if (host == 'youtube.com' || host == 'youtube-nocookie.com' || host == 'm.youtube.com') {
+      if (url.pathname == '/watch') {
+        videoId = url.searchParams.get('v') || '';
+      } else if (url.pathname.startsWith('/embed/') || url.pathname.startsWith('/live/')) {
+        videoId = url.pathname.split('/').filter(Boolean)[1] || '';
+      }
+    }
+
+    if (!/^[A-Za-z0-9_-]{11}$/.test(videoId)) {
+      return '';
+    }
+
+    return `https://www.youtube-nocookie.com/embed/${videoId}`;
+  } catch (e) {
+    return '';
+  }
 }
 
 socket.on('streams_update', (streamList) => {
@@ -80,11 +123,9 @@ socket.on('streams_update', (streamList) => {
   stream_selection.innerHTML = '';
   console.log(streamList);
 
-  if (streamList[room_id] == undefined) {
-    document.getElementById("title").textContent = 'Chat - ' + streamList[default_room_id]
-  } else {
-    document.getElementById("title").textContent = 'Chat - ' + streamList[room_id]
-  }
+  const configuredStreams = liveConfig.rooms || {};
+  const streamNames = Object.assign({}, configuredStreams, streamList || {});
+  document.getElementById("title").textContent = 'Chat - ' + (streamNames[room_id] || streamNames[default_room_id] || room_id);
 
 });
 
