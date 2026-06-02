@@ -1413,12 +1413,8 @@
 <https://2026.dataweek.de/lswt2026/#programm-talk-10> <http://schema.org/startTime> "11:30:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/lswt2026/#programm-talk-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/lswt2026/#programm-talk-11> <http://purl.org/dc/terms/date> "2026-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://2026.dataweek.de/lswt2026/#programm-talk-11> <http://purl.org/dc/terms/title> "Capturing contextual data in production planning: Integration email communication into Knowledge Graphs"@de .
-<https://2026.dataweek.de/lswt2026/#programm-talk-11> <http://purl.org/dc/terms/title> "Capturing contextual data in production planning: Integration email communication into Knowledge Graphs"@en .
 <https://2026.dataweek.de/lswt2026/#programm-talk-11> <http://schema.org/availableLanguage> <http://lexvo.org/id/iso639-3/eng> .
 <https://2026.dataweek.de/lswt2026/#programm-talk-11> <http://schema.org/endTime> "12:00:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
-<https://2026.dataweek.de/lswt2026/#programm-talk-11> <http://schema.org/location> <https://dataweek.de/venue#Sitzungssaal> .
-<https://2026.dataweek.de/lswt2026/#programm-talk-11> <http://schema.org/performer> <https://dataweek.de/#HannahGrosser> .
 <https://2026.dataweek.de/lswt2026/#programm-talk-11> <http://schema.org/startTime> "11:45:00.000"^^<http://www.w3.org/2001/XMLSchema#time> .
 <https://2026.dataweek.de/lswt2026/#programm-talk-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <https://2026.dataweek.de/lswt2026/#programm-talk-12> <http://purl.org/dc/terms/date> "2026-06-03"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -3821,8 +3817,8 @@
 <https://dataweek.de/#EdgarSchero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#EdgarSchero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#EdgarSchero> <http://xmlns.com/foaf/0.1/name> "Edgar Schero" .
-<https://dataweek.de/#EikeSchulz> <http://purl.org/dc/terms/description> "Traffic and Data Management - Office of Mobility and Civil Engineering"@en .
-<https://dataweek.de/#EikeSchulz> <http://purl.org/dc/terms/description> "Verkehrs- und Datenmanagement - Mobilitäts- und Tiefbauamt"@de .
+<https://dataweek.de/#EikeSchulz> <http://purl.org/dc/terms/description> "Mobilitäts- und Tiefbauamt, Verkehrs- und Datenmanagement"@de .
+<https://dataweek.de/#EikeSchulz> <http://purl.org/dc/terms/description> "Office of Mobility and Civil Engineering, Traffic and Data Management"@en .
 <https://dataweek.de/#EikeSchulz> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> .
 <https://dataweek.de/#EikeSchulz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#EikeSchulz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -3878,8 +3874,8 @@
 <https://dataweek.de/#ErhardRahm> <http://xmlns.com/foaf/0.1/homepage> <https://dbs.uni-leipzig.de/person/prof_dr_erhard_rahm> .
 <https://dataweek.de/#ErhardRahm> <http://xmlns.com/foaf/0.1/name> "Erhard Rahm" .
 <https://dataweek.de/#ErhardRahm> <http://xmlns.com/foaf/0.1/title> "Prof. Dr." .
-<https://dataweek.de/#EricEngels> <http://purl.org/dc/terms/description> "eferent im Hessischen Ministerium für Digitales und Innovation, HMD"@de .
-<https://dataweek.de/#EricEngels> <http://purl.org/dc/terms/description> "eferent im Hessischen Ministerium für Digitales und Innovation, HMD"@en .
+<https://dataweek.de/#EricEngels> <http://purl.org/dc/terms/description> "Referent im Hessischen Ministerium für Digitales und Innovation, HMD"@de .
+<https://dataweek.de/#EricEngels> <http://purl.org/dc/terms/description> "Referent im Hessischen Ministerium für Digitales und Innovation, HMD"@en .
 <https://dataweek.de/#EricEngels> <http://schema.org/affiliation> <https://digitales.hessen.de/> .
 <https://dataweek.de/#EricEngels> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#EricEngels> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -5933,8 +5929,6 @@
 <https://dataweek.de/#ThomasGroessel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ThomasGroessel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#ThomasGroessel> <http://xmlns.com/foaf/0.1/name> "Thomas Grössel" .
-<https://dataweek.de/#ThomasGrzeschik> <http://purl.org/dc/terms/description> "Mobilitäts- und Tiefbauamt, Verkehrs- und Datenmanagement"@de .
-<https://dataweek.de/#ThomasGrzeschik> <http://purl.org/dc/terms/description> "Office of Mobility and Civil Engineering, Traffic and Data Management"@en .
 <https://dataweek.de/#ThomasGrzeschik> <http://schema.org/affiliation> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> .
 <https://dataweek.de/#ThomasGrzeschik> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#ThomasGrzeschik> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
@@ -7284,8 +7278,8 @@
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-nachhaltige-entwicklung-und-klimaschutz-38#contact> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/referat-nachhaltige-entwicklung-und-klimaschutz-38#contact> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
-<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://www.w3.org/2000/01/rdf-schema#label> "Road Traffic Authority / Traffic Management - Traffic and Civil Engineering Office"@en .
-<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://www.w3.org/2000/01/rdf-schema#label> "Straßenverkehrsbehörde / Verkehrsmanagement - Verkehrs- und Tiefbauamt"@de .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://www.w3.org/2000/01/rdf-schema#label> "Mobilitäts- und Tiefbauamt, Verkehrs- und Datenmanagement"@de .
+<https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://www.w3.org/2000/01/rdf-schema#label> "Office of Mobility and Civil Engineering, Traffic and Data Management"@en .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> <http://xmlns.com/foaf/0.1/homepage> <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/strassenverkehrsbehoerde--verkehrsmanagement-666> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/wirtschaftsfoerderung-amt-fuer-80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
 <https://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/behoerden-und-dienstleistungen/dienststelle/wirtschaftsfoerderung-amt-fuer-80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
