@@ -200,7 +200,7 @@ tasks:
       - cp robots-{{.FLAVOUR}}.txt _site/robots.txt
 
   track:commit-and-push-pictures:
-    - git add -f {{.TARGET_DIR}}
+    - git add {{.TARGET_DIR}}
     - task: track:commit-and-push
       vars:
         GIT_COMMIT_MESSAGE: Update Pictures
