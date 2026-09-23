@@ -1,18 +1,18 @@
 # Site settings
-title: Data Week Leipzig 2026
+title: Data Week Leipzig 2027
 email: dataweek@infai.org
 baseurl: ""
-url: "https://2026.dataweek.de"
-rootResource: "<https://2026.dataweek.de/>"
+url: "https://2027.dataweek.de"
+rootResource: "<https://2027.dataweek.de/>"
 translations:
-  de: "<https://2026.dataweek.de/>"
-  en: "<https://2026.dataweek.de/en/>"
+  de: "<https://2027.dataweek.de/>"
+  en: "<https://2027.dataweek.de/en/>"
 language: de
 twitter_username: DataWeekLeipzig
 
-stream_1_1: "!WcRTxyCZuBthbrcrkF:matrix.org" # Keynote, Zukunftsstaat & Archivierung 
-stream_2_1: "!CLSeSnELIhJXFUqbTN:matrix.org" # Open Data, Digitalisierung & Mobilität 
-stream_3_1: "!bOBWJdaJTjUUaJVRTB:matrix.org" # LSWT2026
+#stream_1_1: "!WcRTxyCZuBthbrcrkF:matrix.org" # Keynote, Zukunftsstaat & Archivierung 
+#stream_2_1: "!CLSeSnELIhJXFUqbTN:matrix.org" # Open Data, Digitalisierung & Mobilität 
+#stream_3_1: "!bOBWJdaJTjUUaJVRTB:matrix.org" # LSWT2026
 
 # Build settings
 permalink: /:year/:month/:day/:title
@@ -35,7 +35,7 @@ exclude:
 
 jekyll_rdf:
   path: "graph.nt"
-  restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"^https://2026.dataweek.de\") }"
+  restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"^https://2027.dataweek.de\") }"
   default_template: default.html
   class_template_mappings:
     "https://dataweek.de/#ProgramView" : "program_view.html"
