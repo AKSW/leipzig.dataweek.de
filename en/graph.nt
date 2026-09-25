@@ -2252,6 +2252,10 @@
 <https://2027.dataweek.de/> <http://www.w3.org/2000/01/rdf-schema#label> "Data Week Leipzig 2027" .
 <https://2027.dataweek.de/> <http://www.w3.org/2002/07/owl#sameAs> <https://2027.dataweek.de/> .
 <https://2027.dataweek.de/> <http://www.w3.org/2002/07/owl#sameAs> <https://dataweek.de/> .
+<https://2027.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#impression2601> .
+<https://2027.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#impression2602> .
+<https://2027.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#impression2603> .
+<https://2027.dataweek.de/> <http://xmlns.com/foaf/0.1/depiction> <https://dataweek.de/#impression2604> .
 <https://2027.dataweek.de/> <https://dataweek.de/#cooperator> <https://2027.dataweek.de/Cooperators> .
 <https://2027.dataweek.de/> <https://dataweek.de/#coorganizer> <https://2027.dataweek.de/Coorganizers> .
 <https://2027.dataweek.de/> <https://dataweek.de/#news> <https://2027.dataweek.de/News1> .
@@ -5725,18 +5729,22 @@
 <https://dataweek.de/#YvonneMargis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://dataweek.de/#YvonneMargis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <https://dataweek.de/#YvonneMargis> <http://xmlns.com/foaf/0.1/name> "Yvonne Margis" .
-<https://dataweek.de/#impression2501> <http://purl.org/dc/terms/description> "Bild w\u00E4hrend der Er\u00F6ffnung der Dataweek vor dem Publikum im Sitzungssaal"@de .
-<https://dataweek.de/#impression2501> <http://purl.org/dc/terms/description> "Image of the dataweek opening in front of the audience at Sitzungssaal"@en .
-<https://dataweek.de/#impression2501> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
-<https://dataweek.de/#impression2501> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/impression2501.jpg" .
-<https://dataweek.de/#impression2503> <http://purl.org/dc/terms/description> "Presenter during a talk at Festsaal."@en .
-<https://dataweek.de/#impression2503> <http://purl.org/dc/terms/description> "Vortragende im Festsaal."@de .
-<https://dataweek.de/#impression2503> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
-<https://dataweek.de/#impression2503> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/impression2503.jpg" .
-<https://dataweek.de/#impression2504> <http://purl.org/dc/terms/description> "Bild w\u00E4hrend eines Vortrags des Projekts AIAMO im Ratsplenarsaal aus Sicht des Publikums."@de .
-<https://dataweek.de/#impression2504> <http://purl.org/dc/terms/description> "Image of a talk of AIAMO project in front of the audience at Ratsplenarsaal."@en .
-<https://dataweek.de/#impression2504> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
-<https://dataweek.de/#impression2504> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/impression2504.jpg" .
+<https://dataweek.de/#impression2601> <http://purl.org/dc/terms/description> "Bild w\u00E4hrend eines Vortrags der Dataweek vor dem Publikum im Sitzungssaal"@de .
+<https://dataweek.de/#impression2601> <http://purl.org/dc/terms/description> "Image during a talk of the dataweek in front of the audience at Sitzungssaal"@en .
+<https://dataweek.de/#impression2601> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://dataweek.de/#impression2601> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/impression2601.jpg" .
+<https://dataweek.de/#impression2602> <http://purl.org/dc/terms/description> "Ein Bild von sich unterhaltenden Menschen aus der Wandelhalle w\u00E4hrende der Dataweek 2026"@de .
+<https://dataweek.de/#impression2602> <http://purl.org/dc/terms/description> "Picture of people at Wandelhalle during the Dataweek 2026"@en .
+<https://dataweek.de/#impression2602> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://dataweek.de/#impression2602> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/impression2502.jpg" .
+<https://dataweek.de/#impression2603> <http://purl.org/dc/terms/description> "Bild w\u00E4hrend eines Workshops im historischen Ratsplenarsaal."@de .
+<https://dataweek.de/#impression2603> <http://purl.org/dc/terms/description> "Image of an ongoing workshop at historical Ratsplenarsaal"@en .
+<https://dataweek.de/#impression2603> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://dataweek.de/#impression2603> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/impression2603.jpg" .
+<https://dataweek.de/#impression2604> <http://purl.org/dc/terms/description> "Bild des Ausstelungsbereichs der Dataweek 2026 in der Wandelhall."@de .
+<https://dataweek.de/#impression2604> <http://purl.org/dc/terms/description> "Image of the exhibition at Wandelhalle of Dataweek 2026."@en .
+<https://dataweek.de/#impression2604> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Image> .
+<https://dataweek.de/#impression2604> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "/resources/images/impressions/impression2604.jpg" .
 <https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <https://dataweek.de/#JanaBendigs> .
 <https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://aksw.org/JuliaHolze> .
 <https://dataweek.de/openingday/#Team> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://aksw.org/MichaelMartin> .
