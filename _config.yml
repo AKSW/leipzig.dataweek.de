@@ -34,7 +34,8 @@ exclude:
   - docu
 
 jekyll_rdf:
-  path: "graph.nt"
+  #path: "graph.nt"
+  path: .model/event.ttl
   restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"^https://2027.dataweek.de\") }"
   default_template: default.html
   class_template_mappings:
