@@ -8,13 +8,13 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
-    - uses: arduino/setup-task@v2
+    - uses: arduino/setup-task@v3
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - name: Run CI Tasks ⚙️
       run: task ci
     - name: Deploy 🚀
